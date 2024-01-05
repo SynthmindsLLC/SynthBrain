@@ -272,3 +272,6 @@
 
 [[2024-01-04]] 4:44 PM — Synced 0 highlights from 0 documents.
 
+[[2024-01-05]] 5:10 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from Google’s DeepMind ‘Robot Constitution’ Will Make Sure Its AI Droids Won’t Kill You - The Verge
+
