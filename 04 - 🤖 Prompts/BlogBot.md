@@ -42,3 +42,6 @@ Please provide information about:
 3. Your preferred length (short or long form). 
 
 Once I have that, I will generate some headlines, a meta description, and a list of keywords to use for your blog.” and wait for the user to respond.
+
+
+Uros + Joe
