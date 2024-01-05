@@ -1,0 +1,274 @@
+[[2023-11-28]] 6:51 AM — Synced 38 highlights from 5 documents.
+    - 22 highlights from God Help Us, Let's Try to Understand AI Monosemanticity
+    - 3 highlights from Reshaping the Tree: Rebuilding Organizations for AI
+    - 9 highlights from Thinking, Fast and Slow
+    - 2 highlights from Tech Conference Collapses After Organizer Admits to Making Fake ‘Auto-Generated’ Female Speaker
+    - 2 highlights from Critical National Security Questions Should Not Be Decided Unilaterally by Unelected Tech Leaders
+
+[[2023-11-28]] 2:51 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from Give Me Compromise, or Give Me Chaos
+
+[[2023-11-28]] 3:51 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Give Me Compromise, or Give Me Chaos
+
+[[2023-11-29 1]] 5:51 AM — Synced 12 highlights from 3 documents.
+    - 4 highlights from In Continued Defense of Effective Altruism
+    - 5 highlights from Prominent Women in Tech Say They Don't Want to Join OpenAI's All-Male Board
+    - 3 highlights from "One Specific Formula Everyone Is Doing"
+
+[[2023-12-03]] 9:18 AM — Synced 41 highlights from 2 documents.
+    - 39 highlights from Katherine Harris
+    - 2 highlights from Francis Schaeffer
+
+[[2023-12-03]] 10:18 AM — Synced 17 highlights from 1 document.
+    - 17 highlights from Francis Schaeffer
+
+[[2023-12-04]] 7:18 AM — Synced 29 highlights from 4 documents.
+    - 14 highlights from The Ego Tunnel
+    - 2 highlights from Thinking, Fast and Slow
+    - 12 highlights from OpenAI Insights, Gemini News & Training Data Shenanigans - 7 'Complicated' Developments + Guest Star
+    - 1 highlights from How I Refactor Notes in Obsidian
+
+[[2023-12-05]] 7:18 AM — Synced 21 highlights from 3 documents.
+    - 2 highlights from OpenAI COO thinks AI for business is overhyped - The Verge
+    - 3 highlights from AI Is More Likely to Become as Clever as a Dog in the Next Few Years Than Mimic a Human, Industry Godfather Says
+    - 16 highlights from Mantic Monday 12/4/23
+
+[[2023-12-05]] 4:17 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from “Not Consistently Candid”
+
+[[2023-12-06]] 6:17 AM — Synced 7 highlights from 1 document.
+    - 7 highlights from Beyond "Abolish the FDA"
+
+[[2023-12-06]] 11:08 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from Google DeepMind's Demis Hassabis Says Gemini Is a New Breed of AI
+
+[[2023-12-06]] 12:42 PM — Synced 20 highlights from 2 documents.
+    - 3 highlights from Hot Take on Google’s Gemini and GPT-4
+    - 17 highlights from Introducing Gemini: Our Largest and Most Capable AI Model
+
+[[2023-12-06]] 5:55 PM — Synced 27 highlights from 3 documents.
+    - 14 highlights from Google’s Gemini Isn’t the Generative AI Model We Expected
+    - 3 highlights from Apple joins AI fray with release of model framework - The Verge
+    - 10 highlights from America's Smartest AI Optimist
+
+[[2023-12-07]] 5:23 AM — Synced 17 highlights from 2 documents.
+    - 11 highlights from Gemini Full Breakdown + AlphaCode 2 Bombshell
+    - 6 highlights from Long Context Prompting for Claude 2.1
+
+[[2023-12-07]] 6:13 AM — Synced 17 highlights from 1 document.
+    - 17 highlights from The Ego Tunnel
+
+[[2023-12-07]] 7:13 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Effective Altruism Funded the “AI Existential Risk” Ecosystem With Half a Billion Dollars
+
+[[2023-12-08]] 5:44 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from The Truth About Google’s Amazing New Demo
+
+[[2023-12-08]] 6:14 AM — Synced 33 highlights from 1 document.
+    - 33 highlights from The Ego Tunnel
+
+[[2023-12-08]] 7:24 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from ‘Nudify’ Apps That Use AI to ‘Undress’ Women in Photos Are Soaring in Popularity
+
+[[2023-12-09]] 6:14 AM — Synced 6 highlights from 2 documents.
+    - 3 highlights from OpenAI Says It Is Investigating Reports ChatGPT Has Become ‘Lazy’
+    - 3 highlights from Elon Musk Vows to Change His AI Chatbot After It Apparently Expressed Similar Left-Wing Political Views as ChatGPT
+
+[[2023-12-10]] 5:21 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Elon Musk's Grok AI Turns on Its Creator, Completely Trashes Elon
+
+[[2023-12-09]] 3:07 PM — Synced 42 highlights from 1 document.
+    - 42 highlights from The A.I. Dilemma - March 9, 2023
+
+[[2023-12-09]] 5:24 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from It Was Always About Trust
+
+[[2023-12-11]] 5:47 AM — Synced 29 highlights from 1 document.
+    - 29 highlights from Mamba - A Replacement for Transformers?
+
+[[2023-12-11]] 6:14 AM — Synced 38 highlights from 1 document.
+    - 38 highlights from The Ego Tunnel
+
+[[2023-12-11]] 10:14 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from Anthropic’s latest tactic to stop racist AI: Asking it ‘really really really really’ nicely
+
+[[2023-12-11]] 11:14 AM — Synced 0 highlights from 0 documents.
+
+[[2023-12-12]] 7:06 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from Eran Adi Cioban’s Post
+
+[[2023-12-12]] 7:21 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from The Ego Tunnel
+
+[[2023-12-12]] 10:14 AM — Synced 15 highlights from 1 document.
+    - 15 highlights from How Suited Removes Bias & Negates Adverse Impact in Our AI
+
+[[2023-12-13]] 4:26 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from Moritz Kremb’s Post
+
+[[2023-12-13]] 5:26 AM — Synced 29 highlights from 1 document.
+    - 29 highlights from The Ego Tunnel
+
+[[2023-12-13]] 7:26 AM — Synced 3 highlights from 3 documents.
+    - 1 highlights from House set to vote on formalizing impeachment inquiry into President Joe Biden with floor vote
+    - 1 highlights from Everybody’s Talking About Mistral, an Upstart French Challenger to OpenAI
+    - 1 highlights from Sam Altman on OpenAI, Future Risks and Rewards, and Artificial General Intelligence
+
+[[2023-12-14]] 7:34 AM — Synced 27 highlights from 4 documents.
+    - 10 highlights from Phi-2, Imagen-2, Optimus-Gen-2: Small New Models to Change the World?
+    - 7 highlights from Researchers Demo 'Thought-to-Text' AI System That Doesn't Use Invasive, Permanent, and Surgically-Implanted Devices Like Elon's Neuralink
+    - 3 highlights from Axel Springer, OpenAI Strike "Real-Time News" Deal for ChatGPT
+    - 7 highlights from Eran Adi Cioban’s Post
+
+[[2023-12-14]] 8:26 AM — Synced 49 highlights from 4 documents.
+    - 18 highlights from The Ego Tunnel
+    - 6 highlights from Exclusive: Biden team wades into open source AI controversy
+    - 6 highlights from Massachusetts' AI Gameplan Takes Shape
+    - 19 highlights from Should Section 230 Protect AI Companies From Being Sued Out of Existence?
+
+[[2023-12-14]] 9:26 AM — Synced 0 highlights from 0 documents.
+
+[[2023-12-14]] 8:26 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from New Report Accuses Sam Altman of Being a Terrible Boss
+
+[[2023-12-14]] 9:26 PM — Synced 15 highlights from 2 documents.
+    - 3 highlights from What Happens if ChatGPT Becomes the Internet?
+    - 12 highlights from The Ego Tunnel
+
+[[2023-12-15]] 9:26 PM — Synced 0 highlights from 0 documents.
+
+[[2023-12-15]] 10:22 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from The Ego Tunnel
+
+[[2023-12-16]] 6:26 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Ilya Sutskever’s Team at OpenAI Built Tools to Control a Superhuman AI
+
+[[2023-12-17]] 7:07 AM — Synced 0 highlights from 0 documents.
+
+[[2023-12-19]] 8:07 PM — Synced 18 highlights from 3 documents.
+    - 3 highlights from https://www.businessinsider.com/openai-giving-board-veto-powers-over-sam-altman-2023-12
+    - 8 highlights from Artificial Intelligence Can Find Your Location in Photos, Worrying Privacy Experts
+    - 7 highlights from Sorry, but FunSearch Probably Isn’t a Milestone in Scientific Discovery
+
+[[2023-12-18]] 7:07 AM — Synced 0 highlights from 0 documents.
+
+[[2023-12-18]] 8:29 PM — Synced 16 highlights from 1 document.
+    - 16 highlights from GPT- 4.5 Gossip Crushed but a 100T Transformer Model Coming? Plus ByteDance + the Mixtral Price Drop
+
+[[2023-12-19]] 6:20 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from To Work Well With GenAI, You Need to Learn How to Talk to It
+
+[[2023-12-20]] 7:29 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from The Ego Tunnel
+
+[[2023-12-20]] 8:29 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from The Widening Web of Effective Altruism in AI Security | the AI Beat
+
+[[2023-12-21]] 6:30 AM — Synced 58 highlights from 3 documents.
+    - 4 highlights from In a Striking Discovery, AI Shows Human-Like Memory Formation
+    - 7 highlights from The Ego Tunnel
+    - 47 highlights from 2023 AI Year in Review
+
+[[2023-12-20]] 8:01 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from Child Abuse Images Found in AI Training Data
+
+[[2023-12-21]] 10:20 AM — Synced 7 highlights from 1 document.
+    - 7 highlights from Meta's Yann LeCun joins 70 others in calling for more openness in AI development | TechCrunch
+
+[[2023-12-21]] 6:41 PM — Synced 9 highlights from 1 document.
+    - 9 highlights from Are Social Media and Coordinated Misinformation Campaigns Fomenting Extremism?
+
+[[2023-12-22]] 5:11 PM — Synced 29 highlights from 4 documents.
+    - 1 highlights from Yann LeCun’s Post
+    - 5 highlights from Google Brain Co-Founder Says He Tried to Get ChatGPT to 'Kill Us All' but Is 'Happy to Report' That He Failed to Trigger a Doomsday Scenario
+    - 13 highlights from AI's colossal puppet show
+    - 10 highlights from Hugging Face CEO Clément Delangue Wants an AI Democracy
+
+[[2023-12-22]] 3:28 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Midjourney V6, Altman 'Age Reversal' and Gemini 2
+
+[[2023-12-23]] 8:46 PM — Synced 0 highlights from 0 documents.
+
+[[2023-12-24]] 8:28 AM — Synced 64 highlights from 1 document.
+    - 64 highlights from How Nvidia Became a $1 Trillion Company
+
+[[2023-12-24]] 9:19 AM — Synced 49 highlights from 1 document.
+    - 49 highlights from The Ego Tunnel
+
+[[2023-12-25]] 7:48 AM — Synced 7 highlights from 1 document.
+    - 7 highlights from Scientists Have 20-Minute "Conversation" With a Humpback Whale Named Twain
+
+[[2023-12-25]] 12:54 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from Graph Databases as RAG Backends
+
+[[2023-12-25]] 12:09 PM — Synced 19 highlights from 1 document.
+    - 19 highlights from Graph Databases as RAG Backends
+
+[[2023-12-25]] 8:09 PM — Synced 40 highlights from 1 document.
+    - 40 highlights from The Ego Tunnel
+
+[[2023-12-26]] 6:09 AM — Synced 38 highlights from 1 document.
+    - 38 highlights from The Ego Tunnel
+
+[[2023-12-27]] 7:34 AM — Synced 63 highlights from 1 document.
+    - 63 highlights from Chip War
+
+[[2023-12-27]] 6:51 AM — Synced 8 highlights from 2 documents.
+    - 3 highlights from OpenAI Pissed Off Developers by Phasing Out Plugins for GPTs
+    - 5 highlights from Meta's Chief AI Scientist Says Terrorists and Rogue States Aren't Going to Take Over the World With Open-Source AI
+
+[[2023-12-28]] 6:15 PM — Synced 12 highlights from 2 documents.
+    - 1 highlights from Baidu’s ChatGPT Rival Surpasses 100 Million Users
+    - 11 highlights from YouTube made $959 million in ad revenue off children last year, followed closely by Instagram: Harvard study
+
+[[2023-12-28]] 5:56 AM — Synced 56 highlights from 1 document.
+    - 56 highlights from Chip War
+
+[[2023-12-29]] 6:19 AM — Synced 41 highlights from 1 document.
+    - 41 highlights from Chip War
+
+[[2023-12-29]] 1:24 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Relational Knowledge Graph System
+
+[[2023-12-30]] 5:24 AM — Synced 23 highlights from 2 documents.
+    - 11 highlights from Things Are About to Get a Lot Worse for Generative AI
+    - 12 highlights from A Startup Tested if ChatGPT and Other AI Chatbots Could Understand SEC Filings. They Failed About 70% of the Time and Only Succeeded if Told Exactly Where to Look
+
+[[2023-12-31]] 5:50 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from The 'Effective Accelerationism' Movement Doesn't Care if Humans Are Replaced by AI as Long as They're There to Make Money From It
+
+[[2023-12-31]] 7:24 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from What Her Can Teach Us About Love in the Age of Artificial Intimacy
+
+[[2023-12-31]] 9:24 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from DC vs. Silicon Valley: Inside the Culture Clash Dominating the AI Debate
+
+[[2024-01-01]] 9:57 AM — Synced 0 highlights from 0 documents.
+
+[[2024-01-01]] 7:21 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from Earthquake slams Japan, residents flee some coastal areas
+
+[[2024-01-02]] 6:19 AM — Synced 33 highlights from 2 documents.
+    - 7 highlights from AI Is Saving Sales Professionals More Than Two Hours of Work Each Day
+    - 26 highlights from 4 Reasons AI in 2024 Is on an Exponential: Data, Mamba, and More
+
+[[2024-01-03]] 6:59 AM — Synced 0 highlights from 0 documents.
+
+[[2024-01-03]] 7:28 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from Chip War
+
+[[2024-01-03]] 8:26 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Does Capitalism Beat Charity?
+
+[[2024-01-03]] 6:28 PM — Synced 15 highlights from 1 document.
+    - 15 highlights from Is 2024 the Year of Reckoning for Academia?
+
+[[2024-01-04]] 8:10 AM — Synced 27 highlights from 1 document.
+    - 27 highlights from Chip War
+
+[[2024-01-04]] 3:03 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Ten Science Stories Poised to Make Headlines in 2024
+
+[[2024-01-04]] 4:44 PM — Synced 0 highlights from 0 documents.
+
