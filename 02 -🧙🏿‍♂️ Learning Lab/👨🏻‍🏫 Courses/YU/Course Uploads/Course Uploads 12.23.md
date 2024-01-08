@@ -13,7 +13,7 @@
 - [x] 2
 - [x] 3
 - [x] 4
-	- [x] need the Scenario-Based Storyboard Template.docx from Linda #todo #yu
+	- [ ] need the Scenario-Based Storyboard Template.docx from Linda #todo #yu
 - [x] 5
 - [x] 6
 

@@ -283,3 +283,11 @@
 
 [[2024-01-08]] 8:54 AM — Synced 0 highlights from 0 documents.
 
+[[2024-01-06]] 7:04 PM — Synced 61 highlights from 2 documents.
+    - 39 highlights from Generative AI Has a Visual Plagiarism Problem
+    - 22 highlights from Signs and Portents
+
+[[2024-01-07]] 6:52 PM — Synced 64 highlights from 2 documents.
+    - 46 highlights from Chip War
+    - 18 highlights from Maps of Content: Effortless Organization for Notes
+
