@@ -278,3 +278,8 @@
 [[2024-01-05]] 5:55 AM — Synced 48 highlights from 1 document.
     - 48 highlights from Chip War
 
+[[2024-01-06]] 6:13 AM — Synced 2 highlights from 1 document.
+    - 2 highlights from Allen Roush’s Post
+
+[[2024-01-08]] 8:54 AM — Synced 0 highlights from 0 documents.
+
