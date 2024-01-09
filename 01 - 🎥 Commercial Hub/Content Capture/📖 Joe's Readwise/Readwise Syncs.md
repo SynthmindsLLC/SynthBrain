@@ -291,3 +291,10 @@
     - 46 highlights from Chip War
     - 18 highlights from Maps of Content: Effortless Organization for Notes
 
+[[2024-01-09]] 7:09 AM — Synced 84 highlights from 5 documents.
+    - 8 highlights from OpenAI and Journalism
+    - 10 highlights from The Desperate Race to Save Generative AI
+    - 1 highlights from A Gentle Introduction to Graph Neural Networks
+    - 39 highlights from Chip War
+    - 26 highlights from The Road to Honest AI
+
