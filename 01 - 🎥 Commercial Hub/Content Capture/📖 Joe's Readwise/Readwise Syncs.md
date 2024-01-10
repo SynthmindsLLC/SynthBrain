@@ -310,3 +310,6 @@
 [[2024-01-10]] 7:42 AM — Synced 19 highlights from 1 document.
     - 19 highlights from Rabbits New AI AGENT Device Just SHOCKED the Entire INDUSTRY
 
+[[2024-01-10]] 3:42 PM — Synced 14 highlights from 1 document.
+    - 14 highlights from learning human actions oncomputer applications
+
