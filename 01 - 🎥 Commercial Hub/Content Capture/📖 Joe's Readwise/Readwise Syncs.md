@@ -307,3 +307,6 @@
 [[2024-01-10]] 6:09 AM — Synced 31 highlights from 1 document.
     - 31 highlights from Chip War
 
+[[2024-01-10]] 7:42 AM — Synced 19 highlights from 1 document.
+    - 19 highlights from Rabbits New AI AGENT Device Just SHOCKED the Entire INDUSTRY
+
