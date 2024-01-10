@@ -298,3 +298,12 @@
     - 39 highlights from Chip War
     - 26 highlights from The Road to Honest AI
 
+[[2024-01-10]] 5:18 AM — Synced 52 highlights from 4 documents.
+    - 10 highlights from X’s Grok chatbot has no reason to exist - The Verge
+    - 32 highlights from Neuroscience Is Pre-Paradigmatic. Consciousness Is Why
+    - 3 highlights from The Rising Tide of Complexity
+    - 7 highlights from DALL-E’s New Guardrails: Fast, Furious, and Far From Airtight
+
+[[2024-01-10]] 6:09 AM — Synced 31 highlights from 1 document.
+    - 31 highlights from Chip War
+
