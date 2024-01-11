@@ -318,3 +318,6 @@
     - 5 highlights from Thousands of AI Experts Are Torn About What They’ve Created, New Study Finds
     - 5 highlights from Survey: Workplaces Are Riddled With AI Distrust
 
+[[2024-01-11]] 6:18 AM — Synced 47 highlights from 1 document.
+    - 47 highlights from Chip War
+
