@@ -1,3 +1,11 @@
+---
+Published: 
+tags:
+  - SjoerdTiemensma
+  - JosephRosenbaum
+URL:
+---
+
 # Descriptions
 ## Youtube
 Join us in this enlightening session with Sjoerd from the Netherlands, as he takes us through his incredible journey of creating a personal AI assistant using OpenAI's API and Make.com. Discover how Sjoerd automates tasks, manages schedules, and plans to integrate an open source CRM for personal relationships into his AI system. Dive into the world of AI and productivity with us!
