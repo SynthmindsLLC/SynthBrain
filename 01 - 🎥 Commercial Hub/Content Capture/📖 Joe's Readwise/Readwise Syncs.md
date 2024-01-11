@@ -313,3 +313,8 @@
 [[2024-01-10]] 3:42 PM — Synced 14 highlights from 1 document.
     - 14 highlights from learning human actions oncomputer applications
 
+[[2024-01-11]] 5:44 AM — Synced 14 highlights from 3 documents.
+    - 4 highlights from Could OpenAI’s Nonprofit Be Forced to Dissolve?
+    - 5 highlights from Thousands of AI Experts Are Torn About What They’ve Created, New Study Finds
+    - 5 highlights from Survey: Workplaces Are Riddled With AI Distrust
+
