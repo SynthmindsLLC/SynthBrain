@@ -4,18 +4,18 @@ kanban-plugin: basic
 
 ---
 
-## Idea
+## To Record
 
-
-
-## Recording
-
+- [ ] [[Obsidian Smart Connections]]
 
 
 ## Editing
 
 - [ ] [[Eleven Labs]]
 - [ ] [[Descript Walkthrough]]
+- [ ] [[Obsidian Git with Tomer]]
+- [ ] [[Obsidian Starter]]
+- [ ] [[Obsidian Part 2]]
 
 
 ## Marketing
