@@ -321,10 +321,16 @@
 [[2024-01-11]] 6:18 AM — Synced 47 highlights from 1 document.
     - 47 highlights from Chip War
 
+[[2024-01-12]] 4:22 PM — Synced 22 highlights from 1 document.
+    - 22 highlights from OpenAI Flip-Flops and '10% Chance of Outperforming Humans in Every Task by 2027' - 3K AI Researchers
+
 [[2024-01-12]] 6:56 AM — Synced 83 highlights from 5 documents.
     - 5 highlights from AI Girlfriend Bots Are Already Flooding OpenAI’s GPT Store
     - 7 highlights from Is GigaChat Russia's ChatGPT Killer? Everything You Need to Know About the Russian-Made AI
     - 5 highlights from Hackers Break Into AI Hiring Chatbot, Could Hire and Reject Fast Food Applicants
     - 11 highlights from Inside AI Unicorn Anthropic’s Unusual $750 Million Fundraise
     - 55 highlights from Chip War
+
+[[2024-01-12]] 5:16 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from Highlights From the Comments on Capitalism & Charity
 
