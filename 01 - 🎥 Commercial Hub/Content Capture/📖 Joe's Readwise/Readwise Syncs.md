@@ -334,3 +334,6 @@
 [[2024-01-12]] 5:16 PM — Synced 12 highlights from 1 document.
     - 12 highlights from Highlights From the Comments on Capitalism & Charity
 
+[[2024-01-13]] 1:37 PM — Synced 54 highlights from 1 document.
+    - 54 highlights from Meditations on Moloch
+
