@@ -334,3 +334,11 @@
 [[2024-01-12]] 5:16 PM — Synced 12 highlights from 1 document.
     - 12 highlights from Highlights From the Comments on Capitalism & Charity
 
+[[2024-01-13]] 1:37 PM — Synced 54 highlights from 1 document.
+    - 54 highlights from Meditations on Moloch
+
+[[2024-01-14]] 5:42 AM — Synced 59 highlights from 3 documents.
+    - 45 highlights from Meditations on Moloch
+    - 9 highlights from Raikoth: Laws, Language, and Society
+    - 5 highlights from Open Interpreter 2.0 | OpenAI Removes Military Limitations, Meets With China on AI Safety.
+
