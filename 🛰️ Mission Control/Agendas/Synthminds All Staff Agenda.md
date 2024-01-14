@@ -1,8 +1,17 @@
 [[2024-01-14]]
 - Company Updates
 	- Transition to a C Corp
-	- Wes (50), Goda (25), Joe (12.5) and Dan (12.5) as Co-Founders
-	- Business Model Canvas
+	- Structure
+		- Wes (50%) - CEO
+		- Goda (25%) - Chief Commercial Officer
+		- Joe (12.5%) Chief Learning Officer
+		- Dan (12.5%) Chief People Officer
+		- Uros Chief of Operations 
+		- We have set aside 20% of the company as options
+		- (although all this could change if an investor swoops in)
+		- We will share more when paperwork is signed. 
+	- Values (CREATE)
+	- Business Model Canvas (tomorrow)
 	- Branding
 	- Organizational Structuring
 		- Share Business Model and Aspirational Org Structure
