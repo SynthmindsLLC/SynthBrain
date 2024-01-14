@@ -8,7 +8,14 @@
 		- Share Business Model and Aspirational Org Structure
 		- Staff fill out form - Where you want to contribute, what you'll cost (this includes shares in the company)
 		- "Building a Portfolio" and making decisions end of Q1
-- Calendar
-	- Founders To Dos
+	- Founders To Dos/Doing
+		- Finalizing Business Model Canvas
+		- Hired bookkeepers
+		- Incorporating new company
+		- Hiring "production" crew (editors for media)
+		- Creating Culture Code/Branding
+		- Finalize form for staff to fill out
+- Updates
+	- Juanatech (India) deal
 	- Uplimit Courses begin end of this month, and will essentially continue throughout the year
 	- April 19th is AI Literacy day
