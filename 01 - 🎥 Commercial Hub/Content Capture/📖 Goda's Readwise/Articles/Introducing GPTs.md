@@ -7,7 +7,7 @@
 - Full Title: Introducing GPTs
 - Category: #articles
 - URL: https://openai.com/blog/introducing-gpts
-- Tags: [[OpenAI]]
+- Tags: [[OPENAI]]
 
 ## Highlights
 - Introducing GPTs ([View Highlight](https://read.readwise.io/read/01hh38yc6dcegv9bs41ew6j48t))
