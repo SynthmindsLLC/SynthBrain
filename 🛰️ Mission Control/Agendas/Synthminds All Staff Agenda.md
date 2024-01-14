@@ -1,0 +1,14 @@
+[[2024-01-14]]
+- Company Updates
+	- Transition to a C Corp
+	- Wes (50), Goda (25), Joe (12.5) and Dan (12.5) as Co-Founders
+	- Business Model Canvas
+	- Branding
+	- Organizational Structuring
+		- Share Business Model and Aspirational Org Structure
+		- Staff fill out form - Where you want to contribute, what you'll cost (this includes shares in the company)
+		- "Building a Portfolio" and making decisions end of Q1
+- Calendar
+	- Founders To Dos
+	- Uplimit Courses begin end of this month, and will essentially continue throughout the year
+	- April 19th is AI Literacy day
