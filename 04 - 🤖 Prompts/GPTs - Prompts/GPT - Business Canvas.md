@@ -1,5 +1,5 @@
 ---
-URL: 
+URL: https://chat.openai.com/g/g-OaRF6d2Yq-business-model-gpt
 tags:
   - businessmodelcanvas
   - JosephRosenbaum
