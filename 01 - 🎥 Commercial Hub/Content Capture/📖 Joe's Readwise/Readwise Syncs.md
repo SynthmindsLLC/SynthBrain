@@ -344,3 +344,8 @@
 
 [[2024-01-15]] 6:09 AM — Synced 0 highlights from 0 documents.
 
+[[2024-01-15]] 5:57 PM — Synced 20 highlights from 3 documents.
+    - 8 highlights from How OpenAI Is Approaching 2024 Worldwide Elections
+    - 7 highlights from Executives Say They're Not Ready for AI
+    - 5 highlights from Microsoft Launches Copilot Pro With Custom GPTs and Office Integration
+
