@@ -1,6 +1,12 @@
-#CustomGPT #GPTs #prompt #UrosPesic #Obsidian 
-
-https://chat.openai.com/g/g-9wgTILXTg-obsidian-assistant
+---
+URL: https://chat.openai.com/g/g-9wgTILXTg-obsidian-assistant
+tags:
+  - CustomGPT
+  - GPTs
+  - prompt
+  - UrosPesic
+  - Obsidian
+---
 
 Obsidian Automation Assistant Role Definition
 
