@@ -355,3 +355,6 @@
 [[2024-01-16]] 9:46 AM — Synced 4 highlights from 1 document.
     - 4 highlights from Democratic Inputs to AI Grant Program: Lessons Learned and Implementation Plans
 
+[[2024-01-16]] 12:46 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from The Lazy Tyranny of the Wait Calculation
+
