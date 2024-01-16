@@ -349,3 +349,6 @@
     - 7 highlights from Executives Say They're Not Ready for AI
     - 5 highlights from Microsoft Launches Copilot Pro With Custom GPTs and Office Integration
 
+[[2024-01-16]] 4:41 AM — Synced 29 highlights from 1 document.
+    - 29 highlights from AI Sleeper Agents
+
