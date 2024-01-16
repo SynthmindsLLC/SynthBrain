@@ -5,6 +5,7 @@ tags:
   - AILearning
   - "#LLMs"
   - "#TextToImage"
+Go Live: 2024-02-20
 ---
 ## 🎉 Welcome, Future Prompt Engineers! 🎉
 

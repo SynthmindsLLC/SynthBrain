@@ -5,6 +5,7 @@ tags:
   - AILearning
   - "#LLMs"
   - "#TextToImage"
+Go Live: 2023-08-22
 ---
 
 # Intro to Neural Networks
