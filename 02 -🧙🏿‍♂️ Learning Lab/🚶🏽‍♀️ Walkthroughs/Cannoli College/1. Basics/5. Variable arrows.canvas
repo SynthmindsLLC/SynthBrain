@@ -5,7 +5,7 @@
 		{"type":"group","id":"c409a28317a5ae26","x":11,"y":-360,"width":294,"height":510,"label":"Variables"},
 		{"type":"text","text":"Pannetone","id":"0d48f7722e5db52e","x":31,"y":-340,"width":250,"height":60,"color":"6"},
 		{"type":"text","text":"The label of the arrow names the variable, and you can inject it into a call node using the format \"{{variable name}}\"","id":"1a3b5db348375dba","x":-380,"y":-360,"width":371,"height":336},
-		{"type":"text","text":"How do you make {{dessert}}?","id":"10cedae5ccf81664","x":31,"y":-180,"width":250,"height":60},
+		{"type":"text","text":"How do you make {{dessert}}?","id":"10cedae5ccf81664","x":31,"y":-180,"width":250,"height":75},
 		{"type":"text","text":"","id":"5cf958d72a55d52d","x":32,"y":-24,"width":250,"height":154,"color":"6"},
 		{"type":"text","text":"Labeling an arrow makes it a variable you can access in call nodes.","id":"db8924f8ddaaa08e","x":-13,"y":-680,"width":330,"height":246},
 		{"type":"text","text":"Hannibal","id":"b2aa8b695a7b7774","x":-152,"y":260,"width":250,"height":60,"color":"6"},

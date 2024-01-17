@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"type":"group","id":"9a74aa8d0afdb942","x":-334,"y":-395,"width":669,"height":790,"label":"System Messages"},
-		{"type":"text","text":"You are a silly goofy guy","id":"d005ba1be8656e6e","x":-314,"y":-205,"width":250,"height":60,"color":"6"},
+		{"type":"text","text":"You are a silly goofy guy","id":"d005ba1be8656e6e","x":-314,"y":-259,"width":250,"height":114,"color":"6"},
 		{"type":"text","text":"Hey what's a fun outing","id":"2c1e68fdaf20b936","x":-314,"y":-25,"width":250,"height":136},
 		{"type":"text","text":"","id":"d0edacf3895cacc4","x":65,"y":-95,"width":250,"height":155,"color":"6"},
 		{"type":"text","text":"Respond with a description of a very confused AI assistant that can't keep it together. Nothing else should be in your response. It should start with: \"you are a...\"","id":"59b7fc9dda9a50c1","x":65,"y":-375,"width":250,"height":232},
