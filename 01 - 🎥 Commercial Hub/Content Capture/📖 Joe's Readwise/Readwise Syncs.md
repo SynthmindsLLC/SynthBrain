@@ -358,3 +358,6 @@
 [[2024-01-16]] 12:46 PM — Synced 4 highlights from 1 document.
     - 4 highlights from The Lazy Tyranny of the Wait Calculation
 
+[[2024-01-17]] 6:06 AM — Synced 22 highlights from 1 document.
+    - 22 highlights from Against Learning From Dramatic Events
+
