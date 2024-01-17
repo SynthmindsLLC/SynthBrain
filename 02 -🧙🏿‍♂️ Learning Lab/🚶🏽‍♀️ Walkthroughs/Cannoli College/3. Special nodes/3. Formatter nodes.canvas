@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"type":"group","id":"94f5f94475efad52","x":-242,"y":-100,"width":512,"height":635,"label":"Formatter nodes"},
-		{"type":"text","text":"Respond with the name of a nosy villager character","id":"e2163e206cbda905","x":-200,"y":-80,"width":250,"height":60,"color":"4"},
-		{"type":"text","text":"Name: Midge\nLines:\n1. \"I couldn't help but notice that your curtains are always closed. Is there something you're hiding in there?\"\n2. \"Oh, I saw you receive a package today. Mind telling me what's inside? I'm just curious, you know.\"\n3. \"I heard you had a visitor yesterday. Any juicy gossip to share? I love keeping up with the neighborhood drama!\"\n4. \"You seem to be spending a lot of time in your backyard lately. Do you have any special projects going on? I'm itching to know!\"\n5. \"I simply can't fathom how you manage to keep your garden so pristine. Do you have any secret techniques you'd be willing to share?\"","id":"b9b423ce99fb31c9","x":-217,"y":360,"width":284,"height":155,"color":"6"},
+		{"type":"group","id":"94f5f94475efad52","x":-242,"y":-100,"width":702,"height":740,"label":"Formatter nodes"},
+		{"type":"text","text":"Respond with the name of a nosy villager character","id":"e2163e206cbda905","x":-200,"y":-80,"width":250,"height":130,"color":"4"},
+		{"type":"text","text":"Name: Midge\nLines:\n1. \"I couldn't help but notice that your curtains are always closed. Is there something you're hiding in there?\"\n2. \"Oh, I saw you receive a package today. Mind telling me what's inside? I'm just curious, you know.\"\n3. \"I heard you had a visitor yesterday. Any juicy gossip to share? I love keeping up with the neighborhood drama!\"\n4. \"You seem to be spending a lot of time in your backyard lately. Do you have any special projects going on? I'm itching to know!\"\n5. \"I simply can't fathom how you manage to keep your garden so pristine. Do you have any secret techniques you'd be willing to share?\"","id":"b9b423ce99fb31c9","x":-217,"y":360,"width":284,"height":240,"color":"6"},
 		{"type":"text","text":"A content node wrapped in double double quotes (\"\") is a formatter node. They will not be overwritten.","id":"0be55ec8c78cd264","x":-500,"y":70,"width":250,"height":250},
 		{"type":"text","text":"\"\"Name: {{name}}\nLines:\n{{lines}}\"\"","id":"4f1b8e3bd87e5bd8","x":-222,"y":160,"width":294,"height":140,"color":"6"},
 		{"type":"text","text":"Formatter nodes allow you to work with variables the same way you do with call nodes, but without making an LLM call.","id":"b6560aee19ea758c","x":-180,"y":-320,"width":394,"height":173},
 		{"type":"text","text":"You can use the output of formatter nodes the same way you use call nodes.","id":"897ca9e72f35add4","x":-500,"y":360,"width":250,"height":200},
-		{"type":"text","text":"Now write a list of 5 lines they might say.","id":"7a909145058b7691","x":0,"y":0,"width":250,"height":100,"color":"4"}
+		{"type":"text","text":"Now write a list of 5 lines they might say.","id":"7a909145058b7691","x":160,"y":0,"width":250,"height":140,"color":"4"}
 	],
 	"edges":[
 		{"id":"3ba3954eb0260bb0","fromNode":"e2163e206cbda905","fromSide":"bottom","toNode":"7a909145058b7691","toSide":"top"},

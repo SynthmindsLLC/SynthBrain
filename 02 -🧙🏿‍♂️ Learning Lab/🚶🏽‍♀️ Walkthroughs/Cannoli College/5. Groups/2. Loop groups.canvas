@@ -22,7 +22,7 @@
 		{"type":"text","text":"Logging edges from loop groups will log out what happens on each loop and sub-loop (if its nested)","id":"17c0c46b3378bd79","x":520,"y":120,"width":321,"height":102},
 		{"type":"text","text":"","id":"7b6747a24b1ed36e","x":85,"y":600,"width":395,"height":400,"color":"6"},
 		{"type":"text","text":"Inner loop number: {{#}}\nOuter loop number: {{##}}","id":"a1e4bbbafcec0850","x":-260,"y":840,"width":270,"height":100},
-		{"id":"f029d4309bd2b1fc","type":"text","text":"You can access the current loop number/iteration of the loop group a node is in using the variable {{#}} or {{##...}}.\n\nThe number of \"#\"s corresponds to the depth of the loop number you want to see, in the case of nested loops.","x":-650,"y":665,"width":310,"height":260},
+		{"id":"f029d4309bd2b1fc","type":"text","text":"You can access the current loop number/iteration of the loop group a node is in using the variable {{#}} or {{##...}}.\n\nThe number of \"#\"s corresponds to the depth of the loop number you want to see, in the case of nested loops.","x":-650,"y":665,"width":310,"height":375},
 		{"type":"text","text":"Hello there","id":"4b6e4eac00d4ca2a","x":-250,"y":680,"width":250,"height":60},
 		{"id":"ea53365b1b01a031","type":"text","text":"This is useful for processing lists of items using the loop group, as you can tell the LLM to handle a specific item in the list iteratively.\n\n(There is a forEach group feature on its way, where this would be handled in parallel)","x":520,"y":740,"width":356,"height":217}
 	],

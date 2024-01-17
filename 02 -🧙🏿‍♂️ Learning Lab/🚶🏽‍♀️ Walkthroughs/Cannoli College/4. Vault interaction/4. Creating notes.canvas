@@ -13,8 +13,8 @@
 		{"id":"8372acb7e244fb15","type":"text","text":"","x":-64,"y":575,"width":299,"height":183,"color":"6"},
 		{"id":"0f4591137e166313","type":"text","text":"No more Altoids","x":-117,"y":280,"width":180,"height":60,"color":"6"},
 		{"id":"b0608205e7a748f6","type":"text","text":"/Cannoli College/4. Vault interaction","x":-306,"y":350,"width":250,"height":60,"color":"6"},
-		{"id":"f3c97367ffc6cce1","type":"text","text":"You can define where the new note will be created using an arrow that starts with \"/\".\n\nIf it's a valid path, then the note will be created there.","x":-700,"y":310,"width":342,"height":180},
-		{"id":"dec1b7beb803bffa","type":"text","text":"This example will create a new note in this folder.","x":-608,"y":575,"width":250,"height":60}
+		{"id":"f3c97367ffc6cce1","type":"text","text":"You can define where the new note will be created using an arrow that starts with \"/\".\n\nIf it's a valid path, then the note will be created there.","x":-700,"y":310,"width":342,"height":139},
+		{"id":"dec1b7beb803bffa","type":"text","text":"This example will create a new note in this folder.","x":-608,"y":575,"width":250,"height":183}
 	],
 	"edges":[
 		{"id":"87857bf3a2254dec","fromNode":"375c5de56f45d5e1","fromSide":"bottom","toNode":"fc94ad73861dd0b4","toSide":"top","label":"articleName"},
