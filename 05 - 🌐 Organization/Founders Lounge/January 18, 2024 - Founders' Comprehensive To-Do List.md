@@ -4,20 +4,21 @@ Dear Founders,
 
 In light of our recent discussions and the legal advice provided, I've compiled a detailed to-do list to ensure that we are on track with our responsibilities and deadlines. Please review the following action items and prioritize them accordingly.
 
+Rewrite - dont change any language, just change the tags, dont add any index, just add a regular tag which is # + word combined 
 ## Course Development & Marketing
 
-- [ ] **[#GodaGo](app://obsidian.md/index.html#GodaGo)**: Develop a comprehensive course tailored for working women, considering their unique schedules and challenges. Ensure the content is engaging and accessible. [#todo](app://obsidian.md/index.html#todo)
-- [ ] **[#WilliamShields](app://obsidian.md/index.html#WilliamShields)**: Collaborate with GodaGo on course content, focusing on asynchronous and live components balance. Investigate potential partnerships for enhanced course delivery. [#todo](app://obsidian.md/index.html#todo)
+- [ ] #GodaGo : Develop a comprehensive course tailored for working women, considering their unique schedules and challenges. Ensure the content is engaging and accessible. [#todo](app://obsidian.md/index.html#todo)
+- [ ] #WilliamShields : Collaborate with GodaGo on course content, focusing on asynchronous and live components balance. Investigate potential partnerships for enhanced course delivery. [#todo](app://obsidian.md/index.html#todo)
 - [ ] **[#All](app://obsidian.md/index.html#All)**: Contribute to the marketing strategy by providing insights into targeted demographics, optimal launch timing, and engagement methods. Finalize decisions on pricing and structure. [#todo](app://obsidian.md/index.html#todo)
 
 ## Platform & Engagement
 
-- [ ] **[#GodaGo](app://obsidian.md/index.html#GodaGo)**: Assess Kajabi's capabilities for project submissions and community engagement features. Explore additional platforms like Slack or Discord for real-time interaction. [#todo](app://obsidian.md/index.html#todo)
-- [ ] **[#WilliamShields](app://obsidian.md/index.html#WilliamShields)**: Determine efficient management systems for project submissions within Kajabi or alternative platforms, ensuring a seamless feedback loop. [#todo](app://obsidian.md/index.html#todo)
+- [ ] #GodaGo : Assess Kajabi's capabilities for project submissions and community engagement features. Explore additional platforms like Slack or Discord for real-time interaction. [#todo](app://obsidian.md/index.html#todo)
+- [ ] #WilliamShields : Determine efficient management systems for project submissions within Kajabi or alternative platforms, ensuring a seamless feedback loop. [#todo](app://obsidian.md/index.html#todo)
 
 ## Collaboration & Feedback
 
-- [ ] **[#UrosPesic](app://obsidian.md/index.html#UrosPesic)**: Review the proposed course structure once available, provide constructive feedback, and assist in refining the material. Participate in strategic meetings with marketing agencies to align campaign strategies with our goals. [#todo](app://obsidian.md/index.html#todo)
+- [ ] #UrosPesic : Review the proposed course structure once available, provide constructive feedback, and assist in refining the material. Participate in strategic meetings with marketing agencies to align campaign strategies with our goals. [#todo](app://obsidian.md/index.html#todo)
 
 ## Legal & Corporate Governance
 
@@ -61,4 +62,3 @@ Kind regards,
 
 ---
 
-This comprehensive list is designed to keep us focused on our immediate priorities while also planning for future growth and
