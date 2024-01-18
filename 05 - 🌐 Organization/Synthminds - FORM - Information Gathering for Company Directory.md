@@ -39,7 +39,6 @@ How would you distribute the 100 shares of 10 people, knowing that where you end
 
 ## Additional Information
 
-- **Business
 - **Comments/Suggestions:** ` `
 - **T-Shirt Size:** ` `
 - **Additional Links (if any):** ` `
