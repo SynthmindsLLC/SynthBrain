@@ -10,51 +10,43 @@ kanban-plugin: basic
 
 ## YU Outline QA
 
-- [ ] [[Strategic Integration of AI in Business Domains (YU)]]
 
 
 ## Module Writing
 
-- [ ] [[Aspiring CFO (YU)]]
+- [ ] [[Aspiring CFO (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
 - [ ] [[Mastering the Art of Sales (YU)]]
+- [ ] [[Strategic Integration of AI in Business Domains (YU)]]
 - [ ] [[AI for Marketing (YU)]]
 
 
-## Internal QA
+## Internal QA (Images, Script)
 
 - [ ] [[The Successful Entrepreneur (YU)]]
-
-
-## Script Writing
-
 
 
 ## YU QA
 
 
 
-## Video Production
-
-
-
-## Instructional Design
-
-
-
-## Adding Audio
+## Production (Video, ID, VO)
 
 - [ ] [[Advanced Prompt Engineering - YU]]
 
 
-## Final QA
+## Final QA (Articulate)
 
 
 
-## Uploading
+## Canvas (Upload, Tutorbot)
 
 
 
 ## Completed
+
+
+
+## Feedback
 
 
 
