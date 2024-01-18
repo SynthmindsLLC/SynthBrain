@@ -1,6 +1,6 @@
 So these are from our lawyers email, bolded are our comments. 
 
-
+Hey, Format the notes below for Obsidian, make them nice and pretty formatted: 
 
 
 2.6 – what should be the quorum for stockholders meetings?
@@ -92,7 +92,99 @@ These are some examples that we found that we would like to have stockholder app
 
 Please note that you have to find a balance between protection of minority stockholders and allowing the Board and company to operate fast and flexibly.  Thus, you should be careful of the amount of matters and applicable thresholds where stockholder approval would have to be obtained – to avoid bureaucratic slowdowns that such stockholder approvals may require.
 
+```markdown
+# Meeting and Voting Guidelines for Stockholders and Board of Directors
+
+## 2.6 Quorum for Stockholders Meetings
+- **Quorum Requirement:** Majority (3/5)
+- **Voting Method:** Unanimous voting is preferred, meaning all decisions require full agreement.
+  - **Clarification Needed:** Is the unanimous vote based on the total number of stockholders or only those present at the meeting?
+
+## 2.9 Stockholder Voting
+- **General Rule:** Unanimous consent required for all decisions.
+- **Specifics:**
+  - Supermajority percentage required for:
+    - Election of Board of Directors.
+    - Approving actions proposed by the Board of Directors.
+  - Majority voting applies to all other decisions.
+
+## 3.2 Composition of Board of Directors
+- **Total Number of Directors:** Five (5 Founders + Uros)
+
+## 3.8 Quorum for Board of Directors Meetings
+- **Quorum Requirement:** Five members ('5')
+
+## 3.9 Board Decision-Making
+- **Decision Method:** Unanimous agreement required.
+- **Matters Requiring Stockholders Supermajority Approval:**
+  - Amend, modify, restate, or waive provisions of the Certificate of Incorporation or By-Laws.
+  - Material changes to business nature or entering new business ventures.
+  - Adopting or modifying significant financial documents (budgets, business plans).
+  - Issuing/selling equity securities; repurchasing shares; material financial transactions.
+  - Incurring indebtedness; pledging assets; assuming liabilities over a certain amount.
+  
+### Financial Transactions and Approvals
+- **Question:** What are standard practices regarding minor transactions like subscriptions? Is there a threshold that requires approval?
+
+### List of Actions Requiring Unanimous Vote:
+(a) Changes in corporate structure or governance documents.
+(b) Significant business changes or new ventures outside established business scope.
+(c) Major financial document amendments (budgets, plans).
+(d) Equity transactions and share repurchases/redemptions/acquisitions.
+(e) Large indebtedness or asset pledges; significant financial guarantees/endorsesments over [AMOUNT].
+(f) Loans, advances, contributions, investments over [0]; clarification needed on routine transactions like subscriptions.
+(g) Auditor appointments; accounting method/policy changes not mandated by GAAP.
+(h) Related Party Agreement dealings – definitions and implications need review.
+
+(i)-(q): Various significant corporate actions involving asset/e
 
 
 
 
+
+
+
+```markdown
+# Meeting Notes for Stockholders and Board of Directors
+
+## 2.6 Quorum for Stockholders Meetings
+- **Majority Required:** 3/5
+- **Unanimous Voting Discussion:**
+  - We aim for unanimous voting, meaning all decisions must be agreed upon by everyone.
+  - Clarification needed: Is it unanimous out of 5 or out of present people at the time of voting?
+  - **Note:** Thanks for considering this point.
+
+## 2.9 Stockholder Voting
+- **Voting Requirements:**
+  - Unanimous consent required for all decisions.
+  - Supermajority percentage needed for:
+    - Election of Board of Directors.
+    - Approving various actions proposed by the Board.
+  - Majority voting on all other decisions.
+
+## 3.2 Number of Directors on Board
+- **Board Composition:** 
+  - Total of 5 directors, including the 4 Founders and Uros.
+
+## 3.8 Quorum for Board Meetings
+- **Quorum Requirement:** 
+  - Minimum of five members ('5') to hold a meeting.
+
+## 3.9 Board Decision-Making
+- **Decision Process:**
+   - All decisions are made unanimously.
+   - Questions to consider:
+     - Should it be by majority vote or a higher percentage?
+     - A comprehensive list requiring stockholders' supermajority approval before the board can take action is needed (see detailed list in section `3.9`).
+
+### List of Matters Requiring Stockholders Supermajority Approval:
+1. Amend, modify, restate, or waive provisions of the Certificate of Incorporation or By-Laws.
+2. Material changes to business nature or entering new businesses outside the defined "Business."
+3. Adopting or materially modifying annual budgets, operating budgets, or business plans.
+4. Issuing/selling equity securities or repurchasing shares.
+5. Incurring indebtedness over a certain amount, pledging assets, or assuming liabilities.
+6. Making loans or investments over a specified amount (clarification on routine subscriptions and approval processes needed).
+7. Appointing/removing auditors and changing accounting methods (except as required by GAAP).
+8. Entering into/amending/waiving/terminating any Related Party Agreement.
+9. Transactions involving significant asset/equity acquisitions outside ordinary business practices.
+10. Disposing assets with value exceeding a certain threshold outside ordinary sales practices (
