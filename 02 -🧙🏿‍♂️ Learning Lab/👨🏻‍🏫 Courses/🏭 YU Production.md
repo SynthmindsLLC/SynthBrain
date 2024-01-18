@@ -14,15 +14,15 @@ kanban-plugin: basic
 
 ## Module Writing
 
-- [ ] [[Aspiring CFO (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
-- [ ] [[Mastering the Art of Sales (YU)]]
-- [ ] [[Strategic Integration of AI in Business Domains (YU)]]
-- [ ] [[AI for Marketing (YU)]]
+- [ ] [[Mastering the Art of Sales (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
+- [ ] [[Strategic Integration of AI in Business Domains (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
+- [ ] [[AI for Marketing (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
 
 
 ## Internal QA (Images, Script)
 
-- [ ] [[The Successful Entrepreneur (YU)]]
+- [ ] [[Aspiring CFO (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
+- [ ] [[The Successful Entrepreneur (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
 
 
 ## YU QA
