@@ -54,11 +54,5 @@ Rewrite - dont change any language, just change the tags, dont add any index, ju
 
 Please prioritize these tasks according to their urgency and importance, keeping in mind our shared vision for success and legal compliance.
 
-Kind regards,
-
-[Your Name]
-[Your Position]
-[Company Name]
-
 ---
 
