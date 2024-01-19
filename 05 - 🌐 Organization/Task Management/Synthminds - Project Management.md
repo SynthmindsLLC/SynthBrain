@@ -14,10 +14,11 @@ tags:
 
 ## To Do
 
-- [ ] [[Bank Account - EIN]] #DanRosenbaum #UrosPesic #todo 
-- [ ] Start the registrations processes in SAM and getting DUNS number (@2024-01-21) #UrosPesic #todo
-- [ ] Alexandra - Sunshine - Scoping #UrosPesic (@2024-01-22) #todo
-- [ ] Radoslav - ER Modeling Project #UrosPesic (@2024-01-22) #todo
+- [ ] [[03. SynthBrain/05 - 🌐 Organization/Task Management/Task Details Notes/Bank Account - EIN]] #DanRosenbaum #UrosPesic #todo
+- [ ] [[Start the registrations processes in SAM and getting DUNS number]] <br>     (@2024-01-21) #UrosPesic #todo
+- [ ] [[Alexandra - Sunshine - Scoping]]<br>       #UrosPesic (@2024-01-22) #todo
+- [ ] [[Radoslav - ER Modeling Project]] #UrosPesic #JamesGriffing
+- [ ] [[January 19, 2024 - Test for Joe]]<br>      #JosephRosenbaum #UrosPesic
 
 
 
