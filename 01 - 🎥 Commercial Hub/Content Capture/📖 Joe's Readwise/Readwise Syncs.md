@@ -364,3 +364,7 @@
 [[2024-01-17]] 6:06 AM — Synced 22 highlights from 1 document.
     - 22 highlights from Against Learning From Dramatic Events
 
+[[2024-01-19]] 6:36 AM — Synced 56 highlights from 2 documents.
+    - 32 highlights from Chip War
+    - 24 highlights from Building Blocks of Memory in the Brain
+
