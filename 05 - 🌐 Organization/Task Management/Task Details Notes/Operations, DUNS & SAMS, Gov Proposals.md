@@ -1,6 +1,7 @@
 ---
-Backlink: '[[2024-01-19]]'
-categories: []
+Backlink: "[[2024-01-19]]"
+categories: 
+Transcript: "[[Transcript - Melwood & Synthminds]]"
 ---
 ## Task: Prepare for Subcontractor Registration
 

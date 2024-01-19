@@ -17,8 +17,17 @@ tags:
 - [ ] [[Legal , Bank Account Creation]]<br>Due Date: (@2024-01-23)<br>**Priority:** High<br>Tags: #Legal #UrosPesic #DanRosenbaum
 - [ ] [[Solution, Sunshine, Lead]]<br>Due Date: (@2024-01-23)<br>**Priority**: High<br>Tags: #solution #WilliamShields #Project #UrosPesic
 - [ ] [[Operations, DUNS & SAMS, Gov Proposals]]<br>Due Date: (@2024-01-24)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
-- [ ] [[Solution, Radoslav - ER Modeling, Goda's Linkedin]]<br>Due Date: (@2024-01-26)<br>**Priority**: Medium<br>Tags: #UrosPesic #JamesGriffing
+- [ ] [[Solution, SimpliCollege, Project]]<br>Due Date: (@2024-01-24)<br>**Priority**:<br>Tags: #JoshuaFrancis #WilliamShields
+
+
+## In Progress
+
 - [ ] [[Solution, FarBot, Upsell, Enhancement Request]]<br>Due Date:<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
+
+
+## Stuck/Pending Customer Reply
+
+- [ ] [[Solution, Radoslav - ER Modeling, Goda's Linkedin]]<br>Due Date: (@2024-01-26)<br>**Priority**: Medium<br>Tags: #UrosPesic #JamesGriffing
 
 
 
