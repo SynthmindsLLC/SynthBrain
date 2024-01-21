@@ -34,7 +34,7 @@ Thank you for your cooperation and for being an integral part of Synthminds' evo
 - **List of Intended Contributions:** What will you create or do in the next 2 months for Synthminds?
 - **Additional Value Adds**: list anything not captured here, such as social capital, a specific knowledge or skill, etc. 
 
-## Values Aligment
+## Values Alignment
 Review our [V1 Culture Code](https://docs.google.com/presentation/d/1LRTxGrTp_c-t-ZmaSXTrmmJYLBptHx2DQ-VOqWxn6uo/edit#slide=id.g74f0df784d_2_234)
 
 Which of these values to you align the most with, and why?
