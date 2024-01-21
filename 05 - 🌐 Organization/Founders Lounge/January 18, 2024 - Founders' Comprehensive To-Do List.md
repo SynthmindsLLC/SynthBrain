@@ -1,5 +1,6 @@
 # Founders' Comprehensive To-Do List
 
+
 Dear Founders,
 
 In light of our recent discussions and the legal advice provided, I've compiled a detailed to-do list to ensure that we are on track with our responsibilities and deadlines. Please review the following action items and prioritize them accordingly.
