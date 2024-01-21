@@ -1,6 +1,9 @@
 ---
 Backlink: "[[2024-01-19]]"
-categories: 
+categories:
+  - Obsidian
+  - Gov Contracts
+  - Federal Contracts
 Transcript: "[[Transcript - Melwood & Synthminds]]"
 ---
 ## Task: Prepare for Subcontractor Registration

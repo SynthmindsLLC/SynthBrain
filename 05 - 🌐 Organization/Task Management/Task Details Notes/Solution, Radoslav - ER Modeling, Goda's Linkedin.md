@@ -7,6 +7,33 @@ Transcript: "[[Transcript - JamesGriffing,UrosPesic,Radoslav-ER-Call]]"
 ## **Prompt**
 Below is a task details, but taken from the internal chat, they are not in the task structure. Take the description below and format it nicely into tasks. First should be action items add them with a checkbox and tag a person responsible ("#PersonName thats how to tag people) and add a "#todo" (but without "") tag. Then you can break down the tasks. For your reference this is a note for a specific task in a Kanban board:
 
+## Task Breakdown for GUI and Prompt Integration Inquiry
+
+### Action Items:
+- [ ] #JamesGriffing to draft an email seeking clarification on the project scope. #todo
+- [ ] #JamesGriffing to create two separate quotes: one for prompt work alone, and one including GUI. #todo
+
+### Task Details:
+1. **Drafting Clarification Email**
+   - James needs to compile all necessary questions and information required to gain a clear understanding of the project's scope.
+   - The email should address the confusion regarding our responsibility in creating the GUI and associated features (voice input, drag-and-drop, freezing, etc.), as well as developing the prompts.
+   - The email should also inquire whether our role is limited to designing prompts and providing a detailed plan for their integration with an existing GUI framework.
+
+2. **Creating Quotes**
+   - Prepare two distinct quotes based on potential project scopes:
+     1. Quote for work involving prompt development alone.
+     2. Quote for comprehensive work including both prompt development and full GUI creation with associated features.
+   - Take into account that unclear communication from the client may result in additional hours needed for project completion.
+
+### Additional Notes:
+- James has indicated that he will not be able to start working on these tasks until tomorrow.
+- It is important to factor in potential delays or increased workload due to the client's lack of direct communication.
+
+### Follow-up:
+- Once clarification is received from the client, review and adjust quotes as necessary.
+- Schedule a meeting or internal discussion to finalize project scope and resource allocation based on client feedback.
+
+
 ## ER Modeling Task
 
 - [ ] Compile a detailed specification document outlining key features, priorities, and desired enhancements for dynamic JSON instance generation and ER diagramming project. #RadoslavRadivojevic #todo
