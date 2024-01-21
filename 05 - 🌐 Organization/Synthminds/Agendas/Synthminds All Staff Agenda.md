@@ -1,3 +1,11 @@
+[[2024-01-21]]
+- Company Updates
+	- Recap last week (CREATE values)
+	- Lawyer update (creating bylaws, hope to be done next week)
+	- review [[Business Model Canvas.canvas|Business Model Canvas]]
+	- review [form](https://docs.google.com/forms/d/e/1FAIpQLSdBmOk8HS5X9cP-SEVSlqDa3Dbwmt3fFxvhM8mEgWmX2dk5aA/viewform?usp=sf_link)
+- 
+
 [[2024-01-14]]
 - Company Updates
 	- Transition to a C Corp
