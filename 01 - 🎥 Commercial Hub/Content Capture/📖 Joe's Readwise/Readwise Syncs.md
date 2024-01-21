@@ -368,3 +368,6 @@
     - 32 highlights from Chip War
     - 24 highlights from Building Blocks of Memory in the Brain
 
+[[2024-01-21]] 6:38 AM — Synced 52 highlights from 1 document.
+    - 52 highlights from Algorithms to Live By
+
