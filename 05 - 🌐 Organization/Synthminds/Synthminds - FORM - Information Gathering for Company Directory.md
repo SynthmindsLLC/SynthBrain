@@ -1,5 +1,11 @@
-# Synthminds - Information Gathering for Company Directory
+# Synthminds - Information Gathering for Company Development
 #Synthminds #Org 
+
+🧙🏾‍♂️: As we embark on the exciting journey of structuring Synthminds into a more formalized and legitimate entity, we are committed to fostering a cohesive and transparent environment that reflects our shared values and goals. To achieve this, we are in the process of compiling a comprehensive company directory that will serve as a cornerstone for our organizational development moving forward.
+
+In order to create a directory that truly represents our dynamic team, we kindly request your collaboration in providing some essential personal and professional information. This data will not only help us understand and appreciate the diverse backgrounds and skills within our team but will also assist in aligning our efforts and contributions as we grow together.
+
+Thank you for your cooperation and for being an integral part of Synthminds' evolution. Together, we are building not just a company, but a community.
 ## Personal Information
 
 - **Full Name:** ` `
@@ -27,6 +33,13 @@
 - **List of Past Contributions**: What have you created or done so far for Synthminds since you started?
 - **List of Intended Contributions:** What will you create or do in the next 2 months for Synthminds?
 - **Additional Value Adds**: list anything not captured here, such as social capital, a specific knowledge or skill, etc. 
+
+## Values Aligment
+Review our [V1 Culture Code](https://docs.google.com/presentation/d/1LRTxGrTp_c-t-ZmaSXTrmmJYLBptHx2DQ-VOqWxn6uo/edit#slide=id.g74f0df784d_2_234)
+
+Which of these values to you align the most with, and why?
+
+How would you improve these values?
 
 ## Equity Distribution
 
