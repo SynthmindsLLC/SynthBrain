@@ -373,3 +373,6 @@
 
 [[2024-01-20]] 6:51 AM — Synced 0 highlights from 0 documents.
 
+[[2024-01-22]] 6:43 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from Algorithms to Live By
+
