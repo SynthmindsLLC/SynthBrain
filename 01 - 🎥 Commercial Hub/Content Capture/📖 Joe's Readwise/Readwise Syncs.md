@@ -373,6 +373,13 @@
 
 [[2024-01-20]] 6:51 AM — Synced 0 highlights from 0 documents.
 
+[[2024-01-22]] 9:44 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from OpenAI Struggling to Destroy Onslaught of AI Girlfriends
+
 [[2024-01-22]] 6:43 AM — Synced 16 highlights from 1 document.
     - 16 highlights from Algorithms to Live By
+
+[[2024-01-23]] 5:43 AM — Synced 81 highlights from 2 documents.
+    - 70 highlights from Algorithms to Live By
+    - 11 highlights from Should the Future Be Human?
 
