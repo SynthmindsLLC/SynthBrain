@@ -383,3 +383,6 @@
     - 70 highlights from Algorithms to Live By
     - 11 highlights from Should the Future Be Human?
 
+[[2024-01-24]] 7:07 AM — Synced 37 highlights from 1 document.
+    - 37 highlights from Algorithms to Live By
+
