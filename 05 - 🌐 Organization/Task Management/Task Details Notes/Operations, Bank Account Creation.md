@@ -7,9 +7,9 @@ Below is a task details, but taken from the internal chat, they are not in the t
 ## Task: Set Up a Multicurrency Business Bank Account
 
 ### Action Items:
-- [ ] #DanRosenbaum #todo Obtain EIN number for the business.
-- [ ] #UrosPesic #todo Research and identify potential business banks that offer multicurrency accounts.
-- [ ] #DanRosenbaum #todo Compare the fees and services of the shortlisted banks.
+- [x] #DanRosenbaum #todo Obtain EIN number for the business.
+- [x] #UrosPesic #todo Research and identify potential business banks that offer multicurrency accounts.
+- [x] #DanRosenbaum #todo Compare the fees and services of the shortlisted banks.
 - [ ] #UrosPesic #todo Check the requirements for opening a business bank account with the chosen bank.
 - [ ] #WilliamShields #todo Make a decision on which bank to proceed with based on the gathered information.
 
