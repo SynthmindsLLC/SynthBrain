@@ -7,10 +7,15 @@ version:
 # Upload Checklist
 
 ## Overall
-- [ ] Made self teacher
-- [ ] template imported
-- [ ] Image created
+- [x] Made self teacher
+- [x] template imported
+- [ ] Banner image created
 - [ ] Created sections
+- [ ] Created whatsapp group
+- [ ] Tutorbot embedded
+	- [ ] Prompt
+	- [ ] appearance
+	- [ ] KB
 - [ ] Assigned all Discussions/Assignments to sections
 - [ ] Modules Published to Reach
 - [ ] Learners enrolled in reach
