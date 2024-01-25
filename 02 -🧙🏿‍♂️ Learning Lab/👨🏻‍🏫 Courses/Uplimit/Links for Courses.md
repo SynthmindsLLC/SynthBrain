@@ -20,5 +20,9 @@ Please use the following social media links to promote our courses. These URLs c
 4. AI Image Creation Course (Email): [https://uplimit.com/go/ai-image-creation-e6w8et6](https://uplimit.com/go/ai-image-creation-e6w8et6)
 5. AI & ChatGPT for Everyone (Email): [https://uplimit.com/go/ai-everyone-584YBJN](https://uplimit.com/go/ai-everyone-584YBJN)
 
+
 For more information, visit Uplimit at [Uplimit - AI & ChatGPT for Everyone](https://uplimit.com).
+
+
+
 

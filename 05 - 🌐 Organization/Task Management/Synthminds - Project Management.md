@@ -14,11 +14,11 @@ tags:
 
 ## To Do
 
-- [ ] [[Operations, Bank Account Creation]]<br>Due Date: (@2024-01-23)<br>**Priority:** High<br>Tags: #Legal #UrosPesic #DanRosenbaum
-- [ ] [[Solution, Sunshine, Lead]]<br>Due Date: (@2024-01-23)<br>**Priority**: High<br>Tags: #solution #WilliamShields #Project #UrosPesic
-- [ ] [[Operations, DUNS & SAMS, Gov Proposals]]<br>Due Date: (@2024-01-24)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
-- [ ] [[Solution, SimpliCollege, Project]]<br>Due Date: (@2024-01-24)<br>**Priority**:<br>Tags: #JoshuaFrancis #WilliamShields
-- [ ] [[Solution, QuietCommunities & AGZA, Data Project]]<br>Due Date:(@2024-01-23)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic #Paid
+- [x] [[Operations, Bank Account Creation]]<br>Due Date: (@2024-01-23)<br>**Priority:** High<br>Tags: #Legal #UrosPesic #DanRosenbaum
+- [x] [[Solution, Sunshine, Lead]]<br>Due Date: (@2024-01-23)<br>**Priority**: High<br>Tags: #solution #WilliamShields #Project #UrosPesic
+- [x] [[Operations, DUNS & SAMS, Gov Proposals]]<br>Due Date: (@2024-01-24)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
+- [x] [[Solution, SimpliCollege, Project]]<br>Due Date: (@2024-01-24)<br>**Priority**:<br>Tags: #JoshuaFrancis #WilliamShields
+- [x] [[Solution, QuietCommunities & AGZA, Data Project]]<br>Due Date:(@2024-01-23)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic #Paid
 - [ ] [[Solution, ArfeenKhan, AI Integration]]<br>Due Date:<br>**Priority**:<br>Tags: #WilliamShields #UrosPesic #JamesGriffing
 
 
