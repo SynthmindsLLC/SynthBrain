@@ -389,3 +389,6 @@
 [[2024-01-25]] 6:22 AM — Synced 55 highlights from 1 document.
     - 55 highlights from Algorithms to Live By
 
+[[2024-01-26]] 5:26 AM — Synced 13 highlights from 1 document.
+    - 13 highlights from OpenAI Just Released New Models and Developer Tools | GPT-4 No Longer "Lazy" 😍
+
