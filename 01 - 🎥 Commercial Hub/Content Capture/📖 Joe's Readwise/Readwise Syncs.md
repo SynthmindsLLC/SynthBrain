@@ -403,3 +403,12 @@
     - 5 highlights from ElevenLabs Reportedly Banned the Account That Deepfaked Biden's Voice With Its AI Tools
     - 4 highlights from New Law Would Illegalize AI Taylor Swift Porn Flooding Internet
 
+[[2024-01-27]] 7:19 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from The Fallout From the Taylor Swift AI Porn Could Be Huge
+
+[[2024-01-27]] 10:45 AM — Synced 26 highlights from 2 documents.
+    - 6 highlights from Where’s Waldo? The Elephant in the Room
+    - 20 highlights from Consciousness Is a Continuum, and Scientists Are Starting to Measure It
+
+[[2024-01-27]] 10:58 AM — Synced 0 highlights from 0 documents.
+
