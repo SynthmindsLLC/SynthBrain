@@ -379,12 +379,18 @@
 [[2024-01-22]] 6:43 AM — Synced 16 highlights from 1 document.
     - 16 highlights from Algorithms to Live By
 
+[[2024-01-25]] 4:10 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from Responsible AI and the Nash Equilibrium
+
 [[2024-01-23]] 5:43 AM — Synced 81 highlights from 2 documents.
     - 70 highlights from Algorithms to Live By
     - 11 highlights from Should the Future Be Human?
 
 [[2024-01-24]] 7:07 AM — Synced 37 highlights from 1 document.
     - 37 highlights from Algorithms to Live By
+
+[[2024-01-26]] 6:57 PM — Synced 37 highlights from 1 document.
+    - 37 highlights from GPT-5: Everything You Need to Know So Far
 
 [[2024-01-25]] 6:22 AM — Synced 55 highlights from 1 document.
     - 55 highlights from Algorithms to Live By
