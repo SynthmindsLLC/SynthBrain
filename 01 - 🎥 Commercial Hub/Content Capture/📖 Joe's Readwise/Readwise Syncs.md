@@ -398,3 +398,8 @@
 [[2024-01-26]] 5:26 AM — Synced 13 highlights from 1 document.
     - 13 highlights from OpenAI Just Released New Models and Developer Tools | GPT-4 No Longer "Lazy" 😍
 
+[[2024-01-27]] 9:22 AM — Synced 11 highlights from 3 documents.
+    - 2 highlights from Anthropic Confirms It Suffered a Data Leak
+    - 5 highlights from ElevenLabs Reportedly Banned the Account That Deepfaked Biden's Voice With Its AI Tools
+    - 4 highlights from New Law Would Illegalize AI Taylor Swift Porn Flooding Internet
+
