@@ -21,17 +21,21 @@ kanban-plugin: basic
 
 ## Internal QA (Images, Script)
 
-- [ ] [[Aspiring CFO (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
 - [ ] [[The Successful Entrepreneur (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
 
 
 ## YU QA
 
+- [ ] [[The Successful Entrepreneur (YU)]]<br>Stage Due:<br>Delivery:<br>Tags:
+
+
+## YU QA
+
+- [ ] [[Aspiring CFO (YU)]]<br>Stage Due: @[[2024-01-26]]<br>Delivery: @[[2024-01-29]]<br>Tags:
 
 
 ## Production (Video, ID, VO)
 
-- [ ] [[Advanced Prompt Engineering - YU]]
 
 
 ## Final QA (Articulate)
@@ -40,6 +44,8 @@ kanban-plugin: basic
 
 ## Canvas (Upload, Tutorbot)
 
+- [ ] [[Advanced Prompt Engineering - YU]]
+- [ ] [[Advanced Prompt Engineering - YU]]
 
 
 ## Completed

@@ -7,35 +7,31 @@ version:
 # Upload Checklist
 
 ## Overall
-- [ ] Made self teacher
-- [ ] template imported
-- [ ] Image created
+- [x] Made self teacher
+- [x] template imported
+- [x] Banner image created
 - [ ] Created sections
-- [ ] Assigned all Discussions/Assignments to sections
+- [x] Created whatsapp group
+- [ ] Tutorbot embedded
+	- [x] Prompt
+	- [x] appearance
+	- [ ] KB
+- [x] Assigned all Discussions/Assignments to sections
 - [ ] Modules Published to Reach
 - [ ] Learners enrolled in reach
 
 ## Modules
 Remember to set the requirements for each content module to Complete/Incomplete and check "Do not count this assignment towards the final grade"
 ### General
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
+- [x] 1
+- [x] 2
+- [x] 3
+- [x] 4
 - [ ] 5
 - [ ] 6
 - [ ] 7
 - [ ] 8
 
-### Male
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5
-- [ ] 6
-- [ ] 7
-- [ ] 8
 ## Assignments
 Remember to set the assignments as 1 Point, Complete/Incomplete.
 
@@ -47,16 +43,6 @@ In the module view, remember to click "Edit" and add a requirements for each ass
 4. Set points to 1
 5. Create button for each
 ### General
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5
-- [ ] 6
-- [ ] 7
-- [ ] 8
-
-### Male
 - [ ] 1
 - [ ] 2
 - [ ] 3

@@ -379,7 +379,47 @@
 [[2024-01-22]] 6:43 AM — Synced 16 highlights from 1 document.
     - 16 highlights from Algorithms to Live By
 
+[[2024-01-25]] 4:10 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from Responsible AI and the Nash Equilibrium
+
 [[2024-01-23]] 5:43 AM — Synced 81 highlights from 2 documents.
     - 70 highlights from Algorithms to Live By
     - 11 highlights from Should the Future Be Human?
+
+[[2024-01-24]] 7:07 AM — Synced 37 highlights from 1 document.
+    - 37 highlights from Algorithms to Live By
+
+[[2024-01-26]] 6:57 PM — Synced 37 highlights from 1 document.
+    - 37 highlights from GPT-5: Everything You Need to Know So Far
+
+[[2024-01-25]] 6:22 AM — Synced 55 highlights from 1 document.
+    - 55 highlights from Algorithms to Live By
+
+[[2024-01-26]] 5:26 AM — Synced 13 highlights from 1 document.
+    - 13 highlights from OpenAI Just Released New Models and Developer Tools | GPT-4 No Longer "Lazy" 😍
+
+[[2024-01-27]] 9:22 AM — Synced 11 highlights from 3 documents.
+    - 2 highlights from Anthropic Confirms It Suffered a Data Leak
+    - 5 highlights from ElevenLabs Reportedly Banned the Account That Deepfaked Biden's Voice With Its AI Tools
+    - 4 highlights from New Law Would Illegalize AI Taylor Swift Porn Flooding Internet
+
+[[2024-01-27]] 7:19 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from The Fallout From the Taylor Swift AI Porn Could Be Huge
+
+[[2024-01-27]] 10:45 AM — Synced 26 highlights from 2 documents.
+    - 6 highlights from Where’s Waldo? The Elephant in the Room
+    - 20 highlights from Consciousness Is a Continuum, and Scientists Are Starting to Measure It
+
+[[2024-01-27]] 10:58 AM — Synced 0 highlights from 0 documents.
+
+[[2024-01-27]] 8:43 PM — Synced 43 highlights from 5 documents.
+    - 6 highlights from U.S Takes the China Chip War to the Next Level - Will Soon Stop Chinese Companies From Using American Clouds for AI Training
+    - 23 highlights from ‘It Depends on the Context’. Harvard Plunges Into Roiling Debate About What Is Considered Antisemitism.
+    - 4 highlights from ChatGPT Update: Making the Most of Mentioning Custom GPT’s
+    - 4 highlights from 40 Years On
+    - 6 highlights from 7 Methods to Secure LLM Apps From Prompt Injections and Jailbreaks [Guest]
+
+[[2024-01-28]] 7:26 AM — Synced 39 highlights from 2 documents.
+    - 37 highlights from Algorithms to Live By
+    - 2 highlights from AI NEWS | OpenAI Launches GPT Mentions | Brave Browser Adds Mixtral | Lying LLMs & Lucid Dreaming
 
