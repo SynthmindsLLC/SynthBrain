@@ -419,3 +419,7 @@
     - 4 highlights from 40 Years On
     - 6 highlights from 7 Methods to Secure LLM Apps From Prompt Injections and Jailbreaks [Guest]
 
+[[2024-01-28]] 7:26 AM — Synced 39 highlights from 2 documents.
+    - 37 highlights from Algorithms to Live By
+    - 2 highlights from AI NEWS | OpenAI Launches GPT Mentions | Brave Browser Adds Mixtral | Lying LLMs & Lucid Dreaming
+
