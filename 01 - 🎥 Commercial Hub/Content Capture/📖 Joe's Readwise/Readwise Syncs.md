@@ -412,3 +412,10 @@
 
 [[2024-01-27]] 10:58 AM — Synced 0 highlights from 0 documents.
 
+[[2024-01-27]] 8:43 PM — Synced 43 highlights from 5 documents.
+    - 6 highlights from U.S Takes the China Chip War to the Next Level - Will Soon Stop Chinese Companies From Using American Clouds for AI Training
+    - 23 highlights from ‘It Depends on the Context’. Harvard Plunges Into Roiling Debate About What Is Considered Antisemitism.
+    - 4 highlights from ChatGPT Update: Making the Most of Mentioning Custom GPT’s
+    - 4 highlights from 40 Years On
+    - 6 highlights from 7 Methods to Secure LLM Apps From Prompt Injections and Jailbreaks [Guest]
+
