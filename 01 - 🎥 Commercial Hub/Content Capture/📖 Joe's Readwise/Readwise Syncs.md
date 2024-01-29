@@ -423,3 +423,6 @@
     - 37 highlights from Algorithms to Live By
     - 2 highlights from AI NEWS | OpenAI Launches GPT Mentions | Brave Browser Adds Mixtral | Lying LLMs & Lucid Dreaming
 
+[[2024-01-28]] 7:39 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from First on CNN: Three US Troops Killed in Drone Attack in Jordan, More Than 30 Injured
+
