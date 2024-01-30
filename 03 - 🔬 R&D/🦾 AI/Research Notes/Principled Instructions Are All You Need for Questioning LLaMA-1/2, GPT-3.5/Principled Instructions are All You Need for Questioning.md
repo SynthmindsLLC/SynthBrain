@@ -11,14 +11,38 @@ Published:
 ---
 # Summary
 ## Purpose
+The paper "Principled Instructions are All You Need for Questioning" aims to explore how structured and principled instructions can enhance the performance of large language models (LLMs) in generating responses, particularly in the context of question-answering tasks.
 
 ## Methods
+The authors investigate various prompt engineering techniques that influence the behavior of LLMs. These include:
+
+- Ask-Me-Anything prompting, which uses multiple imperfect prompts and aggregates them.
+- Chain-of-Thought method, where the model generates intermediate reasoning steps.
+- Least-to-most prompting, a strategy to break down complex problems into simpler subproblems.
+- Directional Stimulus Prompting, a framework using a policy model to generate auxiliary prompts.
 
 ## Key Findings
+- Larger models have a significant capacity for simulation, and their performance improves with more precise tasks and directives.
+- Prompt engineering can dramatically influence the performance and outputs of LLMs.
+- Techniques like Chain-of-Thought and least-to-most prompting can significantly enhance the model's capability to tackle challenging problems.
 
 ## Discussion
+The authors discuss the importance of prompt design principles such as:
+
+- Conciseness and Clarity: Prompts should be concise and specific to guide the model effectively.
+- Contextual Relevance: Including relevant context and domain-specific terminology in prompts.
+- Task Alignment: Using language and structure in the prompt that clearly indicates the task.
+- Example Demonstrations: Including examples within the prompt for complex tasks.
+- Avoiding Bias: Designing prompts to minimize the activation of biases inherent in the model.
+- Incremental Prompting: Structuring prompts to guide the model through a process incrementally.
 
 ## Critiques
+The paper does not provide specific critiques, but it is implied that the effectiveness of prompt engineering is contingent on the careful application of the discussed principles.
+
+## Tags
+- #Computer-Science---Artificial-Intelligence
+- #Computer-Science---Computation-and-Language
+- #PromptEngineering
 
 # Annotations
 ![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-2-x127-y382.png]]

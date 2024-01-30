@@ -1,22 +1,41 @@
 ---
-Publish Year: '2023'
-Authors: "Yew Ken Chia, Guizhen Chen, Luu Anh Tuan, Soujanya Poria, Lidong Bing"
-URL: "http://arxiv.org/abs/2311.09277"
-Zotero Link: "zotero://select/library/items/HCDZ3XW8"
+Publish Year: "2023"
+Authors: Yew Ken Chia, Guizhen Chen, Luu Anh Tuan, Soujanya Poria, Lidong Bing
+URL: http://arxiv.org/abs/2311.09277
+Zotero Link: zotero://select/library/items/HCDZ3XW8
 tags:
   - "#Computer-Science---Computation-and-Language"
-Published:
+Published: 2024-06-04
 ---
 # Summary
 ## Purpose
+- The research was initiated to address the limitations of large language models (LLMs) in complex reasoning tasks, which is a significant issue in the field of Computer Science, specifically in Computation and Language. The purpose of the study was to enhance the reasoning capabilities of LLMs by introducing a method called contrastive chain-of-thought prompting, which utilizes both positive and negative examples to improve the reasoning process.
 
 ## Methods
+- The researchers proposed the concept of contrastive chain-of-thought prompting, which involves providing LLMs with both positive and negative demonstrations to aid in reasoning.
+- They utilized bridging objects, which are symbolic items that the model uses to reach the final solution, such as numbers and equations in arithmetic tasks or names of entities in factual tasks.
+- Language templates were employed as textual hints to guide the language model in deriving and contextualizing the correct bridging objects during the reasoning process.
 
 ## Key Findings
+- The study found that solely increasing the model size does not solve complex reasoning tasks effectively.
+- It was observed that even demonstrations with invalid reasoning can lead to similar performance compared to valid demonstrations, highlighting the importance of the reasoning process itself.
+- The introduction of contrastive chain-of-thought prompting led to significant improvements in performance, with a 9.8-point increase for GSM-8K and a 16.0-point increase for Bamboogle when using GPT-3.5-Turbo, a widely used LLM.
 
 ## Discussion
+The discussion in the research article highlights the significance of the findings and their potential impact on the field of Computation and Language. It suggests that the contrastive chain-of-thought prompting can not only improve the accuracy of LLMs in complex reasoning tasks but also enhance the trustworthiness of the models by addressing potential errors in the reasoning process.
 
 ## Critiques
+Upon evaluating the research, some critiques include:
+    - The generalizability of the findings may be limited to the specific tasks and datasets used in the study.
+    - There may be concerns about the scalability of the approach when applied to a broader range of tasks or more complex reasoning challenges.
+    - The study may not have fully explored the implications of negative examples on the learning process and long-term model behavior.
+
+## Tags
+- #Computer-Science---Computation-and-Language
+- #Chain-of-Thought-Prompting
+- #Reasoning-Enhancement-Methods
+- #Large-Language-Models
+- #Contrastive-Learning
 
 # Annotations
 ![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/chiaContrastiveChainofThoughtPrompting2023/image-1-x296-y309.png]]

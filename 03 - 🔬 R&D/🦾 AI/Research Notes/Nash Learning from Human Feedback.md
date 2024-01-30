@@ -12,18 +12,39 @@ tags:
   - alignment
   - nashequilibrium
   - gametheory
-Published:
+Published: 2024-05-21
 ---
 # Summary
-## Purpose
+### Purpose
 
-## Methods
+The paper introduces a new framework called Nash Learning from Human Feedback (NLHF), which is a radical departure from the usual Reinforcement Learning from Human Feedback (RLHF). Instead of learning a reward model, NLHF focuses on learning a preference model and aims to compute the Nash equilibrium based on this model.
 
-## Key Findings
+### Methods
 
-## Discussion
+The researchers used a preference model that takes two responses and produces a preference score, indicating which response is preferred in a given context. They then used a deep reinforcement learning algorithm to approximate the Nash equilibrium of a two-player game where actions are responses and payoffs are determined by the preference model.
 
-## Critiques
+### Key Findings
+
+The key findings are that the Nash equilibrium can better align with the diversity of human preferences compared to traditional RLHF. The Nash-MD algorithm introduced in the paper converges to the Nash equilibrium without the need to store past policies, which is a big deal for large language models (LLMs) with their hefty memory requirements.
+
+### Discussion
+
+The paper discusses how the Nash equilibrium represents a policy that consistently produces responses preferred by the preference model over any alternative policy. This approach has the potential to capture a wider range of human preferences and is policy-independent.
+
+### Critiques
+
+While the paper presents a novel approach, it's still early days, and the real-world effectiveness of NLHF compared to traditional RLHF remains to be seen. The experiments conducted are more proof of concept than a definitive statement of superiority.
+
+### Tags
+
+- [#Computer-Science---Artificial-Intelligence](app://obsidian.md/index.html#Computer-Science---Artificial-Intelligence)
+- [#Computer-Science---Machine-Learning](app://obsidian.md/index.html#Computer-Science---Machine-Learning)
+- [#Computer-Science---Multiagent-Systems](app://obsidian.md/index.html#Computer-Science---Multiagent-Systems)
+- [#Statistics---Machine-Learning](app://obsidian.md/index.html#Statistics---Machine-Learning)
+- [#Computer-Science---Computer-Science-and-Game-Theory](app://obsidian.md/index.html#Computer-Science---Computer-Science-and-Game-Theory)
+- [#alignment](app://obsidian.md/index.html#alignment)
+- [#nashequilibrium](app://obsidian.md/index.html#nashequilibrium)
+- [#gametheory](app://obsidian.md/index.html#gametheory)
 
 # Annotations
 A prevailing approach within RLHF involves the initial step of constructing a reward model based on pairwise human preferences, frequently employing the Bradley-Terry model (BT; Bradley and Terry, 1952). This reward model assigns an individual score to each generation of the language model conditioned on a given prompt, akin to how the Elo (1978) ranking system assigns scores to chess players to estimate their relative strengths.” Yellow Highlight [Page 1](zotero://open-pdf/library/items/9Q9FVYNN?page=1&annotation=R63RSWYE)
