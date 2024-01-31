@@ -426,5 +426,11 @@
 [[2024-01-28]] 7:39 PM — Synced 6 highlights from 1 document.
     - 6 highlights from First on CNN: Three US Troops Killed in Drone Attack in Jordan, More Than 30 Injured
 
+[[2024-01-30]] 6:23 PM — Synced 16 highlights from 4 documents.
+    - 4 highlights from ChatGPT is leaking passwords from private conversations of its users, Ars reader says
+    - 3 highlights from Why GPT-5 Could Hurt OpenAI's Future
+    - 8 highlights from AI spam is already starting to ruin the internet
+    - 1 highlights from Building AI Guardrails Should Be Part of the Process
+
 [[2024-01-30]] 6:01 AM — Synced 0 highlights from 0 documents.
 
