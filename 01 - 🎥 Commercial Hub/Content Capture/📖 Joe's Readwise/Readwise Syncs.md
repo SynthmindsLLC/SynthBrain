@@ -434,3 +434,6 @@
 
 [[2024-01-30]] 6:01 AM — Synced 0 highlights from 0 documents.
 
+[[2024-01-31]] 9:10 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from As Fury With Harvard Grows, Aggrieved Students and Alums Look for New Ways to Change University’s Course
+
