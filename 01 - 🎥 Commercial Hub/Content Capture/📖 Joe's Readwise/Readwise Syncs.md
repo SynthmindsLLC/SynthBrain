@@ -437,3 +437,6 @@
 [[2024-01-31]] 9:10 AM — Synced 16 highlights from 1 document.
     - 16 highlights from As Fury With Harvard Grows, Aggrieved Students and Alums Look for New Ways to Change University’s Course
 
+[[2024-01-31]] 11:10 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from AI Can Better Retain What It Learns by Mimicking Human Sleep
+
