@@ -144,19 +144,19 @@ six tools only support English, while five support at least one more language in
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-7-x66-y449.png]]
+![[image-7-x66-y449.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-7-x78-y198.png]]
+![[image-7-x78-y198.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-8-x98-y265.png]]
+![[image-8-x98-y265.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-9-x100-y455.png]]
+![[image-9-x100-y455.png]]
 
 
 
@@ -168,19 +168,19 @@ Among the 21 publications collected for this review, a total of fifteen reported
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-12-x161-y455.png]]
+![[image-12-x161-y455.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-12-x92-y17.png]]
+![[image-12-x92-y17.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-13-x60-y153.png]]
+![[image-13-x60-y153.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tianReviewDigitalLearning2023/image-14-x86-y370.png]]
+![[image-14-x86-y370.png]]
 
 
 

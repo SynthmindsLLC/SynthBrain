@@ -73,7 +73,7 @@ Going further, consideration must also be given to issues of temporal equity (su
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/stonierDataEquityFoundational2023/image-6-x64-y209.png]]
+![[image-6-x64-y209.png]]
 
 
 
@@ -177,15 +177,15 @@ Recent research hints at the danger of “model collapse”, in which a system s
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/stonierDataEquityFoundational2023/image-10-x24-y399.png]]
+![[image-10-x24-y399.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/stonierDataEquityFoundational2023/image-12-x5-y44.png]]
+![[image-12-x5-y44.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/stonierDataEquityFoundational2023/image-13-x28-y181.png]]
+![[image-13-x28-y181.png]]
 
 
 

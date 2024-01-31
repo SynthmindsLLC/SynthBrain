@@ -251,7 +251,7 @@ This estimate does not require to learn a preference model first and is thus not
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/munosNashLearningHuman2023/image-15-x50-y145.png]]
+![[image-15-x50-y145.png]]
 
 
 
@@ -259,7 +259,7 @@ The primary objective of these experiments is to provide a proof of concept for 
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/munosNashLearningHuman2023/image-17-x49-y442.png]]
+![[image-17-x49-y442.png]]
 
 
 

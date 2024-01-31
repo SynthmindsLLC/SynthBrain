@@ -56,7 +56,7 @@ fully trained SE models can theoretically learn from each attack and gradually i
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-3-x63-y582.png]]
+![[image-3-x63-y582.png]]
 
 
 
@@ -64,27 +64,27 @@ Deception plays a central role in both social engineering and phishing tactics. 
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-4-x58-y469.png]]
+![[image-4-x58-y469.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-4-x60-y143.png]]
+![[image-4-x60-y143.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-5-x43-y591.png]]
+![[image-5-x43-y591.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-5-x133-y186.png]]
+![[image-5-x133-y186.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-7-x58-y152.png]]
+![[image-7-x58-y152.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-8-x59-y384.png]]
+![[image-8-x59-y384.png]]
 
 
 
@@ -108,11 +108,11 @@ AI can help to automate the creation and dissemination of deceptive content, the
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-11-x69-y301.png]]
+![[image-11-x69-y301.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-12-x67-y394.png]]
+![[image-12-x67-y394.png]]
 
 
 
@@ -128,7 +128,7 @@ The potential scale and automation of malicious attacks will mean that individua
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-14-x53-y483.png]]
+![[image-14-x53-y483.png]]
 
 
 
@@ -136,11 +136,11 @@ Routine tasks, like checking emails, seldom involve critical thinking, and when 
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-14-x56-y140.png]]
+![[image-14-x56-y140.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/schmittDigitalDeceptionGenerative2023/image-15-x56-y513.png]]
+![[image-15-x56-y513.png]]
 
 
 

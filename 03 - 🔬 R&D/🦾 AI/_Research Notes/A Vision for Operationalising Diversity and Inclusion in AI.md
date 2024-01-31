@@ -148,7 +148,7 @@ an update loop will be integrated to ensure the persona attributes evolve with s
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/banoVisionOperationalisingDiversity2023/image-4-x91-y221.png]]
+![[image-4-x91-y221.png]]
 
 
 

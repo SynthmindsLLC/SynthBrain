@@ -21,7 +21,7 @@ Published:
 ## Critiques
 
 # Annotations
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/weiChainofThoughtPromptingElicits2023/image-1-x101-y146.png]]
+![[image-1-x101-y146.png]]
 
 
 
@@ -53,11 +53,11 @@ Chain-of-thought prompting has several attractive properties as an approach for 
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/weiChainofThoughtPromptingElicits2023/image-4-x97-y368.png]]
+![[image-4-x97-y368.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/weiChainofThoughtPromptingElicits2023/image-5-x307-y399.png]]
+![[image-5-x307-y399.png]]
 
 
 
@@ -101,7 +101,7 @@ Although chain of thought is particularly suitable for math word problems, the l
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/weiChainofThoughtPromptingElicits2023/image-7-x94-y95.png]]
+![[image-7-x94-y95.png]]
 
 
 

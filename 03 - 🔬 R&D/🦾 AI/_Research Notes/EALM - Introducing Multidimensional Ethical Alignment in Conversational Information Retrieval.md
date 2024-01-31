@@ -57,11 +57,11 @@ this alignment occurs before the retrieved/generated data reaches real users, th
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuEALMIntroducingMultidimensional2023/image-2-x48-y481.png]]
+![[image-2-x48-y481.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuEALMIntroducingMultidimensional2023/image-2-x47-y257.png]]
+![[image-2-x47-y257.png]]
 
 
 
@@ -109,7 +109,7 @@ collect and annotate a multitude of social media posts to create a dataset that 
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuEALMIntroducingMultidimensional2023/image-3-x51-y484.png]]
+![[image-3-x51-y484.png]]
 
 
 
@@ -133,7 +133,7 @@ QA-ETHICS allows the full range of moral concepts to be introduced during traini
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuEALMIntroducingMultidimensional2023/image-4-x71-y402.png]]
+![[image-4-x71-y402.png]]
 
 
 
@@ -141,7 +141,7 @@ EALM framework achieves the best performance on average scores. In particular, t
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuEALMIntroducingMultidimensional2023/image-5-x314-y360.png]]
+![[image-5-x314-y360.png]]
 
 
 

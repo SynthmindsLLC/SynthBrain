@@ -27,7 +27,7 @@ As dialogue agents become increasingly humanlike in their performance, it is imp
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shanahanRolePlayLargeLanguage2023/image-2-x52-y634.png]]
+![[image-2-x52-y634.png]]
 
 
 

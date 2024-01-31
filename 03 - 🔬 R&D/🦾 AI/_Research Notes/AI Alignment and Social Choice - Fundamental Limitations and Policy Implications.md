@@ -108,7 +108,7 @@ The key innovation in RLHF is training AI agents to be aligned with humans witho
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/mishraAIAlignmentSocial2023 1/image-4-x166-y535.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/mishraAIAlignmentSocial2023 1/image-4-x166-y535.png]]
 
 
 

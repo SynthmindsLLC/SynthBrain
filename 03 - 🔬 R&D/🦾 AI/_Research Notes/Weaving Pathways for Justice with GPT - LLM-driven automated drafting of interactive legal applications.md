@@ -23,7 +23,7 @@ Abstract. Can generative AI help us speed up the authoring of tools to help self
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/steenhuisWeavingPathwaysJustice2023/image-4-x189-y508.png]]
+![[image-4-x189-y508.png]]
 
 
 

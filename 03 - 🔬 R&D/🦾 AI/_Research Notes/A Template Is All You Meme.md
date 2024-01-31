@@ -71,7 +71,7 @@ If the viewer is not familiar with the template in question, they may not unders
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/batesTemplateAllYou2023/image-2-x62-y548.png]]
+![[image-2-x62-y548.png]]
 
 
 
@@ -167,7 +167,7 @@ More, more!13 TLC’s performance consistently improves as we consider more moda
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/batesTemplateAllYou2023/image-7-x57-y453.png]]
+![[image-7-x57-y453.png]]
 
 
 

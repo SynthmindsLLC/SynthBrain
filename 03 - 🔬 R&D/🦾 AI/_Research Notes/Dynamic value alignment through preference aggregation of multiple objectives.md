@@ -144,7 +144,7 @@ train a separate Deep Q-Network (DQN) for each of our objectives.” Yellow High
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/koreckiDynamicValueAlignment2023/image-5-x65-y465.png]]
+![[image-5-x65-y465.png]]
 
 
 
@@ -184,7 +184,7 @@ A common problem that could affect the system is strategic voting, whereby users
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/koreckiDynamicValueAlignment2023/image-8-x61-y407.png]]
+![[image-8-x61-y407.png]]
 
 
 

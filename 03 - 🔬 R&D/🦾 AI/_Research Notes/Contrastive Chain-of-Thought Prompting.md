@@ -38,7 +38,7 @@ Upon evaluating the research, some critiques include:
 - #Contrastive-Learning
 
 # Annotations
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/chiaContrastiveChainofThoughtPrompting2023/image-1-x296-y309.png]]
+![[image-1-x296-y309.png]]
 
 
 
@@ -74,7 +74,7 @@ Language templates are the textual hints that guide the language model to derive
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/chiaContrastiveChainofThoughtPrompting2023/image-5-x55-y637.png]]
+![[image-5-x55-y637.png]]
 
 
 
