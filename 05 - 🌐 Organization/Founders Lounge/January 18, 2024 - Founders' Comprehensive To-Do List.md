@@ -9,8 +9,8 @@ Rewrite - dont change any language, just change the tags, dont add any index, ju
 ## Course Development & Marketing
 
 - [ ] #GodaGo : Develop a comprehensive course tailored for working women, considering their unique schedules and challenges. Ensure the content is engaging and accessible. [#todo](app://obsidian.md/index.html#todo)
-- [ ] #WilliamShields : Collaborate with GodaGo on course content, focusing on asynchronous and live components balance. Investigate potential partnerships for enhanced course delivery. [#todo](app://obsidian.md/index.html#todo)
-- [ ] **[#All](app://obsidian.md/index.html#All)**: Contribute to the marketing strategy by providing insights into targeted demographics, optimal launch timing, and engagement methods. Finalize decisions on pricing and structure. [#todo](app://obsidian.md/index.html#todo)
+- [x] #WilliamShields : Collaborate with GodaGo on course content, focusing on asynchronous and live components balance. Investigate potential partnerships for enhanced course delivery. [#todo](app://obsidian.md/index.html#todo)
+- [x] **[#All](app://obsidian.md/index.html#All)**: Contribute to the marketing strategy by providing insights into targeted demographics, optimal launch timing, and engagement methods. Finalize decisions on pricing and structure. [#todo](app://obsidian.md/index.html#todo)
 
 ## Platform & Engagement
 
@@ -19,7 +19,7 @@ Rewrite - dont change any language, just change the tags, dont add any index, ju
 
 ## Collaboration & Feedback
 
-- [ ] #UrosPesic : Review the proposed course structure once available, provide constructive feedback, and assist in refining the material. Participate in strategic meetings with marketing agencies to align campaign strategies with our goals. [#todo](app://obsidian.md/index.html#todo)
+- [x] #UrosPesic : Review the proposed course structure once available, provide constructive feedback, and assist in refining the material. Participate in strategic meetings with marketing agencies to align campaign strategies with our goals. [#todo](app://obsidian.md/index.html#todo)
 
 ## Legal & Corporate Governance
 
@@ -31,11 +31,11 @@ Rewrite - dont change any language, just change the tags, dont add any index, ju
 
 ### Board & Directorship:
 
-- [ ] **[#All](app://obsidian.md/index.html#All)**: Agree on the quorum for Board of Directors meetings (3.8) and review the list of actions requiring Stockholders' Supermajority Approval before the Board can proceed (3.9). Discuss and finalize the removal process for Directors (3.14) to ensure fair governance. [#todo](app://obsidian.md/index.html#todo)
+- [x] **[#All](app://obsidian.md/index.html#All)**: Agree on the quorum for Board of Directors meetings (3.8) and review the list of actions requiring Stockholders' Supermajority Approval before the Board can proceed (3.9). Discuss and finalize the removal process for Directors (3.14) to ensure fair governance. [#todo](app://obsidian.md/index.html#todo)
 
 ### Operational Efficiency:
 
-- [ ] **[#All](app://obsidian.md/index.html#All)**: Consider how to remove Officers by the Board without unnecessary stockholder approvals, to avoid bureaucratic slowdowns while ensuring accountability (5.4). [#todo](app://obsidian.md/index.html#todo)
+- [x] **[#All](app://obsidian.md/index.html#All)**: Consider how to remove Officers by the Board without unnecessary stockholder approvals, to avoid bureaucratic slowdowns while ensuring accountability (5.4). [#todo](app://obsidian.md/index.html#todo)
 
 ## Tax Considerations & Equity
 

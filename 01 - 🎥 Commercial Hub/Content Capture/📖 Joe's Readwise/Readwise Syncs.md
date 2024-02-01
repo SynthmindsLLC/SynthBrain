@@ -423,3 +423,23 @@
     - 37 highlights from Algorithms to Live By
     - 2 highlights from AI NEWS | OpenAI Launches GPT Mentions | Brave Browser Adds Mixtral | Lying LLMs & Lucid Dreaming
 
+[[2024-01-28]] 7:39 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from First on CNN: Three US Troops Killed in Drone Attack in Jordan, More Than 30 Injured
+
+[[2024-01-30]] 6:23 PM — Synced 16 highlights from 4 documents.
+    - 4 highlights from ChatGPT is leaking passwords from private conversations of its users, Ars reader says
+    - 3 highlights from Why GPT-5 Could Hurt OpenAI's Future
+    - 8 highlights from AI spam is already starting to ruin the internet
+    - 1 highlights from Building AI Guardrails Should Be Part of the Process
+
+[[2024-01-30]] 6:01 AM — Synced 0 highlights from 0 documents.
+
+[[2024-01-31]] 9:10 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from As Fury With Harvard Grows, Aggrieved Students and Alums Look for New Ways to Change University’s Course
+
+[[2024-01-31]] 11:10 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from AI Can Better Retain What It Learns by Mimicking Human Sleep
+
+[[2024-02-01]] 7:15 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from Interesting Content in AI, Software, Business, and Tech- 01/31/2024 [Updates]
+
