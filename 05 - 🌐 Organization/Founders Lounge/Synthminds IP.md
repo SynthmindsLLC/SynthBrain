@@ -16,7 +16,7 @@ Notes:
 | Professor Synapse (and other bots) |  |  | X |  |
 | Contracts (Unexecuted) |  |  |  | X |
 | Contracts (Executed) | X |  |  |  |
-| Uplimit Agency | Commish | Commish | Commish | X |
+| Upwork Agency | Commish | Commish | Commish | X |
 | Domain Name |  |  |  | X |
 | Training/Consulting Materials |  |  |  | X |
 | Prompts |  |  |  | X |

@@ -29,7 +29,7 @@ tags:
 
 ## Stuck/Pending Customer Reply
 
-- [ ] [[Solution, Radoslav - ER Modeling, Goda's Linkedin]]<br>Due Date: (@2024-01-26)<br>**Priority**: Medium<br>Tags: #UrosPesic #JamesGriffing
+- [x] [[Solution, Radoslav - ER Modeling, Goda's Linkedin]]<br>Due Date: (@2024-01-26)<br>**Priority**: Medium<br>Tags: #UrosPesic #JamesGriffing
 
 
 ## Completed
