@@ -11,7 +11,7 @@ Below is a task details, but taken from the internal chat, they are not in the t
 - [x] #UrosPesic #todo Research and identify potential business banks that offer multicurrency accounts.
 - [x] #DanRosenbaum #todo Compare the fees and services of the shortlisted banks.
 - [ ] #UrosPesic #todo Check the requirements for opening a business bank account with the chosen bank.
-- [ ] #WilliamShields #todo Make a decision on which bank to proceed with based on the gathered information.
+- [x] #WilliamShields #todo Make a decision on which bank to proceed with based on the gathered information.
 
 ### Task Breakdown:
 

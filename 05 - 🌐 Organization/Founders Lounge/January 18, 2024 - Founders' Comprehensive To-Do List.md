@@ -45,11 +45,11 @@ Rewrite - dont change any language, just change the tags, dont add any index, ju
 
 ### Document Completion:
 
-- [ ] **[#All](app://obsidian.md/index.html#All)**: Complete and sign all necessary documents related to stock purchase agreements and Section 83(b) elections, ensuring that all founders are aligned on equity distribution and tax strategies. [#todo](app://obsidian.md/index.html#todo)
+- [x] **[#All](app://obsidian.md/index.html#All)**: Complete and sign all necessary documents related to stock purchase agreements and Section 83(b) elections, ensuring that all founders are aligned on equity distribution and tax strategies. [#todo](app://obsidian.md/index.html#todo)
 
 ### Filing with IRS:
 
-- [ ] **[#All Eligible Founders](app://obsidian.md/index.html#All)**: If applicable, file Section 83(b) elections with IRS within the required timeframe, using provided templates and cover letters for guidance. Ensure spouses also sign if necessary. [#todo](app://obsidian.md/index.html#todo)
+- [x] **[#All Eligible Founders](app://obsidian.md/index.html#All)**: If applicable, file Section 83(b) elections with IRS within the required timeframe, using provided templates and cover letters for guidance. Ensure spouses also sign if necessary. [#todo](app://obsidian.md/index.html#todo)
 
 ## Final Notes
 
