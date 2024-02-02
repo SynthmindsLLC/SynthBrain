@@ -3,35 +3,40 @@
 ### Introduction
 Mira Murati stands out as a significant figure in the realm of [[artificial intelligence]] (AI), known for her pioneering role and leadership at [[OpenAI]]. Her journey is marked by significant contributions to some of the most advanced AI technologies in the world.
 
-### Early Life and Education
-Born on December 16, 1988, in Vlorë, Albania, Murati's early life set the stage for her future achievements. Her journey to Canada as a teenager for education and her subsequent academic pursuits in the United States at Dartmouth College, where she earned a degree in mechanical engineering, reflect her commitment to technical excellence.
+## Early Life and Education
 
-### Career
-#### Goldman Sachs and Zodiac Aerospace
-Murati's career began with internships at prestigious institutions like Goldman Sachs, followed by a role at Zodiac Aerospace. These early experiences laid the foundation for her expertise in technology and product management.
+Mira Murati was born on December 16, 1988, in Vlorë, Albania[1][3]. She began her academic journey at Pearson College UWC in Canada, where she earned an International Baccalaureate diploma in 2007[3]. She then pursued a Bachelor of Engineering degree at the Thayer School of Engineering at Dartmouth[4][7].
 
-#### Key Role at Tesla
-At [[Tesla]], Murati made significant strides as the Senior Product Manager for the Model X. Her work on early versions of Autopilot showcased her expertise in merging technology with practical applications, marking a significant contribution to the automotive and tech industries.
+## Career
 
-#### Leap Motion and Focus on AI
-Joining Leap Motion marked Murati's increasing focus on AI and human-computer interfaces. Her role in developing motion-sensing technologies for virtual and augmented reality further enhanced her skill set in bridging technological innovations with user needs.
+Before joining [[OpenAI]], Murati had a diverse career in the tech industry. She worked at [[Tesla]] Motors, where she led the design, development, and launch of vehicle products, including the groundbreaking [[Model X]] project from 2013[3][7]. She also led the product and engineering teams at [[Leap Motion]][7].
 
-### Role at OpenAI
-#### Joining OpenAI
-Murati's move to OpenAI in 2018 as Vice President of Applied AI and Partnerships was a pivotal point in her career. Her leadership in commercializing OpenAI's products and enhancing them through human input underlined her capacity to merge technical innovation with practical applications.
+Murati joined OpenAI in 2018[1][2]. She initially served on the leadership teams that developed OpenAI’s revolutionary [[ChatGPT]] and [[Dall-E]], and managed the Reinforcement Learning research team[7]. She later assumed the role of Chief Technology Officer (CTO), spearheading critical projects such as ChatGPT, DALL-E, and Codex while overseeing the company’s research, product development, and safety divisions[3]. 
 
-#### Contributions to AI Projects
-Murati was instrumental in the development of groundbreaking AI projects like ChatGPT, DALL-E, and Codex. Her role in overseeing these projects as CTO, and later as interim CEO, highlights her ability to lead and innovate in the complex field of AI.
+On November 17, 2023, Murati assumed the role of interim CEO at OpenAI following the departure of Sam Altman, marking a significant transition for the company[3]. 
 
-### Personal Life
-Murati's personal interests, including her favorite song, book, and movie, provide a glimpse into the influences that shape her perspectives and creativity. Her engagement with diverse cultural and artistic expressions complements her technological endeavors.
+## Contributions and Recognition
 
-### Contributions and Impact
-#### Leadership in AI Development and Ethics
-As a leader in AI, Murati's vision extends beyond technological development to include ethical considerations. Her advocacy for safe and responsible AI development positions her as a thought leader in ensuring AI's beneficial impact on society.
+Murati is known for her significant contributions to the field of artificial intelligence (AI). She has been instrumental in the development of several AI technologies, including ChatGPT, DALL-E, and [[GPT-4]][1]. Her work has earned her recognition as one of the most influential innovators in technology and AI[7]. 
 
-### Challenges and Perspectives
-Addressing ethical concerns and the societal impact of AI has been a central aspect of Murati's work. Her insights into the potential dangers of AI and the need for diverse voices in its development reflect her commitment to responsible innovation.
+[[Microsoft]] CEO [[Satya Nadella]], writing about Murati for the 2023 Time 100 Next list recognizing rising leaders across industries, praised her ability to assemble teams with technical commercial acumen and a deep appreciation for the importance of mission[1].
+
+## Net Worth
+
+As of 2023, Mira Murati's estimated net worth reached $5 million, reflecting her success and influence in the industry[3].
+
+## Philosophy
+
+Murati is known for her commitment to ensuring the safety and usefulness of AI. She does not advocate for AI to completely take over specific jobs or operations but instead seeks to create helpful tools based on AI that can improve the world[4]. She also emphasizes the importance of bringing in different voices, like philosophers, social scientists, artists, and people from the humanities, to consider the societal impact and ethical and philosophical questions related to AI[4].
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Mira_Murati
+[2] https://www.fastcompany.com/90855799/6-things-to-know-about-openais-mira-murati-the-most-interesting-person-in-tech-right-now
+[3] https://aidigitalx.com/mira-murati-biography-leading-ai-innovator/
+[4] https://kitrum.com/blog/empowering-women-in-tech-the-inspiring-story-of-mira-murati-cto-of-openai/
+[5] https://www.nytimes.com/2023/11/17/technology/mira-murati-openai.html
+[6] https://www.microsoft.com/en-us/behind-the-tech/mira-murati-chief-technology-officer-openai
+[7] https://girlgeek.io/speaker/mira-murati/
 
 ### Conclusion
 Mira Murati's journey in AI is characterized by technical expertise, innovative leadership, and a deep understanding of AI's societal implications. Her contributions at OpenAI and her vision for AI's role in society exemplify her influence in shaping the future of technology.

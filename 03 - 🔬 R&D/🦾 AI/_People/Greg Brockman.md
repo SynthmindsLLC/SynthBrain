@@ -4,27 +4,28 @@
 Greg Brockman stands as a pivotal figure in the field of [[artificial intelligence]], known for his significant contributions and leadership in tech giants like [[Google]], [[Stripe]], and notably, [[OpenAI]]. His journey from a software engineer to a leading voice in AI showcases his profound impact on technology and innovation.
 
 ### Early Life and Education
-Greg Brockman's journey began with a passion for technology and innovation. His early achievements in science and mathematics laid the foundation for his future endeavors. He displayed exceptional talent in these fields, earning recognition in national science competitions and showcasing a penchant for problem-solving and critical thinking.
+Greg Brockman was born on November 29, 1987, in Thompson, North Dakota. He attended Red River High School, where he excelled in mathematics, chemistry, and computer science. Brockman won a silver medal in the 2006 International Chemistry Olympiad and was a finalist in the 2007 Canada/USA Mathcamp, a summer program for mathematically talented high-school students. He enrolled in Harvard University in 2008 but left after a year and briefly attended the Massachusetts Institute of Technology (MIT) before dropping out[
 
 ### Career
 #### Early Career at Google
 Brockman's professional journey commenced at [[Google]], where he contributed to pivotal projects like [[Google Maps]], [[Google Translate]], and [[Google Voice]]. His work in these areas not only honed his technical skills but also instilled a deep understanding of the transformative power of technology.
 
 #### Time at Stripe
-In 2012, Brockman's career trajectory took a significant turn as he joined [[Stripe]], a burgeoning fintech company. As the Chief Technology Officer, he played a crucial role in scaling Stripe from a startup to a global powerhouse, demonstrating his prowess in tech leadership and innovation.
+Brockman's career began in earnest when he joined [[Stripe, Inc.]] in 2010, a company co-founded by Patrick Collison, an MIT classmate, and his brother, John Collison. By 2013, he became Stripe's first-ever Chief Technology Officer (CTO) and was instrumental in growing the company from 5 to 205 employees. He left Stripe in May 2015[
 
-#### Joining OpenAI
-Brockman's move to [[OpenAI]] in 2019 marked a new chapter in his career. As a co-founder and key leader, he dedicated himself to advancing artificial intelligence in a safe and beneficial manner for humanity. His leadership at OpenAI is a testament to his commitment to ethical technology development.
+In December 2015, Brockman co-founded OpenAI with [[Sam Altman]] and [[Ilya Sutskever]], where he also assumed the role of CTO. His work at OpenAI includes co-leading the development of an AI bot that defeated professional human players in solo games.
+
+Brockman is known for his intense work ethic, reportedly working 60 to 100 hours per week, with around 80% of his time spent coding[
 
 ### Achievements at OpenAI
 Under Brockman's stewardship, OpenAI has achieved remarkable milestones. The development of [[GPT-3]] and [[GPT-4]] stands as a testament to OpenAI's prowess in language processing models. Brockman's role in forging partnerships with entities like [[Microsoft]] and the [[Partnership on AI]] further emphasizes his ability to drive AI innovation while ensuring its ethical progression.
+### Contributions and Philosophy
 
-### Personal Life
-Brockman's personal life, particularly his marriage in 2019, reflects the balance he maintains between his professional achievements and personal commitments, underscoring his multifaceted personality.
+Brockman's approach to his work is characterized by a desire to significantly amplify the output and performance of his team and company. He is also deeply involved in thinking about the big questions facing OpenAI, such as AI safety and the ethical implications of AI technology[
 
-### Contributions and Impact
-Brockman's vision for AI extends beyond technological advancements; he aspires to harness AI for addressing global challenges like climate change and healthcare. His approach to developing AI responsibly has made a profound impact on the tech industry, positioning him as a visionary leader.
+His path to OpenAI was influenced by his interest in programming and AI, which began during a gap year after high school, and was further inspired by the notion of writing code that could understand things beyond his own understanding[
 
+Brockman's contributions to the field of AI and his role as a pioneer have earned him recognition, including a spot on the Forbes 30 Under 30 list in Enterprise Technology
 ### Challenges and Controversies
 Despite his achievements, Brockman's journey is not without challenges. Navigating the ethical dilemmas and safety concerns surrounding AI, he advocates for responsible development and deployment of AI technologies, emphasizing the importance of addressing policy issues and potential risks.
 

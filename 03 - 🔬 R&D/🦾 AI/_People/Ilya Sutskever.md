@@ -8,22 +8,25 @@ Born in Russia in 1984 and later immigrating to Canada, Sutskever's journey in A
 
 He was also a postdoc with [[Andrew Ng]] in 2012
 
-### Contributions to AI
-#### Deep Learning and Neural Networks
-Sutskever's research has been pivotal in developing deep learning. His 2012 co-authored paper on [[AlexNet]] laid the foundation for many techniques in this subfield. These networks have since become integral in recognizing complex patterns in data.
+### Early Life and Education
 
-#### Neural Machine Translation
-In 2014, Sutskever co-authored a revolutionary paper on machine translation using deep neural networks. His sequence to sequence (seq2seq) modeling led to significant improvements in machine translation quality and is widely used in various systems.
+Ilya Sutskever was born in Nizhny Novgorod, Russia, then part of the Soviet Union, and immigrated with his family to Israel at the age of 5. He spent his formative years in Jerusalem and attended the Open University of Israel between 2000 and 2002. He then moved to Canada, where he pursued a Bachelor's degree in Mathematics at the University of Toronto.
 
-#### Reinforcement Learning
-Sutskever also contributed to reinforcement learning, a branch of AI focused on decision-making. His work in this field has accelerated the learning process, paving the way for more advanced AI applications. working on [[AlphaGo]].
+### Career
 
-### Role at OpenAI
-In 2015, Sutskever co-founded OpenAI, marking a significant milestone in his career. At OpenAI, he has led research on various groundbreaking AI projects, pushing the boundaries of AI technology while advocating for its safe and beneficial use.
+Sutskever's career in artificial intelligence (AI) began at the University of Toronto, where he worked with [[Geoffrey Hinton]], a pioneer in the field of deep learning. He then spent three years as a Research Scientist at the [[Google Brain]] Team. During his time at [[Google]], he co-invented [[AlexNet]] and [[Sequence to Sequence Learning]]. In 2015, Sutskever co-founded [[OpenAI]] and served as its Chief Scientist. He played a key role in developing large language models, including [[GPT-2]], [[GPT-3]], and the text-to-image model [[DALL-E]]. He also served on the OpenAI board.
 
-### Impact and Legacy
-#### Influence in AI
-Sutskever's influence in AI is extensive. His innovations have not only advanced the field but also set the direction for future research and applications. His work has been recognized worldwide, including his election as a Fellow of the Royal Society.
+### Contributions and Recognition
+
+Sutskever's contributions to AI have been significant. He is one of the architects behind the GPT models, which have revolutionized the field of AI. He was named in MIT Technology Review's 35 Innovators Under 35 in 2015 and was elected a Fellow of the Royal Society (FRS) in 2022.
+
+### Philosophy
+
+Sutskever is known for his concern about the safety of AI. He believes in the power of AI to both empower and potentially harm society, and he is prepared to use a significant amount of OpenAI’s resources to create safeguards against potential risks. He has emphasized the importance of alignment—steering AI systems to ensure they do not go rogue.
+
+### Recent Developments
+
+In 2023, Sutskever was involved in a leadership shakeup at OpenAI, which resulted in the ousting of CEO Sam Altman. The disagreement reportedly centered around the speed of commercializing generative AI products and the issue of AI safety. Following these events, Sutskever stepped down from the board of OpenAI.
 
 ### Conclusion
 Ilya Sutskever's contributions to AI are monumental. His work in deep learning, neural machine translation, and reinforcement learning has reshaped our understanding and capabilities in AI. Through his leadership at OpenAI, Sutskever continues to be at the forefront of AI innovation, balancing technological progress with ethical considerations.
