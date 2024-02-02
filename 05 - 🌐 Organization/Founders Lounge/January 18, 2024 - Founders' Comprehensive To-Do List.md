@@ -25,7 +25,7 @@ Rewrite - dont change any language, just change the tags, dont add any index, ju
 
 ### Bylaws Review:
 
-- [ ] **[#All](app://obsidian.md/index.html#All)**: Deliberate on key clauses such as quorum requirements for stockholders' meetings (2.6), voting percentages (2.9
+- [x] **[#All](app://obsidian.md/index.html#All)**: Deliberate on key clauses such as quorum requirements for stockholders' meetings (2.6), voting percentages (2.9
 
 ), and the number and decision-making process of the Board of Directors (3.2, 3.9). Ensure a balance between protecting minority stockholders' interests and maintaining operational flexibility. [#todo](app://obsidian.md/index.html#todo)
 
