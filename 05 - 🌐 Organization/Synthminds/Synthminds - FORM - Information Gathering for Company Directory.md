@@ -27,11 +27,11 @@ Thank you for your cooperation and for being an integral part of Synthminds' evo
 ## Position and Role Clarification
 
 - **Previous Responsibilities:** What essential functions and responsibilities have you taken on for Synthminds?
-- **Desired Responsibilities**: List the responsibilities you are uniquely able to fill. What strengths do you bring plan to bring?
+- **Desired Responsibilities**: List the responsibilities you are uniquely able to fill. What strengths do you bring / plan to bring?
 - **Previous Time Commitment**: (average hours per week)
 - **Future Time commitment**: How many hours on average are you able to contribute each week for the next 2 months?
 - **List of Past Contributions**: What have you created or done so far for Synthminds since you started?
-- **List of Intended Contributions:** What will you create or do in the next 2 months for Synthminds?
+- **List of Intended Contributions:** What will you create or do in the next 2 months for Synthminds? 
 - **Additional Value Adds**: list anything not captured here, such as social capital, a specific knowledge or skill, etc. 
 
 ## Values Alignment
