@@ -1,3 +1,8 @@
+[[2024-02-04]]
+- Notion
+- Org Structure overview [[Business Model Canvas.canvas|Business Model Canvas]]
+	- job descriptions
+
 [[2024-01-28]]
 - General
 	- Wes Linkedin - Mr. Robot
