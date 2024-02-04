@@ -2,6 +2,7 @@
 - Notion
 - Org Structure overview [[Business Model Canvas.canvas|Business Model Canvas]]
 	- job descriptions
+- Amy and JK to help out on newsletter - Eldad and David to support
 
 [[2024-01-28]]
 - General

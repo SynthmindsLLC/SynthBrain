@@ -1,4 +1,4 @@
-**Job Title:** Graphic Designer
+**Job Title:** Director of Design
 
 **Location:** Remote
 
