@@ -445,3 +445,10 @@
 
 [[2024-02-02]] 7:46 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-03]] 6:44 AM — Synced 62 highlights from 5 documents.
+    - 4 highlights from Google Is Axing Cached Webpages From Search Results, Tells Everyone to Use Internet Archive Instead
+    - 5 highlights from Nvidia Is ‘Clear Beneficiary’ of Meta’s AI Spending Rush. Its Stock Is Climbing.
+    - 16 highlights from Toward a unified taxonomy of text-based social media use - The Verge
+    - 18 highlights from Google Splits Up Its Responsible AI Team
+    - 19 highlights from The One and the Many
+
