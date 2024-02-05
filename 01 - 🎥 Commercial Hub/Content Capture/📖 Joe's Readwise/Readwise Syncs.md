@@ -454,3 +454,12 @@
 
 [[2024-02-04]] 7:06 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-05]] 6:26 AM — Synced 46 highlights from 7 documents.
+    - 13 highlights from Use Notion AI to Write Better, More Efficient Notes and Docs
+    - 3 highlights from Database Automations – Notion Help Center
+    - 4 highlights from Notion Academy
+    - 4 highlights from Formulas 2.0: How to Use Notion’s New and Improved Formulas With Your Existing Setups
+    - 5 highlights from Get Answers About Work Content Faster With Q&A
+    - 3 highlights from How to Use Notion AI to Work Faster
+    - 14 highlights from Revolutionise Your Workflow With AI Powered Meeting Summaries II Free Notion Template
+
