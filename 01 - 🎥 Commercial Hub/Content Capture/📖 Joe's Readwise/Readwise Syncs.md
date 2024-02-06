@@ -465,3 +465,9 @@
 
 [[2024-02-05]] 7:25 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-06]] 6:50 AM — Synced 28 highlights from 4 documents.
+    - 9 highlights from Deconstructing Geoffrey Hinton’s Weakest Argument
+    - 14 highlights from When Looked at Carefully, OpenAI’s New Study on GPT-4 and Bioweapons Is Deeply Worrisome
+    - 4 highlights from Deepfaked Shit Is Getting Real
+    - 1 highlights from ChatGPT May Have Beaten Its Winter Blues
+
