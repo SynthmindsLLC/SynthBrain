@@ -471,3 +471,6 @@
     - 4 highlights from Deepfaked Shit Is Getting Real
     - 1 highlights from ChatGPT May Have Beaten Its Winter Blues
 
+[[2024-02-07]] 6:35 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Graph Neural Networks in TensorFlow
+
