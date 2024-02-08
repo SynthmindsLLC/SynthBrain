@@ -478,3 +478,6 @@
     - 3 highlights from Meet 'Smaug-72b': The New King of Open-Source AI
     - 4 highlights from Google Deepmind Proposes ‘Self-Discover’ Framework for LLMs, Improves GPT-4 Performance
 
+[[2024-02-08]] 7:15 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+
