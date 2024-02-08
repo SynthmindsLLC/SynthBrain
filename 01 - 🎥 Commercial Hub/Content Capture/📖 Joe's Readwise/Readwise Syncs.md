@@ -481,3 +481,6 @@
 [[2024-02-08]] 7:15 AM — Synced 18 highlights from 1 document.
     - 18 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
 
+[[2024-02-08]] 8:35 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+

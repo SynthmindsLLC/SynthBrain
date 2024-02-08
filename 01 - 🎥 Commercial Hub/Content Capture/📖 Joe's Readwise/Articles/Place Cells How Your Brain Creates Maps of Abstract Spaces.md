@@ -35,3 +35,18 @@
 - the layout of place
   cells is not constant if you look at the activity of a given neuron it would have one place field in this environment different place field in a different environment and maybe showed no activity at all in the third ([View Highlight](https://read.readwise.io/read/01hp49w9qncfcmx916gncscdyy))
 - constitute a remapping of place cell representation of space it can take a variety of different forms and the degree of remapping depends on the similarity between two environments ([View Highlight](https://read.readwise.io/read/01hp49wrrxadgb2erfajevz7xp))
+## New highlights added February 8, 2024 at 8:35 AM
+- place fields clearly relates to the transformation of the environment for example in the case when a mouse was in a cylindrical chamber with a cue card at a certain position rotating the card caused the place fields to rotate accordingly but maintain their relative locations even more interesting example was observed by o'keeffe himself when place feels stretched along with the box when he varied the aspect ratio of the walls
+  hippocampus remapping still remains largely a mysterious phenomenon ([View Highlight](https://read.readwise.io/read/01hp4b1mnmhrfr7pkw78xepqrk))
+- different environments have different internal maps and so the pattern of place cell activity provides information not only about animals position within the environment but also about the identity of the environment itself so what aspects of the environment
+  should be altered for remapping to occur what is enough for the hippocampus to classify two surroundings as different ([View Highlight](https://read.readwise.io/read/01hp4b2ggnbpz7s98qd3jp3d47))
+- even the change in non-spatial features can cause a portion of place cells to remap for example changing the order in the room or fear conditioning if you apply mild electric shock while the mouse is running around in a familiar cage
+  so that it develops the fear of this environment that causes place cells to remap even though nothing about the chamber itself ([View Highlight](https://read.readwise.io/read/01hp4b3a8jccgr24w0x3afw690))
+- additional layer of information about the context not just the physical space and
+  remapping ties this information about physical location in space together with particular events and contexts meaningfully relating to that space ([View Highlight](https://read.readwise.io/read/01hp4b492t7k25hdw1bjd38c7r))
+- let's consider the following landmark experiment reds were trained in a sound manipulation task they were first presented with the sound of a particular frequency and to get the reward the red had to move the joystick which varied the frequency of a tone produced by a speaker ([View Highlight](https://read.readwise.io/read/01hp4b5rpxsvzv9ttxexrhj8s2))
+- they had to make the frequency match the frequency of a sound they heard at the start ([View Highlight](https://read.readwise.io/read/01hp4b62k4ydb11798jabk97p8))
+- as the animal was varying the frequency neurons seemed to have a preferred frequency around which they had high
+  pirate rates and showed almost no activity when the sound produced was in a drastically different range of frequencies ([View Highlight](https://read.readwise.io/read/01hp4b710wz9ekfn7wxcj2b044))
+- they behaved in exactly the same fashion as conventional place cells behave during foraging having a well-defined place feels it's as if the red was mentally navigating in this acoustic space of sounds to find the desired frequency ([View Highlight](https://read.readwise.io/read/01hp4b7jgmgw6aprjjndj8ypw9))
+- hippocampus constructs and tracks continuous variables which are relevant to the task ([View Highlight](https://read.readwise.io/read/01hp4b86eybg36hdwjczkwcx0h))
