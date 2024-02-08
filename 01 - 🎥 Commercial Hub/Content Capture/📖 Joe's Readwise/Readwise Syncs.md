@@ -474,3 +474,7 @@
 [[2024-02-07]] 6:35 AM — Synced 9 highlights from 1 document.
     - 9 highlights from Graph Neural Networks in TensorFlow
 
+[[2024-02-08]] 5:34 AM — Synced 7 highlights from 2 documents.
+    - 3 highlights from Meet 'Smaug-72b': The New King of Open-Source AI
+    - 4 highlights from Google Deepmind Proposes ‘Self-Discover’ Framework for LLMs, Improves GPT-4 Performance
+
