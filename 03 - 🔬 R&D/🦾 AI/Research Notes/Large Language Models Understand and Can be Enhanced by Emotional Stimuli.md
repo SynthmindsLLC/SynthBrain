@@ -12,13 +12,44 @@ Published:
 # Summary
 ## Purpose
 
+- The research was initiated to address the gap in understanding the relationship between emotional intelligence and advanced artificial intelligence (AI) models, which is a significant issue in the field of [Computer Science - Artificial Intelligence]. The purpose of the study was to explore whether Large Language Models (LLMs) can understand psychological emotional stimuli and if such stimuli can enhance their problem-solving abilities.
+
 ## Methods
+
+- Designing 11 sentences as emotional stimuli called EmotionPrompt, which are psychological phrases added after the original prompts to enhance LLM performance.
+- Conducting experiments on 24 Instruction Induction tasks and 21 curated BIG-Bench tasks using various LLMs for deterministic tasks.
+- Performing a human study with 106 participants to determine the quality of generative tasks using both vanilla and emotional prompts based on GPT-4 for generative tasks.
 
 ## Key Findings
 
+- LLMs possess emotional intelligence and can be enhanced by emotional stimuli, showing an 8.00% improvement in Instruction Induction and 115% in BIG-Bench tasks.
+- Emotional prompts significantly boost the performance of generative tasks, with a 10.9% average improvement in terms of performance, truthfulness, and responsibility metrics.
+- Emotional stimuli contribute to the gradients in LLMs by gaining larger weights, enhancing the representation of the original prompts.
+- EmotionPrompt is more effective in few-shot learning settings than zero-shot settings.
+- EmotionPrompt outperforms existing prompt engineering approaches and is compatible with them.
+- EmotionPrompt enhances the capacity for generating ethically responsible responses and stimulates the creative faculties of LLMs.
+
 ## Discussion
 
+The discussion in the research article highlights the significance of the findings and their potential impact on the field of artificial intelligence and human-computer interaction. It suggests that incorporating emotional intelligence into LLMs can improve their performance and make them more adept at handling tasks that benefit from emotional understanding, thus contributing to the advancement of AI towards achieving Artificial General Intelligence (AGI).
+
 ## Critiques
+
+Upon evaluating the research, some critiques include:  
+- The study may have limitations in the generalizability of the findings across different types of LLMs or tasks not covered in the experiments.  
+- The long-term effectiveness and adaptability of EmotionPrompt in dynamic real-world scenarios remain unexplored.  
+- The potential for overfitting to specific emotional stimuli or the risk of anthropomorphizing LLMs by attributing human-like emotional intelligence to them.
+
+## Tags
+
+- [#Computer-Science---Artificial-Intelligence](app://obsidian.md/index.html#Computer-Science---Artificial-Intelligence)
+- [#Computer-Science---Computation-and-Language](app://obsidian.md/index.html#Computer-Science---Computation-and-Language)
+- [#Computer-Science---Human-Computer-Interaction](app://obsidian.md/index.html#Computer-Science---Human-Computer-Interaction)
+- [#Emotional-Intelligence](app://obsidian.md/index.html#Emotional-Intelligence)
+- [#Large-Language-Models](app://obsidian.md/index.html#Large-Language-Models)
+- [#EmotionPrompt](app://obsidian.md/index.html#EmotionPrompt)
+- [#Problem-Solving](app://obsidian.md/index.html#Problem-Solving)
+- [#Human-Study](app://obsidian.md/index.html#Human-Study)
 
 # Annotations
 Emotional intelligence denotes the capacity to adeptly interpret and manage emotion-infused information, subsequently harnessing it to steer cognitive tasks, ranging from problemsolving to behaviors regulations” Yellow Highlight [Page 1](zotero://open-pdf/library/items/D4MVN72A?page=1&annotation=AHXIT67A)
