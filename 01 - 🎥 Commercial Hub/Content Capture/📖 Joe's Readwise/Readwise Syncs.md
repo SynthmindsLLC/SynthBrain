@@ -454,6 +454,9 @@
 
 [[2024-02-04]] 7:06 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-08]] 7:11 PM — Synced 14 highlights from 1 document.
+    - 14 highlights from Gemini Ultra - Full Review
+
 [[2024-02-05]] 6:26 AM — Synced 46 highlights from 7 documents.
     - 13 highlights from Use Notion AI to Write Better, More Efficient Notes and Docs
     - 3 highlights from Database Automations – Notion Help Center
@@ -464,4 +467,29 @@
     - 14 highlights from Revolutionise Your Workflow With AI Powered Meeting Summaries II Free Notion Template
 
 [[2024-02-05]] 7:25 AM — Synced 0 highlights from 0 documents.
+
+[[2024-02-06]] 6:50 AM — Synced 28 highlights from 4 documents.
+    - 9 highlights from Deconstructing Geoffrey Hinton’s Weakest Argument
+    - 14 highlights from When Looked at Carefully, OpenAI’s New Study on GPT-4 and Bioweapons Is Deeply Worrisome
+    - 4 highlights from Deepfaked Shit Is Getting Real
+    - 1 highlights from ChatGPT May Have Beaten Its Winter Blues
+
+[[2024-02-07]] 6:35 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Graph Neural Networks in TensorFlow
+
+[[2024-02-08]] 5:34 AM — Synced 7 highlights from 2 documents.
+    - 3 highlights from Meet 'Smaug-72b': The New King of Open-Source AI
+    - 4 highlights from Google Deepmind Proposes ‘Self-Discover’ Framework for LLMs, Improves GPT-4 Performance
+
+[[2024-02-08]] 7:15 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+
+[[2024-02-08]] 8:35 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+
+[[2024-02-09]] 5:20 AM — Synced 11 highlights from 1 document.
+    - 11 highlights from OpenAI’s Secret Weapon Is the Human Running Its Media Charm Offensive
+
+[[2024-02-09]] 6:20 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from Google's Gemini Advanced: Tasting Notes and Implications
 
