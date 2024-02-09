@@ -454,6 +454,9 @@
 
 [[2024-02-04]] 7:06 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-08]] 7:11 PM — Synced 14 highlights from 1 document.
+    - 14 highlights from Gemini Ultra - Full Review
+
 [[2024-02-05]] 6:26 AM — Synced 46 highlights from 7 documents.
     - 13 highlights from Use Notion AI to Write Better, More Efficient Notes and Docs
     - 3 highlights from Database Automations – Notion Help Center
@@ -483,4 +486,10 @@
 
 [[2024-02-08]] 8:35 AM — Synced 9 highlights from 1 document.
     - 9 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+
+[[2024-02-09]] 5:20 AM — Synced 11 highlights from 1 document.
+    - 11 highlights from OpenAI’s Secret Weapon Is the Human Running Its Media Charm Offensive
+
+[[2024-02-09]] 6:20 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from Google's Gemini Advanced: Tasting Notes and Implications
 
