@@ -493,3 +493,6 @@
 [[2024-02-09]] 6:20 AM — Synced 16 highlights from 1 document.
     - 16 highlights from Google's Gemini Advanced: Tasting Notes and Implications
 
+[[2024-02-10]] 7:31 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Moloch Is Losing! Meaning Crisis, Metacrisis, and Nihilistic Crisis Update - Solutions & Narratives!
+
