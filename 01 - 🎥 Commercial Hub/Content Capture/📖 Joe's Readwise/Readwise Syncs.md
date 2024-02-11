@@ -496,3 +496,7 @@
 [[2024-02-10]] 7:31 AM — Synced 1 highlight from 1 document.
     - 1 highlights from Moloch Is Losing! Meaning Crisis, Metacrisis, and Nihilistic Crisis Update - Solutions & Narratives!
 
+[[2024-02-11]] 6:25 AM — Synced 56 highlights from 2 documents.
+    - 52 highlights from Dendrites: Why Biological Neurons Are Deep Neural Networks
+    - 4 highlights from Meet the Pranksters Behind Goody-2, the World’s ‘Most Responsible’ AI Chatbot
+
