@@ -505,3 +505,5 @@
 [[2024-02-12]] 6:52 AM — Synced 1 highlight from 1 document.
     - 1 highlights from An Open Letter to Sam Altman
 
+[[2024-02-13]] 7:26 AM — Synced 0 highlights from 0 documents.
+
