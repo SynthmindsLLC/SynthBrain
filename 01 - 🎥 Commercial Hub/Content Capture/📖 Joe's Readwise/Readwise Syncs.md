@@ -507,3 +507,7 @@
 
 [[2024-02-13]] 7:26 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-13]] 9:26 PM — Synced 28 highlights from 2 documents.
+    - 8 highlights from OpenAI Gives ChatGPT a Memory
+    - 20 highlights from Sam Altman Wants $7 Trillion
+
