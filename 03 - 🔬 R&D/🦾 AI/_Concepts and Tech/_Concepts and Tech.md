@@ -6,6 +6,8 @@
 - [[large language models]]
 - [[Neural Networks]]
 - [[Prompt Chaining]]
+- [[Resource Description Framework]]
+- [[SPARQL]]
 - [[The Singularity]]
 
 %% End Waypoint %%
