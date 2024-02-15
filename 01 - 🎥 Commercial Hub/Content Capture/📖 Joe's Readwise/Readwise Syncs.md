@@ -511,3 +511,7 @@
     - 8 highlights from OpenAI Gives ChatGPT a Memory
     - 20 highlights from Sam Altman Wants $7 Trillion
 
+[[2024-02-14]] 6:27 PM — Synced 351 highlights from 2 documents.
+    - 328 highlights from Algorithms to Live By
+    - 23 highlights from The Ethical Algorithm
+
