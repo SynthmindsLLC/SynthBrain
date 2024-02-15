@@ -511,7 +511,22 @@
     - 8 highlights from OpenAI Gives ChatGPT a Memory
     - 20 highlights from Sam Altman Wants $7 Trillion
 
+[[2024-02-15]] 5:13 AM — Synced 54 highlights from 9 documents.
+    - 18 highlights from GraphRAG: Unlocking LLM Discovery on Narrative Private Data
+    - 5 highlights from OpenAI Wants Control of Your Devices
+    - 2 highlights from Andrej Karpathy Confirms Departure (Again) From OpenAI
+    - 3 highlights from Top OpenAI Researcher Quits, References "Conspiracy Theories"
+    - 7 highlights from ChatGPT Creator OpenAI May Take on Google With Its Own Internet Search Tool
+    - 7 highlights from Disrupting Malicious Uses of AI by State-Affiliated Threat Actors
+    - 7 highlights from Your AI Girlfriend Is a Data-Harvesting Horror Show
+    - 4 highlights from People are starting to return their Vision Pros - The Verge
+    - 1 highlights from What’s Behind Customers Returning Their Vision Pro Headset?
+
 [[2024-02-14]] 6:27 PM — Synced 351 highlights from 2 documents.
     - 328 highlights from Algorithms to Live By
     - 23 highlights from The Ethical Algorithm
+
+[[2024-02-15]] 6:28 AM — Synced 21 highlights from 2 documents.
+    - 17 highlights from The Ethical Algorithm
+    - 4 highlights from What’s Behind Customers Returning Their Vision Pro Headset?
 
