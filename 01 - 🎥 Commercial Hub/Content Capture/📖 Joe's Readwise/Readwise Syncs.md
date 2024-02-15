@@ -530,3 +530,6 @@
     - 17 highlights from The Ethical Algorithm
     - 4 highlights from What’s Behind Customers Returning Their Vision Pro Headset?
 
+[[2024-02-15]] 11:28 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from Our Next-Generation Model: Gemini 1.5
+
