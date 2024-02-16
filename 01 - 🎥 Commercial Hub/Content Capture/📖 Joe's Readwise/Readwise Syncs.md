@@ -533,3 +533,7 @@
 [[2024-02-15]] 11:28 AM — Synced 14 highlights from 1 document.
     - 14 highlights from Our Next-Generation Model: Gemini 1.5
 
+[[2024-02-16]] 5:47 AM — Synced 40 highlights from 2 documents.
+    - 11 highlights from The Hottest New Programming Language Is English! Or Maybe Not.
+    - 29 highlights from Gemini 1.5 and the Biggest Night in AI
+
