@@ -526,10 +526,20 @@
     - 328 highlights from Algorithms to Live By
     - 23 highlights from The Ethical Algorithm
 
+[[2024-02-15]] 7:28 PM — Synced 24 highlights from 1 document.
+    - 24 highlights from A "Cognitive Bias" Is a Systematic Error in Thinking That...
+
 [[2024-02-15]] 6:28 AM — Synced 21 highlights from 2 documents.
     - 17 highlights from The Ethical Algorithm
     - 4 highlights from What’s Behind Customers Returning Their Vision Pro Headset?
 
 [[2024-02-15]] 11:28 AM — Synced 14 highlights from 1 document.
     - 14 highlights from Our Next-Generation Model: Gemini 1.5
+
+[[2024-02-16]] 5:47 AM — Synced 40 highlights from 2 documents.
+    - 11 highlights from The Hottest New Programming Language Is English! Or Maybe Not.
+    - 29 highlights from Gemini 1.5 and the Biggest Night in AI
+
+[[2024-02-16]] 6:47 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Meet OpenAI's Sora, a Wild AI Text-to-Video Generator
 
