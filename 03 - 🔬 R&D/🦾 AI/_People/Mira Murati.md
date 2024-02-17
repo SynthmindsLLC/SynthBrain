@@ -1,7 +1,7 @@
 ## Mira Murati: Pioneering Leadership in the Evolution of Artificial Intelligence
 
 ### Introduction
-Mira Murati stands out as a significant figure in the realm of [[artificial intelligence]] (AI), known for her pioneering role and leadership at [[OpenAI]]. Her journey is marked by significant contributions to some of the most advanced AI technologies in the world.
+Mira Murati stands out as a significant figure in the realm of [[artificial intelligence]] (AI), known for her pioneering role and leadership at [[OPENAI]]. Her journey is marked by significant contributions to some of the most advanced AI technologies in the world.
 
 ## Early Life and Education
 
@@ -9,7 +9,7 @@ Mira Murati was born on December 16, 1988, in Vlorë, Albania[1][3]. She began h
 
 ## Career
 
-Before joining [[OpenAI]], Murati had a diverse career in the tech industry. She worked at [[Tesla]] Motors, where she led the design, development, and launch of vehicle products, including the groundbreaking [[Model X]] project from 2013[3][7]. She also led the product and engineering teams at [[Leap Motion]][7].
+Before joining [[OPENAI]], Murati had a diverse career in the tech industry. She worked at [[Tesla]] Motors, where she led the design, development, and launch of vehicle products, including the groundbreaking [[Model X]] project from 2013[3][7]. She also led the product and engineering teams at [[Leap Motion]][7].
 
 Murati joined OpenAI in 2018[1][2]. She initially served on the leadership teams that developed OpenAI’s revolutionary [[ChatGPT]] and [[Dall-E]], and managed the Reinforcement Learning research team[7]. She later assumed the role of Chief Technology Officer (CTO), spearheading critical projects such as ChatGPT, DALL-E, and Codex while overseeing the company’s research, product development, and safety divisions[3]. 
 

@@ -1,7 +1,7 @@
 ## Greg Brockman: A Visionary in the Realm of Artificial Intelligence
 
 ### Introduction
-Greg Brockman stands as a pivotal figure in the field of [[artificial intelligence]], known for his significant contributions and leadership in tech giants like [[Google]], [[Stripe]], and notably, [[OpenAI]]. His journey from a software engineer to a leading voice in AI showcases his profound impact on technology and innovation.
+Greg Brockman stands as a pivotal figure in the field of [[artificial intelligence]], known for his significant contributions and leadership in tech giants like [[Google]], [[Stripe]], and notably, [[OPENAI]]. His journey from a software engineer to a leading voice in AI showcases his profound impact on technology and innovation.
 
 ### Early Life and Education
 Greg Brockman was born on November 29, 1987, in Thompson, North Dakota. He attended Red River High School, where he excelled in mathematics, chemistry, and computer science. Brockman won a silver medal in the 2006 International Chemistry Olympiad and was a finalist in the 2007 Canada/USA Mathcamp, a summer program for mathematically talented high-school students. He enrolled in Harvard University in 2008 but left after a year and briefly attended the Massachusetts Institute of Technology (MIT) before dropping out[
