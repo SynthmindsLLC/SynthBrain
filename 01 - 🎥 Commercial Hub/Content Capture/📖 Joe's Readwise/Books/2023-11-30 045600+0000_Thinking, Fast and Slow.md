@@ -1,5 +1,0 @@
-## New highlights added November 30, 2023 at 5:49 AM
-- we are endowed with an ability to evaluate, in a single glance at a stranger’s face, two potentially crucial facts about that person: how dominant (and therefore potentially threatening) he is, and how trustworthy he is, whether his intentions are more likely to be friendly or hostile. ([Location 1488](https://readwise.io/to_kindle?action=open&asin=B00555X8OA&location=1488))
-- The target question is the assessment you intend to produce. The heuristic question is the simpler question that you answer instead. ([Location 1611](https://readwise.io/to_kindle?action=open&asin=B00555X8OA&location=1611))
-- affect heuristic in which people let their likes and dislikes determine their beliefs about the world. ([Location 1701](https://readwise.io/to_kindle?action=open&asin=B00555X8OA&location=1701))
-- Self-criticism is one of the functions of System 2. In the context of attitudes, however, System 2 is more of an apologist for the emotions of System 1 than a critic of those emotions—an endorser rather than an enforcer. ([Location 1714](https://readwise.io/to_kindle?action=open&asin=B00555X8OA&location=1714))
