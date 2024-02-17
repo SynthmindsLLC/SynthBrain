@@ -1,0 +1,22 @@
+# The Desperate Race to Save Generative AI
+
+![rw-book-cover](https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd621a6ab-5341-47b6-8913-b95b177e44ee_1213x1617.png)
+
+## Metadata
+- Author: [[Gary Marcus]]
+- Full Title: The Desperate Race to Save Generative AI
+- Category: #articles
+- URL: https://garymarcus.substack.com/p/the-desperate-race-to-save-generative?r=2kuc99&utm_medium=ios&utm_campaign=post
+
+## Highlights
+- ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd621a6ab-5341-47b6-8913-b95b177e44ee_1213x1617.png) ([View Highlight](https://read.readwise.io/read/01hkntfx6asyvx86yxxq6fjnqw))
+- ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc3e7a58-5524-44a8-93c9-a877183e96a7_1271x695.png) ([View Highlight](https://read.readwise.io/read/01hkntg60n1jwt66p97h41zrkc))
+- **nobody is actually suggesting that OpenAI only use public domain works**. The real suggestion, which OpenAI wants to avoid, is that they pay licensing fees for the commercial works they want to use. ([View Highlight](https://read.readwise.io/read/01hkntp412dsmma2p1tcgbadga))
+- Streamers, for example, license everything they stream; there is literally no conceptual reason why OpenAI could not do the same. They just don’t want to. (Streamers like Netflix and Spotify probably don’t *enjoy* writing fat checks, either.) ([View Highlight](https://read.readwise.io/read/01hkntpeq9xx24xnp65g2mtaje))
+- If the current batch of AI companies cannot create AI that performs reasonably well based on public domain sources and whatever they are prepared to pay to license, they should go back to the drawing board—and figure out how to build software that doesn’t have a plagiarism problem—rather than fleecing artists, writers, and other content providers. ([View Highlight](https://read.readwise.io/read/01hkntwy3s5yvfhtsjgk41wffe))
+- Prominent machine learning expert Andrew Ng, who is involved in many GenAI companies (in part through his Landing.AI) and presumably has a large financial interest in the outcome, lobbied too, in his case to the public.
+  Yesterday Ng wrote a long post on his blog, on [X](https://x.com/andrewyng/status/1744145064115446040?s=61&t=2voLMkhJf6P349CqztWSAQ), and on LinkedIn, implying that the NYT was too aggressive and would perhaps lose. ([View Highlight](https://read.readwise.io/read/01hkntxrpyykyna1zd1h2mqc1x))
+- First he would like to see training of large models construed as fair use, second, he thinks maybe ChatGPT isn’t as bad as the Times made it appear, pointing to a specific AI technique called RAG (see Ng’s nice short explanation below) as a possible culprit that could be worked around ([View Highlight](https://read.readwise.io/read/01hknty9pzvf0na5qdj5czq1wz))
+- ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20b657be-980e-4d2b-9a7d-8c47e5b9a5e6_1170x856.jpeg) ([View Highlight](https://read.readwise.io/read/01hkntyxqvxf5n4gw51atz7f99))
+- ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b08dbbf-59ab-4746-81ad-fea034cada31_1341x669.png) ([View Highlight](https://read.readwise.io/read/01hknv1qr3qn606zmzq80wbwtb))
+- But in the end, nobody will create good, fresh, new content anymore, and the internet will start eating its own tail. We will will all suffer in the end, fed a mediocre stew of regurgitate. ([View Highlight](https://read.readwise.io/read/01hknv2ay8b9eaw68k4d79a1q0))

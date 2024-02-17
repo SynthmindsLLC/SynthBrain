@@ -1,0 +1,15 @@
+### Introduction
+
+In an era where Artificial Intelligence (AI) is pervading every facet of life, governing its use becomes imperative to ensure ethical practices and mitigate risks. The [[European Union]] (EU) took a decisive step in this direction by proposing the [[Artificial Intelligence Act]] (AI Act) in April 2021. This monumental initiative represents the EU's ambition to be at the helm of setting global standards for AI governance. The AI Act is crafted to be a comprehensive legal framework regulating AI across sectors (bar the military) within the EU, setting a precedent on a global scale​[1](https://en.wikipedia.org/wiki/Artificial_Intelligence_Act)​​[2](https://www.europarl.europa.eu/news/en/headlines/society/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence#:~:text=In%20April%202021%2C%20the%20European,world%E2%80%99s%20first%20rules%20on%20AI)​​[3](https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement#:~:text=The%20EU%20AI%20Act%20is,June)​.
+
+### The Regulatory Framework
+
+The AI Act encapsulates a horizontal regulatory approach, implying its applicability across various sectors and types of AI. It caters to both AI systems deployed within the EU and those developed elsewhere but utilized within the EU territories​[1](https://en.wikipedia.org/wiki/Artificial_Intelligence_Act)​​[4](https://datainnovation.org/2021/05/the-artificial-intelligence-act-a-quick-explainer/#:~:text=Summary%3A%20On%2021%20April%202021,based%20in%20Europe%20or%20not)​. This framework is not only about regulating AI but promoting a "trustworthy AI" paradigm that aligns with the democratic values, human rights, and rule of law upheld by the EU​[5](https://law.stanford.edu/publications/eu-artificial-intelligence-act-the-european-approach-to-ai/)​.
+
+### Risk-Based Classification
+
+A hallmark of the AI Act is its risk-based approach to regulation. AI systems are scrutinized and categorized based on the risk they pose to users, which then dictates the level of regulation they are subjected to. Four risk categories form the crux of this classification, each entailing specific regulatory requirements ranging from mandatory certification for high-risk AI systems to lighter legal regimes for negligible risk AI applications​[5](https://law.stanford.edu/publications/eu-artificial-intelligence-act-the-european-approach-to-ai/)​.
+
+### Enforcement and Penalties
+
+To ensure adherence to the laid down regulations, the Act provisions for the establishment of the [[European Artificial Intelligence Board]] (EAIB) at the Union level. The EAIB, along with national supervisors, will oversee the compliance of AI systems with the Act's stipulations. Penalties for violations can be severe, with fines scaling up to 6% of global turnover or 30 million euros for private entities, reminiscent of the hefty fines under the [[General Data Protection Regulation]] (GDPR)​[5](https://law.stanford.edu/publications/eu-artificial-intelligence-act-the-european-approach-to-ai/)​.
