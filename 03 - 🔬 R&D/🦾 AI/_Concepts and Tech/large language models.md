@@ -1,4 +1,4 @@
-Large language models (LLMs) are deep learning algorithms that can recognize, summarize, translate, predict, and generate content using very large datasets[3]. They are pre-trained on vast amounts of data and use transformer models, which are neural networks that learn context and meaning by tracking relationships in text[1][3]. Some popular LLMs include GPT-3 and GPT-4 from [[OpenAI]], LLaMA from [[Meta]], and [[PaLM2]] from [[Google]][4].
+Large language models (LLMs) are deep learning algorithms that can recognize, summarize, translate, predict, and generate content using very large datasets[3]. They are pre-trained on vast amounts of data and use transformer models, which are neural networks that learn context and meaning by tracking relationships in text[1][3]. Some popular LLMs include GPT-3 and GPT-4 from [[OPENAI]], LLaMA from [[Meta]], and [[PaLM2]] from [[Google]][4].
 
 LLMs have several benefits and applications:
 
