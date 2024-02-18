@@ -545,3 +545,11 @@
 
 [[2024-02-17]] 7:48 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-18]] 6:11 AM — Synced 49 highlights from 3 documents.
+    - 3 highlights from Death of a Chatbot, Body Blow to an Industry
+    - 17 highlights from Sora Can’t Handle the Truth
+    - 29 highlights from Sora - Full Analysis
+
+[[2024-02-18]] 7:58 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from Absolutely Amazing Ant Video Augurs Intellectual Mayhem
+
