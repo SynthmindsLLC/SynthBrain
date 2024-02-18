@@ -14,7 +14,7 @@ Below is a task details, but taken from the internal chat, they are not in the t
 - [ ] #WilliamShields to create technical state pitch deck slides for investor presentation. #todo
 - [ ] #WilliamShields to estimate development costs and enduring operating costs for the project. #todo
 - [ ] #WilliamShields to organize live presentations of all deliverables for the team and potential investors. #todo
-- [ ] #UrosPesic to review HIPAA compliance component costs and integration with cloud-hosted solutions and mobile app interfaces. #todo
+- [x] #UrosPesic to review HIPAA compliance component costs and integration with cloud-hosted solutions and mobile app interfaces. #todo
 
 #### Task Breakdown:
 
