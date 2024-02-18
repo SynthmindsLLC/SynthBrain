@@ -1,3 +1,59 @@
+
+[[2024-02-18]]
+**1. Opening Remarks**
+- Welcome and brief introduction
+- Acknowledgement of Goda's absence due to personal matters
+
+**2. Uplimit Debrief**
+- Overview of Uplimit outcomes and follow-ups
+- Discussion of lessons learned and next steps
+
+**3. Newsletter Updates**
+- Progress report by Amy and JK on the newsletter
+- Support from Eldad and David
+- Introduction of Senja by Josh and its integration with the newsletter
+
+**4. Notion and Communication Automation**
+- Update on Notion setup and AI functionality
+- Introduction of the commercial team as Notion 'guinea pigs', but we can send out invites to all if people want to observe
+- will be working to connect Gchat integration with Notion
+- Encouragement to interact with Notion via natural language
+
+**5. Synth Brain and Second Brain Productization**
+- Update on James and Obsistants
+- Encouragement to learn Obsidian and watch Joe's instructional videos, and you have a bunch of people who can answer any and all questions - invite everyone to obsidian group we'll invite everyone to 
+- Discussion on the development of the Synth Brain as a public knowledge base
+
+**6. Project and Deals Update**
+- Status of deals
+	- India: Call for volunteers to migrate course content to Kajabi (excluding Uros, James, David, Sjoerd, Amy, Eldad, Tomer)
+	- HP
+	- Innervation
+
+**7. Branding and Feedback**
+- Presentation of branding updates
+- Live feedback session
+- Reminder to complete the branding survey
+
+**8. Advanced Prompt Engineering Course**
+- Announcement of the upcoming course led by yours truly
+- Instructions to sign up for the YU course
+- Request for feedback on the course content
+
+**9. Open Floor**
+- Time for staff to add points, ask questions, or share updates
+
+**10. Closing Remarks**
+- Summary of action items and responsibilities
+- Confirmation of the next meeting date and time
+
+**Action Items:**
+- 
+
+---
+
+Please review the agenda and make any necessary adjustments or additions to ensure it covers all the topics you wish to discuss during the meeting.
+
 [[2024-02-04]]
 - Notion
 - Org Structure overview [[Business Model Canvas.canvas|Business Model Canvas]]
