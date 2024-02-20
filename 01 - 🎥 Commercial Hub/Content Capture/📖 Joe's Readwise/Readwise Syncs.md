@@ -555,3 +555,7 @@
 
 [[2024-02-19]] 8:53 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-19]] 6:19 PM — Synced 17 highlights from 2 documents.
+    - 9 highlights from Google’s AI Boss Says Scale Only Gets You So Far
+    - 8 highlights from The Women in AI Making a Difference
+
