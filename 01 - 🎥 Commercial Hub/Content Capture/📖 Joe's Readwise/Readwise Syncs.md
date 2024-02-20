@@ -559,3 +559,9 @@
     - 9 highlights from Google’s AI Boss Says Scale Only Gets You So Far
     - 8 highlights from The Women in AI Making a Difference
 
+[[2024-02-20]] 6:38 AM — Synced 51 highlights from 4 documents.
+    - 22 highlights from The Ethical Algorithm
+    - 9 highlights from As OpenAI’s Sora Blows Us Away With AI-generated Videos, the Information Age Is Over – Let the Disinformation Age Begin
+    - 9 highlights from Judge Rejects Most ChatGPT Copyright Claims From Book Authors
+    - 11 highlights from LargeWorldModel/LWM
+
