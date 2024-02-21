@@ -350,7 +350,7 @@ The study titled "Large Language Models Understand and Can be Enhanced by Emotio
 
 The research introduces "EmotionPrompt," a series of psychological phrases designed to be appended to traditional prompts, thereby imbuing them with an emotional context. This innovative approach has been shown to enhance the problem-solving abilities of LLMs, leading to an impressive improvement in task performance.
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/liLargeLanguageModels2023/image-2-x152-y551.png]]
+![[image-2-x152-y551.png]]
 
 To leverage the power of emotional intelligence in prompt engineering, one must consider the emotional tone and context that will most effectively engage the LLM. For example, prompts that include phrases such as "This is very important to my career" or "I believe in your abilities" can elicit a more focused response from the AI. The study suggests that such emotionally charged prompts can lead to outputs that are not only more accurate but also more creative and empathetic.
 
@@ -872,7 +872,7 @@ S2A is like the wise sage inside AI, inspired by how we humans tackle tough prob
 
 Now, this is where AI becomes an architect of thought! SELF-DISCOVER helps AI build a blueprint for solving problems. First, it sketches out a plan (think: drawing board), and then it follows this blueprint step by step to construct the final masterpiece of an answer. It's like watching AI lay down bricks of reasoning to build a castle of conclusions! 🏰✨
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-12-x43-y318.png]]
+![[image-12-x43-y318.png]]
 
 #### 🧙🏾‍♂️ Super Synapse Prompt: The Maestro of Minds 🎼👨‍🎓
 

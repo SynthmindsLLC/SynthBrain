@@ -72,7 +72,7 @@ This paper aims at understanding the relationship between emotional intelligence
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/liLargeLanguageModels2023/image-2-x152-y551.png]]
+![[image-2-x152-y551.png]]
 
 
 
@@ -132,7 +132,7 @@ we analyze the performance of the combination of various emotional prompts and f
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/liLargeLanguageModels2023/image-3-x87-y100.png]]
+![[image-3-x87-y100.png]]
 
 
 
@@ -180,7 +180,7 @@ EmotionPrompt outperforms existing existing prompt engineering approaches such a
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/liLargeLanguageModels2023/image-7-x105-y200.png]]
+![[image-7-x105-y200.png]]
 
 
 
@@ -188,7 +188,7 @@ In a subsequent validation phase, we undertook a comprehensive study involving 1
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/liLargeLanguageModels2023/image-9-x96-y530.png]]
+![[image-9-x96-y530.png]]
 
 
 
@@ -208,7 +208,7 @@ EmotionPrompt stimulates the creative faculties and overarching cognizance of LL
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/liLargeLanguageModels2023/image-12-x88-y535.png]]
+![[image-12-x88-y535.png]]
 
 
 

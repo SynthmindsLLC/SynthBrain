@@ -45,6 +45,10 @@
 
 	- **liElicitingHumanPreferences2023**
 
+	- **lightmanLetVerifyStep2023**
+
+	- **liLargeLanguageModels2023**
+
 	- **liuTeachingCS50AI**
 
 	- **magoodaFrameworkAutomatedMeasurement2023**
@@ -85,6 +89,8 @@
 
 	- **tunstallZephyrDirectDistillation2023**
 
+	- **wanCognitiveAISystems2024**
+
 	- **weiChainofThoughtPromptingElicits2023**
 
 	- **westonSystemAttentionSomething2023**
@@ -102,6 +108,8 @@
 	- **yuEALMIntroducingMultidimensional2023**
 
 	- **zafarBuildingTrustConversational2023**
+
+	- **zhouSelfDiscoverLargeLanguage2024**
 
 - [[Building Trust in Conversational AI - A Comprehensive Review and Solution Architecture for Explainable, Privacy-Aware Systems using LLMs and Knowledge Graph]]
 - [[Business Data Ethics - Emerging Models for Governing AI and Advanced Analytics]]
@@ -122,6 +130,8 @@
 - [[GAIA - a benchmark for General AI Assistants]]
 - [[HALO - An Ontology for Representing Hallucinations in Generative Models]]
 - [[Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models]]
+- [[Large Language Models Understand and Can be Enhanced by Emotional Stimuli]]
+- [[Let's Verify Step by Step]]
 - [[Nash Learning from Human Feedback]]
 - [[On the meaning of uncertainty for ethical AI - philosophy and practice]]
 - **Principled Instructions Are All You Need for Questioning LLaMA-1**
@@ -130,8 +140,10 @@
 - [[Prompt Engineering a Prompt Engineer]]
 - [[Regulating AI manipulation - Applying Insights from behavioral economics and psychology to enhance the practicality of the EU AI Act]]
 - [[Role-Play with Large Language Models]]
+- [[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
 - [[System 2 Attention (is something you might need too)]]
 - [[Teaching CS50 with AI]]
+- [[Towards Cognitive AI Systems - a Survey and Prospective on Neuro-Symbolic AI]]
 - [[Weaving Pathways for Justice with GPT - LLM-driven automated drafting of interactive legal applications]]
 - [[Zephyr - Direct Distillation of LM Alignment]]
 
