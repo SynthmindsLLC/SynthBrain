@@ -565,3 +565,9 @@
     - 9 highlights from Judge Rejects Most ChatGPT Copyright Claims From Book Authors
     - 11 highlights from LargeWorldModel/LWM
 
+[[2024-02-21]] 6:37 AM — Synced 119 highlights from 4 documents.
+    - 53 highlights from The Ethical Algorithm
+    - 6 highlights from ChatGPT Has Gone Berserk
+    - 23 highlights from Sora AI’s Problems [And Solutions]
+    - 37 highlights from The Man Behind ChatGPT
+
