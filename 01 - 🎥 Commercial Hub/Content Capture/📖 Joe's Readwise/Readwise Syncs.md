@@ -571,3 +571,7 @@
     - 23 highlights from Sora AI’s Problems [And Solutions]
     - 37 highlights from The Man Behind ChatGPT
 
+[[2024-02-21]] 4:22 PM — Synced 14 highlights from 2 documents.
+    - 10 highlights from The Myth of the AI First Draft
+    - 4 highlights from Has Google Gone Too Woke? Why Even the Biggest Models Still Struggle With Guardrails
+
