@@ -575,3 +575,8 @@
     - 10 highlights from The Myth of the AI First Draft
     - 4 highlights from Has Google Gone Too Woke? Why Even the Biggest Models Still Struggle With Guardrails
 
+[[2024-02-22]] 6:25 AM — Synced 14 highlights from 3 documents.
+    - 1 highlights from AI Literacy Framework
+    - 6 highlights from AI Is Coming for the Experts. First, It Needs Their Help
+    - 7 highlights from Google DeepMind Forms a New Org Focused on AI Safety
+
