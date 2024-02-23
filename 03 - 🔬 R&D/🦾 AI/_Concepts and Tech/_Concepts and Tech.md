@@ -1,6 +1,7 @@
 %% Begin Waypoint %%
 - [[ACE Framework]]
 - [[artificial intelligence]]
+- [[Burstiness]]
 - [[Chain of Thought]]
 - [[Graph Neural Networks]]
 - [[Knowledge Graphs]]
