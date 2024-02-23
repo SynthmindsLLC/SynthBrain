@@ -10,8 +10,8 @@ Below is a task details, but taken from the internal chat, they are not in the t
 ## Task Breakdown for GUI and Prompt Integration Inquiry
 
 ### Action Items:
-- [ ] #JamesGriffing to draft an email seeking clarification on the project scope. #todo
-- [ ] #JamesGriffing to create two separate quotes: one for prompt work alone, and one including GUI. #todo
+- [x] #JamesGriffing to draft an email seeking clarification on the project scope. #todo
+- [x] #JamesGriffing to create two separate quotes: one for prompt work alone, and one including GUI. #todo
 
 ### Task Details:
 1. **Drafting Clarification Email**
@@ -36,29 +36,29 @@ Below is a task details, but taken from the internal chat, they are not in the t
 
 ## ER Modeling Task
 
-- [ ] Compile a detailed specification document outlining key features, priorities, and desired enhancements for dynamic JSON instance generation and ER diagramming project. #RadoslavRadivojevic #todo
-- [ ] Create a system capable of dynamically updating JSON instances based on predefined JSON schema and ER diagrams through the analysis of conversational inputs during live sessions. #JamesGriffing #UrosPesic #todo
-- [ ] Leverage AI and NLP technologies to accurately parse and understand conversational inputs using NER (Name entity recognition and their relationships). #JamesGriffing #UrosPesic #todo
-- [ ] Discuss the potential scope, feasibility, and alignment with budget constraints for the project. #RadoslavRadivojevic #JamesGriffing #UrosPesic #todo
+- [x] Compile a detailed specification document outlining key features, priorities, and desired enhancements for dynamic JSON instance generation and ER diagramming project. #RadoslavRadivojevic #todo
+- [x] Create a system capable of dynamically updating JSON instances based on predefined JSON schema and ER diagrams through the analysis of conversational inputs during live sessions. #JamesGriffing #UrosPesic #todo
+- [x] Leverage AI and NLP technologies to accurately parse and understand conversational inputs using NER (Name entity recognition and their relationships). #JamesGriffing #UrosPesic #todo
+- [x] Discuss the potential scope, feasibility, and alignment with budget constraints for the project. #RadoslavRadivojevic #JamesGriffing #UrosPesic #todo
 
 ## Task Breakdown:
 
 ### Dynamic JSON Instance Generation:
-- [ ] Implement real-time generation and updating of JSON instances based on conversation analysis. Ensure compliance with predefined JSON Schema. #JamesGriffing #todo
-- [ ] Develop visualization tools such as Schema ER diagram to aid users during modeling sessions. #UrosPesic #todo
-- [ ] Encapsulate json schema in a strongly typed class using Pydantic model. Review relevant instructional videos for guidance. #JamesGriffing #todo
+- [x] Implement real-time generation and updating of JSON instances based on conversation analysis. Ensure compliance with predefined JSON Schema. #JamesGriffing #todo
+- [x] Develop visualization tools such as Schema ER diagram to aid users during modeling sessions. #UrosPesic #todo
+- [x] Encapsulate json schema in a strongly typed class using Pydantic model. Review relevant instructional videos for guidance. #JamesGriffing #todo
 
 ### ER Diagram Visualization:
-- [ ] Enable dynamic updating of ER diagrams to reflect changes in the JSON instance. Provide visual aids for prompt generation. (Note: Basic visualization already achievable) #UrosPesic #todo
+- [x] Enable dynamic updating of ER diagrams to reflect changes in the JSON instance. Provide visual aids for prompt generation. (Note: Basic visualization already achievable) #UrosPesic #todo
 
 ### AI and NLP Integration:
-- [ ] Utilize AI and NLP technologies for parsing conversational inputs to extract relevant information for generating/updating JSON instances and ER diagrams.  #JamesGriffing  #UrosPesic  #todo
+- [x] Utilize AI and NLP technologies for parsing conversational inputs to extract relevant information for generating/updating JSON instances and ER diagrams.  #JamesGriffing  #UrosPesic  #todo
 
 ### Schema Node Management:
-- [ ] Add feature to freeze/unfreeze parts of the JSON schema/ER diagram to control alterations. Support granular element management within the instance/diagram.  #JamesGriffing  #UrosPesic  #todo
+- [x] Add feature to freeze/unfreeze parts of the JSON schema/ER diagram to control alterations. Support granular element management within the instance/diagram.  #JamesGriffing  #UrosPesic  #todo
 
 ### Advanced Modeling Features:
-- [ ] Support high-level structure modeling as well as detailed attribute/relationship modeling using modern paradigms and techniques.  #JamesGriffing  #UrosPesic  #todo
+- [x] Support high-level structure modeling as well as detailed attribute/relationship modeling using modern paradigms and techniques.  #JamesGriffing  #UrosPesic  #todo
 
 ### Server-Side Processing:
 - [ ] Ensure major processing code runs server-side to protect intellectual property.

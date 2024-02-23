@@ -8,12 +8,12 @@ Below is a task details, but taken from the internal chat, they are not in the t
 ## Task List for Software Development Cost Estimation and Pitch Preparation
 
 #### Action Items:
-- [ ] #Alexandra to schedule a meeting with investors to discuss initial cost estimates and development plans. #todo
-- [ ] #WilliamShields to prepare a detailed software development plan including cloud infrastructure diagrams and compliance framework. #todo
-- [ ] #WilliamShields to outline custom AI model development and provide full project management and implementation plan. #todo
-- [ ] #WilliamShields to create technical state pitch deck slides for investor presentation. #todo
-- [ ] #WilliamShields to estimate development costs and enduring operating costs for the project. #todo
-- [ ] #WilliamShields to organize live presentations of all deliverables for the team and potential investors. #todo
+- [x] #Alexandra to schedule a meeting with investors to discuss initial cost estimates and development plans. #todo
+- [x] #WilliamShields to prepare a detailed software development plan including cloud infrastructure diagrams and compliance framework. #todo
+- [x] #WilliamShields to outline custom AI model development and provide full project management and implementation plan. #todo
+- [x] #WilliamShields to create technical state pitch deck slides for investor presentation. #todo
+- [x] #WilliamShields to estimate development costs and enduring operating costs for the project. #todo
+- [x] #WilliamShields to organize live presentations of all deliverables for the team and potential investors. #todo
 - [x] #UrosPesic to review HIPAA compliance component costs and integration with cloud-hosted solutions and mobile app interfaces. #todo
 
 #### Task Breakdown:

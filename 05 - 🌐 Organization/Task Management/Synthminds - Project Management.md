@@ -19,12 +19,12 @@ tags:
 - [x] [[Operations, DUNS & SAMS, Gov Proposals]]<br>Due Date: (@2024-01-24)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
 - [x] [[Solution, SimpliCollege, Project]]<br>Due Date: (@2024-01-24)<br>**Priority**:<br>Tags: #JoshuaFrancis #WilliamShields
 - [x] [[Solution, QuietCommunities & AGZA, Data Project]]<br>Due Date:(@2024-01-23)<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic #Paid
-- [ ] [[Solution, ArfeenKhan, AI Integration]]<br>Due Date:<br>**Priority**:<br>Tags: #WilliamShields #UrosPesic #JamesGriffing
+- [x] [[Solution, ArfeenKhan, AI Integration]]<br>Due Date:<br>**Priority**:<br>Tags: #WilliamShields #UrosPesic #JamesGriffing
 
 
 ## In Progress
 
-- [ ] [[Solution, FarBot, Upsell, Enhancement Request]]<br>Due Date:<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
+- [x] [[Solution, FarBot, Upsell, Enhancement Request]]<br>Due Date:<br>**Priority**: High<br>Tags: #WilliamShields #UrosPesic
 
 
 ## Stuck/Pending Customer Reply
