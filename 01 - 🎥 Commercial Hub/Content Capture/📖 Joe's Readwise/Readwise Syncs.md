@@ -582,3 +582,7 @@
 
 [[2024-02-22]] 5:57 PM — Synced 0 highlights from 0 documents.
 
+[[2024-02-23]] 3:20 PM — Synced 7 highlights from 2 documents.
+    - 3 highlights from The Justice Department Gets a Chief AI Officer - The Verge
+    - 4 highlights from Mutale Nkonde’s Nonprofit Is Working to Make AI Less Biased
+
