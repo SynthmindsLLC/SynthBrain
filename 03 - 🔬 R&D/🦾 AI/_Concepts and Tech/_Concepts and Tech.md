@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[ACE Framework]]
 - [[artificial intelligence]]
 - [[Chain of Thought]]
 - [[Graph Neural Networks]]
