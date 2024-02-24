@@ -586,3 +586,7 @@
     - 3 highlights from The Justice Department Gets a Chief AI Officer - The Verge
     - 4 highlights from Mutale Nkonde’s Nonprofit Is Working to Make AI Less Biased
 
+[[2024-02-24]] 7:24 AM — Synced 47 highlights from 2 documents.
+    - 3 highlights from Katz School Students Take First Prize in UC Berkeley Generative AI Hackathon
+    - 44 highlights from Let's Build the GPT Tokenizer
+
