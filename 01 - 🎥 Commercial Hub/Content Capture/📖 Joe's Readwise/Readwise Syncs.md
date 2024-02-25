@@ -590,3 +590,7 @@
     - 3 highlights from Katz School Students Take First Prize in UC Berkeley Generative AI Hackathon
     - 44 highlights from Let's Build the GPT Tokenizer
 
+[[2024-02-25]] 6:20 AM — Synced 20 highlights from 2 documents.
+    - 6 highlights from Google explains Gemini’s ‘embarrassing’ AI pictures of diverse Nazis - The Verge
+    - 14 highlights from No, RAG Is Probably Not Going to Rescue the Current Situation
+
