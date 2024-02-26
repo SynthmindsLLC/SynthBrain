@@ -594,3 +594,6 @@
     - 6 highlights from Google explains Gemini’s ‘embarrassing’ AI pictures of diverse Nazis - The Verge
     - 14 highlights from No, RAG Is Probably Not Going to Rescue the Current Situation
 
+[[2024-02-25]] 11:18 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from Google’s Chaotic AI Strategy Leaves Users Bewildered
+
