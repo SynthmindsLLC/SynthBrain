@@ -56,7 +56,7 @@ Stage 1 operates at the tasklevel and uses three actions to guide the LLM to gen
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-2-x92-y518.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024 1/image-2-x92-y518.png]]
 
 
 
@@ -76,7 +76,7 @@ Given a task and a set of reasoning module descriptions representing high-level 
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-3-x71-y569.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024 1/image-3-x71-y569.png]]
 
 
 
@@ -96,11 +96,11 @@ Finally, given the adapted reasoning module descriptions DA, SELF-DISCOVER opera
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-4-x51-y527.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024 1/image-4-x51-y527.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-5-x49-y536.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024 1/image-5-x49-y536.png]]
 
 
 
@@ -108,7 +108,7 @@ SELF-DISCOVER performs best on tasks that require diverse world knowledge. Figur
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-7-x51-y395.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024 1/image-7-x51-y395.png]]
 
 
 
@@ -116,7 +116,7 @@ Recent advancements in the area of LLMs have given rise to a plethora of few-sho
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024/image-12-x43-y318.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/zhouSelfDiscoverLargeLanguage2024 1/image-12-x43-y318.png]]
 
 
 

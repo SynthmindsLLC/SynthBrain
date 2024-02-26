@@ -72,11 +72,11 @@ symbolic methods enhance explainability and reduce the dependence on extensive t
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/wanCognitiveAISystems2024/image-1-x298-y67.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/wanCognitiveAISystems2024 1/image-1-x298-y67.png]]
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/wanCognitiveAISystems2024/image-2-x300-y539.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/wanCognitiveAISystems2024 1/image-2-x300-y539.png]]
 
 
 
@@ -108,7 +108,7 @@ It involves mapping symbolic logic rules onto embeddings that serve as soft cons
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/wanCognitiveAISystems2024/image-3-x52-y624.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/wanCognitiveAISystems2024 1/image-3-x52-y624.png]]
 
 
 
@@ -148,7 +148,7 @@ We observe that the neuro vs. symbolic runtime proportion shown in Fig. 2(a) rem
 
 
 
-![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/wanCognitiveAISystems2024/image-3-x295-y66.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/wanCognitiveAISystems2024 1/image-3-x295-y66.png]]
 
 
 

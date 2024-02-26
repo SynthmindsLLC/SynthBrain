@@ -117,7 +117,7 @@ When we provide process supervision, we deliberately choose to supervise only up
 
 
 
-![[image-7-x153-y451.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/lightmanLetVerifyStep2023/image-7-x153-y451.png]]
 
 
 
@@ -125,7 +125,7 @@ While the ORM performs slightly better than the majority voting baseline, the PR
 
 
 
-![[image-8-x128-y461.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/lightmanLetVerifyStep2023/image-8-x128-y461.png]]
 
 
 
@@ -137,7 +137,7 @@ We see that process supervision significantly outperforms both forms of outcome 
 
 
 
-![[image-10-x129-y540.png]]
+![[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/lightmanLetVerifyStep2023/image-10-x129-y540.png]]
 
 
 
