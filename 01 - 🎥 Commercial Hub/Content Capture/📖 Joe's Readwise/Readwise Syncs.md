@@ -597,3 +597,6 @@
 [[2024-02-25]] 11:18 PM — Synced 10 highlights from 1 document.
     - 10 highlights from Google’s Chaotic AI Strategy Leaves Users Bewildered
 
+[[2024-02-26]] 12:20 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from Mistral AI Releases New Model to Rival GPT-4 and Its Own Chat Assistant
+
