@@ -609,3 +609,6 @@
 [[2024-02-26]] 7:31 PM — Synced 11 highlights from 1 document.
     - 11 highlights from FlowGPT Is the Wild West of GenAI Apps
 
+[[2024-02-27]] 7:24 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Scaling LLMs Further Is an Artform - Demis Hassabis
+
