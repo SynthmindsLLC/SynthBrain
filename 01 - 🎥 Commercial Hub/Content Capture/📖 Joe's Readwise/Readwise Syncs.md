@@ -597,6 +597,15 @@
 [[2024-02-25]] 11:18 PM — Synced 10 highlights from 1 document.
     - 10 highlights from Google’s Chaotic AI Strategy Leaves Users Bewildered
 
+[[2024-02-26]] 6:40 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from The AI 'Genie' Is Out + Humanoid Robotics Step Closer
+
+[[2024-02-25]] 11:18 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from Google’s Chaotic AI Strategy Leaves Users Bewildered
+
 [[2024-02-26]] 12:20 PM — Synced 7 highlights from 1 document.
     - 7 highlights from Mistral AI Releases New Model to Rival GPT-4 and Its Own Chat Assistant
+
+[[2024-02-26]] 7:31 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from FlowGPT Is the Wild West of GenAI Apps
 
