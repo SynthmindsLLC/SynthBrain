@@ -612,3 +612,6 @@
 [[2024-02-27]] 7:24 AM — Synced 5 highlights from 1 document.
     - 5 highlights from Scaling LLMs Further Is an Artform - Demis Hassabis
 
+[[2024-02-27]] 12:35 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from Glean Wants to Beat ChatGPT at Its Own Game — In the Enterprise
+
