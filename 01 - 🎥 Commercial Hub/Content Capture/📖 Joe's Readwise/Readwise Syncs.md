@@ -615,3 +615,9 @@
 [[2024-02-27]] 12:35 PM — Synced 10 highlights from 1 document.
     - 10 highlights from Glean Wants to Beat ChatGPT at Its Own Game — In the Enterprise
 
+[[2024-02-28]] 6:37 AM — Synced 58 highlights from 4 documents.
+    - 4 highlights from OpenAI claims the Times cheated to get ChatGPT to regurgitate articles - The Verge
+    - 6 highlights from Alibaba staff offers glimpse into life of building LLM in China
+    - 15 highlights from Here Lies the Internet, Murdered by Generative AI
+    - 33 highlights from GPT-6 SHOCKS Everyone With NEW ABILITIES! (GPT5, GPT-6, GPT-7) | Orca Math, Pika Labs and GPT "Hack"
+

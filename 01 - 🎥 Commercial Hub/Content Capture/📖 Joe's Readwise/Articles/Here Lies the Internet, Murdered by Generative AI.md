@@ -1,0 +1,30 @@
+# Here Lies the Internet, Murdered by Generative AI
+
+![rw-book-cover](https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb062015-02ee-4351-8c26-edae4b11f369_1181x1299.jpeg)
+
+## Metadata
+- Author: [[Erik Hoel]]
+- Date: 2024-02-27
+- Full Title: Here Lies the Internet, Murdered by Generative AI
+- Category: #articles
+- Summary: Generative AI is saturating the internet with synthetic content, overwhelming searches, pages, and feeds with AI-generated material. The impact is pervasive, from fake book summaries to AI-written articles and music videos. Even prestigious outlets like Sports Illustrated have been caught using AI-generated content. The rise of generative AI is leading to a polluted online environment, affecting not only adult consumers but also children, who are being exposed to low-quality, incoherent content on platforms like YouTube. The consequences of this AI pollution, driven by profit motives and lack of regulation, are far-reaching and concerning, posing a significant threat to the quality and authenticity of online content.
+- URL: https://www.theintrinsicperspective.com/p/here-lies-the-internet-murdered-by?r=2kuc99&utm_medium=ios&utm_campaign=post&open=false
+
+## Highlights
+- The amount of AI-generated content is beginning to overwhelm the internet. Or maybe a better term is *pollute*. ([View Highlight](https://read.readwise.io/read/01hqpr6c6serppw49deegsm5gj))
+- Now that generative AI has dropped the cost of producing bullshit to near zero, we see clearly the future of the internet: a garbage dump. ([View Highlight](https://read.readwise.io/read/01hqpr7wq0anxr53kta7adxxd8))
+- Look closely at the replies to any trending tweet and you’ll find [dozens of AI-written summaries](https://twitter.com/katiedimartin/status/1743083954444304667) in response, cheery Wikipedia-style repeats of the original post, all just to farm engagement. ([View Highlight](https://read.readwise.io/read/01hqpr8m05tz47yrayp71gte0w))
+- from now on, every single woman who is a public figure will have to deal with the fact that [deepfake porn](https://www.wired.com/story/deepfake-porn-is-out-of-control/) of her is likely to be made. ([View Highlight](https://read.readwise.io/read/01hqpr9fmnmt36t7r31mjqcpg5))
+- investigative work at *[Futurism](https://futurism.com/sports-illustrated-ai-generated-writers)* caught *Sports Illustrated* red-handed using AI-generated articles written by fake writers. Meet Drew Ortiz. ([View Highlight](https://read.readwise.io/read/01hqprbav40r6xbwdvbt3gprw3))
+- This isn’t what everyone feared, which is AI replacing humans by being better—it’s replacing them because AI is so much cheaper. *Sports Illustrated* was not producing human-quality level content with these methods, but it was still profitable.
+  > The AI authors' writing often sounds like it was written by an alien; one Ortiz article, for instance, warns that volleyball "can be a little tricky to get into, especially without an actual ball to practice with." ([View Highlight](https://read.readwise.io/read/01hqprccyz91a4mby4eqesxewj))
+- Given that even prestigious outlets like *The Guardian* [refuse](https://www.theintrinsicperspective.com/p/ai-writing-is-proliferating-in-major) to put any clear limits on their use of AI, if you notice odd turns of phrase or low-quality articles, the likelihood that they’re written by an AI, or with AI-assistance, is now high. ([View Highlight](https://read.readwise.io/read/01hqprd9cs53zbqrj1k8wdmqqf))
+- YouTube for kids is quickly becoming a stream of synthetic content. Much of it now consists of wooden digital characters interacting in short nonsensical clips without continuity or purpose. ([View Highlight](https://read.readwise.io/read/01hqprdzd0jbrqh6cb6y404mmr))
+- All around the nation there are toddlers plunked down in front of iPads being subjected to synthetic runoff, deprived of human contact *even in the media they consume* ([View Highlight](https://read.readwise.io/read/01hqprgmz3m2jhds825w7wxvb9))
+- For the first time in history developing brains are being fed choppy low-grade and cheaply-produced synthetic data created en masse by generative AI, instead of being fed with real human culture. ([View Highlight](https://read.readwise.io/read/01hqprhaxfjga9exyadxaxq5kf))
+- Despite their supposed safety focus, OpenAI failed to foresee that its creations would thoroughly pollute the internet across all platforms and services. ([View Highlight](https://read.readwise.io/read/01hqprj9yvacz5mbxs0e000naw))
+- OpenAI kept talking about “actors” when they should have been talking about “users.” Because it turns out, all AI-generated content is fake! ([View Highlight](https://read.readwise.io/read/01hqprkgkq3vft8q8kadzb9fee))
+- Hardin wrote:
+  > An implicit and almost universal assumption of discussions published in professional and semipopular scientific journals is that the problem under discussion has a technical solution… ([View Highlight](https://read.readwise.io/read/01hqprnpd1bamy74649w4vfk5b))
+- The tragedy of the commons develops in this way. Picture a pasture open to all. It is to be expected that each herdsman will try to keep as many cattle as possible on the commons. Such an arrangement may work reasonably satisfactorily for centuries because tribal wars, poaching, and disease keep the numbers of both man and beast well below the carrying capacity of the land. Finally, however, comes the day of reckoning, that is, the day when the long-desired goal of social stability becomes a reality. At this point, the inherent logic of the commons remorselessly generates tragedy. ([View Highlight](https://read.readwise.io/read/01hqprnzqr9nzwpz87qpm2r5w8))
+- We are currently fouling our own nests. Since the internet economy runs on eyeballs and clicks the new ability of anyone, anywhere, to easily generate infinite low-quality content via AI is now remorselessly generating tragedy. ([View Highlight](https://read.readwise.io/read/01hqprpr3xhnd843sj5vg0y9az))
