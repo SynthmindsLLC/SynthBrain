@@ -9,8 +9,8 @@ Transcript: "[[Transcript - Melwood & Synthminds]]"
 ## Task: Prepare for Subcontractor Registration
 
 ### Action Items:
-- [ ] #UrosPesic Start the registration process in SAM (System for Award Management). #todo
-- [ ] #UrosPesic Obtain our DUNS number to ensure we're eligible for federal contracts. #todo
+- [x] #UrosPesic Start the registration process in SAM (System for Award Management). #todo
+- [x] #UrosPesic Obtain our DUNS number to ensure we're eligible for federal contracts. #todo
 
 ### Task Breakdown:
 

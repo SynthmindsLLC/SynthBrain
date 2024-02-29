@@ -1,7 +1,7 @@
 ## Ilya Sutskever: Trailblazing Innovations in the World of Artificial Intelligence
 
 ### Introduction
-[[Ilya Sutskever]], a luminary in the field of [[artificial intelligence]] (AI), is renowned for his groundbreaking work in deep learning and neural networks. As a co-founder of [[OpenAI]], Sutskever has significantly shaped the advancement of AI.
+[[Ilya Sutskever]], a luminary in the field of [[artificial intelligence]] (AI), is renowned for his groundbreaking work in deep learning and neural networks. As a co-founder of [[OPENAI]], Sutskever has significantly shaped the advancement of AI.
 
 ### Early Life and Education
 Born in Russia in 1984 and later immigrating to Canada, Sutskever's journey in AI began with his academic pursuits. He obtained his Ph.D from the University of Toronto mentored by prominent AI researcher [[Geoffrey Hinton]].
@@ -14,7 +14,7 @@ Ilya Sutskever was born in Nizhny Novgorod, Russia, then part of the Soviet Unio
 
 ### Career
 
-Sutskever's career in artificial intelligence (AI) began at the University of Toronto, where he worked with [[Geoffrey Hinton]], a pioneer in the field of deep learning. He then spent three years as a Research Scientist at the [[Google Brain]] Team. During his time at [[Google]], he co-invented [[AlexNet]] and [[Sequence to Sequence Learning]]. In 2015, Sutskever co-founded [[OpenAI]] and served as its Chief Scientist. He played a key role in developing large language models, including [[GPT-2]], [[GPT-3]], and the text-to-image model [[DALL-E]]. He also served on the OpenAI board.
+Sutskever's career in artificial intelligence (AI) began at the University of Toronto, where he worked with [[Geoffrey Hinton]], a pioneer in the field of deep learning. He then spent three years as a Research Scientist at the [[Google Brain]] Team. During his time at [[Google]], he co-invented [[AlexNet]] and [[Sequence to Sequence Learning]]. In 2015, Sutskever co-founded [[OPENAI]] and served as its Chief Scientist. He played a key role in developing large language models, including [[GPT-2]], [[GPT-3]], and the text-to-image model [[DALL-E]]. He also served on the OpenAI board.
 
 ### Contributions and Recognition
 

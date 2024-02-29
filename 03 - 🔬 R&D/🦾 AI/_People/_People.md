@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[David Shapiro]]
 - [[Demis Hassabis]]
 - [[Geoffrey Hinton]]
 - [[Greg Brockman]]

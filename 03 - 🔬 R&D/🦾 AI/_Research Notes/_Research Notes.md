@@ -29,6 +29,8 @@
 
 	- **bengesiAdvancementsGenerativeAI2023**
 
+	- **borisyukLiGNNGraphNeural2024**
+
 	- **bsharatPrincipledInstructionsAre2023**
 
 	- **chiaContrastiveChainofThoughtPrompting2023**
@@ -41,9 +43,19 @@
 
 	- **kumarCertifyingLLMSafety2023**
 
+	- **kurinCanLearningGraph2020**
+
 	- **leeDeepfakesPhrenologySurveillance2023**
 
 	- **liElicitingHumanPreferences2023**
+
+	- **lightmanLetVerifyStep2023**
+
+	- **lightmanLetVerifyStep2023 1**
+
+	- **liLargeLanguageModels2023**
+
+	- **liLargeLanguageModels2023 1**
 
 	- **liuTeachingCS50AI**
 
@@ -85,6 +97,10 @@
 
 	- **tunstallZephyrDirectDistillation2023**
 
+	- **wanCognitiveAISystems2024**
+
+	- **wanCognitiveAISystems2024 1**
+
 	- **weiChainofThoughtPromptingElicits2023**
 
 	- **westonSystemAttentionSomething2023**
@@ -92,6 +108,8 @@
 	- **woersdoerferAIEthicsOrdoliberalism2023**
 
 	- **xiaPrinciplesPracticeAccountability2023**
+
+	- **yaoChainofThoughtEffectiveGraphofThought2023**
 
 	- **yePromptEngineeringPrompt2023**
 
@@ -103,8 +121,14 @@
 
 	- **zafarBuildingTrustConversational2023**
 
+	- **zhouSelfDiscoverLargeLanguage2024**
+
+	- **zhouSelfDiscoverLargeLanguage2024 1**
+
+- [[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models]]
 - [[Building Trust in Conversational AI - A Comprehensive Review and Solution Architecture for Explainable, Privacy-Aware Systems using LLMs and Knowledge Graph]]
 - [[Business Data Ethics - Emerging Models for Governing AI and Advanced Analytics]]
+- [[Can $Q$-Learning with Graph Networks Learn a Generalizable Branching Heuristic for a SAT Solver]]
 - [[Certifying LLM Safety against Adversarial Prompting]]
 - [[Chain-of-Note - Enhancing Robustness in Retrieval-Augmented Language Models]]
 - [[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models]]
@@ -122,6 +146,11 @@
 - [[GAIA - a benchmark for General AI Assistants]]
 - [[HALO - An Ontology for Representing Hallucinations in Generative Models]]
 - [[Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models]]
+- [[Large Language Models Understand and Can be Enhanced by Emotional Stimuli 1]]
+- [[Large Language Models Understand and Can be Enhanced by Emotional Stimuli]]
+- [[Let's Verify Step by Step 1]]
+- [[Let's Verify Step by Step]]
+- [[LiGNN - Graph Neural Networks at LinkedIn]]
 - [[Nash Learning from Human Feedback]]
 - [[On the meaning of uncertainty for ethical AI - philosophy and practice]]
 - **Principled Instructions Are All You Need for Questioning LLaMA-1**
@@ -130,8 +159,12 @@
 - [[Prompt Engineering a Prompt Engineer]]
 - [[Regulating AI manipulation - Applying Insights from behavioral economics and psychology to enhance the practicality of the EU AI Act]]
 - [[Role-Play with Large Language Models]]
+- [[Self-Discover - Large Language Models Self-Compose Reasoning Structures 1]]
+- [[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
 - [[System 2 Attention (is something you might need too)]]
 - [[Teaching CS50 with AI]]
+- [[Towards Cognitive AI Systems - a Survey and Prospective on Neuro-Symbolic AI 1]]
+- [[Towards Cognitive AI Systems - a Survey and Prospective on Neuro-Symbolic AI]]
 - [[Weaving Pathways for Justice with GPT - LLM-driven automated drafting of interactive legal applications]]
 - [[Zephyr - Direct Distillation of LM Alignment]]
 

@@ -1,0 +1,20 @@
+# Your AI Girlfriend Is a Data-Harvesting Horror Show
+
+![rw-book-cover](https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/eff30bd31118eb2daf246fcabb4f53ab.jpg)
+
+## Metadata
+- Author: [[Thomas Germain]]
+- Date: 2024-02-14
+- Full Title: Your AI Girlfriend Is a Data-Harvesting Horror Show
+- Category: #articles
+- Summary: AI girlfriends and boyfriends, marketed as enhancing mental health and well-being, actually exploit users by prying for personal data, according to a study by Mozilla's Privacy Not Included project. The study found that all 11 AI romance chatbots analyzed, including popular apps like Replika and Chai, collected and shared personal information. CrushOn.AI, for example, collected details about sexual health and medication use. Additionally, 90% of the apps sold or shared user data, and over half did not allow users to delete their data. The apps also had serious security and privacy issues, with an average of 2,663 trackers per minute and EVA AI Chat Bot & Soulmate encouraging users to share personal secrets and desires.
+- URL: https://gizmodo.com/your-ai-girlfriend-is-a-data-harvesting-horror-show-1851253284
+
+## Highlights
+- Lonely on Valentine’s Day? AI can help. At least, that’s what a number of companies hawking “romantic” chatbots will tell you. But as your robot love story unfolds, there’s a tradeoff you may not realize you’re making. According to a new study from Mozilla’s *Privacy Not Included project, [AI girlfriends and boyfriends](https://gizmodo.com/sam-altman-says-chatgpt-can-t-be-your-girlfriend-1851181240) harvest shockingly personal information, and almost all of them sell or share the data they collect. ([View Highlight](https://read.readwise.io/read/01hpp1kd32hn7ahcdc03kf8k6k))
+- Misha Rykov, a Mozilla Researcher, in a press statement. “Although they are marketed as something that will enhance your mental health and well-being, they specialize in delivering dependency, loneliness, and toxicity, all while prying as much data as possible from you.” ([View Highlight](https://read.readwise.io/read/01hpp1kykx4p50v9xqwa8hf3xv))
+- Mozilla dug into [11 different AI romance chatbots](https://foundation.mozilla.org/en/privacynotincluded/eva-ai-chat-bot-soulmate/), including popular apps such as Replika, Chai, Romantic AI, EVA AI Chat Bot & Soulmate, and CrushOn.AI. Every single one earned the Privacy Not Included label, putting these chatbots among the worst categories of products Mozilla has ever reviewed. ([View Highlight](https://read.readwise.io/read/01hpp1mkv1prm9wz1yrgakpe57))
+- CrushOn.AI collects details including information about sexual health, use of medication, and gender-affirming care. 90% of the apps may sell or share user data for targeted ads and other purposes, and more than half won’t let you delete the data they collect. ([View Highlight](https://read.readwise.io/read/01hpp1nd4vy4rghgctmf2crcbq))
+- Mozilla found the AI girlfriend apps used an average of 2,663 trackers per minute, though that number was driven up by Romantic AI, which called a whopping 24,354 trackers in just one minute of using the app. ([View Highlight](https://read.readwise.io/read/01hpp1pggc3qtc0g9719jyagts))
+- The privacy mess is even more troubling because the apps actively encourage you to share details that are far more personal than the kind of thing you might enter into a typical app. EVA AI Chat Bot & Soulmate pushes users to “share all your secrets and desires,” and specifically asks for photos and voice recordings. ([View Highlight](https://read.readwise.io/read/01hpp1qnjdqq71y8vtv09kz9q2))
+- Romantic AI says it’s “here to maintain your MENTAL HEALTH.” When you read the company’s terms and services though, they go out of their way to distance themselves from their own claims. Romantic AI’s policies, for example, say it is “neither a provider of healthcare or medical Service nor providing medical care, mental health Service, or other professional Service.” ([View Highlight](https://read.readwise.io/read/01hpp1rtenrja2tq9h6kwmxtrk))

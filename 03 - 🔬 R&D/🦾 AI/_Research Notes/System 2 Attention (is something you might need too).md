@@ -138,5 +138,9 @@ The authors termed this “Nontrivial Repetition”, where the name emphasizes t
 
 several works have shown that irrelevant context can adversely affect predictions (Jia & Liang, 2017; Cho et al., 2023; Shi et al., 2023).” Yellow Highlight [Page 10](zotero://open-pdf/library/items/L9ALS3IJ?page=10&annotation=VXEUDM55)
 
+[[M2 - Decoding the Layers]]
 
-
+[[Building Trust in Conversational AI - A Comprehensive Review and Solution Architecture for Explainable, Privacy-Aware Systems using LLMs and Knowledge Graph]]
+[[Let's Verify Step by Step]]
+[[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
+[[Chain-of-Verification Reduces Hallucination in Large Language Models]]

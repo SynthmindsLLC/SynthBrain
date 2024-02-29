@@ -4,7 +4,6 @@ tags:
   - walkthrough
   - extraction
 ---
-
 The `extract` command is utilized to retrieve content from a variety of sources such as web pages, images, YouTube videos, PDFs, RSS and audio files. It is a versatile command that allows for data acquisition from different media types for further processing or analysis.
 
 ## Usage

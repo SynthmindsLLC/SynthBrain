@@ -454,6 +454,9 @@
 
 [[2024-02-04]] 7:06 AM — Synced 0 highlights from 0 documents.
 
+[[2024-02-08]] 7:11 PM — Synced 14 highlights from 1 document.
+    - 14 highlights from Gemini Ultra - Full Review
+
 [[2024-02-05]] 6:26 AM — Synced 46 highlights from 7 documents.
     - 13 highlights from Use Notion AI to Write Better, More Efficient Notes and Docs
     - 3 highlights from Database Automations – Notion Help Center
@@ -470,4 +473,154 @@
     - 14 highlights from When Looked at Carefully, OpenAI’s New Study on GPT-4 and Bioweapons Is Deeply Worrisome
     - 4 highlights from Deepfaked Shit Is Getting Real
     - 1 highlights from ChatGPT May Have Beaten Its Winter Blues
+
+[[2024-02-07]] 6:35 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Graph Neural Networks in TensorFlow
+
+[[2024-02-08]] 5:34 AM — Synced 7 highlights from 2 documents.
+    - 3 highlights from Meet 'Smaug-72b': The New King of Open-Source AI
+    - 4 highlights from Google Deepmind Proposes ‘Self-Discover’ Framework for LLMs, Improves GPT-4 Performance
+
+[[2024-02-08]] 7:15 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+
+[[2024-02-08]] 8:35 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Place Cells: How Your Brain Creates Maps of Abstract Spaces
+
+[[2024-02-09]] 5:20 AM — Synced 11 highlights from 1 document.
+    - 11 highlights from OpenAI’s Secret Weapon Is the Human Running Its Media Charm Offensive
+
+[[2024-02-09]] 6:20 AM — Synced 16 highlights from 1 document.
+    - 16 highlights from Google's Gemini Advanced: Tasting Notes and Implications
+
+[[2024-02-10]] 7:31 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Moloch Is Losing! Meaning Crisis, Metacrisis, and Nihilistic Crisis Update - Solutions & Narratives!
+
+[[2024-02-11]] 6:25 AM — Synced 56 highlights from 2 documents.
+    - 52 highlights from Dendrites: Why Biological Neurons Are Deep Neural Networks
+    - 4 highlights from Meet the Pranksters Behind Goody-2, the World’s ‘Most Responsible’ AI Chatbot
+
+[[2024-02-11]] 7:20 AM — Synced 0 highlights from 0 documents.
+
+[[2024-02-12]] 6:52 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from An Open Letter to Sam Altman
+
+[[2024-02-13]] 7:26 AM — Synced 0 highlights from 0 documents.
+
+[[2024-02-13]] 9:26 PM — Synced 28 highlights from 2 documents.
+    - 8 highlights from OpenAI Gives ChatGPT a Memory
+    - 20 highlights from Sam Altman Wants $7 Trillion
+
+[[2024-02-15]] 5:13 AM — Synced 54 highlights from 9 documents.
+    - 18 highlights from GraphRAG: Unlocking LLM Discovery on Narrative Private Data
+    - 5 highlights from OpenAI Wants Control of Your Devices
+    - 2 highlights from Andrej Karpathy Confirms Departure (Again) From OpenAI
+    - 3 highlights from Top OpenAI Researcher Quits, References "Conspiracy Theories"
+    - 7 highlights from ChatGPT Creator OpenAI May Take on Google With Its Own Internet Search Tool
+    - 7 highlights from Disrupting Malicious Uses of AI by State-Affiliated Threat Actors
+    - 7 highlights from Your AI Girlfriend Is a Data-Harvesting Horror Show
+    - 4 highlights from People are starting to return their Vision Pros - The Verge
+    - 1 highlights from What’s Behind Customers Returning Their Vision Pro Headset?
+
+[[2024-02-14]] 6:27 PM — Synced 351 highlights from 2 documents.
+    - 328 highlights from Algorithms to Live By
+    - 23 highlights from The Ethical Algorithm
+
+[[2024-02-15]] 7:28 PM — Synced 24 highlights from 1 document.
+    - 24 highlights from A "Cognitive Bias" Is a Systematic Error in Thinking That...
+
+[[2024-02-15]] 6:28 AM — Synced 21 highlights from 2 documents.
+    - 17 highlights from The Ethical Algorithm
+    - 4 highlights from What’s Behind Customers Returning Their Vision Pro Headset?
+
+[[2024-02-15]] 11:28 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from Our Next-Generation Model: Gemini 1.5
+
+[[2024-02-16]] 5:47 AM — Synced 40 highlights from 2 documents.
+    - 11 highlights from The Hottest New Programming Language Is English! Or Maybe Not.
+    - 29 highlights from Gemini 1.5 and the Biggest Night in AI
+
+[[2024-02-16]] 6:47 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Meet OpenAI's Sora, a Wild AI Text-to-Video Generator
+
+[[2024-02-17]] 7:48 AM — Synced 0 highlights from 0 documents.
+
+[[2024-02-18]] 6:11 AM — Synced 49 highlights from 3 documents.
+    - 3 highlights from Death of a Chatbot, Body Blow to an Industry
+    - 17 highlights from Sora Can’t Handle the Truth
+    - 29 highlights from Sora - Full Analysis
+
+[[2024-02-18]] 7:58 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from Absolutely Amazing Ant Video Augurs Intellectual Mayhem
+
+[[2024-02-19]] 8:53 AM — Synced 0 highlights from 0 documents.
+
+[[2024-02-19]] 6:19 PM — Synced 17 highlights from 2 documents.
+    - 9 highlights from Google’s AI Boss Says Scale Only Gets You So Far
+    - 8 highlights from The Women in AI Making a Difference
+
+[[2024-02-20]] 6:38 AM — Synced 51 highlights from 4 documents.
+    - 22 highlights from The Ethical Algorithm
+    - 9 highlights from As OpenAI’s Sora Blows Us Away With AI-generated Videos, the Information Age Is Over – Let the Disinformation Age Begin
+    - 9 highlights from Judge Rejects Most ChatGPT Copyright Claims From Book Authors
+    - 11 highlights from LargeWorldModel/LWM
+
+[[2024-02-21]] 6:37 AM — Synced 119 highlights from 4 documents.
+    - 53 highlights from The Ethical Algorithm
+    - 6 highlights from ChatGPT Has Gone Berserk
+    - 23 highlights from Sora AI’s Problems [And Solutions]
+    - 37 highlights from The Man Behind ChatGPT
+
+[[2024-02-21]] 4:22 PM — Synced 14 highlights from 2 documents.
+    - 10 highlights from The Myth of the AI First Draft
+    - 4 highlights from Has Google Gone Too Woke? Why Even the Biggest Models Still Struggle With Guardrails
+
+[[2024-02-22]] 6:25 AM — Synced 14 highlights from 3 documents.
+    - 1 highlights from AI Literacy Framework
+    - 6 highlights from AI Is Coming for the Experts. First, It Needs Their Help
+    - 7 highlights from Google DeepMind Forms a New Org Focused on AI Safety
+
+[[2024-02-22]] 5:57 PM — Synced 0 highlights from 0 documents.
+
+[[2024-02-23]] 3:20 PM — Synced 7 highlights from 2 documents.
+    - 3 highlights from The Justice Department Gets a Chief AI Officer - The Verge
+    - 4 highlights from Mutale Nkonde’s Nonprofit Is Working to Make AI Less Biased
+
+[[2024-02-24]] 7:24 AM — Synced 47 highlights from 2 documents.
+    - 3 highlights from Katz School Students Take First Prize in UC Berkeley Generative AI Hackathon
+    - 44 highlights from Let's Build the GPT Tokenizer
+
+[[2024-02-25]] 6:20 AM — Synced 20 highlights from 2 documents.
+    - 6 highlights from Google explains Gemini’s ‘embarrassing’ AI pictures of diverse Nazis - The Verge
+    - 14 highlights from No, RAG Is Probably Not Going to Rescue the Current Situation
+
+[[2024-02-25]] 11:18 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from Google’s Chaotic AI Strategy Leaves Users Bewildered
+
+[[2024-02-26]] 6:40 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from The AI 'Genie' Is Out + Humanoid Robotics Step Closer
+
+[[2024-02-25]] 11:18 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from Google’s Chaotic AI Strategy Leaves Users Bewildered
+
+[[2024-02-26]] 12:20 PM — Synced 7 highlights from 1 document.
+    - 7 highlights from Mistral AI Releases New Model to Rival GPT-4 and Its Own Chat Assistant
+
+[[2024-02-26]] 7:31 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from FlowGPT Is the Wild West of GenAI Apps
+
+[[2024-02-27]] 7:24 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Scaling LLMs Further Is an Artform - Demis Hassabis
+
+[[2024-02-27]] 12:35 PM — Synced 10 highlights from 1 document.
+    - 10 highlights from Glean Wants to Beat ChatGPT at Its Own Game — In the Enterprise
+
+[[2024-02-28]] 6:37 AM — Synced 58 highlights from 4 documents.
+    - 4 highlights from OpenAI claims the Times cheated to get ChatGPT to regurgitate articles - The Verge
+    - 6 highlights from Alibaba staff offers glimpse into life of building LLM in China
+    - 15 highlights from Here Lies the Internet, Murdered by Generative AI
+    - 33 highlights from GPT-6 SHOCKS Everyone With NEW ABILITIES! (GPT5, GPT-6, GPT-7) | Orca Math, Pika Labs and GPT "Hack"
+
+[[2024-02-29]] 7:28 AM — Synced 15 highlights from 1 document.
+    - 15 highlights from The Ethical Algorithm
 

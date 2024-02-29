@@ -11,9 +11,9 @@ Below is a task details, but taken from the internal chat, they are not in the t
 ## Task List for FARBOT Phase 2 Enhancement
 
 ### Action Items
-- [ ] Develop a consistent and engaging user interface for FARBOT.  #todo
-- [ ] Implement speech integration to allow voice command interactions with FARBOT. #todo
-- [ ] Create an automatic database scraper for updating FARBOT's knowledge base from the FAA website.  #todo
+- [x] Develop a consistent and engaging user interface for FARBOT.  #todo
+- [x] Implement speech integration to allow voice command interactions with FARBOT. #todo
+- [x] Create an automatic database scraper for updating FARBOT's knowledge base from the FAA website.  #todo
 - [x] Establish a human-in-the-loop feedback system for continuous learning and improvement. #todo
 - [x] Enhance Stripe integration for a streamlined payment process.  #todo
 - [x] Develop and deploy FARBOT version for the GPT-Store to expand reach and accessibility. #todo 
