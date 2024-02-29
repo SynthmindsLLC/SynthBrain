@@ -621,3 +621,6 @@
     - 15 highlights from Here Lies the Internet, Murdered by Generative AI
     - 33 highlights from GPT-6 SHOCKS Everyone With NEW ABILITIES! (GPT5, GPT-6, GPT-7) | Orca Math, Pika Labs and GPT "Hack"
 
+[[2024-02-29]] 7:28 AM — Synced 15 highlights from 1 document.
+    - 15 highlights from The Ethical Algorithm
+
