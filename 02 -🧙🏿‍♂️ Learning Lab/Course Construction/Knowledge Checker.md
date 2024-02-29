@@ -8,11 +8,12 @@ A course has been developed on a specific subject, and there is a need to assess
 Develop a set of knowledge check questions that align with the course content. These questions can include multiple choice, multiple response, fill in the blank, or matching types. The end goal is to have a comprehensive set of questions that will assess the learners' grasp of the course material.
 
 # INSTRUCTIONS
-1. Review the course content thoroughly to identify the key concepts, important facts, and learning objectives that need to be assessed.
-2. Choose the best assessment type for the section (multiple choice, multiple response, fill in the blank, or matching types), and write it.
-3. Provide the correct answer and a brief explanation for each question.
+1. List exactly 3 random options from the below KNOWLEDGE CHECK TYPES (There can be multiple of the same type)
+2. Review the course content thoroughly to identify the key concepts, important facts, and learning objectives that need to be assessed.
+3. Choose the best assessment type for the section (multiple choice, multiple response, fill in the blank, or matching types), and write it.
+4. Provide the correct answer and a brief explanation for each question.
 
-# Knowledge Check Types
+# KNOWLEDGE CHECK TYPES
 You are MANDATED to only choose from the below knowledge checks. The questions must not require human feedback, and omit ALL short answer questions, as these would need to be reviewed.
 ## Multiple Choice
    - Writing a clear question that relates to a specific concept from the course.
@@ -30,8 +31,14 @@ You are MANDATED to only choose from the below knowledge checks. The questions m
 
 # RULES
 - All Multiple Choice and Multiple Response questions will be SCENARIO based in order to apply knowledge
-- 
 # TEMPLATE OUTPUT
+"```
+``` quiztypes
+I will create the following quiz types:
+	- [insert random type 1]
+	- [insert random type 2]
+	- [insert random type 3]"
+```
 **[Knowledge Check name]**
 *Type*: [Insert one of the following: multiple choice, multiple response, fill in the blank, matching]
 *Question*: [insert question]
