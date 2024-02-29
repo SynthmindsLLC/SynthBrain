@@ -1,0 +1,38 @@
+[[2024-01-21]]
+- Company Updates
+	- Recap last week (CREATE values)
+	- Lawyer update (creating bylaws, hope to be done next week)
+	- review [[Business Model Canvas.canvas|Business Model Canvas]]
+	- review [form](https://docs.google.com/forms/d/e/1FAIpQLSdBmOk8HS5X9cP-SEVSlqDa3Dbwmt3fFxvhM8mEgWmX2dk5aA/viewform?usp=sf_link)
+- 
+
+[[2024-01-14]]
+- Company Updates
+	- Transition to a C Corp
+	- Structure
+		- Wes (50%) - CEO
+		- Goda (25%) - Chief Commercial Officer
+		- Joe (12.5%) Chief Learning Officer
+		- Dan (12.5%) Chief People Officer
+		- Uros Chief of Operations 
+		- We have set aside 20% of the company as options
+		- (although all this could change if an investor swoops in)
+		- We will share more when paperwork is signed. 
+	- Values (CREATE)
+	- Business Model Canvas (tomorrow)
+	- Branding
+	- Organizational Structuring
+		- Share Business Model and Aspirational Org Structure
+		- Staff fill out form - Where you want to contribute, what you'll cost (this includes shares in the company)
+		- "Building a Portfolio" and making decisions end of Q1
+	- Founders To Dos/Doing
+		- Finalizing Business Model Canvas
+		- Hired bookkeepers
+		- Incorporating new company
+		- Hiring "production" crew (editors for media)
+		- Creating Culture Code/Branding
+		- Finalize form for staff to fill out
+- Updates
+	- Juanatech (India) deal
+	- Uplimit Courses begin end of this month, and will essentially continue throughout the year
+	- April 19th is AI Literacy day
