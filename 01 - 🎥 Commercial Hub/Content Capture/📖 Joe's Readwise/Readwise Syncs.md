@@ -624,3 +624,7 @@
 [[2024-02-29]] 7:28 AM — Synced 15 highlights from 1 document.
     - 15 highlights from The Ethical Algorithm
 
+[[2024-03-01]] 6:46 AM — Synced 13 highlights from 2 documents.
+    - 3 highlights from Elon Musk Sues OpenAI and CEO Sam Altman for Abandoning Mission
+    - 10 highlights from The AI Culture Wars Are Just Getting Started
+
