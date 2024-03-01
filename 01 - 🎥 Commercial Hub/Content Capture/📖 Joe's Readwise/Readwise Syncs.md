@@ -628,3 +628,6 @@
     - 3 highlights from Elon Musk Sues OpenAI and CEO Sam Altman for Abandoning Mission
     - 10 highlights from The AI Culture Wars Are Just Getting Started
 
+[[2024-03-01]] 6:58 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from ChatGPT and Google Gemini Are Both Doomed
+
