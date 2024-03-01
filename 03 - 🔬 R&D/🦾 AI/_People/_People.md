@@ -8,6 +8,7 @@
 - [[Marc Andreessen]]
 - [[Mark Zuckerberg]]
 - [[Mira Murati]]
+- [[Mo Gawdot]]
 - [[Sam Altman]]
 - [[Yann LeCun]]
 
