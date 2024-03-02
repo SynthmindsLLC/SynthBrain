@@ -609,6 +609,11 @@
 [[2024-02-26]] 7:31 PM — Synced 11 highlights from 1 document.
     - 11 highlights from FlowGPT Is the Wild West of GenAI Apps
 
+[[2024-02-29]] 6:52 AM — Synced 20 highlights from 3 documents.
+    - 2 highlights from The Last Two Weeks at OpenAI
+    - 1 highlights from See These AI Powered &Quot;Smart Glasses&quot;
+    - 17 highlights from Demis Hassabis - Scaling, Superhuman AIs, AlphaZero Atop LLMs, Rogue Nations Threat
+
 [[2024-02-27]] 7:24 AM — Synced 5 highlights from 1 document.
     - 5 highlights from Scaling LLMs Further Is an Artform - Demis Hassabis
 
@@ -623,6 +628,9 @@
 
 [[2024-02-29]] 7:28 AM — Synced 15 highlights from 1 document.
     - 15 highlights from The Ethical Algorithm
+
+[[2024-03-01]] 8:54 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from BREAKING: ELON MUSK OPEN AI BOMBSHELL "AGI Achieved Internally", Q-Star, Lawsuit to DISSOLVE OpenAI
 
 [[2024-03-01]] 6:46 AM — Synced 13 highlights from 2 documents.
     - 3 highlights from Elon Musk Sues OpenAI and CEO Sam Altman for Abandoning Mission
