@@ -1,0 +1,31 @@
+# Microsoft's GitHub Is Under Siege as Security Experts Claim Over 100,000 Github Repositories Are Infected
+
+![rw-book-cover](https://cdn.mos.cms.futurecdn.net/yYyrSoaRdjJCmNaSc7too7-1200-80.jpg)
+
+## Metadata
+- Author: [[Colton Stradling]]
+- Date: 2024-03-01
+- Full Title: Microsoft's GitHub Is Under Siege as Security Experts Claim Over 100,000 Github Repositories Are Infected
+- Category: #articles
+- Summary: Microsoft's GitHub is facing a significant security threat with over 100,000 repositories reportedly infected in a malicious attack involving the cloning of clean repositories, addition of obfuscated code, and reuploading them. Despite efforts to delete these repositories, GitHub struggles to track them all. The attack, termed a malicious repository confusion campaign, utilizes GitHub's environment to covertly infect the software supply chain. The report highlights the need for enhanced security measures and vigilance to combat such cyber threats effectively.
+- URL: https://www.windowscentral.com/microsoft/microsofts-github-is-under-siege-as-security-experts-claim-over-100000-github-repositories-are-infected
+
+## Highlights
+- • Apiiro, a cybersecurity firm, reported that GitHub has suffered a massive attack that could impact thousands of people. ([View Highlight](https://read.readwise.io/read/01hr06ktfr8mcmnar30svwb59w))
+- • This attack involves cloning safe and clean repositories, adding malicious, obfuscated code, and reuploading them. ([View Highlight](https://read.readwise.io/read/01hr06m2reprvgmdzx6q0qmdf4))
+- The Apiiro teams estimate that over 100,000 GitHub repositories are affected, possibly even millions. Unfortunately, this isn't the first time we have had to report on GitHub being used by malicious actors. A few months ago, we [discussed](https://www.windowscentral.com/microsoft/microsofts-github-is-being-abused-by-hackers-and-ransomware-groups-but-can-it-be-fixed) how GitHub is being used to facilitate ransomware and even create command and control channels for ransomware attacks. ([View Highlight](https://read.readwise.io/read/01hr06mwmrw01mbajed71ap8ra))
+- The ease of automatic generation of accounts and repos on GitHub and alike, using comfortable APIs and soft rate limits that are easy to bypass, combined with the huge number of repos to hide among, make it a perfect target for covertly infecting the software supply chain. ([View Highlight](https://read.readwise.io/read/01hr06nx9v4q2vwwpkgawcxfhg))
+- A GitHub repository is a place where a GitHub user can upload their code so it can be shared with the rest of the world ([View Highlight](https://read.readwise.io/read/01hr06p6zpzhz8hwjhdfq3yg65))
+- In a watering hole attack, attackers download popular good repositories, add malicious code, "*7 layer" "eep*" ac"ord"ng" to Api"ro, and reupload them to GitHub with the same name. They then spread the fake version of the repository through social media, Discord, and other means to a targeted audience. These features indicate a watering hole attack that is very common in CyberSecurity. ([View Highlight](https://read.readwise.io/read/01hr06pyeqas77zhsz9wh3v0x9))
+- The attackers patiently wait for users to navigate to these compromised websites and then redirect them to a malicious site to infect their computers, granting access to the organization's network. ([View Highlight](https://read.readwise.io/read/01hr06qce6rh8xdd59v1jrja0z))
+- Once these attackers reupload their malicious repositories, they use automation to fork them thousands of times. This tactic is pretty commonly used. ([View Highlight](https://read.readwise.io/read/01hr06qrhbfq1hs9x31nhjfjj5))
+- A supply chain attack is a cyberattack targeting a trusted third-party vendor or supplier. "*It involves injecting malicious code into software or compromising hardware components to gain unauthorized access to a company's network or data,"* per [Crowdstrike](https://www.crowdstrike.com/cybersecurity-101/cyberattacks/supply-chain-attacks/). ([View Highlight](https://read.readwise.io/read/01hr06rrhk6sh22jqra3vaphyg))
+- These attacks obfuscate the code, and Python is mainly used to carry out the attacks. Once delivery of the payload has occurred and the vulnerability has been exploited, the code uses [BlackCap Grabber](https://github.com/Inplex-sys/BlackCap-Grabber-NoDualHook) to perform actions on target and send the stolen information to a command and control server. If you download a malicious GitHub repository, these things could be stolen or done on your PC. ([View Highlight](https://read.readwise.io/read/01hr06skaxmzb89ast238p1e9j))
+- • Browser passwords, cookies, and browsing history
+  • System information
+  • Login credentials from apps and tools such as Steam, MetaMask, and Exodus
+  • It will also attempt to bypass TokenProtector
+  • Hijacking the Windows clipboard to alter cryptocurrency addresses, replacing its content with the attacker's wallet address (among other functionalities) ([View Highlight](https://read.readwise.io/read/01hr06ssx3qdmpg2mn5sxa8vva))
+- GitHub was notified, and most of the malicious repos were deleted, but the campaign continues, and attacks that attempt to inject malicious code into the supply chain are becoming increasingly prevalent." ([View Highlight](https://read.readwise.io/read/01hr06tn24ad1234kand0qff3y))
+- This attack started in May of 2023 but has grown exponentially. This attack seems to be a whack-a-mole situation where GitHub will have to try to detect this code after it is uploaded and possibly once it's too late. As these attacks continue, more and more users could be infected. ([View Highlight](https://read.readwise.io/read/01hr06tzx2x3a1k08ae5akqdc3))
+- Microsoft has recently launched [Security Copilot](https://www.windowscentral.com/software-apps/microsofts-security-copilot-is-helping-cyber-responders-be-73-more-accurate), a tool purported to enhance the performance of cybersecurity defenders. However, its effectiveness largely hinges on customer engagement, reflecting Microsoft's hands-off approach, a characteristic often associated with the company, notorious for its minimal investment in customer service. ([View Highlight](https://read.readwise.io/read/01hr06wsb7m398tk3c3bhzkg4d))

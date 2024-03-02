@@ -639,3 +639,9 @@
 [[2024-03-01]] 6:58 PM — Synced 3 highlights from 1 document.
     - 3 highlights from ChatGPT and Google Gemini Are Both Doomed
 
+[[2024-03-02]] 2:35 PM — Synced 0 highlights from 0 documents.
+
+[[2024-03-02]] 1:38 PM — Synced 22 highlights from 2 documents.
+    - 8 highlights from There Are Growing Calls for Google CEO Sundar Pichai to Step Down
+    - 14 highlights from Microsoft's GitHub Is Under Siege as Security Experts Claim Over 100,000 Github Repositories Are Infected
+

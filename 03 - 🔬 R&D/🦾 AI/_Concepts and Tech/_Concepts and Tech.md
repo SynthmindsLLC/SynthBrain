@@ -12,6 +12,7 @@
 - [[Prompt Chaining]]
 - [[Resource Description Framework]]
 - [[SPARQL]]
+- [[The Singularity 1]]
 - [[The Singularity]]
 
 %% End Waypoint %%
