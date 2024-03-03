@@ -648,3 +648,6 @@
 [[2024-03-03]] 6:35 AM — Synced 24 highlights from 1 document.
     - 24 highlights from The Ethical Algorithm
 
+[[2024-03-03]] 1:01 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Stability AI Previews Stable Diffusion 3 Text-to-Image Model
+
