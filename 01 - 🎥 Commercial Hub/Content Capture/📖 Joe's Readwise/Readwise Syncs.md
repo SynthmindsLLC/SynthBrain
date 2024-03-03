@@ -645,3 +645,6 @@
     - 8 highlights from There Are Growing Calls for Google CEO Sundar Pichai to Step Down
     - 14 highlights from Microsoft's GitHub Is Under Siege as Security Experts Claim Over 100,000 Github Repositories Are Infected
 
+[[2024-03-03]] 6:35 AM — Synced 24 highlights from 1 document.
+    - 24 highlights from The Ethical Algorithm
+
