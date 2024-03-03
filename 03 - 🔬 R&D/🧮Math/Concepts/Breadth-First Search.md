@@ -51,7 +51,7 @@ BFS is a robust and versatile algorithm essential for various applications in co
 
 - [[Breadth-First Search]]
 - [[Graph Theory]]
-- [[Algorithms]]
+- [[🗺 Algorithms]]
 - [[Data Structures]]
 - [[Queue]]
 

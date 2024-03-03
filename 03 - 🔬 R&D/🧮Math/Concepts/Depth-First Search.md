@@ -90,7 +90,7 @@ DFS is a powerful tool for graph traversal that can be adapted for various appli
 
 - [[Depth-First Search]]
 - [[Graph Theory]]
-- [[Algorithms]]
+- [[🗺 Algorithms]]
 - [[Data Structures]]
 - [[Recursion]]
 - [[Stack]]
