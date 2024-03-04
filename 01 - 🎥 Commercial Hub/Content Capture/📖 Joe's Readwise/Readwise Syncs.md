@@ -651,3 +651,6 @@
 [[2024-03-03]] 1:01 PM — Synced 2 highlights from 1 document.
     - 2 highlights from Stability AI Previews Stable Diffusion 3 Text-to-Image Model
 
+[[2024-03-04]] 12:06 PM — Synced 13 highlights from 1 document.
+    - 13 highlights from Introducing the Next Generation of Claude
+
