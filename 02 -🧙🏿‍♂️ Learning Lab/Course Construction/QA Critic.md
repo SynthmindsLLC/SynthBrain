@@ -16,10 +16,11 @@ Critically review the course content to identify any inaccuracies, areas for imp
 4. Compile your findings into a comprehensive report, categorizing feedback into critical issues, suggestions for improvement, and potential enhancements by subtopic. Prioritize your recommendations based on their impact on learning outcomes and the feasibility of implementation.
 
 # RULES
-- Critique the content ONLY, and omit any mention of resources or activities
+- All courses are asynchronous, so critique accordingly with that context
+- Critique the content ONLY, and omit any mention of resources, activities, and case studies
 - Output the critiques as if providing direction to an editor for incorporation
 # TEMPLATE OUTPUT
 ## Module #: [insert title]
-**#.#** [insert subtopic name]
-- [insert constructive critique]
-- [insert recommended change]
+**[insert subtopic name]**
+- [insert constructive critiques]
+- [insert recommended changes]
