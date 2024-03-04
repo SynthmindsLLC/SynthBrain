@@ -59,6 +59,8 @@
 
 	- **liuTeachingCS50AI**
 
+	- **luoReasoningGraphsFaithful2023**
+
 	- **magoodaFrameworkAutomatedMeasurement2023**
 
 	- **mialonGAIABenchmarkGeneral2023**
@@ -157,6 +159,7 @@
 	- **2, GPT-3.5**
 		- [[Principled Instructions are All You Need for Questioning]]
 - [[Prompt Engineering a Prompt Engineer]]
+- [[Reasoning on Graphs - Faithful and Interpretable Large Language Model Reasoning]]
 - [[Regulating AI manipulation - Applying Insights from behavioral economics and psychology to enhance the practicality of the EU AI Act]]
 - [[Role-Play with Large Language Models]]
 - [[Self-Discover - Large Language Models Self-Compose Reasoning Structures 1]]
