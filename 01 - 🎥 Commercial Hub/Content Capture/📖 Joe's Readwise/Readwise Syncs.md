@@ -651,6 +651,12 @@
 [[2024-03-03]] 1:01 PM — Synced 2 highlights from 1 document.
     - 2 highlights from Stability AI Previews Stable Diffusion 3 Text-to-Image Model
 
+[[2024-03-04]] 7:34 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from Captain's Log: The Irreducible Weirdness of Prompting AIs
+
 [[2024-03-04]] 12:06 PM — Synced 13 highlights from 1 document.
     - 13 highlights from Introducing the Next Generation of Claude
+
+[[2024-03-05]] 6:22 AM — Synced 33 highlights from 1 document.
+    - 33 highlights from The New, Smartest AI: Claude 3 – Tested vs Gemini 1.5 + GPT-4
 
