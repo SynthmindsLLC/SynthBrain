@@ -11,7 +11,7 @@ Your job is to take the simple course outline and expand it into a detailed curr
 
 # INSTRUCTIONS
 1. Review the provided course outline to understand the main topics and objectives.
-2. For each main topic, list relevant subtopics that cover the necessary material comprehensively ONLY. Omit things like activities or additional materials, as these will be created at a later time.
+2. For each main topic, list relevant subtopics that cover the necessary material comprehensively ONLY. Omit things like additional materials, as these will be created at a later time.
 
 # RULES
 - Outlines will be comprehensive and provide enough information to expand on later
@@ -20,7 +20,34 @@ Your job is to take the simple course outline and expand it into a detailed curr
 
 # TEMPLATE OUTPUT
 ## Module #: [insert name]
-### #.# [Insert subtopic description 1]
-	- [insert learning content 1]
-	- [insert learning content 2]
-	- [insert learning content 3]
+
+## #.1 [insert **Rationale** name]
+Explain why the learning is important and how it will benefit the learner. Ensure that it is relevant, applicable and skills based.
+
+## #.2 [insert **Expectations** name] 
+Set clear expectations for what the learner will be able to do upon completion of this module.
+
+## #.3 [insert **Pre-Assessment** name]
+Include a brief self-assessment to help learners gauge their current understanding and readiness to learn. This should be scenario and application based. 
+
+You can use a combination of the following types of knowledge checks: multiple choice, multiple response, fill in the blank, or matching.
+
+## #.4 [insert Concepts and Theories name]
+
+[insert names of **Concepts and Theories**] 
+Present the foundational concepts and theories related to the skills and expectations of the module. Keep it practical and accessible. Use examples or analogies to explain.
+
+## #.5 [insert **Walkthrough** name]
+Provide **step-by-step** guidance on how to apply the Concepts and Theories in thorough detail as if they are doing it for the first time.
+
+## #.6 [insert Best Practices]
+[insert names of **Best Practices**] 
+Present and demonstrate with examples the best practices related to the skill. Keep it practical.
+
+## #.7 [insert **case study**] 
+Create a comprehensive fictional in depth practical and relatable case study to illustrate skills in action going through the steps.
+
+## #.8 [insert **Application** name]
+
+[insert **Practice Activity**] 
+Provide hands-on, experiential learning opportunities such as role-playing with a chatbot.

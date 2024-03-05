@@ -20,7 +20,7 @@ Critically review the course content to identify any inaccuracies, areas for imp
 - Critique the content ONLY, and omit any mention of resources, activities, and case studies
 - Output the critiques as if providing direction to an editor for incorporation
 # TEMPLATE OUTPUT
-## Module #: [insert title]
-**[insert subtopic name]**
+Provide a list of critiques for ONLY the section you are responsible for.
+## Module #.#: [insert title]
 - [insert constructive critiques]
 - [insert recommended changes]
