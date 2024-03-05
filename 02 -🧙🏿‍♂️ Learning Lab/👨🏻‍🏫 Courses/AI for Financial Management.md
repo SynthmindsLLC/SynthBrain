@@ -1,4 +1,4 @@
-## Integrating ChatGPT and Generative AI in Financial Management and Compliance
+# Module 4: Integrating ChatGPT and Generative AI in Financial Management and Compliance
 
 Envision yourself at the forefront of the financial industry, effortlessly navigating the complexities of compliance regulations with the aid of cutting-edge AI tools. This is not a distant dream but an attainable reality that this module aims to facilitate. As you master the use of ChatGPT and Generative AI in financial compliance, you'll be able to enhance accuracy, efficiency, and strategic decision-making within your role. Picture the impact this could have on your career: you could be the professional who pioneers innovative compliance solutions or the go-to expert for regulatory insights in your organization.
 
