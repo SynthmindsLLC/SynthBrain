@@ -19,5 +19,6 @@
 - [[Symbolic AI]]
 - [[The Singularity 1]]
 - [[The Singularity]]
+- [[Tuples]]
 
 %% End Waypoint %%

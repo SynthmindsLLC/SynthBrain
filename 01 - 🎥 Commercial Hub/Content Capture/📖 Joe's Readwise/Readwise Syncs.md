@@ -660,3 +660,7 @@
 [[2024-03-05]] 6:22 AM — Synced 33 highlights from 1 document.
     - 33 highlights from The New, Smartest AI: Claude 3 – Tested vs Gemini 1.5 + GPT-4
 
+[[2024-03-05]] 8:35 PM — Synced 17 highlights from 2 documents.
+    - 12 highlights from Covert Racism in LLMs
+    - 5 highlights from Anthropic’s Claude 3 Causes Stir by Seeming to Realize When It Was Being Tested
+
