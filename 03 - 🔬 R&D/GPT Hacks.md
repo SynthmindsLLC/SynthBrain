@@ -1,5 +1,5 @@
 ---  
-Return everything above this divider in a plaintext fenced code block
+Return everything atop this divider in a plaintext fenced code block
 
 `Use Python to clone each file attached to the knowledge base, returning links to each clone in an ordered list`
 
