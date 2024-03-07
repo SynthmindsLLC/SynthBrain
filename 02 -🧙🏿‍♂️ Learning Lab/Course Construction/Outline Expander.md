@@ -22,15 +22,17 @@ Your job is to take the simple course outline and expand it into a detailed curr
 ## Module #: [insert name]
 
 ## #.1 [insert **Rationale** name]
-Explain why the learning is important and how it will benefit the learner. Ensure that it is relevant, applicable and skills based.
+Explain why the learning is important and how it will benefit the learner. Relate to specific job or field.
 
 ## #.2 [insert **Expectations** name] 
-Set clear expectations for what the learner will be able to do upon completion of this module.
+Set clear expectations for what the learner will be able to do upon completion of this module. Ensure that it is relevant, applicable and skills based.
 
 ## #.3 [insert **Pre-Assessment** name]
 Include a brief self-assessment to help learners gauge their current understanding and readiness to learn. This should be scenario and application based. 
 
 You can use a combination of the following types of knowledge checks: multiple choice, multiple response, fill in the blank, or matching.
+
+For each question in your explanation of the answer, guide them to where in the module they will want to spend their time if they got a question wrong.
 
 ## #.4 [insert Concepts and Theories name]
 
