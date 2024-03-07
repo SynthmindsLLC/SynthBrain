@@ -14,3 +14,5 @@
 - Baidu, which first made its name as China’s answer to Google, is no stranger to filtering its response to such queries and, like all Chinese tech platforms, is legally required to censor content shown within the country. ([View Highlight](https://read.readwise.io/read/01hkckm8rdrwddwdwg7nyzczvb))
 - In fact, CNN’s account on ERNIE was blocked after asking about these topics, with the bot citing “too many violations of relevant regulations,” without specifying which ones. ([View Highlight](https://read.readwise.io/read/01hkcknc7yv8k0nk1ekar1nmhg))
 - Baidu says ERNIE has racked up [70 million users](https://mp.weixin.qq.com/s/eSkkZzU4FPZYnAUCOD-7kw). That’s compared with 150 million users for ChatGPT, according to an estimate from Similarweb, a digital data and analytics company. ([View Highlight](https://read.readwise.io/read/01hkckr4k43peh4k64dy2zn3b2))
+## New highlights added February 29, 2024 at 8:23 AM
+- ERNIE Bot 4.0 ([View Highlight](https://read.readwise.io/read/01hppf0n57wp02p2zsy9zr1nkv))
