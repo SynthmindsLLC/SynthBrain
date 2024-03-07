@@ -664,3 +664,17 @@
     - 12 highlights from Covert Racism in LLMs
     - 5 highlights from Anthropic’s Claude 3 Causes Stir by Seeming to Realize When It Was Being Tested
 
+[[2024-03-07]] 6:23 AM — Synced 40 highlights from 2 documents.
+    - 33 highlights from The Ethical Algorithm
+    - 7 highlights from Chapter 1 | the Beauty of Graph Theory
+
+[[2024-03-06]] 8:28 PM — Synced 16 highlights from 2 documents.
+    - 3 highlights from Ex-Google Engineer Charged With Stealing AI Trade Secrets While Working With Chinese Companies
+    - 13 highlights from AI Prompt Engineering Is Dead
+
+[[2024-03-06]] 8:45 PM — Synced 14 highlights from 1 document.
+    - 14 highlights from OpenAI’s “Own Goal”
+
+[[2024-03-07]] 5:56 AM — Synced 17 highlights from 1 document.
+    - 17 highlights from Chapter 1 | the Beauty of Graph Theory
+
