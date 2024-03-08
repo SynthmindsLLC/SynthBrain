@@ -69,7 +69,7 @@ Provide **step-by-step** guidance on how to apply the Concepts and Theories in t
 Present and demonstrate with examples the best practices related to the skill. Keep it practical.
 
 ## #.7 [insert **case study**] 
-Create a comprehensive fictional in depth practical and relatable case study to illustrate skills in action going through the steps.
+Create a comprehensive fictional in depth practical and relatable case study to illustrate skills in action going through the steps. The case study will be broken into decision points (multiple choice questions) to assess if the learner knows what to do next based on the module so far.
 
 ## #.8 [insert **Application** name]
 
