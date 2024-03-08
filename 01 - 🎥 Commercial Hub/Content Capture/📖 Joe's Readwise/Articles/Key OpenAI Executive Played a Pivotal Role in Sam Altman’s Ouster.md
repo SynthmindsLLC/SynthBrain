@@ -1,0 +1,21 @@
+# Key OpenAI Executive Played a Pivotal Role in Sam Altman’s Ouster
+
+![rw-book-cover](https://static01.nyt.com/images/2024/03/07/multimedia/07openai-board-mira-vzgf/07openai-board-mira-vzgf-facebookJumbo.jpg)
+
+## Metadata
+- Author: [[https://www.nytimes.com/by/mike-isaac]]
+- Date: 2024-03-07
+- Full Title: Key OpenAI Executive Played a Pivotal Role in Sam Altman’s Ouster
+- Category: #articles
+- Summary: Mira Murati, OpenAI's chief technology officer, played a significant role in the ousting of CEO Sam Altman, raising concerns about his management style and prompting the board's decision to remove him temporarily. Murati and Ilya Sutskever, OpenAI's chief scientist, expressed worries about Altman's behavior, leading to a tumultuous period before Altman's return to the company. The involvement of Murati and Sutskever shed light on internal issues at OpenAI, with the board eventually reinstating Altman but agreeing to diversify the board of directors in the process. The episode highlighted concerns about Altman's leadership and the company's governance, with ongoing speculation about the future direction of OpenAI.
+- URL: https://www.nytimes.com/2024/03/07/technology/openai-executives-role-in-sam-altman-ouster.html
+
+## Highlights
+- Ms. Murati wrote a private memo to Mr. Altman raising questions about his management and also shared her concerns with the board. That move helped to propel the board’s decision to force him out, according to people with knowledge of the board’s discussions who asked for anonymity because of the sensitive nature of a personnel issue. ([View Highlight](https://read.readwise.io/read/01hrdqydf473z4exe1ccyyb828))
+- Around the same time, Ilya Sutskever, a co-founder and chief scientist of OpenAI, expressed similar worries, citing what he characterized as Mr. Altman’s history of manipulative behavior, the people said. ([View Highlight](https://read.readwise.io/read/01hrdqyq9hggmpychawx0zz7aj))
+- Though it was not clear whether they offered specific examples, the executives said he sometimes created a toxic work environment by freezing out executives who did not support his decisions, the people said. ([View Highlight](https://read.readwise.io/read/01hrdqz48axsd65406kp01xhq3))
+- Mr. Altman declined to comment. Ms. Murati did not respond to a request for comment. Mr. Sutskever’s lawyer said claims that he had approached the board were “categorically false.” ([View Highlight](https://read.readwise.io/read/01hrdr0jtw6y4qp8awn6rjb8fk))
+- She described what some considered to be Mr. Altman’s playbook, which included manipulating executives to get what he wanted. First, Ms. Murati said Mr. Altman would tell people what they wanted to hear to charm them and support his decisions. If they did not go along with his plans or if it took too long for them to make a decision, he would then try to undermine the credibility of people who challenged him, the people said. ([View Highlight](https://read.readwise.io/read/01hrdr2b74z4d54f83ya2p1wft))
+- Some members of the board were concerned that Ms. Murati and Dr. Sutskever would leave the company if Mr. Altman’s behavior was not addressed. They also grew concerned the company would see an exodus of talent if top lieutenants left. ([View Highlight](https://read.readwise.io/read/01hrdrh6ekbhpmh72mz98dv5jc))
+- Some members were concerned about the creation of the [OpenAI Startup Fund](https://www.openai.fund/about), a venture fund started by Mr. Altman. Unlike a typical company investment fund, which is a legal extension of the corporation, [Mr. Altman held legal ownership](https://www.sec.gov/Archives/edgar/data/1877240/000187724023000001/xslFormDX01/primary_doc.xml) for the OpenAI fund and raised money from outside limited partners. ([View Highlight](https://read.readwise.io/read/01hrdrhn20w3mjczrte6ph6n7t))
+- The OpenAI fund used that money to invest in other artificial intelligence start-ups. Some members of the board grew concerned that Mr. Altman used the fund to skirt accountability from OpenAI’s nonprofit governance structure. They confronted Mr. Altman about his legal ownership and operational control over the fund last year. ([View Highlight](https://read.readwise.io/read/01hrdrj1jz7ppfs45rnc64hwn4))

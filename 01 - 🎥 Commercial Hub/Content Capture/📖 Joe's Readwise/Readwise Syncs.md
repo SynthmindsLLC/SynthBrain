@@ -678,9 +678,16 @@
 [[2024-03-07]] 5:56 AM — Synced 17 highlights from 1 document.
     - 17 highlights from Chapter 1 | the Beauty of Graph Theory
 
+[[2024-03-07]] 6:54 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from We Tested Anthropic’s New Chatbot — And Came Away a Bit Disappointed
+
 [[2024-03-07]] 12:41 PM — Synced 1 highlight from 1 document.
     - 1 highlights from Elon Musk's Plan to Hide Like Counts and Retweets Is Going to Make Twitter Boring as Hell
 
 [[2024-03-08]] 7:20 AM — Synced 12 highlights from 1 document.
     - 12 highlights from The Ethical Algorithm
+
+[[2024-03-07]] 8:11 PM — Synced 12 highlights from 2 documents.
+    - 8 highlights from Key OpenAI Executive Played a Pivotal Role in Sam Altman’s Ouster
+    - 4 highlights from Exclusive: Inflection AI's Friendly Chatbot Tops 1 Million Daily Users
 
