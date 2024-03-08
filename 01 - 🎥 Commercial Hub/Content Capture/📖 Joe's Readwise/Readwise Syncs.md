@@ -681,3 +681,6 @@
 [[2024-03-07]] 12:41 PM — Synced 1 highlight from 1 document.
     - 1 highlights from Elon Musk's Plan to Hide Like Counts and Retweets Is Going to Make Twitter Boring as Hell
 
+[[2024-03-08]] 7:20 AM — Synced 12 highlights from 1 document.
+    - 12 highlights from The Ethical Algorithm
+
