@@ -691,3 +691,6 @@
     - 8 highlights from Key OpenAI Executive Played a Pivotal Role in Sam Altman’s Ouster
     - 4 highlights from Exclusive: Inflection AI's Friendly Chatbot Tops 1 Million Daily Users
 
+[[2024-03-09]] 6:08 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Microsoft Says Russian Hackers Stole Source Code After Spying on Its Executives - The Verge
+
