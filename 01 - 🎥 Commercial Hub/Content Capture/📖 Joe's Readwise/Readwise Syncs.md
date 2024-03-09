@@ -694,3 +694,6 @@
 [[2024-03-09]] 6:08 AM — Synced 5 highlights from 1 document.
     - 5 highlights from Microsoft Says Russian Hackers Stole Source Code After Spying on Its Executives - The Verge
 
+[[2024-03-08]] 7:55 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from Review Completed & Altman, Brockman to Continue to Lead OpenAI
+
