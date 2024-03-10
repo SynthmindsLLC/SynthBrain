@@ -4,6 +4,8 @@
 - [[Burstiness]]
 - [[Chain of Thought]]
 - [[Chinchilla LLM]]
+- [[Collaborative Filtering]]
+- [[Correlated Equilibrium]]
 - [[CycleGT]]
 - [[Graph Attention Networks]]
 - [[Graph Neural Networks]]
