@@ -14,6 +14,7 @@
 - [[An Evaluation of GPT-4 on the ETHICS Dataset]]
 - [[An HCI-Centric Survey and Taxonomy of Human-Generative-AI Interactions]]
 - [[Analyzing the Influence of Language Model-Generated Responses in Mitigating Hate Speech on Social Media Directed at Ukrainian Refugees in Poland]]
+- [[AnyTool - Self-Reflective, Hierarchical Agents for Large-Scale API Calls]]
 - [[Artificial Intelligence in Career Counseling - A Test Case with ResumAI]]
 - [[Artificial Intelligence Risk Management Framework (AI RMF 1.0)]]
 - [[Ask Me Anything - A simple strategy for prompting language models]]
@@ -36,6 +37,10 @@
 	- **chiaContrastiveChainofThoughtPrompting2023**
 
 	- **dhuliawalaChainofVerificationReducesHallucination2023**
+
+	- **dinuSymbolicAIFrameworkLogicbased2024**
+
+	- **duAnyToolSelfReflectiveHierarchical2024**
 
 	- **hirschBusinessDataEthics2024**
 
@@ -164,6 +169,7 @@
 - [[Role-Play with Large Language Models]]
 - [[Self-Discover - Large Language Models Self-Compose Reasoning Structures 1]]
 - [[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
+- [[SymbolicAI - A framework for logic-based approaches combining generative models and solvers]]
 - [[System 2 Attention (is something you might need too)]]
 - [[Teaching CS50 with AI]]
 - [[Towards Cognitive AI Systems - a Survey and Prospective on Neuro-Symbolic AI 1]]
