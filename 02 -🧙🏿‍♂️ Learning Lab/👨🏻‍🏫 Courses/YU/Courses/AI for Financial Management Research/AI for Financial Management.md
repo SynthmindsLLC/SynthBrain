@@ -1343,13 +1343,13 @@ Understanding these various types of financial risks is crucial for professional
 - Front: What is cybersecurity risk, and why is it a growing concern for companies?
 - Back: Cybersecurity risk refers to the potential for losses due to cyber attacks, data breaches, or technology failures. As companies increasingly rely on digital systems and store sensitive data electronically, they become more vulnerable to cyber threats. Cybersecurity incidents can result in financial losses, operational disruptions, legal liabilities, and reputational damage. To manage cybersecurity risk, companies must implement robust security controls, regularly update their systems, train employees on cybersecurity best practices, and have incident response plans in place.
 
-## 3.5 Applying Generative AI in Financial Risk Management
+## Applying Generative AI in Financial Risk Management
 
 Now we will equip you with the practical skills to apply generative AI tools like ChatGPT in financial risk management within a company. The goal here is not just to understand but to act, transforming knowledge into competence. We’ll go through a step-by-step guide, ensuring clarity and building your confidence in using these tools effectively.
 
 ### Here's the revised section focused on using ChatGPT to identify risks and develop mitigation strategies:
 
-## 3.5 Applying ChatGPT in Financial Risk Identification and Mitigation
+## Applying ChatGPT in Financial Risk Identification and Mitigation
 
 In this section, we will guide you through the process of using ChatGPT to identify various financial risks within your company and develop effective mitigation strategies. By the end of this section, you will be able to leverage ChatGPT's capabilities to enhance your company's risk management practices.
 
