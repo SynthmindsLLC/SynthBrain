@@ -699,3 +699,9 @@
 
 [[2024-03-10]] 7:27 AM — Synced 0 highlights from 0 documents.
 
+[[2024-03-11]] 6:26 AM — Synced 11 highlights from 1 document.
+    - 11 highlights from Two Years Later, Deep Learning Is Still Faced With the Same Fundamental Challenges
+
+[[2024-03-11]] 8:03 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Selective Forgetting Can Help AI Learn Better
+
