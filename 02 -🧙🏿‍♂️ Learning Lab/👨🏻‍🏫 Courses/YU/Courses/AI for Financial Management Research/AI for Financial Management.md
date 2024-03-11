@@ -645,7 +645,7 @@ Please answer the following questions based on your existing knowledge and intui
 
 Reflect on your responses and use them as a launchpad for your learning in this module. Whether you answered all questions correctly or found some challenging, this module is designed to deepen your understanding and enhance your practical skills in AI-enhanced financial management.
 
-## 2.4 Concepts and Theories: Foundations of AI in Finance
+## Concepts and Theories: Foundations of AI in Finance
 
 In the world of finance, the introduction of Generative AI has been like a powerful gust of wind propelling a ship forward. But before setting the sails, we must understand the winds' direction and strength. This section will introduce you to the pivotal concepts and theories that form the backbone of utilizing AI in financial management. Your ability to apply these ideas effectively can transform the way you approach financial tasks. 
 
@@ -742,7 +742,7 @@ Here are flashcards based on the provided text "2.4 Concepts and Theories: Found
 
 Each flashcard is designed to help you quickly recall key concepts and theories underpinning the use of AI in finance, providing a solid foundation for further learning and application.
 
-## 2.5 Implementing AI in Budgeting Steps
+## Implementing AI in Budgeting Steps
 
 In this section, we will guide you through the fundamental steps of using generative AI, specifically the ChatGPT tool, to enhance your budgeting process. This hands-on approach will help consolidate your understanding of the concepts and theories discussed earlier and will provide you with the skills to apply AI in your financial management tasks.
 
@@ -1014,7 +1014,7 @@ In this case study, we've observed the practical application of AI in financial 
 
 ## Application: Hands-On with ChatGPT+ for Finance
 
-### Practice Activity: Role-playing with ChatGPT+ for Budgeting and Forecasting
+### Role-playing with ChatGPT+ for Budgeting and Forecasting
 
 Imagine you are a financial analyst at a mid-sized company. Your task is to prepare a quarterly budget and forecast report for the next fiscal year. You have at your disposal the powerful tool of ChatGPT+ with advanced data analysis functions. Let's begin by rolling up our sleeves and immersing ourselves in the practicality of AI-enabled finance management.
 
@@ -1185,7 +1185,7 @@ Envision yourself at the forefront of the financial sector, harnessing the power
 
 This critical module serves as a cornerstone for understanding how generative AI can be a game-changer in financial risk analysis. Building upon your existing knowledge of Generative AI financial fundamentals, we will venture into the depths of AI's capabilities, focusing on its application in the crucial area of risk management. In an era where financial landscapes are increasingly complex and the demand for precision and foresight in risk assessment is at an all-time high, this module is pivotal to your professional growth.
 
-## 3.1 Rationale for AI in Financial Risk Management
+## Rationale for AI in Financial Risk Management
 
 In today's fast-paced business environment, the ability to swiftly and accurately assess financial risks is paramount to the success and sustainability of any organization. The emergence of generative AI has brought a transformative shift in how financial risk management is approached and executed.
 
