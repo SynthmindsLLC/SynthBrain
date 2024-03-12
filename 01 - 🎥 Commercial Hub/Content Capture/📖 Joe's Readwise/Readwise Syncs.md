@@ -705,3 +705,6 @@
 [[2024-03-11]] 8:03 AM — Synced 9 highlights from 1 document.
     - 9 highlights from Selective Forgetting Can Help AI Learn Better
 
+[[2024-03-12]] 6:52 AM — Synced 14 highlights from 1 document.
+    - 14 highlights from Elon Musk to Open Source Grok AI | "Murdering AI, Cloning Humans & AI Gods" OpenAI's Scott Aaronson
+
