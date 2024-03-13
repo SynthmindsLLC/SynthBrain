@@ -708,3 +708,5 @@
 [[2024-03-12]] 6:52 AM — Synced 14 highlights from 1 document.
     - 14 highlights from Elon Musk to Open Source Grok AI | "Murdering AI, Cloning Humans & AI Gods" OpenAI's Scott Aaronson
 
+[[2024-03-13]] 7:24 AM — Synced 0 highlights from 0 documents.
+
