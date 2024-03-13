@@ -1,3 +1,10 @@
+# Videos
+# Module 1
+- [ ] concepts and theories (AI)
+- [ ] walkthrough (Human)
+- [ ] case study (AI)
+- [ ] project (AI)
+
 # Module 1: AI in Data Analysis and Financial Reporting
 
 Picture yourself at the helm of your organization's financial strategy, wielding cutting-edge AI tools to unveil insights that propel your business forward. Mastering the use of Generative AI in financial data analysis and reporting can empower you to make decisions with greater precision, forecast trends with confidence, and communicate complex financial information with clarity. As you apply the skills from this module, you'll be at the forefront of financial innovation, enhancing not only your career prospects but also the financial robustness of your organization.
