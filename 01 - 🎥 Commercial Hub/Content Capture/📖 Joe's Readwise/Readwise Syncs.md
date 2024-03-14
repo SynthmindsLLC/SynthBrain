@@ -710,3 +710,6 @@
 
 [[2024-03-13]] 7:24 AM — Synced 0 highlights from 0 documents.
 
+[[2024-03-14]] 7:04 AM — Synced 17 highlights from 1 document.
+    - 17 highlights from Let’s Not Make the Same Mistakes With AI That We Made With Social Media
+
