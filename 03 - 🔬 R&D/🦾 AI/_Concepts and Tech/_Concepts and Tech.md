@@ -10,6 +10,7 @@
 - [[Graph Attention Networks]]
 - [[Graph Neural Networks]]
 - [[Graph Recurrent Networks]]
+- [[Iterative Preference Learning]]
 - [[Knowledge Graphs]]
 - [[large language models]]
 - [[Neural Networks]]

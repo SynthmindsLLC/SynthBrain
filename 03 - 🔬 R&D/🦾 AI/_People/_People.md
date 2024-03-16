@@ -10,6 +10,7 @@
 - [[Mark Zuckerberg]]
 - [[Mira Murati]]
 - [[Mo Gawdot]]
+- [[Norbert Weiner Contemporaries]]
 - [[Sam Altman]]
 - [[Sam Harris]]
 - [[Yann LeCun]]
