@@ -715,3 +715,6 @@
 
 [[2024-03-15]] 8:20 AM — Synced 0 highlights from 0 documents.
 
+[[2024-03-16]] 5:16 AM — Synced 30 highlights from 1 document.
+    - 30 highlights from The Ethical Algorithm
+
