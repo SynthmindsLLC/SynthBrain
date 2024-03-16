@@ -8,7 +8,8 @@
 - [[Correlated Equilibrium]]
 - [[CycleGT]]
 - [[Graph Attention Networks]]
-- [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]]
+- [[Graph Neural Networks 1]]
+- [[Graph Neural Networks]]
 - [[Graph Recurrent Networks]]
 - [[Iterative Preference Learning]]
 - [[Knowledge Graphs]]
@@ -23,7 +24,6 @@
 - [[The Singularity 1]]
 - [[The Singularity]]
 - [[Tuples]]
-- [[vector databases]]
 - [[vector databases]]
 
 %% End Waypoint %%
