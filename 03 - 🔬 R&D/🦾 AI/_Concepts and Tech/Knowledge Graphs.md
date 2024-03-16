@@ -52,7 +52,7 @@ Sources
 
 By Perplexity at https://www.perplexity.ai/search/69f553e9-9df1-4235-a264-d6707251eecf
 
-Knowledge Graphs (KGs) and [[Graph Neural Networks]] (GNNs) are two interconnected technologies that play a significant role in the field of artificial intelligence and data science. 
+Knowledge Graphs (KGs) and [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]] (GNNs) are two interconnected technologies that play a significant role in the field of artificial intelligence and data science. 
 
 ## Knowledge Graphs
 

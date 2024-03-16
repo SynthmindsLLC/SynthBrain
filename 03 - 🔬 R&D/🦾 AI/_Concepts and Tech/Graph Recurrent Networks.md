@@ -19,7 +19,7 @@ For practical applications and further research, various frameworks and librarie
 
 - Important [[wikilinks]]:
   - [[Recurrent Neural Networks]]
-  - [[Graph Neural Networks]]
+  - [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]]
   - [[Dynamic Graphs]]
   - [[Link Prediction]]
   - [[Node Classification]]
