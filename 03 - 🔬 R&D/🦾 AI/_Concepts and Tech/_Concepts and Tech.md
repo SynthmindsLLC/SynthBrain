@@ -24,5 +24,6 @@
 - [[The Singularity]]
 - [[Tuples]]
 - [[vector databases]]
+- [[vector databases]]
 
 %% End Waypoint %%
