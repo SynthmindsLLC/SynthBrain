@@ -718,3 +718,13 @@
 [[2024-03-16]] 5:16 AM — Synced 30 highlights from 1 document.
     - 30 highlights from The Ethical Algorithm
 
+[[2024-03-16]] 5:59 PM — Synced 62 highlights from 5 documents.
+    - 18 highlights from I, Cyborg: Using Co-Intelligence
+    - 5 highlights from The Year of the Big-Balled Rat
+    - 7 highlights from In Partial Grudging Defense of Some Aspects of Therapy Culture
+    - 21 highlights from OpenAI’s Lies and Half-Truths
+    - 11 highlights from Lit Mag Guernica Implodes, LLMs Beat Neuroscientists, CS vs. Philosophy Deathmatch, AI Pollution Reaches Science
+
+[[2024-03-17]] 6:43 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from AI Agents Take the Wheel: Devin, SIMA, Figure 01 and the Future of Jobs
+
