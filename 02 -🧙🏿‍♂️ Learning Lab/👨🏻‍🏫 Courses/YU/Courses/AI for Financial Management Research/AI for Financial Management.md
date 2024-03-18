@@ -2,7 +2,6 @@
 # Module 1
 - [ ] concepts and theories (AI)
 - [ ] walkthrough (Human)
-- [ ] case study (AI)
 - [ ] project (AI)
 
 # Module 1: AI in Data Analysis and Financial Reporting
