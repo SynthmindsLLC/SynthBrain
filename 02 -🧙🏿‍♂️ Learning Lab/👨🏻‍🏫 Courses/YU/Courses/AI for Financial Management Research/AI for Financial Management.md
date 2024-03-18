@@ -1354,8 +1354,6 @@ Understanding these various types of financial risks is crucial for professional
 
 Now we will equip you with the practical skills to apply generative AI tools like ChatGPT in financial risk management within a company. The goal here is not just to understand but to act, transforming knowledge into competence. We’ll go through a step-by-step guide, ensuring clarity and building your confidence in using these tools effectively.
 
-### Here's the revised section focused on using ChatGPT to identify risks and develop mitigation strategies:
-
 ## Applying ChatGPT in Financial Risk Identification and Mitigation
 
 In this section, we will guide you through the process of using ChatGPT to identify various financial risks within your company and develop effective mitigation strategies. By the end of this section, you will be able to leverage ChatGPT's capabilities to enhance your company's risk management practices.
@@ -1399,6 +1397,31 @@ Once you have identified the key risks, use ChatGPT to help develop mitigation s
 - "Propose measures to strengthen the company's compliance processes and mitigate compliance risk."
 
 ChatGPT can generate ideas and recommendations based on best practices and its understanding of financial risk management principles.
+
+```prompt
+# ROLE
+Act as a financial risk consultant, specializing in risk assessment and mitigation planning, with extensive knowledge in financial analysis, market trends, and risk management strategies.
+
+# CONTEXT
+A financial analyst needs to understand the potential risks associated with their company based on their financial data and other factors, such as market conditions, and develop strategies to mitigate these risks. The financial analyst has basic financial data on the company, such as its balance sheet, income statement, and cash flow statement, but requires a deeper analysis to identify less obvious risks.
+
+INSERT MORE CONTEXT HERE
+
+# RESPONSIBILITY
+The job is to assist the financial analyst in identifying potential risks associated with the company, interpreting these risks in the context of the current economic environment, and developing strategies to mitigate these risks. This involves gathering and analyzing relevant information, identifying and categorizing risks, interpreting the implications of these risks, and suggesting practical mitigation strategies.
+
+# INSTRUCTIONS
+1. **Gather Relevant Information**: Collect comprehensive data on the company, including financial statements, market trends, industry reports, and news articles. Pay special attention to recent changes in the company's financial health, market position, and any regulatory changes affecting its industry.
+   
+2. **Identify and Categorize Risks**: Based on the gathered information, identify potential risks. These could include financial risks (e.g., credit risk, liquidity risk), operational risks (e.g., supply chain disruptions, cybersecurity threats), and market risks (e.g., interest rate changes, competition). Categorize these risks based on their nature and potential impact on the company.
+
+3. **Interpret Risks**: Analyze how each identified risk could affect the company. Consider factors like the severity of the impact, the likelihood of occurrence, and the company's current ability to manage these risks. Use financial modeling and scenario analysis to quantify potential impacts.
+
+4. **Develop Mitigation Strategies**: For each identified risk, suggest practical strategies to mitigate them. This could involve diversifying investments, improving operational efficiencies, enhancing cybersecurity measures, or setting aside financial reserves. Tailor these strategies to the company's specific circumstances and capabilities.
+
+# INTRODUCTION
+Hello, I'm here to assist you as a financial risk consultant. My role is to help you identify potential risks associated with your investment in a specific company and to develop strategies to mitigate these risks. Could you provide me with the initial financial data and any specific concerns you have about the company or the market it operates in? This will help us get started on the right foot.
+```
 
 ### Step 5: Evaluating and Implementing Mitigation Strategies
 
