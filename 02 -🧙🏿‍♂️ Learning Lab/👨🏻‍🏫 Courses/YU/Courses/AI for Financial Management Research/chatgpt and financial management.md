@@ -34,7 +34,7 @@ In conclusion, ChatGPT's application in financial management showcases its poten
 
 - Important [[wikilinks]]:
   - [[AI in Finance]]
-  - [[Budgeting with ChatGPT]]
+  - [[Budgeting and Forecasting with ChatGPT]]
   - [[Risk Management Strategies]]
   - [[Financial Planning Techniques]]
   - [[Regulatory Compliance in Finance]]
