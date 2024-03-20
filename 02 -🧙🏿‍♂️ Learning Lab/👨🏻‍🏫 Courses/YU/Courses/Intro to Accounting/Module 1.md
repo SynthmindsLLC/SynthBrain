@@ -5,7 +5,7 @@ Within the broader framework of our certification course, this module is the bed
 As we proceed together through this module, you'll immerse yourself in the intricate world of financial transactions, learning to decipher the language of numbers with the precision of a skilled interpreter. You’ll gain insights into:
 - The meticulous process of bookkeeping and its pivotal role in maintaining the financial health of a business.
 - The fundamental accounting equation that serves as the spine for all financial analysis.
-- The nuances of cash versus accrail accounting, understanding which technique to apply in different business scenarios.
+- The nuances of cash versus accrual accounting, understanding which technique to apply in different business scenarios.
 
 Let's consider Jane, the owner of a thriving catering service. She faces a conundrum: how to effectively track her growing business’s financials to steer clear of potential pitfalls and fuel sustainable growth. Throughout this module, you will accompany Jane, applying learned principles to tackle real-world financial questions akin to those you may encounter in your career.
 
