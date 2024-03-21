@@ -736,3 +736,7 @@
 [[2024-03-20]] 6:44 AM — Synced 3 highlights from 1 document.
     - 3 highlights from After Raising $1.3B, Inflection Got Eaten Alive by Its Biggest Investor, Microsoft
 
+[[2024-03-20]] 8:45 PM — Synced 43 highlights from 2 documents.
+    - 37 highlights from 8 Google Employees Invented Modern AI. Here’s the Inside Story
+    - 6 highlights from Microsoft Hiring of Inflection Staff Came Amid Lack of Consumer AI Vision, and Board Concerns About OpenAI, Insiders Say
+
