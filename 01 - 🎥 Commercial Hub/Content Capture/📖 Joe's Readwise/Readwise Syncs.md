@@ -740,3 +740,6 @@
     - 37 highlights from 8 Google Employees Invented Modern AI. Here’s the Inside Story
     - 6 highlights from Microsoft Hiring of Inflection Staff Came Amid Lack of Consumer AI Vision, and Board Concerns About OpenAI, Insiders Say
 
+[[2024-03-22]] 5:33 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from Open Source AI Agents STUN the Industry | Open Interpreter AI Agent + Device (01 Light ) Is Out!
+
