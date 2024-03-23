@@ -746,3 +746,6 @@
 [[2024-03-22]] 5:52 AM — Synced 11 highlights from 1 document.
     - 11 highlights from Understanding the Latest Q* Leak: The "Blanket Topology" Analogy for Energy-Based Models
 
+[[2024-03-23]] 6:51 AM — Synced 8 highlights from 1 document.
+    - 8 highlights from Stability AI CEO resigns because you’re ‘not going to beat centralized AI with more centralized AI’
+
