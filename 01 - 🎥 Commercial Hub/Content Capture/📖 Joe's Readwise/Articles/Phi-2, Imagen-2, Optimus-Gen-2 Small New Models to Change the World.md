@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2023-12-13
 - Full Title: Phi-2, Imagen-2, Optimus-Gen-2: Small New Models to Change the World?
 - Category: #articles
+- Summary: Small new models in generative AI, such as Phi-2, Imagen-2, and Optimus-Gen-2, have the potential to change the landscape of AI in 2024. Phi-2, a 2.7 billion parameter model, outperforms models of comparable size and even models 202 times its size. The Five series of models, including F1, F1.5, and F2, have been developed using permissively licensed open code and synthetic data. Microsoft has heavily backed these researchers, leading to the release of F2, which has 2.7 billion parameters trained in just 14 days. While these models show promise, they also have limitations in terms of prompt sensitivity and interpretation.
 - URL: https://youtube.com/watch?v=nPgs8THgbuI&si=sXhHrzqFRSunWhEl
 
 ## Highlights

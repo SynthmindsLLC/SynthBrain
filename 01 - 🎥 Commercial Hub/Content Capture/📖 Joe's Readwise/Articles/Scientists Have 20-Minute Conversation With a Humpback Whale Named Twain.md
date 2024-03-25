@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[ByEric Ralls]]
+- Date: 2023-12-19
 - Full Title: Scientists Have 20-Minute "Conversation" With a Humpback Whale Named Twain
 - Category: #articles
+- Summary: Scientists from Whale-SETI, a research team studying humpback whale communication systems, successfully engaged in a "conversation" with a humpback whale named Twain. Using a recorded humpback "contact" call played into the sea through an underwater speaker, the scientists were amazed as Twain approached and circled their boat, responding in a conversational manner. This breakthrough in non-human intelligence highlights the intelligence and complex social systems of humpback whales. The behavior observed in humpback whales supports the assumption that extraterrestrials would be interested in making contact with humans. The Whale-SETI team is utilizing their findings to develop filters that can be applied to potential extraterrestrial signals received.
 - URL: https://www.earth.com/news/scientists-have-20-minute-conversation-with-a-humpback-whale-named-twain/
 
 ## Highlights

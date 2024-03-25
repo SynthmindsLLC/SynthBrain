@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Wes Roth]]
+- Date: 2024-01-13
 - Full Title: Open Interpreter 2.0 | OpenAI Removes Military Limitations, Meets With China on AI Safety.
 - Category: #articles
+- Summary: OpenAI has made a policy change to allow military applications, although there is still a prohibition on developing and using weapons. OpenAI's Open Interpreter 2.0 has been updated with new features, including the ability to run models locally and support for vision tasks. OpenAI has also been meeting with Chinese AI experts to discuss AI safety. The long-term vision for Open Interpreter is to become an open-source AI operating system that could be the go-to platform for certain applications.
 - URL: https://youtube.com/watch?v=wqyGDXYuwFk&si=TvNMyAZ9RGaUlH_u
 
 ## Highlights

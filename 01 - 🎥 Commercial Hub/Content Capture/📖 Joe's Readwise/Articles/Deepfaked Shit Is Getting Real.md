@@ -13,5 +13,5 @@
 ## Highlights
 - An entire cast of deepfaked people include a deep faked CFO scammed a company out $25 million. “(In the) multi-person video conference, it turns out that everyone was fake.” ([View Highlight](https://read.readwise.io/read/01hnxzefrqtdcm7nncnp4701a0))
 - Even scarier is that the employee who was tricked was suspicious, not naive, and still fell for it: ([View Highlight](https://read.readwise.io/read/01hnxzev4p7yazg9th487evp33))
-- ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8c1841d-e24f-456e-bd90-1c114872be19_2387x246.jpeg) ([View Highlight](https://read.readwise.io/read/01hnxzevzvab2zy0my7s7ebm05))
 - In the end, I am reminded of the economist’s term *negative externalities*. In the old days, factories generated pollution, and expected everyone else to deal with the consequences. Now it’s AI developers who are expecting to do what they do scot-free, while society picks up the tab. ([View Highlight](https://read.readwise.io/read/01hnxzf7c5vk8dam87rw9d2v6f))
+    - Tags: [[favorite]] 

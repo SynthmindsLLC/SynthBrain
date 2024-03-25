@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[TheAIGRID]]
+- Date: 2024-01-09
 - Full Title: Rabbits New AI AGENT Device Just SHOCKED the Entire INDUSTRY
 - Category: #articles
+- Summary: Rabbits has introduced a new AI device called the Rabbit R1, which has garnered excitement for its unique features. The device includes a teach mode that allows users to customize its functions by recording their computer face interactions. It also incorporates a vision model that could potentially replace the iPhone. The device has fast latency and is competitively priced at $200. The demo showcased its capabilities, including a 360 camera, image analysis, and natural language processing. If the device lives up to the demo, it has the potential to revolutionize the AI wearables market.
 - URL: https://youtube.com/watch?v=uJnhh7YSr5Q&si=fcXgDTkkkEre14c6
 
 ## Highlights

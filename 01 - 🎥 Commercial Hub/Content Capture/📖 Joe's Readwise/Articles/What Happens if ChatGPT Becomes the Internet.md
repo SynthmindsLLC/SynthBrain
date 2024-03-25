@@ -1,11 +1,13 @@
 # What Happens if ChatGPT Becomes the Internet?
 
-![rw-book-cover](https://cdn.theatlantic.com/thumbor/Kvqi2dV1KZrEHj66GzpZr6ePmoc=/0x43:2000x1085/1200x625/media/img/mt/2023/12/chat_gbt_plumbing_1/original.jpg)
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_1162316/original.jpg)
 
 ## Metadata
 - Author: [[Damon Beres]]
+- Date: 2023-12-13
 - Full Title: What Happens if ChatGPT Becomes the Internet?
 - Category: #articles
+- Summary: OpenAI, the creator of ChatGPT, has announced a partnership with media conglomerate Axel Springer. This partnership will allow ChatGPT to provide users with summaries of news content from Axel Springer's portfolio of publications, including Politico and Business Insider. The details of how this will work are not clear, but it suggests that ChatGPT will be able to generate responses based on Axel Springer stories and provide links to the original articles. This move benefits Axel Springer by providing an additional distribution channel and revenue stream, while also enhancing the user experience on ChatGPT.
 - URL: https://www.theatlantic.com/technology/archive/2023/12/openai-axel-springer-partnership-content/676340/
 
 ## Highlights

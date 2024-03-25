@@ -11,7 +11,6 @@
 - URL: https://www.notion.so/help/guides/notion-ai-for-docs
 
 ## Highlights
-- **To improve existing content,** highlight text and select Ask AI. Then, pick an option from the dropdown or write a custom prompt. ([View Highlight](https://read.readwise.io/read/01hnvbqykrs5e52zrzpe4dv8vs))
 - **To generate a summary or extract insights from a page,** type `/AI` to view AI blocks, or ask Notion AI to write anything for you. ([View Highlight](https://read.readwise.io/read/01hnvbr78vtp0ysckx0wv5b2mw))
 - **To draft new text,** use the `space` key on a new page or line and enter any prompt. ([View Highlight](https://read.readwise.io/read/01hnvbredaffvgcg1bm2f67x43))
 - Highlight text and `Ask AI` to do anything to offload time-consuming tasks that Notion AI can do in seconds: extract action items from meeting notes, distill insights from customer research notes, even generate high-quality translations. ([View Highlight](https://read.readwise.io/read/01hnvbsawwegeqt22w8af29b6e))

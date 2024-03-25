@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"4379a12759f4c35b","type":"text","text":"Stash in Zotero inbox with initial tags","x":-248,"y":-6,"width":208,"height":86},
+		{"id":"d317b805a76d536e","type":"text","text":"Find Research Article","x":-241,"y":-164,"width":195,"height":84},
+		{"id":"61d0d04157b7a20c","type":"text","text":"Read Annotate (zotero)","x":-252,"y":160,"width":218,"height":94},
+		{"id":"5f6eda5bd679e372","type":"text","text":"Upload to obsidian","x":-243,"y":340,"width":198,"height":104},
+		{"id":"8aba8b29ff28210d","type":"text","text":"Send through Research Assistant (Dendrex)","x":-251,"y":520,"width":214,"height":117},
+		{"id":"2bef3c8318871d47","type":"text","text":"input research summary into obsidian","x":-271,"y":729,"width":250,"height":131},
+		{"id":"a44340ceb86dc1d1","type":"text","text":"Input backlink into daily notes","x":40,"y":334,"width":207,"height":117},
+		{"id":"2eb06227bce0b035","type":"text","text":"Copy research summary into website (Hubspot)","x":-270,"y":940,"width":250,"height":139},
+		{"id":"720d35264ac576fd","type":"text","text":"Hubspot social media scheduling","x":-260,"y":1160,"width":231,"height":133},
+		{"id":"b60f766b4b7019bc","type":"text","text":"Buzzsprout","x":40,"y":966,"width":191,"height":74},
+		{"id":"aa7db9eabc33e181","type":"text","text":"Do AI audio","x":240,"y":780,"width":159,"height":114},
+		{"id":"4525e62416495edd","type":"text","text":"Edit","x":285,"y":980,"width":114,"height":60},
+		{"id":"b4590c9e6844492a","type":"text","text":"move to zotero outbox","x":-586,"y":347,"width":250,"height":104},
+		{"id":"c9d170175211e3f5","type":"text","text":"[[👨‍🎤Dendrex (Arxivist)]] summarizes research into a wiki, and social media posts (image, captions)","x":40,"y":488,"width":250,"height":241}
+	],
+	"edges":[
+		{"id":"2dff77ca30550d95","fromNode":"d317b805a76d536e","fromSide":"bottom","toNode":"4379a12759f4c35b","toSide":"top"},
+		{"id":"d110f16b4535d6f6","fromNode":"4379a12759f4c35b","fromSide":"bottom","toNode":"61d0d04157b7a20c","toSide":"top"},
+		{"id":"018d9c7c2f8022df","fromNode":"61d0d04157b7a20c","fromSide":"bottom","toNode":"5f6eda5bd679e372","toSide":"top"},
+		{"id":"8d4c029ae81514d2","fromNode":"5f6eda5bd679e372","fromSide":"bottom","toNode":"8aba8b29ff28210d","toSide":"top"},
+		{"id":"b04835866a574945","fromNode":"8aba8b29ff28210d","fromSide":"bottom","toNode":"2bef3c8318871d47","toSide":"top"},
+		{"id":"6fefd4af2ed300b7","fromNode":"a44340ceb86dc1d1","fromSide":"left","toNode":"5f6eda5bd679e372","toSide":"right"},
+		{"id":"837730cc65776606","fromNode":"c9d170175211e3f5","fromSide":"left","toNode":"8aba8b29ff28210d","toSide":"right"},
+		{"id":"b49b6903707cfc08","fromNode":"2bef3c8318871d47","fromSide":"bottom","toNode":"2eb06227bce0b035","toSide":"top"},
+		{"id":"7962beec33decb39","fromNode":"2eb06227bce0b035","fromSide":"bottom","toNode":"720d35264ac576fd","toSide":"top"},
+		{"id":"ba8dd78e662a30be","fromNode":"aa7db9eabc33e181","fromSide":"bottom","toNode":"4525e62416495edd","toSide":"top"},
+		{"id":"3f300a172b1087b8","fromNode":"4525e62416495edd","fromSide":"left","toNode":"b60f766b4b7019bc","toSide":"right"},
+		{"id":"b2ce24fdff4648a2","fromNode":"b60f766b4b7019bc","fromSide":"left","toNode":"2eb06227bce0b035","toSide":"right"},
+		{"id":"c2a24476992e8d57","fromNode":"b4590c9e6844492a","fromSide":"right","toNode":"5f6eda5bd679e372","toSide":"left"}
+	]
+}

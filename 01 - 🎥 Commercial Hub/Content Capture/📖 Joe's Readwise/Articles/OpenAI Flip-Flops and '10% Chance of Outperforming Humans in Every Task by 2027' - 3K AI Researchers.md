@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2024-01-12
 - Full Title: OpenAI Flip-Flops and '10% Chance of Outperforming Humans in Every Task by 2027' - 3K AI Researchers
 - Category: #articles
+- Summary: OpenAI has made some significant changes in its approach to AI development, including a shift in focus from maximizing user engagement to prioritizing intelligence amplification and tools that empower all humans. The company's GPT store allows builders to create their own versions of chat GPTs and monetize them through user engagement. However, there have been concerns about the addictive nature of AI models and the potential risks of building superintelligence. OpenAI's recent announcement about GPT 4 learning from user chats and personalizing responses has raised questions about the line between tools and replacements for human labor. Additionally, the company's partnerships with publishers and talks with media companies like CNN and Fox raise concerns about the future of independent journalism in a world dominated by AI giants. The article also mentions a recent survey of AI researchers, which provides insights into their predictions about the future of AI.
 - URL: https://youtube.com/watch?v=cI108ly0hXs&si=01SXBzQMpzPdN-j3
 
 ## Highlights

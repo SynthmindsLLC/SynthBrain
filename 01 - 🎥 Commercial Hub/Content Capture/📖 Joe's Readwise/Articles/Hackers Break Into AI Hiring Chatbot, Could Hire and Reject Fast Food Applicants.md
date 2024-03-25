@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Joseph Cox · Jan 11]]
+- Date: 2024-01-11
 - Full Title: Hackers Break Into AI Hiring Chatbot, Could Hire and Reject Fast Food Applicants
 - Category: #articles
+- Summary: Hackers were able to breach the backend of an AI chatbot used by fast food franchises for hiring, potentially allowing them to accept or reject job applicants and access sensitive data. The hackers gained access by exploiting an exposed Firebase configuration related to a fast food chain. They were able to obtain names, phone numbers, email addresses, and other information from the database. The vulnerability was reported to the AI company, Chattr, which fixed the issue, but there was no further contact or thanks from the company.
 - URL: https://www.404media.co/hackers-break-into-hiring-ai-chat-bot-chattr/
 
 ## Highlights

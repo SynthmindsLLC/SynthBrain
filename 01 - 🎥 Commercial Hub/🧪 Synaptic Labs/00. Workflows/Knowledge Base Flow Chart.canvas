@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"ef06cf4d3eb2c0c1","type":"text","text":"Professor Synapse","x":-140,"y":40,"width":250,"height":80,"color":"4"},
+		{"id":"9f8a5718b5a90d96","type":"text","text":"Project Manager","x":-474,"y":30,"width":174,"height":90,"color":"5"},
+		{"id":"4293116d54e84d11","type":"text","text":"Monday","x":-800,"y":150,"width":149,"height":60,"color":"5"},
+		{"id":"bc3413eab9560093","type":"text","text":"Obsidian","x":-300,"y":-370,"width":250,"height":60,"color":"6"},
+		{"id":"7aff700a3d69fac0","type":"text","text":"Zotero","x":110,"y":-370,"width":160,"height":60,"color":"6"},
+		{"id":"afaffdf8b84f73fd","type":"text","text":"Gmail","x":630,"y":-85,"width":140,"height":60,"color":"1"},
+		{"id":"ac8fd6f91f011911","type":"text","text":"Google Drive","x":600,"y":60,"width":200,"height":60,"color":"1"},
+		{"id":"3b11de2e540227a2","type":"text","text":"Executive Assistant","x":190,"y":40,"width":160,"height":80,"color":"1"},
+		{"id":"00c91b66c590e16b","type":"text","text":"Calendar","x":630,"y":240,"width":170,"height":60,"color":"1"},
+		{"id":"ee71b057dc74835d","type":"text","text":"Hubspot","x":-95,"y":400,"width":156,"height":60,"color":"2"},
+		{"id":"6a107ba321a22a9a","type":"text","text":"Shopify","x":180,"y":400,"width":141,"height":60,"color":"2"},
+		{"id":"135e95be48137cc3","type":"text","text":"Librarian","x":-94,"y":-110,"width":160,"height":60,"color":"6"},
+		{"id":"63328d661787a43e","type":"text","text":"The Biz","x":-85,"y":210,"width":141,"height":60,"color":"2"},
+		{"id":"56c395f11b879d4c","type":"text","text":"Trello","x":-789,"y":-20,"width":128,"height":50,"color":"5"}
+	],
+	"edges":[
+		{"id":"aa5271a7347798a0","fromNode":"bc3413eab9560093","fromSide":"bottom","toNode":"135e95be48137cc3","toSide":"top","fromEnd":"arrow","label":"Review, Access, \nChange, or Add notes"},
+		{"id":"306665578923d9c8","fromNode":"3b11de2e540227a2","fromSide":"right","toNode":"afaffdf8b84f73fd","toSide":"left","fromEnd":"arrow","label":"Review, write, \nsend emails"},
+		{"id":"49ecd9e7adf6f7b4","fromNode":"63328d661787a43e","fromSide":"bottom","toNode":"ee71b057dc74835d","toSide":"top","fromEnd":"arrow","label":"Add/review contact, analyze data"},
+		{"id":"c390ec2130de5ccd","fromNode":"ee71b057dc74835d","fromSide":"right","toNode":"6a107ba321a22a9a","toSide":"left","fromEnd":"arrow"},
+		{"id":"8552c7a3095eaad7","fromNode":"9f8a5718b5a90d96","fromSide":"left","toNode":"56c395f11b879d4c","toSide":"right","fromEnd":"arrow","label":"Review, add, edit"},
+		{"id":"7cfe5fb0cf6fe9fd","fromNode":"7aff700a3d69fac0","fromSide":"bottom","toNode":"135e95be48137cc3","toSide":"top","label":"Prof Summarize -> \nObsidian"},
+		{"id":"2978ce6e97a1584a","fromNode":"ac8fd6f91f011911","fromSide":"left","toNode":"3b11de2e540227a2","toSide":"right","fromEnd":"arrow","label":"Create, review, add files"},
+		{"id":"1f60c8827595c792","fromNode":"4293116d54e84d11","fromSide":"right","toNode":"9f8a5718b5a90d96","toSide":"left","fromEnd":"arrow","label":"Review, add, edit"},
+		{"id":"e894c989cac262ef","fromNode":"9f8a5718b5a90d96","fromSide":"right","toNode":"ef06cf4d3eb2c0c1","toSide":"left","fromEnd":"arrow"},
+		{"id":"5a2ce91853649818","fromNode":"ef06cf4d3eb2c0c1","fromSide":"top","toNode":"135e95be48137cc3","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"5b20d53f86735d16","fromNode":"ef06cf4d3eb2c0c1","fromSide":"right","toNode":"3b11de2e540227a2","toSide":"left","fromEnd":"arrow"},
+		{"id":"870d3753b78d7a9f","fromNode":"00c91b66c590e16b","fromSide":"left","toNode":"3b11de2e540227a2","toSide":"right","label":"create or change appts"},
+		{"id":"2674606959924451","fromNode":"63328d661787a43e","fromSide":"top","toNode":"ef06cf4d3eb2c0c1","toSide":"bottom","fromEnd":"arrow"}
+	]
+}

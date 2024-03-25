@@ -1,18 +1,21 @@
 # Eran Adi Cioban’s Post
 
-![rw-book-cover](https://media.licdn.com/dms/image/D4D22AQHwfl5OE-Akcg/feedshare-shrink_2048_1536/0/1702542339520?e=1705536000&v=beta&t=23LfuFw0vQr6JpLbc1Wm2F2otntYgAxOWfBYEKmc3Ck)
+![rw-book-cover](https://media.licdn.com/dms/image/D4D22AQHpjySqstbB6A/feedshare-shrink_2048_1536/0/1702331264272?e=1705536000&v=beta&t=cAl_HgxSGDke22nTPvSZAh2WxeGXJehXvcZd6fz3dSs)
 
 ## Metadata
 - Author: [[Eran Adi Cioban]]
+- Date: 2023-12-11
 - Full Title: Eran Adi Cioban’s Post
 - Category: #articles
-- URL: https://www.linkedin.com/posts/eranac_prompts-learningexperience-prompt-activity-7140980153379192833-HlQw?utm_source=share&utm_medium=member_ios
+- Summary: In this post, Eran Adi Cioban discusses the insights he gained from analyzing OpenAI's system prompt for GPT-4 using a form of Contextual Continuation prompt hacking method. He focuses on the instructions given to Dalle, an image generation model. Some of the instructions include generating detailed prompts, not asking for permission to create images, avoiding deepfakes and copyrighted characters, and diversifying the descent and gender of persons in human scenes. Cioban also mentions that one bullet point was deleted from the instructions. He invites readers to share their insights from the prompt.
+- URL: https://www.linkedin.com/posts/eranac_prompts-learningexperience-learn-activity-7140094841476096001-NKKv?utm_source=share&utm_medium=member_ios
 
 ## Highlights
-- extracted [OpenAI](https://www.linkedin.com/company/openai?trk=public_post-text)'s system instructions for [#gpt4](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fgpt4&trk=public_post-text)'s [#search](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsearch&trk=public_post-text) capability. ([View Highlight](https://read.readwise.io/read/01hhm3m6ekn1fty82gchz0bwqm))
-- tool used for [#searching](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsearching&trk=public_post-text) is 'browser' - now you can refer to it directly as well. ([View Highlight](https://read.readwise.io/read/01hhm3mbm1zj673vz502sma3vf))
-- Three conditions where it is being used: requests calling for current events or real-time [#information](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Finformation&trk=public_post-text); requests about a term unknown to the model; and explicitly asking to search. - I wonder if these conditions cover all the cases where searching is appropriate. The unknown term is especially interesting as we all know that [#hallucinations](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fhallucinations&trk=public_post-text) might interfere here. ([View Highlight](https://read.readwise.io/read/01hhm3mhr60tr57dfymtgk3etb))
-- A separate function called 'mclick' is the one actually processing the sources - A deeper dive into 'mclick' is required to understand how it selects the sources. ([View Highlight](https://read.readwise.io/read/01hhm3mp6bwkns43hcw9pdeyka))
-- The sources processing is quite interesting. It is instructed to select at least 3 diverse and high-quality sources - As we all know by now; diverse and high quality are subjective concepts. I smell [#biases](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fbiases&trk=public_post-text), especially when it is instructed to repeat step 1 due to unsatisfactory results and the belief the bot can refine the query for better results. Are we already at the stage where we rely on the beliefs of an [#llm](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fllm&trk=public_post-text)? ([View Highlight](https://read.readwise.io/read/01hhm3mtqh3nw10zncp9xsv5fw))
-- I also wonder about the directive to retrieve in parallel, maybe it is to avoid the effect of one source influencing the processing of the others? ([View Highlight](https://read.readwise.io/read/01hhm3n59s1mtv6wj17c6m328n))
-- The function 'open_url' is to be used only to open links provided by the user. This is interesting as it has the technical capability to perform depth searches but it is prevented from doing so. Resource management or something else? ([View Highlight](https://read.readwise.io/read/01hhm3n8tpnxdayqreczvn55ce))
+- ▪ [#ChatGPT](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fchatgpt&trk=public_post-text) is instructed to generate prompt for Dalle that are very detailed, and around 100 words long. Gone are the short and heavily engineered prompts for [#imagegeneration](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fimagegeneration&trk=public_post-text) models. 
+  ▪ There was a bullet number 2 that was deleted. I wonder what it was. 
+  ▪ Dalle is instructed to JUST DO IT and don't ask your permission to create images 
+  ▪ Dalle is instructed not to easily share the generated image prompt. Maybe a cost saving directive? 
+  ▪ It is instructed to produce a single picture even if you ask for more. Combined with No. 5, it is definitely a cost saving move. 
+  ▪ Dalle is instructed to avoid [#deepfake](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fdeepfake&trk=public_post-text) and refer to actual people. 
+  ▪ Dalle is instructed to NOT to mimic works of artists active in the last 10 ([View Highlight](https://read.readwise.io/read/01hhey0fed641xacbgdhywvbgt))
+- ![](https://media.licdn.com/dms/image/D4D22AQHpjySqstbB6A/feedshare-shrink_2048_1536/0/1702331264272?e=1705536000&v=beta&t=cAl_HgxSGDke22nTPvSZAh2WxeGXJehXvcZd6fz3dSs) ([View Highlight](https://read.readwise.io/read/01hhey0t4qwyq3kq616wj61fv3))

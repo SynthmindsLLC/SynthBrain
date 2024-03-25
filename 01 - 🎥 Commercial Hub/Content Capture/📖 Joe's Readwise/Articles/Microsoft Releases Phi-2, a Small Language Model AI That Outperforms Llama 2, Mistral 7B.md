@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Carl Franzen]]
+- Date: 2023-12-12
 - Full Title: Microsoft Releases Phi-2, a Small Language Model AI That Outperforms Llama 2, Mistral 7B
 - Category: #articles
+- Summary: Microsoft Research has announced the release of Phi-2, a small language model AI program that can run on a laptop or mobile device. Despite its smaller size, Phi-2 outperforms larger models like Llama 2-7B and Mistral-7B in terms of performance. It also delivers less toxicity and bias in its responses compared to other models. However, Phi-2 is currently only licensed for research purposes and cannot be used for commercial usage.
 - URL: https://venturebeat.com/ai/microsoft-releases-phi-2-a-small-language-model-ai-that-outperforms-llama-2-mistral-7b/
 
 ## Highlights

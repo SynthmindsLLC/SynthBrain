@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Engadget]]
+- Date: 2024-01-27
 - Full Title: ElevenLabs Reportedly Banned the Account That Deepfaked Biden's Voice With Its AI Tools
 - Category: #articles
 - Summary: ElevenLabs, an AI startup that offers voice cloning services, has reportedly banned the user who created an audio deepfake of Joe Biden's voice. The deepfake was used in a robocall that attempted to disrupt the elections in New Hampshire. Security company Pindrop analyzed the audio and determined that ElevenLabs' tools were used. The company has suspended the account responsible for creating the fake audio and is investigating the incident. This incident highlights the potential for technologies that can manipulate voices to be used for voter suppression and election manipulation. ElevenLabs needs to implement stronger safeguards to prevent misuse of their tools.

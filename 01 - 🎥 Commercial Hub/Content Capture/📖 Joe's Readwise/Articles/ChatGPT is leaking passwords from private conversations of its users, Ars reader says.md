@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Dan Goodin]]
+- Date: 2024-01-30
 - Full Title: ChatGPT is leaking passwords from private conversations of its users, Ars reader says
 - Category: #articles
 - Summary: ChatGPT, an AI chatbot developed by OpenAI, has been found to be leaking private conversations that contain login credentials and personal details of unrelated users. Screenshots submitted by an Ars reader showed conversations that included pairs of usernames and passwords connected to an employee support system for a pharmacy prescription drug portal. The leaked conversation also revealed the name of the app and the store number where the problem occurred. This incident highlights the importance of removing personal details when using AI services and raises concerns about data leakage. OpenAI is currently investigating the report.

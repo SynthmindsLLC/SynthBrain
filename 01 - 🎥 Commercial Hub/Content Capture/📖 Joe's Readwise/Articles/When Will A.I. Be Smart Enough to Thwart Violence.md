@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Heather Tal Murphy]]
+- Date: 2023-12-11
 - Full Title: When Will A.I. Be Smart Enough to Thwart Violence?
 - Category: #articles
+- Summary: Advances in artificial intelligence (A.I.) are transforming the capabilities of security cameras. These cameras can now differentiate between people and objects, and even predict suspicious activity based on visual cues. Startups and security-camera companies are offering these advanced capabilities to customers, allowing cameras to function as digital security guards. Use cases for this technology include preventing suicides on bridges, detecting HR subcontractor fraud, and even stopping school shootings. However, there are concerns about the potential for misguidance and bias in the assessments made by these A.I.-powered cameras.
 - URL: https://slate.com/technology/2023/12/ai-mass-shootings-ambient-fusus-surveillance.html
 
 ## Highlights

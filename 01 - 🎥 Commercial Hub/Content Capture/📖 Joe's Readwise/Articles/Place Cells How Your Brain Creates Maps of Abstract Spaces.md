@@ -35,7 +35,6 @@
 - the layout of place
   cells is not constant if you look at the activity of a given neuron it would have one place field in this environment different place field in a different environment and maybe showed no activity at all in the third ([View Highlight](https://read.readwise.io/read/01hp49w9qncfcmx916gncscdyy))
 - constitute a remapping of place cell representation of space it can take a variety of different forms and the degree of remapping depends on the similarity between two environments ([View Highlight](https://read.readwise.io/read/01hp49wrrxadgb2erfajevz7xp))
-## New highlights added February 8, 2024 at 8:35 AM
 - place fields clearly relates to the transformation of the environment for example in the case when a mouse was in a cylindrical chamber with a cue card at a certain position rotating the card caused the place fields to rotate accordingly but maintain their relative locations even more interesting example was observed by o'keeffe himself when place feels stretched along with the box when he varied the aspect ratio of the walls
   hippocampus remapping still remains largely a mysterious phenomenon ([View Highlight](https://read.readwise.io/read/01hp4b1mnmhrfr7pkw78xepqrk))
 - different environments have different internal maps and so the pattern of place cell activity provides information not only about animals position within the environment but also about the identity of the environment itself so what aspects of the environment

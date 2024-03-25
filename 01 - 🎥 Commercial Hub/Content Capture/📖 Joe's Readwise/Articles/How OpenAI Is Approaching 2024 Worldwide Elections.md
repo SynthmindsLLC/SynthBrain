@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[openai.com]]
+- Date: 2024-01-15
 - Full Title: How OpenAI Is Approaching 2024 Worldwide Elections
 - Category: #articles
+- Summary: OpenAI is approaching the 2024 worldwide elections with a focus on preventing abuse, providing transparency on AI-generated content, and improving access to accurate voting information. They are committed to protecting the integrity of elections and ensuring that their technology is not used in a way that undermines the democratic process. OpenAI is investing in key initiatives such as preventing abuse by red-teaming new systems, refining usage policies, and enabling users to report potential violations. They are also working on transparency efforts to empower voters to assess AI-generated content and improving access to authoritative voting information through partnerships with organizations like the National Association of Secretaries of State. OpenAI is dedicated to collaborating with partners and learning from them to prevent potential abuse of their tools in the upcoming elections.
 - URL: https://openai.com/blog/how-openai-is-approaching-2024-worldwide-elections
 
 ## Highlights

@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[ColdFusion]]
+- Date: 2023-12-23
 - Full Title: How Nvidia Became a $1 Trillion Company
 - Category: #articles
+- Summary: Nvidia, a California-based chip giant, has become a $1 trillion company and the highest performing stock in the S&P 500. While Nvidia is known for its graphics cards, it also powers companies like Netflix, Adobe, and NASA, as well as Amazon's robot warehouses. The company's success can be attributed to its focus on parallel processing and its ability to adapt to market trends. After a failed attempt with the nv1 chip, Nvidia pivoted towards the PC market and launched the GeForce 256 graphics card, which revolutionized the gaming industry. Nvidia's partnership with Microsoft for the Xbox further solidified its success.
 - URL: https://youtube.com/watch?v=nVtb2vNUOdU&si=3Y3MvzGaT4MBk_ij
 
 ## Highlights

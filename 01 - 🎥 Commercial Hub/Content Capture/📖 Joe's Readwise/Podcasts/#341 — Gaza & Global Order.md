@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Making Sense with Sam Harris]]
+- Date: None
 - Full Title: #341 — Gaza & Global Order
 - Category: #podcasts
 - URL: https://share.snipd.com/episode/d7769724-14a8-4b59-95d5-91cf2a5a5991
@@ -11,7 +12,7 @@
 ## Highlights
 - 1min Snip ([Time 0:26:19](https://share.snipd.com/snip/98f16038-1cf5-4f82-a9dd-0ccfec0f1aea))
 - 1min Snip ([Time 0:27:48](https://share.snipd.com/snip/884bd936-7009-495e-a959-b5ef264b561b))
-    - Tags: [[Hamas]] 
+    - Tags: [[hamas]] 
 - 1min Snip ([Time 0:29:23](https://share.snipd.com/snip/5300a19a-57af-4785-ab12-26cd09fe0d61))
     - Tags: [[israel]] 
 - 1min Snip ([Time 0:30:23](https://share.snipd.com/snip/a75796fb-5377-487e-86fc-a0fdf2274e2b))

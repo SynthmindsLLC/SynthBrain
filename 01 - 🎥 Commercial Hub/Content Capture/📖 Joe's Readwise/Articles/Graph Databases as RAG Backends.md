@@ -4,12 +4,13 @@
 
 ## Metadata
 - Author: [[tomoro.ai]]
+- Date: 2023-12-08
 - Full Title: Graph Databases as RAG Backends
 - Category: #articles
+- Summary: Graph databases offer several advantages over vector databases as backends for Retrieval Augmented Generation (RAG) applications. In testing, it was found that graph databases outperformed vector databases when dealing with large data sources and complex unstructured documents. The use of graph databases reduced hallucinations and input token size, improved data management, and provided opportunities for knowledge inference. By organizing facts as nodes and edges in the graph database, it increased granularity, allowed for concept-based indexing, facilitated data updates and management, enabled concept traversal, and supported inference mining. Tomoro, an AI solutions provider, has implemented RAG using graph databases and has seen improvements in response quality, token reduction, data management, and inference capabilities. They plan to publish more detailed technical articles on this topic.
 - URL: https://tomoro.ai/insights/graph-databases-as-rag-backends
 
 ## Highlights
-- The most common implementation of the RAG pattern involves using vector databases as the backend. ([View Highlight](https://read.readwise.io/read/01hjgwrqtmgctzfdak8dqst13c))
 - we found that when dealing with a large data source with complex unstructured documents graph databases tend to outperform vector database-based RAG in some surprising ways. ([View Highlight](https://read.readwise.io/read/01hjgws1vej45de2bhqv47w5wy))
 - Reduced hallucinations due to improved recall ([View Highlight](https://read.readwise.io/read/01hjgwsmqxb3fmxfdjxqdhrs6a))
 - Using a graph database as a backend allows increased granularity and allows the capture data at fact-level ([View Highlight](https://read.readwise.io/read/01hjgwswxe13ph9vhzyj5z1hnp))
@@ -27,5 +28,17 @@
 - An alternative approach is to pre-process the knowledge corpus and, instead of keeping the information tightly connected with the document, re-organise information along core concepts. ([View Highlight](https://read.readwise.io/read/01hjgwz7kahbsd1sfgvqzbw6d5))
 - **key entities are extracted from source documents and the facts mentioned in the document are represented as edges connecting the entities.** These edges can also store operational metadata about the source document for easy citation of the facts. ([View Highlight](https://read.readwise.io/read/01hjgwzm0xwrz234k5vnt8tec0))
 - All known facts about the given entity **from across the knowledge corpus** will be present in the neighbourhood of this node of the graph, implemented as edges. ([View Highlight](https://read.readwise.io/read/01hjgwzzqbbr41s1qfyfy2zzy2))
-- Our retriever will selectively traverse outwards from the key entities to gather relevant context to satisfy the requirements of the user query and relevant context without being bound by the limitations of the original document chunks. ([View Highlight](https://read.readwise.io/read/01hjgx06tjmchre3ye68z11r5e))
 - Using this approach the original document source is decomposed into independent entities and discreet facts connected to entities, the granularity of data is significantly increased. ([View Highlight](https://read.readwise.io/read/01hjgx0fatmp4jnq4dhj80vd55))
+- Each edge connecting the nodes will encapsulate a pure fact presented in the document, along with the source and target-related entities. This approach is rooted in the implementation of Triples in RDF standards (Resource Description Framework). ([View Highlight](https://read.readwise.io/read/01hjh0arfg8et9x2vcbe35bte4))
+    - Tags: [[favorite]] 
+- Since all facts extracted about a given entity are organised as an edge connected to the node; everything known about an entity is only “one hop” away from the primary concept node. ([View Highlight](https://read.readwise.io/read/01hjh0bbmhapkx4rdnqvwm9bzg))
+- This provides a way for the retriever to access all facts about an entity regardless of the source document. This higher density allows for retrieving context from a wide variety of data sources more efficiently. ([View Highlight](https://read.readwise.io/read/01hjh0bh60kngzkhraecp3370h))
+- For example, in a knowledge corpus of news articles; if the user was interested in finding the most “divergent view” on a subject; it would be possible for a retriever to traverse to core subject(s) edges and collect consensus view from edges within the graph databases. ([View Highlight](https://read.readwise.io/read/01hjh0btgjsbej91788ff786f3))
+- if the news articles were chunked as documents, this would likely be a complicated two-step process, to identify relevant documents that mention the subject and then identify the article with divergent views. ([View Highlight](https://read.readwise.io/read/01hjh0c7tmtp7n8k2fn4ct0h66))
+- Facts can be updated and curated at the source, and controls can be applied to ensure that the index does not store conflicting facts. ([View Highlight](https://read.readwise.io/read/01hjh0cyysw0tyq2zmr4qf01fm))
+- This approach will also allow for implementing data ownership over the knowledge corpus. Independent nodes can be assigned to knowledge owners and data curators. ([View Highlight](https://read.readwise.io/read/01hjh0d80thfg21wkdambhkwks))
+- This significantly improves the citation quality returned to the user. The user will not only be able to audit the source of the fact but also get a time dimension of the fact as it changes over time. ([View Highlight](https://read.readwise.io/read/01hjh0dsqhbnam7prkvt54rhvt))
+- 4. **Concept Traversal**
+  This method of data organisation allows for making connections across documents even if the source documents do not explicitly discuss a direct relationship between concepts. ([View Highlight](https://read.readwise.io/read/01hjh0ehqf931mww7zadtdvdfc))
+- Facts often have a bidirectional relationship. And some LLMs on their own struggle to infer this on their own. ([View Highlight](https://read.readwise.io/read/01hjh0fb2wvq3vx34gm6byytxe))
+- This type of “If A is True; and B is True; can C be True?” style information mining can be performed offline and can significantly improve knowledge management solutions performance. ([View Highlight](https://read.readwise.io/read/01hjh0fkc8gb654kchgd7tjd45))

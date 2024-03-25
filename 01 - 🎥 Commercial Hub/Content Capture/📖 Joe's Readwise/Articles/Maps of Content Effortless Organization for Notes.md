@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Timothy Miller]]
+- Date: 2023-03-21
 - Full Title: Maps of Content: Effortless Organization for Notes
 - Category: #articles
+- Summary: Maps of Content or MOCs are a note-taking framework that allows users to create special notes to help organize their notes. It is a tool to structure notes organically, freeing the mind and improving creativity and productivity. MOCs are different for everyone who creates them, but the fundamental principles are to keep it simple and eliminate as much friction as possible. MOCs are infinitely flexible and encourage good repetition, and they don't require institutional knowledge.
 - URL: https://obsidian.rocks/maps-of-content-effortless-organization-for-notes/
 
 ## Highlights
@@ -37,8 +39,6 @@
   parent:: [[Fleeting MOC]] ([View Highlight](https://read.readwise.io/read/01hkk501sp0zjrbf48tf2qreja))
 - Then in my Fleeting MOC I can check the backlinks pane and it will instantly show me the notes that I haven’t organized. Once I organize a note, I change the MOC to something more appropriate. ([View Highlight](https://read.readwise.io/read/01hkk50bf1s334rpd8fkparq0g))
 - this allows me to *reduce friction* and make it as effortless as possible to add new notes. The simpler you can make your note creation process the better. ([View Highlight](https://read.readwise.io/read/01hkk50gy42018j30xgqz2xdsa))
-- MOCs were [pioneered by Nick Milo](https://www.youtube.com/watch?v=WUq8Pun28FI) on his excellent *Linking Your Thinking* YouTube channel. If you want to dive deeper into MOCs, that’s the first place I would go. ([View Highlight](https://read.readwise.io/read/01hkk50qezm4xcsywnww4pa4sf))
-- Folders are binary. A note is either in *this* folder or *that* folder. A note can’t be in two folders at once, nor can you add headers or other structure to folders. Folders lack flexibility. ([View Highlight](https://read.readwise.io/read/01hkk512vjx3s0gd5nageh8e8g))
 - MOCs by contrast are infinitely flexible. You can add one note to multiple maps, or to none of your maps. You can convert any note *into* a map. You can link maps together, or embed maps. You can even make a map with the new canvas plugin. ([View Highlight](https://read.readwise.io/read/01hkk51dse3vg7p5z46380q62v))
 - The problem with tags is that they generally require *institutional knowledge*. For tags to work, you have to have a system, and know exactly how the system works. ([View Highlight](https://read.readwise.io/read/01hkk51zgz6nap7rzw1pvmqnva))
 - MOCs don’t have these challenges. MOCs are infinitely flexible, they encourage good repetition, and they don’t require institutional knowledge. With folders and tags you might need a note *explaining* your file structure to a new initiate (or a future version of you). With MOCs, the links speak for themselves. ([View Highlight](https://read.readwise.io/read/01hkk52h0ga49zkt2fpw0zp39p))

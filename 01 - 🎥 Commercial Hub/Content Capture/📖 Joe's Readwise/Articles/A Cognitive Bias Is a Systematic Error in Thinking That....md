@@ -13,6 +13,7 @@
 ## Highlights
 - Parkinson's Law: work expands to fill the time given.
   When we have more time, we tend to procrastinate and become inefficient. ([View Highlight](https://read.readwise.io/read/01hpqj6yegsx1e2dng62vbbxc2))
+    - Tags: [[favorite]] 
 - ![](https://pbs.twimg.com/media/GFaiRSMbEAALHla.png) ([View Highlight](https://read.readwise.io/read/01hpqj6zqmsfspv3c89efh85tp))
 - Goodhart's Law:
   When a measure becomes a goal, it stops being a good measure. ([View Highlight](https://read.readwise.io/read/01hpqj79fbfvxmvqm20pzkw06n))
@@ -30,7 +31,6 @@
 - Egocentric Bias:
   We tend to think more highly of ourselves than we should.
   In group activities, we overestimate our contributions compared to others. ([View Highlight](https://read.readwise.io/read/01hpqj9gm1v3qzedb8zffgn18p))
-- ![](https://pbs.twimg.com/media/GFaiTarbcAAAHCT.jpg) ([View Highlight](https://read.readwise.io/read/01hpqj9j80zqq6etvy2adwbyfe))
 - Cynicism
   "Cynical people may seem smarter, but research suggests they're actually less intelligent. ([View Highlight](https://read.readwise.io/read/01hpqjewvw4frmtrjf01ydtfv7))
 - ![](https://pbs.twimg.com/media/GFaiT8waoAAxsur.jpg) ([View Highlight](https://read.readwise.io/read/01hpqjf02qr69ah41svcxsr3mk))

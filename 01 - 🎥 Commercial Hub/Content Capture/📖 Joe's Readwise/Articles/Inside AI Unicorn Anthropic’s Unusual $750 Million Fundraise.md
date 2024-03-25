@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Alex Konrad]]
+- Date: 2024-01-11
 - Full Title: Inside AI Unicorn Anthropic’s Unusual $750 Million Fundraise
 - Category: #articles
+- Summary: AI startup Anthropic has raised $750 million in new funding, led by Menlo Ventures, which will nearly quadruple the company's valuation to $18.4 billion. Menlo Ventures used a special purpose vehicle (SPV) to lead the funding round, allowing them to invest as much as they desired and channel the opportunity to their limited partner investors. The round also formalized terms for investments from cloud computing partners Amazon and Google. Anthropic had not planned to raise funds at the end of 2023, but Menlo's offer provided a cash infusion at a critical time with minimal fuss.
 - URL: https://www.forbes.com/sites/alexkonrad/2024/01/11/anthropic-750million-funding-round-menlo-ventures/
 
 ## Highlights

@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[openai.com]]
+- Date: 2024-01-08
 - Full Title: OpenAI and Journalism
 - Category: #articles
+- Summary: OpenAI is a company that aims to develop AI tools to empower people to solve problems that are otherwise out of reach. They collaborate with news organizations and are creating new opportunities, and they view training as fair use but provide an opt-out because it's the right thing to do. They are working to drive "regurgitation," a rare bug, to zero, and they are continually making progress in their recent models. They regard The New York Times' lawsuit as without merit, and they hope for a constructive partnership with the organization.
 - URL: https://openai.com/blog/openai-and-journalism
 
 ## Highlights

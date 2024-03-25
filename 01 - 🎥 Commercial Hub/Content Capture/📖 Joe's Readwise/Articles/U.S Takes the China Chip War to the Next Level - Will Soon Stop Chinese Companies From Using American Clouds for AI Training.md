@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Anton Shilov]]
+- Date: 2024-01-27
 - Full Title: U.S Takes the China Chip War to the Next Level - Will Soon Stop Chinese Companies From Using American Clouds for AI Training
 - Category: #articles
 - Summary: The U.S. government is proposing a regulation that would prevent foreign entities, especially those from China, from using U.S. cloud computing for AI model training. The goal is to safeguard national security and maintain U.S. technological superiority. Chinese entities would still be able to access cloud services deployed in Europe and the Middle East. The proposed regulation, called 'Know Your Customer,' would require U.S. cloud companies to rigorously identify their foreign users and prevent entities from countries like China from accessing U.S. cloud resources for AI development. The initiative is part of a broader strategy to ensure that U.S. cloud platforms are not exploited for potentially hostile AI development.

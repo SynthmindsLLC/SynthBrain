@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Lex Fridman Podcast]]
+- Date: None
 - Full Title: #380 – Neil Gershenfeld —  Self-Replicating Robots and the Future of Fabrication
 - Category: #podcasts
 - URL: https://share.snipd.com/episode/d8e3229a-e376-4d8b-9457-ca445809c3e0

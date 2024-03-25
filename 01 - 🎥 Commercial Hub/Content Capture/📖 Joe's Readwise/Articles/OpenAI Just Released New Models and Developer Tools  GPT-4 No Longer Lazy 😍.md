@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Wes Roth]]
+- Date: 2024-01-25
 - Full Title: OpenAI Just Released New Models and Developer Tools | GPT-4 No Longer "Lazy" 😍
 - Category: #articles
 - Summary: OpenAI has made several announcements, including the launch of new models and developer tools. They have introduced new embedding models, GPT-4 Turbo, and moderation models. The new models offer improved performance and reduced prices. OpenAI has also released tools for developers to manage API keys and gain more visibility into their usage. Additionally, they have updated the GPT-4 Turbo preview model to address issues of "laziness" in completing tasks. OpenAI plans to launch GPT-4 Turbo with vision capabilities in the coming months.

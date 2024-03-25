@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Gary Marcus]]
+- Date: 2024-01-08
 - Full Title: The Desperate Race to Save Generative AI
 - Category: #articles
+- Summary: Generative AI, specifically OpenAI's use of it, is facing copyright infringement issues that could harm their business. OpenAI's response has been to stonewall and lobby both the public and the government. However, their lobbying campaign is based on a false dichotomy, claiming that they either need to use existing intellectual property for free or generative AI will cease to exist. This argument is flawed, as open source models already exist and licensing fees could be paid for commercial works. The real issue is money, as OpenAI has offered to indemnify customers against copyright claims. Additionally, current AI models have flaws in their learning processes and a tendency to regurgitate text and images from their sources. Instead of fleecing content providers, AI companies should focus on building software that doesn't have a plagiarism problem. Prominent figures in the AI industry, like Andrew Ng, have also engaged in lobbying efforts to counter a lawsuit against generative AI. However, the arguments put for...
 - URL: https://garymarcus.substack.com/p/the-desperate-race-to-save-generative?r=2kuc99&utm_medium=ios&utm_campaign=post
 
 ## Highlights

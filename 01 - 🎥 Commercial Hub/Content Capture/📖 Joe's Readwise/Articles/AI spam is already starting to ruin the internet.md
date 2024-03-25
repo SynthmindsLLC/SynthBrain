@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Katie Notopoulos]]
+- Date: 2024-01-29
 - Full Title: AI spam is already starting to ruin the internet
 - Category: #articles
 - Summary: AI spam is becoming a problem on the internet as scammers use AI to create web pages and videos that manipulate Google search results. These spam sites include fake obituaries and scraped content from media websites. Examples of AI spam include tech blog 404 Media finding AI-written versions of their articles on spam sites, indie blog The Hairpin being taken over by an AI click farmer, and AI-generated obituaries causing distress to grieving families. This issue not only affects content creators but also Google, as it results in poor search results for users. Google is aware of the problem and is working to address it, but it is a constant battle as scammers stay ahead with AI-generated content.
@@ -11,6 +12,7 @@
 
 ## Highlights
 - A little over a year after the public launch of [ChatGPT](https://www.businessinsider.com/how-ai-chatbots-like-chatgpt-work-explainer-2023-7), we're starting to see one prediction come true of how it could affect the internet: AI spam is flooding the web. ([View Highlight](https://read.readwise.io/read/01hneahr7g5ncfw5ng7rb72ds9))
+    - Tags: [[favorite]] 
 - 404 Media, a new tech blog, wrote about how they've had to modify their website because of AI spam.
   Recently, they've noticed that AI-written versions of their scoops have shown up on SEO-friendly spam sites — sometimes even showing up above the real 404 Media articles on Google search. The scammers, of course, are making money by running ads on the AI-generated pages. ([View Highlight](https://read.readwise.io/read/01hneaj8vk2aqh7rxeb2kqqt16))
 - Over the last few weeks Jason has been researching and experimenting with a series of AI tools that promise to "spin" articles for their users. One, called SpinRewriter, lets users create 1,000 slightly different versions of the same article with a single click and to automatically publish them to as many WordPress sites as you want using a paid plugin. It also offers a tool that lets users manage as many websites as they want from a single dashboard. ([View Highlight](https://read.readwise.io/read/01hneajrna3vh5cbx8fky37rcb))

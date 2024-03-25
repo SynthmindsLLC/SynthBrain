@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Christopher Harper]]
+- Date: 2024-02-02
 - Full Title: Google Is Axing Cached Webpages From Search Results, Tells Everyone to Use Internet Archive Instead
 - Category: #articles
 - Summary: Google has officially axed the feature that provided cached versions of webpages in its search results. While Google still archives search pages for now, this version of the feature is also expected to disappear soon. As an alternative, Google recommends using the Internet Archive (archive.org) to access cached versions of webpages. Bing is another option for users who still want to access cached web pages directly from the search results. This change by Google highlights the ongoing challenge of preserving the history of the internet and its media.

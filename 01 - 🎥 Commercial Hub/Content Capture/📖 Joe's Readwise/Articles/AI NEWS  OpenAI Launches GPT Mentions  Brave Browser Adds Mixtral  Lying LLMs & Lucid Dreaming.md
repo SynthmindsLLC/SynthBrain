@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Wes Roth]]
+- Date: 2024-01-27
 - Full Title: AI NEWS | OpenAI Launches GPT Mentions | Brave Browser Adds Mixtral | Lying LLMs & Lucid Dreaming
 - Category: #articles
 - Summary: OpenAI has launched a new feature called GPT Mentions, which allows users to add custom GPTs to their conversations with ChatGPT. This feature is part of OpenAI's goal to create a network of agents that can perform specific tasks programmed by the user. The custom GPTs can be connected to other platforms, such as Notion, through tools like Zapier. Additionally, Brave Browser has integrated Mixtral, an open-source model, into its AI assistant, Leo, for improved performance. Finally, there is research suggesting that lying LLMs (large language models) exhibit different brain activity when expressing true beliefs versus lies, which could have implications for AI alignment and the development of lie detectors.

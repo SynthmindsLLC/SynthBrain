@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Haley Britzky]]
+- Date: 2024-01-28
 - Full Title: First on CNN: Three US Troops Killed in Drone Attack in Jordan, More Than 30 Injured
 - Category: #articles
 - Summary: Three US Army soldiers were killed and over 30 service members were injured in a drone attack on a US outpost in Jordan, marking the first time US troops have been killed by enemy fire in the Middle East since the beginning of the Gaza war. The drone attack was carried out by Iran-backed militants and appeared to come from Syria. President Joe Biden vowed to hold those responsible accountable and stated that the attack was carried out by radical Iran-backed militant groups operating in Syria and Iraq. Tensions are high in the region, with calls for a strong response against Iran and its proxies.

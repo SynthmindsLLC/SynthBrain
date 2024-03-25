@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Ryan Heath]]
+- Date: 2024-01-10
 - Full Title: Survey: Workplaces Are Riddled With AI Distrust
 - Category: #articles
+- Summary: Four out of five workers report that their employers lack guidelines for using AI, and only around half of them welcome AI in their organizations, according to a global survey commissioned by Workday. This lack of consensus on how to use AI could hinder its integration into operations. Concerns about organizations prioritizing their own interests over employees' are contributing to the skepticism. However, 61% of employees hope that AI will bring transformation to their organizations, while 32% prefer it to maintain the status quo. To mitigate the risk of uncertainty, Workday suggests adopting a comprehensive approach to AI responsibility, including clear communication of AI principles and the establishment of a team to manage them.
 - URL: https://www.axios.com/2024/01/10/workplaces-ai-distrust-survey
 
 ## Highlights

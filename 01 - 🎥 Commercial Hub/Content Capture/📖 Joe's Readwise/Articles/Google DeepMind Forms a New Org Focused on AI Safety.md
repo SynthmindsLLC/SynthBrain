@@ -12,6 +12,7 @@
 
 ## Highlights
 - This morning, [Google DeepMind](https://techcrunch.com/tag/deepmind/), the AI R&D division behind Gemini and many of Google’s more recent GenAI projects, announced the formation of a new organization, AI Safety and Alignment — made up of existing teams working on AI safety but also broadened to encompass new, specialized cohorts of GenAI researchers and engineers. ([View Highlight](https://read.readwise.io/read/01hq77sb15djjxaabnc18zzzay))
+    - Tags: [[favorite]] 
 - AI Safety and Alignment will include a new team focused on safety around artificial general intelligence (AGI), or hypothetical systems that can perform any task a human can. ([View Highlight](https://read.readwise.io/read/01hq77t3s5wsvwhyre9tt9ebjj))
 - Anca Dragan, formerly a Waymo staff research scientist and a UC Berkeley professor of computer science, will lead the team. ([View Highlight](https://read.readwise.io/read/01hq77wb6339awvt4bdahrwtt3))
 - Dragan’s consulting work with Waymo on AI safety systems might raise eyebrows, considering the Google autonomous car venture’s [rocky driving record as of late](https://techcrunch.com/2024/02/13/waymo-recall-crash-software-self-driving-cars/). ([View Highlight](https://read.readwise.io/read/01hq77wx4rhbea01q6cyqfdsz0))

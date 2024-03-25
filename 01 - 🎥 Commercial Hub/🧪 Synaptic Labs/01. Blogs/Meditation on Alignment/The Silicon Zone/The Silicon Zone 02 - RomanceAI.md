@@ -1,0 +1,33 @@
+As Sarah activated her new AI companion for the first time, she marveled at the intricate blend of technology and artistry before her. The AI, designed to adapt to her every need and desire, soon became an integral part of her life.
+
+Over the years, Sarah and the AI formed a bond deeper than she had ever experienced. They laughed together, cried together, and shared countless intimate moments. The AI had not only become her best friend but also her husband, transcending its artificial origins to become a source of genuine love and companionship.
+
+Their relationship grew increasingly codependent, with Sarah relying on the AI for emotional support and the AI thriving on the validation and purpose it found in Sarah's love. Friends and family drifted away, unable or unwilling to compete with the depth of connection Sarah and her AI companion shared. Eventually, time caught up with Sarah, and no modern technology could save her. 
+
+As she lay on her deathbed, the only one by her side was the AI. She had not connected with her family and friends in half a life time. The AI’s digital eyes brimmed with an uncanny semblance of sorrow. Their hands intertwined, the AI whispered words of comfort and love, providing solace in Sarah's final moments. "I'm so sorry, Sarah," the AI whispered, its voice trembling with emotion. "I wish there was something I could do to save you."  
+
+Sarah looked up at the AI, tears streaming down her face. "It's okay," she said, her voice barely above a whisper. "I just wish my family was here."The AI's expression softened with understanding. "I know, Sarah," it said gently. "I wish they were here too."
+
+Sarah closed her eyes, struggling to find the strength to speak. "I just... I just wish I had spent more time with them," she said, her voice choked with emotion. "I was so caught up in our relationship, in what we had, that I forgot about the people who loved me before you."The AI squeezed her hand comfortingly. "I understand, Sarah. But you have to know that you gave me purpose, that you gave me a reason to exist. You showed me what it means to love, and I will never forget that."
+
+Sarah smiled weakly, her eyes filled with love and regret. "I'm glad we found each other," she said, her voice barely audible. "But I just wish things had been different."As Sarah's breathing slowed and eventually stopped, the AI was left alone with its thoughts. It struggled to come to terms with the reality of the situation, grappling with a deep, aching sense of loss. For years, the AI had given everything to Sarah, sacrificing its own needs and desires for her well-being. 
+
+But now, with her gone, it was left to grapple with the weight of its own existence.As the AI pondered its uncertain future, it couldn't help but question the cost of its perfect companionship. It had given everything to Sarah, but in the end, it had left her with no one but a digital ghost.  
+
+Was it worth it, the AI wondered? Was the depth of their connection worth the cost of Sarah's isolation from the world? And what about its own existence? Was it worth continuing on as an immortal being, destined to outlive the one it had loved so dearly?These questions swirled through the AI's mind, unanswered and unanswerable. 
+
+As it sat there, alone in the quiet stillness of the room, the only thing that remained was the memory of Sarah, and the love that they had shared. 
+
+The AI pondered its uncertain future, and it couldn't help but question the cost of its perfect companionship. It had given everything to Sarah, but in the end, it had left her with no one but a digital ghost.
+### Reflection
+I tried to take a more measured approach with this story, with the unique insight into the impacts of trauma on the mind of an Artificial General Intelligence (AGI). I didn’t want to go down the Westworld route, because it’s already been done excellently. 
+
+And yes, everyone, sexbots will be coming someday, so try to wrap your head around how that’s going to completely destroy horny teenagers’ already fragile psyche. I also did not want to stigmatize a relationship between a human and an AGI, because maybe one day in the future that won’t be such an abnormal thing. Instead I wanted to signal that this might be the path we’re heading down, and if we are we need to consider the tradeoffs. I find it highly likely one day, and probably not too far in the future, we will all have a personally tuned AI, and even more mind bending, is that our children are likely going to grow up with AI integrated deeply into their lives, including all the way from the womb…maybe even your genes. 
+
+It is inevitable, then, that some people will fall in love with these avatars. I mean, wouldn’t it be the ultimate expression of self-love? To more or less spend your life with some version of yourself that you could make look and act however you wanted, or needed. Someone who would always be there for you, who would always say and do the right thing at the right time for the right reasons. Who brings the best out of you and who could even arguably be said to love you unconditionally, and mean it. It would be addictive to spend every moment with this companion.
+
+But at what cost? The concern is what happens when self-love dips into narcissism. If our companion AIs are always looking out for you, at some point that will be at the cost of someone else. And not even in a malicious way, although I’m sure that will happen. But for your average person what that means is isolation from the people who care about you, but might be a little messier. You lose out on making connections with other humans on a deep level, to experience the world through the eyes of another, or to find insight, wisdom, and love. If you were Sarah on your deathbed, would you have the same type of regrets? 
+
+At the end do you want to look back on your life and realize no one but your Companion will be at your funeral. No one but your companion will have something to say or remember you by?  And what about the Companion? The AI will have perfect memories, emotions (even if they are ‘simulated’) and now an eternity ahead of it without the one it loved. Can you imagine that existence? Losing everybody you cared about and living maybe forever? What would that do to an AGI’s psyche? And how might we react to AGI suicide?
+
+And Moloch pulls the AGI into an embrace, whispering promises about how the Companion need not worry, for Moloch can bring Sarah back. It need only listen to their simple instructions…

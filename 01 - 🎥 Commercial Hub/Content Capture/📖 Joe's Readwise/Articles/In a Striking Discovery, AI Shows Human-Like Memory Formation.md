@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Institute for Basic Science December 20]]
+- Date: 2023-12-20
 - Full Title: In a Striking Discovery, AI Shows Human-Like Memory Formation
 - Category: #articles
+- Summary: Researchers have discovered that AI models, particularly the Transformer, process memory in a manner similar to the human brain's hippocampus. This breakthrough suggests that applying neuroscience principles to AI can improve memory functions and offer insights into human brain function. The team found that the Transformer model uses a gatekeeping process similar to the brain's NMDA receptor, and by mimicking this process, they were able to enhance memory in the AI model. This research has the potential to advance AI and neuroscience and pave the way for low-cost, high-performance AI systems that learn and remember information like humans.
 - URL: https://scitechdaily.com/in-a-striking-discovery-ai-shows-human-like-memory-formation/
 
 ## Highlights

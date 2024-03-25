@@ -1,0 +1,29 @@
+# How Suited Removes Bias & Negates Adverse Impact in Our AI
+
+![rw-book-cover](https://assets-global.website-files.com/5e2f402bf6a6b7219db9dc0e/5e2f402bf6a6b76666b9dc25_2.jpg)
+
+## Metadata
+- Author: [[wellsuited.com]]
+- Date: None
+- Full Title: How Suited Removes Bias & Negates Adverse Impact in Our AI
+- Category: #articles
+- Summary: Suited, an AI platform, aims to remove bias and negate adverse impact in recruiting processes. The platform collects diverse data from employees and uses synthetic data generation to balance out underrepresented information. It also uses techniques like Principal Component Analysis (PCA) to identify and eliminate biased traits from the models. The data is reweighted to ensure equal focus on each segment of the population, and industry-wide models are incorporated to reduce firm-related biases. Throughout the process, models are rigorously tested to ensure compliance with Equal Employment Opportunity Commission guidelines.
+- URL: https://www.wellsuited.com/blog/how-suited-removes-bias-negates-adverse-impact-in-our-a-i
+
+## Highlights
+- Only 5% of lawyers are African American, and the ratio of men to women lawyers is nearly 2:1. Out of the senior-level managers in investment banking, 83% are male and 85% are white. AI can enable firms to create fairness and equity in the recruiting process. ([View Highlight](https://read.readwise.io/read/01hhf7fvcjpk547056qtsa9q8d))
+- [Studies have shown](http://gap.hks.harvard.edu/orchestrating-impartiality-impact-%E2%80%9Cblind%E2%80%9D-auditions-female-musicians) that humans have a tendency to prefer people who are similar to us, known as the “like-me” bias. “Like-me” criteria can stretch from education and perceived social standing, all the way to race and gender. Paradoxically, it has been shown that the desire to hire those who mirror ourselves and our life experiences causes firms to sacrifice the creativity, inclusivity, and increased revenue that real diversity and representation brings. ([View Highlight](https://read.readwise.io/read/01hhf7gahs2gs9xh6fqh5nm2ge))
+- we use our existing data to programmatically generate “synthetic” data to balance out the lack of under-represented information present in our datasets. This new data is created by estimating attributes of the population in question based on the data we already have. ([View Highlight](https://read.readwise.io/read/01hhf7j2f8hmqgg0v7nah95r6d))
+- Prior to building a model, we would generate a set of synthetic candidates that are similar to the existing set of female candidates until the proportion of men to women in the dataset becomes 1:1 ([View Highlight](https://read.readwise.io/read/01hhf7jfq296wzkw90bggk02x2))
+- **Determine if certain questions are causing bias**
+  Next, we figure out if there is a dominant population of people that is causing specific questions to produce biased results. This is accomplished through what's known as a Principal Component Analysis (PCA). ([View Highlight](https://read.readwise.io/read/01hhf7jshz5eksx7p6aygaeyw8))
+- For example, those who are successful in fighting sports, like boxing, are likely to have low variations, yet high values, on an attribute like aggression. If we trained a model to predict success in Mixed Martial Arts ("MMA"), it would almost certainly discriminate against anyone who comes from the Jain religion, which preaches a doctrine of peace and non-violence. ([View Highlight](https://read.readwise.io/read/01hhf7kk01pw0e2mhszh0bvvw2))
+- Using a data science technique called a principal component analysis ("PCA"), we would pick up on the low standard deviation of aggression of those who are successful in MMA and consider eliminating the attribute of aggression from the model. ([View Highlight](https://read.readwise.io/read/01hhf7kytbmakemq62zxgspnm4))
+- Let’s say a firm has a lot of high performing men who all score high on the attribute of aggression. Without a PCA, the machine may be partial to aggressive men, and because we want to give everyone a fair shot, we would adjust or remove this trait from the model so as not to allow aggressiveness to impact the predictions. ([View Highlight](https://read.readwise.io/read/01hhf7mdg2df6ny4675q5f9m21))
+- **Determine if certain measured traits cause bias (and then adjust)**
+  We start by visualizing the data to help us understand what traits we measure may be unintentionally causing bias. This visualization helps us easily spot potential problems that could cause the final algorithm to be biased against a group of candidates. ([View Highlight](https://read.readwise.io/read/01hhf7mr7mnrn73t4mn95qzp2k))
+- To confirm if certain traits are causing bias, we will increase or decrease the prevalence of identified attributes and make an adjustment to the model's parameters. This practice is called a hyper-parameter adjustment. ([View Highlight](https://read.readwise.io/read/01hhf7n1g9gy0aja7bchzjnr6r))
+- **Reweight the data so that the AI focuses on each group equally**‍
+  Although a certain group may not be prevalent in the dataset, we can adjust the importance of underrepresented segments of data so the AI focuses on that set just as much as the more represented segments of the data. ([View Highlight](https://read.readwise.io/read/01hhf7nj6y7ah56gpt8365p07v))
+- **Incorporate industry-wide models to reduce firm-related biases**
+  When we produce a final model for our partners to use in their recruiting efforts, it’s actually many models built on top of each other. In other words, we instruct the AI to look at attributes that are both predictive for specific firms and predictive industry-wide. Most firms have bias, but they are likely not all biased in the same way. If we use additional models based on aggregated data, we are more likely to reduce the possibility of causing adverse impact. ([View Highlight](https://read.readwise.io/read/01hhf7pnb4ja7qztk2syyk2qwq))

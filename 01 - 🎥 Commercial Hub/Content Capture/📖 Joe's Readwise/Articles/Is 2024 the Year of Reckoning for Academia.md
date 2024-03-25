@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Erik Hoel]]
+- Date: 2024-01-03
 - Full Title: Is 2024 the Year of Reckoning for Academia?
 - Category: #articles
+- Summary: In 2023, elite universities faced scandals involving hate speech, affirmative action, and academic misconduct, leading to a decline in public opinion of these institutions. Harvard President Claudine Gay faced accusations of plagiarism in several of her papers, with some scholars split on whether it constituted plagiarism. Similarly, Stanford's President Marc Tessier-Lavigne stepped down after claims of academic misconduct, although the investigation found that he was not directly responsible for altering data or pasting experimental images together. These cases highlight the complexities of academic scandals and the need to consider the intentions and context of the accused scholars.
 - URL: https://www.theintrinsicperspective.com/p/is-2024-the-year-of-reckoning-for?r=2kuc99&utm_medium=ios&utm_campaign=post
 
 ## Highlights

@@ -4,13 +4,14 @@
 
 ## Metadata
 - Author: [[Amrita Khalid]]
+- Date: 2024-01-04
 - Full Title: Google’s DeepMind ‘Robot Constitution’ Will Make Sure Its AI Droids Won’t Kill You - The Verge
 - Category: #articles
+- Summary: Google's DeepMind robotics team has developed three new advances to help robots make faster, better, and safer decisions. One of these advances is a system called AutoRT, which uses a "Robot Constitution" inspired by Isaac Asimov's Three Laws of Robotics. This system ensures that robots avoid tasks that involve humans, animals, sharp objects, and electrical appliances. DeepMind also programmed the robots to automatically stop if the force on their joints exceeds a certain threshold and included a physical kill switch for human operators to deactivate them. These advancements were tested in office buildings over a period of seven months, and Google plans to continue refining the technology for future autonomous robots.
 - URL: https://www.theverge.com/2024/1/4/24025535/google-ai-robot-constitution-autort-deepmind-three-laws
 
 ## Highlights
 - The DeepMind robotics team has revealed [three new advances](https://deepmind.google/discover/blog/shaping-the-future-of-advanced-robotics/) that it says will help robots make faster, better, and safer decisions in the wild ([View Highlight](https://read.readwise.io/read/01hkbqat018haj7fgrgqn3j0dq))
-- a system for gathering training data with a “Robot Constitution” to make sure your robot office assistant can fetch you more printer paper — but without mowing down a human co-worker who happens to be in the way. ([View Highlight](https://read.readwise.io/read/01hkbqbbsya0gw5zw1qw6rct94))
 - Google’s data gathering system, AutoRT, can use a visual language model (VLM) and large language model (LLM) working hand in hand to understand its environment, adapt to unfamiliar settings, and decide on appropriate tasks. ([View Highlight](https://read.readwise.io/read/01hkbqbqpacjveaqa5jh8htrpz))
 - For additional safety, DeepMind programmed the robots to stop automatically if the force on its joints goes past a certain threshold and included a physical kill switch human operators can use to deactivate them. ([View Highlight](https://read.readwise.io/read/01hkbqc91e67p5tzdp48h826q2))
 - For each robot, the system uses a VLM to understand its environment and the objects within sight. Next, an LLM suggests a list of creative tasks that the robot could carry out, such as ‘Place the snack onto the countertop’ and plays the role of decision-maker to select an appropriate task for the robot to carry out,” ([View Highlight](https://read.readwise.io/read/01hkbqd3qrm3x9csee4esevdc9))

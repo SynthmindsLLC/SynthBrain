@@ -11,7 +11,6 @@
 
 ## Highlights
 - hoping to sell as many as half a million headsets before the end of this year.
-## New highlights added February 15, 2024 at 6:28 AM
 - the device seems to be causing headaches or motion sickness,
 - In his own review of the Vision Pro posted on Tuesday, Meta CEO Mark Zuckerberg offered a bunch of other reasons why people might want to return the device, though as head of the company that makes the rival Quest 3 headset, his opinions were hardly a surprise.
 - it really needs refining, as well as a killer app.

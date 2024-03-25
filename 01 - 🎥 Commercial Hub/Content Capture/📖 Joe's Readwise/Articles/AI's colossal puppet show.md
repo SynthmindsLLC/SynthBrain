@@ -4,12 +4,13 @@
 
 ## Metadata
 - Author: [[Scott Rosenberg]]
+- Date: 2023-12-20
 - Full Title: AI's colossal puppet show
 - Category: #articles
+- Summary: The article argues that it is misleading and incorrect to attribute actions and behaviors to artificial intelligence (AI) as if it were an autonomous entity. AI is a tool created and directed by people, and its capabilities and goals are determined by the instructions and data provided by humans. The author suggests that viewing AI as a puppet rather than an independent actor helps to clarify this relationship. The article also discusses the potential impact of AI-generated synthetic media on political conflict and the need for a more nuanced understanding of AI's role in society.
 - URL: https://www.axios.com/2023/12/20/ai-puppet-show-robots-autonomy
 
 ## Highlights
-- Here's an early New Year's resolution for anyone who works with, deals with or writes about [artificial intelligence](https://www.axios.com/2023/02/17/chatgpt-ai-next-platform-tech): Stop saying "AI did this" or "AI made that." ([View Highlight](https://read.readwise.io/read/01hj9rgn9whath2nv9y6jt2g0k))
 - The more we ascribe independence and autonomy to technology that's actually been designed and directed by specific people, the easier we make it for those people to shirk responsibility for its impacts and errors. ([View Highlight](https://read.readwise.io/read/01hj9rh589tcd3y8nqax3cjpjg))
 - Throw away your pictures of AI as a robot — and start imagining the technology as a big puppet instead. ([View Highlight](https://read.readwise.io/read/01hj9rhmhq7z2pbaf9epjk8jy0))
 - But everything that an AI program does or says starts with the instructions and data that people have given it. ([View Highlight](https://read.readwise.io/read/01hj9rj01b6rtaptd5n4jz1ekd))

@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2023-12-18
 - Full Title: GPT- 4.5 Gossip Crushed but a 100T Transformer Model Coming? Plus ByteDance + the Mixtral Price Drop
 - Category: #articles
+- Summary: The content discusses rumors about GPT 4.5 and denials from OpenAI employees. It then covers the ET Transformer, a chip designed to run Transformers models, and its potential impact on generative AI. The article also mentions the Mixture of Experts model, price reductions, and allegations of ByteDance using OpenAI technology in violation of terms. Finally, there is a mention of a statement from the head of research at ByteDance about a super strong model expected to arrive soon.
 - URL: https://youtube.com/watch?v=K0XZ_ShxWkI&si=H4aHFcHzmdCAqejU
 
 ## Highlights

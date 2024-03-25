@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Matt Wolfe]]
+- Date: 2023-12-20
 - Full Title: 2023 AI Year in Review
 - Category: #articles
+- Summary: The content describes a recap of major moments in the world of AI throughout the year 2023. The author mentions various announcements and advancements in AI, including Microsoft's investment in open AI, the launch of 11 Labs beta for text-to-speech, the release of Google Bard and Bing Chat, the introduction of control nets for AI art, the release of GPT-4 and mid Journey version 5, the launch of Adobe Firefly, the announcement of chat GPT plugins, the release of Runway's gen one, and Meta's segment anything and Wonder Dynamics. The author also mentions the development of autonomous AI chatbots, Jeffrey Hinton leaving Google due to concerns about the dangers of AI, and Google's incorporation of AI into various products.
 - URL: https://youtube.com/watch?v=I_m54jvnmgE&si=Oc_YslnBKm398vQt
 
 ## Highlights

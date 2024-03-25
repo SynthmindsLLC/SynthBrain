@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Gary Marcus]]
+- Date: 2024-01-10
 - Full Title: Could OpenAI’s Nonprofit Be Forced to Dissolve?
 - Category: #articles
+- Summary: The nonprofit status of OpenAI, a leading artificial intelligence organization, is being petitioned for reevaluation by the group Public Citizen in the state of California. The dispute centers around whether OpenAI has remained true to its nonprofit mission, with some arguing that the organization has been prioritizing profit. If the state chooses to investigate, one possible outcome could be the dissolution of OpenAI's nonprofit parent, resulting in a distribution of billions of dollars to an external charity focused on AI. This development has raised questions about the relationship between the for-profit and nonprofit aspects of OpenAI.
 - URL: https://garymarcus.substack.com/p/could-openais-nonprofit-be-forced?r=2kuc99&utm_medium=ios&utm_campaign=post
 
 ## Highlights

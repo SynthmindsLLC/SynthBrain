@@ -11,7 +11,6 @@
 - URL: https://garymarcus.substack.com/p/the-year-of-the-big-balled-rat?r=2kuc99&utm_medium=ios&triedRedirect=true
 
 ## Highlights
-- ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1793bf2-3bfd-473f-a514-4f815c8c4808_726x683.png) ([View Highlight](https://read.readwise.io/read/01hs4frrk2h9wxk0jz8qpvn0tw))
 - ***GenAI is messing with science. And it may get a lot worse.***
   Two clearest examples so far this year, are [the now retracted paper with the above-mentioned rat](https://www.frontiersin.org/articles/10.3389/fcell.2023.1339390/full) and a [new lithium battery paper](https://www.sciencedirect.com/science/article/abs/pii/S2468023024002402?via%3Dihub), with an opening sentence clearly written by an LLM. ([View Highlight](https://read.readwise.io/read/01hs4frn5yx6h4qrtfenrrpazz))
 - ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1633f467-908d-4bed-8951-5c00a9e1b289_1089x1210.jpeg) ([View Highlight](https://read.readwise.io/read/01hs4frtpcwfp7rmh7ft9qv60e))

@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Karyne Levy]]
+- Date: 2024-01-30
 - Full Title: Building AI Guardrails Should Be Part of the Process
 - Category: #articles
 - Summary: As companies increasingly rely on AI-powered tools, creating policies to address ethical, practical, and legal issues is crucial. According to a Gartner survey, more than half of organizations using AI already have policies in place. Building a strong rulebook now can prevent future complications. It is important for companies to consider the impact of AI on productivity, as well as to strategize and budget for AI-assisted software development. By doing so, organizations can avoid wasting resources and losing staff.

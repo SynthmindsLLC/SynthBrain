@@ -12,3 +12,4 @@
 
 ## Highlights
 - ![](https://kennedyhq.com/wp/wp-content/uploads/2023/12/AI-Literacy-Framework-2023-graphic.jpg) ([View Highlight](https://read.readwise.io/read/01hq76572xzrn0njjt2jd346r5))
+    - Tags: [[favorite]] 

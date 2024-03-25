@@ -1,7 +1,7 @@
 ## Ilya Sutskever: Trailblazing Innovations in the World of Artificial Intelligence
 
 ### Introduction
-[[Ilya Sutskever]], a luminary in the field of [[artificial intelligence]] (AI), is renowned for his groundbreaking work in deep learning and neural networks. As a co-founder of [[OPENAI]], Sutskever has significantly shaped the advancement of AI.
+[[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_People/Ilya Sutskever]], a luminary in the field of [[artificial intelligence]] (AI), is renowned for his groundbreaking work in deep learning and neural networks. As a co-founder of [[OPENAI]], Sutskever has significantly shaped the advancement of AI.
 
 ### Early Life and Education
 Born in Russia in 1984 and later immigrating to Canada, Sutskever's journey in AI began with his academic pursuits. He obtained his Ph.D from the University of Toronto mentored by prominent AI researcher [[Geoffrey Hinton]].

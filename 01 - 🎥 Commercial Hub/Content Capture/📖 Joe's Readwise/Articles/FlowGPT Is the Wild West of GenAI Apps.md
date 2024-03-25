@@ -1,6 +1,6 @@
 # FlowGPT Is the Wild West of GenAI Apps
 
-![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)
+![rw-book-cover](https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32)
 
 ## Metadata
 - Author: [[Kyle Wiggers]]
@@ -18,7 +18,5 @@
 - Some of FlowGPT’s most popular apps are essentially jailbreaks designed to circumvent models’ safety measures. There’s multiple versions of DAN on the marketplace — “DAN” being a popular prompting method used to get models to responding to prompts unbounded by their usual rules. ([View Highlight](https://read.readwise.io/read/01hqkz1sanm7bnaw38mtdnt42g))
 - Elsewhere, there’s apps like WormGPT, which purports to be able to code malware (and link to paid, dark web versions of the chatbot that do more), and dating simulators that run afoul of OpenAI’s [rules against fostering romantic companionship](https://mashable.com/article/openai-gpt-store-girlfriend-bots-chatgpt). ([View Highlight](https://read.readwise.io/read/01hqkz239510vzsaeqbbgzb06j))
 - Many of these apps could potentially cause harm, like therapy apps and apps that advertise themselves as authoritative health resources. GenAI models like ChatGPT are a notoriously bad health advice givers, with one [study](https://www.cnn.com/2023/06/07/health/chatgpt-health-crisis-responses-wellness/index.html) showing that an earlier version of ChatGPT [rarely](https://www.cnn.com/2023/06/07/health/chatgpt-health-crisis-responses-wellness/index.html) provided referrals to specific resources for help relating to suicide, addiction and sexual assault. ([View Highlight](https://read.readwise.io/read/01hqkz2dfm607jxqgzvrw2w75r))
-- it’s clear from looking at the homepage that FlowGPT has a moderation problem. It’s the wild west of GenAI apps — and the toggle’s ineffective to the point where I barely notice a difference in app selection with it switched on. ([View Highlight](https://read.readwise.io/read/01hqkz2zwpz2p9sbaf88vryf62))
-- Dang swears up and down that FlowGPT is in fact an ethical and rule-abiding platform, with risk mitigation policies in place aimed at “ensur[ing] public safety.” ([View Highlight](https://read.readwise.io/read/01hqkz3arjz8806vnv47dq2qez))
 - Considering that this writer got a FlowGPT app to give instructions on selling drugs and robbing a bank, I’d say that the company has some work to do. ([View Highlight](https://read.readwise.io/read/01hqkz3pkh2w74bmecsbde4cm1))
 - Goodwater announced that it led a $10 million “pre-Series A” round in FlowGPT with participation from existing backer DCM. Goodwater partner Coddy Johnson, speaking to TechCrunch via email, said that he sees FlowGPT “helping to lead the way” in GenAI by offering “the widest choice” and “the most flexibility and freedom” to both users and creators. ([View Highlight](https://read.readwise.io/read/01hqkz446gk037b3g0wsgjp69n))

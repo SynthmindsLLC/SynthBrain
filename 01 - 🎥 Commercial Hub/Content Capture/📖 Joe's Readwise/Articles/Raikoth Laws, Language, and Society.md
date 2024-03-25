@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Scott Alexander]]
+- Date: 2013-05-06
 - Full Title: Raikoth: Laws, Language, and Society
 - Category: #articles
+- Summary: I don’t believe society is perfect the way it is, I’m just a small-c conservative who’s cautious of changing things. We’ve never tried a complex globalized urban Information…
 - URL: https://slatestarcodex.com/2013/05/06/raikoth-laws-language-and-society/
 
 ## Highlights

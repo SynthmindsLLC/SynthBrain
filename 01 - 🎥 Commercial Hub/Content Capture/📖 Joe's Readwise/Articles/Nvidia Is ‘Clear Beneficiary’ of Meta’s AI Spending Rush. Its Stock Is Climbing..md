@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Emily Bary]]
+- Date: 2024-02-02
 - Full Title: Nvidia Is ‘Clear Beneficiary’ of Meta’s AI Spending Rush. Its Stock Is Climbing.
 - Category: #articles
 - Summary: Nvidia is benefiting from Meta Platforms' increased spending on artificial intelligence (AI), with Meta now expecting to spend $30 billion to $37 billion on capital expenditures this year. This increased spending has led Wells Fargo analyst Aaron Rakers to be more confident that Nvidia will deliver positive results in the first quarter. Meta's mention of the future need for more compute-intensive AI models has also contributed to Nvidia's stock boost. Additionally, other companies such as Advanced Micro Devices, Arista Networks, and Pure Storage are also seeing positive effects from Meta's AI spending.

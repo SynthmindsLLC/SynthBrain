@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Paul Sawers]]
+- Date: 2023-11-01
 - Full Title: Meta's Yann LeCun joins 70 others in calling for more openness in AI development | TechCrunch
 - Category: #articles
+- Summary: Meta's Yann LeCun, along with 70 other experts in the field, is advocating for greater transparency and openness in the development of artificial intelligence (AI). They argue that AI technologies should be subject to scrutiny and evaluation to ensure they are safe, fair, and unbiased. The group emphasizes the importance of sharing research, data, and models to enable collaboration and prevent the concentration of power in the hands of a few companies. They also call for increased public dialogue and engagement to address the ethical and societal implications of AI.
 - URL: https://techcrunch.com/2023/11/01/metas-yann-lecun-joins-70-others-in-calling-for-more-openness-in-ai-development/
 
 ## Highlights
@@ -14,5 +16,4 @@
 - “If your fear-mongering campaigns succeed, they will *inevitably* result in what you and I would identify as a catastrophe: a small number of companies will control AI,” LeCun wrote. ([View Highlight](https://read.readwise.io/read/01hj6erz5xfd5bewsd0acqv76j))
 - On the one hand, heads of large AI companies are warning about the existential threats that AI poses, arguing that open source AI can be manipulated by bad actors to more easily create chemical weapons (for example), while on the other hand counter arguments posit that such scaremongering is merely to help concentrate control in the hands of a few protectionist companies. ([View Highlight](https://read.readwise.io/read/01hj6escy4ctppy2p01vvkqgp3))
 - “Yes, openly available models come with risks and vulnerabilities — AI models can be abused by malicious actors or deployed by ill-equipped developers,” the letter says. “However, we have seen time and time again that the same holds true for proprietary technologies — and that increasing public access and scrutiny makes technology safer, not more dangerous. ([View Highlight](https://read.readwise.io/read/01hj6esv0cqejrk97gz1f8jfs0))
-- Esteemed AI researcher LeCun — who [joined Meta 10 years ago](https://techcrunch.com/2013/12/09/facebook-artificial-intelligence-lab-lecun/) — attached his name to the letter, alongside numerous other notable names including Google Brain and Coursera co-founder [Andrew Ng](https://techcrunch.com/2018/01/30/andrew-ng-officially-launches-his-175m-ai-fund/), Hugging Face co-founder and CTO [Julien Chaumond](https://www.linkedin.com/in/julienchaumond/) and renowned technologist [Brian Behlendorf](https://en.wikipedia.org/wiki/Brian_Behlendorf) from the Linux Foundation. ([View Highlight](https://read.readwise.io/read/01hj6et8spvd2630mdkczatdk0))
 - hree main areas where openness can help safe AI development, including through enabling greater independent research and collaboration, increasing public scrutiny and accountability, and lowering the barriers to entry for new entrants to the AI space. ([View Highlight](https://read.readwise.io/read/01hj6etfyf95he8ar9zs12xzz0))

@@ -62,6 +62,8 @@
 
 	- **liLargeLanguageModels2023 1**
 
+	- **liMoreAgentsAll2024**
+
 	- **liuTeachingCS50AI**
 
 	- **luoReasoningGraphsFaithful2023**
@@ -77,6 +79,8 @@
 	- **munosNashLearningHuman2023**
 
 	- **nananukulHALOOntologyRepresenting2023**
+
+	- **panUnifyingLargeLanguage2024**
 
 	- **podolakAnalyzingInfluenceLanguage2023**
 
@@ -109,6 +113,8 @@
 	- **wanCognitiveAISystems2024 1**
 
 	- **weiChainofThoughtPromptingElicits2023**
+
+	- **weidingerUsingVeilIgnorance2023**
 
 	- **westonSystemAttentionSomething2023**
 
@@ -158,6 +164,7 @@
 - [[Let's Verify Step by Step 1]]
 - [[Let's Verify Step by Step]]
 - [[LiGNN - Graph Neural Networks at LinkedIn]]
+- [[More Agents Is All You Need]]
 - [[Nash Learning from Human Feedback]]
 - [[On the meaning of uncertainty for ethical AI - philosophy and practice]]
 - **Principled Instructions Are All You Need for Questioning LLaMA-1**
@@ -174,6 +181,8 @@
 - [[Teaching CS50 with AI]]
 - [[Towards Cognitive AI Systems - a Survey and Prospective on Neuro-Symbolic AI 1]]
 - [[Towards Cognitive AI Systems - a Survey and Prospective on Neuro-Symbolic AI]]
+- [[Unifying Large Language Models and Knowledge Graphs - A Roadmap]]
+- [[Using the Veil of Ignorance to align AI systems with principles of justice]]
 - [[Weaving Pathways for Justice with GPT - LLM-driven automated drafting of interactive legal applications]]
 - [[Zephyr - Direct Distillation of LM Alignment]]
 

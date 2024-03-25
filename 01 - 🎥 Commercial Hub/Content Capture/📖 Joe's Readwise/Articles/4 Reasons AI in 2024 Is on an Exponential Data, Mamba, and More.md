@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2024-01-01
 - Full Title: 4 Reasons AI in 2024 Is on an Exponential: Data, Mamba, and More
 - Category: #articles
+- Summary: In the document "4 Reasons AI in 2024 is On An Exponential: Data, Mamba, and More," the author discusses four key reasons why AI is experiencing exponential growth. The first reason is the importance of data quality in improving AI models. The author highlights the views of experts who emphasize the need for high-quality data to maximize the effectiveness of AI. The second reason is the emergence of new architectures, such as Mamba, which offer faster inference and improved performance for processing long sequences of data. The third reason is the ability of models to think for longer and allocate compute resources based on problem complexity. This allows for more advanced reasoning capabilities. Lastly, the author mentions a new paper that demonstrates how AI capabilities can be significantly improved without expensive retraining, indicating that there is still much room for growth and improvement in the field of AI.
 - URL: https://youtube.com/watch?v=Xq-QEd1jpKk&si=ecw9G_hyOYRWWwIj
 
 ## Highlights

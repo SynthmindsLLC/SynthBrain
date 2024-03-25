@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2024-01-26
 - Full Title: GPT-5: Everything You Need to Know So Far
 - Category: #articles
 - Summary: GPT-5 is the latest model being developed by OpenAI. It is currently in the training phase, with hints from tweets and updates on OpenAI's blog suggesting that the full-scale training run has begun. GPT-5 is expected to be the largest model yet, with an estimated parameter count around 10 times that of GPT-4. The model is anticipated to have improved reasoning abilities and reliability, with the ability to lay out its reasoning steps before solving a challenge and having each step checked internally or externally. OpenAI is also working on improving the real-time nature of voice interactions and aims to incorporate more multimodal data, including text, images, audio, and video.

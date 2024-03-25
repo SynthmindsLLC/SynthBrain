@@ -11,6 +11,5 @@
 - URL: https://finance.yahoo.com/news/elon-musk-sues-openai-ceo-094008797.html
 
 ## Highlights
-- Elon Musk has sued ChatGPT-maker OpenAI and its chief executive Sam Altman, among others, saying they had abandoned the company's original mission to develop artificial intelligencefor the benefit of humanity not profit. ([View Highlight](https://read.readwise.io/read/01hqwvxcv00d22s0p99mk5m9w9))
 - Musk co-founded OpenAI in 2015, but stepped down from its board in 2018. ([View Highlight](https://read.readwise.io/read/01hqwvy864r2tbegnbrq5s1t7b))
 - OpenAI is planning to appoint several new board members in March, the Washington Post reported on Thursday. ([View Highlight](https://read.readwise.io/read/01hqwvyk0m2xbmt7hamcbbgd6e))

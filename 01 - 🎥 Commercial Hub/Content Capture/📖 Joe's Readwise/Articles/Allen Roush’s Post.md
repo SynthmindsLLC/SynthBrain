@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Allen Roush]]
+- Date: 2024-01-05
 - Full Title: Allen Roush’s Post
 - Category: #articles
+- Summary: Allen Roush highlights the success of an amateur who trained the top 7b parameter model on the huggingface Open LLM Leaderboard. Despite not being a professional in LLM or computer science, this individual achieved impressive results by following a medium tutorial on using DPO and utilizing an existing DPO dataset. Roush acknowledges that while the model occasionally produces unusual responses, overall, its output quality surpasses that of Marconi and is on par with GPT-3.5. Additionally, these models run efficiently on local GPUs and offer a range of constrained generation techniques.
 - URL: https://www.linkedin.com/posts/allen-roush-27721011b_cultrixmistraltrix-v1-hugging-face-activity-7149086757945298944-T7IA?utm_source=share&utm_medium=member_ios
 
 ## Highlights

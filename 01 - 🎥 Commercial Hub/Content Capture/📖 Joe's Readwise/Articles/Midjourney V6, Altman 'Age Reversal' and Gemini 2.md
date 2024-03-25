@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2023-12-22
 - Full Title: Midjourney V6, Altman 'Age Reversal' and Gemini 2
 - Category: #articles
+- Summary: In this article, the author discusses several updates and developments in the field of AI. They mention the release of MID Journey version 6, which shows improvements in adhering to prompts and generating more accurate outputs. The author also discusses the use of the Magnify AI tool to enhance the realism of AI-generated images. They touch on the topic of longevity research, mentioning Sam Altman's investment in life extension company Retro and the potential for age reversal therapies. The article concludes with a mention of Google's training of Gemini 2, which is expected to outstrip OpenAI in terms of compute power.
 - URL: https://youtube.com/watch?v=ZewqcbEXWqs&si=Rsl80c2OarjZdsbu
 
 ## Highlights

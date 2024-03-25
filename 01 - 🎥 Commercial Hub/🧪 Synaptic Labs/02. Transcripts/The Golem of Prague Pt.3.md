@@ -1,0 +1,16 @@
+# The Golem of Prague Pt.3
+
+**Joseph:** [00:00:00] The vibe of a Golem is often maligned in the mainstream lore. And no small part due to its connections with the Jews and the sort of implicit [00:00:10] anti-Semitism that surrounds us. But it's an important and relevant fable for us in a contemporary setting and important to understand that the Golem was not evil or [00:00:20] inherently bad, despite the end of the story. Those who brought it to life were not evil either. Focused only on protecting themselves and the people [00:00:30] they loved. 
+
+There are many similar archetypes of this story. Someone in hopes of protecting the people. They love unleashed something. They don't understand. [00:00:40] At first, everything seems to be fine, but then it goes off the rails. And the story concludes with the moral of not toying with powers. We do not fully understand. [00:00:50] Even if our intentions are pure. 
+
+Uh, life rest to look at artificial intelligence through this lens. One where AI is neither good, [00:01:00] nor bad, but instead of power with unknown downstream consequences that are worth taking some deep consideration as individuals. As society. And as human [00:01:10] beings. 
+
+Tristan Harris and Acer. Raskins the co-founders of the center for human technology. Coined the term generative, large language [00:01:20] multimodal models. At as the letters, G L L M M S or golems. Which is a purposeful [00:01:30] elicitation of the folklore and rabbi low story. I decided to leave out the language just to make it G L M M S as these [00:01:40] models have quickly become multimodal from the ground up. 
+
+The story of the Golem, a clay figure brought to life by secret incantations and commands mirrors, our [00:01:50] contemporary journey with generative large multimodal models. Just as the Golem was animated by words. G L M M's. Spring into action upon [00:02:00] receiving prompts. This semblance is not just in their activation, but also in their inherent limitations. The Golem, despite its strength in initial purpose of [00:02:10] protection. Lacked a true understanding of the world and the nuances of human interaction. It would interpret commands to literally or fail to [00:02:20] grasp the context leading to unintended and often hazardous outcomes. 
+
+Similarly GLM M's while remarkable in their [00:02:30] ability to generate content based on prompts. Do not possess a genuine world model. Their responses though. Sometimes astonishingly apt. Can [00:02:40] also be misaligned with the intent or complexity of the command. This disconnect can result in outputs that are at best irrelevant and at worst [00:02:50] detrimental. 
+
+This parallel between the Golem and GLM M's serves as a modern parable. It cautions us about the allure of seemingly powerful tools [00:03:00] and the critical need for clarity in our interactions with them. Especially when we face danger or existential threat. It reminds us that without a deep [00:03:10] understanding of their nature and limitations. We risk unleashing forces that though created for benefit may spiral beyond our control. In both the ancient tale of the [00:03:20] Golem and the ongoing evolution of AI, the lesson is clear. Power without understanding careful guidance and above all wisdom. Can lead to [00:03:30] outcomes far from our intended goals.
+

@@ -4,12 +4,13 @@
 
 ## Metadata
 - Author: [[Chang-Ran Kim]]
+- Date: 2024-01-01
 - Full Title: Earthquake slams Japan, residents flee some coastal areas
 - Category: #articles
+- Summary: A powerful earthquake with a preliminary magnitude of 7.6 struck central Japan, triggering tsunami warnings and causing residents to evacuate some coastal areas. The quake knocked out power to thousands of homes, disrupted flights and rail services, and caused damage to buildings. The Japan Meteorological Agency issued major tsunami warnings for several coastal prefectures, and Russia also issued tsunami warnings in its far eastern cities. The earthquake occurred during a public holiday when many Japanese visit temples to mark the new year.
 - URL: https://www.reuters.com/world/japan/magnitude-74-earthquake-strikes-japan-tsunami-warning-issued-2024-01-01/
 
 ## Highlights
-- A powerful earthquake struck central Japan on Monday, triggering warnings for residents to evacuate some areas on its west coast, knocking out power to thousands of homes and disrupting flights and rail services to the affected region. ([View Highlight](https://read.readwise.io/read/01hk3kwswg49sfmzfb5163dgmx))
 - The quake with a preliminary magnitude of 7.6 triggered waves of around 1 metre along parts of the Sea of Japan coast with a larger wave expected ([View Highlight](https://read.readwise.io/read/01hk3kx1vb1thz06wtybjjn56v))
 - Russia also issued tsunami warnings in its far eastern cities of Vladivostok and Nakhodka. ([View Highlight](https://read.readwise.io/read/01hk3kxh3ctk1fn3qgcqmayqhe))
 - More than 36,000 households had lost power in Ishikawa and Toyama prefectures, utilities provider Hokuriku Electric Power [(9505.T)](https://www.reuters.com/markets/companies/9505.T) said. ([View Highlight](https://read.readwise.io/read/01hk3mqsq6drydxf039aewdzc0))

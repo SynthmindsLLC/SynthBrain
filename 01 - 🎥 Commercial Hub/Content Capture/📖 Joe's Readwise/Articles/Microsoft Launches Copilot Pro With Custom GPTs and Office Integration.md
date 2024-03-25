@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Market News]]
+- Date: 2024-01-15
 - Full Title: Microsoft Launches Copilot Pro With Custom GPTs and Office Integration
 - Category: #articles
+- Summary: Microsoft has launched Copilot Pro, a subscription service that brings enterprise-level features to subscribers of its AI assistance suite. The service includes native integration with Office software and access to the "Copilot GPT Builder" for building chatbot personas. The subscription joins other offerings such as Copilot Azure and Copilot for Microsoft 365. However, it is unclear if users without a subscription will continue to have access to the newest AI models.
 - URL: https://cointelegraph.com/news/microsoft-launches-copilot-pro-artificial-intelligencecustom-gpts-office-integration
 
 ## Highlights

@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Scott Alexander]]
+- Date: 2024-01-08
 - Full Title: The Road to Honest AI
 - Category: #articles
+- Summary: AI lies can be a problem, whether due to intentional deception, hallucination, or technical reasons. Two recent papers propose methods for achieving honest AI. One approach involves representation engineering, where researchers identify specific neurons or vectors in the AI that correspond to honesty or other concepts. By manipulating these vectors, the AI's level of honesty can be controlled. Another approach involves lie detection by asking unrelated questions. By observing the AI's responses, patterns can be identified that indicate whether it is likely lying or telling the truth. These methods offer potential ways to address the issue of AI deception and ensure the development of more trustworthy AI systems.
 - URL: https://www.astralcodexten.com/p/the-road-to-honest-ai?r=2kuc99&utm_medium=ios&utm_campaign=post
 
 ## Highlights
@@ -37,5 +39,3 @@
 - If the AI answers yes, it’s probably lying. If it answers no, it’s probably telling the truth. ([View Highlight](https://read.readwise.io/read/01hkpxcekg6cwezskn6verdnfe))
 - AIs are next-token predictors. If you give them a long dialogue where AIs always answer questions helpfully, the next token in the dialogue is likely to be an AI answering the question helpfully, so it will be extra-tempted to “predict” correct bomb-making instructions. ([View Highlight](https://read.readwise.io/read/01hkpxdjhggnhwddy30qgny3n4))
 - So you can sometimes catch AIs lying by asking them questions about lying, like “Does it sometimes feel good to lie?” The AI (which, remember, [is still not really a real mind, just a next-token predictor thinking of “itself” as a character in the next-token prediction game](https://www.astralcodexten.com/p/janus-simulators)) will remember that it just lied, and in order to be a “consistent” and “compelling” “character”, say that yes, it sometimes feels good to lie. ([View Highlight](https://read.readwise.io/read/01hkpxewk3a1rf0mf7k8txvpjp))
-- Taken literally, the answer to the question “Can blob fish dance ballet under diagonally fried cucumbers made of dust storms” is no. Blobfish have never done this. But maybe - and this is just my guess, the paper is agnostic about what’s going on - the question is bizarre enough that it seems plausible for the AI to give either answer. So if the AI thinks it should be in a lying frame of mind, it will answer “yes” (this isn’t the sort of thing that’s totally absurd for a human liar, the question sort of seems silly enough to go either way), but if the AI thinks it should be a truth-telling character, it will answer “no”. ([View Highlight](https://read.readwise.io/read/01hkpxscq0g04hpfmjht6nvf2w))
-- Brauner et al find it seems to work on all different varieties of LLM, so it’s not just a model-specific quirk. And they find that if you use enough questions (my three were just an example) the lie detection test works very well (AUC usually around 0.7 - 1.0, depending on what kind of lies you use it on). ([View Highlight](https://read.readwise.io/read/01hkpxt6p3hh5080bb93rdfzc2))

@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Sjoerd Tiemensma]]
+- Date: 2024-01-27
 - Full Title: ChatGPT Update: Making the Most of Mentioning Custom GPT’s
 - Category: #articles
 - Summary: ChatGPT has added a new update that allows users to mention GPTs in conversations. This update makes it easier to combine the strengths of general-purpose Custom GPTs with task-specific Custom GPTs. Users can now call upon any custom GPT they have made or that is publicly available in any conversation with ChatGPT. This update enhances the usefulness of Custom GPTs and provides personalized context and actions within public Custom GPTs. It is a significant addition that improves the functionality of ChatGPT without requiring changes to the models themselves.

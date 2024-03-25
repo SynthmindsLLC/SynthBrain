@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[AI Explained]]
+- Date: 2024-01-18
 - Full Title: Alpha Everywhere: AlphaGeometry, AlphaCodium and the Future of LLMs
 - Category: #articles
+- Summary: Google Deep Mind has released a new system called AlphaGeometry, which has performed almost as well as gold medalists in the International Math Olympiad (IMO) in solving geometry problems. AlphaGeometry is a neuro-symbolic system that combines a neural network with symbolic pre-programmed systems. The system uses a language model to generate constructs that can be used in solving geometry problems, and a symbolic engine to perform the mechanical deductions. The authors of the system believe that the combination of large language models, neural networks, and symbolic systems will lead to the development of artificial general intelligence (AGI).
 - URL: https://youtube.com/watch?v=dOplrIJEYBo&si=BYjal6jvRkuXz-d5
 
 ## Highlights

@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[businessinsider.com]]
+- Date: None
 - Full Title: https://www.businessinsider.com/openai-giving-board-veto-powers-over-sam-altman-2023-12
 - Category: #articles
+- Summary: OpenAI has given its board veto powers over CEO Sam Altman, according to a new safety framework released by the company. The board will have the ability to reverse decisions made by Altman, making them the final decision-making authority. This move comes after Altman was fired by the previous board and then reinstated. The new safety framework also establishes a Safety Advisory Group to review emerging risks and report to the board.
 - URL: https://www.businessinsider.com/openai-giving-board-veto-powers-over-sam-altman-2023-12
 
 ## Highlights

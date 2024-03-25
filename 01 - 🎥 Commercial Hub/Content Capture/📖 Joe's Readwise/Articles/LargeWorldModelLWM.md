@@ -19,6 +19,5 @@
 - ![](https://github.com/LargeWorldModel/LWM/raw/main/imgs/long_video_chat_main.png) ([View Highlight](https://read.readwise.io/read/01hq33af30k8pzrna4baghz6p9))
 - LWM can answer questions over 1 hour YouTube video. ([View Highlight](https://read.readwise.io/read/01hq33ahsfkcz5nvaf4xekay9p))
 - ![](https://github.com/LargeWorldModel/LWM/raw/main/imgs/image_chat.png) ([View Highlight](https://read.readwise.io/read/01hq33apb7axwa76eby3y6fpm2))
-- LWM can chat with images. ([View Highlight](https://read.readwise.io/read/01hq33asa8b49tngj0txkjy5ga))
 - ![](https://github.com/LargeWorldModel/LWM/raw/main/imgs/image_video_gen.png) ([View Highlight](https://read.readwise.io/read/01hq33atzgbp37q51vkzd2h0sw))
 - LWM can generate videos and images from text. ([View Highlight](https://read.readwise.io/read/01hq33axr6h28vx2h0r4dw0wr2))

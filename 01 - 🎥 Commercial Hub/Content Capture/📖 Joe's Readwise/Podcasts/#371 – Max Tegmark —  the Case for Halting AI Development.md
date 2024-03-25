@@ -4,6 +4,7 @@
 
 ## Metadata
 - Author: [[Lex Fridman Podcast]]
+- Date: None
 - Full Title: #371 – Max Tegmark —  the Case for Halting AI Development
 - Category: #podcasts
 - URL: https://share.snipd.com/episode/934b4d56-4e0b-409c-ab79-2b6faab8bcc4

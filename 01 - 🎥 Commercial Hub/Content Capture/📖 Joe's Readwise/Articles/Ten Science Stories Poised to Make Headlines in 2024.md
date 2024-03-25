@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[ByScience News Staff]]
+- Date: 2024-01-03
 - Full Title: Ten Science Stories Poised to Make Headlines in 2024
 - Category: #articles
+- Summary: Scientists are likely to face uncertainties in 2024 due to political upheaval and policy disputes, such as the U.S. national elections and European parties grappling over green policies. Trials for Long Covid treatments may yield their first results as the effects of the pandemic recede. The El Niño warming in the Pacific Ocean is expected to worsen droughts and push global temperatures to new records. Other areas of research and policy that are poised to make headlines this year include the race to regulate AI, the release of lab-modified mosquitoes to fight dengue fever, and the search for treatments for Long Covid.
 - URL: https://www.science.org/content/article/ten-science-stories-poised-to-make-headlines-2024
 
 ## Highlights

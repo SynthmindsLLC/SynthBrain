@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Gary Marcus]]
+- Date: 2023-12-21
 - Full Title: Are Social Media and Coordinated Misinformation Campaigns Fomenting Extremism?
 - Category: #articles
+- Summary: Social media and coordinated misinformation campaigns are likely fomenting extremism, particularly among younger people. Data from polls and surveys show alarming trends, such as younger individuals perceiving Jews as oppressors and justifying violence against them. Platforms like TikTok have been found to overwhelmingly side against Israel, with the majority of users supporting Palestine. The use of AI-generated propaganda further intensifies these campaigns. Social media amplifies outrage by presenting atrocities and bad behavior without context, leading to the escalation of stereotypes and polarization. The algorithms used by platforms like TikTok contribute to the dissemination of biased and unbalanced information, damaging our ability to coexist as humans.
 - URL: https://garymarcus.substack.com/p/are-social-media-and-coordinated?publication_id=888615&utm_medium=email&utm_campaign=email-share&triggerShare=true&r=2kuc99
 
 ## Highlights

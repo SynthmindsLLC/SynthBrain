@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Maxwell Zeff]]
+- Date: 2023-12-26
 - Full Title: OpenAI Pissed Off Developers by Phasing Out Plugins for GPTs
 - Category: #articles
+- Summary: OpenAI has upset developers by phasing out ChatGPT plugins and asking them to turn their work into GPTs. While GPTs and plugins serve the same purpose, plugins offer more functionality and are preferred by developers. OpenAI is trying to revamp plugins with the more consumer-friendly GPT Store, but developers are concerned that this move may ostracize them. Additionally, there are security concerns around plugins, which may be part of the reason for prioritizing GPTs with limited functionality.
 - URL: https://gizmodo.com/openai-pissed-off-developers-by-phasing-out-plugins-for-1851124124
 
 ## Highlights

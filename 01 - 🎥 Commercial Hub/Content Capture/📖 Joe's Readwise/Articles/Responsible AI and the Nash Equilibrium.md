@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Tim O'Brien]]
+- Date: 2024-01-24
 - Full Title: Responsible AI and the Nash Equilibrium
 - Category: #articles
+- Summary: In the world of AI, the concept of "responsible AI" can be seen as a Nash Equilibrium, where companies prioritize fast time-to-market over considerations for societal good. This is due to the competitive nature of the AI sector and the reluctance of companies to deviate from the strategy chosen by their competitors. Game theory, specifically the Nash Equilibrium, helps explain why AI products are being developed at such a rapid pace. While some firms claim to prioritize both speed and safety, their actions indicate a focus on speed. However, there are examples of companies in other industries that have taken risks and broken the equilibrium state to prioritize safety or other values. Ultimately, regulation may be necessary to shift the current dynamic and encourage responsible AI practices.
 - URL: https://timobrien.substack.com/p/responsible-ai-and-the-nash-equilibrium?r=2kuc99&utm_medium=ios&utm_campaign=post
 
 ## Highlights
@@ -16,6 +18,7 @@
 - either one of these *could* be a profit-maximizing strategy, differentiated by short-term vs. long-term, but we don’t know at this point. ([View Highlight](https://read.readwise.io/read/01hmzxaxskg9tm69fxgh6gesjm))
 - the AI sector has chosen strategy **A** as the profit-maximizing path forward in response to other market participants choosing the same strategy. There are, however, examples of individual firms in other sectors that took significant business risks to break a noncooperative equilibrium state. ([View Highlight](https://read.readwise.io/read/01hmzxbc7yre3ht6h81qxrbgvj))
 - Carmaker Volvo took a big risk in the 1980’s when it broke with automotive industry convention and chose safety as its core brand and product attribute during a time in which every other auto manufacturer was fighting auto safety regulation. ([View Highlight](https://read.readwise.io/read/01hmzxbs0x291tkvw9thgctb2c))
+    - Tags: [[favorite]] 
 - For people who follow the AI sector closely, one gets the feeling that ‘move slow and fix things’ has an *unthinkable* quality to it, as the market rewards for doing the opposite are apparent and easily measurable in revenue, profit, market share, and valuation. ([View Highlight](https://read.readwise.io/read/01hmzxe8edm533wx1a2at9hxk6))
 - Nash Equilibrium’s distinguishing attributes: players assume that all the other players remain constant in their strategies. ([View Highlight](https://read.readwise.io/read/01hmzxeqqy5ctjz0kdbv97wb47))
 - Continuing examples of [AI risks](https://www.forbes.com/sites/bernardmarr/2023/06/02/the-15-biggest-risks-of-artificial-intelligence/?sh=baf432427066) combined with a simmering sentiment that [AI may be overhyped](https://www.morningstar.com/news/marketwatch/20240120203/is-ai-hype-starting-to-fade-companies-are-poised-to-turn-the-talk-into-action-in-2024-says-deutsche-bank) could lower the aversion to risk for some players and open a door to strategy **B**. ([View Highlight](https://read.readwise.io/read/01hmzxf49x4k4pjrd4ck6dcgna))

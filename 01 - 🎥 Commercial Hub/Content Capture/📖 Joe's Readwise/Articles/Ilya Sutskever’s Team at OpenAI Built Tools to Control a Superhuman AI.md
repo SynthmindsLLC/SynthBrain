@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Maxwell Zeff]]
+- Date: 2023-12-15
 - Full Title: Ilya Sutskever’s Team at OpenAI Built Tools to Control a Superhuman AI
 - Category: #articles
+- Summary: Ilya Sutskever's team at OpenAI has developed tools to control a superhuman AI. They believe that superintelligence could be developed within the next ten years and it is crucial to ensure that it is aligned with human values and safe. The team's research paper proposes using smaller AI models to train superhuman AI models, as humans may not be sufficient to do so as AI becomes smarter. This is the first update from Sutskever since his status at OpenAI became unclear, but he is still involved in the company. The study found that training large AI models with smaller ones resulted in higher accuracy, but OpenAI does not consider it a complete solution to superalignment.
 - URL: https://gizmodo.com/openai-paper-control-superhuman-ai-ilya-sutskever-1851103323
 
 ## Highlights

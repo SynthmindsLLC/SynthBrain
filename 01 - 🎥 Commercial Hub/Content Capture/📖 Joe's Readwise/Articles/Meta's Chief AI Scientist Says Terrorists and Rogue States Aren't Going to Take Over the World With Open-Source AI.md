@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Kwan Wei Kevin Tan]]
+- Date: 2023-12-27
 - Full Title: Meta's Chief AI Scientist Says Terrorists and Rogue States Aren't Going to Take Over the World With Open-Source AI
 - Category: #articles
+- Summary: Meta's chief AI scientist, Yann LeCun, believes that terrorists and rogue states will not be able to take over the world using open-source AI due to the significant resources and talent required. LeCun explains that even wealthy states like China would struggle due to export bans on AI chips. Meta, which supports open-source AI development, has partnered with IBM to promote open innovation in the field. LeCun has consistently dismissed the idea of AI posing an existential threat to humanity.
 - URL: https://www.businessinsider.com/meta-ai-chief-terrorists-cannot-takeover-world-open-source-ai-2023-12
 
 ## Highlights

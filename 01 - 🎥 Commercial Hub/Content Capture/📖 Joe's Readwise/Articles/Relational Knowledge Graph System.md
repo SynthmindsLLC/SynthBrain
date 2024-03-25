@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[digitalfinancialreporting.blogspot.com]]
+- Date: 2023-12-29
 - Full Title: Relational Knowledge Graph System
 - Category: #articles
+- Summary: The Relational Knowledge Graph System (RKGS) combines the relational paradigm and the knowledge graph paradigm. The idea is explained in the documentation titled "Why RKGS." The concept becomes even more interesting with the introduction of "relational AI," which is a cloud-based relational knowledge graph management system offered by Relational.ai. The notion of knowledge graphs represented in relational databases aligns with the idea that knowledge graphs have both a syntax and semantics aspect. However, there are different groups trying to define the term "knowledge graph," with semantic web proponents, graph database advocates, and the XBRL camp each having their own perspectives.
 - URL: https://digitalfinancialreporting.blogspot.com/2023/12/relational-knowledge-graph-system-rkgs.html?m=1
 
 ## Highlights

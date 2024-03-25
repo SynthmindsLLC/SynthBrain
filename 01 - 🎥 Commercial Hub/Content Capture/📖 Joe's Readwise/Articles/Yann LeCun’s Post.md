@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Yann LeCun]]
+- Date: 2023-12-22
 - Full Title: Yann LeCun’s Post
 - Category: #articles
+- Summary: Yann LeCun, the head of AI research at Meta, expressed skepticism about the near-term potential of quantum computers in a recent media event. While acknowledging that quantum computing is a fascinating scientific topic, he questioned the feasibility of fabricating quantum computers that are actually useful. This viewpoint challenges the widespread optimism surrounding quantum computing and raises doubts about its practical applications in the near future.
 - URL: https://www.linkedin.com/posts/yann-lecun_quantum-computings-hard-cold-reality-check-activity-7144047513858174976-erpP?utm_source=share&utm_medium=member_ios
 
 ## Highlights

@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Sara Fischer]]
+- Date: 2023-12-13
 - Full Title: Axel Springer, OpenAI Strike "Real-Time News" Deal for ChatGPT
 - Category: #articles
+- Summary: OpenAI has entered into a partnership with Axel Springer, the parent company of various media outlets, to provide people with access to real-time news content through AI tools. This collaboration represents a new milestone in the relationship between journalism companies and AI firms, as it involves using vetted journalism to enhance the accuracy of ChatGPT's responses. Additionally, this is the first time OpenAI has outlined plans for ChatGPT to attribute news publishers in its answers. Under the agreement, ChatGPT will have access to content from Axel Springer publishers to generate real-time news summaries and train its language models.
 - URL: https://www.axios.com/2023/12/13/openai-chatgpt-axel-springer-news-deal
 
 ## Highlights

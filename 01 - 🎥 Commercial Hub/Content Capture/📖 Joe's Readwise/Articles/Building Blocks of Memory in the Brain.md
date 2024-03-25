@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Artem Kirsanov]]
+- Date: 2023-07-06
 - Full Title: Building Blocks of Memory in the Brain
 - Category: #articles
+- Summary: Memory is the ability to store and retrieve information, but where and how is this information stored in the brain? The concept of an engram, a fundamental unit of physical memory substrate, helps us understand this. Engrams are physical changes in the brain that occur after learning or experience. Scientists have discovered that memories are stored as changes in patterns of how neurons communicate with each other. They have also developed techniques to study memory formation, such as fear conditioning paradigms and genetic modifications in neurons. The activation of specific neurons, known as engram neurons, is necessary for memory recall, and manipulating their activity can affect memory formation. Furthermore, engrams are sparse, meaning only a small proportion of active neurons become part of the memory. The competition through neuronal excitability and inhibitory neurons plays a role in determining which neurons are allocated to the engram. Memory traces can be formed in different brain regions, and there i...
 - URL: https://youtube.com/watch?v=X5trRLX7PQY&si=_S0skMmiah1b6HJo
 
 ## Highlights

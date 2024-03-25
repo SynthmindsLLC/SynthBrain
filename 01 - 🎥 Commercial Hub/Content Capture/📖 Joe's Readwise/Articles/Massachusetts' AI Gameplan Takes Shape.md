@@ -4,8 +4,10 @@
 
 ## Metadata
 - Author: [[Steph Solis]]
+- Date: 2023-12-13
 - Full Title: Massachusetts' AI Gameplan Takes Shape
 - Category: #articles
+- Summary: Yvonne Hao, Massachusetts' economic development secretary, is working to make Boston the nation's premiere AI hub. She is leading an advisory council, along with Jason Snyder, to develop AI policies in the state. The council will make recommendations on regulating AI in government operations and supporting AI adoption in various sectors. The goal is to harness AI as a force for good and ensure Massachusetts stays at the forefront of AI development. Other cities, such as San Francisco and New York, are also vying to lead in the AI industry.
 - URL: https://www.axios.com/local/boston/2023/12/13/ai-massachusetts-economy-policy-artificial-intelligence
 
 ## Highlights
