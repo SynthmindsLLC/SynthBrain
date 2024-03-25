@@ -329,3 +329,6 @@
 [[2024-03-25]] 6:42 AM — Synced 40 highlights from 1 document.
     - 40 highlights from The Ethical Algorithm
 
+[[2024-03-25]] 1:43 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Sora: First Impressions
+
