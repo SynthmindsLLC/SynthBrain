@@ -20,6 +20,8 @@
 - [[Ask Me Anything - A simple strategy for prompting language models]]
 - [[Assessing Prompt Injection Risks in 200+ Custom GPTs]]
 - **attachments**
+	- **abu-rasheedKnowledgeGraphsContext2024**
+
 	- **aroraAskMeAnything2022**
 
 	- **azarGeneralTheoreticalParadigm2023**
@@ -41,6 +43,8 @@
 	- **dinuSymbolicAIFrameworkLogicbased2024**
 
 	- **duAnyToolSelfReflectiveHierarchical2024**
+
+	- **garrido-merchanComputationalEthicsMorality2023**
 
 	- **hirschBusinessDataEthics2024**
 
@@ -138,6 +142,8 @@
 
 	- **zhouSelfDiscoverLargeLanguage2024 1**
 
+	- **zhugeLanguageAgentsOptimizable2024**
+
 - [[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models]]
 - [[Building Trust in Conversational AI - A Comprehensive Review and Solution Architecture for Explainable, Privacy-Aware Systems using LLMs and Knowledge Graph]]
 - [[Business Data Ethics - Emerging Models for Governing AI and Advanced Analytics]]
@@ -155,10 +161,13 @@
 - [[Dynamic value alignment through preference aggregation of multiple objectives]]
 - [[EALM - Introducing Multidimensional Ethical Alignment in Conversational Information Retrieval]]
 - [[Eliciting Human Preferences with Language Models]]
+- [[From computational ethics to morality]]
 - [[From Principles to Practice - An Accountability Metrics Catalogue for Managing AI Risks]]
 - [[GAIA - a benchmark for General AI Assistants]]
 - [[HALO - An Ontology for Representing Hallucinations in Generative Models]]
 - [[Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models]]
+- [[Knowledge Graphs as Context Sources for LLM-Based Explanations of Learning Recommendations]]
+- [[Language Agents as Optimizable Graphs]]
 - [[Large Language Models Understand and Can be Enhanced by Emotional Stimuli 1]]
 - [[Large Language Models Understand and Can be Enhanced by Emotional Stimuli]]
 - [[Let's Verify Step by Step 1]]

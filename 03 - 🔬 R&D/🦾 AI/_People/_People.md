@@ -3,7 +3,7 @@
 - [[Demis Hassabis]]
 - [[Geoffrey Hinton]]
 - [[Greg Brockman]]
-- [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_People/Ilya Sutskever]]
+- [[Ilya Sutskever]]
 - [[Joy Buolamwini]]
 - [[Liv Boerre]]
 - [[Marc Andreessen]]

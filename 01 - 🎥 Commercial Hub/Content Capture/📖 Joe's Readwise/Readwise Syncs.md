@@ -334,3 +334,14 @@
 
 [[2024-03-26]] 2:03 PM — Synced 0 highlights from 0 documents.
 
+[[2024-03-27]] 5:43 AM — Synced 34 highlights from 6 documents.
+    - 6 highlights from The Next Phase of AI Is Here — And It's Not Looking Pretty
+    - 4 highlights from Fireworks.ai Open Source API Puts Generative AI in Reach of Any Developer
+    - 7 highlights from Adobe’s New GenStudio Platform Is an AI Factory for Advertisers - The Verge
+    - 6 highlights from ChatGPT Use Linked to Memory Loss, Procrastination in Students
+    - 4 highlights from Some VCs Are Reportedly Fed Up With OpenAI's Sam Altman
+    - 7 highlights from MIT Scientists Have Just Worked Out How to Make the Most Popular AI Image Generators 30 Times Faster
+
+[[2024-03-27]] 9:07 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from The age of AI BS
+
