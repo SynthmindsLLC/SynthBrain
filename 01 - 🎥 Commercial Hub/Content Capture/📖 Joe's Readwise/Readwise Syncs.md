@@ -345,3 +345,6 @@
 [[2024-03-27]] 9:07 AM — Synced 10 highlights from 1 document.
     - 10 highlights from The age of AI BS
 
+[[2024-03-27]] 6:31 PM — Synced 13 highlights from 1 document.
+    - 13 highlights from Making AI Accessible With Andrej Karpathy and Stephanie Zhan
+
