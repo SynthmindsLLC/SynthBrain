@@ -14,6 +14,7 @@
 - [[Iterative Preference Learning]]
 - [[Knowledge Graphs]]
 - [[large language models]]
+- [[Latent Space]]
 - [[Neural Networks]]
 - [[Neuro-symbolic AI]]
 - [[Paper2Vec]]
