@@ -348,3 +348,7 @@
 [[2024-03-27]] 6:31 PM — Synced 13 highlights from 1 document.
     - 13 highlights from Making AI Accessible With Andrej Karpathy and Stephanie Zhan
 
+[[2024-03-28]] 6:31 AM — Synced 13 highlights from 2 documents.
+    - 9 highlights from Making AI Accessible With Andrej Karpathy and Stephanie Zhan
+    - 4 highlights from Researchers Gave AI an 'Inner Monologue' and It Massively Improved Its Performance
+

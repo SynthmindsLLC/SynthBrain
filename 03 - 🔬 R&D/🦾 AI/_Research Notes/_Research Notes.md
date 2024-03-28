@@ -130,6 +130,8 @@
 
 	- **yePromptEngineeringPrompt2023**
 
+	- **yuanSelfRewardingLanguageModels2024**
+
 	- **yuAssessingPromptInjection2023**
 
 	- **yuChainofNoteEnhancingRobustness2023**
@@ -137,6 +139,8 @@
 	- **yuEALMIntroducingMultidimensional2023**
 
 	- **zafarBuildingTrustConversational2023**
+
+	- **zelikmanQuietSTaRLanguageModels2024**
 
 	- **zhouSelfDiscoverLargeLanguage2024**
 
@@ -180,11 +184,13 @@
 	- **2, GPT-3.5**
 		- [[Principled Instructions are All You Need for Questioning]]
 - [[Prompt Engineering a Prompt Engineer]]
+- [[Quiet-STaR - Language Models Can Teach Themselves to Think Before Speaking]]
 - [[Reasoning on Graphs - Faithful and Interpretable Large Language Model Reasoning]]
 - [[Regulating AI manipulation - Applying Insights from behavioral economics and psychology to enhance the practicality of the EU AI Act]]
 - [[Role-Play with Large Language Models]]
 - [[Self-Discover - Large Language Models Self-Compose Reasoning Structures 1]]
 - [[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
+- [[Self-Rewarding Language Models]]
 - [[SymbolicAI - A framework for logic-based approaches combining generative models and solvers]]
 - [[System 2 Attention (is something you might need too)]]
 - [[Teaching CS50 with AI]]
