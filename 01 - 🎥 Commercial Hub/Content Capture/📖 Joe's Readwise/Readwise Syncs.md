@@ -352,3 +352,6 @@
     - 9 highlights from Making AI Accessible With Andrej Karpathy and Stephanie Zhan
     - 4 highlights from Researchers Gave AI an 'Inner Monologue' and It Massively Improved Its Performance
 
+[[2024-03-28]] 5:32 PM — Synced 17 highlights from 1 document.
+    - 17 highlights from Is AI’s Next Big Leap Understanding Emotion? $50M for Hume Says Yes
+
