@@ -365,3 +365,6 @@
 [[2024-03-29]] 8:31 AM — Synced 2 highlights from 1 document.
     - 2 highlights from Sholto Douglas & Trenton Bricken - How to Build & Understand GPT-7's Mind
 
+[[2024-03-29]] 2:04 PM — Synced 12 highlights from 1 document.
+    - 12 highlights from Navigating the Challenges and Opportunities of Synthetic Voices
+
