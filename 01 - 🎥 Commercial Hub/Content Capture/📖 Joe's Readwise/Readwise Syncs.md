@@ -355,3 +355,7 @@
 [[2024-03-28]] 5:32 PM — Synced 17 highlights from 1 document.
     - 17 highlights from Is AI’s Next Big Leap Understanding Emotion? $50M for Hume Says Yes
 
+[[2024-03-28]] 7:30 PM — Synced 13 highlights from 2 documents.
+    - 7 highlights from Uh Oh — It Looks Like ChatGPT's AI Model Got Lazy Again
+    - 6 highlights from VP Harris Announces New Requirements for How Federal Agencies Use AI Technology
+
