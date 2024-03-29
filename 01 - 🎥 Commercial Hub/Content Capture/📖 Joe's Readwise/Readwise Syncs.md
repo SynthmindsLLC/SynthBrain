@@ -359,3 +359,6 @@
     - 7 highlights from Uh Oh — It Looks Like ChatGPT's AI Model Got Lazy Again
     - 6 highlights from VP Harris Announces New Requirements for How Federal Agencies Use AI Technology
 
+[[2024-03-29]] 7:32 AM — Synced 72 highlights from 1 document.
+    - 72 highlights from Sholto Douglas & Trenton Bricken - How to Build & Understand GPT-7's Mind
+
