@@ -368,3 +368,6 @@
 [[2024-03-29]] 2:04 PM — Synced 12 highlights from 1 document.
     - 12 highlights from Navigating the Challenges and Opportunities of Synthetic Voices
 
+[[2024-03-30]] 6:01 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from Andrew Ng STUNNING AI Architecture Revealed | "AI Agentic Workflows Will Drive Massive AI Progress"
+
