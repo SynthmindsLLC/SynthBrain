@@ -43,8 +43,8 @@ NP-complete problems often arise in real-world situations, such as scheduling, n
 <Important [[wikilinks]]>
 - [[Computational Complexity Theory]]
 - [[Deterministic Turing Machine]]
-- [[Polynomial Time]]
-- [[Heuristic Algorithms]]
+- [[polynomial time]]
+- [[heuristic algorithms]]
 - [[Approximation Algorithms]]
 - [[Parameterized Algorithms]]
 - [[Reduction Techniques]]

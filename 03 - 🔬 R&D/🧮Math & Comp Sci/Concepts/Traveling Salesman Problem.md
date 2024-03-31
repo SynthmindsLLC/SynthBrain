@@ -37,7 +37,7 @@ Solving TSP can be approached in various ways:
 ### Conclusion
 While the TSP is computationally challenging, the development of sophisticated algorithms and heuristics has made it possible to find near-optimal solutions for practical applications. The problem continues to be a focus of research due to its complexity and relevance to various fields.
 
-- Important [[wikilinks]]: [[NP-hard]], [[Heuristic Algorithms]], [[Dynamic Programming]], [[Local Search]], [[Metaheuristics]]
+- Important [[wikilinks]]: [[NP-hard]], [[heuristic algorithms]], [[Dynamic Programming]], [[Local Search]], [[Metaheuristics]]
 
 Sources
 [1] Travelling salesman problem - Wikipedia https://en.wikipedia.org/wiki/Travelling_salesman_problem

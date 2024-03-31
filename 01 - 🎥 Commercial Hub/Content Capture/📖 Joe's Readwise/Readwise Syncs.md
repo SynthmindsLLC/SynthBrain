@@ -371,3 +371,7 @@
 [[2024-03-30]] 6:01 AM — Synced 3 highlights from 1 document.
     - 3 highlights from Andrew Ng STUNNING AI Architecture Revealed | "AI Agentic Workflows Will Drive Massive AI Progress"
 
+[[2024-03-31]] 7:46 AM — Synced 80 highlights from 2 documents.
+    - 14 highlights from Total Noob’s Intro to Hugging Face Transformers
+    - 66 highlights from Sholto Douglas & Trenton Bricken - How to Build & Understand GPT-7's Mind
+

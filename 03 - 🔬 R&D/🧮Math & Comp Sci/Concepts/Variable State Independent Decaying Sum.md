@@ -39,7 +39,7 @@ VSIDS and its variants represent a critical advancement in the development of SA
 
 - Important [[wikilinks]]:
   - [[SAT Solvers]]
-  - [[Heuristics]]
+  - [[heuristics]]
   - [[Conflict-Driven Clause Learning (CDCL)]]
 
 Citations:
