@@ -377,3 +377,12 @@
 
 [[2024-03-31]] 12:34 PM — Synced 0 highlights from 0 documents.
 
+[[2024-04-01]] 6:40 AM — Synced 186 highlights from 7 documents.
+    - 13 highlights from When Will the GenAI Bubble Burst?
+    - 1 highlights from Mamba Explained
+    - 75 highlights from Mamba Explained
+    - 70 highlights from The Most Important Algorithm in Machine Learning
+    - 7 highlights from Microsoft’s new safety system can catch hallucinations in its customers’ AI apps - The Verge
+    - 8 highlights from Google DeepMind Unveils ‘Superhuman’ AI System That Excels in Fact-Checking, Saving Costs and Improving Accuracy
+    - 12 highlights from SydeLabs Raises $2.5M Seed to Develop an Intent-Based Firewall Guard for AI
+
