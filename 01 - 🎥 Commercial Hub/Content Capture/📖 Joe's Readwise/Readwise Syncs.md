@@ -388,3 +388,6 @@
 
 [[2024-04-01]] 7:01 AM — Synced 0 highlights from 0 documents.
 
+[[2024-04-01]] 1:10 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from OpenDevin Tutorial (Open-Source Devin) - Build Entire Apps From a Single Prompt
+
