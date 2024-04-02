@@ -391,3 +391,7 @@
 [[2024-04-01]] 1:10 PM — Synced 2 highlights from 1 document.
     - 2 highlights from OpenDevin Tutorial (Open-Source Devin) - Build Entire Apps From a Single Prompt
 
+[[2024-04-01]] 7:10 PM — Synced 10 highlights from 2 documents.
+    - 6 highlights from Apple AI Researchers Boast Useful on-Device Model That ‘Substantially Outperforms’ GPT-4
+    - 4 highlights from Don’t Like Your DALL-E Images? OpenAI Now Lets You Edit Them.
+
