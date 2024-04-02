@@ -398,3 +398,8 @@
 [[2024-04-02]] 7:00 AM — Synced 4 highlights from 1 document.
     - 4 highlights from Sam Altman Has Been Removed as the Owner of the OpenAI Startup Fund
 
+[[2024-04-02]] 6:40 PM — Synced 38 highlights from 3 documents.
+    - 6 highlights from An Unending Array of Jailbreaking Attacks Could Be Be the Death of LLMs
+    - 14 highlights from On the Necessity of a Sin
+    - 18 highlights from Why Does OpenAI Need a 'Stargate' Supercomputer? Ft. Perplexity CEO Aravind Srinivas
+
