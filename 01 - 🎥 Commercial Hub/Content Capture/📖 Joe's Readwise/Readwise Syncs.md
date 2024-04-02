@@ -395,3 +395,6 @@
     - 6 highlights from Apple AI Researchers Boast Useful on-Device Model That ‘Substantially Outperforms’ GPT-4
     - 4 highlights from Don’t Like Your DALL-E Images? OpenAI Now Lets You Edit Them.
 
+[[2024-04-02]] 7:00 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from Sam Altman Has Been Removed as the Owner of the OpenAI Startup Fund
+
