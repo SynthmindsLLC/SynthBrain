@@ -149,7 +149,7 @@
 	- **zhugeLanguageAgentsOptimizable2024**
 
 - [[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models]]
-- [[Building Trust in Conversational AI - A Comprehensive Review and Solution Architecture for Explainable, Privacy-Aware Systems using LLMs and Knowledge Graph]]
+- [[Building Trust in Conversational AI]]
 - [[Business Data Ethics - Emerging Models for Governing AI and Advanced Analytics]]
 - [[Can $Q$-Learning with Graph Networks Learn a Generalizable Branching Heuristic for a SAT Solver]]
 - [[Certifying LLM Safety against Adversarial Prompting]]

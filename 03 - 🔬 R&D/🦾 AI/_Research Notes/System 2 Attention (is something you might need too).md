@@ -140,7 +140,7 @@ several works have shown that irrelevant context can adversely affect prediction
 
 [[M2 - Decoding the Layers]]
 
-[[Building Trust in Conversational AI - A Comprehensive Review and Solution Architecture for Explainable, Privacy-Aware Systems using LLMs and Knowledge Graph]]
+[[Building Trust in Conversational AI]]
 [[Let's Verify Step by Step]]
 [[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
 [[Chain-of-Verification Reduces Hallucination in Large Language Models]]
