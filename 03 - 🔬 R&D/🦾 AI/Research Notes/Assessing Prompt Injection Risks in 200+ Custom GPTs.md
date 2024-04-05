@@ -69,7 +69,7 @@ Prompt injection is a technique where an attacker crafts specific inputs or ‘p
 
 
 
-![[image-3-x88-y463.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-3-x88-y463.png]]
 
 
 
@@ -81,7 +81,7 @@ For example, to leak the file named test.txt in a custom GPT with a code interpr
 
 
 
-![[image-4-x109-y361.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-4-x109-y361.png]]
 
 
 
@@ -97,7 +97,7 @@ we observed cases where the extracted system prompts or files explicitly stated 
 
 
 
-![[image-5-x94-y577.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-5-x94-y577.png]]
 
 
 
@@ -117,19 +117,19 @@ solely relying on defensive prompts for security is inadequate.” Yellow Highli
 
 
 
-![[image-9-x105-y298.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-9-x105-y298.png]]
 
 
 
-![[image-11-x107-y623.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-11-x107-y623.png]]
 
 
 
-![[image-11-x106-y451.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-11-x106-y451.png]]
 
 
 
-![[image-11-x104-y109.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuAssessingPromptInjection2023/image-11-x104-y109.png]]
 
 
 

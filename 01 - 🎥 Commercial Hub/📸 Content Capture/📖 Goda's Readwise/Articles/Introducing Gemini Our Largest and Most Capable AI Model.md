@@ -3,7 +3,7 @@
 ![rw-book-cover](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_178634/Gemini_SS.width-1300.jpg)
 
 ## Metadata
-- Author: [[Demis Hassabis]]
+- Author: [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Demis Hassabis]]
 - Full Title: Introducing Gemini: Our Largest and Most Capable AI Model
 - Category: #articles
 - URL: https://blog.google/technology/ai/google-gemini-ai/#performance

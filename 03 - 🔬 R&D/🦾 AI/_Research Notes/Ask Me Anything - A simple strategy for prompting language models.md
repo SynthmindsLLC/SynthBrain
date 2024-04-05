@@ -45,7 +45,7 @@ The performance further varies depending on the chosen LLM family” Yellow High
 
 
 
-![[image-2-x59-y553.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/aroraAskMeAnything2022/image-2-x59-y553.png]]
 
 
 
@@ -89,7 +89,7 @@ Open-ended prompts appear to outperform restrictive-prompts.” Yellow Highlight
 
 
 
-![[image-5-x65-y599.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/aroraAskMeAnything2022/image-5-x65-y599.png]]
 
 
 

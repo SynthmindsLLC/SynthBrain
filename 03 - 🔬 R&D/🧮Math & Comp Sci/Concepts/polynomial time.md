@@ -32,6 +32,6 @@ Polynomial time refers to a class of computational problems for which an algorit
 
 A central question in computational complexity theory is whether every problem whose solution can be verified in polynomial time (NP) can also be solved in polynomial time (P). This question, known as the P vs. NP problem, remains one of the most important unsolved problems in computer science.
 
-- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Class P]], [[Exponential Time]], [[Sorting Algorithms]], [[Dijkstra's Algorithm]], [[P vs. NP Problem]]
+- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Class P]], [[Exponential Time]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Sorting Algorithms]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Dijkstra's algorithm]], [[P vs. NP Problem]]
 
 Sources

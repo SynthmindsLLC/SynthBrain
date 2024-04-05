@@ -43,7 +43,7 @@ Given a graph with vertices A, B, C, and D, the Floyd-Warshall algorithm can fin
 ### Conclusion
 The Floyd-Warshall algorithm is a powerful tool for graph analysis, particularly useful for dense graphs where the number of edges is close to $$ |V|^2 $$[4].
 
-- [[Floyd-Warshall algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Floyd-Warshall algorithm]]
 - [[Graph Theory]]
 - [[Shortest Path Problem]]
 - [[Dynamic Programming]]

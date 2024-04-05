@@ -34,7 +34,7 @@ Stochastic algorithms are a class of algorithms that incorporate randomness as p
 Stochastic algorithms are an essential tool in the optimization toolbox, offering a balance between exploration and exploitation of the search space and providing flexibility in finding solutions to complex problems.
 
 - Important [[wikilinks]]:
-  - [[Simulated Annealing]]
+  - [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Simulated Annealing]]
   - [[Genetic Algorithms]]
   - [[Stochastic Gradient Descent]]
   - [[Optimization Problems]]

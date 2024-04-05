@@ -43,10 +43,10 @@ Consider a flow network with vertices and edges between them having various capa
 ### Conclusion
 The Edmonds-Karp algorithm is a robust method for solving the maximum flow problem in networks, offering guaranteed polynomial time complexity and wide-ranging applications in computer science and operations research.
 
-- [[Edmonds-Karp algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Edmonds-Karp algorithm]]
 - [[Graph Theory]]
-- [[Maximum Flow Problem]]
-- [[Breadth-First Search]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Maximum Flow Problem]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Breadth-First Search]]
 
 Sources
 [1] Edmonds–Karp algorithm - Wikipedia https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm

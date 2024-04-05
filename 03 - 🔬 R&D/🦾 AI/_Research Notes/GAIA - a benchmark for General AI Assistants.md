@@ -46,7 +46,7 @@ Model-based evaluations on the other hand are by construction dependent of stron
 
 
 
-![[image-2-x55-y403.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/mialonGAIABenchmarkGeneral2023/image-2-x55-y403.png]]
 
 
 
@@ -90,7 +90,7 @@ multiple choice answers make contamination assessment difficult since a wrong re
 
 
 
-![[image-5-x52-y270.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/mialonGAIABenchmarkGeneral2023/image-5-x52-y270.png]]
 
 
 
@@ -102,7 +102,7 @@ There is only one correct answer. Hence, evaluation is done via quasi exact matc
 
 
 
-![[image-6-x79-y552.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/mialonGAIABenchmarkGeneral2023/image-6-x79-y552.png]]
 
 
 
@@ -110,11 +110,11 @@ We loosely use the following definitions to attribute a level to a question: - L
 
 
 
-![[image-8-x66-y190.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/mialonGAIABenchmarkGeneral2023/image-8-x66-y190.png]]
 
 
 
-![[image-9-x272-y458.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/mialonGAIABenchmarkGeneral2023/image-9-x272-y458.png]]
 
 
 

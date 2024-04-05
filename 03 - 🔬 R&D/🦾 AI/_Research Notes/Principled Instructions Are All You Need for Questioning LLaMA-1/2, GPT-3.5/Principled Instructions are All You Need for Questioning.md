@@ -45,7 +45,7 @@ The paper does not provide specific critiques, but it is implied that the effect
 - #PromptEngineering
 
 # Annotations
-![[image-2-x127-y382.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-2-x127-y382.png]]
 
 
 
@@ -73,11 +73,11 @@ Directional Stimulus Prompting [12] presents a novel framework that uses a tunab
 
 
 
-![[image-5-x96-y143.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-5-x96-y143.png]]
 
 
 
-![[image-6-x93-y119.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-6-x93-y119.png]]
 
 
 
@@ -105,15 +105,15 @@ Incremental Prompting: For tasks that require a sequence of steps, prompts can b
 
 
 
-![[image-10-x121-y472.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-10-x121-y472.png]]
 
 
 
-![[image-13-x146-y397.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-13-x146-y397.png]]
 
 
 
-![[image-13-x146-y132.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/bsharatPrincipledInstructionsAre2023/image-13-x146-y132.png]]
 
 
 

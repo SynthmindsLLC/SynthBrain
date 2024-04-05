@@ -24,7 +24,7 @@ Babai's work extends beyond the graph isomorphism problem. He has contributed to
 
 Babai's influence as an educator is also notable, having advised many Ph.D. students and contributed to the academic community through his teaching and mentorship[1][9].
 
-- Important [[wikilinks]]: [[Graph Isomorphism Problem]], [[Computational Complexity Theory]], [[Theoretical Computer Science]], [[Algorithms]], [[combinatorics]], [[Finite Groups]]
+- Important [[wikilinks]]: [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Graph Isomorphism Problem]], [[Computational Complexity Theory]], [[Theoretical Computer Science]], [[Algorithms]], [[combinatorics]], [[Finite Groups]]
 
 Sources
 [1] Two Steps Forward, One Step Back - Bhāvanā https://bhavana.org.in/babais-proof-graph-isomorphism/

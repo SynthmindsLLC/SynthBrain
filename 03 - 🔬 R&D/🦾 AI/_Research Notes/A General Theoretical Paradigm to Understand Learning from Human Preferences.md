@@ -85,7 +85,7 @@ We have observed in the previous section that DPO is prone to overfitting, and t
 
 
 
-![[image-8-x32-y457.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/azarGeneralTheoreticalParadigm2023/image-8-x32-y457.png]]
 
 
 

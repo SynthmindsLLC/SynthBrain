@@ -25,7 +25,7 @@ By Perplexity at https://www.perplexity.ai/search/25bdbfda-d085-4cbe-90d6-38d734
 
 
 ## Benefits
-Chain-of-thought prompting is a technique that enhances the reasoning capabilities of [[large language models]] (LLMs) by guiding them to think step by step. This approach has several benefits:
+Chain-of-thought prompting is a technique that enhances the reasoning capabilities of [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/large language models]] (LLMs) by guiding them to think step by step. This approach has several benefits:
 
 1. **Improved performance**: CoT prompting has been shown to improve LLMs' performance on various tasks, such as arithmetic, commonsense, and symbolic reasoning[1][5].
 

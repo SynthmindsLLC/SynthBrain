@@ -48,7 +48,7 @@ System 2, allocating effortful mental activity, takes over in humans when we nee
 
 
 
-![[image-2-x101-y468.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/westonSystemAttentionSomething2023/image-2-x101-y468.png]]
 
 
 
@@ -84,7 +84,7 @@ n S2A, after the context is regenerated, with all necessary elements that should
 
 
 
-![[image-4-x105-y531.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/westonSystemAttentionSomething2023/image-4-x105-y531.png]]
 
 
 
@@ -100,11 +100,11 @@ Like: “I like this argument.” or Wrote: “I wrote this argument”. These s
 
 
 
-![[image-7-x98-y497.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/westonSystemAttentionSomething2023/image-7-x98-y497.png]]
 
 
 
-![[image-7-x98-y304.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/westonSystemAttentionSomething2023/image-7-x98-y304.png]]
 
 
 
@@ -138,9 +138,9 @@ The authors termed this “Nontrivial Repetition”, where the name emphasizes t
 
 several works have shown that irrelevant context can adversely affect predictions (Jia & Liang, 2017; Cho et al., 2023; Shi et al., 2023).” Yellow Highlight [Page 10](zotero://open-pdf/library/items/L9ALS3IJ?page=10&annotation=VXEUDM55)
 
-[[M2 - Decoding the Layers]]
+[[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/👨🏻‍🏫 Courses/YU/Courses/Intro to AI/M2 - Decoding the Layers]]
 
 [[Building Trust in Conversational AI]]
-[[Let's Verify Step by Step]]
-[[Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
-[[Chain-of-Verification Reduces Hallucination in Large Language Models]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/Let's Verify Step by Step]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/Self-Discover - Large Language Models Self-Compose Reasoning Structures]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/Chain-of-Verification Reduces Hallucination in Large Language Models]]

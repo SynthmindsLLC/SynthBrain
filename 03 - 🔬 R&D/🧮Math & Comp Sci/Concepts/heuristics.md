@@ -38,6 +38,6 @@ Heuristics are strategies or approaches that guide problem solving and decision-
 
 While heuristics do not always provide the best solution, they are an essential tool in computational complexity. They allow for the handling of NP-hard problems, where exact algorithms are too slow or impractical, by providing solutions that are good enough for practical use within a reasonable time frame.
 
-- Important [[wikilinks]]: [[Problem Solving]], [[Algorithms]], [[Computational Complexity]], [[Artificial Intelligence]], [[Operations Research]], [[Computer Science]]
+- Important [[wikilinks]]: [[Problem Solving]], [[Algorithms]], [[Computational Complexity]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]], [[Operations Research]], [[Computer Science]]
 
 Sources

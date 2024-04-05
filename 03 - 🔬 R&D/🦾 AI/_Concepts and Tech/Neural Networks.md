@@ -6,13 +6,13 @@ Neural networks, inspired by the biological neural networks in the human brain, 
 
 3. **[[Multi-layer Perceptron]] (MLP)**: An extension of the perceptron, MLPs have one or more hidden layers in addition to input and output layers. They can model complex relationships between inputs and outputs[2][5].
 
-4. **[[Convolutional Neural Networks]] (CNN)**: These are particularly effective for processing data with a grid-like topology, such as images. CNNs use convolutional layers that apply filters to the input to create feature maps that summarize the presence of detected features in the input[2][5][6].
+4. **[[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Convolutional Neural Networks]] (CNN)**: These are particularly effective for processing data with a grid-like topology, such as images. CNNs use convolutional layers that apply filters to the input to create feature maps that summarize the presence of detected features in the input[2][5][6].
 
-5. **[[Recurrent Neural Networks]] (RNN)**: RNNs are designed to handle sequential data, such as time series or language. They have connections that form directed cycles, allowing them to maintain a form of memory by using their internal state from previous inputs to influence the current input's processing[2][5][6].
+5. **[[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Recurrent Neural Networks]] (RNN)**: RNNs are designed to handle sequential data, such as time series or language. They have connections that form directed cycles, allowing them to maintain a form of memory by using their internal state from previous inputs to influence the current input's processing[2][5][6].
 
 6. **[[Long Short-Term Memory Networks]] (LSTM)**: A special kind of RNN capable of learning long-term dependencies. LSTMs are designed to avoid the long-term dependency problem, remembering information for long periods[2].
 
-7. **[[Generative Adversarial Networks]] (GAN)**: These consist of two neural networks, the generator and the discriminator, which are trained simultaneously. The generator creates data that is similar to the training data, while the discriminator tries to distinguish between the real and generated data[2][6].
+7. **[[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Generative Adversarial Networks]] (GAN)**: These consist of two neural networks, the generator and the discriminator, which are trained simultaneously. The generator creates data that is similar to the training data, while the discriminator tries to distinguish between the real and generated data[2][6].
 
 8. **[[Radial Basis Function Networks]] (RBFN)**: These use radial basis functions as their activation functions. They are typically used for function approximation and interpolation[6][7].
 

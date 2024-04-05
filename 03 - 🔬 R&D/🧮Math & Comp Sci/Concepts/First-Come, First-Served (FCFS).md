@@ -9,7 +9,7 @@ Tags:
 
 ## First Come First Serve (FCFS) CPU Scheduling
 
-**First Come First Serve (FCFS)**, also known as[[First-In, First-Out (FIFO)]], is the simplest te of CPU scheduling algorithm that schedules according to the arrival times of various processes. The core principle of FCFS scheduling is straightforward: the process that requests the CPU first is allocated the CPU first. This is implemented using a FIFO queue, where the [[Process Control Block (PCB) ]]of a process is linked to the tail of the queue when it enters the ready queue. The CPU is then allocated to the process at the head of the queue when the CPU becomes free, and the running process is removed from the queue once it is completed[1][3][4][5].
+**First Come First Serve (FCFS)**, also known as[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/First-In, First-Out (FIFO)]], is the simplest te of CPU scheduling algorithm that schedules according to the arrival times of various processes. The core principle of FCFS scheduling is straightforward: the process that requests the CPU first is allocated the CPU first. This is implemented using a FIFO queue, where the [[Process Control Block (PCB) ]]of a process is linked to the tail of the queue when it enters the ready queue. The CPU is then allocated to the process at the head of the queue when the CPU becomes free, and the running process is removed from the queue once it is completed[1][3][4][5].
 
 ### Characteristics
 - **Non-Preemptive**: Once a process is allocated the CPU, it runs to completion without being preempted by other processes[1][3][4].

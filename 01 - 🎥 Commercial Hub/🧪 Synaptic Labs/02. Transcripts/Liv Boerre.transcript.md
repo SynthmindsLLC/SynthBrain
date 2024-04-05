@@ -1,4 +1,4 @@
-[[Liv Boerre]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Liv Boerre]]
 ===
 
 Joe: [00:00:00] HEy y'all, welcome back to Voices in AI. Joseph here with Eldad and today we're going to talk about someone who you wouldn't think is really in the AI world, but has actually made a pretty significant name for herself despite her,~ uh,~ circuitous journey to the space. This is Liv Beret.

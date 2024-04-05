@@ -33,7 +33,7 @@ This paper is significant as it systematically analyzes the holistic aspects of 
 
 
 # Annotations
-![[image-1-x49-y333.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-1-x49-y333.png]]
 
 
 
@@ -45,31 +45,31 @@ GenAI vs AI. GenAI, as its name suggests, represents a cat- egory of AI that goe
 
 
 
-![[image-6-x48-y384.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-6-x48-y384.png]]
 
 
 
-![[image-7-x51-y346.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-7-x51-y346.png]]
 
 
 
-![[image-8-x40-y539.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-8-x40-y539.png]]
 
 
 
-![[image-10-x37-y394.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-10-x37-y394.png]]
 
 
 
-![[image-11-x47-y442.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-11-x47-y442.png]]
 
 
 
-![[image-12-x37-y470.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-12-x37-y470.png]]
 
 
 
-![[image-14-x33-y426.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/shiHCICentricSurveyTaxonomy2023/image-14-x33-y426.png]]
 
 
 

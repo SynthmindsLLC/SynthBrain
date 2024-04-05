@@ -1,7 +1,7 @@
 ## Mark Zuckerberg: A Trailblazer in the Tech World
 
 ### Introduction
-[[Mark Zuckerberg]] is a notable figure in the digital era, known for co-founding the social media giant [[Facebook]] and its parent company [[Meta Platforms]]. His journey from a computer programmer to a global tech leader is a tale of innovation and influence.
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Mark Zuckerberg]] is a notable figure in the digital era, known for co-founding the social media giant [[Facebook]] and its parent company [[Meta Platforms]]. His journey from a computer programmer to a global tech leader is a tale of innovation and influence.
 
 ### Early Life and Background
 Born in [[White Plains, New York]], Zuckerberg displayed an early aptitude for computers and programming. During his school years, he developed various software programs, showcasing his emerging talent in technology.

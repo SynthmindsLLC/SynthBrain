@@ -23,7 +23,7 @@
 		{"id":"d1afee556bc25ad3","type":"text","text":"Used #skeletonofthought to outline each one, and then write the blog itself separated into a main section, a reflection section, and a meditations section","x":-560,"y":577,"width":250,"height":200,"color":"6"},
 		{"id":"a02df2e159f9af85","type":"text","text":"Review and edit","x":-560,"y":877,"width":250,"height":60,"color":"6"},
 		{"id":"0dac291fa7d745b2","type":"text","text":"# Phase 1: \n## The Blogs","x":-560,"y":-343,"width":250,"height":89,"color":"6"},
-		{"id":"02ffd8d0bb0d5573","type":"text","text":"Used previously written diatribe [[Why AI might (not) Save the World.]] on [[Marc Andreessen]]'s blog https://a16z.com/ai-will-save-the-world/","x":-560,"y":-202,"width":250,"height":179,"color":"6"},
+		{"id":"02ffd8d0bb0d5573","type":"text","text":"Used previously written diatribe [[Why AI might (not) Save the World.]] on [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Marc Andreessen]]'s blog https://a16z.com/ai-will-save-the-world/","x":-560,"y":-202,"width":250,"height":179,"color":"6"},
 		{"id":"2d93feb02d5c179f","type":"text","text":"# Phase 2:\n## Audio","x":-160,"y":-358,"width":250,"height":122,"color":"2"},
 		{"id":"6a1554a59179128f","type":"text","text":"Record myself reading each blog in #descript.","x":-160,"y":-152,"width":250,"height":60,"color":"2"},
 		{"id":"3d3c442e1e4b1c53","type":"text","text":"Edit and enhance audio","x":-160,"y":-18,"width":250,"height":60,"color":"2"},

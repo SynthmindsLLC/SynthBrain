@@ -31,7 +31,7 @@ The significance of accountability in AI is further underscored by evolving glob
 
 
 
-![[image-2-x147-y510.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/xiaPrinciplesPracticeAccountability2023/image-2-x147-y510.png]]
 
 
 
@@ -51,7 +51,7 @@ Responsibility (Section 4) pertains to the attribution of ownership for actions 
 
 
 
-![[image-3-x139-y335.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/xiaPrinciplesPracticeAccountability2023/image-3-x139-y335.png]]
 
 
 
@@ -79,7 +79,7 @@ Context and Importance: The clear delineation of roles and responsibilities is c
 
 
 
-![[image-7-x48-y383.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/xiaPrinciplesPracticeAccountability2023/image-7-x48-y383.png]]
 
 
 

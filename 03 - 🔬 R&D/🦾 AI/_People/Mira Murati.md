@@ -1,7 +1,7 @@
 ## Mira Murati: Pioneering Leadership in the Evolution of Artificial Intelligence
 
 ### Introduction
-Mira Murati stands out as a significant figure in the realm of [[artificial intelligence]] (AI), known for her pioneering role and leadership at [[OPENAI]]. Her journey is marked by significant contributions to some of the most advanced AI technologies in the world.
+Mira Murati stands out as a significant figure in the realm of [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]] (AI), known for her pioneering role and leadership at [[OPENAI]]. Her journey is marked by significant contributions to some of the most advanced AI technologies in the world.
 
 ## Early Life and Education
 

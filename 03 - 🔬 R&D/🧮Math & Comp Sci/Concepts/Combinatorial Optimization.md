@@ -41,7 +41,7 @@ Combinatorial optimization is used in various fields, including logistics, telec
 Combinatorial optimization is a critical area of research in computer science, operations research, and applied mathematics, providing essential tools for decision-making in complex environments[1][2][10][14].
 
 - Important [[wikilinks]]:
-  - [[Traveling Salesman Problem]]
+  - [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Traveling Salesman Problem]]
   - [[Knapsack Problem]]
   - [[Graph Coloring]]
   - [[Job Scheduling]]

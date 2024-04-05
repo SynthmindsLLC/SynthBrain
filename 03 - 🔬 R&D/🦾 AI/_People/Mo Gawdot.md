@@ -35,7 +35,7 @@ Beyond his roles in established corporations, Gawdat is a serial entrepreneur wh
 
 Gawdat's contributions to the technology sector are not limited to his professional roles. He is deeply passionate about the implications of artificial intelligence (AI) and has authored books such as "Solve for Happy" and "Scary Smart," where he explores the intersection of technology, happiness, and the future of AI. His work emphasizes the importance of ethical considerations in AI development and the potential impact of technology on society[1][2][3][4].
 - [[Google X]]
-- [[Artificial Intelligence]]
+- [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]]
 
 Citations:
 [1] https://www.londonspeakerbureauasia.com/speakers/mo-gawdat/

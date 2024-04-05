@@ -16,10 +16,10 @@ RDF data can be expressed in several syntaxes, including [[RDF/XML]], [[N-Triple
 [[RDF Schema (RDFS)]] extends the capabilities of RDF by providing a vocabulary for describing properties and classes of RDF resources. This layer adds semantic depth, enabling more nuanced data modeling and inference.
 
 ### SPARQL Protocol and RDF Query Language (SPARQL)
-[[SPARQL]] is the query language designed for querying data expressed in RDF. It allows for sophisticated querying and manipulation of RDF databases, making it a cornerstone technology for data scientists and developers working with Semantic Web data.
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/SPARQL]] is the query language designed for querying data expressed in RDF. It allows for sophisticated querying and manipulation of RDF databases, making it a cornerstone technology for data scientists and developers working with Semantic Web data.
 
 ### Applications and Use Cases
-RDF's flexibility and standardization have paved the way for its adoption in various domains, such as building [[knowledge graphs]], enhancing data interoperability, and underpinning the infrastructure of the [[Semantic Web]]. It's instrumental in areas where data from diverse sources needs to be integrated and analyzed cohesively.
+RDF's flexibility and standardization have paved the way for its adoption in various domains, such as building [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]], enhancing data interoperability, and underpinning the infrastructure of the [[Semantic Web]]. It's instrumental in areas where data from diverse sources needs to be integrated and analyzed cohesively.
 
 ### Challenges and Criticisms
 Despite its strengths, RDF faces criticism for its perceived complexity and the steep learning curve associated with its technologies. These challenges have affected its adoption rate, especially in scenarios where simpler data representation formats may suffice.

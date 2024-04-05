@@ -31,7 +31,7 @@ The **Optimal Page Replacement Algorithm** (OPR) is a theoretical model used in 
 ### Conclusion
 While the Optimal Page Replacement Algorithm offers a theoretical framework for minimizing page faults, its requirement for future knowledge of page accesses renders it impractical for real-world applications. It remains a valuable tool for understanding the limits of page replacement strategies and for comparing the effectiveness of practical algorithms[1][2][3][11].
 
-- [[Page Replacement Algorithms]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Page Replacement Algorithms]]
 - [[Memory Management]]
 - [[Operating Systems]]
 

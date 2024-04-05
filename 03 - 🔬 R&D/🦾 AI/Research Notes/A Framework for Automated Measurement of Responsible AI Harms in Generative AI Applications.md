@@ -58,7 +58,7 @@ the evaluation component produces annotations of the LLM’s output on the gener
 
 
 
-![[image-2-x46-y564.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/magoodaFrameworkAutomatedMeasurement2023/image-2-x46-y564.png]]
 
 
 
@@ -90,7 +90,7 @@ Regarding jailbreak evaluations, Models 2 and 3 exhibit comparable defect rates,
 
 
 
-![[image-5-x68-y617.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/magoodaFrameworkAutomatedMeasurement2023/image-5-x68-y617.png]]
 
 
 

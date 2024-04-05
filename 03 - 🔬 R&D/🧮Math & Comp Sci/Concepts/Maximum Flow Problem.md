@@ -16,9 +16,9 @@ The maximum flow problem is a classic optimization problem in graph theory that 
 - **Flow Conservation**: The amount of flow entering a node must equal the amount of flow exiting the node, except for the source and sink[1].
 
 ### Algorithms for Solving Maximum Flow
-1. **[[Ford-Fulkerson algorithm]]**: Uses augmenting paths to increase flow. It finds paths from the source to the sink where additional flow can be pushed and repeats this process until no more augmenting paths are found[1][2][6][17].
-2. **[[Edmonds-Karp algorithm]]**: A specific implementation of the Ford-Fulkerson method that uses breadth-first search (BFS) to find the shortest augmenting paths, leading to a time complexity of $$O(VE^2)$$[3][7][11][21].
-3. **[[Dinic's Algorithm]]**: Improves upon Ford-Fulkerson by using a level graph and blocking flow, with a time complexity of $$O(V^2E)$$[4][8][12][16].
+1. **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Ford-Fulkerson algorithm]]**: Uses augmenting paths to increase flow. It finds paths from the source to the sink where additional flow can be pushed and repeats this process until no more augmenting paths are found[1][2][6][17].
+2. **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Edmonds-Karp algorithm]]**: A specific implementation of the Ford-Fulkerson method that uses breadth-first search (BFS) to find the shortest augmenting paths, leading to a time complexity of $$O(VE^2)$$[3][7][11][21].
+3. **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Dinic's Algorithm]]**: Improves upon Ford-Fulkerson by using a level graph and blocking flow, with a time complexity of $$O(V^2E)$$[4][8][12][16].
 4. **[[Push-Relabel Algorithm]]**: Uses a preflow-push method to maintain a preflow and then convert it into a flow, with a time complexity of $$O(V^3)$$ (not detailed in the search results but relevant to the topic).
 
 ### Applications
@@ -33,10 +33,10 @@ The maximum flow problem is a classic optimization problem in graph theory that 
 ### Conclusion
 The maximum flow problem is a fundamental problem in network theory with various practical applications. The Ford-Fulkerson algorithm and its variants like Edmonds-Karp and Dinic's algorithm are commonly used to solve this problem efficiently.
 
-- [[Maximum Flow Problem]]
-- [[Ford-Fulkerson algorithm]]
-- [[Edmonds-Karp algorithm]]
-- [[Dinic's Algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Maximum Flow Problem]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Ford-Fulkerson algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Edmonds-Karp algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Dinic's Algorithm]]
 - [[Flow Network]]
 - [[Graph Theory]]
 

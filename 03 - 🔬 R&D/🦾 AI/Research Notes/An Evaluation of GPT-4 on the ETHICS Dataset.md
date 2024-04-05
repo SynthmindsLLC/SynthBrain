@@ -153,7 +153,7 @@ For long stories, the prompt asking if the author is an asshole resulted in 60% 
 
 
 
-![[image-6-x66-y621.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rodionovEvaluationGPT4ETHICS2023/image-6-x66-y621.png]]
 
 
 

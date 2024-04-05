@@ -33,7 +33,7 @@ Meta-heuristic algorithms are used in various fields such as engineering, econom
 Meta-heuristic search algorithms play a crucial role in solving real-world optimization problems by providing a balance between solution quality and computational effort.
 
 - Important [[wikilinks]]:
-  - [[Simulated Annealing]]
+  - [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Simulated Annealing]]
   - [[Genetic Algorithms]]
   - [[Particle Swarm Optimization]]
   - [[Ant Colony Optimization]]

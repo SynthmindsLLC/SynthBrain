@@ -52,7 +52,7 @@ Heuristic algorithms are problem-solving methods that employ practical technique
 
 Heuristic algorithms are a cornerstone of computational problem-solving, providing a balance between the need for timely solutions and the computational complexity of the problems being addressed.
 
-- Important [[wikilinks]]: [[Problem Solving]], [[Optimization]], [[Artificial Intelligence]], [[Machine Learning]], [[Telecommunications]], [[Engineering Design]], [[Environmental Engineering]], [[Neural Networks]], [[Deep Learning]]
+- Important [[wikilinks]]: [[Problem Solving]], [[Optimization]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]], [[Machine Learning]], [[Telecommunications]], [[Engineering Design]], [[Environmental Engineering]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Neural Networks]], [[Deep Learning]]
 
 Sources
 [1] Unlocking the Power of Heuristic Algorithms: Why They Matter in ... https://locall.host/why-heuristic-algorithm/

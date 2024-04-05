@@ -33,6 +33,6 @@ NP-complete problems are a set of problems in computational complexity theory th
 - **Algorithm Development**: Researchers are continually seeking more efficient algorithms for NP-complete problems, although no polynomial-time solutions have been found for these problems.
 - **Cryptography**: Many cryptographic systems are based on the difficulty of solving NP-complete problems, so a solution to P vs. NP could impact the security of these systems.
 
-- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Boolean Satisfiability Problem]], [[Traveling Salesman Problem]], [[Knapsack Problem]], [[P vs. NP Problem]], [[Cryptography]]
+- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Boolean Satisfiability Problem]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Traveling Salesman Problem]], [[Knapsack Problem]], [[P vs. NP Problem]], [[Cryptography]]
 
 Sources

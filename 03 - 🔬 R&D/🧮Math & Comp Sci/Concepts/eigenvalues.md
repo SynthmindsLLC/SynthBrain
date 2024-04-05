@@ -37,7 +37,7 @@ Eigenvalues are fundamental concepts in linear algebra associated with a linear 
 
 Eigenvalues are integral to the study of linear transformations and matrix theory, providing insights into the structure and behavior of systems described by matrices.
 
-- Important [[wikilinks]]: [[Linear Algebra]], [[Matrix Theory]], [[Quantum Mechanics]], [[Stability Analysis]], [[Vibration Analysis]], [[Control Systems]], [[Principal Component Analysis]], [[PageRank Algorithm]]
+- Important [[wikilinks]]: [[Linear Algebra]], [[Matrix Theory]], [[Quantum Mechanics]], [[Stability Analysis]], [[Vibration Analysis]], [[Control Systems]], [[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Algorithms/Principal Component Analysis]], [[PageRank Algorithm]]
 
 Sources
 [1] Application of Eigen values and Eigen vectors - LinkedIn https://www.linkedin.com/pulse/application-eigen-values-vectors-dr-g-nandini-gnanasekaran-0vnxc

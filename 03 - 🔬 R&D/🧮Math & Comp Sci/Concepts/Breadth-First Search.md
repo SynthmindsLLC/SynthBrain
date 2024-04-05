@@ -49,9 +49,9 @@ Consider a graph with vertices labeled from A to E. BFS starts at vertex A, visi
 ### Conclusion
 BFS is a robust and versatile algorithm essential for various applications in computer science, including networking, social network analysis, and web crawling[17].
 
-- [[Breadth-First Search]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Breadth-First Search]]
 - [[Graph Theory]]
-- [[🗺 Algorithms]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/🗺 Algorithms]]
 - [[Data Structures]]
 - [[Queue]]
 

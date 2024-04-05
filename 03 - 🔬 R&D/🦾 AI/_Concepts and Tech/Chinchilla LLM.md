@@ -34,7 +34,7 @@ Chinchilla represents a significant step forward in the understanding and optimi
 - [[Gopher]]
 - [[GPT-3]]
 - [[Scaling Laws]]
-- [[Large Language Models]]
+- [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/large language models]]
 
 Sources
 [1] Chinchilla AI - Wikipedia https://en.wikipedia.org/wiki/Chinchilla_AI

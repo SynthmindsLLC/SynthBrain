@@ -25,7 +25,7 @@ These individuals, among others, were integral to the multidisciplinary approach
 - Important [[wikilinks]]:
   - [[Cybernetics]]
   - [[Feedback Systems]]
-  - [[Neural Networks]]
+  - [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Neural Networks]]
 
 Sources
 [1] Norbert Wiener - Wikipedia https://en.wikipedia.org/wiki/Norbert_Wiener

@@ -8,7 +8,7 @@
 		{"type":"text","text":"Reference nodes are content nodes surrounded by double curly braces.","id":"a9ea85b101bc8776","x":-686,"y":-149,"width":250,"height":185},
 		{"type":"text","text":"You can write or read from them the same way you use normal content nodes.","id":"be5c114d263a0107","x":-686,"y":66,"width":250,"height":137},
 		{"type":"text","text":"Write a poem about walking","id":"fba8c017a84a0a74","x":-380,"y":-124,"width":250,"height":68,"color":"0"},
-		{"type":"text","text":"{{[[Walking Poem]]}}","id":"e8e998b3d784e3a1","x":-380,"y":6,"width":250,"height":60,"color":"6"},
+		{"type":"text","text":"{{[[Cannoli College/Example notes/Walking Poem]]}}","id":"e8e998b3d784e3a1","x":-380,"y":6,"width":250,"height":60,"color":"6"},
 		{"type":"text","text":"Reference nodes can be used to write to and read from notes in your vault or floating nodes on the cannoli.","id":"28c071d10dfda17f","x":-333,"y":-340,"width":379,"height":122},
 		{"id":"963eacfd11f92b34","type":"text","text":"{{[[🧠 SynthBrain/04 - 🤖 Prompts/Meeting Notes]]}}","x":-400,"y":580,"width":250,"height":60,"color":"6"},
 		{"id":"f85bdd621bacd536","type":"text","text":"If a variable arrow coming from a reference node starts with a square bracket, it will extract the link for the reference.\n\nThis is uses in cases when you dynamically create nodes and need to get their link reliably.","x":-763,"y":480,"width":318,"height":339},

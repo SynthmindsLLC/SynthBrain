@@ -32,10 +32,10 @@ The **First In First Out (FIFO)** algorithm is a fundamental page replacement st
 - It is often used as a benchmark for comparing the efficiency of more complex page replacement algorithms[1][2][5].
 
 ### Conclusion
-While FIFO is celebrated for its simplicity and ease of implementation, its inefficiency in handling modern computing workloads makes it less favorable compared to more sophisticated algorithms like [[Least Recently Used (LRU)]] or [[Optimal Page Replacement (OPR)]]. However, it remains a fundamental concept in the study of operating systems and memory management[1][2][5][11].
+While FIFO is celebrated for its simplicity and ease of implementation, its inefficiency in handling modern computing workloads makes it less favorable compared to more sophisticated algorithms like [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Least Recently Used (LRU)]] or [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Optimal Page Replacement (OPR)]]. However, it remains a fundamental concept in the study of operating systems and memory management[1][2][5][11].
 
 - [[Belady’s Anomaly]]
-- [[Page Replacement Algorithms]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Page Replacement Algorithms]]
 - [[Operating Systems]]
 - [[Memory Management]]
 

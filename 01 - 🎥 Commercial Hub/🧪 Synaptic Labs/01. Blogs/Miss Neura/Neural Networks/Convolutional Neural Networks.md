@@ -6,7 +6,7 @@ tags:
   - MissNeuraBlog
 URL:
 ---
-![[AlbedoBase_XL_Sketch_Illustration_of_flowing_data_streams_conv_3.jpg]]
+![[Synthbrain/01 - 🎥 Commercial Hub/🧪 Synaptic Labs/01. Blogs/Miss Neura/Neural Networks/attachments/AlbedoBase_XL_Sketch_Illustration_of_flowing_data_streams_conv_3.jpg]]
 # Descriptions
 ## Podcast
 

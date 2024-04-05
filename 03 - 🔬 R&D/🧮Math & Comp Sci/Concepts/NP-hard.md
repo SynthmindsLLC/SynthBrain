@@ -31,7 +31,7 @@ NP-hardness is a classification in computational complexity theory used to descr
 
 One of the most significant open questions in computer science is whether P equals NP. This question asks if every problem whose solution can be quickly verified (NP) can also be quickly solved (P). The resolution of this question would have profound implications for fields ranging from cryptography to algorithm design[1][2][3].
 
-- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Traveling Salesman Problem]], [[Boolean Satisfiability Problem]], [[P vs. NP Problem]]
+- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Traveling Salesman Problem]], [[Boolean Satisfiability Problem]], [[P vs. NP Problem]]
 
 Sources
 [1] What is NP hardness? - DEV Community https://dev.to/patarapolw/what-is-np-hardness-20p6

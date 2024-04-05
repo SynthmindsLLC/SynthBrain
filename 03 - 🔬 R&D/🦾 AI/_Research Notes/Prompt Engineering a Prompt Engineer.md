@@ -33,7 +33,7 @@ What makes a good meta-prompt for automatic prompt engineering?” Yellow Highli
 
 
 
-![[image-2-x100-y556.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/yePromptEngineeringPrompt2023/image-2-x100-y556.png]]
 
 
 
@@ -89,7 +89,7 @@ Search Procedure. As LLMs are sensitive to trivial prompt variations, it is poss
 
 
 
-![[image-4-x88-y355.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/yePromptEngineeringPrompt2023/image-4-x88-y355.png]]
 
 
 
@@ -105,7 +105,7 @@ Step-by-step Reasoning Template. To encourage the model to examine each example 
 
 
 
-![[image-6-x301-y293.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/yePromptEngineeringPrompt2023/image-6-x301-y293.png]]
 
 
 
@@ -125,7 +125,7 @@ The optimizer-inspired concepts can improve the performance occasionally, but th
 
 
 
-![[image-7-x96-y442.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/yePromptEngineeringPrompt2023/image-7-x96-y442.png]]
 
 
 
@@ -141,7 +141,7 @@ when induction initialization is used, PE2 outperforms APO on 11 out of 12 count
 
 
 
-![[image-8-x98-y400.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/yePromptEngineeringPrompt2023/image-8-x98-y400.png]]
 
 
 

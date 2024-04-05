@@ -18,7 +18,7 @@ In summary, ontologies provide the theoretical framework for knowledge represent
 
 Ontologies are used as the underlying structure for many knowledge graphs, providing a formal representation of the concepts and relationships within a specific domain. Here are some examples of ontologies used in knowledge graphs:
 
-1. **[[SPARQL]]**: SPARQL is a query language and protocol for semantic web data sources. It is used to retrieve and manipulate data stored in [[Resource Description Framework]] (RDF) format. In the context of knowledge graphs, SPARQL can be used to query data, allowing the knowledge graph to make connections that weren't previously defined[1].
+1. **[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/SPARQL]]**: SPARQL is a query language and protocol for semantic web data sources. It is used to retrieve and manipulate data stored in [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Resource Description Framework]] (RDF) format. In the context of knowledge graphs, SPARQL can be used to query data, allowing the knowledge graph to make connections that weren't previously defined[1].
 
 2. **Financial Ontologies**: In the financial industry, ontologies are used to describe classes and relationships between these classes. For example, JPMorgan and The Federal Reserve can be represented as entities in a knowledge graph, with the relationships between them defined by a financial ontology[2].
 

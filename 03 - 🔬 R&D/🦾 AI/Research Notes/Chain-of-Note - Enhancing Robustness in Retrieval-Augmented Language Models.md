@@ -47,7 +47,7 @@ there exist several issues with the current RALM framework. First, there is no g
 
 
 
-![[image-2-x105-y543.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuChainofNoteEnhancingRobustness2023/image-2-x105-y543.png]]
 
 
 
@@ -95,7 +95,7 @@ Specifically, CON framework generates sequential reading notes for the retrieved
 
 
 
-![[image-4-x101-y407.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/yuChainofNoteEnhancingRobustness2023/image-4-x101-y407.png]]
 
 
 

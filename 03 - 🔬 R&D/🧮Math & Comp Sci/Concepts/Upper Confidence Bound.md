@@ -1,7 +1,7 @@
 ## Exploring the Upper Confidence Bound (UCB) Algorithm
 
 ### Introduction to UCB Algorithm
-The [[Upper Confidence Bound]] ([[UCB]]) algorithm is a pivotal concept in [[Reinforcement Learning]] and the [[Multi-Arm Bandit Problem]]. It plays a crucial role in decision-making processes, balancing the need to explore new options against the benefit of exploiting known ones.
+The [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Upper Confidence Bound]] ([[UCB]]) algorithm is a pivotal concept in [[Reinforcement Learning]] and the [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Multi-Arm Bandit Problem]]. It plays a crucial role in decision-making processes, balancing the need to explore new options against the benefit of exploiting known ones.
 
 ### How the UCB Algorithm Works
 The UCB algorithm is a method to solve the exploration-exploitation dilemma in [[Reinforcement Learning]]:

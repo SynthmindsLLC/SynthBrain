@@ -3,7 +3,7 @@
 ![rw-book-cover](https://media.licdn.com/dms/image/sync/D4D27AQFgkXvplF1Vrg/articleshare-shrink_800/0/1703272244081?e=1703880000&v=beta&t=sXr15ZZAA5ZoOLrOg0m5KIdgo6L7JoYui5N5NPm1MUw)
 
 ## Metadata
-- Author: [[Yann LeCun]]
+- Author: [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Yann LeCun]]
 - Full Title: Yann LeCun’s Post
 - Category: #articles
 - URL: https://www.linkedin.com/posts/yann-lecun_quantum-computings-hard-cold-reality-check-activity-7144047513858174976-erpP?utm_source=share&utm_medium=member_ios

@@ -3,7 +3,7 @@ Published: 2024-02-12
 Youtube: 
 Blog: https://blog.synapticlabs.ai/recurrent-neural-networks
 ---
-![[AlbedoBase_XL_Illustration_of_a_stylized_neural_network_connec_2 1.jpg]]
+![[Synthbrain/01 - 🎥 Commercial Hub/🧪 Synaptic Labs/01. Blogs/Miss Neura/Neural Networks/attachments/AlbedoBase_XL_Illustration_of_a_stylized_neural_network_connec_2 1.jpg]]
 # Social Media
 ## LinkedIn Post
 🚀 Dive into the Dynamic World of RNNs with Miss Neura! 🧠✨

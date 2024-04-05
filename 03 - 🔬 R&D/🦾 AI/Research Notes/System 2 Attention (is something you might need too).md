@@ -48,7 +48,7 @@ System 2, allocating effortful mental activity, takes over in humans when we nee
 
 
 
-![[image-2-x101-y468.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/westonSystemAttentionSomething2023/image-2-x101-y468.png]]
 
 
 
@@ -84,7 +84,7 @@ n S2A, after the context is regenerated, with all necessary elements that should
 
 
 
-![[image-4-x105-y531.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/westonSystemAttentionSomething2023/image-4-x105-y531.png]]
 
 
 
@@ -100,11 +100,11 @@ Like: “I like this argument.” or Wrote: “I wrote this argument”. These s
 
 
 
-![[image-7-x98-y497.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/westonSystemAttentionSomething2023/image-7-x98-y497.png]]
 
 
 
-![[image-7-x98-y304.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/westonSystemAttentionSomething2023/image-7-x98-y304.png]]
 
 
 

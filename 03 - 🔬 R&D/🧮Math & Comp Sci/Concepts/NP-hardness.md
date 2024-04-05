@@ -37,7 +37,7 @@ The P vs. NP problem is one of the most important open questions in computer sci
 - **Cryptography**: Many cryptographic systems rely on the hardness of NP problems, such as factoring large numbers. If P were equal to NP, current cryptographic methods could become insecure[7].
 - **Optimization**: Many real-world optimization problems are NP-hard, and finding efficient solutions to these problems would have significant practical implications[6].
 
-- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Traveling Salesman Problem]], [[Boolean Satisfiability Problem]], [[P vs. NP Problem]], [[Cryptography]], [[Optimization]]
+- Important [[wikilinks]]: [[Computational Complexity Theory]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Traveling Salesman Problem]], [[Boolean Satisfiability Problem]], [[P vs. NP Problem]], [[Cryptography]], [[Optimization]]
 
 Sources
 [1] NP-hard https://xlinux.nist.gov/dads/HTML/nphard.html

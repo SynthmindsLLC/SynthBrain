@@ -35,7 +35,7 @@ Graph Attention Networks (GATs) are a type of neural network architecture design
 
 Graph Attention Networks represent a significant advancement in the field of graph neural networks, providing a powerful tool for learning from graph-structured data.
 
-- Important [[wikilinks]]: [[Attention Mechanism]], [[Neural Networks]], [[Graph-Structured Data]], [[Node Classification]], [[Inductive Learning]]
+- Important [[wikilinks]]: [[Attention Mechanism]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Neural Networks]], [[Graph-Structured Data]], [[Node Classification]], [[Inductive Learning]]
 
 Sources
 [1] Graph Attention Networks (Paper Summary) [D] : r/MachineLearning - Reddit https://www.reddit.com/r/MachineLearning/comments/ptp490/graph_attention_networks_paper_summary_d/

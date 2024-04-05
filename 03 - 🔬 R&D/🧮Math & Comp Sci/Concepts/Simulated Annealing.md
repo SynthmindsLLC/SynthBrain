@@ -20,7 +20,7 @@ Simulated Annealing is widely used in various fields such as operations research
 - Important [[wikilinks]]:
   - [[Optimization Techniques]]
   - [[Global Optimum]]
-  - [[Traveling Salesman Problem]]
+  - [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Traveling Salesman Problem]]
   - [[Stochastic Algorithms]]
 
 Sources

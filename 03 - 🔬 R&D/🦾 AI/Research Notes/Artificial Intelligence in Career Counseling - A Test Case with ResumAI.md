@@ -59,23 +59,23 @@ The ResumAI website is located at https://eivy1234.github.io/Resumai-site/ index
 
 
 
-![[image-5-x124-y464.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rahmanArtificialIntelligenceCareer2023/image-5-x124-y464.png]]
 
 
 
-![[image-5-x117-y246.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rahmanArtificialIntelligenceCareer2023/image-5-x117-y246.png]]
 
 
 
-![[image-5-x114-y103.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rahmanArtificialIntelligenceCareer2023/image-5-x114-y103.png]]
 
 
 
-![[image-6-x104-y465.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rahmanArtificialIntelligenceCareer2023/image-6-x104-y465.png]]
 
 
 
-![[image-6-x137-y257.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rahmanArtificialIntelligenceCareer2023/image-6-x137-y257.png]]
 
 
 
@@ -83,7 +83,7 @@ ResumAI does a good job responding to the user prompt here. The user selected th
 
 
 
-![[image-7-x140-y586.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/rahmanArtificialIntelligenceCareer2023/image-7-x140-y586.png]]
 
 
 

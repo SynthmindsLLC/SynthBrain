@@ -1,7 +1,7 @@
 ### 👩🏾‍🏫 Neura Draft
 
 1. **Introduction**
-   - Brief overview of the interconnectedness of [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]], [[Knowledge Graphs]], [[Graph Theory]], and [[Network Science]].
+   - Brief overview of the interconnectedness of [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]], [[Graph Theory]], and [[Network Science]].
    - The role of Obsidian in managing and connecting complex information.
    - The significance of integrating these concepts with a large language model.
 
@@ -15,23 +15,23 @@
    - Exploration of network models: [[Random Graphs]], [[Small-World Network]], [[Scale-Free Networks]], and [[Exponential Random Graph Model]].
    - Applications across various domains and current research directions.
 
-4. **[[Knowledge Graphs]]: Structuring Real-World Data**
-   - Definition and purpose of [[Knowledge Graphs]].
-   - The relationship between [[Knowledge Graphs]] and ontologies.
-   - Examples of ontologies used in [[Knowledge Graphs]] and their applications.
+4. **[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]]: Structuring Real-World Data**
+   - Definition and purpose of [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]].
+   - The relationship between [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]] and ontologies.
+   - Examples of ontologies used in [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]] and their applications.
 
 5. **[[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]] (GNNs): Learning from Graph Structures**
-   - Introduction to [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]] and their relation to [[Convolutional Neural Networks]] (CNNs).
+   - Introduction to [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]] and their relation to [[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Convolutional Neural Networks]] (CNNs).
    - Types of GNNs and their capabilities in node-level, edge-level, and graph-level prediction tasks.
    - Applications of GNNs in various fields and their role in AI research.
 
 6. **Interplay Between Concepts**
    - How [[Graph Theory]] and [[Network Science]] provide the theoretical and analytical tools for understanding complex networks.
-   - The practical application of these theories in [[Knowledge Graphs]].
-   - The use of [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]] to learn from and make predictions on [[Knowledge Graphs]].
+   - The practical application of these theories in [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]].
+   - The use of [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]] to learn from and make predictions on [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]].
 
 7. **Obsidian: A Tool for Idea Connection and Knowledge Management**
-   - The role of Obsidian in organizing and linking notes related to [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]], [[Knowledge Graphs]], [[Graph Theory]], and [[Network Science]].
+   - The role of Obsidian in organizing and linking notes related to [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]], [[Graph Theory]], and [[Network Science]].
    - How Obsidian can facilitate the exploration and connection of new ideas when combined with a large language model.
 
 8. **Conclusion**

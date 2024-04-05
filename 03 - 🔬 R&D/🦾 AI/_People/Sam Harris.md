@@ -20,7 +20,7 @@ Overall, Sam Harris is an influential and often polarizing public intellectual w
 - [[meditation]]
 - [[free will]]
 - [[ethics]]
-- [[artificial intelligence]]
+- [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]]
 
 Sources
 [1] Sam Harris - Wikipedia https://www.samharris.org

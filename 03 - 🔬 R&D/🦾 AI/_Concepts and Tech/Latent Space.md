@@ -28,7 +28,7 @@ Despite their utility, interpreting and visualizing latent spaces can be challen
 
 Latent space is a pivotal concept in AI, enabling the efficient representation and manipulation of complex data. By capturing the underlying structure and variations in data, latent spaces facilitate the development of powerful AI models capable of generating, classifying, and processing data in innovative ways. As AI continues to evolve, the exploration and application of latent spaces will remain central to advancing the field and unlocking new possibilities.
 
-- Important [[wikilinks]]: [[Generative Models]], [[Dimensionality Reduction]], [[Machine Learning Algorithms]], [[Generative Adversarial Networks]], [[Variational Autoencoders]]
+- Important [[wikilinks]]: [[Generative Models]], [[Dimensionality Reduction]], [[Machine Learning Algorithms]], [[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Generative Adversarial Networks]], [[Variational Autoencoders]]
 
 Citations:
 [1] https://stats.stackexchange.com/questions/442352/what-is-a-latent-space

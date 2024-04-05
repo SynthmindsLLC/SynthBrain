@@ -1,4 +1,4 @@
-[[Demis Hassabis]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Demis Hassabis]]
 ===
 
 eldad_1_12-08-2023_152006: [00:00:00] hi, everyone. We're back to doing other voices of AI, and I think we've got one of the more fascinating people that we've covered so far. Demis Hassabis. And one of the reasons I'm excited about it is,~ uh,~ he somewhere is in the neighborhood that I live in. ~Um, You know, ~he's got a very interesting background,~ uh,~ it's, ~you know, ~it started as being a chess prodigy at age four, he's,~ uh,~ developed games and had his own companies,~ uh,~ DeepMind,~ uh,~ came out after his,~ uh,~ PhD studies, which,~ um,~ I know he did at Cambridge, UCL, I think Harvard, MIT are also involved. ~I mean, you know, ~he's got

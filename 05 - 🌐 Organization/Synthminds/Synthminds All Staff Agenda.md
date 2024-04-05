@@ -56,7 +56,7 @@ Please review the agenda and make any necessary adjustments or additions to ensu
 
 [[2024-02-04]]
 - Notion
-- Org Structure overview [[Business Model Canvas.canvas|Business Model Canvas]]
+- Org Structure overview [[Synthbrain/05 - 🌐 Organization/Synthminds/Business Model Canvas.canvas|Business Model Canvas]]
 	- job descriptions
 - Amy and JK to help out on newsletter - Eldad and David to support
 
@@ -140,7 +140,7 @@ Please review the agenda and make any necessary adjustments or additions to ensu
 - Company Updates
 	- Recap last week (CREATE values)
 	- Lawyer update (creating bylaws, hope to be done next week)
-	- review [[Business Model Canvas.canvas|Business Model Canvas]]
+	- review [[Synthbrain/05 - 🌐 Organization/Synthminds/Business Model Canvas.canvas|Business Model Canvas]]
 	- review [form](https://docs.google.com/forms/d/e/1FAIpQLSdBmOk8HS5X9cP-SEVSlqDa3Dbwmt3fFxvhM8mEgWmX2dk5aA/viewform?usp=sf_link)
 - 
 

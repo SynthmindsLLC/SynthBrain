@@ -163,7 +163,7 @@ Nearly everyone we surveyed and interviewed acknowledged that business use of ad
 
 
 
-![[image-34-x49-y493.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/hirschBusinessDataEthics2024/image-34-x49-y493.png]]
 
 
 
@@ -331,7 +331,7 @@ Some risks—such as lack of transparency, errors in decision-making, and especi
 
 
 
-![[image-45-x49-y479.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/hirschBusinessDataEthics2024/image-45-x49-y479.png]]
 
 
 
@@ -371,11 +371,11 @@ we found that companies in our sample that sell primarily to businesses are less
 
 
 
-![[image-50-x48-y121.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/hirschBusinessDataEthics2024/image-50-x48-y121.png]]
 
 
 
-![[image-51-x45-y496.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/hirschBusinessDataEthics2024/image-51-x45-y496.png]]
 
 
 
@@ -395,11 +395,11 @@ Approximately 50% of respondents indicated that the media pressures on their ind
 
 
 
-![[image-52-x51-y495.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/hirschBusinessDataEthics2024/image-52-x51-y495.png]]
 
 
 
-![[image-52-x51-y313.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/hirschBusinessDataEthics2024/image-52-x51-y313.png]]
 
 
 

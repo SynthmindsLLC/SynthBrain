@@ -35,7 +35,7 @@ The paper highlights the effectiveness of dDPO in aligning smaller LMs to user i
 
 
 # Annotations
-![[image-1-x112-y156.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/tunstallZephyrDirectDistillation2023/image-1-x112-y156.png]]
 
 
 
@@ -59,7 +59,7 @@ To validate this approach, we construct ZEPHYR-7B, an aligned version of Mistral
 
 
 
-![[image-3-x87-y419.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/tunstallZephyrDirectDistillation2023/image-3-x87-y419.png]]
 
 
 
@@ -123,7 +123,7 @@ UltraFeedback (Cui et al., 2023) consists of 64k prompts, each of which have fou
 
 
 
-![[image-6-x95-y152.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/tunstallZephyrDirectDistillation2023/image-6-x95-y152.png]]
 
 
 
@@ -131,7 +131,7 @@ Compared to other open 7B models, ZEPHYR-7B sets a new state-of-the-art and perf
 
 
 
-![[image-7-x104-y355.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/tunstallZephyrDirectDistillation2023/image-7-x104-y355.png]]
 
 
 
@@ -155,7 +155,7 @@ the strongest model was obtained with one epoch of SFT followed by three epochs 
 
 
 
-![[image-8-x61-y386.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/tunstallZephyrDirectDistillation2023/image-8-x61-y386.png]]
 
 
 

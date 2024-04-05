@@ -9,7 +9,7 @@ Tags:
 
 # Caching and Memory Management
 
-The book "[[Algorithms to Live By]]" by [[Brian Christian, Tom Griffiths]] explores various computer science concepts and how they can be applied to everyday life. While the book covers a broad range of topics, specific insights into caching and memory management can be drawn from the principles of computer science, particularly focusing on caching algorithms and cache management strategies.
+The book "[[Synthbrain/01 - 🎥 Commercial Hub/📸 Content Capture/📖 Joe's Readwise/Books/Algorithms to Live By]]" by [[Brian Christian, Tom Griffiths]] explores various computer science concepts and how they can be applied to everyday life. While the book covers a broad range of topics, specific insights into caching and memory management can be drawn from the principles of computer science, particularly focusing on caching algorithms and cache management strategies.
 
 ### Caching Algorithms
 
@@ -26,9 +26,9 @@ Cache management involves deciding how to store, retrieve, and replace data in a
 In summary, "Algorithms to Live By" provides valuable insights into caching algorithms and cache management strategies from computer science and illustrates their relevance to everyday life. By understanding and applying these principles, individuals can enhance their decision-making processes, improve their time management, and optimize their organizational skills.
 
 - [[Brian Christian, Tom Griffiths]]
-- [[Least Recently Used (LRU)]]
-- [[First-In, First-Out (FIFO)]]
-- [[Random Eviction]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Least Recently Used (LRU)]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/First-In, First-Out (FIFO)]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Random Eviction]]
 
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/9992018/2457a17d-b13f-4339-ad19-66a48a990295/Algorithms to Live By.md

@@ -88,9 +88,9 @@ int main() {
 ### Conclusion
 DFS is a powerful tool for graph traversal that can be adapted for various applications in computer science and related fields.
 
-- [[Depth-First Search]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Depth-First Search]]
 - [[Graph Theory]]
-- [[🗺 Algorithms]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/🗺 Algorithms]]
 - [[Data Structures]]
 - [[Recursion]]
 - [[Stack]]

@@ -33,6 +33,6 @@ Gated fusion networks are a type of neural network architecture used in deep lea
 
 Gated fusion networks represent an important approach in the field of deep learning for tasks that involve multiple data sources, offering a sophisticated means of extracting and combining relevant information to improve decision-making processes.
 
-- Important [[wikilinks]]: [[Gating Mechanism]], [[Deep Learning]], [[Neural Networks]], [[Multimodal Learning]], [[Sentiment Analysis]]
+- Important [[wikilinks]]: [[Gating Mechanism]], [[Deep Learning]], [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Neural Networks]], [[Multimodal Learning]], [[Sentiment Analysis]]
 
 Sources

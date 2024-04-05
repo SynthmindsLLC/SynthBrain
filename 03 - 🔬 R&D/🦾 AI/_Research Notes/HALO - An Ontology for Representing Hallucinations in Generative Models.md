@@ -100,7 +100,7 @@ HALO is created based on two existing primary vocabulary sources: (1) hallucinat
 
 
 
-![[image-8-x122-y303.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/nananukulHALOOntologyRepresenting2023/image-8-x122-y303.png]]
 
 
 
@@ -136,11 +136,11 @@ When studying hallucinations in LLMs, an important analytical objective is to as
 
 
 
-![[image-12-x171-y279.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/nananukulHALOOntologyRepresenting2023/image-12-x171-y279.png]]
 
 
 
-![[image-13-x145-y420.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/nananukulHALOOntologyRepresenting2023/image-13-x145-y420.png]]
 
 
 

@@ -87,7 +87,7 @@ Factual information is added to our prompts to ground GPT-4 in generating respon
 
 
 
-![[image-3-x324-y347.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/liuTeachingCS50AI/image-3-x324-y347.png]]
 
 
 

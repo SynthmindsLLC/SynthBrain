@@ -38,6 +38,6 @@ Approximation algorithms are widely used in various fields, including operations
 
 Approximation algorithms play a vital role in computational complexity by providing practical solutions to problems that are otherwise intractable. They bridge the gap between theoretical problem-solving capabilities and the practical needs of real-world applications.
 
-- Important [[wikilinks]]: [[Optimization Problems]], [[NP-hard]], [[Vertex Cover Problem]], [[Traveling Salesman Problem]], [[Network Design]], [[Scheduling]], [[Resource Allocation]]
+- Important [[wikilinks]]: [[Optimization Problems]], [[NP-hard]], [[Vertex Cover Problem]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Traveling Salesman Problem]], [[Network Design]], [[Scheduling]], [[Resource Allocation]]
 
 Sources

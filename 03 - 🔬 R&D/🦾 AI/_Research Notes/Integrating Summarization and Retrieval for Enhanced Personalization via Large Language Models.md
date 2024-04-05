@@ -81,11 +81,11 @@ the retrieval component can use 75% less of retrieved user data without sacrific
 
 
 
-![[image-2-x306-y493.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/richardsonIntegratingSummarizationRetrieval2023/image-2-x306-y493.png]]
 
 
 
-![[image-4-x112-y227.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/richardsonIntegratingSummarizationRetrieval2023/image-4-x112-y227.png]]
 
 
 

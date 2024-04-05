@@ -94,7 +94,7 @@ Eucken’s Principles of Economic Policy – and his Constituent and Regulating 
 
 
 
-![[image-5-x151-y182.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/woersdoerferAIEthicsOrdoliberalism2023/image-5-x151-y182.png]]
 
 
 
@@ -118,7 +118,7 @@ the ordoliberals are searching for an integrative third way (Oppenheimer, 1933; 
 
 
 
-![[image-7-x203-y486.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/woersdoerferAIEthicsOrdoliberalism2023/image-7-x203-y486.png]]
 
 
 
@@ -398,7 +398,7 @@ Eucken and Böhm’s private law society would require embedding AI systems – 
 
 
 
-![[image-22-x220-y87.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/woersdoerferAIEthicsOrdoliberalism2023/image-22-x220-y87.png]]
 
 
 
@@ -450,7 +450,7 @@ Ensuring platform neutrality similar to net neutrality: Such a rule would requir
 
 
 
-![[image-30-x114-y360.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/woersdoerferAIEthicsOrdoliberalism2023/image-30-x114-y360.png]]
 
 
 

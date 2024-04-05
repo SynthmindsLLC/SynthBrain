@@ -36,7 +36,7 @@ Isomorphic, in the context of mathematics, refers to a kind of equivalence betwe
 - **Graph Theory**: Isomorphism allows for the classification of graphs based on their structure rather than their visual representation or labeling[1][5].
 - **Linear Algebra**: Isomorphism is used to show the equivalence of vector spaces, which is fundamental in understanding the solutions to linear equations and transformations[17][18].
 
-- Important [[wikilinks]]: [[Graph Theory]], [[Linear Algebra]], [[Vector Spaces]], [[Bijection]], [[Graph Isomorphism Problem]], [[Abstract Algebra]]
+- Important [[wikilinks]]: [[Graph Theory]], [[Linear Algebra]], [[Vector Spaces]], [[Bijection]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Graph Isomorphism Problem]], [[Abstract Algebra]]
 
 Sources
 [1] 11.4: Graph Isomorphisms - Mathematics LibreTexts https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_%28Morris%29/03:_Graph_Theory/11:_Basics_of_Graph_Theory/11.04:_Graph_Isomorphisms

@@ -1,7 +1,7 @@
 ## Sam Altman: A Visionary Leader in Technology and Artificial Intelligence
 
 ### Introduction
-[[Sam Altman]], an influential figure in the world of technology and artificial intelligence (AI), has made a profound impact through his various roles, most notably as the former president of [[Y Combinator]] and the CEO of [[OPENAI]].
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Sam Altman]], an influential figure in the world of technology and artificial intelligence (AI), has made a profound impact through his various roles, most notably as the former president of [[Y Combinator]] and the CEO of [[OPENAI]].
 
 ### Early Life and Education
 Samuel Harris Altman was born on April 22, 1985, in Chicago, Illinois, and grew up in the suburbs of St. Louis, Missouri. Demonstrating an early aptitude for numbers and computing, Altman began programming at a young age. His early life was marked by the challenges of growing up gay in the Midwest during the early 2000s, a period he navigated with the help of AOL chat rooms. Altman attended John Burroughs School, a prestigious private school in St. Louis, where he made a significant impact by coming out as gay in a school assembly and advocating for "Safe Space" signs to support LGBTQ+ students.

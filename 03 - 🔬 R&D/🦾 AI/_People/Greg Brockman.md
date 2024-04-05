@@ -1,7 +1,7 @@
 ## Greg Brockman: A Visionary in the Realm of Artificial Intelligence
 
 ### Introduction
-Greg Brockman stands as a pivotal figure in the field of [[artificial intelligence]], known for his significant contributions and leadership in tech giants like [[Google]], [[Stripe]], and notably, [[OPENAI]]. His journey from a software engineer to a leading voice in AI showcases his profound impact on technology and innovation.
+Greg Brockman stands as a pivotal figure in the field of [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]], known for his significant contributions and leadership in tech giants like [[Google]], [[Stripe]], and notably, [[OPENAI]]. His journey from a software engineer to a leading voice in AI showcases his profound impact on technology and innovation.
 
 ### Early Life and Education
 Greg Brockman was born on November 29, 1987, in Thompson, North Dakota. He attended Red River High School, where he excelled in mathematics, chemistry, and computer science. Brockman won a silver medal in the 2006 International Chemistry Olympiad and was a finalist in the 2007 Canada/USA Mathcamp, a summer program for mathematically talented high-school students. He enrolled in Harvard University in 2008 but left after a year and briefly attended the Massachusetts Institute of Technology (MIT) before dropping out[
@@ -13,7 +13,7 @@ Brockman's professional journey commenced at [[Google]], where he contributed to
 #### Time at Stripe
 Brockman's career began in earnest when he joined [[Stripe, Inc.]] in 2010, a company co-founded by Patrick Collison, an MIT classmate, and his brother, John Collison. By 2013, he became Stripe's first-ever Chief Technology Officer (CTO) and was instrumental in growing the company from 5 to 205 employees. He left Stripe in May 2015[
 
-In December 2015, Brockman co-founded OpenAI with [[Sam Altman]] and [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_People/Ilya Sutskever]], where he also assumed the role of CTO. His work at OpenAI includes co-leading the development of an AI bot that defeated professional human players in solo games.
+In December 2015, Brockman co-founded OpenAI with [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Sam Altman]] and [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_People/Ilya Sutskever]], where he also assumed the role of CTO. His work at OpenAI includes co-leading the development of an AI bot that defeated professional human players in solo games.
 
 Brockman is known for his intense work ethic, reportedly working 60 to 100 hours per week, with around 80% of his time spent coding[
 

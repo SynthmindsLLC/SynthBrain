@@ -87,7 +87,7 @@ RandEC achieves an empirical detection accuracy of over 90% on adversarial harmf
 
 
 
-![[image-4-x359-y162.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/kumarCertifyingLLMSafety2023/image-4-x359-y162.png]]
 
 
 
@@ -99,7 +99,7 @@ For this mode, the erase-and-check pro- cedure erases d tokens from the end of t
 
 
 
-![[image-5-x91-y555.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/kumarCertifyingLLMSafety2023/image-5-x91-y555.png]]
 
 
 
@@ -119,7 +119,7 @@ We use the Llama 2 system prompt to set its objective of classifying a user prom
 
 
 
-![[image-6-x121-y655.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/kumarCertifyingLLMSafety2023/image-6-x121-y655.png]]
 
 
 

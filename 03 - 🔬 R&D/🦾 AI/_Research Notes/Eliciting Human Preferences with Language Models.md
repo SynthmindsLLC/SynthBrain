@@ -58,7 +58,7 @@ These challenges of task ambiguity (Finn et al., 2018; Tamkin et al., 2022a) loo
 
 
 
-![[image-2-x59-y39.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/liElicitingHumanPreferences2023/image-2-x59-y39.png]]
 
 
 
@@ -74,7 +74,7 @@ In pre-registered experiments, we find that LM-based task elicitation often yiel
 
 
 
-![[image-4-x77-y573.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/liElicitingHumanPreferences2023/image-4-x77-y573.png]]
 
 
 
@@ -122,7 +122,7 @@ generative yes/no questions improve over user-written prompts in every setting s
 
 
 
-![[image-8-x85-y485.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/liElicitingHumanPreferences2023/image-8-x85-y485.png]]
 
 
 
@@ -130,7 +130,7 @@ past work has studied auto-induced distributional shift, where machine learning 
 
 
 
-![[image-9-x104-y575.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/liElicitingHumanPreferences2023/image-9-x104-y575.png]]
 
 
 
@@ -138,7 +138,7 @@ A fundamental challenge across many fields is how to obtain information about pe
 
 
 
-![[image-10-x64-y75.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/liElicitingHumanPreferences2023/image-10-x64-y75.png]]
 
 
 

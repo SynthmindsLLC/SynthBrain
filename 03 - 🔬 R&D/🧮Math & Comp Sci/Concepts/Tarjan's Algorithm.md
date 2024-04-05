@@ -26,7 +26,7 @@ Tarjan's algorithm is widely used in computer science, particularly in the field
 
 While Tarjan's algorithm specifically addresses the identification of SCCs in directed graphs, Robert Tarjan has also developed other algorithms for different graph-related problems, such as finding bridges, articulation points, and the lowest common ancestors in trees[1].
 
-- Important [[wikilinks]]: [[Graph Theory]], [[Depth-First Search]], [[Strongly Connected Components]], [[Computational Complexity]]
+- Important [[wikilinks]]: [[Graph Theory]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Depth-First Search]], [[Strongly Connected Components]], [[Computational Complexity]]
 
 Sources
 [1] Tarjan's algorithm - Wikipedia https://en.wikipedia.org/wiki/Tarjan%27s_algorithm

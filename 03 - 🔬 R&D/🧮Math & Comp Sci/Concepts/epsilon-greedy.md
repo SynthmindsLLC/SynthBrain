@@ -36,7 +36,7 @@ Epsilon-greedy is widely used in various reinforcement learning tasks, such as t
 ### Conclusion
 The epsilon-greedy strategy is a fundamental approach in reinforcement learning for managing the exploration-exploitation tradeoff, enabling agents to learn optimal policies over time[1][5].
 
-- Important [[wikilinks]]: [[Reinforcement Learning]], [[Exploration and Exploitation]], [[Multi-Armed Bandit Problem]], [[Optimal Policy]]
+- Important [[wikilinks]]: [[Reinforcement Learning]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Exploration and Exploitation]], [[Multi-Armed Bandit Problem]], [[Optimal Policy]]
 
 Sources
 [1] Epsilon-Greedy Algorithm in Reinforcement Learning - GeeksforGeeks https://www.geeksforgeeks.org/epsilon-greedy-algorithm-in-reinforcement-learning/

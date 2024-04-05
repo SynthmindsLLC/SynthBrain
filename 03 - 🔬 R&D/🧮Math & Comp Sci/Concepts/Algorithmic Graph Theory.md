@@ -23,9 +23,9 @@ Algorithmic graph theory is a branch of mathematics and computer science that fo
 ## Applications and Algorithms
 
 Algorithmic graph theory has applications in various fields, including computer science, engineering, biology, and social sciences. It provides the foundation for algorithms such as:
-- **[[Dijkstra's algorithm]]**: For finding the shortest path between nodes in a graph.
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Dijkstra's algorithm]]**: For finding the shortest path between nodes in a graph.
 - **[[Kruskal's and Prim's Algorithms]]**: For finding the minimum spanning tree of a graph.
-- **[[Ford-Fulkerson algorithm]]**: For computing the maximum flow in a flow network.
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Ford-Fulkerson algorithm]]**: For computing the maximum flow in a flow network.
 - **[[Tarjan's Algorithm]]**: For finding strongly connected components in a graph.
 
 ## Resources and References
@@ -37,7 +37,7 @@ Algorithmic graph theory has applications in various fields, including computer 
 
 Algorithmic graph theory is a dynamic and essential area of study, bridging the gap between theoretical mathematics and practical computational applications. It continues to evolve with new algorithms and applications emerging in response to advancing technology and complex real-world problems.
 
-- Important [[wikilinks]]: [[Graph Theory]], [[Computational Complexity]], [[Eulerian and Hamiltonian Cycles]], [[Spanning Trees]], [[Network Flow Problems]], [[Graph Coloring]]
+- Important [[wikilinks]]: [[Graph Theory]], [[Computational Complexity]], [[Eulerian and Hamiltonian Cycles]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Spanning Trees]], [[Network Flow Problems]], [[Graph Coloring]]
 
 Sources
 [1] Algorithmic Graph Theory -- from Wolfram MathWorld https://mathworld.wolfram.com/AlgorithmicGraphTheory.html

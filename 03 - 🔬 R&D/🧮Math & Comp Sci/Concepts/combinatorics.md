@@ -37,6 +37,6 @@ Combinatorics is a branch of mathematics concerned with counting, arrangement, a
 
 Combinatorics continues to be a vibrant and expanding field of mathematics, with ongoing research into new methods, theories, and applications across various disciplines.
 
-- Important [[wikilinks]]: [[Permutations and Combinations]], [[Graph Theory]], [[Partition Theory]], [[Enumerative Combinatorics]], [[Computer Science]], [[Cryptography]], [[Statistical Physics]], [[Leonhard Euler]], [[Paul Erdős]]
+- Important [[wikilinks]]: [[Permutations and Combinations]], [[Graph Theory]], [[Partition Theory]], [[Enumerative Combinatorics]], [[Computer Science]], [[Cryptography]], [[Statistical Physics]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/People/Leonhard Euler]], [[Paul Erdős]]
 
 Sources

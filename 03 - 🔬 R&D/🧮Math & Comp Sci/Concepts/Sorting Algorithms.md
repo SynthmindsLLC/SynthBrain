@@ -5,7 +5,7 @@ tags: ["algorithm", "computing", "sorting-algorithms"]
 # Sorting Algorithms
 
 ## Overview
-[[Sorting Algorithms]] are fundamental algorithms in computer science, designed to reorder items in a list or database into a specified order. The efficiency and method of sorting depend on the algorithm design and the data structure involved.
+[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Sorting Algorithms]] are fundamental algorithms in computer science, designed to reorder items in a list or database into a specified order. The efficiency and method of sorting depend on the algorithm design and the data structure involved.
 
 ## Types of Sorting Algorithms
 

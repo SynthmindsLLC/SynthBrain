@@ -21,9 +21,9 @@ Symbolic AI remains relevant today, especially in applications requiring explici
 
 In summary, while machine learning has dominated recent AI advancements, Symbolic AI's interpretability and rule-based reasoning continue to hold value. The development of neuro-symbolic AI highlights the ongoing efforts to harness the best of both worlds, aiming for AI systems that are not only powerful and efficient but also transparent and understandable.
 
-- [[Neuro-symbolic AI]]
+- [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Neuro-symbolic AI]]
 - [[Machine Learning]]
-- [[Symbolic AI]]
+- [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Symbolic AI]]
 
 Sources
 [1] What is Symbolic AI? - DataCamp https://www.datacamp.com/blog/what-is-symbolic-ai

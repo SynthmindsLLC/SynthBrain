@@ -30,7 +30,7 @@ While random eviction is not the most sophisticated cache eviction policy, it of
 
 - [[Cache Eviction Algorithms]]
 - [[Operating Systems]]
-- [[Page Replacement Algorithms]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Page Replacement Algorithms]]
 
 Sources
 [1] Lecture 14: Page replacement and thrashing - Cornell CS http://www.cs.cornell.edu/courses/cs4410/2017su/lectures/lec14-replacement.html

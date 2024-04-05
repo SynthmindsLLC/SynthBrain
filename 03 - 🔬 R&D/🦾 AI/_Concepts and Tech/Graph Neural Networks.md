@@ -1,6 +1,6 @@
 Graph Neural Networks (GNNs) are a specialized type of neural network designed to work with graph data. They have been developed over the past decade to leverage the structure and properties of graphs, which are a natural way to express a set of objects and their connections[1].
 
-GNNs are highly influenced by [[Convolutional Neural Networks]] (CNNs) and graph embedding. They are used in predicting nodes, edges, and graph-based tasks. Just like CNNs are used for image classification, GNNs are applied to graph structures to predict a class[2].
+GNNs are highly influenced by [[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Convolutional Neural Networks]] (CNNs) and graph embedding. They are used in predicting nodes, edges, and graph-based tasks. Just like CNNs are used for image classification, GNNs are applied to graph structures to predict a class[2].
 
 There are several types of GNNs, including [[Graph Convolutional Networks]] (GCNs), which are similar to traditional CNNs. GCNs learn features by inspecting neighboring nodes, aggregating node vectors, passing the result to the dense layer, and applying non-linearity using the activation function[2].
 
@@ -20,7 +20,7 @@ Graph Neural Networks (GNNs) have a wide range of applications across various do
 - **Fraud Detection**: Companies like Amazon use GNNs to detect fraudulent activities by analyzing transaction networks[7].
 - **Bioinformatics**: In the field of genetics and bioinformatics, GNNs process graph structure data for various tasks[6].
 - **Physics Simulation**: They are used for simulating physical systems that can be represented as graphs[3].
-- **[[Knowledge Graphs]]**: GNNs help in knowledge representation and reasoning over knowledge graphs[3].
+- **[[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]]**: GNNs help in knowledge representation and reasoning over knowledge graphs[3].
 - **Transportation**: Google Maps uses GNNs to learn representations of transportation networks for improving route prediction and traffic management[7].
 
 These applications demonstrate the versatility of GNNs in handling complex data structures and providing insights across different sectors.

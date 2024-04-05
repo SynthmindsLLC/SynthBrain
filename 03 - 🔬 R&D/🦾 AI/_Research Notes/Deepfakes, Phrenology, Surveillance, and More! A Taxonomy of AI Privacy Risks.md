@@ -91,7 +91,7 @@ since facial recognition classifiers require tremendous amounts of face data, th
 
 
 
-![[image-3-x147-y463.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/leeDeepfakesPhrenologySurveillance2023/image-3-x147-y463.png]]
 
 
 
@@ -179,7 +179,7 @@ AI creates new privacy risks when the capabilities and/or requirements of the AI
 
 
 
-![[image-7-x204-y534.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/leeDeepfakesPhrenologySurveillance2023/image-7-x204-y534.png]]
 
 
 
@@ -199,19 +199,19 @@ We also found an entirely new type of privacy risk, Phrenology / Physiognomy, wh
 
 
 
-![[image-8-x110-y567.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/leeDeepfakesPhrenologySurveillance2023/image-8-x110-y567.png]]
 
 
 
-![[image-8-x96-y144.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/leeDeepfakesPhrenologySurveillance2023/image-8-x96-y144.png]]
 
 
 
-![[image-9-x66-y244.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/leeDeepfakesPhrenologySurveillance2023/image-9-x66-y244.png]]
 
 
 
-![[image-10-x95-y521.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/leeDeepfakesPhrenologySurveillance2023/image-10-x95-y521.png]]
 
 
 

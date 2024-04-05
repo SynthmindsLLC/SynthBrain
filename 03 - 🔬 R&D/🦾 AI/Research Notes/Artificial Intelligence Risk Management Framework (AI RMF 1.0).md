@@ -86,7 +86,7 @@ When considering the negative impact of a potential event, risk is a function of
 
 
 
-![[image-10-x93-y544.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-10-x93-y544.png]]
 
 
 
@@ -146,7 +146,7 @@ he People & Planet dimension at the center of Figure 2 represents human rights a
 
 
 
-![[image-15-x76-y334.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-15-x76-y334.png]]
 
 
 
@@ -158,7 +158,7 @@ Diverse teams contribute to more open sharing of ideas and assumptions about the
 
 
 
-![[image-16-x59-y91.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-16-x59-y91.png]]
 
 
 
@@ -166,7 +166,7 @@ Characteristics of trustworthy AI systems include: valid and reliable, safe, sec
 
 
 
-![[image-17-x82-y378.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-17-x82-y378.png]]
 
 
 
@@ -290,7 +290,7 @@ Bias is tightly associated with the concepts of transparency as well as fairness
 
 
 
-![[image-25-x148-y249.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-25-x148-y249.png]]
 
 
 
@@ -298,15 +298,15 @@ The GOVERN function: • cultivates and implements a culture of risk management 
 
 
 
-![[image-27-x80-y179.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-27-x80-y179.png]]
 
 
 
-![[image-28-x62-y120.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-28-x62-y120.png]]
 
 
 
-![[image-29-x83-y317.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-29-x83-y317.png]]
 
 
 
@@ -330,15 +330,15 @@ improving their capacity for understanding contexts; • checking their assumpti
 
 
 
-![[image-31-x81-y165.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-31-x81-y165.png]]
 
 
 
-![[image-32-x82-y132.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-32-x82-y132.png]]
 
 
 
-![[image-33-x78-y608.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-33-x78-y608.png]]
 
 
 
@@ -358,23 +358,23 @@ Options may include recalibration, impact mitigation, or removal of the system f
 
 
 
-![[image-34-x77-y163.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-34-x77-y163.png]]
 
 
 
-![[image-35-x83-y145.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-35-x83-y145.png]]
 
 
 
-![[image-36-x82-y405.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-36-x82-y405.png]]
 
 
 
-![[image-37-x85-y157.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-37-x85-y157.png]]
 
 
 
-![[image-38-x78-y483.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/tabassiArtificialIntelligenceRisk2023/image-38-x78-y483.png]]
 
 
 

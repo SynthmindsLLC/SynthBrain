@@ -11,7 +11,7 @@ Tags:
 
 Scheduling algorithms in operating systems are crucial for managing how processes and threads are assigned to the CPU for execution. These algorithms aim to optimize various aspects of computing, such as CPU utilization, process throughput, and system responsiveness. Here's an overview of some key scheduling algorithms used in operating systems:
 
-### [[First-Come, First-Served (FCFS)]]
+### [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/First-Come, First-Served (FCFS)]]
 - **Principle**: Processes are executed in the order they arrive in the ready queue.
 - **Advantages**: Simple to understand and implement.
 - **Disadvantages**: Can lead to poor performance (convoy effect), where short processes get stuck behind long ones.

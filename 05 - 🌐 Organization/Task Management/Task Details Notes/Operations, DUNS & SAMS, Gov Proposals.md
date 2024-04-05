@@ -4,7 +4,7 @@ categories:
   - Obsidian
   - Gov Contracts
   - Federal Contracts
-Transcript: "[[Transcript - Melwood & Synthminds]]"
+Transcript: "[[Synthbrain/05 - 🌐 Organization/Task Management/Task Note Attachments/Transcript - Melwood & Synthminds]]"
 ---
 ## Task: Prepare for Subcontractor Registration
 

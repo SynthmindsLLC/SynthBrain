@@ -122,7 +122,7 @@ GNNs learn graph local properties, i.e. how neighbouring entities’ features ha
 
 
 
-![[image-7-x103-y529.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/kurinCanLearningGraph2020/image-7-x103-y529.png]]
 
 
 

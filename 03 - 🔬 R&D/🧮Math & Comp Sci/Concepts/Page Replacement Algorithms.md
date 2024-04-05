@@ -13,12 +13,12 @@ Cache eviction algorithms are strategies used to manage data in a cache, particu
 
 ### Common Cache Eviction Algorithms
 
-- **[[Least Recently Used (LRU)]]**: Evicts the least recently accessed items. It is based on the assumption that items not accessed recently are less likely to be accessed in the near future[1][4][7][10].
-- **[[First-In, First-Out (FIFO)]]**: Evicts the oldest items in the cache, regardless of their access patterns. It is simple but may not perform well with certain access patterns[1][6][7][9][10].
-- **[[Least Frequently Used (LFU)]]**: Removes items that have been accessed the least frequently, under the assumption that less frequently accessed items are less likely to be needed again[1][4][7][10].
-- **[[Random Eviction]]**: Randomly selects an item to evict. This method is simple and can perform surprisingly well in certain scenarios, despite not considering access patterns[2][7][8][18].
-- **[[Most Recently Used (MRU)]]**: Opposite of LRU, it evicts the most recently used items. It can be useful in scenarios where the most recent items are less likely to be accessed again soon[4].
-- **[[Optimal Page Replacement (OPR)]]**: Evicts the page that will not be needed for the longest time in the future. It is theoretical and cannot be implemented without future knowledge[3][12][15][19][20].
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Least Recently Used (LRU)]]**: Evicts the least recently accessed items. It is based on the assumption that items not accessed recently are less likely to be accessed in the near future[1][4][7][10].
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/First-In, First-Out (FIFO)]]**: Evicts the oldest items in the cache, regardless of their access patterns. It is simple but may not perform well with certain access patterns[1][6][7][9][10].
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Least Frequently Used (LFU)]]**: Removes items that have been accessed the least frequently, under the assumption that less frequently accessed items are less likely to be needed again[1][4][7][10].
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Random Eviction]]**: Randomly selects an item to evict. This method is simple and can perform surprisingly well in certain scenarios, despite not considering access patterns[2][7][8][18].
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Most Recently Used (MRU)]]**: Opposite of LRU, it evicts the most recently used items. It can be useful in scenarios where the most recent items are less likely to be accessed again soon[4].
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Optimal Page Replacement (OPR)]]**: Evicts the page that will not be needed for the longest time in the future. It is theoretical and cannot be implemented without future knowledge[3][12][15][19][20].
 
 ### Factors Influencing Choice of Eviction Algorithm
 

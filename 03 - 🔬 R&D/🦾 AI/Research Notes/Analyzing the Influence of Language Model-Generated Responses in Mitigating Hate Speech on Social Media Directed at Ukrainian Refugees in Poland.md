@@ -148,7 +148,7 @@ Ultimately, we chose GPT-4 as it outperformed other models on the most important
 
 
 
-![[image-3-x315-y572.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/podolakAnalyzingInfluenceLanguage2023/image-3-x315-y572.png]]
 
 
 
@@ -188,7 +188,7 @@ A tool that detects manifestations of hate speech and changes the course of the 
 
 
 
-![[image-4-x304-y296.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/podolakAnalyzingInfluenceLanguage2023/image-4-x304-y296.png]]
 
 
 
@@ -220,7 +220,7 @@ for each harmful tweet we detected, we want to calculate the mean sentiment of r
 
 
 
-![[image-6-x303-y550.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/podolakAnalyzingInfluenceLanguage2023/image-6-x303-y550.png]]
 
 
 
@@ -252,15 +252,15 @@ Only when selecting tweets with minimum impression change of 10, the change seem
 
 
 
-![[image-7-x310-y546.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/podolakAnalyzingInfluenceLanguage2023/image-7-x310-y546.png]]
 
 
 
-![[image-7-x308-y361.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/podolakAnalyzingInfluenceLanguage2023/image-7-x308-y361.png]]
 
 
 
-![[image-7-x300-y206.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/Research Notes/attachments/podolakAnalyzingInfluenceLanguage2023/image-7-x300-y206.png]]
 
 
 

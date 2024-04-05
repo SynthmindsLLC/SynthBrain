@@ -43,10 +43,10 @@ Consider a flow network with vertices and edges between them having various capa
 ### Conclusion
 The Ford-Fulkerson algorithm is a foundational method for solving the maximum flow problem in networks, with wide-ranging applications in computer science and operations research.
 
-- [[Ford-Fulkerson algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Ford-Fulkerson algorithm]]
 - [[Graph Theory]]
-- [[Maximum Flow Problem]]
-- [[Edmonds-Karp algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Maximum Flow Problem]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Edmonds-Karp algorithm]]
 
 Sources
 [1] Ford-Fulkerson Algorithm for Maximum Flow Problem - GeeksforGeeks https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/

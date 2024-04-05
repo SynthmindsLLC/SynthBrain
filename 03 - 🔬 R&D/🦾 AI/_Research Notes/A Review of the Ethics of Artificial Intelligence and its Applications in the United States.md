@@ -61,7 +61,7 @@ classified AI systems into three groups Analytical AI, Human Inspired AI, and Hu
 
 
 
-![[image-2-x153-y120.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/taiwoReviewEthicsArtificial2023/image-2-x153-y120.png]]
 
 
 

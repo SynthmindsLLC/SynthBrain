@@ -14,7 +14,7 @@
 # Data
 [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)
 - "in reality about 40% of doctors in the U.S. were women, but in the training data (sourced from news stories), only 9% of doctors were women."
-- ![[Pasted image 20231116165025.png]]
+- ![[Synthbrain/03 - 🔬 R&D/🦾 AI/attachments/Pasted image 20231116165025.png]]
 - "if the original data was slightly biased against women, the resulting model will be very biased against women. A lot of fairness research is dedicated to [reducing the amplification](https://arxiv.org/abs/1707.09457?ref=txt.cohere.com), rather than correcting the original biases from the data."
 
 # Context of Safety

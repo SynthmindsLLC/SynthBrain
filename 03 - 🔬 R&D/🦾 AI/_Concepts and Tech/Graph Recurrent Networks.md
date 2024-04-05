@@ -18,7 +18,7 @@ GRNs can be challenging to train due to the complexity of combining spatial and 
 For practical applications and further research, various frameworks and libraries support the implementation of GRNs, and ongoing research continues to improve their efficiency and scalability.
 
 - Important [[wikilinks]]:
-  - [[Recurrent Neural Networks]]
+  - [[Prompts HUB/SynthBrain 1/02 -🧙🏿‍♂️ Learning Lab/Miss Neura/Neural Networks/Recurrent Neural Networks]]
   - [[🧠 SynthBrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Graph Neural Networks]]
   - [[Dynamic Graphs]]
   - [[Link Prediction]]

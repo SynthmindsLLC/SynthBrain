@@ -20,7 +20,7 @@ Several strategies address the [[MAB]]:
 ### Key Algorithms
 Two notable algorithms stand out:
 - **[[Epsilon Greedy Algorithm]]**: Introduces randomness in decision-making to balance exploration and exploitation.
-- **[[Upper Confidence Bound]] (UCB)**: A more sophisticated approach that uses uncertainty in the estimated rewards for decision making. UCB often outperforms the Epsilon Greedy Algorithm in efficiency.
+- **[[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Upper Confidence Bound]] (UCB)**: A more sophisticated approach that uses uncertainty in the estimated rewards for decision making. UCB often outperforms the Epsilon Greedy Algorithm in efficiency.
 
 ### Practical Application Examples
 Real-world applications of the [[MAB]] include:

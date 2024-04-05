@@ -34,7 +34,7 @@ CycleGT represents a pivotal step towards addressing the data scarcity problem i
 - [[AI]]
 - [[NLP]]
 - [[Unsupervised Learning]]
-- [[Knowledge Graphs]]
+- [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Knowledge Graphs]]
 
 Sources
 [1] QipengGuo/CycleGT: code of CycleGT - GitHub https://github.com/QipengGuo/CycleGT

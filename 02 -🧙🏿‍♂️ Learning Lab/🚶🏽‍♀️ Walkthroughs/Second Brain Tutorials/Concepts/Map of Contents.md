@@ -1,7 +1,7 @@
 ## Map of Contents in a Digital Garden Using Obsidian
 
 ### Introduction
-A Map of Contents in [[Obsidian]] for a Digital Garden acts as a dynamic, organized index, guiding through the evolving landscape of ideas and notes.
+A Map of Contents in [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Obsidian]] for a Digital Garden acts as a dynamic, organized index, guiding through the evolving landscape of ideas and notes.
 
 ### Creating a Map of Contents
 - **Identify Key Themes**: Determine the main categories or themes that encapsulate your garden's content.

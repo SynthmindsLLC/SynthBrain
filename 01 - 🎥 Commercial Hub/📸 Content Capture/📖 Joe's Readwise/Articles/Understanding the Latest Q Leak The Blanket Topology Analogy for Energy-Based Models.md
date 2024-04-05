@@ -3,7 +3,7 @@
 ![rw-book-cover](https://i.ytimg.com/vi/6_v9Ogi7P6Q/maxresdefault.jpg)
 
 ## Metadata
-- Author: [[David Shapiro]]
+- Author: [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/David Shapiro]]
 - Date: 2024-03-21
 - Full Title: Understanding the Latest Q* Leak: The "Blanket Topology" Analogy for Energy-Based Models
 - Category: #articles

@@ -1,11 +1,11 @@
 ## Digital Garden
 
 ### Introduction
-The concept of a [[Digital Garden]] represents a creative and dynamic approach to information sharing and personal knowledge management on the internet.
+The concept of a [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Digital Garden]] represents a creative and dynamic approach to information sharing and personal knowledge management on the internet.
 
 ### History and Evolution
 #### Early Concepts
-The idea of a [[Digital Garden]] has been around for over two decades, undergoing several semantic shifts over the years.
+The idea of a [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Digital Garden]] has been around for over two decades, undergoing several semantic shifts over the years.
 
 #### Shifts in Meaning
 Initially, the concept was more fluid and varied in its interpretation by different individuals.
@@ -15,7 +15,7 @@ Initially, the concept was more fluid and varied in its interpretation by differ
 
 ### Characteristics
 #### Non-linear, Evolving Content
-Unlike traditional blogs, a [[Digital Garden]] is a constantly evolving collection of ideas, not strictly organized by publication date.
+Unlike traditional blogs, a [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Digital Garden]] is a constantly evolving collection of ideas, not strictly organized by publication date.
 
 #### Comparison with Traditional Blogs
 Digital gardens differ from blogs in their format, purpose, and presentation, focusing on ongoing development rather than finalized content.
@@ -40,11 +40,11 @@ They foster communities focused on in-depth exploration and shared learning.
 ## Conceptualizing a Digital Garden in Obsidian
 
 ### Introduction
-Embracing the idea of a [[Digital Garden]] in [[Obsidian]] means creating a dynamic, evolving space for personal knowledge and ideas, akin to nurturing a garden.
+Embracing the idea of a [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Digital Garden]] in [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Obsidian]] means creating a dynamic, evolving space for personal knowledge and ideas, akin to nurturing a garden.
 
 ### Conceptual Foundations
 - **Digital Gardening Philosophy**: Understand that a Digital Garden is an ever-growing, ever-changing collection of thoughts, not a static repository.
-- **Obsidian as a Tool**: Recognize [[Obsidian]] as more than a note-taking app; it's a framework for linking thoughts in an interconnected web.
+- **Obsidian as a Tool**: Recognize [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Obsidian]] as more than a note-taking app; it's a framework for linking thoughts in an interconnected web.
 
 ### Building Your Garden
 - **Start Small**: Begin with core ideas or interests and let them naturally expand over time.
@@ -67,7 +67,7 @@ The concept of a Digital Garden in Obsidian is powerful yet abstract, requiring 
 
 **Tags**: #DigitalGarden #Obsidian #ConceptualThinking #KnowledgeManagement #Creativity #Learning #Ideas #PersonalGrowth
 ### Critique
-The [[Digital Garden]] concept, while innovative, may not be accessible to all due to its technical demands. Its open-ended, non-linear nature might not resonate with everyone's organizational preferences. However, it stands as a testament to the internet's potential for fostering creative, personal spaces for knowledge and exploration.
+The [[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Digital Garden]] concept, while innovative, may not be accessible to all due to its technical demands. Its open-ended, non-linear nature might not resonate with everyone's organizational preferences. However, it stands as a testament to the internet's potential for fostering creative, personal spaces for knowledge and exploration.
 
 ### Citations
 1. [A Brief History & Ethos of the Digital Garden](https://maggieappleton.com/garden-history)

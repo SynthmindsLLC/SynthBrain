@@ -52,7 +52,7 @@ We find that independent verification questions tend to provide more accurate fa
 
 
 
-![[image-2-x98-y289.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/dhuliawalaChainofVerificationReducesHallucination2023/image-2-x98-y289.png]]
 
 
 
@@ -148,15 +148,15 @@ Finally, the improved response that takes verification into account is generated
 
 
 
-![[image-6-x89-y545.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/dhuliawalaChainofVerificationReducesHallucination2023/image-6-x89-y545.png]]
 
 
 
-![[image-7-x91-y598.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/dhuliawalaChainofVerificationReducesHallucination2023/image-7-x91-y598.png]]
 
 
 
-![[image-7-x94-y402.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/dhuliawalaChainofVerificationReducesHallucination2023/image-7-x94-y402.png]]
 
 
 

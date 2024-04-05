@@ -4,7 +4,7 @@ tags:
   - NeuralNetworks
   - MissNeuraBlog
 ---
-![[AlbedoBase_XL_Photograph_of_an_intricate_circuit_board_represe_1.jpg]]
+![[Synthbrain/01 - 🎥 Commercial Hub/🧪 Synaptic Labs/01. Blogs/Miss Neura/Neural Networks/attachments/AlbedoBase_XL_Photograph_of_an_intricate_circuit_board_represe_1.jpg]]
 # LinkedIn Post
 
 🚀🧠 Dive into the neuron-firing, synapse-sparking world of Neural Networks with Miss Neura! 🌟🤖

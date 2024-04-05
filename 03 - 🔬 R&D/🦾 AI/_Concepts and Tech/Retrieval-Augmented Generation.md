@@ -40,7 +40,7 @@ For a more detailed understanding of RAG, including its inner workings and best 
 - "What Is Retrieval-Augmented Generation (RAG)? - Oracle" for an overview of RAG and its impact on generative AI systems[18].
 
 - Important [[wikilinks]]:
-  - [[Large Language Models]]
+  - [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/large language models]]
   - [[Information Retrieval]]
   - [[Vector Embeddings]]
   - [[Generative AI]]

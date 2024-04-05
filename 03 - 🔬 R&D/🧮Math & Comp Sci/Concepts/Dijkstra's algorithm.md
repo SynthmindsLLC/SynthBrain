@@ -58,7 +58,7 @@ Consider a graph with nodes A, B, C, D, and E, with edges between them having va
 ### Conclusion
 Dijkstra's algorithm is a powerful tool for finding the shortest path in weighted graphs and is a cornerstone of many applications in computer science and related fields.
 
-- [[Dijkstra's algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Dijkstra's algorithm]]
 - [[Graph Theory]]
 - [[Shortest Path Problem]]
 - [[Priority Queue]]

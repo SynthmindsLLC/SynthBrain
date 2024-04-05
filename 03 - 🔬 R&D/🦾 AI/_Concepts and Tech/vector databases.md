@@ -41,9 +41,9 @@ Vector databases are a cornerstone technology in the AI and machine learning eco
 
 - Important [[wikilinks]]:
   - [[Machine Learning]]
-  - [[Artificial Intelligence]]
+  - [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/artificial intelligence]]
   - [[Data Management]]
-  - [[Large Language Models]]
+  - [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/large language models]]
 
 Citations:
 [1] https://www.datacamp.com/blog/the-top-5-vector-databases

@@ -10,7 +10,7 @@ Tags:
 
 ## Euler's Theorems
 
-Euler's theorems refer to several important results in mathematics attributed to [[Leonhard Euler]]. Two prominent theorems are often discussed: one in graph theory and the other in number theory.
+Euler's theorems refer to several important results in mathematics attributed to [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/People/Leonhard Euler]]. Two prominent theorems are often discussed: one in graph theory and the other in number theory.
 
 ### Euler's Theorem in Graph Theory
 

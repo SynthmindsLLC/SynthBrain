@@ -69,7 +69,7 @@ Autoencoder is an unsupervised machine learning neural network model that encode
 
 
 
-![[image-2-x295-y309.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-2-x295-y309.png]]
 
 
 
@@ -105,15 +105,15 @@ VAEs have an extra sampling layer in addition to an encoder and decoder layer as
 
 
 
-![[image-3-x293-y565.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-3-x293-y565.png]]
 
 
 
-![[image-3-x75-y65.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-3-x75-y65.png]]
 
 
 
-![[image-4-x78-y476.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-4-x78-y476.png]]
 
 
 
@@ -121,7 +121,7 @@ The ground-breaking work of Vaswani et al. "Attention Is All You Need" by the Go
 
 
 
-![[image-4-x291-y41.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-4-x291-y41.png]]
 
 
 
@@ -129,7 +129,7 @@ Attention describes the mechanism for a better understanding of the word's conte
 
 
 
-![[image-5-x19-y161.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-5-x19-y161.png]]
 
 
 
@@ -137,7 +137,7 @@ A multi-head attention mechanism proposes that selfattention can be run multiple
 
 
 
-![[image-5-x287-y416.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-5-x287-y416.png]]
 
 
 
@@ -149,7 +149,7 @@ They proposed a model consisting of two stages: learning a high-capacity languag
 
 
 
-![[image-6-x23-y606.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-6-x23-y606.png]]
 
 
 
@@ -181,7 +181,7 @@ Since the generator does not have direct access to authentic images ,it only lea
 
 
 
-![[image-6-x294-y50.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-6-x294-y50.png]]
 
 
 
@@ -261,7 +261,7 @@ TEXT GENERATION This task involves taking text as input and generating correspon
 
 
 
-![[image-9-x29-y289.png]]
+![[Synthbrain/03 - 🔬 R&D/🦾 AI/_Research Notes/attachments/bengesiAdvancementsGenerativeAI2023/image-9-x29-y289.png]]
 
 
 

@@ -13,6 +13,6 @@ There’s this great TEDTalk, on attention that I remember where this magician i
 [[🧠 SynthBrain/01 - 🎥 Commercial Hub/📸 Content Capture/📖 Joe's Readwise/Books/Thinking, Fast and Slow|Thinking, Fast and Slow]]
 [[Daniel Kahneman]]
 [[System 1 and System 2]]
-[[The Ego Tunnel]]
+[[Synthbrain/01 - 🎥 Commercial Hub/📸 Content Capture/📖 Joe's Readwise/Books/The Ego Tunnel]]
 [[Thomas Metzinger]]
 [[free will]] 

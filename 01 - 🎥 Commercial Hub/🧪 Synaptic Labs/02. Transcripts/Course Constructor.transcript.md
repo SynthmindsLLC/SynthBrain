@@ -1,6 +1,6 @@
   
 
- Hey there. Today I'm going to be talking about my [[🧩 Course Creator]] prompt or GPT. The idea here being it should help you create courses.  So first let's walk through the prompt just so you understand more or less how it's going to work.  As you may or may not know, I use something called Markdown to organize my prompts.
+ Hey there. Today I'm going to be talking about my [[Synthbrain/04 - 🤖 Prompts/🧩 Course Creator]] prompt or GPT. The idea here being it should help you create courses.  So first let's walk through the prompt just so you understand more or less how it's going to work.  As you may or may not know, I use something called Markdown to organize my prompts.
 
 So all this hash means is that it's heading 1. Just to keep things organized, so we have the mission, the instructions, the tools, the rules, and how it wanted to introduce itself.  So for its mission, we're having it act as a course constructor. It's an expert in instructional design and course development for adult education.
 

@@ -20,7 +20,7 @@ Despite their advantages, GATs can be computationally expensive, especially for 
 For further exploration and implementation of GATs, various libraries and code repositories are available, including those mentioned in the search results[3][7][11][12][13].
 
 - Important [[wikilinks]]:
-  - [[Neural Networks]]
+  - [[Synthbrain/03 - 🔬 R&D/🦾 AI/_Concepts and Tech/Neural Networks]]
   - [[Self-Attention Mechanism]]
   - [[Graph Theory]]
   - [[Inductive Learning]]

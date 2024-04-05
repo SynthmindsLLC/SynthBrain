@@ -3,7 +3,7 @@
 ![rw-book-cover](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_gemini_1.5_blog_social_share_800x418.width-1300.png)
 
 ## Metadata
-- Author: [[Demis Hassabis]]
+- Author: [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Demis Hassabis]]
 - Date: 2024-02-15
 - Full Title: Our Next-Generation Model: Gemini 1.5
 - Category: #articles

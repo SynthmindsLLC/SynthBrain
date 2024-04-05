@@ -43,10 +43,10 @@ Consider a flow network with vertices and edges between them having various capa
 ### Conclusion
 Dinic's algorithm is an efficient and effective method for solving the maximum flow problem in networks, with a polynomial time complexity that makes it suitable for a wide range of applications.
 
-- [[Dinic's Algorithm]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Dinic's Algorithm]]
 - [[Graph Theory]]
-- [[Maximum Flow Problem]]
-- [[Breadth-First Search]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Maximum Flow Problem]]
+- [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Breadth-First Search]]
 
 Sources
 [1] Dinic's algorithm - Wikipedia https://en.wikipedia.org/wiki/Dinic%27s_algorithm

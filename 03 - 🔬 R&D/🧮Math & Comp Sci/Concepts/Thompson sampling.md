@@ -30,7 +30,7 @@ Thompson Sampling is a Bayesian method, which means it updates the probability d
 ### Conclusion
 Thompson Sampling is a powerful algorithm for solving the exploration-exploitation trade-off in reinforcement learning and other decision-making scenarios. Its probabilistic nature and adaptability make it a popular choice in both theoretical studies and practical applications[1][2].
 
-- Important [[wikilinks]]: [[Reinforcement Learning]], [[Multi-Armed Bandit Problem]], [[Exploration and Exploitation]], [[Bayesian Methods]]
+- Important [[wikilinks]]: [[Reinforcement Learning]], [[Multi-Armed Bandit Problem]], [[Synthbrain/03 - 🔬 R&D/🧮Math & Comp Sci/Concepts/Exploration and Exploitation]], [[Bayesian Methods]]
 
 Sources
 [1] Thompson sampling - Wikipedia https://en.wikipedia.org/wiki/Thompson_sampling

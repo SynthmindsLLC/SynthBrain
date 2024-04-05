@@ -1,4 +1,4 @@
-[[Yann LeCun]] and [[Mark Zuckerberg]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Yann LeCun]] and [[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Mark Zuckerberg]]
 ===
 
 Eldad: [00:00:00] hi, and welcome back to Voices in AI, where Joseph and I have been,~ uh,~ exploring some of the key leaders in the space, and,~ uh,~ people are influencing,~ uh,~ what we're reading, what we're seeing, and,~ um, what, ~what's happening in the industry, in the field. Today we're going to be talking about two pretty well known names.

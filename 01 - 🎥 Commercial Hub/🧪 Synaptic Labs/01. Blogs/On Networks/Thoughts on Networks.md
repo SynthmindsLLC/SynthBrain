@@ -11,7 +11,7 @@
 # Map of Contexts
 [[X2. Knowledge Graphs.transcript]]
 [[Integrating Graph Learning for Enhanced GPT Conversations]]
-[[01. Getting Started with Obsidian - Your Digital Second Brain]]
+[[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/01. Getting Started with Obsidian - Your Digital Second Brain]]
 [[Knowledge Graph]]
-[[Digital Garden]]
+[[Synthbrain/02 -🧙🏿‍♂️ Learning Lab/🚶🏽‍♀️ Walkthroughs/Second Brain Tutorials/Concepts/Digital Garden]]
 [[Network Science]]

@@ -1,4 +1,4 @@
-[[Geoffrey Hinton]]
+[[Synthbrain/03 - 🔬 R&D/🦾 AI/_People/Geoffrey Hinton]]
 eldad_1_01-10-2024_131250 and joe_1_01-10-2024_081250
 ===
 
