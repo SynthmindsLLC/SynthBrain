@@ -1,4 +1,4 @@
-# Meta 'Misled' the Public Through a Campaign That Downplayed the Amount Harmful Content on Instagram and Facebook, Court Documents Show
+# Meta 'Misled' the Public
 
 ![rw-book-cover](https://i.insider.com/6563c486fe5bc6545ebc17ab?width=1200&format=jpeg)
 

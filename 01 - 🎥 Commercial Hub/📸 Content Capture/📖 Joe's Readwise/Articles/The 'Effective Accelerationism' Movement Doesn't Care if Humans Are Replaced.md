@@ -1,4 +1,4 @@
-# The 'Effective Accelerationism' Movement Doesn't Care if Humans Are Replaced by AI as Long as They're There to Make Money From It
+# The 'Effective Accelerationism' Movement
 
 ![rw-book-cover](https://i.insider.com/657cc90950edbc52a864fe67?width=1200&format=jpeg)
 
