@@ -1,0 +1,40 @@
+# Sora AI’s Problems [And Solutions]
+
+![rw-book-cover](https://i.ytimg.com/vi/cRmPlFidVkk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEkgXChlMA8=&rs=AOn4CLDrcarygcoLZjG4oCiPylwJsVIrmA)
+
+## Metadata
+- Author: [[ColdFusion]]
+- Date: 2024-02-20
+- Full Title: Sora AI’s Problems [And Solutions]
+- Category: #articles
+- Summary: Sora AI, developed by OpenAI, can generate photorealistic videos from text prompts, offering a new level of coherence and stability in video creation compared to previous AI models. The tool's capabilities include combining videos, animating images, and more, potentially impacting industries like graphic arts and videography. However, challenges such as distinguishing left from right and logical concepts remain, and there are concerns about the potential misuse of AI-generated content, prompting the need for verification standards like the c2p standard to address authenticity and trust issues in media production. The democratization of such technology could lead to societal implications, including changes in human perception and the erosion of trust in media, necessitating the development of robust detection systems on social media platforms to prevent the spread of AI-generated content.
+- URL: https://youtube.com/watch?v=cRmPlFidVkk&si=9-knoBOuHtaehlTK
+
+## Highlights
+- Sora can do more than just create videos from scratch it can combine separate videos into one scene animate still images modify non AI videos seamlessly depending on the user prompt and much more ([View Highlight](https://read.readwise.io/read/01hq5hwdn2m2tz0weg5mvzay7v))
+- Sora can animate images such as cartoons or This shea enu we've seen stuff similar to this in research since 2019 but what is new is the ability to combine two videos together in one scene ([View Highlight](https://read.readwise.io/read/01hq5j11973f0bhr2apczd7kfw))
+- it can also simultaneously make up different camera angles of a single scene with just one prompt ([View Highlight](https://read.readwise.io/read/01hq5j1yjd5t0q6k9vke4haetg))
+- back in 2017 Google invented something called a Transformer architecture and they published their findings on it you don't need to know exactly what that means but a Transformer is basically something that makes AI better at generating text ([View Highlight](https://read.readwise.io/read/01hq5j2t38k680cfc73xtg13qn))
+- later on Google noticed something strange they modified the Transformer not just Define patterns in text but patterns in videos too and it worked really well open AI saw that and said thank you very much and ran with the idea ([View Highlight](https://read.readwise.io/read/01hq5j3nghww765fp3r3k1wef2))
+- there's no public info on the training data but open AI did partner with Shutterstock last year so there's a wealth of copyright free data for their AI to chew
+  on ([View Highlight](https://read.readwise.io/read/01hq5j48m1w3php8npykt4xb2y))
+- while these videos look good aside from the cherry-picked examples and a handful of selected public users we can't get a full grasp of how robust the system ([View Highlight](https://read.readwise.io/read/01hq5j4s1r38hszkcfhdvhbnqk))
+- Sora has trouble distinguishing between left and right and also struggles with some logical Concepts and cause a relationships ([View Highlight](https://read.readwise.io/read/01hq5j5dh85cgcqqt7dkjz2hhr))
+- another limitation is that for now to generate such videos requires huge compute power ([View Highlight](https://read.readwise.io/read/01hq5j608pxgdc9q7bqfjmkvhy))
+- what happens when this technology becomes democratized beyond the boundaries of just open AI ([View Highlight](https://read.readwise.io/read/01hq5j6ef1n5t71hs3nh61qhyc))
+- people love to gravitate towards is misinformation and fake news people using AI to create events that never happened we've already seen this with AI images when they were brand new but if it's now video will there be issues with with law enforcement forensic video
+  experts May face challenges in distinguishing between genuine and fabricated or modified video evidence ([View Highlight](https://read.readwise.io/read/01hq5j751swg6h7cb9z1fs8dws))
+- certain situations like if you're filming a particular event or people but the future could turn out something like this the higher tier of videographers that do custom work will remain but the lowest rung that take out their cameras just to film something for stock footage purposes or things of that nature we will start to see their work be impacted again it's not now but we can see the trajectory in a couple of years ([View Highlight](https://read.readwise.io/read/01hq5j95c45ejxvzrh8c99a1ra))
+- AI fatigue it's the concept of AI being able to produce stunning imagery in such volume that it lowers the specialty or visual value of true creative work ([View Highlight](https://read.readwise.io/read/01hq5j9z63r05zp8rrg839r0kh))
+- example on social media you could see a crazy video that would have made our jaws drop just a few years ago but now you just think meh reason being you've been Overexposed to it every visual media anything you can imagine can be done easily with AI now ([View Highlight](https://read.readwise.io/read/01hq5jadabbc7scwtxhbhzrz2p))
+- Beyond this collectively human perception of what we think is real will be altered people aren't going to believe anything they see if someone does a creative athletic feat or an amazing 3D animation the number one thought people could have is isn't that just AI ([View Highlight](https://read.readwise.io/read/01hq5jbj4k9wbsdyz1jte8jpv9))
+- along with AI fatigue comes the further erosion of trust for example in journalism and media production ([View Highlight](https://read.readwise.io/read/01hq5jdmeerkpg8kxs3da1fkaq))
+- when it's democratized there's going to be a lot of people that use it for nefarious reasons and just like deep fakes before it there's a potential for chaos only the law and defamation lawsuits could be a deterrent and don't even get me started on scammers they're going to have a field day with this ([View Highlight](https://read.readwise.io/read/01hq5jedwbkrr6vk1q1a73psda))
+- a watermark isn't going to be enough as that can just be cropped out wouldn't it just be great if we could render AI videos that contain some kind of digital marker ([View Highlight](https://read.readwise.io/read/01hq5jf36fxyf9prar73v93ftc))
+- February of 2021 the BBC Microsoft Adobe and a few other
+  companies got together and realized hey we might have a little problem with generative Ai and misinformation on the horizon their solution was the c2p standard a technical marker that embeds metad data into media and is used for verifying its origin ([View Highlight](https://read.readwise.io/read/01hq5jjsa84n32aqjcvtsqf5gw))
+- ctpa standard is also being adopted by camera manufacturers news stations and of course open Ai and Sora the metadata also can be edited without anyone else knowing ([View Highlight](https://read.readwise.io/read/01hq5jke5yaxjymwhst211d2e1))
+- something as simple as setting a screenshot and resaving the image can destroy that metadata it's a tricky one but of all the companies Tik Tok looks like they might be on to something so Tik Tok issues warnings to viewers when a video might be AI generated ([View Highlight](https://read.readwise.io/read/01hq5jkzvbnrh2xdn2jpjy2nx1))
+- user uploads an AI video they have the option to tag it now normally this wouldn't work very well and You' miss a whole bunch but here's where the clever part comes in the hope is that there's enough honest
+  labels on these AI videos that you can train another AI to learn to distinguish and learn the patterns of what makes an AI video look like an AI video and it's eventually going to do that better than any human could ([View Highlight](https://read.readwise.io/read/01hq5jmnx2r31a0sr2mhxkv4qs))
+- to avoid a world where we have no idea what's real or not we need to start working on robust detection systems built into the very platforms where these videos spread ([View Highlight](https://read.readwise.io/read/01hq5jrf0mh80cpmh5x89748cd))
