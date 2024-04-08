@@ -356,3 +356,9 @@
 
 [[2024-04-06]] 10:27 AM — Synced 0 highlights from 0 documents.
 
+<<<<<<< HEAD
+=======
+[[2024-04-07]] 5:52 AM — Synced 11 highlights from 1 document.
+    - 11 highlights from OpenAI Transcribed Over a Million Hours of YouTube Videos to Train GPT-4 - The Verge
+
+>>>>>>> 7048a43080cc93f2e746642434d1250883afb01b
