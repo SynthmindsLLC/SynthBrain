@@ -367,3 +367,9 @@
 
 [[2024-04-09]] 6:53 AM — Synced 0 highlights from 0 documents.
 
+[[2024-04-10]] 5:30 AM — Synced 26 highlights from 2 documents.
+    - 21 highlights from What Just Happened, What Is Happening Next
+    - 5 highlights from SHOCKING New AI Models! | All New GPT-4, Gemini, Imagen 2, Mistral and Command R+
+
+[[2024-04-10]] 6:30 AM — Synced 0 highlights from 0 documents.
+
