@@ -379,3 +379,8 @@
 [[2024-04-11]] 6:05 PM — Synced 6 highlights from 1 document.
     - 6 highlights from $10 Billion Productivity Startup Notion Wants to Build Your AI Everything App
 
+[[2024-04-12]] 5:53 AM — Synced 19 highlights from 3 documents.
+    - 5 highlights from Introduction
+    - 9 highlights from Values, Types, and Operators
+    - 5 highlights from Udio, the Mysterious GPT Update, and Infinite Attention
+

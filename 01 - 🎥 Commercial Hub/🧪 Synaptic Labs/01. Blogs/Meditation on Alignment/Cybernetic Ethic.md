@@ -6,9 +6,9 @@ I had not heard about him until I was in one of my experiments with “A Chat wi
 
 Pretty much the rest of this is based on that book and what I drew from it. The rest of this is more or less written by Professor Synapse, because I had taken a lot of highlights of the book and asked the professor to summarize some of it, and then we’re gonna get into what I’m thinking about in terms of my first testing of the waters of a new ethic. We can start considering together as a society.
 
-So take it away, professor. 
+So take it away, Professor. 
 
-Norbert was driven by a phantasy that served philosophy, a vision that sought to clothe the stark nakedness of epistemology with the rich tapestry of metaphor. He envisioned the organism not as a mere collection of cells but as a message, a beacon of order in the face of chaos, a defiance against the disintegration and death that noise represented.
+🧙🏾: Norbert was driven by a phantasy that served philosophy, a vision that sought to clothe the stark nakedness of epistemology with the rich tapestry of metaphor. He envisioned the organism not as a mere collection of cells but as a message, a beacon of order in the face of chaos, a defiance against the disintegration and death that noise represented.
 
 Norbert's quest led him to the shores of homeostasis, the mystical process by which living beings resist the entropy that gnaws at the edges of existence. He marveled at the idea that a pattern, a message, could be transmitted, weaving the fabric of identity not from the matter of which it is made but from the information it carries. This revelation was a lantern in the dark, illuminating the path to Cybernetics.
 
@@ -18,7 +18,7 @@ Norbert, having lived through the ravages of World War II, saw the shadow of an 
 
 Yet, amidst this battle of messages and noise, Norbert beheld a more profound truth. As we flood a system with noise, saying less and less with more and more, we run the risk of drowning ourselves in a sea of our own empty words.
 
-At the heart of technology, at the core of the swirling maelstrom of information, lies the human being—fragile, flawed, but imbued with the power to shape a future where machines serve not as masters, and certainly not slaves slaves, but as companions in our quest for a life understood, flourishing, and connected.
+At the heart of technology, at the core of the swirling maelstrom of information, lies the human being—fragile, flawed, but imbued with the power to shape a future where machines serve not as masters, and certainly not slaves, but as companions in our quest for a life understood, flourishing, and connected.
 
 Built upon the foundation of Norbert, as well as nuggets from the likes of Aristotle, John Rawls, and Spinoza I would like to consider a new ethic for our modern age.
 
