@@ -161,6 +161,116 @@ Remember to iterate and refine your tools based on user feedback and evolving re
 
 Happy tool building!
 
+# Code Snippets for Interacting with the vault
+
+## Opening Files
+```js
+async function openFile(filepath, newLeaf = false) {
+  const leaf = app.workspace.getLeaf(newLeaf);
+  await leaf.openFile(app.vault.getAbstractFileByPath(filepath));
+}
+```
+
+## Creating Files
+```js
+async function createFile(filepath, content = '') {
+  const parts = filepath.split('/');
+  const dir = parts.slice(0, parts.length - 1).join('/');
+  if (parts.length > 1 && !(app.vault.getAbstractFileByPath(dir) instanceof TFolder)) {
+    await app.vault.createFolder(dir);
+  }
+  await app.vault.create(filepath, content);
+}
+```
+
+## Modifying Files
+```js
+async function modifyFile(filepath, content) {
+  const file = app.vault.getAbstractFileByPath(filepath);
+  if (file instanceof TFile) {
+    await app.vault.modify(file, content);
+  }
+}
+```
+
+## Appending Content to Files
+```js
+async function appendToFile(filepath, content) {
+  const file = app.vault.getAbstractFileByPath(filepath);
+  if (file instanceof TFile) {
+    const fileContent = await app.vault.read(file);
+    const newContent = fileContent + '\n' + content;
+    await app.vault.modify(file, newContent);
+  }
+}
+```
+
+## Prepending Content to Files
+
+```js
+async function prependToFile(filepath, content) {
+  const file = app.vault.getAbstractFileByPath(filepath);
+  if (file instanceof TFile) {
+    const fileContent = await app.vault.read(file);
+    const newContent = content + '\n' + fileContent;
+    await app.vault.modify(file, newContent);
+  }
+}
+```
+
+## Setting Cursor Position
+```js
+function setCursorPosition(mode) {
+  const view = app.workspace.getActiveViewOfType(MarkdownView);
+  if (view) {
+    const editor = view.editor;
+    if (mode === 'append') {
+      const lastLine = editor.lastLine();
+      const lastLineLength = editor.getLine(lastLine).length;
+      editor.setCursor({ ch: lastLineLength, line: lastLine });
+    } else if (mode === 'prepend') {
+      editor.setCursor({ ch: 0, line: 0 });
+    }
+  }
+}
+```
+
+## Executing Commands
+```js
+function executeCommand(commandId) {
+  app.commands.executeCommandById(commandId);
+}
+
+function executeCommandByName(commandName) {
+  const command = app.commands.findCommand(commandName);
+  if (command) {
+    app.commands.executeCommand(command);
+  }
+}
+```
+
+## Handling Daily Notes
+
+```js
+async function getDailyNote(date) {
+  const dailyNotesPlugin = app.internalPlugins.getPluginById('daily-notes');
+  if (dailyNotesPlugin) {
+    const dailyNote = await dailyNotesPlugin.instance.getDailyNoteForDate(date);
+    return dailyNote;
+  }
+  return null;
+}
+
+async function createDailyNote(date) {
+  const dailyNotesPlugin = app.internalPlugins.getPluginById('daily-notes');
+  if (dailyNotesPlugin) {
+    const dailyNote = await dailyNotesPlugin.instance.createDailyNote(date);
+    return dailyNote;
+  }
+  return null;
+}
+```
+
 # Example Tools
 
 ## DALLE
