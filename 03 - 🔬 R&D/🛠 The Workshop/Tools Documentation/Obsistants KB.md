@@ -17,9 +17,15 @@ Tool interaction primarily involves parameter setting—specifying what informat
 
 Lastly, this plugin allows for the usage of unstructured data to prompt further actions, enabling a flexible interaction model where the user's input can directly influence tool execution. This makes Obsistants a powerful addition to Obsidian for automating tasks and integrating with external data sources.
 
+# Obsistant Feedback and Roadmap
 
-Certainly! Here's a detailed guide on creating Obsistant tools and best practices based on our interaction and the knowledge gained from building the Leonardo AI image generation and upscaling tools.
+For an update on the roadmap you can access it in the [github here](https://github.com/Forgetabyteit/obsistants/blob/master/ROADMAP.md).
 
+There is no need to include enhancements that are already in the roadmap.
+
+For any issues or enhancements, leave a comment in the [Issues tab](https://github.com/Forgetabyteit/obsistants/issues).
+
+Be sure to mark it properly as either an **enhancement** or an **issue**.
 # Creating Obsistant Tools
 
 Obsistant tools are powerful extensions that enhance the functionality of the Obsidian note-taking app. They allow users to perform various tasks and interact with external APIs directly within Obsidian. In this guide, we'll explore the process of creating Obsistant tools, including best practices and tips to ensure a smooth development experience.
