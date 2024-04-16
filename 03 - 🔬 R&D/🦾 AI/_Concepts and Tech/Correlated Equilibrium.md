@@ -19,7 +19,7 @@ The concept of correlated equilibrium is useful because it can lead to outcomes 
 
 - Important [[wikilinks]]:
   - [[Game Theory]]
-  - [[Nash Equilibrium]]
+  - [[Nash equilibrium]]
   - [[Strategic Games]]
   - [[Linear Programming]]
   - [[Mediator in Games]]
