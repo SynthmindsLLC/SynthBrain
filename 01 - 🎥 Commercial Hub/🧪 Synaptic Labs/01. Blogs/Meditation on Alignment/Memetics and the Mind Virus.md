@@ -42,6 +42,8 @@ My generation grew up on memes. Many of us probably don't even know where the wo
 
 Some are funny, others an inside joke. There are dirty ones, and clean ones. Many are dark. Really depends on where you frequent. I was more of a 9 gagger myself, but tumblr, 4chan, and reddit are all breeding grounds for a variety of memes. No matter where you got or shared your memes, though, there were only a handful of commonly used ones, the only thing that really changed were the words slapped haphazardly in the designated spots. Sometimes a new one would come along, riding the strange and opaque rhythms of virality on the early internet. 
 
+
+
 It was this very commonly understood abstraction and ability to stamp it with a few words that make these images so sticky with humans. They are proficient at encapsulating some deeper and common meaning across cultures and backgrounds. They abstract away some deeper shared understanding...
 
 Let me save you another wikipedia trip (your welcome). "Meme" is short for Memetics, which, traces its origins back to the imaginative musings of Richard Dawkins in his seminal 1976 work, "The Selfish Gene." Dawkins coined the term "meme" to delineate units of cultural information that replicate and evolve through imitation, drawing a striking parallel to the biological gene's dance of transmission and mutation. The meme embodies the essence of cultural propagation, from the flickering shadows of prehistoric tales to the dizzying whirls of internet virality.
