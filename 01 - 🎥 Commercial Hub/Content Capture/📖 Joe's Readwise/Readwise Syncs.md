@@ -400,3 +400,6 @@
 
 [[2024-04-16]] 6:59 AM — Synced 0 highlights from 0 documents.
 
+[[2024-04-17]] 5:22 AM — Synced 42 highlights from 1 document.
+    - 42 highlights from Values, Types, and Operators
+
