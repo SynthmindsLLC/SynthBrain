@@ -8,9 +8,9 @@
  
 <iframe src="https://giphy.com/embed/PnTbJDFX0q9IDKnqyx" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/deathwishcoffee-death-wish-coffee-PnTbJDFX0q9IDKnqyx">via GIPHY</a></p>
 
-Halloween as a holiday is kind of an odd one, when you think about it. To save you the trip to Wikipedia, it's Celtic in origin, and marked the transition from the harvest to the winter, and with it a thinning of the veil between the living and the dead. When the Romans came along and did their conquering thing, the holiday blended with the Roman traditions such as Feralia, which commemorated the departed, and celebrating Pomona, the goddess of fruits and trees.
+Halloween as a holiday is kind of an odd one, when you think about it. To save you the trip to Wikipedia, it's Celtic in origin, and marked the transition from the harvest to the winter, and with it a thinning of the veil between the living and the dead. When the Romans came along and did their conquering thing, the holiday blended with the Roman traditions such as Feralia, which commemorated the departed, along with celebrating Pomona, the goddess of fruits and trees.
 
-This cultural salad was spun even further when Christianity gripped Europe in the eighth century, when Pope Greg #3 made November 1 All Saints' Day to honor martyrs and saints. The day before was then made All Hallows' Eve.
+This cultural salad was spun even further when Christianity gripped Europe in the eighth century, and Pope Greg #3 made November 1 All Saints' Day to honor martyrs and saints. The day before then became All Hallows' Eve.
 
 Then capitalism and candy came along, and the religious and mystic nature of the holiday morphed into its current form, which we all know and love.
 
@@ -22,7 +22,7 @@ I would be remiss if I didn't mention arguably the best Halloween movie of all t
 
 <iframe src="https://giphy.com/embed/t9xC86uywfQ1G" width="480" height="338" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hocus-pocus-film-disney-t9xC86uywfQ1G">via GIPHY</a></p>
  
-Beneath its storied façade of cobblestone streets and whispered legends, Salem harbors a darker legacy, etched into the annals of history by fear, hysteria, and the devastating power of a dangerous idea that spread like fire through dead leaves.
+Beneath its storied façade of cobblestone streets and whispered legends, Salem harbors a darker legacy, etched into the annals of history by fear, hysteria, and the devastating power of a dangerous idea that spread like fire through the dead leaves of autumn.
 
 In the year of 1692, Salem Village found itself ensnared in a web of suspicion and paranoia, a community besieged by the fear of the unknown. It began as an innocent game among children, a dalliance with the supernatural that unwittingly unleashed a tempest of hysteria that would forever alter the course of history. From the innocuous beginnings of whispered secrets and forbidden rituals, a spark was ignited, fanning the flames of fear that would soon engulf the village in a conflagration of accusations.
 
@@ -36,7 +36,7 @@ For the accusers, the trials offered a conduit for grievances, a means to settle
 
 As the trials progressed, the initial unity in the face of evil gave way to doubt and despair. The machinery of justice, once thought infallible, was revealed to be fraught with flaws and susceptible to the basest of human instincts. The community of Salem, once tight-knit, found itself ripped apart, its very fabric unraveled by the threads of fear and hysteria.
 
-In the aftermath, as the fervor faded and the cold light of reason began to seep through the cracks of hysteria, the people of Salem were left to reckon with the consequences of their actions. The trials had claimed the lives of twenty innocent souls, and many more were irrevocably changed, their lives shattered by the storm of accusations, or loved ones lost.
+In the aftermath, as the fervor faded and the cold light of reason began to seep through the cracks of madness, the people of Salem were left to reckon with the consequences of their actions. The trials had claimed the lives of twenty innocent souls, and many more were irrevocably changed, their lives shattered by the storm of accusations, or loved ones lost.
 
 The Salem witch trials serve as a poignant reminder of the dangers inherent in the proliferation of fear and the power of an unchecked idea to sow chaos and destruction. It is a tale not of supernatural horror, but of human tragedy—a narrative that underscores the fragility of society and the peril of succumbing to the darker angels of our nature.
 
@@ -48,9 +48,9 @@ My generation grew up on memes. Many of us probably don't even know where the wo
 Some are funny, others an inside joke. There are dirty ones, and clean ones. Many are dark. Really depends on where you frequent. I was more of a 9 gagger myself, but tumblr, 4chan, and reddit are all breeding grounds for a variety of memes. No matter where you got or shared your memes, though, there were only a handful of commonly used ones, the only thing that really changed were the words slapped haphazardly in the designated spots. Sometimes a new one would come along, riding the strange and opaque rhythms of virality on the early internet. 
 
 <iframe src="https://giphy.com/embed/SsKGoXoc7TppCqyJ9v" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/PermissionIO-data-SsKGoXoc7TppCqyJ9v">via GIPHY</a></p>
-It was this very commonly understood abstraction and ability to stamp it with a few words that make these images so sticky with humans. They are proficient at encapsulating common meanings across cultures and backgrounds. They abstract away some deeper shared understanding...
+It was this very commonly understood abstraction and ability to stamp it with a few words that make these images so sticky with humans. They are proficient at encapsulating common meanings across cultures and backgrounds. They abstract away some deeper shared understanding.
 
-Let me save you another wikipedia trip (your welcome). "Meme" is short for Memetics, which, traces its origins back to the imaginative musings of Richard Dawkins in his seminal 1976 work, "The Selfish Gene." Dawkins coined the term "meme" to delineate units of cultural information that replicate and evolve through imitation, drawing a striking parallel to the biological gene's dance of transmission and mutation. The meme embodies the essence of cultural propagation, from the flickering shadows of prehistoric tales to the dizzying whirls of internet virality.
+Let me save you another wikipedia trip (you're welcome). "Meme" is short for Memetics, which, traces its origins back to the imaginative musings of Richard Dawkins in his seminal 1976 work, "The Selfish Gene." Dawkins coined the term "meme" to delineate units of cultural information that replicate and evolve through imitation, drawing a striking parallel to the biological gene's dance of transmission and mutation. The meme embodies the essence of cultural propagation, from the flickering shadows of prehistoric tales to the dizzying whirls of internet virality.
 
 <iframe src="https://giphy.com/embed/eGsbPVeBsllTQmS0Oa" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/democraticmemefactory-meme-richarddawkins-eGsbPVeBsllTQmS0Oa">via GIPHY</a></p>
 Memetics, as a formal field of inquiry, endeavors to dissect and understand the mechanisms through which memes navigate the complex networks of human interaction, mutating and adapting in their quest for replication. Memes, in their essence, have been characterized by their dynamism—akin to biological entities, yet residing in the abstract sphere of culture and thought. They are the carriers of ideology, fashion, language, and every conceivable pattern of human behavior, encapsulating both the mundane and the profound.
@@ -66,7 +66,7 @@ Isn't that a fun word to say? Try it. Diffusion. And no you Machine Learning ner
 
 <iframe src="https://giphy.com/embed/3o6ZsWBAql6Jga1lEA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/southparkgifs-3o6ZsWBAql6Jga1lEA">via GIPHY</a></p>
 
-First is the one the majority of us experience everyday - stimulus diffusion. When your friend is spreading the latest gossip, or your co-worker tells you about some neat life hack they learned on instagram, or you tell your partner about something you saw in the news. The majority of ideas spread on this individual level, where one person packages an idea, and passes it along to the next person in an adult game of telephone.
+First is the one the majority of us experience everyday - stimulus diffusion. When your friend is spreading the latest gossip, or your co-worker tells you about some neat life hack they learned on instagram, or you tell your partner about something you saw in the news. The majority of ideas spread on this individual level, where one person packages an idea, and passes it along to the next person in a game of telephone.
 
 Next up we have *hierarchical diffusion*, which is exactly what it sounds like. When Beyonce tells you to believe something, you believe it. When a doctor tells you it's healthy to drink a glass of wine every night like the French do, you believe it. When Donald Trump tells you to drink bleach to cure COVID, you...well - some believe it. We are social creatures, which means status is very important to our functioning. The byproduct of this is that when someone of higher status shares an idea, that idea is naturally more likely to spread because it is biased by their status. 
 
@@ -90,7 +90,7 @@ Across different eras, the diffusion of ideas has catalyzed cultural transformat
 
 <iframe src="https://giphy.com/embed/4DzKPhXggDEpXEA47k" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/beyonce-queen-renaissance-im-that-girl-4DzKPhXggDEpXEA47k">via GIPHY</a></p>
 
-The Silk Road stands as a testament to the power of idea propagation in fostering cross-cultural exchanges—bridging civilizations through the transit of religious beliefs, technological advancements, and economic practices. This ancient network of trade routes embodies the essence of cultural diffusion, illustrating how ideas, like merchandise, can traverse continents and epochs to kindle innovation and unity.
+The Silk Road is an eastern example to the power of idea propagation in fostering cross-cultural exchanges—bridging civilizations through the transit of religious beliefs, technological advancements, and economic practices. This ancient network of trade routes embodied the essence of cultural diffusion, illustrating how ideas, like merchandise, can traverse continents and epochs to kindle innovation and unity.
 
 # Social Media Propagation
 
@@ -124,6 +124,8 @@ At the heart of virality lies a simple yet profound principle: engagement. Every
 
 To court the favor of these digital deities, one must navigate the labyrinth of trends, adapting swiftly to their whims. Understanding the unique temperaments of each platform's algorithm is akin to learning the language of the gods—a quest fraught with challenge but rich with the promise of digital immortality.
 
+<iframe src="https://giphy.com/embed/wVt0wS52vBagM" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/meme-adventure-time-jake-the-dog-wVt0wS52vBagM">via GIPHY</a></p>
+
 As creators and spectators in this grand spectacle, we are both puppet and puppeteer, intertwined in a ceaseless ballet of content and interaction. And so, in our quest to capture the elusive sprite of virality, let us remember: it is through engagement, relevance, and the art of storytelling that we summon the magic of social media.
 
 ## Sick Algorithms
@@ -139,7 +141,7 @@ Beneath this digital turbulence, individual well-being teeters on the precipice.
 
 <iframe src="https://giphy.com/embed/l46C5r7CiQN5ox7MI" width="480" height="265" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/colbertlateshow-the-late-show-with-stephen-colbert-l46C5r7CiQN5ox7MI">via GIPHY</a></p>
 
-We find ourselves at a crossroads, ensnared by algorithms that echo our desires but reflect back a distorted reality. The path forward calls for a reckoning—a recalibration of the digital compass to favor not just the emotive and sensational but the truthful, the constructive, and the inclusive. It beckons us to wield technology not as a divining rod for virality, but as a beacon for understanding, unity, and genuine human connection. Only then can we navigate the tumultuous seas of social media, steering towards a horizon where technology amplifies not our divisions, but our collective humanity.
+We find ourselves at a crossroads, ensnared by algorithms that echo our desires but reflect back a distorted reality. The path forward calls for a reckoning—a recalibration of the digital compass to favor not just the emotive and sensational but the truthful, the constructive, and the inclusive. It beckons us to wield technology not as a divining rod for virality, but as an opportunity to discover and co-create understanding, unity, and genuine human connection. Only then can we navigate the tumultuous seas of social media, steering towards a horizon where technology amplifies not our divisions, but our collective humanity.
 
 # The Mind Virus
 How do you feel about Elon Musk?
@@ -150,7 +152,7 @@ Chances are your initial reaction to that question was intense, and one sided. Y
 
 In the vast expanse of ideas and beliefs, the concept of a "mind virus," as famously referenced by Elon Musk, emerges as a captivating lens through which we can observe the swirling currents of modern culture—especially around the themes of diversity, equity, inclusion (DEI), 'wokeness,' and cancel culture - which many rail against. But what truly gives this metaphor its poignant resonance is the exploration of how it intersects with the field of memetics, the study of how ideas proliferate within the cultural sphere, mirroring the spread of biological viruses.
 
-Musk has evocatively utilized the "mind virus" metaphor to critique what he perceives as the counterproductive and sometimes harmful aspects of current cultural trends. These trends, according to Musk, can stifle open discourse and encroach upon the individual freedoms under the guise of social progressivism.
+Musk has evocatively utilized the "mind virus" metaphor to critique what he perceives as the counterproductive and sometimes harmful aspects of current cultural trends. These trends, according to Musk and his like, can stifle open discourse and encroach upon the individual freedoms under the guise of social progressivism.
 
 Within the realms of DEI and 'wokeness,' the "mind virus" speaks to a phenomenon wherein ideas—despite their initial aim of fostering inclusivity and understanding—morph into dogmas that can divide as effectively as they unite. This transformation is memetic in nature, embodying the very essence of how cultural shifts can propagate, mutate, and embed themselves within the social consciousness.
 
@@ -164,32 +166,30 @@ Through Musk's lens, the invocation of a "mind virus" serves as a cautionary tal
 
 Musk's narrative is but one thread in the vast memetic tapestry. His own positions and actions, from workplace practices at his companies to his engagements on social platforms, underscore a complex interplay of influences and reactions that too can be seen through the 'mind virus' paradigm. These instances remind us that the spread of ideas is not merely a matter of good versus bad or progressive versus regressive but a more intricate interplay of beliefs, biases, and the ceaseless quest for a balance between unity and diversity, freedom and responsibility.
 
-In embracing and dissecting the notion of 'mind viruses,' we embark on a meta-journey of understanding, challenging us to consider not only the ideas we champion but how we allow them to shape us and our shared realities. It's a conversation about mindfulness in the age of memetics, where awareness of our cognitive and cultural ecosystems might just be the antidote to the very 'viruses' we seek to understand and, perhaps, cure.
+In embracing and dissecting the notion of 'mind viruses,' we must consider a meta-journey of understanding, challenging us to examine not only the ideas we champion but how we allow them to shape us and our shared realities. It's a conversation about mindfulness in the age of memetics, where awareness of our cognitive and cultural ecosystems might just be the antidote to the very 'viruses' we seek to understand and, perhaps, cure.
 
 # Monomemetics
 
 Monomemetics emerges from the rich soil of memetic theory, which posits that ideas, or memes, replicate, mutate, and spread among humans akin to the genetic processes observed in biology. However, monomemetics narrows the lens, focusing on the phenomenon where a singular idea or a set of closely related ideas begins to overshadow, if not entirely consume, the plurality of thought within a culture or society. This concept illustrates the journey of singular memes as they evolve from whispers in the collective subconscious to thunderous echoes that shape our very perception of reality.
 
-### Examples in Contemporary Culture
-
 The contemporary digital landscape provides fertile ground for the proliferation of monomemetic thought. Through the lens of social media, we observe the rapid ascent of singular narratives that, powered by the algorithmic winds, sail across the digital sea, reaching distant shores with unprecedented speed. One poignant example is the remarkable virality of political slogans, which, through repetition and exposure, transform from simple catchphrases into monoliths of ideological alignment. These slogans, empty of nuance yet full of emotional charge, encapsulate complex political ideologies into digestible, repeatable units, often at the expense of deeper understanding and discourse.
-
-Another stark illustration of monomemetics in action is seen in the realm of viral challenges and trends. These phenomena, emerging from the depths of online communities, quickly ascend to global prominence, demonstrating the ability of a single idea—or action—to captivate and influence the mass behavior of individuals across cultures and geographies. Here, the replication fidelity of the original meme is paramount, as each iteration seeks to mirror the last, further entrenching the idea within the cultural zeitgeist.
 
 <iframe src="https://giphy.com/embed/l0G181mopVekKaye4" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-9-the-simpsons-9x22-l0G181mopVekKaye4">via GIPHY</a></p>
 
+Another stark illustration of monomemetics in action is seen in the realm of viral challenges and trends. These phenomena, emerging from the depths of online communities, quickly ascend to global prominence, demonstrating the ability of a single idea—or action—to captivate and influence the mass behavior of individuals across cultures and geographies. Here, the replication fidelity of the original meme is paramount, as each iteration seeks to mirror the last, further entrenching the idea within the cultural zeitgeist.
+
 While the dissemination of ideas is the bedrock upon which societies evolve, the monopolization of the memetic landscape by singular thoughts poses significant threats to our collective growth and understanding. Monomemetic thinking, by its very nature, constrains the intellectual horizon, funneling the vastness of human thought into narrow channels that are both shallow and turbulent. As these dominant ideas eclipse the diversity of thought, we risk cultural stagnation, where innovation and creativity are sacrificed at the altar of conformity.
 
-Moreover, the elevation of singular memes fosters environments ripe for polarization and divisiveness. As individuals and groups cluster around the towering monoliths of monomemetic thought, the space for dialogue and the exchange of diverse ideas diminishes, eroding the foundations of democratic discourse and coexistence. In this climate, the 'other' becomes not just a carrier of different ideas, but an adversary in a battle where the stakes are defined by the dominant memetic narrative.
+Moreover, the elevation of singular memes fosters environments ripe for polarization and divisiveness. As individuals and groups cluster around the towering edifices of monomemetic thought, the space for dialogue and the exchange of diverse ideas diminishes, eroding the foundations of democratic discourse and coexistence. In this climate, the 'other' becomes not just a carrier of different ideas, but an adversary in a battle where the stakes are defined by the dominant memetic narrative.
 
 <iframe src="https://giphy.com/embed/ZXCergtz5oB1m2NIBk" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/southpark-south-park-s26e1-cupid-ye-ZXCergtz5oB1m2NIBk">via GIPHY</a></p>
 In confronting the tide of monomemetics, we are called upon not just to be passive observers, but active participants in the curation of our cognitive and cultural landscapes. This involves fostering environments where diverse ideas can flourish, challenging the ascendancy of singular narratives, and cultivating a collective consciousness that values depth, nuance, and multiplicity of thought.
 
-As stewards of the memetic realm, our path forward lies in the delicate balance between appreciating the power of ideas to unite and the wisdom to recognize when they threaten to divide. In this balancing act, the future of our societal growth and understanding hangs in the balance, beckoning us to navigate the complex dance of monomemetics with eyes wide open and hearts attuned to the harmonious diversity of human thought.
+As stewards of the memetic realm, our path forward lies in the delicate balance between appreciating the power of ideas to unite and the wisdom to recognize when they threaten to divide by uniting TOO MUCH.
 
 # Think Different.
 <iframe src="https://giphy.com/embed/3orif33FLflvXAGVq0" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-20-the-simpsons-20x7-3orif33FLflvXAGVq0">via GIPHY</a></p>
- In the intricate dance of ideas and ideologies, where monomemetic threads seek dominion over the vibrant mosaic of human thought, each of us holds a chisel capable of sculpting the contours of our collective narrative. The veil of monomemetics, thick and often opaque, requires us to wield our tools with intention, grace, and a steadfast commitment to diversity in discourse. We are at an inflection point in our culture, and so must delineate actionable steps and meditative inquiries aimed at dismantling the monoliths of singular thought and nurturing a garden of varied intellectual blooms.
+ In the sculpting of ideas and ideologies, where monomemetic shapes seek dominion over the vibrant mosaic of human thought, each of us holds a chisel capable of sculpting the contours of our collective narrative. The veil of monomemetics, thick and often opaque, requires us to wield our tools with intention, grace, and a steadfast commitment to diversity in discourse. We are at an inflection point in our culture, and so must delineate actionable steps and meditative inquiries aimed at dismantling the monoliths of singular thought and nurturing a garden of varied intellectual blooms.
 
 ### Taking Action Against Monomemetics
 <iframe src="https://giphy.com/embed/QlL2K0TVgpWBZbsztp" width="480" height="375" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bernie2020-bernie-sanders-feel-the-bern-QlL2K0TVgpWBZbsztp">via GIPHY</a></p>

@@ -506,8 +506,9 @@ If the tool generates content that may exceed a certain length, consider adding 
 ## Providing Usage Instructions
 When defining the tool's parameters in the JSON schema, include clear and concise descriptions for each parameter. Explain the purpose of each parameter, its expected format, and any default values. This helps users understand how to use the tool effectively.
 
-## Responding with Feedback 
-After successfully generating files or performing other actions, provide informative feedback to the user. Return success messages that include relevant details like the generated file path or the result of the operation. This keeps users informed about the tool's progress and outcomes.
+## Tool Functionality
+There are two types of returns to consider with tools. 
+1. If a function is within another function, that function returns info to a function. The top level function, or the one that the AI calls, is the return that matters for the LLM, it's the only one it will see. 
+2. Any other return used from function to function is only "seen" by code.
 
-## Iterative Refinement
-Creating effective tools often requires iterative refinement based on user feedback and testing. Be open to making adjustments and improvements based on the insights gained from using the tools in real-world scenarios. Continuously update the tool's code and documentation to enhance its functionality and usability.
+![[Pasted image 20240417124435.png]]
