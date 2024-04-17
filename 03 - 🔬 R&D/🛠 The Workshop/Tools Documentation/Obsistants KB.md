@@ -167,7 +167,26 @@ Remember to iterate and refine your tools based on user feedback and evolving re
 
 Happy tool building!
 
-# Code Snippets for Interacting with the vault
+# Code Snippets for Interacting with the vault or Obsistants
+
+![[Pasted image 20240417190251.png]]
+
+## Get the Active ID Thread
+
+```
+app.plugins.getPlugin("obsistants").settings.activeThreadId
+```  
+Returns the active threadID.
+
+e.g. 
+
+```js
+let chatID = app.plugins.getPlugin("obsistants").settings.activeThreadId;
+``` 
+
+Then that is also the note name, so you can then get into the obsistants folder and get the chat and just parse the JSON from it. Simple for the AI to write that code.  
+  
+Once you have it parsed as JSON you can do whatever you need to with the whole chat programmatically. If you write back to the chat note you will update the chatUI's messages, too.
 
 ## Opening Files
 ```js
