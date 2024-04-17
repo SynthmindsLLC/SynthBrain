@@ -387,7 +387,7 @@
 [[2024-04-12]] 7:40 PM — Synced 4 highlights from 1 document.
     - 4 highlights from Graphormer
 
-[[2024-04-13]] 5:53 AM — Synced 5 highlights from 1 document.
+[[2024-04-13 AI NEWS]] 5:53 AM — Synced 5 highlights from 1 document.
     - 5 highlights from Breaking News: Scaling Will Never Get Us to AGI
 
 [[2024-04-14]] 6:14 AM — Synced 42 highlights from 1 document.
