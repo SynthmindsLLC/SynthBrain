@@ -403,3 +403,7 @@
 [[2024-04-17]] 5:22 AM — Synced 42 highlights from 1 document.
     - 42 highlights from Values, Types, and Operators
 
+[[2024-04-18]] 5:35 AM — Synced 15 highlights from 2 documents.
+    - 7 highlights from Values, Types, and Operators
+    - 8 highlights from Technoptimism, TED, and the Road to the Future
+
