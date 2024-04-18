@@ -163,37 +163,46 @@ Herein lies the crux: *both* sides of the debate wield their narratives as both 
 Through Musk's lens, the invocation of a "mind virus" serves as a cautionary tale against the unexamined adoption and propagation of ideas that, while noble in intent, risk becoming unyielding creeds that polarize rather than unify. It's an invitation to scrutinize not just the content of what's spread but the nature of its transmission and the impact it has on the social fabric.
 
 <iframe src="https://giphy.com/embed/FW9r6tnvGgqkDhrfJ5" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/FW9r6tnvGgqkDhrfJ5">via GIPHY</a></p>
-
 Musk's narrative is but one thread in the vast memetic tapestry. His own positions and actions, from workplace practices at his companies to his engagements on social platforms, underscore a complex interplay of influences and reactions that too can be seen through the 'mind virus' paradigm. These instances remind us that the spread of ideas is not merely a matter of good versus bad or progressive versus regressive but a more intricate interplay of beliefs, biases, and the ceaseless quest for a balance between unity and diversity, freedom and responsibility.
 
 In embracing and dissecting the notion of 'mind viruses,' we must consider a meta-journey of understanding, challenging us to examine not only the ideas we champion but how we allow them to shape us and our shared realities. It's a conversation about mindfulness in the age of memetics, where awareness of our cognitive and cultural ecosystems might just be the antidote to the very 'viruses' we seek to understand and, perhaps, cure.
 
 # Monomemetics
 
-Monomemetics emerges from the rich soil of memetic theory, which posits that ideas, or memes, replicate, mutate, and spread among humans akin to the genetic processes observed in biology. However, monomemetics narrows the lens, focusing on the phenomenon where a singular idea or a set of closely related ideas begins to overshadow, if not entirely consume, the plurality of thought within a culture or society. This concept illustrates the journey of singular memes as they evolve from whispers in the collective subconscious to thunderous echoes that shape our very perception of reality.
+I *think* I made this word up, but I am not entirely certain. Even if I haven't I know the overall concept exists somewhere out there in the ether. 
+
+Monomemetics, or maybe we can just call them **monomemes** for short, emerges from the rich soil of memetic theory, which posits that ideas, or memes, replicate, mutate, and spread among humans akin to the genetic processes observed in biology. However, monomemes narrows the lens, focusing on the phenomenon where a singular idea or a set of closely related ideas begins to overshadow, if not entirely consume, the plurality of thought within a culture or society. This concept illustrates the journey of singular memes as they evolve from whispers in the collective subconscious to thunderous echoes that shape our very perception of reality.
 
 The contemporary digital landscape provides fertile ground for the proliferation of monomemetic thought. Through the lens of social media, we observe the rapid ascent of singular narratives that, powered by the algorithmic winds, sail across the digital sea, reaching distant shores with unprecedented speed. One poignant example is the remarkable virality of political slogans, which, through repetition and exposure, transform from simple catchphrases into monoliths of ideological alignment. These slogans, empty of nuance yet full of emotional charge, encapsulate complex political ideologies into digestible, repeatable units, often at the expense of deeper understanding and discourse.
 
 <iframe src="https://giphy.com/embed/l0G181mopVekKaye4" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-9-the-simpsons-9x22-l0G181mopVekKaye4">via GIPHY</a></p>
 
-Another stark illustration of monomemetics in action is seen in the realm of viral challenges and trends. These phenomena, emerging from the depths of online communities, quickly ascend to global prominence, demonstrating the ability of a single idea—or action—to captivate and influence the mass behavior of individuals across cultures and geographies. Here, the replication fidelity of the original meme is paramount, as each iteration seeks to mirror the last, further entrenching the idea within the cultural zeitgeist.
+Another stark illustration of monomes in action is seen in the realm of viral challenges and trends. These phenomena, emerging from the depths of online communities, quickly ascend to global prominence, demonstrating the ability of a single idea—or action—to captivate and influence the mass behavior of individuals across cultures and geographies. Here, the replication fidelity of the original meme is paramount, as each iteration seeks to mirror the last, further entrenching the idea within the cultural zeitgeist.
 
 While the dissemination of ideas is the bedrock upon which societies evolve, the monopolization of the memetic landscape by singular thoughts poses significant threats to our collective growth and understanding. Monomemetic thinking, by its very nature, constrains the intellectual horizon, funneling the vastness of human thought into narrow channels that are both shallow and turbulent. As these dominant ideas eclipse the diversity of thought, we risk cultural stagnation, where innovation and creativity are sacrificed at the altar of conformity.
 
 Moreover, the elevation of singular memes fosters environments ripe for polarization and divisiveness. As individuals and groups cluster around the towering edifices of monomemetic thought, the space for dialogue and the exchange of diverse ideas diminishes, eroding the foundations of democratic discourse and coexistence. In this climate, the 'other' becomes not just a carrier of different ideas, but an adversary in a battle where the stakes are defined by the dominant memetic narrative.
 
 <iframe src="https://giphy.com/embed/ZXCergtz5oB1m2NIBk" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/southpark-south-park-s26e1-cupid-ye-ZXCergtz5oB1m2NIBk">via GIPHY</a></p>
-In confronting the tide of monomemetics, we are called upon not just to be passive observers, but active participants in the curation of our cognitive and cultural landscapes. This involves fostering environments where diverse ideas can flourish, challenging the ascendancy of singular narratives, and cultivating a collective consciousness that values depth, nuance, and multiplicity of thought.
+In confronting the tide of monomemes, I am calling on you, yes you dear reader, to not just be a passive observer, but active participants in the curation of our cognitive and cultural landscapes. This involves fostering environments where diverse ideas can flourish, challenging the ascendancy of singular narratives, and cultivating a collective consciousness that values depth, nuance, and multiplicity of thought.
 
 As stewards of the memetic realm, our path forward lies in the delicate balance between appreciating the power of ideas to unite and the wisdom to recognize when they threaten to divide by uniting TOO MUCH.
 
 # Think Different.
 <iframe src="https://giphy.com/embed/3orif33FLflvXAGVq0" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-20-the-simpsons-20x7-3orif33FLflvXAGVq0">via GIPHY</a></p>
- In the sculpting of ideas and ideologies, where monomemetic shapes seek dominion over the vibrant mosaic of human thought, each of us holds a chisel capable of sculpting the contours of our collective narrative. The veil of monomemetics, thick and often opaque, requires us to wield our tools with intention, grace, and a steadfast commitment to diversity in discourse. We are at an inflection point in our culture, and so must delineate actionable steps and meditative inquiries aimed at dismantling the monoliths of singular thought and nurturing a garden of varied intellectual blooms.
+ In the sculpting of ideas and ideologies, where monomemes seek dominion over the vibrant mosaic of human thought, each of us holds a chisel capable of sculpting the contours of our collective narrative. The veil of monomemes, thick and often opaque, requires us to wield our tools with intention, grace, and a steadfast commitment to diversity in discourse. We are at an inflection point in our culture, and so must delineate actionable steps and meditative inquiries aimed at dismantling the monoliths of singular thought and nurturing a garden of varied intellectual blooms.
 
-### Taking Action Against Monomemetics
+### Taking Action Against Monomemes
 <iframe src="https://giphy.com/embed/QlL2K0TVgpWBZbsztp" width="480" height="375" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bernie2020-bernie-sanders-feel-the-bern-QlL2K0TVgpWBZbsztp">via GIPHY</a></p>
+If you made it this far - congratulations! I appreciate you. So that was admittedly a lot. And likely overwhelming.
 
+You're probably thinking, "Ok I understand, maybe even agree a little, but I'm just one little old human being on this big rock called Earth. One of BILLIONS of humans. How could I possibly make a difference?"
+
+I'm here to tell you that you can, even if it is a tiny little eensy weensy difference on the grand scale. If enough of us individuals do something, that small different gains momentum, and we can leverage the power of memes to carry our message and our collective purpose through the power of narratives.
+
+There are many things outside of our control in the world, but the one thing we can control is how we react and interact with the people and ideas around us. 
+
+Here's a menu of things to try:
 1. **Cultivate Intellectual Humility**: Recognize the immensity of what you do not know. Embrace perspectives that challenge your own, understanding that growth often sprouts from the soil of discomfort and dissent.
    
 2. **Engage in Deep Listening**: Beyond hearing, truly listen to the narratives and experiences that diverge from your own. In the cacophony of voices, seek the harmony of understanding, even if it disrupts the melody of your existing beliefs.
@@ -206,6 +215,9 @@ As stewards of the memetic realm, our path forward lies in the delicate balance 
 
 ### Reflective Questions for Personal Exploration
 <iframe src="https://giphy.com/embed/IbEd9mDBJlHgI" width="480" height="284" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ted-cruz-not-gonna-happen-IbEd9mDBJlHgI">via GIPHY</a></p>
+Now comes the hard part...looking inward. This is the portion that people often skip. It's easy to push it off, say you'll get to it later.
+
+But you won't. You know it, I know it. So just do it now. Right now. Take 5 minutes, and answer each of these questions for yourself. Bring up that person in your head you are always have imaginary disagreements with, and see if you can or can't do the following. Then meditate on what that says about where your at on your own internal journey.
 
 - **Can you steel-man the other side?** Before you construct your arguments, spend time building the strongest possible version of the opposing view. In understanding its foundations, you may find common ground or, at the very least, gain deeper insight into the divide.
 
@@ -221,7 +233,7 @@ As stewards of the memetic realm, our path forward lies in the delicate balance 
 
 As we navigate the complex web of modern memetics, let us not lose sight of the power inherent in individual choice and collective action. By engaging in these practices and contemplations, we reassert our role not as passive consumers of ideas but as active participants in the shaping of our intellectual landscape. 
 
-In resistance to the tide of monomemetics, we find not only the preservation of diverse thought but the celebration of it. It is in this space, amid the confluence of myriad voices and visions, that we discover the truest expression of our shared humanity—a tapestry woven not from threads of uniformity but from the rich, varied strands of our collective mind.
+In resistance to the tide of monomemes, we find not only the preservation of diverse thought but the celebration of it. It is in this space, amid the confluence of myriad voices and visions, that we discover the truest expression of our shared humanity—a tapestry woven not from threads of uniformity but from the rich, varied strands of our collective mind.
 
 Our journey through the realm of ideas is both a privilege and a responsibility. As we forge ahead, let us do so with open hearts, curious minds, and the unwavering belief that in the diversity of thought lies our greatest strength and our most profound source of unity.
 
