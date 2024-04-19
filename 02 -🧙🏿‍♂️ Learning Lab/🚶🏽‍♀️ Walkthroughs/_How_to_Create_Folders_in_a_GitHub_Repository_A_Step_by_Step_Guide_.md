@@ -17,3 +17,6 @@ To make folders in a GitHub repository, follow these steps:
 6. **Finalize**: Click on "Commit new file."
 
 This method guides users through establishing structure within their repository, merging simplicity with efficiency.
+
+
+To specify a file type when creating a file in a folder within GitHub, simply include the file extension in the file's name as you create it. For instance, if you're creating a markdown file, name it `ReadMe.md`; for a text file, `notes.txt`. The extension you add determines the file's type, allowing GitHub and various editors to recognize and appropriately handle the file. This practice is critical for ensuring that files are usable and recognized by the tools and collaborators involved in your project.
