@@ -407,3 +407,6 @@
     - 7 highlights from Values, Types, and Operators
     - 8 highlights from Technoptimism, TED, and the Road to the Future
 
+[[2024-04-19]] 6:56 AM — Synced 12 highlights from 1 document.
+    - 12 highlights from ‘Her’ AI, Almost Here? Llama 3, Vasa-1, and Altman ‘Plugging Into Everything You Want to Do’
+
