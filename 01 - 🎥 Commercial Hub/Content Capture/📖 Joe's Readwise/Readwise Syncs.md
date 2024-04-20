@@ -384,7 +384,7 @@
     - 9 highlights from Values, Types, and Operators
     - 5 highlights from Udio, the Mysterious GPT Update, and Infinite Attention
 
-[[2024-04-12]] 7:40 PM — Synced 4 highlights from 1 document.
+[[2024-04-12 AI NEWS]] 7:40 PM — Synced 4 highlights from 1 document.
     - 4 highlights from Graphormer
 
 [[2024-04-13 AI NEWS]] 5:53 AM — Synced 5 highlights from 1 document.
@@ -407,6 +407,13 @@
     - 7 highlights from Values, Types, and Operators
     - 8 highlights from Technoptimism, TED, and the Road to the Future
 
+[[2024-04-18]] 5:35 AM — Synced 15 highlights from 2 documents.
+    - 7 highlights from Values, Types, and Operators
+    - 8 highlights from Technoptimism, TED, and the Road to the Future
+
 [[2024-04-19]] 6:56 AM — Synced 12 highlights from 1 document.
     - 12 highlights from ‘Her’ AI, Almost Here? Llama 3, Vasa-1, and Altman ‘Plugging Into Everything You Want to Do’
+
+[[2024-04-20]] 6:31 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from The Ethics of Advanced AI Assistants
 
