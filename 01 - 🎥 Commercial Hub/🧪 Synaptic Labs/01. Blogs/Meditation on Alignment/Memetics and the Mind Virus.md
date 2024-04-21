@@ -1,6 +1,6 @@
 # Witches, witches, everywhere!
 
- I grew up in Massachusetts, which aside from being known for "[[massholes]]" and people unable to pronounce their r's (like anyone could actually find pahkin in hahvahd yahd), we are typically considered one of the best spots for seeing the leaves change during the fall. It's a beautiful time of year as the summer heat subsides to reveal a crispness to the air, allowing for warm days, and cool evenings. It also marks one of my favorite holidays of the year - [[Halloween]]. I never really even particularly enjoyed getting dressed or going trick or treating. I was just a dark kid...I mean my favorite animal was and forever will be bats.
+ I grew up in Massachusetts, which aside from being known for "[[Massholes]]" and people unable to pronounce their r's (like anyone could actually find pahkin in hahvahd yahd), we are typically considered one of the best spots for seeing the leaves change during the fall. It's a beautiful time of year as the summer heat subsides to reveal a crispness to the air, allowing for warm days, and cool evenings. It also marks one of my favorite holidays of the year - [[Halloween]]. I never really even particularly enjoyed getting dressed or going trick or treating. I was just a dark kid...I mean my favorite animal was and forever will be bats.
  
  <iframe src="https://giphy.com/embed/s5kNDeCaG41O0T3R25" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pbsnature-cute-animals-nature-s5kNDeCaG41O0T3R25">via GIPHY</a></p>
  
@@ -10,7 +10,7 @@
 
 Halloween as a holiday is kind of an odd one, when you think about it. To save you the trip to Wikipedia, it's Celtic in origin, and marked the transition from the harvest to the winter, and with it a thinning of the veil between the living and the dead. When the Romans came along and did their conquering thing, the holiday blended with the Roman traditions such as [[Feralia]], which commemorated the departed, along with celebrating [[Pomona]], the goddess of fruits and trees.
 
-This cultural salad was spun even further when Christianity gripped Europe in the eighth century, and [[Pope Greg #3]] made November 1 [[All Saints' Day]] to honor martyrs and saints. The day before then became [[All Hallows' Eve]].
+This cultural salad was spun even further when Christianity gripped Europe in the eighth century, and [[Pope Greg III |Pope Greg #3]] made November 1 [[All Saints' Day]] to honor martyrs and saints. The day before then became [[All Hallows' Eve]].
 
 Then capitalism and candy came along, and the religious and mystic nature of the holiday morphed into its current form, which we all know and love.
 

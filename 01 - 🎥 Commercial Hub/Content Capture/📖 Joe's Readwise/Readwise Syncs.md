@@ -414,6 +414,8 @@
 [[2024-04-19]] 6:56 AM — Synced 12 highlights from 1 document.
     - 12 highlights from ‘Her’ AI, Almost Here? Llama 3, Vasa-1, and Altman ‘Plugging Into Everything You Want to Do’
 
-[[2024-04-20]] 6:31 AM — Synced 9 highlights from 1 document.
+[[Comprehensive Deck Building Guide]] 6:31 AM — Synced 9 highlights from 1 document.
     - 9 highlights from The Ethics of Advanced AI Assistants
+
+[[2024-04-21]] 6:36 AM — Synced 0 highlights from 0 documents.
 
