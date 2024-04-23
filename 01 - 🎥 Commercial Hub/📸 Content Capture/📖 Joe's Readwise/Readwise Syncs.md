@@ -749,3 +749,5 @@
 [[2024-03-23]] 6:51 AM — Synced 8 highlights from 1 document.
     - 8 highlights from Stability AI CEO resigns because you’re ‘not going to beat centralized AI with more centralized AI’
 
+[[2024-04-23]] 4:09 AM — Synced 0 highlights from 0 documents.
+
