@@ -751,3 +751,6 @@
 
 [[2024-04-23]] 4:09 AM — Synced 0 highlights from 0 documents.
 
+[[2024-04-23]] 3:24 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Tiny but Mighty: The Phi-3 Small Language Models With Big Potential
+

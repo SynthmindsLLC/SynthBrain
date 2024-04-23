@@ -4,7 +4,7 @@
 		{"id":"bf7610cdfec6a827","type":"group","x":2620,"y":6200,"width":1095,"height":760,"label":"Commercial Hub"},
 		{"id":"882e6f0ca34f7520","type":"group","x":-320,"y":5720,"width":1016,"height":680,"label":"The Workshop"},
 		{"id":"09f43512440ff58e","type":"group","x":2700,"y":4895,"width":1015,"height":625,"label":"Business Generation"},
-		{"id":"78f38fa3e1897fb2","type":"group","x":1320,"y":5720,"width":1140,"height":440,"label":"Mission Control"},
+		{"id":"78f38fa3e1897fb2","type":"group","x":1200,"y":5620,"width":1140,"height":440,"label":"Mission Control"},
 		{"id":"51940e0caf11d498","type":"group","x":1420,"y":4680,"width":666,"height":375,"label":"Next Year"},
 		{"id":"a79e418066101491","type":"group","x":2960,"y":5798,"width":576,"height":285,"label":"External Vendors"},
 		{"id":"66260aee84274c9c","type":"text","text":"# Value Proposition\nSynthminds offers tailored AI integration and education solutions, empowering everyone - from established businesses to AI novices - with accessible, practical, and cutting-edge AI knowledge and applications for transformative growth. Here are the specific value propositions for different customer segments:\n\n1. **For Mid-Sized Business Leaders**:\n    - Enable businesses to create their own AI Center of Excellence, and develop AI policies.\n    - Assess AI needs to provide a tailored starting point for integration.\n    - Train-the-trainer programs to empower in-house teams with AI knowledge and skills.\n2. **For Adult Learners & Upskilling**:\n    - Partnerships with Uplimit and Yeshiva University Global to deliver high-quality, practical AI education, in addition to our own offerings.\n    - Focused programs for upskilling adult learners with the latest AI tools and applications.\n3. **For AI Enthusiasts & Early Adopters**:\n    - Regular updates and commentary on the latest AI news and trends, making cutting-edge information accessible and practical.\n    - Community forums and workshops to engage with AI trends and reduce information noise.\n4. **For Entrepreneurial Implementers**:\n    - Assistance in integrating AI into new or existing business models and workflows.\n    - Support services including guidance on assessing and evaluating different AI tools, applications, and objectives.\n5. **For Diversity & Inclusion Champions**:\n    - Overt efforts to amplify the diversity of women and people of color in AI, through targeted initiatives and partnerships.\n    - Go out of our way to ensure inclusivity and accessibility in AI education and integration services.\n6. **For Global Ambitions**:\n    - Use of AI itself to manage multilingual and cultural adaptability in our services.\n    - Focus on English-speaking markets initially, with plans to expand globally using AI-driven adaptability.\n\n**Additional Value Proposition**\n- Assist customers in applying for and securing funding for AI integration, offering guidance through the entire funding process.","x":1060,"y":-240,"width":1480,"height":1040,"color":"4"},
@@ -45,12 +45,12 @@
 		{"id":"7acde40254436104","type":"text","text":"Contractos - Youtube editor","x":3141,"y":6498,"width":250,"height":95,"color":"1"},
 		{"id":"d8ecddef507ecbc4","type":"text","text":"CDO - Josh","x":2761,"y":6250,"width":250,"height":60,"color":"1"},
 		{"id":"5fac844898ed1978","type":"text","text":"Sjoerd - Automation Engineering Specialist ","x":-238,"y":6018,"width":354,"height":142,"color":"4"},
-		{"id":"f9ed1d72861948bf","type":"text","text":"COO - Uros Pesic","x":2120,"y":5988,"width":250,"height":90,"color":"3"},
-		{"id":"bfc1cbd9803166da","x":1806,"y":5788,"width":250,"height":60,"color":"3","type":"text","text":"CEO - Mapo"},
-		{"id":"1d2f4f6dd5fec3f3","type":"text","text":"Chief People Officer - Dan","x":1760,"y":5960,"width":343,"height":116,"color":"3"},
-		{"id":"725ab820bbf8914d","type":"text","text":"Project Manager - Rebecca","x":1417,"y":5960,"width":332,"height":116,"color":"3"},
 		{"id":"97536481ec4bcadb","type":"text","text":"CLO - Joseph Rosenbaum","x":659,"y":5160,"width":360,"height":80,"color":"5"},
-		{"id":"72ed0a394610f185","type":"text","text":"**Unfilled** - Educator(s)","x":589,"y":4668,"width":250,"height":140,"color":"5"}
+		{"id":"72ed0a394610f185","type":"text","text":"**Unfilled** - Educator(s)","x":589,"y":4668,"width":250,"height":140,"color":"5"},
+		{"id":"f9ed1d72861948bf","type":"text","text":"COO - Uros Pesic","x":2000,"y":5860,"width":250,"height":118,"color":"3"},
+		{"id":"bfc1cbd9803166da","x":1686,"y":5688,"width":250,"height":60,"color":"3","type":"text","text":"CEO - Mapo (?)"},
+		{"id":"1d2f4f6dd5fec3f3","type":"text","text":"Chief People Officer - Dan","x":1640,"y":5860,"width":343,"height":116,"color":"3"},
+		{"id":"725ab820bbf8914d","type":"text","text":"Project Manager - Rebecca","x":1297,"y":5860,"width":332,"height":116,"color":"3"}
 	],
 	"edges":[
 		{"id":"7482a721f2e2cf4b","fromNode":"78f38fa3e1897fb2","fromSide":"left","toNode":"882e6f0ca34f7520","toSide":"right","fromEnd":"arrow","color":"4"},
@@ -80,6 +80,7 @@
 		{"id":"6f0948bfc4905216","fromNode":"67d804bdd47e6b31","fromSide":"left","toNode":"d8ecddef507ecbc4","toSide":"right","fromEnd":"arrow"},
 		{"id":"2411d696c0acff00","fromNode":"bfc1cbd9803166da","fromSide":"bottom","toNode":"1d2f4f6dd5fec3f3","toSide":"top"},
 		{"id":"b9420dd7501afae3","fromNode":"bfc1cbd9803166da","fromSide":"bottom","toNode":"725ab820bbf8914d","toSide":"top"},
-		{"id":"c8704157a52ca564","fromNode":"bfc1cbd9803166da","fromSide":"bottom","toNode":"f9ed1d72861948bf","toSide":"top"}
+		{"id":"c8704157a52ca564","fromNode":"bfc1cbd9803166da","fromSide":"bottom","toNode":"f9ed1d72861948bf","toSide":"top"},
+		{"id":"ae93758321339e02","fromNode":"d8ecddef507ecbc4","fromSide":"left","toNode":"882e6f0ca34f7520","toSide":"right","color":"4"}
 	]
 }
