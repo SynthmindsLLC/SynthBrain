@@ -1,7 +1,7 @@
 ---
 
 kanban-plugin: basic
-title: <% tp.file.title %>
+title: Synthminds_Obsidian-Services_Semi-Final-Draft
 status: To Do
 priority: High
 company: Synthminds.AI

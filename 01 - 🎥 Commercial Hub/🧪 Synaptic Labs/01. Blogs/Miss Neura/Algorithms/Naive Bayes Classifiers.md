@@ -1,4 +1,4 @@
-﻿Hey friends! 👋 It's me, Miss Neura, here today to unpack the Naive Bayes classifier. 
+Hey friends! 👋 It's me, Miss Neura, here today to unpack the Naive Bayes classifier. 
 
 
 Now I know "naive" doesn't sound very flattering in the name. 😅 But don't let that fool you!

@@ -1,5 +1,5 @@
 ---
-Backlink: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+Backlink: '[[2024-04-23]]'
 categories: 
 Transcript: 
 Proposal:

@@ -1,4 +1,4 @@
-﻿Hey friends! 👋 It's me, Miss Neura, here today to chat all about one of my fave ML algorithms - the Support Vector Machine, or SVM for short. 🤖
+Hey friends! 👋 It's me, Miss Neura, here today to chat all about one of my fave ML algorithms - the Support Vector Machine, or SVM for short. 🤖
 
 
 Now I know SVM sounds like some kind of futuristic gadget. 😅 But in machine learning, it's a super useful method for classification and regression tasks!
