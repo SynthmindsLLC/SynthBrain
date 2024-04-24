@@ -11,8 +11,18 @@ Beyond totems, the concept of spirit guides in Native American spirituality spea
 The journey to connect with a spirit guide is deeply personal and sacred, rooted in rituals and meditations that link the soul of the seeker with the spirit world. Through visions, dreams, and synchronous encounters, spirit guides make their presence known, offering their wisdom and strength to those who walk the path of understanding and enlightenment.
 
 ---
-## Familiarity
-Amidst the myriad of tales and legends that dance through the ages, the motif of familiars — be it the Native American tales of spirit guides, or the Daemons of Philip Pullman's "His Dark Materials" — reveals a deep thread running through the fabric of human imagination. This thread is the universal longing for companionship that transcends the ordinary, a partnership that bridges worlds, wisdoms, and beings.
+# The Legend of the Spirit Bear
+This legend starts ten thousand years ago when the world was covered by frozen glaciers. The glaciers were covered in ice and snow. No one knows how long it had been like that, but the first story recorded was of the Raven, The Creator.
+
+In this Kitasoo First Nations story, long after Raven had descended from the heavens and created The Green, he was still not satisfied. The Raven had created it all - Man started popping out of seed pods along with the first woman. And yet…The Raven was not satisfied. He decided to create a special creature - the Spirit Bear.
+
+According to the legend, Raven made every tenth black bear white to remind the people of a time when glaciers covered the land and how the people should be thankful for the lush and bountiful land of today.The Raven decided to set aside a special place for these bears - a remote island archipelago off the coast of British Columbia. Today this place is known as the Great Bear Rainforest, and it is the only place in the world where the Spirit Bear, also known as the Kermode bear, can be found.
+
+The white Spirit Bears hold a special place in the oral stories and culture of the First Nations people of the area. They are seen as sacred and are never hunted. Spotting a Spirit Bear is considered a great honor and sign of good fortune.
+
+So goes the legend of how Raven the Creator made the Spirit Bear to remind the people to be grateful for the abundance of the land and to always hold in reverence the wonders of the natural world. The Spirit Bear remains an important symbol to this day.
+# Familiarity
+Amidst the tales and legends that dance across our collective psyche, the motif of familiars — be it the Native American tales of spirit guides, or the Daemons of Philip Pullman's "His Dark Materials" — reveals a deep thread running through the fabric of human imagination. This thread is the universal longing for companionship that transcends the ordinary, a partnership that bridges worlds, wisdoms, and beings.
 
 At its core, the enduring appeal of stories about these "familiars" speaks to our common humanity — to our innate yearning to not feel alone in a vast, often inscrutable universe. These narratives offer reassurance that there exists a guide, a guardian, an extension of our innermost selves that can traverse the physical and spiritual realms alongside us.
 
