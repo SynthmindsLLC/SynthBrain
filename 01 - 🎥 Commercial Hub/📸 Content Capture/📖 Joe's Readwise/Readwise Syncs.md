@@ -754,3 +754,6 @@
 [[2024-04-23]] 3:24 PM — Synced 2 highlights from 1 document.
     - 2 highlights from Tiny but Mighty: The Phi-3 Small Language Models With Big Potential
 
+[[2024-04-25]] 4:55 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from Rabbit R1 Hands-On: Early Tests With the $199 AI Gadget - The Verge
+
