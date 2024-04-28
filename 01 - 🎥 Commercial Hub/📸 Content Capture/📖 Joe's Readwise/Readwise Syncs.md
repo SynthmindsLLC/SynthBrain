@@ -759,3 +759,11 @@
 
 [[2024-04-26]] 5:03 PM — Synced 0 highlights from 0 documents.
 
+[[2024-04-28]] 6:48 AM — Synced 0 highlights from 0 documents.
+
+[[2024-04-27]] 6:27 PM — Synced 0 highlights from 0 documents.
+
+[[2024-04-28]] 6:34 AM — Synced 19 highlights from 2 documents.
+    - 15 highlights from ‘Eugenics on Steroids’: The Toxic and Contested Legacy of Oxford’s Future of Humanity Institute
+    - 4 highlights from Connecting Visual Notes With Obsidian Excalidraw
+
