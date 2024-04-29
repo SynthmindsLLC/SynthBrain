@@ -767,3 +767,8 @@
     - 15 highlights from ‘Eugenics on Steroids’: The Toxic and Contested Legacy of Oxford’s Future of Humanity Institute
     - 4 highlights from Connecting Visual Notes With Obsidian Excalidraw
 
+[[2024-04-29]] 6:58 AM — Synced 32 highlights from 3 documents.
+    - 1 highlights from Values, Types, and Operators
+    - 21 highlights from Program Structure
+    - 10 highlights from STUNNING Step for Autonomous AI Agents PLUS OpenAI Defense Against JAILBROKEN Agents
+
