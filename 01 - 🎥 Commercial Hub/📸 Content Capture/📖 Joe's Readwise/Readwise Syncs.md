@@ -778,3 +778,6 @@
 [[2024-04-29]] 1:30 PM — Synced 3 highlights from 1 document.
     - 3 highlights from Desperately Trying to Fathom the Coffeepocalypse Argument
 
+[[2024-04-30]] 7:52 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from Desperately Trying to Fathom the Coffeepocalypse Argument
+
