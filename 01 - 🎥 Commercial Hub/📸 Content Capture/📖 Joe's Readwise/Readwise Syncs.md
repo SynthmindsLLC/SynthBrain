@@ -789,3 +789,8 @@
 [[2024-05-01]] 8:34 PM — Synced 18 highlights from 1 document.
     - 18 highlights from Graph Learning and Geometric Deep Learning — Part 1
 
+[[2024-05-03]] 6:54 AM — Synced 58 highlights from 3 documents.
+    - 20 highlights from The AI Revolution: The Road to Superintelligence
+    - 16 highlights from The Artificial Intelligence Revolution: Part 2
+    - 22 highlights from New OpenAI Model 'Imminent' and AI Stakes Get Raised
+
