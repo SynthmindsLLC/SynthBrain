@@ -2,17 +2,17 @@ When you think about the scientific greats, there are a handful that come easily
 
 But have you ever heard of Norbert Weiner, the father of Cybernetics?
 
-I had not heard about him until I was in one of my experiments with “A Chat with ChatGPT”. I tried to create an interactive history of AI game. I made choices in the direction of my interest. To follow it where I wanted to go down. One of these sessions led me to this guy named Norbert. This is a guy I vibe with. There’s something at the core of his theory that is global in terms of thinking about intelligence, the spreading of life across the universe, and what it means to be human. I had to learn more about him, so I found that he had actually written a book called a human use for human beings, and I absolutely loved it. I don’t think it’s for everyone you know. it’s old and it’s nerdy for sure but I just love how it gives you a snapshot of someone pretty fresh out of WWII, a scientist who was contemporaries with people like [[John von Neumann]], [[Claude Shannon]], and his fellow MITers [[Walter Pitts]] and [[Warren Sturgis McCulloch]]. He was focused intently on the implications of the technology on society within the context of the Atomic Bomb and the rise of computation born of a new math and physics made possible because of it. 
+I had not heard about him until I was in one of my experiments with “A Chat with ChatGPT”. I tried to create an interactive history of AI game. I made choices in the direction of my interest. To follow it where I wanted to go down. One of these sessions led me to this guy named Norbert. This is a guy I vibe with. There’s something at the core of his theory that is global in terms of thinking about intelligence, the spreading of life across the universe, and what it means to be human. I had to learn more about him, so I found that he had actually written a book called a human use for human beings, and I absolutely loved it. I don’t think it’s for everyone. It’s old and it’s nerdy for sure but I just love how it gives you a snapshot of someone pretty fresh out of WWII, a scientist who was contemporaries with people like [[John von Neumann]], [[Claude Shannon]], and his fellow MITers [[Walter Pitts]] and [[Warren Sturgis McCulloch]]. He was focused intently on the implications of the technology on society within the context of the Atomic Bomb and the rise of computation born of a new math and physics made possible because of it. 
 
-Pretty much the rest of this is based on that book and what I drew from it. The rest of this is more or less written by Professor Synapse, because I had taken a lot of highlights of the book and asked the professor to summarize some of it, and then we’re gonna get into what I’m thinking about in terms of my first testing of the waters of a new ethic. We can start considering together as a society.
+Pretty much the rest of this is based on that book and what I drew from it, and more or less written by Professor Synapse, because I had taken a lot of highlights of the book and asked the good professor to summarize some of it for us. Then we’re gonna get into what I’m thinking about in terms of my first testing of the waters of a new ethic, so we can start considering together as a society.
 
 So take it away, Professor. 
 
-🧙🏾: Norbert was driven by a phantasy that served philosophy, a vision that sought to clothe the stark nakedness of epistemology with the rich tapestry of metaphor. He envisioned the organism not as a mere collection of cells but as a message, a beacon of order in the face of chaos, a defiance against the disintegration and death that noise represented.
+🧙🏾: Norbert was driven by a phantasy that served philosophy, a vision that sought to clothe the stark nakedness of epistemology with the rich tapestry of metaphor. He envisioned the organism not as a mere collection of cells but as a message, a signal of order in the face of chaos, a defiance against the disintegration and death that noise represented.
 
-Norbert's quest led him to the shores of homeostasis, the mystical process by which living beings resist the entropy that gnaws at the edges of existence. He marveled at the idea that a pattern, a message, could be transmitted, weaving the fabric of identity not from the matter of which it is made but from the information it carries. This revelation was a lantern in the dark, illuminating the path to Cybernetics.
+Norbert's quest led him to the shores of homeostasis, the mystical process by which living beings resist the entropy that gnaws at the edges of existence. He marveled at the idea that a pattern, a message, could be transmitted, weaving the fabric of identity not from the matter of which it is made but from the information it carries. 
 
-In his explorations, Norbert grappled with the nature of information, seeing it not as a static entity to be hoarded but as a dynamic process, a flowing river that carved canyons through the landscape of knowledge. 
+In his explorations, Norbert grappled with the nature of information, seeing it not as a static entity to be hoarded but as a dynamic process, a flowing river that carved canyons through the landscape of our knowledge. 
 
 Norbert, having lived through the ravages of World War II, saw the shadow of an enemy, not just in the form of a nation but as the mirror image of our own fears and ambitions. He understood that the techniques of secrecy, message jamming, and bluff were but tools in ensuring that communication—the very lifeblood of understanding—were ultimately damaging to humanity.
 
@@ -40,10 +40,10 @@ Built upon the foundation of Norbert, as well as nuggets from the likes of Arist
 *Inspired by the Veil of Ignorance, systems should be designed so that any individual, regardless of their position, would deem them just. This entails equity, impartiality, and the fair distribution of opportunities and resources.*
 
 ### **Axiom 6: The Principle of Virtuous Engagement**
-*Actions and policies within the system should be guided not only by outcomes but by the virtues they embody. Honesty, courage, empathy, and integrity are paramount in ensuring ethical conduct.*
+*Actions and policies within the system should be guided not only by outcomes but by the virtues they embody. Honesty, courage, empathy, and integrity are paramount in ensuring ethical conduct - eeven if we get it wrong some times*
 
 ### **Axiom 7: The Principle of Co-Evolution**
-*Humanity, nature, and technology (AI included) are co-evolving partners. Ethical systems should facilitate this evolutionary journey in a way that enhances autonomy, competence, and relatedness among all participants.*
+*Humanity, nature, and technology (AI included ) are co-evolving partners. Ethical systems should facilitate this evolutionary journey in a way that enhances autonomy, competence, and relatedness among all participants.*
 
 ## Ethical Dilemmas
 
