@@ -796,3 +796,6 @@
 
 [[2024-05-04]] 7:54 AM — Synced 0 highlights from 0 documents.
 
+[[2024-05-04]] 1:54 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from An Epistemic Clusterfuck in the Making
+
