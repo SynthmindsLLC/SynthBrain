@@ -799,3 +799,6 @@
 [[2024-05-04]] 1:54 PM — Synced 4 highlights from 1 document.
     - 4 highlights from An Epistemic Clusterfuck in the Making
 
+[[2024-05-05]] 6:53 AM — Synced 20 highlights from 1 document.
+    - 20 highlights from SHOCKING Robots EVOLVE in the SIMULATION Plus OpenAI Leadership Just... LEAVES?
+
