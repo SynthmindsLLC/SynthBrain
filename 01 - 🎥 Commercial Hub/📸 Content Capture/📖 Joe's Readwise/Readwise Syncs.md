@@ -802,3 +802,6 @@
 [[2024-05-05]] 6:53 AM — Synced 20 highlights from 1 document.
     - 20 highlights from SHOCKING Robots EVOLVE in the SIMULATION Plus OpenAI Leadership Just... LEAVES?
 
+[[2024-05-06]] 7:03 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from AI Conquers Gravity: Robo-Dog, Trained by GPT-4, Stays Balanced on Rolling, Deflating Yoga Ball
+
