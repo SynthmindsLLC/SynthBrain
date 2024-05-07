@@ -808,3 +808,6 @@
 [[2024-05-06]] 8:03 AM — Synced 3 highlights from 1 document.
     - 3 highlights from AI Conquers Gravity: Robo-Dog, Trained by GPT-4, Stays Balanced on Rolling, Deflating Yoga Ball
 
+[[2024-05-07]] 6:46 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from GraphRAG: LLM-Derived Knowledge Graphs for RAG
+
