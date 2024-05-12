@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"33e739aacd5363cf","type":"text","text":"Obsidian","x":-337,"y":-122,"width":250,"height":60},
+		{"id":"1c25793df608ee71","type":"text","text":"Pandoc export to docx","x":-337,"y":-20,"width":250,"height":100},
+		{"id":"52c1a5d3272b1fbb","type":"text","text":"dropbox folder","x":-337,"y":120,"width":250,"height":80},
+		{"id":"22c248a8b3719fb2","type":"text","text":"Create google doc from ","x":-337,"y":460,"width":250,"height":120},
+		{"id":"d1e63f6ed342fbcc","type":"text","text":"Share/edit with internal group","x":-337,"y":260,"width":250,"height":113},
+		{"id":"a8a7f900d8303728","type":"text","text":"Share with External group","x":-337,"y":660,"width":250,"height":113},
+		{"id":"74195dba104d925b","type":"text","text":"Edit and finalize","x":-337,"y":820,"width":250,"height":60},
+		{"id":"c04e6925ac0d0ed7","type":"text","text":"Active Development","x":340,"y":213,"width":250,"height":94},
+		{"id":"31a7e44c0a6bffff","x":340,"y":334,"width":250,"height":60,"type":"text","text":"In Production"},
+		{"id":"9d42956ce6d9424e","type":"text","text":"Prepping","x":340,"y":420,"width":250,"height":60},
+		{"id":"96ef8a7ef1a80d8b","x":340,"y":641,"width":250,"height":60,"type":"text","text":"Abandoned"},
+		{"id":"e795ce63ddae83fb","type":"text","text":"Inactive Development","x":340,"y":520,"width":250,"height":94},
+		{"id":"f51ca21fca0de2fe","x":340,"y":727,"width":250,"height":60,"type":"text","text":"Completed"},
+		{"id":"d80d6c476396ee47","type":"text","text":"Walkthroughs","x":340,"y":827,"width":250,"height":60},
+		{"id":"b9ad53da7b19858d","x":340,"y":118,"width":250,"height":60,"type":"text","text":"Considering"},
+		{"id":"24cd730682bce8b2","type":"text","text":"Templates","x":340,"y":20,"width":250,"height":60},
+		{"id":"6f40edb3a0257d7f","type":"text","text":"Inbox","x":340,"y":-80,"width":250,"height":60},
+		{"id":"fc726f5378aede6a","x":640,"y":230,"width":250,"height":60,"type":"text","text":"Empire"},
+		{"id":"f2809a1bf108c63e","x":920,"y":230,"width":250,"height":60,"type":"text","text":"Rhodes"},
+		{"id":"6c5c9ffec431311a","x":1200,"y":230,"width":250,"height":60,"type":"text","text":"MMP"}
+	],
+	"edges":[
+		{"id":"e10913cbb84a0ce6","fromNode":"33e739aacd5363cf","fromSide":"bottom","toNode":"1c25793df608ee71","toSide":"top"},
+		{"id":"56ff3006844eb742","fromNode":"1c25793df608ee71","fromSide":"bottom","toNode":"52c1a5d3272b1fbb","toSide":"top"},
+		{"id":"468446f3910f7501","fromNode":"52c1a5d3272b1fbb","fromSide":"bottom","toNode":"d1e63f6ed342fbcc","toSide":"top"},
+		{"id":"4a80adeb32cb256b","fromNode":"d1e63f6ed342fbcc","fromSide":"bottom","toNode":"22c248a8b3719fb2","toSide":"top"},
+		{"id":"266751f63ade4213","fromNode":"22c248a8b3719fb2","fromSide":"bottom","toNode":"a8a7f900d8303728","toSide":"top"},
+		{"id":"55692bffb59274fa","fromNode":"a8a7f900d8303728","fromSide":"bottom","toNode":"74195dba104d925b","toSide":"top"},
+		{"id":"2c6c55b243a52f52","fromNode":"74195dba104d925b","fromSide":"right","toNode":"33e739aacd5363cf","toSide":"right"}
+	]
+}

@@ -104,7 +104,7 @@ Platforms like Twitter, Facebook, and Instagram have not only democratized the d
 
 As we wade into the tempestuous seas of social media, it's crucial to unravel the enigma of virality—a phenomenon that transforms simple posts into digital myths whispered across the vast networks of the internet. The architects behind this elusive magic? The algorithms, those silent puppeteers orchestrating the symphony of social media feeds. Here's how they cast their spells on platforms like Twitter, Facebook, Instagram, and TikTok, conjuring virality from the ether.
 
-[[Social media algorithms]] are the gatekeepers of content, designed with a singular purpose: to curate a user experience so enthralling that the digital world becomes inseparable from the rhythm of our daily lives. Using a complex method of signals and rules, these algorithms predict and dictate what content dances before our eyes. They are the architects of digital destiny, determining which posts rise to fame and which fade into the shadows.
+[[Social media algorithms]] are the gatekeepers of content, designed with a singular purpose: to curate a user experience so enthralling that the digital world becomes inseparable from the rhythm of our daily lives. Using a complex method of signals and rules, these algorithms predict and dictate what content we consume. They are the architects of digital destiny, determining which posts rise to fame and which fade into the shadows.
 
 <iframe src="https://giphy.com/embed/3GSoFVODOkiPBFArlu" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/treadmill-lumps-daily-exercise-3GSoFVODOkiPBFArlu">via GIPHY</a></p>
 
@@ -116,22 +116,20 @@ At the heart of virality lies a simple yet profound principle: engagement. Every
 
 2. **Content Freshness**: The age of a post plays a significant role. Newer content, pulsing with the immediacy of now, is often given precedence, captivating audiences with the promise of the moment.
 
-3. **User Preferences**: Algorithms, those keen observers of human behavior, tailor feeds to individual tastes. They remember your laughs, your tears, and your passions, curating content that mirrors your innermost desires.
+3. **User Preferences**: Algorithms, those keen observers of human behavior, tailor feeds to individual tastes. They remember your laughs, your tears, and your passions, curating content that is meant to mirror your interests.
 
 4. **Popularity and Relevance**: As a post gathers momentum, the algorithm takes note, propelling it further into the limelight. Virality is a self-fulfilling prophecy, with popularity begetting more popularity.
 
-5. **The Power of Video**: In the kingdom of content, videos reign supreme, enchanting users with their dynamic storytelling. Platforms favor these visual narratives, granting them passage to a wider audience.
+5. **The Power of Video**: In the kingdom of content, videos reign supreme, capturing the attention of users with their dynamic storytelling. Platforms favor these visual narratives, granting them passage to a wider audience.
 
 To court the favor of these digital deities, one must navigate the labyrinth of trends, adapting swiftly to their whims. Understanding the unique temperaments of each platform's algorithm is akin to learning the language of the gods—a quest fraught with challenge but rich with the promise of digital immortality.
 
 <iframe src="https://giphy.com/embed/wVt0wS52vBagM" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/meme-adventure-time-jake-the-dog-wVt0wS52vBagM">via GIPHY</a></p>
 
-As creators and spectators in this grand spectacle, we are both puppet and puppeteer, intertwined in a ceaseless ballet of content and interaction. And so, in our quest to capture the elusive sprite of virality, let us remember: it is through engagement, relevance, and the art of storytelling that we summon the magic of social media.
+As creators and spectators, we are both puppet and puppeteer, intertwined in a ceaseless game of content and interaction.
 
 ## Sick Algorithms
-In the labyrinth of likes, shares, and retweets lies the alchemy of virality, where emotions cascade and ideas take flight on digital wings, propelled by the unseen currents of algorithms. This digital ether is where content, ranging from the mundane to the profoundly impactful, can ascend to viral status, capturing the collective imagination of millions. Yet, this viral phenomenon, while seemingly benign or even beneficial, harbors a more insidious nature, sculpted by the very algorithms designed to enrapture us.
-
-Social media algorithms, the silent puppeteers of our digital stage, curate with an eye for engagement, cherry-picking content that promises to enchain our attention. What emerges as viral often strums the chords of our deepest emotions—joy, outrage, humor, or sorrow—all beckoning with the siren call of engagement. Novelty, relatability, and the unexpected also join the fray, each element a thread in the tapestry of digital contagion.
+Viral phenomenons, while seemingly benign or even beneficial, harbor a more insidious nature, sculpted by the very algorithms designed to enrapture us by cherry-picking content that is designed to capture our attention. What emerges as viral often strums the chords of our deepest emotions—joy, outrage, humor, or sorrow—all beckoning with the siren call of engagement. Novelty, relatability, and the unexpected also join the fray, each element pressing our personal buttons in order to cultivate digital contagions.
 
 <iframe src="https://giphy.com/embed/KrLqtbe8PGEDe" width="480" height="327" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/meme-ahora-no-por-favor-porfavor-KrLqtbe8PGEDe">via GIPHY</a></p>
 
@@ -150,7 +148,7 @@ Chances are your initial reaction to that question was intense, and one sided. Y
 
 <iframe src="https://giphy.com/embed/4n7JtXyeEyJG4eNE8T" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snl-saturday-night-live-season-46-4n7JtXyeEyJG4eNE8T">via GIPHY</a></p>
 
-In the vast expanse of ideas and beliefs, the concept of a "mind virus," as famously referenced by Elon Musk, emerges as a captivating lens through which we can observe the swirling currents of modern culture—especially around the themes of diversity, equity, inclusion (DEI), 'wokeness,' and cancel culture - which many rail against. But what truly gives this metaphor its poignant resonance is the exploration of how it intersects with the field of memetics, the study of how ideas proliferate within the cultural sphere, mirroring the spread of biological viruses.
+The concept of a "mind virus," as famously referenced by Elon Musk, emerges as a captivating lens through which we can observe the swirling currents of modern culture—especially around the themes of diversity, equity, inclusion (DEI), 'wokeness,' and cancel culture - which many rail against. But what truly gives this metaphor its poignant resonance is the exploration of how it intersects with the field of memetics, the study of how ideas proliferate within the cultural sphere, mirroring the spread of biological viruses.
 
 Musk has evocatively utilized the "mind virus" metaphor to critique what he perceives as the counterproductive and sometimes harmful aspects of current cultural trends. These trends, according to Musk and his like, can stifle open discourse and encroach upon the individual freedoms under the guise of social progressivism.
 
@@ -158,12 +156,12 @@ Within the realms of DEI and 'wokeness,' the "mind virus" speaks to a phenomenon
 
 <iframe src="https://giphy.com/embed/l4FGGeTbK9HNxnWYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbs-roland-woke-l4FGGeTbK9HNxnWYo">via GIPHY</a></p>
 
-Herein lies the crux: *both* sides of the debate wield their narratives as both shield and sword, oftentimes exhibiting behaviors that indicate an adherence to their own variant of a 'mind virus.' Proponents of DEI, for instance, may fall prey to a memetic loop where any dissent is too swiftly categorized as regressive or prejudicial, thereby stifling meaningful dialogue and introspection. Conversely, fierce critics may latch onto examples of of DEI gone too far, generalizing to the entire movement that blinds them to the legitimate grievances and historical contexts fueling these cultural movements, discarding the baby with the bathwater in their rally against 'wokeness' or cancel culture.
+Herein lies the crux: *both* sides of the debate wield their narratives as both shield and sword, oftentimes exhibiting behaviors that indicate an adherence to their own variant of a 'mind virus.' Proponents of DEI, for instance, may fall prey to a memetic loop where any dissent is too swiftly categorized as regressive or prejudicial, thereby stifling meaningful dialogue and introspection. Conversely, fierce critics may latch onto examples of DEI gone too far, generalizing to the entire movement that blinds them to the legitimate grievances and historical contexts fueling these cultural movements, discarding the baby with the bathwater in their rally against 'wokeness' or cancel culture.
 
 Through Musk's lens, the invocation of a "mind virus" serves as a cautionary tale against the unexamined adoption and propagation of ideas that, while noble in intent, risk becoming unyielding creeds that polarize rather than unify. It's an invitation to scrutinize not just the content of what's spread but the nature of its transmission and the impact it has on the social fabric.
 
 <iframe src="https://giphy.com/embed/FW9r6tnvGgqkDhrfJ5" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/FW9r6tnvGgqkDhrfJ5">via GIPHY</a></p>
-Musk's narrative is but one thread in the vast memetic tapestry. His own positions and actions, from workplace practices at his companies to his engagements on social platforms, underscore a complex interplay of influences and reactions that too can be seen through the 'mind virus' paradigm. These instances remind us that the spread of ideas is not merely a matter of good versus bad or progressive versus regressive but a more intricate interplay of beliefs, biases, and the ceaseless quest for a balance between unity and diversity, freedom and responsibility.
+Musk's positions and actions, from workplace practices at his companies to his engagements on social platforms, underscore a complex interplay of influences and reactions that too can be seen through the 'mind virus' paradigm. These instances remind us that the spread of ideas is not merely a matter of good versus bad or progressive versus regressive but a more intricate interplay of beliefs, biases, and the ceaseless quest for a balance between unity and diversity, freedom and responsibility.
 
 In embracing and dissecting the notion of 'mind viruses,' we must consider a meta-journey of understanding, challenging us to examine not only the ideas we champion but how we allow them to shape us and our shared realities. It's a conversation about mindfulness in the age of memetics, where awareness of our cognitive and cultural ecosystems might just be the antidote to the very 'viruses' we seek to understand and, perhaps, cure.
 
@@ -171,7 +169,7 @@ In embracing and dissecting the notion of 'mind viruses,' we must consider a met
 
 I *think* I made this word up, but I am not entirely certain. Even if I haven't I know the overall concept exists somewhere out there in the ether. 
 
-[[Monomemetics]], or maybe we can just call them **monomemes** for short, emerges from the rich soil of memetic theory, which posits that ideas, or memes, replicate, mutate, and spread among humans akin to the genetic processes observed in biology. However, monomemes narrows the lens, focusing on the phenomenon where a singular idea or a set of closely related ideas begins to overshadow, if not entirely consume, the plurality of thought within a culture or society. This concept illustrates the journey of singular memes as they evolve from whispers in the collective subconscious to thunderous echoes that shape our very perception of reality.
+[[Monomemetics]], or maybe we can just call them **monomemes** for short, emerge from the rich soil of memetic theory. However, monomemes narrows the lens, focusing on the phenomenon where a singular idea or a set of closely related ideas begins to overshadow, if not entirely consume, the plurality of thought within a culture or society. This concept illustrates the journey of singular memes as they evolve from whispers in the collective subconscious to thunderous echoes that shape our very perception of reality.
 
 The contemporary digital landscape provides fertile ground for the proliferation of monomemetic thought. Through the lens of social media, we observe the rapid ascent of singular narratives that, powered by the algorithmic winds, sail across the digital sea, reaching distant shores with unprecedented speed. One poignant example is the remarkable virality of political slogans, which, through repetition and exposure, transform from simple catchphrases into monoliths of ideological alignment. These slogans, empty of nuance yet full of emotional charge, encapsulate complex political ideologies into digestible, repeatable units, often at the expense of deeper understanding and discourse.
 
@@ -198,7 +196,7 @@ If you made it this far - congratulations! I appreciate you. So that was admitte
 
 You're probably thinking, "Ok I understand, maybe even agree a little, but I'm just one little old human being on this big rock called Earth. One of BILLIONS of humans. How could I possibly make a difference?"
 
-I'm here to tell you that you can, even if it is a tiny little eensy weensy difference on the grand scale. If enough of us individuals do something, that small different gains momentum, and we can leverage the power of memes to carry our message and our collective purpose through the power of narratives.
+I'm here to tell you that you can, even if it is a tiny little eensy weensy difference on the grand scale. If enough of us individuals do something, that small difference gains momentum, and we can leverage the power of memes to carry our message and our collective purpose through the power of narratives.
 
 There are many things outside of our control in the world, but the one thing we can control is how we react and interact with the people and ideas around us. 
 
