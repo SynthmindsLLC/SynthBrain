@@ -824,3 +824,5 @@
     - 30 highlights from Consequences Matter: Thomas Sowell on “Social Justice Fallacies” | Uncommon Knowledge
     - 3 highlights from OpenAI could unveil its Google search competitor on Monday - The Verge
 
+[[2024-05-12]] 11:58 AM — Synced 0 highlights from 0 documents.
+
