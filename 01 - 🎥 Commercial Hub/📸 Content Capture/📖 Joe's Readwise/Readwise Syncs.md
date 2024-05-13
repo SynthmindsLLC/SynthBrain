@@ -826,3 +826,6 @@
 
 [[2024-05-12]] 11:58 AM — Synced 0 highlights from 0 documents.
 
+[[2024-05-13]] 6:08 AM — Synced 7 highlights from 1 document.
+    - 7 highlights from Superhuman?
+
