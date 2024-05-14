@@ -811,3 +811,21 @@
 [[2024-05-07]] 6:46 AM — Synced 9 highlights from 1 document.
     - 9 highlights from GraphRAG: LLM-Derived Knowledge Graphs for RAG
 
+[[2024-05-09]] 10:25 AM — Synced 79 highlights from 2 documents.
+    - 11 highlights from What’s Up With Llama 3? Arena Data Analysis
+    - 68 highlights from Overview
+
+[[2024-05-07]] 11:09 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from OpenAI Destroyed a Trove of Books Used to Train AI Models. The Employees Who Collected the Data Are Gone.
+
+[[2024-05-09]] 1:47 PM — Synced 0 highlights from 0 documents.
+
+[[2024-05-10]] 10:37 AM — Synced 33 highlights from 2 documents.
+    - 30 highlights from Consequences Matter: Thomas Sowell on “Social Justice Fallacies” | Uncommon Knowledge
+    - 3 highlights from OpenAI could unveil its Google search competitor on Monday - The Verge
+
+[[2024-05-12]] 11:58 AM — Synced 0 highlights from 0 documents.
+
+[[2024-05-13]] 6:08 AM — Synced 7 highlights from 1 document.
+    - 7 highlights from Superhuman?
+
