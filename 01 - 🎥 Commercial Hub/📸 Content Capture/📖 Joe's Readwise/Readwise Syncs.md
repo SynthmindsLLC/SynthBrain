@@ -831,3 +831,6 @@
 
 [[2024-05-14]] 6:18 AM — Synced 0 highlights from 0 documents.
 
+[[2024-05-14]] 7:18 AM — Synced 15 highlights from 1 document.
+    - 15 highlights from GPT-4o - Full Breakdown + Bonus Details
+
