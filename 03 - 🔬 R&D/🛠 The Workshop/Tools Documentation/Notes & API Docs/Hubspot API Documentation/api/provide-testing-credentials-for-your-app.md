@@ -1,0 +1,1 @@
+You may connect your app to a non-product HubSpot account. However, the HubSpot Product team reserves the right to disconnect your account and connect theirs for testing.

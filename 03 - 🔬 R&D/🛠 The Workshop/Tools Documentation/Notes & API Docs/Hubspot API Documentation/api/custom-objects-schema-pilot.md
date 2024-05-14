@@ -1,0 +1,3 @@
+We see value in creating custom objects for solutions HubSpot has not solved with standard objects. Cars, appointments, documents, registrations, applications, and unique product types are just a few examples.
+
+Here is a [guided example](https://developers.hubspot.com/docs/api/crm/crm-custom-objects#custom-object-example) of defining a car object for a car dealership called CarSpot. Try it yourself!

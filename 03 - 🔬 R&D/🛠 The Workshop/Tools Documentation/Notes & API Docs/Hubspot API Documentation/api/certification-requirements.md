@@ -1,0 +1,1 @@
+No, we do not charge you a fee to list or certify your apps in the App Marketplace, nor a fee for installs generated through the App Marketplace. There is no revenue sharing. We are here to support you to make your app of higher quality.
