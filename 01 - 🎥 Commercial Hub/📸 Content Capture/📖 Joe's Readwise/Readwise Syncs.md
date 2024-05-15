@@ -834,3 +834,8 @@
 [[2024-05-14]] 7:18 AM — Synced 15 highlights from 1 document.
     - 15 highlights from GPT-4o - Full Breakdown + Bonus Details
 
+[[2024-05-14]] 9:18 PM — Synced 20 highlights from 3 documents.
+    - 2 highlights from OpenAI Co-Founder Ilya Sutskever to Exit Firm
+    - 10 highlights from Everything Announced at Google I/O 2024 Including Gemini AI, Project Astra, Android 15 and More
+    - 8 highlights from What OpenAI Did
+
