@@ -839,3 +839,6 @@
     - 10 highlights from Everything Announced at Google I/O 2024 Including Gemini AI, Project Astra, Android 15 and More
     - 8 highlights from What OpenAI Did
 
+[[2024-05-15]] 6:18 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Chaos and Tension at OpenAI
+
