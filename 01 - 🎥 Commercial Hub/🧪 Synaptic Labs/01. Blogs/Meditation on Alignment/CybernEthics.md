@@ -45,6 +45,8 @@ Built upon the foundation of Norbert, as well as nuggets from the likes of Arist
 ### **Axiom 7: The Principle of Co-Evolution**
 *Humanity, nature, and technology (AI included ) are co-evolving partners. Ethical systems should facilitate this evolutionary journey in a way that enhances autonomy, competence, and relatedness among all participants.*
 
+### Axiom 8: The Swinging Door Principle
+*Choices fall into one of two categories - those that can be easily undone, and those that cannot. When a choice is more permanent or difficult to reverse, there must be obstacles to making that decision in order to increase the likelihood of reflection and understanding prior to making the decision.*
 ## Ethical Dilemmas
 
 ### The Trolley Problem
