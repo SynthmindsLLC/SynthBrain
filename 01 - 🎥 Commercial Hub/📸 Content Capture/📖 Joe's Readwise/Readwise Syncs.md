@@ -842,3 +842,8 @@
 [[2024-05-15]] 6:18 AM — Synced 5 highlights from 1 document.
     - 5 highlights from Chaos and Tension at OpenAI
 
+[[2024-05-15]] 8:18 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from AI Engineering for Everyone
+
+[[2024-05-15]] 9:18 PM — Synced 0 highlights from 0 documents.
+
