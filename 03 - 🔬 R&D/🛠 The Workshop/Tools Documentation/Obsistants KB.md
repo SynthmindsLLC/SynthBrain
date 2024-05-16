@@ -401,7 +401,7 @@ async function generateAndSaveDalle3Image({ prompt, size = "1024x1024", style = 
 }
 ~~~
 
-The [[generateAndSaveDalle3Image]] tool for Obsistants shows how to interact with an API (in this case, DALLE3) and manage files within Obsidian. Breaking down the code provides insights into creating tools for Obsistants:
+The [[generateDalle3]] tool for Obsistants shows how to interact with an API (in this case, DALLE3) and manage files within Obsidian. Breaking down the code provides insights into creating tools for Obsistants:
 
 1. **Function Definition**: The JavaScript function takes parameters (`prompt`, `size`, `style`) that define the image generation request. These parameters correspond to the user's input and predefined defaults.
 
