@@ -849,3 +849,6 @@
 
 [[2024-05-16]] 9:18 PM — Synced 0 highlights from 0 documents.
 
+[[2024-05-17]] 4:33 PM — Synced 64 highlights from 1 document.
+    - 64 highlights from The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence
+
