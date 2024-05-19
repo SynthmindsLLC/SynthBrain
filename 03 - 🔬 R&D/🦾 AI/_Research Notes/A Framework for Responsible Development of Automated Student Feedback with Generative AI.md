@@ -4,7 +4,7 @@ Authors: "Euan D. Lindsay, Aditya Johri, Johannes Bjerva"
 URL: "http://arxiv.org/abs/2308.15334"
 Zotero Link: "zotero://select/library/items/PUW3AQFM"
 tags:
-  - "#Computer-Science---Artificial-Intelligence, #Computer-Science---Computation-and-Language, #Computer-Science---Computers-and-Society, #education, #automation, #feedback, #assessment, #higher-education"
+  - "#Computer-Science---Artificial-Intelligence #Computer-Science---Computation-and-Language #Computer-Science---Computers-and-Society #education #automation #feedback #assessment #higher-education"
 ---
 # Summary
 
