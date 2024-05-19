@@ -20,7 +20,7 @@ Week of 4/15/24
 Week of 4/8/24
 - created page for bookkeeping
 - [x] set up welcome emails for every course #YU 
-- [ ] add additional modules to nonprofit #YU 
+- [x] add additional modules to nonprofit #YU 
 - added "Access to course at start" for every course in the module lessons so it would show up in store
 - hid all communities, so only show up once you join the course
 - [ ] 
