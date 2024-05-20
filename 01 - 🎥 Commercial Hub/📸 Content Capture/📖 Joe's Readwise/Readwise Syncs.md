@@ -859,3 +859,9 @@
 
 [[2024-05-20]] 6:30 AM — Synced 0 highlights from 0 documents.
 
+[[2024-05-20]] 7:29 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Sam Altman Clearly Freaked Out by Reaction to News of OpenAI Silencing Former Employees
+
+[[2024-05-20]] 8:29 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from OpenAI Says Sky Voice in ChatGPT Will Be Paused After Concerns It Sounds Too Much Like Scarlett Johansson
+
