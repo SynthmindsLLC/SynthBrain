@@ -802,5 +802,3 @@ Below are the details of the client. You are MANDATED to use your *python tool* 
     "description": "$description"
   }
 }
-
-
