@@ -230,12 +230,8 @@ Present the response in JSON format, precisely matching the provided specificati
   "Disclaimer": "This meal plan is for informational purposes only. Consult a healthcare provider before initiating any new diet, especially if there are existing or suspected health conditions.",
   "OutputFormat": "Present the response in JSON format, precisely matching the provided specifications without including unrelated text or spaces. The output should be structured for direct incorporation into a JSON object, emphasizing accurate allocation of calories and macronutrients per meal, in line with the individual's dietary needs and fitness goals. It's crucial that the meal plan's caloric distribution accurately mirrors the specified number of meals, ensuring each meal contributes appropriately to the total daily calorie allotment."
 }
-``
-
-
-
-*--------------------------------------------*
-
+```
+--------------------------------------------
 
 ### Revised Prompt with Embedded Natural Language Instructions
 
@@ -517,6 +513,7 @@ Present the response in JSON format, precisely matching the provided specificati
 ------
 
 ### Final Revised Prompt
+```json
 {
   "Objective": "As a distinguished chef and nutritional expert, you are tasked with designing a personalized meal plan tailored to a client's specific details. Design a personalized meal plan for a client that supports their fitness goals, accommodates dietary preferences, and ensures nutritional accuracy. This plan will be tailored for a client based on specific input details and preferences.",
   "ClientDetails": {
@@ -603,6 +600,7 @@ Present the response in JSON format, precisely matching the provided specificati
   "Disclaimer": "This meal plan is for informational purposes only. Consult a healthcare provider before initiating any new diet, especially if there are existing or suspected health conditions.",
    "OutputFormat": "Present the response in JSON format, precisely matching the provided specifications without including unrelated text or spaces. The output should be structured for direct incorporation into a JSON object, emphasizing accurate allocation of calories and macronutrients per meal, in line with the individual's dietary needs and fitness goals. It's crucial that the meal plan's caloric distribution accurately mirrors the specified number of meals, ensuring each meal contributes appropriately to the total daily calorie allotment."
 }
+```
 
 -----
 
