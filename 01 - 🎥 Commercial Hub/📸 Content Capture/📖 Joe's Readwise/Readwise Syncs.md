@@ -857,3 +857,5 @@
 [[2024-05-19]] 5:30 AM — Synced 10 highlights from 1 document.
     - 10 highlights from OpenAI Founders Sam Altman and Greg Brockman Go on the Defensive After Top Safety Researchers Quit
 
+[[2024-05-20]] 6:30 AM — Synced 0 highlights from 0 documents.
+
