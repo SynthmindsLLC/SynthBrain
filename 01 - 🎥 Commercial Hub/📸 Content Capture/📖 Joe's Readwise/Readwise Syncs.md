@@ -868,3 +868,6 @@
 [[2024-05-21]] 6:30 AM — Synced 9 highlights from 1 document.
     - 9 highlights from The OpenAI Board Was Right
 
+[[2024-05-21]] 12:30 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from Scaling Monosemanticity: Extracting Interpretable Features From Claude 3 Sonnet
+
