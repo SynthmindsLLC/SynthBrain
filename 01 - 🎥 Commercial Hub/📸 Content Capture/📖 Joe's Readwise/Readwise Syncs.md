@@ -865,3 +865,6 @@
 [[2024-05-20]] 8:29 AM — Synced 4 highlights from 1 document.
     - 4 highlights from OpenAI Says Sky Voice in ChatGPT Will Be Paused After Concerns It Sounds Too Much Like Scarlett Johansson
 
+[[2024-05-21]] 6:30 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from The OpenAI Board Was Right
+
