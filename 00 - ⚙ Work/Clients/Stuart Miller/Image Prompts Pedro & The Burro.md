@@ -129,6 +129,8 @@ The overall atmosphere is one of unity, joy, and the transformative power of fri
 Here are one-line instructions in the format you specified for each of the artists mentioned:
 
 José María Velasco:
+A lush, vibrant field filled with wildflowers in shades of red, yellow, purple and white. In the foreground, Pedro, a happy young boy, is playing and running joyfully alongside an adorable burro. In another part of the scene, Pedro is gently brushing the burro's fur, making it shine under the warm sunlight. There is a large tree in the background, casting a shady spot perfect for Pedro and the burro to take an afternoon nap together, with Pedro's head resting contentedly on the burro's soft back.  
+
 [Naturalistic with warm glowing palette] [José María Velasco] [4:3 aspect ratio] [Mexican village, landscapes, luminous lighting]
 
 Diego Rivera (early works):
