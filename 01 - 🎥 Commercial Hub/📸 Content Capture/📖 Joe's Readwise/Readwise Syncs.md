@@ -874,3 +874,5 @@
 [[2024-05-21]] 6:30 PM — Synced 55 highlights from 1 document.
     - 55 highlights from Scaling Monosemanticity: Extracting Interpretable Features From Claude 3 Sonnet
 
+[[2024-05-21]] 7:30 PM — Synced 0 highlights from 0 documents.
+
