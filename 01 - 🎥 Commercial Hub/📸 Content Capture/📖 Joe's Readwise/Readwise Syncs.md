@@ -881,3 +881,9 @@
 [[2024-05-22]] 9:30 PM — Synced 20 highlights from 1 document.
     - 20 highlights from Scaling Monosemanticity: Extracting Interpretable Features From Claude 3 Sonnet
 
+[[2024-05-23]] 7:29 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from Microsoft Promises a 'Whale' for GPT-5, Anthropic Delves Inside a Model’s Mind and Altman Stumbles
+
+[[2024-05-23]] 8:30 AM — Synced 13 highlights from 1 document.
+    - 13 highlights from Microsoft Promises a 'Whale' for GPT-5, Anthropic Delves Inside a Model’s Mind and Altman Stumbles
+
