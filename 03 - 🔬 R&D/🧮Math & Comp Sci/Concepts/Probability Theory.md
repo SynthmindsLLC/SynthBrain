@@ -37,6 +37,6 @@ Probability theory is a branch of mathematics concerned with the analysis of ran
 
 Probability theory is a foundational component of mathematics and statistics, with wide-ranging implications for virtually all fields that involve uncertainty and data analysis.
 
-- Important [[wikilinks]]: [[Random Variables]], [[Probability Distributions]], [[Statistics]], [[Risk Assessment]], [[Law of Large Numbers]], [[Central Limit Theorem]], [[Bayes' Theorem]]
+- Important [[wikilinks]]: [[Random Variables]], [[Probability Distributions]], [[statistics]], [[Risk Assessment]], [[Law of Large Numbers]], [[Central Limit Theorem]], [[Bayes' Theorem]]
 
 Sources

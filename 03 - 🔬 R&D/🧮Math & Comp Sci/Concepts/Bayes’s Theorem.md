@@ -44,7 +44,7 @@ $$ P(\text{User}|\text{Positive}) = \frac{P(\text{Positive}|\text{User}) \cdot P
 Bayes' Theorem is a powerful tool for understanding the likelihood of events in the presence of uncertainty and for making informed decisions based on evolving information. Its ability to incorporate new evidence into existing beliefs makes it invaluable in various fields[2][3][4][5][13].
 
 - [[Probability Theory]]
-- [[Statistics]]
+- [[statistics]]
 - [[Conditional Probability]]
 
 Sources
