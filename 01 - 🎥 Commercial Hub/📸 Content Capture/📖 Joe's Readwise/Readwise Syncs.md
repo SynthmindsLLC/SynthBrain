@@ -889,3 +889,9 @@
 
 [[2024-05-23]] 9:29 AM — Synced 0 highlights from 0 documents.
 
+[[2024-05-24]] 6:47 AM — Synced 0 highlights from 0 documents.
+
+[[2024-05-24]] 6:27 AM — Synced 3 highlights from 2 documents.
+    - 1 highlights from Bold, Yet Responsible. And Crunchy. - The Verge
+    - 2 highlights from We Live in a Culture of Magpies
+
