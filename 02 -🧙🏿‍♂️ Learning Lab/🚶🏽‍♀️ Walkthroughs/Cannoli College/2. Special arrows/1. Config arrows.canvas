@@ -10,11 +10,11 @@
 		{"type":"text","text":"Orange arrows are config arrows. You can change the color of arrows by left clicking on them and then clicking on the color pallet ","id":"f1b3951087221764","x":-160,"y":-660,"width":393,"height":338},
 		{"type":"text","text":"","id":"18629c0795e99c52","x":-28,"y":-158,"width":365,"height":295,"color":"6"},
 		{"type":"text","text":"1.5","id":"f2066662ccfdf12b","x":-228,"y":450,"width":106,"height":68,"color":"6"},
+		{"type":"text","text":"Labeled config arrows pointing to call nodes will try to set their content to the LLM config setting named in the arrow's label.","id":"9750898ccab8b2ec","x":-469,"y":200,"width":869,"height":160},
 		{"type":"text","text":"When will gpt-5 come out?","id":"901e534d654dbe8d","x":-285,"y":640,"width":250,"height":60},
 		{"type":"text","text":"gpt-4","id":"32895b9cbe65ebf5","x":-385,"y":450,"width":148,"height":50,"color":"6"},
 		{"type":"text","text":"","id":"f9768071dcaaf641","x":24,"y":445,"width":345,"height":415,"color":"6"},
 		{"type":"text","text":"Config arrows can also be used to set the LLM config of call nodes, overriding the default.","id":"f75c463c060098f5","x":-800,"y":360,"width":364,"height":280},
-		{"type":"text","text":"Labeled config arrows pointing to call nodes will try to set their content to the LLM config setting named in the arrow's label.","id":"9750898ccab8b2ec","x":-469,"y":200,"width":869,"height":160},
 		{"type":"text","text":"This call node will request a gpt-4 response with a temperature of 1.5, overriding the defaults.\n\n(You can set the defaults in the plugin settings)","id":"1a6e63c23f2fd598","x":-760,"y":670,"width":324,"height":470}
 	],
 	"edges":[
