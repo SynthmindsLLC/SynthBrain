@@ -918,3 +918,6 @@
 [[2024-05-28]] 2:06 PM — Synced 2 highlights from 1 document.
     - 2 highlights from Sam Altman, Then and Now
 
+[[2024-05-28]] 3:06 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from OpenAI Has a New Safety Team - It’s Run by Sam Altman
+
