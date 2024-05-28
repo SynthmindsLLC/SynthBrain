@@ -915,3 +915,6 @@
 
 [[2024-05-28]] 5:43 AM — Synced 0 highlights from 0 documents.
 
+[[2024-05-28]] 2:06 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Sam Altman, Then and Now
+
