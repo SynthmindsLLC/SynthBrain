@@ -895,3 +895,23 @@
     - 1 highlights from Bold, Yet Responsible. And Crunchy. - The Verge
     - 2 highlights from We Live in a Culture of Magpies
 
+[[2024-05-24]] 7:57 PM — Synced 21 highlights from 1 document.
+    - 21 highlights from The First Law of Complexodynamics
+
+[[2024-05-25]] 7:18 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from The First Law of Complexodynamics
+
+[[2024-05-25]] 7:52 PM — Synced 14 highlights from 2 documents.
+    - 7 highlights from Another OpenAI Researcher Quits, Issuing Cryptic Warning
+    - 7 highlights from The First Law of Complexodynamics
+
+[[2024-05-26]] 7:47 AM — Synced 19 highlights from 3 documents.
+    - 6 highlights from Google Scrambles to Manually Remove Weird AI Answers in Search - The Verge
+    - 4 highlights from Understanding Low Rank Adaptation (LoRA) in Fine-Tuning LLMs
+    - 9 highlights from A Theoretical "Case Against Education"
+
+[[2024-05-26]] 8:03 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from Leaked OpenAI Documents Show Sam Altman Was Clearly Aware of Silencing Former Employees
+
+[[2024-05-28]] 5:43 AM — Synced 0 highlights from 0 documents.
+

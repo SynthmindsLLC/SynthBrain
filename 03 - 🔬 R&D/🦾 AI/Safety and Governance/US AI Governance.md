@@ -2,7 +2,7 @@ Biden releases [exec order on AI](https://www.whitehouse.gov/briefing-room/state
 	* [](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/?utm_source=link)
 	* Establishes new standards for [[AI]] safety and security, including requiring developers of high-risk [[AI]] systems to share test results with the government. Directs agencies like [[NIST]] and [[DHS]] to develop tools and standards for evaluating [[AI]] system safety.
 	- Calls for protecting Americans' [[privacy]] from [[AI]] risks by supporting [[privacy-preserving techniques]] and strengthening privacy protections in government [[AI]] use.
-	- Seeks to prevent [[algorithmic discrimination]] and promote [[equity]] by providing guidance to federal agencies and contractors on avoiding discriminatory uses of [[AI]].
+	- Seeks to prevent [[algorithmic discrimination]] and promote [[Equity]] by providing guidance to federal agencies and contractors on avoiding discriminatory uses of [[AI]].
 	- Aims to protect consumers by encouraging responsible [[AI]] use in areas like healthcare and education.
 	- Supports workers by developing principles to mitigate AI's negative impacts on jobs and [[labor rights]].
 	- Promotes innovation and competition in [[AI]] by providing resources to researchers and small businesses.
