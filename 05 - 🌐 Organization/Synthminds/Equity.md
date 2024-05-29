@@ -8,7 +8,7 @@ tags:
   - SynthmindsAI
   - Equity
 excalidraw-open-md: true
-file folder: <% tp.file.folder() %>
+file folder: Synthminds
 ---
 # Synthminds AI Equity Distribution
 

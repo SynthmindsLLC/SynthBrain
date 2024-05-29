@@ -921,3 +921,9 @@
 [[2024-05-28]] 3:06 PM — Synced 3 highlights from 1 document.
     - 3 highlights from OpenAI Has a New Safety Team - It’s Run by Sam Altman
 
+[[2024-05-29]] 7:30 AM — Synced 24 highlights from 4 documents.
+    - 1 highlights from OpenAI researcher who resigned over safety concerns joins Anthropic - The Verge
+    - 12 highlights from Microsoft, Beihang Release MoRA, an Efficient LLM Fine-Tuning Technique
+    - 9 highlights from Ex-OpenAI Board Member Reveals What Led to Sam Altman's Brief Ousting
+    - 2 highlights from OpenAI Is SERIOUSLY Concerning Me…
+
