@@ -935,3 +935,6 @@
     - 33 highlights from Scaling Monosemanticity: Extracting Interpretable Features From Claude 3 Sonnet
     - 55 highlights from The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence
 
+[[2024-05-30]] 4:48 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from Disturbing and Misleading Efforts to Defame Helen Toner Through Misdirection
+
