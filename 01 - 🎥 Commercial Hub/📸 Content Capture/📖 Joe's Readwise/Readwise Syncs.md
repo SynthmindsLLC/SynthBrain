@@ -927,3 +927,11 @@
     - 9 highlights from Ex-OpenAI Board Member Reveals What Led to Sam Altman's Brief Ousting
     - 2 highlights from OpenAI Is SERIOUSLY Concerning Me…
 
+[[2024-05-30]] 7:48 AM — Synced 121 highlights from 6 documents.
+    - 7 highlights from Elon Musk: 1; Yann LeCun: 1; Humanity: 0
+    - 3 highlights from Kara Swisher, Sam Altman, and the OpenAI Board
+    - 6 highlights from A Theoretical "Case Against Education"
+    - 17 highlights from Understanding Low Rank Adaptation (LoRA) in Fine-Tuning LLMs
+    - 33 highlights from Scaling Monosemanticity: Extracting Interpretable Features From Claude 3 Sonnet
+    - 55 highlights from The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence
+
