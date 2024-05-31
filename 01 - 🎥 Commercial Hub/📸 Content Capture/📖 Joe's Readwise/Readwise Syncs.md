@@ -938,3 +938,8 @@
 [[2024-05-30]] 4:48 PM — Synced 6 highlights from 1 document.
     - 6 highlights from Disturbing and Misleading Efforts to Defame Helen Toner Through Misdirection
 
+[[2024-05-31]] 8:26 AM — Synced 59 highlights from 3 documents.
+    - 9 highlights from Harnessing Large Language Models With Neo4j
+    - 27 highlights from Knowledge Graphs & LLMs: Fine-Tuning vs. Retrieval-Augmented Generation
+    - 23 highlights from Knowledge Graphs & LLMs: Multi-Hop Question Answering
+
