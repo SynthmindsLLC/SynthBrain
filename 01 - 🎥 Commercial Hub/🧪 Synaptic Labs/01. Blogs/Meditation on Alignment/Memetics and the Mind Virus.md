@@ -1,6 +1,9 @@
 # Witches, witches, everywhere!
-
- I grew up in Massachusetts, which aside from being known for "[[Massholes]]" and people unable to pronounce their r's (like anyone could actually find pahkin in hahvahd yahd), we are typically considered one of the best spots for seeing the leaves change during the fall. It's a beautiful time of year as the summer heat subsides to reveal a crispness to the air, allowing for warm days, and cool evenings. It also marks one of my favorite holidays of the year - [[Halloween]]. I never really even particularly enjoyed getting dressed or going trick or treating. I was just a dark kid...I mean my favorite animal was and forever will be bats.
+When we do not know whether a particular phenomenon we observe is the work of God or the work of Satan, the very roots of our faith are shaken. It is only under such a condition that it is possible to make a significant, willful choice between God and Satan, and this choice may lead to diabolism, or (in other words) to witchcraft. Furthermore, it is only in an atmosphere in which witchcraft is genuinely possible that witch-hunting flourishes as a significant activity. Thus it is no accident that Russia has had its Berias and that we have our McCarthys.
+Norbert Weiner
+ 
+ 
+ I grew up in Massachusetts, which aside from being known for "[[Massholes]]" and people unable to pronounce their r's (like anyone could actually find pahkin in hahvahd yahd), we are typically considered one of the best spots for seeing the leaves change during the fall. It's a beautiful time of year as the summer heat subsides to reveal a crispness to the air, allowing for warm days, and cool evenings. It also marks one of my favorite holidays - [[Halloween]]. I never really even particularly enjoyed getting dressed up or going trick or treating. I was just a dark kid...I mean my favorite animal was and forever will be bats.
  
  <iframe src="https://giphy.com/embed/s5kNDeCaG41O0T3R25" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pbsnature-cute-animals-nature-s5kNDeCaG41O0T3R25">via GIPHY</a></p>
  
@@ -10,9 +13,9 @@
 
 Halloween as a holiday is kind of an odd one, when you think about it. To save you the trip to Wikipedia, it's Celtic in origin, and marked the transition from the harvest to the winter, and with it a thinning of the veil between the living and the dead. When the Romans came along and did their conquering thing, the holiday blended with the Roman traditions such as [[Feralia]], which commemorated the departed, along with celebrating [[Pomona]], the goddess of fruits and trees.
 
-This cultural salad was spun even further when Christianity gripped Europe in the eighth century, and [[Pope Greg III |Pope Greg #3]] made November 1 [[All Saints' Day]] to honor martyrs and saints. The day before then became [[All Hallows' Eve]].
+This cultural salad was spun even further when Christianity gripped Europe in the eighth century, and [[Pope Greg III |Pope Greg #3]] made November 1 [[All Saints' Day]] to honor martyrs and saints. The day before became [[All Hallows' Eve]].
 
-Then capitalism and candy came along, and the religious and mystic nature of the holiday morphed into its current form, which we all know and love.
+Then capitalism and candy came along, and the religious and mystical nature of the holiday morphed into its current form, which we all know and love.
 
 <iframe src="https://giphy.com/embed/3ov9jIiSswF4no9DPO" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laff-tv-halloween-batman-3ov9jIiSswF4no9DPO">via GIPHY</a></p>
 
@@ -24,19 +27,19 @@ I would be remiss if I didn't mention arguably the best Halloween movie of all t
  
 Beneath its storied façade of cobblestone streets and whispered legends, Salem harbors a darker legacy, etched into the annals of history by fear, hysteria, and the devastating power of a dangerous idea that spread like fire through the dead leaves of autumn.
 
-[[The Salem Witch Trials]] In the year of 1692, Salem Village found itself ensnared in a web of suspicion and paranoia, a community besieged by the fear of the unknown. It began as an innocent game among children, a dalliance with the supernatural that unwittingly unleashed a tempest of hysteria that would forever alter the course of history. From the innocuous beginnings of whispered secrets and forbidden rituals, a spark was ignited, fanning the flames of fear that would soon engulf the village in a conflagration of accusations.
+[[The Salem Witch Trials]] In the year of 1692, Salem Village found itself ensnared in a web of suspicion and paranoia, a community besieged by the fear of the unknown. It began as an innocent game among children, a dalliance with the supernatural that unwittingly unleashed a tempest of accusations. From the innocuous beginnings of whispered secrets and forbidden rituals, a spark was ignited, fanning the flames of fear that engulfed the village.
 
-At the heart of this maelstrom was a society deeply rooted in religious fervor and the precarious balance of a community teetering on the edge of the frontier, where the wilderness whispered dangers of its own, both mundane and supernatural. In this environment, where the devil was as real as the earth beneath their feet, the inhabitants of Salem Village were primed for a crisis of faith and fear.
+At the heart of this maelstrom was a society deeply rooted in religious fervor and the precarious balance of a community teetering on the edge of the frontier, where the wilderness whispered dangers of its own, both mundane and supernatural. In this environment, where their belief of the devil was as real as the earth beneath their feet, the inhabitants of Salem Village were primed for a crisis of faith and fear.
 
 The first accusations were directed at those on the fringes of society, as they often are: a slave, a beggar, a woman of ill repute. Yet as the idea of witchcraft took hold, it became a voracious beast, indiscriminate in its hunger. Neighbor turned against neighbor, secrets long buried were unearthed, and the bonds of community were shattered under the weight of suspicion. 
 
-For the accusers, the trials offered a conduit for grievances, a means to settle scores hidden beneath the veneer of piety and righteousness. For the accused, the trials represented the capriciousness of fate, where mere whispers could condemn one to the gallows or to languish in the dank confines of a prison cell. Through it all, the idea of witchcraft, once an ember, consumed entire communities in its path.
+For the accusers, the trials offered a conduit for grievances, a means to settle scores hidden beneath the veneer of piety and righteousness. For the accused, the trials represented the capriciousness of fate, where whispers could condemn one to the gallows or to languish in the dank confines of a prison cell. All from the idea that witches existed.
 
 <iframe src="https://giphy.com/embed/xT5LMTvvNFFhaNnVKw" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-9-the-simpsons-9x4-xT5LMTvvNFFhaNnVKw">via GIPHY</a></p>
 
-As the trials progressed, the initial unity in the face of evil gave way to doubt and despair. The machinery of justice, once thought infallible, was revealed to be fraught with flaws and susceptible to the basest of human instincts. The community of Salem, once tight-knit, found itself ripped apart, its very fabric unraveled by the threads of fear and hysteria.
+As the trials progressed, the initial unity in the face of evil gave way to doubt and despair. The machinery of justice, mandated by God on high, was revealed to be fraught with flaws and susceptible to the basest of human instincts. Instead of stopping the devil, they played his game and corrupted their souls.
 
-In the aftermath, as the fervor faded and the cold light of reason began to seep through the cracks of madness, the people of Salem were left to reckon with the consequences of their actions. The trials had claimed the lives of twenty innocent souls, and many more were irrevocably changed, their lives shattered by the storm of accusations, or loved ones lost.
+In the aftermath, as the fervor faded and the cold light of reason began to seep through the cracks of madness, the people of Salem were left to reckon with the consequences of their actions. The trials had claimed the lives of twenty innocent souls, and many more were irrevocably changed from the trauma.
 
 The Salem witch trials serve as a poignant reminder of the dangers inherent in the proliferation of fear and the power of an unchecked idea to sow chaos and destruction. It is a tale not of supernatural horror, but of human tragedy—a narrative that underscores the fragility of society and the peril of succumbing to the darker angels of our nature.
 
@@ -45,12 +48,12 @@ All of that pain, all of that suffering, and all of that death...from nothing bu
 # Memes
 My generation grew up on [[Memes]]. Many of us probably don't even know where the word comes from. We don't give it a second thought, because...well, they're memes.
 
-Some are funny, others an inside joke. There are dirty ones, and clean ones. Many are dark. Really depends on where you frequent. I spent many hours on [[9gag]] myself, but [[tumblr]], [[4chan]], and [[reddit]] are all breeding grounds for a variety of memes. No matter where you got or shared your memes, though, there were only a handful of commonly used ones, the only thing that really changed were the words slapped haphazardly in the designated spots. Sometimes a new one would come along, riding the strange and opaque rhythms of virality on the early internet. 
+Some are funny, others an inside joke. There are dirty ones, and clean ones. Many are dark. Really depends on where you frequent. I spent many hours on [[9gag]] myself, but [[tumblr]], [[4chan]], and [[reddit]] are all breeding grounds for a variety of memes. There were only a handful of commonly used ones, the only thing that really changed were the words slapped haphazardly in the designated spots. Sometimes a new one would come along, riding the strange and opaque rhythms of virality on the early internet. 
 
 <iframe src="https://giphy.com/embed/SsKGoXoc7TppCqyJ9v" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/PermissionIO-data-SsKGoXoc7TppCqyJ9v">via GIPHY</a></p>
 It was this very commonly understood abstraction and ability to stamp it with a few words that make these images so sticky with humans. They are proficient at encapsulating common meanings across cultures and backgrounds. They abstract away some deeper shared understanding.
 
-Let me save you another wikipedia trip (you're welcome). "Meme" is short for [[Memetics]], which, traces its origins back to the imaginative musings of [[Richard Dawkins]] in his seminal 1976 work, "[[The Selfish Gene]]." Dawkins coined the term "meme" to delineate units of cultural information that replicate and evolve through imitation, drawing a striking parallel to the biological gene's dance of transmission and mutation. The meme embodies the essence of cultural propagation, from the flickering shadows of prehistoric tales to the dizzying whirls of internet virality.
+So what is a “meme”? Let me save you another wikipedia trip (you're welcome). "Meme" is short for [[Memetics]], which, traces its origins back to the imaginative musings of [[Richard Dawkins]] in his seminal 1976 work, "[[The Selfish Gene]]." Dawkins coined the term "meme" to delineate units of cultural information that replicate and evolve through imitation, drawing a striking parallel to the biological gene's process of transmission and mutation. The meme embodies the essence of cultural propagation, from the flickering shadows of prehistoric tales to the dizzying whirls of internet virality.
 
 <iframe src="https://giphy.com/embed/eGsbPVeBsllTQmS0Oa" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/democraticmemefactory-meme-richarddawkins-eGsbPVeBsllTQmS0Oa">via GIPHY</a></p>
 Memetics, as a formal field of inquiry, endeavors to dissect and understand the mechanisms through which memes navigate the complex networks of human interaction, mutating and adapting in their quest for replication. Memes, in their essence, have been characterized by their dynamism—akin to biological entities, yet residing in the abstract sphere of culture and thought. They are the carriers of ideology, fashion, language, and every conceivable pattern of human behavior, encapsulating both the mundane and the profound.
@@ -68,11 +71,11 @@ Isn't that a fun word to say? Try it. [[Diffusion]]. And no you Machine Learning
 
 First is the one the majority of us experience everyday - [[stimulus diffusion]]. When your friend is spreading the latest gossip, or your co-worker tells you about some neat life hack they learned on instagram, or you tell your partner about something you saw in the news. The majority of ideas spread on this individual level, where one person packages an idea, and passes it along to the next person in a game of telephone.
 
-Next up we have *[[hierarchical diffusion]]*, which is exactly what it sounds like. When Beyonce tells you to believe something, you believe it. When a doctor tells you it's healthy to drink a glass of wine every night like the French do, you believe it. When Donald Trump tells you to drink bleach to cure COVID, you...well - some believe it. We are social creatures, which means status is very important to our functioning. The byproduct of this is that when someone of higher status shares an idea, that idea is naturally more likely to spread because it is biased by their status. 
+Next up we have *[[hierarchical diffusion]]*, which is exactly what it sounds like. When Beyonce tells you to believe something, you believe it. When a doctor tells you it's healthy to drink a glass of wine every night like the French do, you believe it. When Donald Trump tells you to drink bleach to cure COVID, you...well - some believe it. We are social creatures, which means status is very important to our functioning. When someone of higher status shares an idea, that idea is more likely to spread because it is weighted with their status. 
 
 <iframe src="https://giphy.com/embed/SJIjh7OHhYqValXfWn" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/paramountmovies-mean-girls-paramount-pictures-movies-SJIjh7OHhYqValXfWn">via GIPHY</a></p>
 
-Typically higher status people also sit at the center of more networks, providing more range for their ideas to spread, which leads us to the final diffusion type - [[Expansion Diffusion]]. In the virology parlance this is our "patient zero". For whatever reason, one person does a thing, and it rides the social network wave, which is then adapted and iterated on based on wherever it goes. 
+Typically, higher status people also sit at the center of more networks, providing additional range for their ideas to spread, which leads us to the final diffusion type - [[Expansion Diffusion]]. In the virology parlance this is our "patient zero". For whatever reason, one person does a thing, and it rides the social network wave, which is then adapted and iterated on based on wherever it goes. 
 
 For example, born from the bowels of creative expression and internet virality, the [[Harlem Shake]] began as a singular video: one person dances unnoticed in a room full of people; then, as the beat drops, a sudden cut, and the scene erupts into a chaotic dance party with everyone in eclectic costumes and engaging in exaggerated moves. The simplicity and absurdity of the concept struck a chord on the internet.
 
@@ -82,15 +85,13 @@ What followed was a digital contagion. Person to person, community to community,
 
  As each new group adopted the trend, they retained their cultural or local uniqueness while contributing to the broader cultural phenomenon's growth and evolution. From office spaces and universities to public squares and households, the Harlem Shake phenomenon exemplified how an idea, rooted in the joy of collective nonsense and creativity, could expand from a singular point and encompass the world in its embrace.
 
-The Harlem Shake highlights how cultural phenomena can leap geographical and societal boundaries, fostering a sense of global community bound by shared amusement and collective participation in a moment of cultural zeitgeist.
+## A History of (r)Evolving Ideas
 
-## Historical Impact of Idea Evolution
-
-Across different eras, the diffusion of ideas has catalyzed cultural transformations. [[The Renaissance]], a time of enlightenment after [[the Dark Ages]], owed its genesis to the spread of old ideas from the [[Hellenistic era]] fractured the grip of religion on thought. New perspectives from these foundational ways of thinking in science, art, and religion were facilitated through the institutionalization of knowledge over religion through the scholarly exchange of letters, the establishment of schools, and the nurturing ambiance of libraries.
+Across different eras, the diffusion of ideas has catalyzed cultural transformations. [[The Renaissance]], a time of enlightenment after [[the Dark Ages]], owed its genesis to the spread of old ideas from the [[Hellenistic era]], which fractured the grip of religion on thought. New perspectives from these foundational ways of thinking in science, art, and religion were facilitated through the institutionalization of knowledge over religion through the scholarly exchange of letters, the establishment of schools, and the nurturing ambiance of libraries.
 
 <iframe src="https://giphy.com/embed/4DzKPhXggDEpXEA47k" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/beyonce-queen-renaissance-im-that-girl-4DzKPhXggDEpXEA47k">via GIPHY</a></p>
 
-[[The Silk Road]] is an eastern example to the power of idea propagation in fostering cross-cultural exchanges—bridging civilizations through the transit of religious beliefs, technological advancements, and economic practices. This ancient network of trade routes embodied the essence of cultural diffusion, illustrating how ideas, like merchandise, can traverse continents and epochs to kindle innovation and unity.
+[[The Silk Road]] is an eastern example to the power of idea propagation in fostering cross-cultural exchanges—bridging civilizations through the transit of religious beliefs, technological advancements, and economic practices via trade. This ancient network of routes embodied the essence of cultural diffusion, illustrating how ideas, like merchandise, can traverse continents and epochs.
 
 # Social Media Propagation
 
@@ -98,11 +99,11 @@ Tell me if you've heard this one before.
 
 The digital age has ushered in an unprecedented velocity in the spread of ideas. Technology and social media serve as the conduits through which ideas achieve virality, transcending geographical and cultural boundaries with astounding immediacy. Memes, as we discussed, epitomize the modern iteration of idea propagation—encapsulating complex cultural narratives in compact, easily digestible formats that traverse global networks in the blink of an eye.
 
-Platforms like Twitter, Facebook, and Instagram have not only democratized the dissemination of ideas but have also engendered new paradigms of cultural exchange and intellectual discourse. The globalization of social networking has obliterated traditional gatekeepers, allowing voices from the peripheries to echo in global conversations.
+Platforms like X, Linkedin, and Instagram have not only democratized the dissemination of ideas but have also engendered new paradigms of cultural exchange and intellectual discourse. The globalization of social networking has obliterated traditional gatekeepers, allowing voices from the peripheries to echo in global conversations.
 
 <iframe src="https://giphy.com/embed/KFWSltHdEaBQ4" width="480" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/i-dont-care-my-brilliance-KFWSltHdEaBQ4">via GIPHY</a></p>
 
-As we wade into the tempestuous seas of social media, it's crucial to unravel the enigma of virality—a phenomenon that transforms simple posts into digital myths whispered across the vast networks of the internet. The architects behind this elusive magic? The algorithms, those silent puppeteers orchestrating the symphony of social media feeds. Here's how they cast their spells on platforms like Twitter, Facebook, Instagram, and TikTok, conjuring virality from the ether.
+As we wade into the tempestuous seas of social media, it's crucial to unravel the enigma of virality—a phenomenon that transforms simple posts into digital myths whispered across the vast networks of the internet. The architects behind this elusive magic? The algorithms, those silent puppeteers orchestrating the symphony of social media feeds. Here's how they cast their spells on platforms like TikTok, conjuring virality from the ether.
 
 [[Social media algorithms]] are the gatekeepers of content, designed with a singular purpose: to curate a user experience so enthralling that the digital world becomes inseparable from the rhythm of our daily lives. Using a complex method of signals and rules, these algorithms predict and dictate what content we consume. They are the architects of digital destiny, determining which posts rise to fame and which fade into the shadows.
 
@@ -116,7 +117,7 @@ At the heart of virality lies a simple yet profound principle: engagement. Every
 
 2. **Content Freshness**: The age of a post plays a significant role. Newer content, pulsing with the immediacy of now, is often given precedence, captivating audiences with the promise of the moment.
 
-3. **User Preferences**: Algorithms, those keen observers of human behavior, tailor feeds to individual tastes. They remember your laughs, your tears, and your passions, curating content that is meant to mirror your interests.
+3. **User Preferences**: Algorithms, those keen calculators of human behavior, tailor feeds to individual tastes. They try to predict your laughs, your tears, and your passions, curating content that is meant to mirror your interests.
 
 4. **Popularity and Relevance**: As a post gathers momentum, the algorithm takes note, propelling it further into the limelight. Virality is a self-fulfilling prophecy, with popularity begetting more popularity.
 
@@ -129,17 +130,23 @@ To court the favor of these digital deities, one must navigate the labyrinth of 
 As creators and spectators, we are both puppet and puppeteer, intertwined in a ceaseless game of content and interaction.
 
 ## Sick Algorithms
-Viral phenomenons, while seemingly benign or even beneficial, harbor a more insidious nature, sculpted by the very algorithms designed to enrapture us by cherry-picking content that is designed to capture our attention. What emerges as viral often strums the chords of our deepest emotions—joy, outrage, humor, or sorrow—all beckoning with the siren call of engagement. Novelty, relatability, and the unexpected also join the fray, each element pressing our personal buttons in order to cultivate digital contagions.
+Viral phenomenons, while seemingly benign or even beneficial, harbor a more insidious nature, sculpted by algorithms designed to enrapture us with cherry-picked content that is designed to capture our attention. What emerges as viral often strums the chords of our deepest emotions—joy, outrage, humor, or sorrow—all of it the siren call of engagement. Novelty, relatability, and the unexpected also join the fray, each element pressing our personal buttons in order to release digital contagions.
 
 <iframe src="https://giphy.com/embed/KrLqtbe8PGEDe" width="480" height="327" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/meme-ahora-no-por-favor-porfavor-KrLqtbe8PGEDe">via GIPHY</a></p>
 
-As these threads intertwine, they weave a complex impact on the fabric of our individual and collective psyche. Viral content, in its myriad forms, can bridge divides, spotlight injustices, and knit communities from the ether. But, the shadow it casts is long and fraught with perils. The relentless pursuit of virality, fueled by the algorithms’ insatiable appetite for engagement, often elevates content that polarizes, misleads, or sensationalizes, fracturing the bedrock of communal understanding and ushering an age of digital tribalism.
+As these threads intertwine, they weave a complex impact on the fabric of our individual and collective psyche. Viral content, in its myriad forms, can bridge divides, spotlight injustices, and knit communities from the ether. 
+
+But, the shadow it casts is long and fraught with perils. The relentless pursuit of virality, fueled by the algorithms’ insatiable appetite for engagement, often elevates content that polarizes, misleads, or sensationalizes, fracturing the bedrock of communal understanding and ushering an age of digital tribalism.
 
 Beneath this digital turbulence, individual well-being teeters on the precipice. The voracious quest for viral validation seeds doubt, anxiety, and a relentless comparison that tarnishes the very essence of self-worth, leaving behind a trail of digital exhaustion. Furthermore, the algorithmic penchant for viral content perpetuates and amplifies societal disparities, marginalizing voices and narratives that diverge from the mainstream, often exacerbating the social chasms that cleave through our collective existence.
 
 <iframe src="https://giphy.com/embed/l46C5r7CiQN5ox7MI" width="480" height="265" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/colbertlateshow-the-late-show-with-stephen-colbert-l46C5r7CiQN5ox7MI">via GIPHY</a></p>
 
-We find ourselves at a crossroads, ensnared by algorithms that echo our desires but reflect back a distorted reality. The path forward calls for a reckoning—a recalibration of the digital compass to favor not just the emotive and sensational but the truthful, the constructive, and the inclusive. It beckons us to wield technology not as a divining rod for virality, but as an opportunity to discover and co-create understanding, unity, and genuine human connection. Only then can we navigate the tumultuous seas of social media, steering towards a horizon where technology amplifies not our divisions, but our collective humanity.
+We find ourselves at a crossroads, ensnared by algorithms that echo our desires but reflect back a distorted reality. The path forward calls for a reckoning—a recalibration of the digital compass to favor not just the emotive and sensational but the truthful, the constructive, and the inclusive.
+
+I want us to define truth as nuance. Not a binary, but a dialectic. 
+
+We have a rare opportunity to discover and co-create understanding, unity, and genuine human connection. Only then can we navigate the tumultuous seas of social media, steering towards a horizon where technology amplifies not our divisions, but our collective humanity.
 
 # The Mind Virus
 How do you feel about Elon Musk?
@@ -152,11 +159,11 @@ The concept of a "mind virus," as famously referenced by Elon Musk, emerges as a
 
 Musk has evocatively utilized the "mind virus" metaphor to critique what he perceives as the counterproductive and sometimes harmful aspects of current cultural trends. These trends, according to Musk and his like, can stifle open discourse and encroach upon the individual freedoms under the guise of social progressivism.
 
-Within the realms of DEI and 'wokeness,' the "mind virus" speaks to a phenomenon wherein ideas—despite their initial aim of fostering inclusivity and understanding—morph into dogmas that can divide as effectively as they unite. This transformation is memetic in nature, embodying the very essence of how cultural shifts can propagate, mutate, and embed themselves within the social consciousness.
+Within the cultural and literal institutions of DEI and 'wokeness,' the "mind virus" speaks to a phenomenon wherein ideas—despite their initial aim of fostering inclusivity and understanding—morph into dogmas that can divide as effectively as they unite. This transformation is memetic in nature, embodying the very essence of how cultural shifts can propagate, mutate, and embed themselves within the social consciousness.
 
 <iframe src="https://giphy.com/embed/l4FGGeTbK9HNxnWYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbs-roland-woke-l4FGGeTbK9HNxnWYo">via GIPHY</a></p>
 
-Herein lies the crux: *both* sides of the debate wield their narratives as both shield and sword, oftentimes exhibiting behaviors that indicate an adherence to their own variant of a 'mind virus.' Proponents of DEI, for instance, may fall prey to a memetic loop where any dissent is too swiftly categorized as regressive or prejudicial, thereby stifling meaningful dialogue and introspection. Conversely, fierce critics may latch onto examples of DEI gone too far, generalizing to the entire movement that blinds them to the legitimate grievances and historical contexts fueling these cultural movements, discarding the baby with the bathwater in their rally against 'wokeness' or cancel culture.
+Herein lies the crux: *both* sides of the debate wield their narratives as shield and sword, oftentimes exhibiting behaviors that indicate an adherence to their own variant of a 'mind virus.' Proponents of DEI, for instance, may fall prey to a memetic loop where any dissent is too swiftly categorized as regressive or prejudicial, thereby stifling meaningful dialogue and introspection. Conversely, fierce critics may latch onto examples of DEI gone too far, generalizing to the entire movement that blinds them to the legitimate grievances and historical contexts fueling these cultural movements, discarding the baby with the bathwater in their rally against 'wokeness' or cancel culture.
 
 Through Musk's lens, the invocation of a "mind virus" serves as a cautionary tale against the unexamined adoption and propagation of ideas that, while noble in intent, risk becoming unyielding creeds that polarize rather than unify. It's an invitation to scrutinize not just the content of what's spread but the nature of its transmission and the impact it has on the social fabric.
 
@@ -179,7 +186,7 @@ Another stark illustration of monomes in action is seen in the realm of viral ch
 
 While the dissemination of ideas is the bedrock upon which societies evolve, the monopolization of the memetic landscape by singular thoughts poses significant threats to our collective growth and understanding. Monomemetic thinking, by its very nature, constrains the intellectual horizon, funneling the vastness of human thought into narrow channels that are both shallow and turbulent. As these dominant ideas eclipse the diversity of thought, we risk cultural stagnation, where innovation and creativity are sacrificed at the altar of conformity.
 
-Moreover, the elevation of singular memes fosters environments ripe for polarization and divisiveness. As individuals and groups cluster around the towering edifices of monomemetic thought, the space for dialogue and the exchange of diverse ideas diminishes, eroding the foundations of democratic discourse and coexistence. In this climate, the 'other' becomes not just a carrier of different ideas, but an adversary in a battle where the stakes are defined by the dominant memetic narrative.
+The elevation of singular memes fosters environments ripe for polarization and divisiveness. As individuals and groups cluster around the towering edifices of monomemetic thought, the space for dialogue and the exchange of diverse ideas diminishes, eroding the foundations of democratic discourse and coexistence. In this climate, the 'other' becomes not just a carrier of different ideas, but an adversary in a battle where the stakes are defined by the dominant memetic narrative.
 
 <iframe src="https://giphy.com/embed/ZXCergtz5oB1m2NIBk" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/southpark-south-park-s26e1-cupid-ye-ZXCergtz5oB1m2NIBk">via GIPHY</a></p>
 In confronting the tide of monomemes, I am calling on you, yes you dear reader, to not just be a passive observer, but active participants in the curation of our cognitive and cultural landscapes. This involves fostering environments where diverse ideas can flourish, challenging the ascendancy of singular narratives, and cultivating a collective consciousness that values depth, nuance, and multiplicity of thought.
@@ -215,7 +222,7 @@ Here's a menu of things to try:
 <iframe src="https://giphy.com/embed/IbEd9mDBJlHgI" width="480" height="284" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ted-cruz-not-gonna-happen-IbEd9mDBJlHgI">via GIPHY</a></p>
 Now comes the hard part...looking inward. This is the portion that people often skip. It's easy to push it off, say you'll get to it later.
 
-But you won't. You know it, I know it. So just do it now. Right now. Take 5 minutes, and answer each of these questions for yourself. Bring up that person in your head you are always have imaginary disagreements with, and see if you can or can't do the following. Then meditate on what that says about where your at on your own internal journey.
+But you won't. You know it, I know it. So just do it now. Right now. Take 5 minutes, and answer each of these questions for yourself. Bring up that person in your head you are always have imaginary disagreements with, and see if you can or can't do the following. Then meditate on what that says about where you’re at on your own internal journey.
 
 - **Can you steel-man the other side?** Before you construct your arguments, spend time building the strongest possible version of the opposing view. In understanding its foundations, you may find common ground or, at the very least, gain deeper insight into the divide.
 

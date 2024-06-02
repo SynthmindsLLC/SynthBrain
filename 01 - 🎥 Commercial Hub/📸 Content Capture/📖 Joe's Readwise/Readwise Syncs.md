@@ -943,3 +943,14 @@
     - 27 highlights from Knowledge Graphs & LLMs: Fine-Tuning vs. Retrieval-Augmented Generation
     - 23 highlights from Knowledge Graphs & LLMs: Multi-Hop Question Answering
 
+[[2024-06-01]] 6:42 AM — Synced 17 highlights from 3 documents.
+    - 7 highlights from Knowledge Graphs & LLMs: Real-Time Graph Analytics
+    - 8 highlights from Construct Knowledge Graphs From Unstructured Text
+    - 2 highlights from Using a Property Graph Index
+
+[[2024-06-01]] 3:57 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from 26 Months of Ridicule and Failure
+
+[[2024-06-02]] 7:56 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from LlamaFS: An Open-Source Self-Organizing File System With Llama-3
+
