@@ -957,3 +957,6 @@
 [[2024-06-02]] 11:05 PM — Synced 2 highlights from 1 document.
     - 2 highlights from Symbolic Chain-of-Thought ‘SymbCoT’: A Fully LLM-based Framework That Integrates Symbolic Expressions and Logic Rules With CoT Prompting
 
+[[2024-06-03]] 7:05 AM — Synced 5 highlights from 1 document.
+    - 5 highlights from GNN-RAG: A Novel AI Method for Combining Language Understanding Abilities of LLMs With the Reasoning Abilities of GNNs in a Retrieval-Augmented Generation (RAG) Style
+
