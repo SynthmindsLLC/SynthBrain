@@ -193,7 +193,7 @@ One day, as they played together in the field, the old man looked at Pedro with 
 
 Pedro hugged the old man, his heart filled with warmth. “We’re happy to have you as our friend,” Pedro said sincerely.
 
-**Image Description:** Pedro, the old man, and the burro are playing together in a field filled with colorful flowers. The old man looks joyful and grateful, while Pedro and the burro are full of energy and happiness. The sun is shining brightly, symbolizing the warmth of their growing friendship.
+image Description:** Pedro, the old man, and the burro are playing together in a field filled with colorful flowers. The old man looks joyful and grateful, while Pedro and the burro are full of energy and happiness. The sun is shining brightly, symbolizing the warmth of their growing friendship.
 
 ---
 
