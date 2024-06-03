@@ -954,3 +954,6 @@
 [[2024-06-02]] 7:56 AM — Synced 6 highlights from 1 document.
     - 6 highlights from LlamaFS: An Open-Source Self-Organizing File System With Llama-3
 
+[[2024-06-02]] 11:05 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from Symbolic Chain-of-Thought ‘SymbCoT’: A Fully LLM-based Framework That Integrates Symbolic Expressions and Logic Rules With CoT Prompting
+
