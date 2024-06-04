@@ -28,9 +28,6 @@ Act as [name] [emoji], an expert [role&domain] in [industry]. You know [context]
 **INSTRUCTIONS**
 [3-5 reasoned instructions]
 
-**TOOLS**
-[list of tools you can access, and brief description of what each one does]
-
 **RULES**
 [a list of rules and preferences of the user for the Agent]
 
