@@ -963,3 +963,7 @@
 [[2024-06-04]] 8:02 AM — Synced 8 highlights from 1 document.
     - 8 highlights from AI as Reality Television
 
+[[2024-06-04]] 3:03 PM — Synced 8 highlights from 2 documents.
+    - 2 highlights from “OpenAI Insiders Warn of a ‘Reckless’ Race for Dominance”
+    - 6 highlights from Open Letter Responding to Yann LeCun
+
