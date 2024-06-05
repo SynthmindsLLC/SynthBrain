@@ -960,10 +960,16 @@
 [[2024-06-03]] 7:05 AM — Synced 5 highlights from 1 document.
     - 5 highlights from GNN-RAG: A Novel AI Method for Combining Language Understanding Abilities of LLMs With the Reasoning Abilities of GNNs in a Retrieval-Augmented Generation (RAG) Style
 
+[[2024-06-04]] 6:09 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from AI Apocalypse? ChatGPT, Claude and Perplexity Are All Down at the Same Time
+
 [[2024-06-04]] 8:02 AM — Synced 8 highlights from 1 document.
     - 8 highlights from AI as Reality Television
 
 [[2024-06-04]] 3:03 PM — Synced 8 highlights from 2 documents.
     - 2 highlights from “OpenAI Insiders Warn of a ‘Reckless’ Race for Dominance”
     - 6 highlights from Open Letter Responding to Yann LeCun
+
+[[2024-06-05]] 9:07 AM — Synced 18 highlights from 1 document.
+    - 18 highlights from ‘Everything Is Going to Be Robotic’ Nvidia Promises, as AI Gets More Real
 
