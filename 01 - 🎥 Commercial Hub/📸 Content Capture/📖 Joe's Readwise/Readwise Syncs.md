@@ -973,3 +973,10 @@
 [[2024-06-05]] 9:07 AM — Synced 18 highlights from 1 document.
     - 18 highlights from ‘Everything Is Going to Be Robotic’ Nvidia Promises, as AI Gets More Real
 
+[[2024-06-05]] 6:08 PM — Synced 6 highlights from 2 documents.
+    - 1 highlights from Open Letters Can't Slow AI's Juggernaut
+    - 5 highlights from Israel Reportedly Used Fake Social Media Accounts to Influence US Lawmakers - The Verge
+
+[[2024-06-06]] 5:47 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from AGI by 2027?
+
