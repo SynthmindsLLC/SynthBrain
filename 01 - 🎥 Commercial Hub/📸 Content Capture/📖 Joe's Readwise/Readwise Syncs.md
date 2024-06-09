@@ -984,3 +984,7 @@
 
 [[2024-06-08]] 8:45 AM — Synced 0 highlights from 0 documents.
 
+[[2024-06-08]] 10:15 PM — Synced 14 highlights from 2 documents.
+    - 6 highlights from The Most Important Skill You Never Learned
+    - 8 highlights from Sparse-Autoencoders
+
