@@ -1,3 +1,7 @@
+---
+Here is the YAML front matter generated for the provided content, following the ontology and examples:
+---
+
 Default module versioning
 
 

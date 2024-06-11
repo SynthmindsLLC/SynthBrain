@@ -1,3 +1,18 @@
+---
+title: "export_to_template_context"
+description: "A HubL parameter that allows HubL tag parameters to be available in the template environment without rendering the tag."
+type: "concept"
+tags:
+- "HubL"
+- "CMS"
+- "Templates"
+relationships:
+- "#used_for [[Conditionally Rendering Content]]"
+- "#enables [[User Interactivity]], [[Content Customization]]"
+- "#related_to [[Widget Data]], [[Template Variables]]"
+- "#part_of [[HubSpot CMS]]"
+---
+
 export\_to\_template\_context
 
 

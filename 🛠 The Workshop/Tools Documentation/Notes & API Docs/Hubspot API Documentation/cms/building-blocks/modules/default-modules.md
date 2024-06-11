@@ -1,3 +1,17 @@
+---
+title: "Default web modules"
+description: "Overview of HubSpot's default modules for building website templates, including blog posts, listings, and quotes."
+type: "work"
+tags:
+- "Web_Development"
+- "CMS"
+- "HubSpot"
+relationships:
+- "#authored_by [[HubSpot]]"
+- "#part_of [[HubSpot CMS Documentation]]"
+- "#related_to [[Website Templates]], [[Blogs]], [[Quotes]]"
+---
+
 Default web modules
 
 
