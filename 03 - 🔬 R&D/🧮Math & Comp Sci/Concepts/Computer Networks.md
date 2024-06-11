@@ -1,9 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#ComputerNetwork"
- - "#InformationTechnology"
- - "#Networking"
+title: "Computer Network"
+description: "An interconnected collection of autonomous computers that communicate with one another over a shared medium, which can be wired or wireless. The primary purpose is to share resources and information quickly and efficiently."
+type: "concept"
+tags:
+- "ComputerNetwork"
+- "InformationTechnology"
+- "Networking"
+relationships:
+- "#part_of [[Telecommunication]]"
+- "#has_component [[Local Area Network]], [[Wide Area Network]], [[Metropolitan Area Network]], [[Personal Area Network]]"
+- "#uses [[Network Interface Cards]], [[Switches and Routers]], [[Cables and Connectors]], [[Wireless Access Points]]"
+- "#related_to [[Networking Protocols]], [[Network Security]], [[Internet of Things]], [[Software-Defined Networking]], [[Network Topology]]"
 ---
 
 A computer network is an interconnected collection of autonomous computers that communicate with one another over a shared medium, which can be wired or wireless. The primary purpose of a computer network is to share resources and information quickly and efficiently.

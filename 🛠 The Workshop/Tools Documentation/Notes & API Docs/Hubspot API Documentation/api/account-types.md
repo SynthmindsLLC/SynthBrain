@@ -1,3 +1,18 @@
+---
+title: "HubSpot Account Types"
+description: "There are several types of HubSpot accounts, each with a distinct purpose."
+type: "group"
+tags:
+- "HubSpot"
+- "Accounts"
+relationships:
+- "#part_of [[Marketing]]"
+- "#part_of [[Sales]]"
+- "#part_of [[Service Hub]]"
+birthdate: ""
+deathdate: ""
+---
+
 HubSpot Account Types
 =====================
 

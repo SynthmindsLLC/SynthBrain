@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#CacheEviction"
- - "#LFU"
- - "#MemoryManagement"
- - "#Algorithms"
+title: "Least Frequently Used (LFU) Cache Eviction Algorithm"
+description: "A cache eviction policy that removes the least frequently accessed items from the cache when new data needs to be loaded but the cache is full. This method assumes that items accessed less frequently in the past are likely to be accessed less frequently in the future. It uses frequency counters and a combination of min-heap and hashmap for efficient implementation, aiming to retain more relevant data in the cache."
+type: "concept"
+tags:
+- "Cache Management"
+- "Memory Management Algorithms"
+- "Algorithms"
+relationships:
+- "#related_to [[Cache Eviction]]"
+- "#implements [[LFU Algorithm]]"
+- "#has_part [[Frequency Count]]"]]
+- "#uses [[Min-Heap and Hashmap Data Structures]]"]]"
+birthdate: "2024-03-02"
 ---
 
 ## Least Frequently Used (LFU) Cache Eviction Algorithm

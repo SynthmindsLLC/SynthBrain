@@ -1,9 +1,14 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#particle_swarm_optimization"
- - "#optimization_algorithms"
- - "#bio-inspired_algorithms"
+title: "Particle Swarm Optimization (PSO)"
+description: "Bio-inspired computational method designed to solve complex optimization problems by simulating social behavior observed in nature."
+type: "concept"
+tags:
+- "Optimization Algorithms"
+- "Bio-Inspired Algorithms"
+relationships:
+- "#related_to [[Swarm Intelligence]]"
+- "#used_for [[Function Optimization]], [[Neural Network Training]], [[Resource Allocation Problems]]"
+birthdate: "2024-03-14"
 ---
 
 Particle Swarm Optimization (PSO) is a bio-inspired computational method designed to solve complex optimization problems. It simulates the social behavior observed in nature, such as birds flocking or fish schooling, to find optimal solutions in a given search space. PSO is characterized by its simplicity, efficiency, and the ability to handle a wide range of optimization problems without requiring the gradient of the objective function.

@@ -1,11 +1,22 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#dynamic_network_analysis"
- - "#network_analysis"
- - "#social_networks"
- - "#graph_theory"
- - "#data_analysis"
+title: "Dynamic Network Analysis"
+description: "A methodological framework used to study the changes and patterns within networks over time, combining elements of network analysis, graph theory, and data analysis."
+type: "concept"
+tags:
+- "Network_Analysis"
+- "Graph_Theory"
+- "Data_Analysis"
+- "Social_Networks"
+relationships:
+- "#related_to [[Temporal Networks]]"
+- "#utilizes [[Graph Theory]]"
+- "#involves [[Data Analysis]]"
+birthdate: "deathdate: founded: tags:"
+- "Dynamic_Network_Analysis"
+- "Social_Networks"
+- "Epidemiology"
+- "Communication_Networks"
+start_date: "end_date: "
 ---
 
 # Dynamic Network Analysis

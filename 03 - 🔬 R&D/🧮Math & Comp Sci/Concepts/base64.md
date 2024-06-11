@@ -1,10 +1,21 @@
 ---
-Date: [[2024-04-01]]
-Tags: 
- - "#base64"
- - "#encoding"
- - "#decoding"
- - "#computerprogramming"
+title: "Base64 Encoding and Decoding"
+description: "A binary-to-text encoding scheme that represents binary data in an ASCII string format by translating it into a radix-64 representation, used for various applications such as embedding images within scripts or transmitting binary data over text-only channels."
+type: "concept"
+tags:
+- "Base64"
+- "Encoding"
+- "Decoding"
+- "ComputerProgramming"
+relationships:
+- "#used_for [[Embedding Binary Data]]"
+- "#related_to [[ASCII]], [[Binary Data]], [[Data Transmission]]"
+birthdate: "deathdate: founded: tags:"
+- "Base64 Encoding"
+- "Text Representation of Binary Data"
+- "Web Development"
+- "Email Attachments"
+start_date: "end_date: "
 ---
 
 Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format by translating it into a radix-64 representation. It is used to encode binary files such as images within scripts, embed PDF files in HTML pages, and store or transmit binary data in environments that are restricted to ASCII data, such as email and URLs[1][2][3].

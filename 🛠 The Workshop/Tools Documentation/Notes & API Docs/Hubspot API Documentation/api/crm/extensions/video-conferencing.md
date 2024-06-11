@@ -1,3 +1,30 @@
+---
+title: "Video Conference Extension API Overview"
+description: "Provides an overview of the Video Conference API, including setup and handling webhooks for meeting creation, updates, deletion, and user verification within HubSpot."
+type: "group"
+tags:
+- "HubSpot"
+- "API"
+- "Video Conferencing"
+relationships:
+- "#part_of [[HubSpot CRM]]"
+- "#enables [[Integration with Video Conference Services]]"
+settings_api: "true"
+webhooks:
+- "#creates [[Meeting Creation Webhook]]"
+- "#updates [[Meeting Update Webhook]]"
+- "#deletes [[Meeting Deletion Webhook]]"
+- "#verifies [[User Verification Webhook]]"
+- "#uses_url [[createMeetingUrl]]"
+- "#uses_url [[updateMeetingUrl]]"
+- "#uses_url [[deleteMeetingUrl]]
+- "#requires [[userVerifyUri]]"
+settings: createMeetingUrl: "https://example.com/create-meeting"
+  updateMeetingUrl: "https://example.com/update-meeting"
+  deleteMeetingUrl: "https://example.com/delete-meeting"
+  userVerifyUrl: "https://example.com/user-verify"
+---
+
 **Video Conference Extension**
 ==============================
 

@@ -1,3 +1,17 @@
+---
+title: "CMS API | HubDB"
+description: "The HubDB API provides access to a relational data store that presents data as rows, columns, and cells in a table format similar to a spreadsheet. It allows for the creation, modification, retrieval, and import of tables within your HubSpot account. Tables can have draft and published versions, supporting dynamic pages and manual approval processes without affecting live pages. Public access is possible with authentication via `portalId`."
+type: "group"
+tags:
+- "HubDB"
+- "API"
+- "Data Management"
+relationships:
+- "#related_to [[HubSpot CMS]]"
+- "#enables [[Dynamic Pages]]"
+founded: "N/A"
+---
+
 CMS API | HubDB
 ===============
 

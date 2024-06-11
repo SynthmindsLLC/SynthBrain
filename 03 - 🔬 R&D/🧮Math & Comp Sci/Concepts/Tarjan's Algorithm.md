@@ -1,10 +1,18 @@
 ---
-Date: [[2024-03-30]]
-Tags: 
- - "#Tarjans_algorithm"
- - "#algorithm"
- - "#graph_theory"
- - "#strongly_connected_components"
+title: "Tarjan's Algorithm Overview"
+description: "A fundamental algorithm in graph theory for finding the strongly connected components (SCCs) of a directed graph, named after its inventor Robert Tarjan. The algorithm is notable for its efficiency and linear time complexity."
+type: "concept"
+tags:
+- "Graph Theory"
+- "Algorithms"
+- "Strongly Connected Components"
+relationships:
+- "#developed_by [[Robert Tarjan]]"
+- "#applies_to [[Directed Graphs]]"
+- "#uses_Depth-First Search (DFS)"
+- "#has_time_complexity [[O(V+E)]]"
+birthdate: "1934-03-30"
+deathdate: "2024-03-30"
 ---
 
 # Tarjan's Algorithm Overview

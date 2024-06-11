@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#RandomEviction"
- - "#CacheEviction"
- - "#PageReplacement"
- - "#OperatingSystems"
+title: "Random Eviction in Page Replacement Algorithms"
+description: "A cache eviction policy where, upon the need to replace a page in memory (due to a page fault and a full cache), the system selects a page to evict at random. This strategy is simple and does not require maintaining any data structures that track page information, which can be beneficial in systems with limited computational resources."
+type: "concept"
+tags:
+- "Cache Eviction"
+- "Page Replacement Algorithms"
+- "Operating Systems"
+relationships:
+- "#part_of [[Cache Management]]"
+- "#related_to [[Randomness]], [[Efficiency]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 ## Random Eviction in Page Replacement Algorithms

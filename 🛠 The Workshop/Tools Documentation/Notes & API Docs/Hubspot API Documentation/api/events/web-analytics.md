@@ -1,3 +1,19 @@
+---
+title: "Event Analytics API Overview"
+description: "Provides an overview of the event analytics API for CRM records in HubSpot, including how to fetch events associated with various types and customize queries by object ID or property."
+type: "concept"
+tags:
+- "Event Analytics"
+- "CRM Records"
+- "HubSpot API"
+relationships:
+- "#related_to [[CRM]]"
+- "#used_for [[Data Analysis]]"
+- "#part_of [[HubSpot APIs]]"
+start_date: "2023-01-01"
+end_date: "2023-12-31"
+---
+
 Event Analytics
 ===============
 

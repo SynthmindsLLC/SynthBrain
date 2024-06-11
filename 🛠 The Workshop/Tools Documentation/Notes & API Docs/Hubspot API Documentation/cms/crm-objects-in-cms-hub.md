@@ -1,3 +1,17 @@
+---
+title: "CRM Object Data in CMS Hub"
+description: "Use CRM object data on your website, allowing sales, marketing, and website data to live in the same place and reflect the same information. Associate CRM records with one another to pull in associated data onto your website pages. Learn more about building data-based CMS pages in HubSpot Academy's [CMS Data-Driven Content course](https://app.hubspot.com/academy/tracks/1148948/intro)."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot CMS"
+- "Data Integration"
+relationships:
+- "#part_of [[CMS Hub]]"
+- "#enables [[Dynamic Pages]]"
+founded: "2014-03-05"
+---
+
 Use CRM object data in CMS Hub
 
 

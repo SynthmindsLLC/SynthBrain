@@ -1,9 +1,18 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#SixDegreesOfKevinBacon" 
- - "#PopCulturePhenomenon" 
- - "#HollywoodTrivia"
+title: "Six Degrees of Kevin Bacon"
+description: "Trivia game that challenges players to connect any Hollywood actor to Kevin Bacon through their film roles in six steps or fewer, based on the concept of six degrees of separation."
+type: "trivia_game"
+tags:
+- "Pop Culture Phenomenon"
+- "Hollywood Trivia"
+relationships:
+- "#related_to [[Six Degrees of Separation]]"
+- "#created_by [[Craig Fass]], [[Mike Ginelli]], [[Brian Turtle]]"
+- "#popularized_on [[The Jon Stewart Show]], [[The Howard Stern Show]]"
+- "#influenced_by [[Kevin Bacon's Filmography]]"
+- "#impacted_by [[Google's 'Bacon Number']]"
+- "#inspired_by [[Network Analysis]]"
+date: "2024-03-31"
 ---
 
 The Six Degrees of Kevin Bacon is a trivia game that emerged from the concept of six degrees of separation, which posits that any two people on Earth are six or fewer acquaintance links apart. The game challenges players to connect any Hollywood actor to Kevin Bacon through their film roles in six steps or fewer.

@@ -1,3 +1,19 @@
+---
+title: "HubSpot Account Information and API Usage Details"
+description: "Provides information about a given HubSpot account, including the account settings, daily API usage, and limits."
+type: "group"
+tags:
+- "HubSpot"
+- "API"
+- "Account Management"
+relationships:
+- "#contains [[Overview]]"
+- "#contains [[Endpoints]]"
+- "#related_to [[API Usage Guidelines]]"
+- "#related_to [[API Request Limits]]"
+founded: "2006-10-19"
+---
+
 Account information
 ===================
 

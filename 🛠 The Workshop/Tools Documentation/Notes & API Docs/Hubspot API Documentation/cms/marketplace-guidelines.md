@@ -1,3 +1,17 @@
+---
+title: "HubSpot Template Marketplace Guidelines"
+description: "The HubSpot Template Marketplace helps thousands of customers without direct access to a developer grow their online presence."
+type: "group"
+tags:
+- "Marketplace"
+- "Templates"
+- "Developers"
+relationships:
+- "#part_of [[HubSpot Ecosystem]]"
+birthdate: ""
+deathdate: ""
+---
+
 HubSpot Template Marketplace Guidelines
 
 

@@ -1,3 +1,18 @@
+---
+title: "Listing Your App in the HubSpot App Marketplace"
+description: "A guide on creating and submitting an app listing for the HubSpot App Marketplace, including setting up localized listings, adding points of contact, editing live listings, unpublishing apps, and providing feedback."
+type: "group"
+tags:
+- "HubSpot"
+- "App Marketplace"
+- "Developer Tools"
+relationships:
+- "#created_by [[Obsidian]]"
+- "#related_to [[App Development]]"]]
+- "#used_for [[Marketing]]"
+founded: "2014-03-01"
+---
+
 Listing your app
 ================
 

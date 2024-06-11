@@ -1,3 +1,18 @@
+---
+title: "CMS Features Overview"
+description: "An overview of powerful features in the HubSpot CMS for developers and marketers to build their site with a world class CRM, including content staging, multi-language support, file management, HubDB integration, membership functionality, serverless functions, and HubSpot APIs."
+type: "group"
+tags:
+- "HubSpot"
+- "CMS"
+- "CRM"
+relationships:
+- "#part_of [[Content Management System]]"
+- "#enables [[Site Building]]"
+- "#related_to [[Marketing]]"
+- "#used_by [[Developers]], [[Marketers]]"
+---
+
 CMS features overview
 
 

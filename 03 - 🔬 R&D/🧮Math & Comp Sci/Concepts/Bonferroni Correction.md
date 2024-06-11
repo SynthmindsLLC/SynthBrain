@@ -1,12 +1,19 @@
 ---
-Title: Bonferroni Correction
-Description: A summary of the Bonferroni correction for multiple hypothesis testing in statistics.
-Date: 2023-04-13
-Tags:
- - "#statistics"
- - "#hypothesis-testing"
- - "#multiple-comparisons"
- - "#type-I-error"
+title: "Bonferroni Correction"
+description: "A summary of the Bonferroni correction for multiple hypothesis testing in statistics, a method used to counteract the problem of multiple comparisons."
+type: "concept"
+tags:
+- "Statistics"
+- "Hypothesis-Testing"
+- "Multiple-Comparisons"
+- "Type-I-Error"
+relationships:
+- "#related_to [[Family-wise error rate (FWER)]]"
+- "#related_to [[Type I and Type II errors]]"
+- "#related_to [[Significance level ()]]"
+- "#related_to [[p-value]]"
+- "#related_to [[Hypothesis testing]]"
+birthdate: "2023-04-13"
 ---
 
 The Bonferroni correction is a method used to counteract the problem of multiple comparisons in statistical hypothesis testing. It is a simple but conservative approach to control the family-wise error rate (FWER) when conducting multiple hypothesis tests.

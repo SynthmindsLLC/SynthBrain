@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#CacheEviction"
- - "#MRU"
- - "#MemoryManagement"
- - "#Algorithms"
+title: "Most Recently Used (MRU) Cache Eviction Algorithm"
+description: "A cache eviction policy that prioritizes the removal of the most recently accessed items from the cache when it becomes necessary to load new data and the cache is at capacity. This approach is based on the premise that the most recently accessed items are less likely to be needed again in the immediate future compared to older items."
+type: "concept"
+tags:
+- "Cache Management"
+- "Memory Management Algorithms"
+- "MRU"
+relationships:
+- "#related_to [[Cache Eviction]]"
+- "#part_of [[Algorithms]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 ## Most Recently Used (MRU) Cache Eviction Algorithm

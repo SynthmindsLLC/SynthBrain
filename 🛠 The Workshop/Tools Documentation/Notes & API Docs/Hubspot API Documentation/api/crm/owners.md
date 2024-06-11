@@ -1,3 +1,17 @@
+---
+title: "Owners in HubSpot CRM"
+description: "Users who can be assigned specific users to records, activities, or marketing tasks and used for personalization tokens. Automatically created when new users are added or existing owners synced from Salesforce. Read-only API endpoints available for retrieving owner details."
+type: "group"
+tags:
+- "HubSpot"
+- "CRM"
+- "Ownership"
+relationships:
+- "#created_by [[Salesforce]]"
+- "#used_for [[Assigning Owners to Records, Activities, Marketing Tasks]]"
+founded: "2014-08-01"
+---
+
 Owners
 ======
 

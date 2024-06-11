@@ -1,11 +1,16 @@
 ---
-Date: [[2024-03-07]]
-Tags: 
- - "#eulers_theorems"
- - "#graph_theory"
- - "#number_theory"
- - "#planar_graphs"
- - "#cryptography"
+title: "Euler's Theorems"
+description: "Mathematical theorems attributed to Leonhard Euler, including results in graph theory and number theory with applications in cryptography."
+type: "concept"
+tags:
+- "Euler"
+- "Mathematics"
+- "Graph Theory"
+- "Number Theory"
+- "Cryptography"
+relationships:
+- "#developed_by [[Leonhard Euler]]"
+- "#applies_to [[Planar Graphs]], [[RSA Algorithm]]"
 ---
 
 ## Euler's Theorems

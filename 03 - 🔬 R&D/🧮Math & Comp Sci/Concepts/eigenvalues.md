@@ -1,11 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#eigenvalues"
- - "#linear_algebra"
- - "#mathematics"
- - "#eigenvectors"
- - "#matrix_theory"
+title: "Eigenvalues"
+description: "Fundamental concepts in linear algebra associated with a linear system of equations or, more specifically, with a matrix equation. They are special scalars that arise in the process of solving the eigenvalue problem for matrices, which is crucial in various applications across physics, engineering, and other scientific disciplines."
+type: "concept"
+tags:
+- "Eigenvalues"
+- "Linear_Algebra"
+- "Mathematics"
+- "Matrix_Theory"
+relationships:
+- "#related_to [[Linear Algebra]]"
+- "#applied_in [[Physics]], [[Engineering]], [[Computer Science]], [[Data Analysis]]"
+birthdate: "deathdate: "
 ---
 
 # Eigenvalues

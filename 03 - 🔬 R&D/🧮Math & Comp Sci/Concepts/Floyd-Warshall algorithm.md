@@ -1,10 +1,17 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#FloydWarshallAlgorithm"
- - "#Algorithms"
- - "#GraphTheory"
- - "#ShortestPath"
+title: "FloydWarshallAlgorithm"
+description: "The Floyd-Warshall algorithm is a classic algorithm in computer science used for finding the shortest paths between all pairs of vertices in a weighted graph, which may include both positive and negative edge weights, but should not contain any negative cycles."
+type: "concept"
+tags:
+- "Algorithms"
+- "GraphTheory"
+- "ShortestPath"
+relationships:
+- "#developed_by [[Robert Floyd]], [[Stephen Warshall]]"
+- "#applies_to [[Weighted Graphs]]"
+- "#has_part [[Dynamic Programming]]"
+- "#related_to [[Dijkstra's Algorithm]], [[Bellman-Ford Algorithm]]"
+birthdate: "deathdate: founded: population: "
 ---
 
 ## Floyd-Warshall Algorithm

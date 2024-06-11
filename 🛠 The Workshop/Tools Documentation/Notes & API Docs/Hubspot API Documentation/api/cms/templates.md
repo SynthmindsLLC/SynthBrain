@@ -1,3 +1,18 @@
+---
+title: "Templates API Development Update"
+description: "The v3 of the Templates API is currently under development, aiming to improve consistency and completeness. Subscribe to the Developer Changelog for updates. For the latest stable version, refer to the provided pages."
+type: "event"
+tags:
+- "API"
+- "Templates"
+- "Development"
+relationships:
+- "#part_of [[HubSpot Templates]]"
+- "#related_to [[API Updates]]"]]
+start_date: "undefined"
+end_date: "undefined"
+---
+
 Templates
 =========
 

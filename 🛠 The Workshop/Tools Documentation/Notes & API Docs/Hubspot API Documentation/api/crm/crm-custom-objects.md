@@ -1,3 +1,17 @@
+---
+title: "Custom Objects in HubSpot CRM"
+description: "A guide on creating, managing, and using custom objects within the HubSpot CRM to represent unique data structures for business needs."
+type: "group"
+tags:
+- "CRM"
+- "Customization"
+- "HubSpot"
+relationships:
+- "#created_by [[CarSpot]]"
+birthdate: "N/A"
+deathdate: "N/A"
+---
+
 **Custom objects**
 ==================
 

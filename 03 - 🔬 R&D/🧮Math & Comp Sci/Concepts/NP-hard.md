@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#NP_hard"
- - "#computational_complexity"
- - "#P_vs_NP"
- - "#algorithmic_challenges"
+title: "Understanding NP-Hardness"
+description: "A classification in computational complexity theory used to describe a certain class of problems known to be at least as difficult as the hardest problems in NP (nondeterministic polynomial time). These problems are characterized by their significant computational complexity, making them challenging to solve efficiently with current computational resources."
+type: "concept"
+tags:
+- "Computational Complexity"
+- "NP_hard"
+- "computational_complexity"
+relationships:
+- "#related_to [[P vs. NP Problem]]"
+- "#explains [[Traveling Salesman Problem]], [[Boolean Satisfiability Problem (SAT)]]"
+birthdate: "2024-03-31"
+deathdate: ""
 ---
 
 # Understanding NP-hardness

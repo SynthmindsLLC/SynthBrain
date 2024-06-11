@@ -1,3 +1,18 @@
+---
+title: "CRM Properties and Custom Objects in HubSpot"
+description: "Information on creating, managing, and using properties for CRM objects in HubSpot, including default properties, property groups, field types, unique identifier properties, calculation properties, retrieval of properties, updating values, checkbox type properties, user assignment, clearing values, and feedback."
+type: "guide"
+tags:
+- "CRM"
+- "HubSpot"
+- "Properties"
+- "Custom Objects"
+relationships:
+- "#related_to [[CrmObjects]]"
+- "#part_of [[Data Management]]"
+created_date: "YYYY-MM-DD # Replace with actual date of creation"
+---
+
 Properties
 ==========
 

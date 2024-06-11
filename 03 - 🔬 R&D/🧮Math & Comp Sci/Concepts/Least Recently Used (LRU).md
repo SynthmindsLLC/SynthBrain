@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#computer_science"
- - "#algorithms"
- - "#LRU"
- - "#caching"
+title: "Least Recently Used (LRU) Algorithm"
+description: "A popular caching strategy used in computer science to manage memory and improve the efficiency of data retrieval, based on the principle of temporal locality. LRU prioritizes keeping recently accessed items in the cache and discards the least recently accessed items when the cache is full and new data needs to be stored."
+type: "concept"
+tags:
+- "Computer_Science"
+- "Algorithms"
+- "LRU"
+- "Caching"
+relationships:
+- "#exploits [[Temporal Locality]]"
+- "#used_in [[Operating Systems]], [[Web Browsers]], [[Database Systems]], [[Content Delivery Networks (CDNs)]]"
+start_date: "2024-03-02"
 ---
 
 ## Least Recently Used (LRU) Algorithm

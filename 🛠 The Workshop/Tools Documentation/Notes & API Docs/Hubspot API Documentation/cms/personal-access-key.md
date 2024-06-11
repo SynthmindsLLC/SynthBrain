@@ -1,3 +1,17 @@
+---
+title: "Personal Access Key"
+description: "A method of authenticating with local development tools, tied to a specific user in an account and limited by the permissions that individual user has. Provides security for accounts as it only affects the individual portals associated with that user. Similar to OAuth2 behind the scenes."
+type: "group"
+tags:
+- "HubSpot"
+- "Local Development Tools"
+- "Authentication"
+relationships:
+- "#similar_to [[API Keys]]"
+- "#used_for [[Development Tools]]"]]
+updated_date: "2022-07-21"
+---
+
 Personal Access Key
 
 

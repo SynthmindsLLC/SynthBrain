@@ -1,9 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#Nodes"
- - "#NetworkTheory"
- - "#ComplexSystems"
+title: "Nodes in Network Theory"
+description: "Fundamental elements representing individual units within a network, varying across contexts like computer science, biology, and social sciences. They connect to other nodes via links and are crucial for interactions or communications within the network. Their role is determined by connections and overall structure. Examples include computers in computer networks, genes in biological networks, and individuals in social networks. Characteristics such as degree, centrality measures, and clustering coefficient help analyze network functionality, resilience, and efficiency. Challenges involve identifying nodes in large complex networks and understanding dynamic multi-layer networks."
+type: "concept"
+tags:
+- "Network Theory"
+- "Complex Systems"
+- "Nodes"
+relationships:
+- "#part_of [[Computer Networks]]"
+- "#part_of [[Biological Networks]]"
+- "#part_of [[Social Networks]]"
+birthdate: "deathdate: "
 ---
 
 Nodes are fundamental elements in network theory, representing the individual units within a network. These units can vary widely depending on the context of the network, encompassing concepts in computer science, biology, social sciences, and more.

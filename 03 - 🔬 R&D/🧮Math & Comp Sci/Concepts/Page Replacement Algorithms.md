@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#CacheEviction"
- - "#Algorithms"
- - "#ComputerScience"
- - "#MemoryManagement"
+title: "Cache Eviction Algorithms"
+description: "Strategies used to manage data in a cache, particularly when the cache reaches its capacity and needs to make room for new data. These algorithms determine which cached items should be removed to accommodate new entries. The choice of eviction algorithm can significantly impact the performance of caching systems, such as databases and web servers."
+type: "concept"
+tags:
+- "CacheEviction"
+- "Algorithms"
+- "ComputerScience"
+- "MemoryManagement"
+relationships:
+- "#related_to [[Database Systems]]"
+- "#related_to [[Web Servers]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 ## Cache Eviction Algorithms

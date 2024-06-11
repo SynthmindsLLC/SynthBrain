@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#miller_rabin_primality_test"
- - "#number_theory"
- - "#algorithms"
- - "#cryptography"
+title: "Miller-Rabin Primality Test"
+description: "A probabilistic algorithm used to determine whether a given number is prime, based on an extension of Fermat's little theorem. Efficient for large numbers and widely used in cryptography."
+type: "concept"
+tags:
+- "Number_Theory"
+- "Algorithms"
+- "Cryptography"
+relationships:
+- "#developed [[Fermat's Little Theorem]]"
+- "#used_for [[Public-Key Cryptography]]"
+- "#related_to [[Monte Carlo Algorithm]]"
+birthdate: "2024-03-14"
 ---
 
 The Miller-Rabin primality test is a probabilistic algorithm used to determine whether a given number is prime. Unlike deterministic tests, which provide a definitive answer, the Miller-Rabin test can only say that a number is either "definitely composite" or "probably prime." The test is based on an extension of Fermat's little theorem and is particularly favored for its efficiency with large numbers.

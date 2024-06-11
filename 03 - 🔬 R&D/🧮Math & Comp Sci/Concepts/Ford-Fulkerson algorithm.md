@@ -1,10 +1,15 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#FordFulkersonAlgorithm"
- - "#Algorithms"
- - "#GraphTheory"
- - "#MaximumFlow"
+title: "Ford-Fulkerson Algorithm"
+description: "A method used to solve the maximum flow problem in a flow network, finding the maximum amount of flow that can be sent from a source vertex to a sink vertex with capacity constraints on its edges."
+type: "concept"
+tags:
+- "Algorithms"
+- "Graph Theory"
+- "Maximum Flow"
+relationships:
+- "#developed_by [[Lester Ford]], [[Richard Fulkerson]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 ## Ford-Fulkerson Algorithm

@@ -1,9 +1,17 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#meta_heuristic_search"
- - "#optimization"
- - "#algorithms"
+title: "Meta-heuristic Search"
+description: "A class of algorithms designed for solving complex optimization problems where traditional methods are not effective. These algorithms provide a framework that can be adapted to a wide range of optimization tasks, particularly useful for finding good solutions to NP-hard problems."
+type: "concept"
+tags:
+- "Optimization"
+- "Algorithms"
+- "Meta_heuristic_search"
+relationships:
+- "#related_to [[Simulated Annealing]]"
+- "#related_to [[Genetic Algorithms]]"
+- "#related_to [[Particle Swarm Optimization (PSO)]]"
+- "#related_to [[Ant Colony Optimization (ACO)]]"
+birthdate: "2024-03-14"
 ---
 
 Meta-heuristic search refers to a class of algorithms designed for solving complex optimization problems where traditional methods are not effective. These algorithms are not specific to any particular problem type; instead, they provide a framework that can be adapted to a wide range of optimization tasks. Meta-heuristics are particularly useful for finding good solutions to NP-hard problems where finding the exact optimal solution is computationally infeasible for large instances.

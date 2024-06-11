@@ -1,3 +1,52 @@
+---
+title: "CRM cards in HubSpot"
+description: "Customizable CRM cards that display information from other systems on HubSpot contact, company, deal, and ticket records within a public app."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot"
+- "Integration"
+relationships:
+- "#part_of [[Public Apps]]"
+- "#used_for [[Displaying Information on CRM Records]]"
+scope_requirements:
+- "#requires [[OAuth Scopes for Modifying CRM Records]]"
+creation_method:
+- "API"
+- "HubSpot's UI"
+example_use_case:
+- "#related_to [[Bug Tracking Software Integration]]"
+data_request:
+- "#requires [[Specified Target URL and Query Parameters]]"
+response_format:
+- "Array of card properties with objectId, title, link, created, priority, actions, settingsAction, primaryAction, secondaryActions, customProperties"
+properties_supported:
+- "CURRENCY"
+- "DATE"
+- "DATETIME"
+- "EMAIL"
+- "LINK"
+- "NUMERIC"
+- "STATUS"
+- "STRING"
+custom_actions:
+- "#enables [[User Interaction with CRM Records]]"
+signature_verification:
+- "#prevents [[Request Tampering or Spoofing]]"
+additional_properties:
+- "objectId": "number (required)"
+- "title": "string (required)"
+- "link": "string (optional)"
+- "created": "string (required)"
+- "priority": "string (required)"
+- "actions": "array of actions"
+-action type: "IFRAME, ACTION_HOOK, CONFIRMATION_ACTION_HOOK"
+-label: "string"
+-uri: "string"
+-associatedObjectProperties: "object"
+-propertyName: "string"
+---
+
 CRM cards
 =========
 

@@ -1,3 +1,19 @@
+---
+title: "Blog Posts API Documentation"
+description: "Provides information on using the blog post API for publishing and managing blog posts in HubSpot."
+type: "documentation"
+tags:
+- "API"
+- "HubSpot"
+- "Blogging"
+relationships:
+- "#related_to [[Publishing]]"
+- "#similar_to [[Content Management System]]"]]
+- "#enables [[Website Content Creation]]"
+createdAt: "2023-01-01"
+updatedAt: "2023-04-01"
+---
+
 Blog Posts 
 =========== 
 

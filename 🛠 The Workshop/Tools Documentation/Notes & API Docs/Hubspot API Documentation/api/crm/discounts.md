@@ -1,3 +1,22 @@
+---
+title: "Discounts in HubSpot CRM API"
+description: "Information on creating and associating discounts as part of the pricing details for a quote, including POST request to create a discount and retrieving a list of created discounts."
+type: "work"
+tags:
+- "HubSpot"
+- "CRM"
+- "API"
+- "Discounts"
+relationships:
+- "#used_for [[Creating Quotes]]"
+- "#associated_with [[Fees]], [[Taxes]]"
+- "#created_by [[User]]"
+- "#retrieved_from [[GET Request to /crm/v3/objects/discount]]"]
+- "#related_to [[Endpoints Tab in Article]]"
+- "#part_of [[HubSpot CRM API Documentation]]"
+founded: "2014-05-01"
+---
+
 Discounts
 =========
 

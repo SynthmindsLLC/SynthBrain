@@ -1,3 +1,22 @@
+---
+title: "Idea Tracker Tutorial Part 2"
+description: "This two-part tutorial will show you how to connect a custom app to the HubSpot CRM, creating a simple customer idea forum with an interface where users can sign up, log in, and post ideas."
+type: "work"
+tags:
+- "HubSpot"
+- "CRM"
+- "Idea Tracker"
+relationships:
+- "#related_to [[Part 1]]"
+- "#uses [[Kafka]]"
+- "#uses [[Zookeeper]]"
+- "#uses [[Google Compute Engine]]"
+- "#requires [[SSL certificate]]"
+- "#located_in [[HubSpot CRM]]"
+- "#part_of [[Tutorial Series]]"
+founded: "2023-06-10"
+---
+
 Idea Tracker Tutorial Part 2
 ============================
 

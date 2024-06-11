@@ -1,3 +1,18 @@
+---
+title: "Blog Tags API Documentation"
+description: "Manage tags for your blog posts using the blog tags API."
+type: "concept"
+tags:
+- "Blog"
+- "Tags"
+- "API"
+relationships:
+- "#related_to [[HubSpot Knowledge Base]]"
+- "#similar_to [[Endpoints, Filtering, Sorting and Paginating, Create blog tags, Edit blog tags, Multi-language management, Create a new language variant, Attach a blog tag to an existing multi-language group, Detach a blog tag from a multi-language group]]"
+createdAt: "2023-01-01"
+updatedAt: "2023-04-01"
+---
+
 .interest-form { padding: 1em; display: none; height: 100%; } .interest-text { padding: 1em; } .hs-form>fieldset { max-width: 100% !important; }
 
 **Access and test APIs in beta.** 

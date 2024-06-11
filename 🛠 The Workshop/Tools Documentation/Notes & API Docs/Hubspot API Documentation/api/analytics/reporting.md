@@ -1,3 +1,16 @@
+---
+title: "v3 Reporting API Development Update"
+description: "The v3 Reporting API is currently under development, aimed at improving consistency and completeness of HubSpot's APIs. Subscribe to the Developer Changelog for updates on its availability. For more information about this project, visit [here](https://legacydocs.hubspot.com/docs/overview)."
+type: "group"
+tags:
+- "API"
+- "Reporting"
+- "Development"
+relationships:
+- "#part_of [[HubSpot APIs]]"
+founded: "N/A"
+---
+
 Reporting
 =========
 

@@ -1,3 +1,18 @@
+---
+title: "Orders API in HubSpot"
+description: "The orders API allows you to create and manage data related to ecommerce purchases, syncing it with external platforms like Shopify and NetSuite. It enables the creation of orders, updating order details, retrieval of orders based on criteria, and managing associations between orders and other CRM objects."
+type: "group"
+tags:
+- "ECommerce"
+- "HubSpot API"
+- "Orders Management"
+relationships:
+- "#used_for [[Synchronizing Ecommerce Data]]"
+- "#related_to [[Shopify]], [[NetSuite]]"
+createdAt: "2023-01-01T00:00:00.000Z"
+updatedAt: "2023-04-01T00:00:00.000Z"
+---
+
 Orders
 ======
 

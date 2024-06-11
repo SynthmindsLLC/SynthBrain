@@ -1,10 +1,15 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#OptimalPageReplacement"
- - "#PageReplacementAlgorithms"
- - "#MemoryManagement"
- - "#OperatingSystems"
+title: "Optimal Page Replacement Algorithm"
+description: "Theoretical model used in computer science for memory management within operating systems, designed to minimize page faults by selecting the page that will not be used for the longest period in the future."
+type: "concept"
+tags:
+- "PageReplacementAlgorithms"
+- "MemoryManagement"
+- "OperatingSystems"
+relationships:
+- "#benchmark_for [[Practical Page Replacement Algorithms]]"
+- "#requires_knowledge_of [[Future Page References]]"
+birthdate: "2024-03-02"
 ---
 
 ## Optimal Page Replacement Algorithm

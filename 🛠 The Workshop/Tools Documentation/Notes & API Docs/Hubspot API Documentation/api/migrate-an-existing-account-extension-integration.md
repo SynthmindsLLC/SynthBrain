@@ -1,3 +1,25 @@
+---
+title: "Migrate an existing Accounting Extension API integration"
+description: "Guide on migrating the Accounting Extension API integration before sunsetting of API keys, including contact and product sync migration using HubSpot's APIs."
+type: "work"
+tags:
+- "API"
+- "Migration"
+- "Hubspot"
+- "Accounting_Extension"
+relationships:
+- "#related_to [[API Key Sunset]]"
+- "#requires [[Contacts API]]"
+- "#requires [[Products API]]"
+- "#uses [[CRM Cards API]]"
+- "#implements [[Data Fetch Request]]"
+- "#implements [[Action Hook Action]]"
+- "#related_to [[Webhooks]]"
+- "#enables [[Invoice Data Display on CRM Card]]"
+- "#requires [[IFRAME action for View invoice PDF]]"
+founded: "2022-11-30"
+---
+
 Migrate an existing Accounting Extension API integration
 ========================================================
 

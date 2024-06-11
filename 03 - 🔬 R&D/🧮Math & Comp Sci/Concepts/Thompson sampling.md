@@ -1,10 +1,16 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#ThompsonSampling"
- - "#ReinforcementLearning"
- - "#ExplorationExploitationDilemma"
- - "#Algorithms"
+title: "Thompson Sampling"
+description: "A heuristic for choosing actions that address the exploration-exploitation dilemma in the multi-armed bandit problem. It involves choosing the action that maximizes the expected reward with respect to a randomly drawn belief[1]."
+type: "concept"
+tags:
+- "Reinforcement Learning"
+- "ExplorationExploitationDilemma"
+- "Algorithms"
+relationships:
+- "#developed_by [[William R. Thompson]]"
+- "#used_for [[Online Learning]], [[A/B Testing]], [[Personalized Content Recommendation]]"
+- "#applied_in [[Industry Applications]]"
+birthdate: "deathdate: founded: start_date: end_date: "
 ---
 
 ## Thompson Sampling

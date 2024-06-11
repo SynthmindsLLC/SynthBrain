@@ -982,6 +982,9 @@
 
 [[2024-06-07]] 7:46 AM — Synced 0 highlights from 0 documents.
 
+[[2024-06-10]] 8:07 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from Apple Intelligence Preview
+
 [[2024-06-08]] 8:45 AM — Synced 0 highlights from 0 documents.
 
 [[2024-06-08]] 10:15 PM — Synced 14 highlights from 2 documents.

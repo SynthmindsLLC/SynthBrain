@@ -1,3 +1,18 @@
+---
+title: "API Feedback Form"
+description: "A form designed to collect user feedback on the beta version of a specific API, including satisfaction level and suggestions for improvement."
+type: "conversation"
+tags:
+- "API"
+- "Feedback"
+- "Beta Testing"
+relationships:
+- "#part_of [[HubSpot Forms]]"
+- "#authored_by [[Developer Team]]"]]
+birthdate: ""
+deathdate: ""
+---
+
 .interest-form { padding: 1em; display: none; height: 100%; } .interest-text { padding: 1em; } .hs-form>fieldset { max-width: 100% !important; }
 
 **Access and test APIs in beta.** 

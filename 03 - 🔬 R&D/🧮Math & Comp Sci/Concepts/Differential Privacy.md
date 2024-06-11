@@ -1,10 +1,15 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#differential_privacy"
- - "#data_protection"
- - "#privacy_techniques"
- - "#algorithmic_privacy"
+title: "Differential Privacy"
+description: "A framework for quantifying the privacy guarantees provided by an algorithm, enabling analysis of sensitive datasets while protecting individual data. Adds controlled noise to outputs based on query sensitivity and uses epsilon and delta parameters for formal privacy guarantees."
+type: "concept"
+tags:
+- "Privacy"
+- "Data_Protection"
+- "Algorithmic_Privacy"
+relationships:
+- "#enables [[privacy-preserving data analysis]]"
+- "#applied_by [[U.S. Census Bureau]], [[Google]], [[Apple]]"
+- "#related_to [[Statistical Databases]], [[Machine Learning Models]], [[Social Networks]]"
 ---
 
 Differential privacy is a framework for quantifying the privacy guarantees provided by an algorithm. It aims to enable the analysis of datasets containing sensitive information while ensuring that the privacy of individuals in the dataset is protected. The core idea is that the output of a differentially private algorithm should not allow one to infer whether any individual's data was included in the input dataset, within a certain mathematical bound.

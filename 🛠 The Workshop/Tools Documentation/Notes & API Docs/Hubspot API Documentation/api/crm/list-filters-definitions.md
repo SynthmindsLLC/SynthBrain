@@ -1,3 +1,32 @@
+---
+title: "List filter definitions (BETA)"
+description: "Definitions for the list type, property operations, and coalescing refine by and pruning refine by operations."
+type: "concept"
+tags:
+- "Filter"
+- "List_Definitions"
+relationships:
+- "#related_to [[Ads Time Filter]]"
+- "#related_to [[Ads Search Filter]]"
+- "#related_to [[CTA Filter]]"
+- "#related_to [[Email Event Filter]]"
+- "#related_to [[Email Subscription Filter]]"
+- "#related_to [[Event Filter]]"
+- "#related_to [[Form Submission Filter]]"
+- "#related_to [[Form Submission on Page Filter]]"
+- "#related_to [[Integration Event Filter]]"
+- "#related_to [[Page View Filter]]"
+- "#related_to [[Privacy Filter]]"
+- "#related_to [[Property Filter]]"
+- "#related_to [[Survey Monkey Filter]]"
+- "#related_to [[SURVEY_MONKEY_VALUE Filter]]"
+- "#related_to [[Webinar Filter]]"
+- "#related_to [[Weber Filter]]"
+- "#related_to [[Property Operation Definitions]]"]]
+- "#related_to [[Time Point Operations]]"]]"
+- "#related_to [[Time Ranged Operations]]"]]"
+---
+
 List filter definitions (BETA)
 ==============================
 

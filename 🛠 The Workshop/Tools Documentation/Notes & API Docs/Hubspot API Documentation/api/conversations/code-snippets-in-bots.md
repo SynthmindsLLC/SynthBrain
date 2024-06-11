@@ -1,3 +1,17 @@
+---
+title: "Running code snippets in bots"
+description: When creating or editing a bot, you can add a code snippet by clicking the "+" to [add an action](https://knowledge.hubspot.com/articles/kcs_article/conversations/create-a-bot). From the action selection panel, click on "Run a code snippet."
+type: "work"
+tags:
+- "Bot"
+- "Code Snippet"
+- "Node.js"
+relationships:
+- "#part_of [[Conversation]]"
+- "#used_by [[Developer]]"
+- "#related_to [[HubSpot Conversations API]]"
+---
+
 Running code snippets in bots
 =============================
 

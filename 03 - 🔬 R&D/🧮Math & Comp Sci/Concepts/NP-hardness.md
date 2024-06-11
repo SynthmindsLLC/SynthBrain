@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#NP_hardness"
- - "#computational_complexity"
- - "#P_vs_NP"
- - "#algorithmic_challenges"
+title: "NP-Hardness Explained"
+description: "A concept in computational complexity theory that refers to the difficulty of solving certain computational problems, including NP-hard and NP-complete problems, with implications for cryptography and optimization."
+type: "concept"
+tags:
+- "Computational_Complexity"
+- "NP_Hardness"
+- "Algorithmic_Challenges"
+- "P_vs_NP"
+relationships:
+- "#related_to [[Computational Complexity Theory]]"
+- "#explains [[NP-hard Problems]], [[NP-Complete Problems]]"
+- "#has_implications [[Cryptography]], [[Optimization]]"
+birthdate: "2024-03-31"
 ---
 
 # NP-Hardness Explained

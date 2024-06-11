@@ -1,3 +1,17 @@
+---
+title: "Sunsetted and Deprecated APIs"
+description: "The APIs listed in the sections below will not receive future updates to functionality, and in some cases, will be fully sunsetted and unavailable for use in your integrations. It's highly recommended that you subscribe to the HubSpot Developer Changelog (/changelog) to follow along with the latest updates, breaking changes, and other significant changes to functionality."
+type: "group"
+tags:
+- "HubSpot"
+- "APIs"
+- "Deprecated"
+relationships:
+- "#related_to [[Changelog]]"
+- "#contains [[Sunsetted APIs], [Deprecated APIs]]"
+founded: "N/A"
+---
+
 Sunsetted and deprecated APIs
 =============================
 

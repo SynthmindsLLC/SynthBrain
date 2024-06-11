@@ -1,3 +1,17 @@
+---
+title: "CRM Search Endpoints and Usage"
+description: "Use the CRM search endpoints to filter, sort, and search objects, records, and engagements across your CRM. For example, use the endpoints to get a list of contacts in your account, or a list of all open deals."
+type: "group"
+tags:
+- "CRM"
+- "Search Endpoints"
+- "Filtering"
+relationships:
+- "#related_to [[API Documentation]]"
+- "#similar_to [[Data Retrieval Techniques]]"
+- "#different_from [[Manual Data Entry]]"
+---
+
 Search 
 =======
 

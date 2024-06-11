@@ -1,3 +1,17 @@
+---
+title: "Create a settings page for your app in HubSpot"
+description: "A guide on creating an app settings page using the settings builder to give users more control over how they use your app within their HubSpot account."
+type: "group"
+tags:
+- "HubSpot"
+- "App Settings Page"
+- "Developer Guide"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#part_of [[Connected Apps]]"
+created_date: "YYYY-MM-DD # Replace with actual creation date of the guide"
+---
+
 Create a settings page for your app
 ===================================
 

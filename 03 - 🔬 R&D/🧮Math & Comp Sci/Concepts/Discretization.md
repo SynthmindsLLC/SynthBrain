@@ -1,12 +1,21 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#Discretization" 
- - "#DataTransformation" 
- - "#MachineLearning" 
- - "#DataMining" 
- - "#HistogramAnalysis"
-
+title: "Discretization Techniques and Applications"
+description: "Data transformation technique that converts continuous values into discrete categories or intervals, often to simplify the computation in complex systems or to make the data more understandable and manageable. It is a common concept in statistics, machine learning, and data mining."
+type: "concept"
+tags:
+- "Data Transformation"
+- "Feature Engineering"
+- "Machine Learning Preprocessing"
+- "Histogram Analysis"
+- "Data Mining Techniques"
+relationships:
+- "#related_to [[Statistics]]"
+- "#used_for [[Simplifying Computation]]"
+- "#applied_in [[Feature Engineering]]"
+- "#improves [[Model Performance]]"
+- "#creates [[Concept Hierarchies]]"
+- "#facilitates [[Data Management]]"
+- "#enhances [[Information Consistency]]"
 ---
 
 Discretization is a data transformation technique that converts continuous values into discrete categories or intervals, often to simplify the computation in complex systems or to make the data more understandable and manageable. It is a common concept in statistics, machine learning, and data mining, where it is used for feature engineering, improving model performance, and creating concept hierarchies[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19].

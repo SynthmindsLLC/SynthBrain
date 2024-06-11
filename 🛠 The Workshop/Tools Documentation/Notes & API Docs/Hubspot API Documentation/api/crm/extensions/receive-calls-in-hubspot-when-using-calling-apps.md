@@ -1,3 +1,16 @@
+---
+title: "Receive calls in HubSpot when using calling apps (BETA)"
+description: "This article is for Calling App Marketplace Partners and Solutions Partners, detailing how to enable the Incoming Calls feature within HubSpot. It's currently in development and subject to change based on testing and feedback. To provide feedback, contact hubspot-calling-sdk-feedback@callingproductgroup.hs-inbox.com."
+type: "group"
+tags:
+- "Calling App Marketplace"
+- "Solutions Partners"
+- "HubSpot SDK"
+relationships:
+- "#developed_by [[HubSpot]]"
+founded: "N/A"
+---
+
 Receive calls in HubSpot when using calling apps (BETA)[](https://developers.hubspot.com/docs/api/crm/extensions/receive-calls-in-hubspot-when-using-calling-apps#receive-calls-in-hubspot-when-using-calling-apps-beta-)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

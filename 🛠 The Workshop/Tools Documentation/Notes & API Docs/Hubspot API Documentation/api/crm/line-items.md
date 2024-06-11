@@ -1,3 +1,18 @@
+---
+title: "Line Items in HubSpot CRM API"
+description: "Individual instances of products attached to deals, quotes, etc., managed through the line items endpoints for data syncing and customization."
+type: "group"
+tags:
+- "HubSpot"
+- "CRM"
+- "API"
+- "Line Items"
+relationships:
+- "#part_of [[Sales Operations]]"
+- "#associated_with [[Deals]], [[Quotes]], [[Invoices]], [[Payment Links]], [[Subscriptions]]"
+founded: "2014-08-01"
+---
+
 Line Items
 ==========
 

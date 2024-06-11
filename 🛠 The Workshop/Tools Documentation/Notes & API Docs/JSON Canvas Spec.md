@@ -1,3 +1,18 @@
+---
+title: "JSON Canvas Spec"
+description: "Version 1.0  2024-03-11, a specification for creating and manipulating notes in Obsidian using JSON format."
+type: "spec"
+tags:
+- "JSON"
+- "Canvas"
+- "Obsidian"
+relationships:
+- "#developed [[JSON Canvas]]"
+- "#related_to [[Markdown Notes]]"
+- "#used_by [[Developers]], [[Users]]"]]
+founded: "2024-03-11"
+---
+
 [![JSON Feed](https://jsoncanvas.org/logo.svg)](https://jsoncanvas.org/)[Apps](https://jsoncanvas.org/docs/apps)[Spec](https://jsoncanvas.org/spec/1.0)[GitHub](https://github.com/obsidianmd/jsoncanvas)
 
 ---

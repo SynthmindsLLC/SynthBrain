@@ -1,3 +1,18 @@
+---
+title: "Custom code workflow actions"
+description: "In workflows, use the _Custom code_ action to write and execute JavaScript or Python (_in beta_) for extending functionality within and outside of HubSpot. To learn more about HubSpot's APIs, refer to developer documentation. For common custom code actions examples, view Programmable Automation Use Cases."
+type: "work"
+tags:
+- "Workflow"
+- "Custom Code Actions"
+- "JavaScript"
+- "Python"
+relationships:
+- "#enables [[Extending Workflow Functionality]]"
+- "#requires [[HubSpot APIs]]"
+created_date: "YYYY-MM-DD # Replace with actual creation date if known."
+---
+
 Custom code workflow actions
 ============================
 

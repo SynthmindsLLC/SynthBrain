@@ -1,10 +1,29 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#heuristics"
- - "#problem_solving"
- - "#algorithms"
- - "#computational_complexity"
+title: "Heuristics in Problem Solving"
+description: "Strategies or approaches that guide problem solving and decision-making processes, particularly for complex problems where finding an optimal solution is impractical."
+type: "concept"
+tags:
+- "Heuristics"
+- "Problem_Solving"
+- "Algorithms"
+- "Computational_Complexity"
+relationships:
+- "#used_for [[Approximation]]"
+- "#enables [[Efficiency]]"]]
+- "#related_to [[Search Heuristics]], [[Optimization Heuristics]], [[Problem-Specific Heuristics]]"
+- "#applied_in [[Artificial Intelligence]], [[Operations Research]], [[Computer Science]]"
+birthdate: "deathdate: founded: start_date: end_date: tags:"
+- "Approximation"
+- "Efficiency"
+- "Rule of Thumb"
+- "Search Heuristics"
+- "Optimization Heuristics"
+- "Problem-Specific Heuristics"
+- "Advantages and Limitations"
+- "Application Areas"
+- "Heuristics_and_Computational_Complexity"
+- "#related_to [[Artificial Intelligence]], [[Operations Research]], [[Computer Science]]"
+published_date: "2024-03-31"
 ---
 
 # Heuristics in Problem Solving

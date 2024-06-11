@@ -1,11 +1,18 @@
 ---
-Date: [[2024-03-28]]
-Tags: 
- - "#computing"
- - "#kernel"
- - "#operatingsystem"
- - "#resource_management"
- - "#system_calls"
+title: "Kernel in Operating System (OS)"
+description: "The core component of the operating system, managing resources and facilitating communication between hardware and software. It performs several critical functions such as resource management, process management, memory management, device management, system calls and security, error handling, and operates in a privileged mode known as kernel space[1][2][3][4]."
+type: "concept"
+tags:
+- "Computing"
+- "Kernel"
+- "Operating System"
+- "Resource Management"
+- "System Calls"
+relationships:
+- "#part_of [[Operating System]]"
+- "#enables [[Process Scheduling]], [[Memory Allocation]], [[Device Communication]]"
+- "#used_by [[CPU]], [[RAM]], [[Virtual Memory]], [[Device Drivers]], [[System Calls]]"
+birthdate: "deathdate: founded: population: "
 ---
 
 The function of a kernel in a computer is to act as the core component of the operating system, managing the system's resources and facilitating communication between hardware and software. It performs several critical functions:

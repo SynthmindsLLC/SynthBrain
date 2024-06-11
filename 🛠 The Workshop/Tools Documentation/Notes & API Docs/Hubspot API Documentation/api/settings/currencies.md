@@ -1,3 +1,16 @@
+---
+title: "Currencies API Overview and Endpoints"
+description: "Manage currencies in your HubSpot account, including setting the company currency, creating additional currencies, updating exchange rates, etc. Learn more about adding and editing currencies within HubSpot."
+type: "group"
+tags:
+- "HubSpot"
+- "API"
+- "Currencies"
+relationships:
+- "#related_to [[Adding and Editing Currencies Within HubSpot]]"
+- "#part_of [[Settings API]]"
+---
+
 Currencies[](https://developers.hubspot.com/docs/api/settings/currencies#currencies)
 ------------------------------------------------------------------------------------
 

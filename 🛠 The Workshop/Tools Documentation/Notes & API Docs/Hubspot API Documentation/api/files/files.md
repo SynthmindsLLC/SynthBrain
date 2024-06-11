@@ -1,3 +1,30 @@
+---
+title: "File Manager API Documentation"
+description: "Access and test APIs in beta, manage and store files using the HubSpot Files tool."
+type: "documentation"
+tags:
+- "API"
+- "HubSpot"
+- "File Management"
+relationships:
+- "#related_to [[Upload a new file]]"
+- "#related_to [[List metadata for all files]]"
+- "#related_to [[Upload a replacement file]]"
+- "#related_to [[Mark a file as deleted]]"
+- "#related_to [[Get file metadata]]"
+- "#related_to [[Archive a file]]"
+- "#related_to [[Hard delete a file and related items]]"
+- "#related_to [[Update the access of a group of files]]"
+- "#related_to [[Check the status of a file access update task]]"
+- "#related_to [[Get a signed URL for a private file]]"
+- "#related_to [[Move a file]]"
+- "#related_to [[Create a folder]]"
+- "#related_to [[List folder metadata]]"
+- "#related_to [[Delete a folder]]"
+- "#related_to [[Get the folder by ID]]"
+createdAt: "2023-06-28T17:56:45.393Z"
+---
+
 File Manager
 ============
 

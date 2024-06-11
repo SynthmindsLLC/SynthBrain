@@ -1,10 +1,54 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#FCFS"
- - "#CPUScheduling"
- - "#OperatingSystems"
- - "#ProcessManagement"
+title: "First Come First Serve (FCFS) CPU Scheduling"
+description: "The simplest te of CPU scheduling algorithm that schedules according to the arrival times of various processes. Implemented using a FIFO queue, where the Process Control Block (PCB) of a process is linked to the tail of the queue when it enters the ready queue. Once the CPU becomes free, the process at the head of the queue gets allocated and runs until completion[1][3][4]."
+type: "concept"
+tags:
+- "CPU Scheduling"
+- "Operating Systems"
+- "Process Management"
+relationships:
+- "#related_to [[Synthbrain/03
+-R&D/Math & Comp Sci/Concepts/First-In, First-Out (FIFO)]"
+- "#part_of [[CPU Scheduling]]"
+- "#has_property [[Non-Preemptive]]"
+- "#has_property [[Simple Implementation]]"
+- "#has_property [[Fairness]]"
+- "#has_advantage [[Simplicity]]"
+- "#has_advantage [[Low Scheduling Overhead]]"
+- "#has_advantage [[Guaranteed Execution]]"
+- "#has_disadvantage [[Convoy Effect]]"
+- "#has_disadvantage [[High Average Waiting Time]]"
+- "#has_disadvantage [[Poor Performance for Time-Sharing Systems]]"
+- "#related_to [[Queue at a ticket counter analogy]]"
+sources:
+- "First Come First Serve  CPU Scheduling (Non-Preemptive)"
+- "Advantages and Disadvantages of various CPU scheduling algorithms"
+- "First-come, first-served (FCFS) scheduling algorithm
+-Educative.io"
+- "FCFS Scheduling in OS
+-DataFlair"
+- "First Come First Serve | CPU Scheduling
+-Gate Vidyalay"
+- "Advantages and disadvantages of various Disk scheduling algorithms"
+- "Program for FCFS CPU Scheduling | Set 1
+-GeeksforGeeks"
+- "FCFS SCHEDULING ALGORITHM
+-CONVOY EFFECTS
+-YouTube"
+- "First Come First Serve(FCFS) Scheduling Algorithm
+-Studytonight"
+- "[PDF] Strategy Description Advantages Disadvantages
+-LASS"
+- "FCFS Scheduling Algorithm: "What is, Example Program"
+-Guru99"
+- "FCFS SCHEDULING ALGORITHM
+-CONVOY EFFECTS
+-YouTube"
+- "Operating System Design/Scheduling Processes/FCFS
+-Wikibooks"
+- "FCFS Scheduling Algorithm in OS | Easy Explaination
+-YouTube"
+birthdate: "2024-03-02"
 ---
 
 ## First Come First Serve (FCFS) CPU Scheduling

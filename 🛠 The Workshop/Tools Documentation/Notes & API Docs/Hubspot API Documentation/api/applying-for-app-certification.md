@@ -1,3 +1,18 @@
+---
+title: "App Certification Process"
+description: "The process of getting an app certified by the HubSpot Ecosystem Quality team for security, privacy, reliability, performance, usability, accessibility, and value. Once approved, your app listing page will show a HubSpot Certified App badge."
+type: "group"
+tags:
+- "Certification"
+- "App Marketplace"
+- "Quality Assurance"
+relationships:
+- "#requires [[Eligibility]]"
+- "#produces [[Certified Badge]]"
+- "#related_to [[HubSpot Ecosystem Quality Team]]"]]
+founded: "N/A"
+---
+
 Apply for app certification
 ===========================
 

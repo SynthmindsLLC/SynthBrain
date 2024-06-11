@@ -1,10 +1,20 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#probability_theory"
- - "#mathematics"
- - "#statistics"
- - "#random_processes"
+title: "Probability Theory"
+description: "A branch of mathematics concerned with the analysis of random phenomena, providing a formal framework for reasoning about uncertainty and quantifying likelihoods."
+type: "concept"
+tags:
+- "Probability_Theory"
+- "Mathematics"
+- "Statistics"
+- "Random_Processes"
+relationships:
+- "#related_to [[Random Variables]]"
+- "#related_to [[Probability Distributions]]"
+- "#used_for [[Statistical Inference]]"
+- "#used_in [[Risk Assessment]]"
+- "#applied_in [[Science and Engineering]]"
+- "#includes [[Law of Large Numbers]], [[Central Limit Theorem]], [[Bayes' Theorem]]"
+start_date: "2024-03-31"
 ---
 
 # Probability Theory

@@ -1,3 +1,17 @@
+---
+title: "Deals in HubSpot CRM"
+description: "Transactions with contacts or companies tracked through the sales process until won or lost, managed and synced via deals endpoints."
+type: "group"
+tags:
+- "CRM"
+- "Sales Process"
+- "HubSpot"
+relationships:
+- "#part_of [[Pipeline Stages]]"
+- "#managed_by [[HubSpot CRM]]"
+founded: "N/A"
+---
+
 Deals
 =====
 

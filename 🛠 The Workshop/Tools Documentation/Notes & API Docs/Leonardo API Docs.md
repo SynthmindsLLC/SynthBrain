@@ -1,3 +1,22 @@
+---
+title: "Create a Generation of Images"
+description: "This endpoint will generate images using various techniques and features such as Alchemy, ControlNet, Fantasy Avatar, Prompt Magic, etc."
+type: "work"
+tags:
+- "Image_Generation"
+- "Artificial_Intelligence"
+- "LeonardoAI"
+relationships:
+- "#uses [[Alchemy]]"
+- "#uses [[ControlNet]]"
+- "#uses [[Fantasy Avatar]]"
+- "#uses [[Prompt Magic]]"
+- "#related_to [[Image Prompts]]"
+- "#used_by [[API Clients]]"]]
+- "#enables [[Creative Visualization]]"
+- "#produces [[Generated Images]]"
+---
+
 # Create a Generation of Images
 
 POSThttps://cloud.leonardo.ai/api/rest/v1/generations

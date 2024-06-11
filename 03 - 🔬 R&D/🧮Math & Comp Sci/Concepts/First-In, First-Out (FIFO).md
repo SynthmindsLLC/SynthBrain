@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#FIFO"
- - "#PageReplacementAlgorithms"
- - "#OperatingSystems"
- - "#MemoryManagement"
+title: "First In First Out (FIFO) Page Replacement Algorithm"
+description: "A fundamental page replacement strategy used in operating systems for memory management, which operates on a simple principle where the oldest page in memory is replaced with a new page when a page fault occurs. It utilizes a queue to keep track of all pages in memory and ensures that the page at the front of the queue (the oldest) is selected for replacement when necessary."
+type: "concept"
+tags:
+- "Page Replacement Algorithms"
+- "Operating Systems"
+- "Memory Management"
+relationships:
+- "#part_of [[Memory Management]]"
+- "#related_to [[Synthbrain/03
+-R&D/Math & Comp Sci/Concepts/Page Replacement Algorithms"]
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 ## First In First Out (FIFO) Page Replacement Algorithm

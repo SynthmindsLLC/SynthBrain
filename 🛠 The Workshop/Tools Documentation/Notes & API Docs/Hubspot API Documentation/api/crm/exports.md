@@ -1,3 +1,18 @@
+---
+title: "Exports API Overview and Usage"
+description: "The exports API allows you to export records, property data, or logs from your HubSpot account in various formats. It supports both view and list exports with customizable parameters such as file format, object type, associated objects, and properties. You can also filter the exported data based on specific criteria."
+type: "concept"
+tags:
+- "HubSpot"
+- "API"
+- "Exporting Data"
+relationships:
+- "#related_to [[CRM]]"
+- "#used_for [[Data Management]]"
+start_date: "N/A"
+end_date: "N/A"
+---
+
 Exports
 =======
 

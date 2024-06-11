@@ -1,3 +1,17 @@
+---
+title: "Engagements"
+description: "Management of engagements as objects using the latest version of engagement APIs, including creating, updating, associating, and deleting notes through various endpoints."
+type: "group"
+tags:
+- "Engagement"
+- "APIs"
+- "CRM"
+relationships:
+- "#part_of [[HubSpot CRM]]"
+- "#related_to [[Notes]], [[Calls]], [[Tasks]], [[Meetings]], [[Emails]], [[Postal Mail]], [[Communications]]
+founded: "2014-05-08"
+---
+
 Engagements
 ===========
 

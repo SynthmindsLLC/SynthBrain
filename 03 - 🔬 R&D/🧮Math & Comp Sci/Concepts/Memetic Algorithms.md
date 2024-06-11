@@ -1,10 +1,24 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#memetic_algorithms"
- - "#optimization"
- - "#evolutionary_computation"
- - "#local_search"
+title: "Memetic Algorithms (MAs)"
+description: "An advanced form of evolutionary algorithms that combine global search strategies with local search heuristics, inspired by Darwinian principles and the concept of memes."
+type: "algorithm"
+tags:
+- "Evolutionary_Algorithms"
+- "Optimization"
+- "Memetic_Algorithms"
+- "Local_Search"
+relationships:
+- "#developed [[Darwinian principle]], [[Concept of memes]]"
+- "#uses [[Global and Local Search]]"
+- "#applies [[to [[Scheduling]], [[Combinatorial Optimization]], [[Continuous Optimization]]"
+birthdate: "2024-03-14"
+tags:
+- "Evolutionary_Algorithms"
+- "Optimization"
+- "Memetic_Algorithms"
+- "Local_Search"
+founded: "N/A"
+population: "N/A"
 ---
 
 Memetic Algorithms (MAs) are an advanced form of evolutionary algorithms that combine global search strategies with local search heuristics. They are inspired by both the Darwinian principle of natural evolution and the concept of memes, which represent ideas or skills that are transmitted within a population and subject to evolutionary pressure.

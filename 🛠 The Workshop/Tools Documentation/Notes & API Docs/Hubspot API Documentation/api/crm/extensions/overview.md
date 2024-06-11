@@ -1,3 +1,16 @@
+---
+title: "Extensions overview"
+description: "Using extensions, you can customize the functionality of the HubSpot CRM. HubSpot offers a variety of extensions, such as creating custom events for CRM record timelines or enabling custom calling options with the calling SDK. You can also create UI extensions if youre enrolled in the CRM development tools beta, which enables you to create custom cards with a wide variety of customizable components."
+type: "group"
+tags:
+- "CRM"
+- "Extensions"
+- "Customization"
+relationships:
+- "#related_to [[HubSpot CRM]]"
+- "#enables [[Create Custom Events]], [[Enable Calling Options]], [[UI Extensions]]"
+---
+
 Extensions overview
 ===================
 

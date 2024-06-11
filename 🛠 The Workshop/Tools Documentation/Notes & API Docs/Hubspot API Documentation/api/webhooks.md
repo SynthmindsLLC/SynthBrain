@@ -1,3 +1,19 @@
+---
+title: "Webhooks API Documentation"
+description: "The Webhooks API allows you to subscribe to events happening in a HubSpot account with your integration installed, providing notifications via HTTP requests when specified events occur."
+type: "document"
+tags:
+- "Webhooks"
+- "HubSpot Integration"
+- "API Documentation"
+relationships:
+- "#related_to [[CRM object events]]"
+- "#related_to [[Conversations events]]"
+- "#requires [[crm.objects.contacts.read scope]]"
+- "#requires [[conversations.read scope]]"
+created_date: "2023-01-01"
+---
+
 Webhooks
 ========
 

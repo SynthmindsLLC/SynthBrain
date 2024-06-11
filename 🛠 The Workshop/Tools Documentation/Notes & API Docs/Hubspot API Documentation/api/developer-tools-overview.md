@@ -1,3 +1,23 @@
+---
+title: "Building apps overview"
+description: "Apps enable you to authenticate API calls to your HubSpot account, subscribe to events with webhooks, and extend the HubSpot UI, such as with custom cards. HubSpot offers several types of apps and extensions depending on your integration's needs. Below, learn more about the types of apps and extensions you can build with HubSpot, how to get started building them, and how to manage them in HubSpot."
+type: "work"
+tags:
+- "HubSpot"
+- "App Development"
+- "API Integration"
+relationships:
+- "#related_to [[Private Apps]]"
+- "#related_to [[Public Apps]]"
+- "#related_to [[Projects (BETA)]]"
+- "#related_to [[Supported Extensions by App Type]]"
+- "#related_to [[Types of Accounts for App Development]]"
+- "#related_to [[Authentication]]"
+- "#related_to [[Developer Account API Keys]]"
+- "#related_to [[Delete a Developer Account]]"
+- "#related_to [[Share Feedback]]"
+---
+
 Building apps overview
 ======================
 

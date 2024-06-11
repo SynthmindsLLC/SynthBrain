@@ -1,3 +1,23 @@
+---
+title: "Alfrd Rnyi"
+description: "Mathematician, Theorist, and Philosopher who made significant contributions to probability theory, number theory, combinatorics, and graph theory. Collaborated with Paul Erds on the ErdsRnyi model of random graphs. Born in 1921, led the Mathematics Research Institute of the Hungarian Academy of Sciences in 1950."
+type: "person"
+tags:
+- "Mathematician"
+- "Theorist"
+- "Philosopher"
+- "Probability Theory"
+- "Number Theory"
+- "Combinatorics"
+- "Graph Theory"
+relationships:
+- "#collaborated_with [[Paul Erds]] on the [[ErdsRnyi model of random graphs]]"]"
+- "#founded [[Mathematics Research Institute of the Hungarian Academy of Sciences]] in 1950]]"
+- "#born_in [[Hungary]]"
+birthdate: "1921-03-20"
+deathdate: "1970-02-14"
+---
+
 # Alfréd Rényi: Mathematician, Theorist, and Philosopher
 
 Alfréd Rényi, a luminary in the mathematical universe, extended his intellectual pursuits across various domains, including probability theory, number theory, combinatorics, and graph theory. His collaborative work with [[Paul Erdős]] on the [[Erdős–Rényi]] model of random graphs has etched a lasting impression on network science and random graph theory, underscoring the breadth of his contributions to mathematics.

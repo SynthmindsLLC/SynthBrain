@@ -1,10 +1,15 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#ExplorationExploitationDilemma"
- - "#EpsilonGreedy"
- - "#ReinforcementLearning"
- - "#Algorithms"
+title: "Epsilon-Greedy Strategy"
+description: "A method used in reinforcement learning to balance exploration (trying new things) and exploitation (using known information). It is defined by a parameter epsilon, which is the probability of choosing to explore rather than exploit. The algorithm can be implemented with an initial exploration rate that decays over time as the agent learns."
+type: "concept"
+tags:
+- "Reinforcement Learning"
+- "Exploration and Exploitation Dilemma"
+- "Epsilon Greedy Algorithm"
+relationships:
+- "#related_to [[Reinforcement Learning]]"
+- "#used_by [[Algorithms]]"
+birthdate: "2024-02-24"
 ---
 
 ## Epsilon-Greedy Strategy

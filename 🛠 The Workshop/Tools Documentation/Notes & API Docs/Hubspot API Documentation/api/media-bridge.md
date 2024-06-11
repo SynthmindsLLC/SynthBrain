@@ -1,3 +1,18 @@
+---
+title: "Media Bridge API"
+description: "The media bridge API allows integrators to push media objects such as video and audio files, and media consumption data into HubSpot. It also creates features in the users HubSpot account for embedding media objects, CRM timeline events, segmented lists, workflows, and reports."
+type: "work"
+tags:
+- "Media"
+- "API"
+- "HubSpot"
+relationships:
+- "#part_of [[HubSpot Integration]]"
+- "#enables [[Embedding Media Objects in HubSpot's CMS]]"
+- "#used_by [[Integrators, Developers]]"
+created_date: "2023-01-01"
+---
+
 Media Bridge API
 ================
 

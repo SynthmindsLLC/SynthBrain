@@ -1,3 +1,18 @@
+---
+title: "Implement Google consent mode v2"
+description: "A framework designed to integrate website visitor consent preferences with Google's advertising and analytics tools, allowing websites to adjust how these tools behave based on the consent status of website visitors."
+type: "group"
+tags:
+- "Google Consent Mode"
+- "Privacy"
+- "Advertising"
+- "Analytics"
+relationships:
+- "#related_to [[Website Visitor Consent]]"
+- "#enables [[Compliance with Privacy Regulations]]"
+founded: "2018-04-30"
+---
+
 Implement Google consent mode
 =============================
 

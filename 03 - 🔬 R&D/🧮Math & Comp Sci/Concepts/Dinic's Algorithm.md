@@ -1,10 +1,15 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#DinicsAlgorithm"
- - "#Algorithms"
- - "#GraphTheory"
- - "#MaximumFlow"
+title: "Dinic's Algorithm"
+description: "A strongly polynomial method for computing the maximum flow in a flow network, introduced by Yefim Dinitz in 1970 and operates in $$ O(|V|^2|E|) $$."
+type: "concept"
+tags:
+- "Algorithms"
+- "Graph Theory"
+- "Maximum Flow"
+relationships:
+- "#developed_by [[Yefim Dinitz]]"
+- "#applies_to [[Flow Networks]]"
+- "#related_to [[Breadth-First Search]], [[Blocking Flow]]"
 ---
 
 ## Dinic's Algorithm

@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#gale_shapley_algorithm"
- - "#stable_marriage_problem"
- - "#matching_markets"
- - "#algorithm_design"
+title: "Gale-Shapley Algorithm"
+description: "A solution to the stable marriage problem, matching members of two sets based on their preferences in a way that ensures no pair would both prefer each other over their current partners."
+type: "concept"
+tags:
+- "Algorithm Design"
+- "Matching Markets"
+- "Stable Marriage Problem"
+- "Gale_Shapley_Algorithm"
+relationships:
+- "#developed [[David Gale]], [[Lloyd Shapley]]"
+birthdate: "1962-03-14"
+deathdate: ""
 ---
 
 The Gale-Shapley algorithm, also known as the Deferred Acceptance algorithm, is a solution to the stable marriage problem, which involves matching members of two sets (traditionally men and women) based on their preferences for each other in such a way that no pair of individuals would both prefer each other over their current partners. This condition ensures the stability of all matches.

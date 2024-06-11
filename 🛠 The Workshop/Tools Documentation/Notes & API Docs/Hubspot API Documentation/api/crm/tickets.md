@@ -1,3 +1,17 @@
+---
+title: "Tickets in HubSpot CRM"
+description: "Customer requests for help tracked through support process until closed, manage ticket records and sync data between HubSpot and other systems."
+type: "group"
+tags:
+- "Customer Support"
+- "CRM"
+- "HubSpot"
+relationships:
+- "#part_of [[CRM]]"
+- "#related_to [[Support Process]]"
+founded: "N/A"
+---
+
 Tickets
 =======
 

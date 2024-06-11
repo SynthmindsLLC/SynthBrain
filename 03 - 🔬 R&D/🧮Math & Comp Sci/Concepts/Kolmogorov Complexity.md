@@ -1,11 +1,17 @@
 ---
-Title: Kolmogorov Complexity
-Description: An overview of Kolmogorov complexity, its definition, significance, and applications.
-Date: 2024-05-24
-Tags: 
- - "#KolmogorovComplexity"
- - "#AlgorithmicInformationTheory"
- - "#ComputationalComplexity"
+title: "Kolmogorov Complexity"
+description: "An overview of Kolmogorov complexity, its definition, significance, and applications."
+type: "concept"
+tags:
+- "#AlgorithmicComplexity"
+- "#ComputationalComplexity"
+- "#InformationTheory"
+relationships:
+- "#developed_by [[Andrey Kolmogorov]]"
+birthdate: "1903-04-25"
+deathdate: "1987-10-20"
+start_date: "1963-01-01"
+end_date: "1987-10-20"
 ---
 
 ## Definition

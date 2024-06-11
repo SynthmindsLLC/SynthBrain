@@ -1,3 +1,23 @@
+---
+title: "OAuth Quickstart Guide"
+description: "A guide on using OAuth 2.0 Authorization Code grant type for authenticating with HubSpot's APIs."
+type: "work"
+tags:
+- "OAuth"
+- "HubSpot"
+- "API Authentication"
+relationships:
+- "#developed_by [[HubSpot]]"
+- "#related_to [[Authorization Code Grant Type]]"]]
+- "#used_for [[API Access]]"
+tags:
+- "OAuth"
+- "HubSpot"
+- "API Authentication"
+birthdate: "N/A"
+deathdate: "N/A"
+---
+
 OAuth Quickstart Guide
 ======================
 

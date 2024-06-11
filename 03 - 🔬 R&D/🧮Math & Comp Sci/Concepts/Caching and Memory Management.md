@@ -1,10 +1,23 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#algorithms"
- - "#caching"
- - "#memory_management"
- - "#computer_science"
+title: "Synthbrain/01
+-Commercial Hub/ Content Capture/ Joe's Readwise/Books/Algorithms to Live By"
+description: "The book explores various computer science concepts and how they can be applied to everyday life, focusing on caching algorithms and cache management strategies."
+type: "work"
+tags:
+- "Computer Science"
+- "Caching Algorithms"
+- "Memory Management"
+relationships:
+- "#authored_by [[Brian Christian]], [[Tom Griffiths]]"
+- "#related_to [[Synthbrain/03
+-R&D/Math & Comp Sci/Concepts/Least Recently Used (LRU)]"
+- "#related_to [[Synthbrain/03
+-R&D/Math & Comp Sci/Concepts/First-In, First-Out (FIFO)]]"
+- "#related_to [[Synthbrain/03
+-R&D/Math & Comp Sci/Concepts/Random Eviction]]"
+birthdate: ""
+deathdate: ""
+published_date: ""
 ---
 
 # Caching and Memory Management

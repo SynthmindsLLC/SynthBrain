@@ -1,3 +1,41 @@
+---
+title: "Pexels API Documentation"
+description: "Comprehensive guide on using the Pexels API for accessing photos, videos and curated content."
+type: "documentation"
+tags:
+- "API"
+- "Pexels"
+- "Photography"
+relationships:
+- "#related_to [[Photo Resource]]"
+- "#related_to [[Video Resource]]"
+- "#related_to [[Curated Photos]]"
+- "#related_to [[Search for Videos]]"
+- "#related_to [[Popular Videos]]"
+authored_by: "Pexels Team"
+founded: "N/A"
+headquartered_in: "N/A"
+tags:
+- "API Documentation"
+- "Photography API"
+- "Video API"
+- "Curated Content"
+- "Search Functionality"
+- "Popular Media"
+relationships:
+- "#contributed_to [[User Experience]]"
+- "#enables [[Media Accessibility]]"]]
+- "#related_to [[Content Creation]]"
+- "#used_by [[Developers]]"
+- "#similar_to [[Google Photos API]]"
+- "#different_from [[Image Hosting Services]]"
+relationships:
+- "#causes [[Media Sharing]]"]]
+- "#enables [[Creative Projects]]"
+- "#related_to [[Social Media Integration]]"
+- "#prevents [[Copyright Infringement]]"
+---
+
 # General
 Whenever you are doing an API request make sure to show a **prominent link to Pexels**. You can use a text link (e.g. "Photos provided by Pexels") or a link with our logo.
 
@@ -865,4 +903,3 @@ client.videos.popular({ per_page: 1 }).then(videos => {...});
   ]
 }
 ```
-

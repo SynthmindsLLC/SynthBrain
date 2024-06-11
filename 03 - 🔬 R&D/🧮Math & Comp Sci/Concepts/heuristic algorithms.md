@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#heuristic_algorithms"
- - "#problem_solving"
- - "#optimization"
- - "#computational_complexity"
+title: "Heuristic Algorithms"
+description: "Problem-solving methods that employ practical techniques and shortcuts to produce good-enough solutions for complex problems within a reasonable timeframe, particularly useful when exact solutions are either impossible or too resource-intensive."
+type: "concept"
+tags:
+- "Problem Solving"
+- "Optimization"
+- "Computational Complexity"
+- "Heuristic Algorithms"
+relationships:
+- "#related_to [[Practical Techniques]]"
+- "#used_for [[Complex Problems]]"
+birthdate: "deathdate: founded: start_date: end_date: "
 ---
 
 # Heuristic Algorithms

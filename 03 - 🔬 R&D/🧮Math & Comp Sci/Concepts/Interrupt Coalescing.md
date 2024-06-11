@@ -1,10 +1,19 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#computer_networking"
- - "#interrupt_coalescing"
- - "#hardware_interrupts"
- - "#network_performance"
+title: "Interrupt Coalescing in Computer Networking"
+description: "A network performance optimization technique where events that would normally trigger hardware interrupts are temporarily held back to reduce the number of CPU interrupts and improve system performance."
+type: "concept"
+tags:
+- "Computer_Networking"
+- "Interrupt_Coalescing"
+- "Hardware_Interrupts"
+- "Network_Performance"
+relationships:
+- "#implements [[Optimization Technique]]"
+- "#used_for [[High-Speed Networks]]"
+- "#related_to [[Gigabit Ethernet]]"
+- "#prevents [[Receive Livelock]]"
+- "#part_of [[Network Performance Optimization]]"
+date: "2024-03-06"
 ---
 
 Interrupt coalescing, also known as interrupt moderation, is a network performance optimization technique where events that would normally trigger hardware interrupts are temporarily held back. This can be done until a certain amount of work is pending or a timeout timer triggers. The primary goal of interrupt coalescing is to reduce the number of interrupts that a CPU must handle, which can significantly lower the processing overhead and improve system performance[1][3][6].

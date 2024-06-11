@@ -1,3 +1,18 @@
+---
+title: "Account Activity in HubSpot"
+description: "Provides information about login and security activity history, including centralized audit logs for user actions across the account (Enterprise subscriptions only) and details on individual login attempts."
+type: "group"
+tags:
+- "HubSpot"
+- "Account Management"
+- "Security Activity"
+relationships:
+- "#related_to [[Login History]]"
+- "#related_to [[Security Activity]]"
+- "#part_of [[Enterprise Subscriptions]]"
+founded: "2014-05-01"
+---
+
 Account activity
 ================
 

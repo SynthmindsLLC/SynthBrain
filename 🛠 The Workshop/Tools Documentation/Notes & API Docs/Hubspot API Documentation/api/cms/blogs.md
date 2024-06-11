@@ -1,3 +1,25 @@
+---
+title: "HubSpot Blog API Development Update"
+description: "This blog post provides an update on the development of the HubSpot Blog API, including a call to subscribe for notifications and feedback options."
+type: "blog"
+tags:
+- "API"
+- "HubSpot"
+- "Development"
+relationships:
+- "#related_to [[Blog]]"
+- "#part_of [[HubSpot Developer Documentation]]"
+- "#has_featured_image [[building.svg]]"
+- "#authored_by [[Unknown Author]]"
+subscription_options:
+- "Instant"
+- "Daily"
+- "Weekly"
+privacy_policy_link: "https://legal.hubspot.com/privacy-policy"
+feedback_form_enabled: "true"
+feedback_form_url: "https://developers.hubspot.com/docs/api/cms/blogs#page-feedback"
+---
+
 Blog
 ====
 

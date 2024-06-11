@@ -1,3 +1,23 @@
+---
+title: "Update email templates to use default email modules"
+description: "When building email templates, HubSpot provides a set of default email modules for better email client support and updates. Existing email templates using the web versions will still function but need updating for compatibility and design manager/CLI error avoidance. The new email-specific modules are as follows: type: update_guide"
+tags:
+- "Email Templates"
+- "HubSpot"
+- "Default Modules"
+relationships:
+- "#replaces [[email\_cta]]"
+- "#replaces [[email\_header]]"
+- "#replaces [[email\_linked\_image]]"
+- "#replaces [[email\_logo]]"
+- "#replaces [[email\_post\_filter]]"
+- "#replaces [[email\_post\_listing]]"
+- "#replaces [[email\_section\_header]]"
+- "#replaces [[email\_social\_sharing]]"
+- "#replaces [[email\_text]]"
+founded: "2014-03-06"
+---
+
 Update email templates to use default email modules
 
 

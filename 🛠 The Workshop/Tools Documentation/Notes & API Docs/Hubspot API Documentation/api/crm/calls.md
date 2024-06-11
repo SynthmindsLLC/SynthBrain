@@ -1,3 +1,17 @@
+---
+title: "Calls Engagement API"
+description: "Use the calls engagement API to log and manage calls on CRM records and on the calls index page. You can log calls either in HubSpot or through the calls API. Below, learn the basic methods of managing calls through the API. To view all available endpoints and their requirements, click the Endpoints tab at the top of this article."
+type: "group"
+tags:
+- "CRM"
+- "API"
+- "Calls Management"
+relationships:
+- "#related_to [[HubSpot CRM]]"
+- "#used_by [[Developers]]"]]
+created_date: "2023-01-01"
+---
+
 Calls
 =====
 

@@ -1,3 +1,16 @@
+---
+title: "HubSpot Account Types"
+description: "There are several types of HubSpot accounts, each with a distinct purpose. Below, learn about each account type and what they're intended for."
+type: "group"
+tags:
+- "HubSpot"
+- "Accounts"
+- "Types"
+relationships:
+- "#part_of [[Marketing Hub]]"
+- "#related_to [[App Developer Accounts]], [[Developer Test Accounts]], [[Sandbox Accounts]], [[Marketplace Provider Accounts]]"
+---
+
 HubSpot Account Types
 =====================
 

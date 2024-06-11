@@ -1,3 +1,18 @@
+---
+title: "CRM Notes Management in HubSpot API"
+description: "A guide on creating, retrieving, updating, associating, pinning, and deleting notes within the HubSpot CRM system using its API."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot"
+- "API"
+- "Notes Management"
+relationships:
+- "#created_by [[User]]"
+- "#associated_with [[Contacts]], [[Companies]], [[Deals]], [[Tickets]], [[Custom Objects]]"
+founded: "2014-03-05"
+---
+
 Notes
 =====
 

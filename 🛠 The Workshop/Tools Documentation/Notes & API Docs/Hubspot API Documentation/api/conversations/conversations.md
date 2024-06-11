@@ -1,3 +1,15 @@
+---
+title: "Conversations inbox and messages APIs (BETA)"
+description: "The conversations APIs enable you to manage and interact with the conversations inbox, channels, threads, and messages. For example, you can use these APIs to get and sort conversations inboxes, update thread statuses, delete and restore threads, send outbound messages via existing conversations channels, retrieve conversation data for advanced reports and analytics, integrate existing channels with other apps like Slack or Microsoft Teams, etc."
+type: "group"
+tags:
+- "HubSpot"
+- "APIs"
+- "Conversations"
+relationships:
+- "#part_of [[Official HubSpot Documentation]]"
+---
+
 .hidden { display: none; } .interest-form { padding: 1em; height: 100%; } .interest-text { padding: 1em; } .hs-form>fieldset { max-width: 100% !important; }
 
 **Please note:** this API is currently in beta and is subject to change based on testing and feedback. By using these endpoints you agree to adhere to HubSpot's [Developer Terms](https://legal.hubspot.com/hubspot-developer-terms) and[Developer Beta Terms](https://legal.hubspot.com/developerbetaterms?). You also acknowledge and understand the risk associated with testing an unstable API.

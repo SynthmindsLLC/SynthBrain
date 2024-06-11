@@ -1,3 +1,18 @@
+---
+title: "API usage guidelines"
+description: "Guidelines on using HubSpot's public APIs, including authentication and security measures, rate limits, error responses, service limits, and best practices for private and OAuth apps."
+type: "guide"
+tags:
+- "HubSpot"
+- "API"
+- "Usage"
+relationships:
+- "#related_to [[OAuth protocol]]"
+- "#part_of [[Public APIs]]"
+- "#similar_to [[Private Apps]]"
+founded: "N/A"
+---
+
 API usage guidelines
 ====================
 

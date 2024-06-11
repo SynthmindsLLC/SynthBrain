@@ -1,3 +1,18 @@
+---
+title: "CMS Building Blocks Overview"
+description: "Developers utilize a series of building blocks to create websites on HubSpot's CMS software, with varying degrees of flexibility and guardrails depending on business needs. Themes define the look and feel of a website, templates set base markup and style for pages, modules are reusable components that can be placed on templates and pages, fields allow building blocks to be reusable across different content pieces, global content shares elements like headers and footers across a website, menus build navigation hierarchies, forms capture user information, and website settings configure system-level settings."
+type: "concept"
+tags:
+- "HubSpot"
+- "CMS"
+- "Building Blocks"
+relationships:
+- "#part_of [[Website Development]]"
+- "#used_for [[Content Creation]]"
+- "#related_to [[Marketing Automation]]"
+- "#enables [[Efficient Website Management]]"
+---
+
 CMS building blocks overview
 
 

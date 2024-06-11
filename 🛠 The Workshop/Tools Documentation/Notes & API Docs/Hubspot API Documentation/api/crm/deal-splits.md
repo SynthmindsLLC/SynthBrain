@@ -1,3 +1,22 @@
+---
+title: "Deal Splits (BETA) API Documentation"
+description: "This document provides information on the beta version of the deal splits API, which allows splitting credit for deal amounts between multiple users in HubSpot. Please note that this is a BETA feature and may change based on testing and feedback. By using these endpoints you agree to adhere to our Developer Terms and Developer Beta Terms."
+type: "group (company)"
+tags:
+- "HubSpot"
+- "CRM"
+- "API"
+- "Deal Splits"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#used_for [[Sales Hub Enterprise]]"]]
+- "#related_to [[deals API]], [[owner ID]], [[split settings]]"
+tags:
+- "BETA"
+birthdate: "N/A"
+deathdate: "N/A"
+---
+
 Deal splits (BETA)[](https://developers.hubspot.com/docs/api/crm/deal-splits#deal-splits-beta-)
 -----------------------------------------------------------------------------------------------
 

@@ -1,14 +1,18 @@
 ---
-Title: JavaScript Function for Obsidian to Create and Manage Canvas with Nodes and Edges
-Description: This note outlines a JavaScript function designed for use within the Obsidian environment. The function enables the creation of a new canvas and facilitates the addition and interaction of nodes and edges within that canvas.
-Date: 2024-04-04
-Tags: 
- - "#Obsidian"
- - "#JavaScript"
- - "#Canvas"
- - "#Nodes"
- - "#Edges"
- - "#Function"
+title: "JavaScript Function for Obsidian to Create and Manage Canvas with Nodes and Edges"
+description: "This note outlines a JavaScript function designed for use within the Obsidian environment. The function enables the creation of a new canvas and facilitates the addition and interaction of nodes and edges within that canvas."
+type: "code"
+tags:
+- "Obsidian"
+- "JavaScript"
+- "Canvas"
+- "Nodes"
+- "Edges"
+- "Function"
+relationships:
+- "#used_for [[Creating a new canvas]]"
+- "#enables [[Adding and managing nodes and edges within the Obsidian environment]]"
+date: "2024-04-04"
 ---
 
 ```javascript

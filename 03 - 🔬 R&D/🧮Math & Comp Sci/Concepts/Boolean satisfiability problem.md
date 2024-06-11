@@ -1,10 +1,20 @@
 ---
-Date: [[2024-03-16]]
-Tags: 
- - "#boolean_satisfiability"
- - "#computational_complexity"
- - "#algorithms"
- - "#logic"
+title: "Boolean Satisfiability Problem (SAT)"
+description: "A cornerstone issue in computational complexity, algorithms, and logic that asks if there exists a set of variable assignments making a given Boolean formula true."
+type: "concept"
+tags:
+- "Boolean_Formulas"
+- "Computational_Complexity"
+- "Algorithms"
+- "Logic"
+relationships:
+- "#related_to [[NP-Completeness]]"
+- "#has_part [[Decision Problems]]"
+- "#enables [[Software Verification]]"
+- "#enables [[Hardware Verification]]"
+- "#enables [[Cryptanalysis]]"
+- "#applies_to [[Artificial Intelligence]]"
+start_date: "2024-03-16"
 ---
 
 # Boolean Satisfiability Problem: A Fundamental Challenge in Computational Complexity

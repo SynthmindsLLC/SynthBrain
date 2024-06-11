@@ -1,10 +1,19 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#adjacency_matrix"
- - "#graph_theory"
- - "#linear_algebra"
- - "#data_structures"
+title: "Adjacency Matrix in Graph Theory"
+description: "A square matrix used to represent a finite graph, indicating whether pairs of vertices are adjacent."
+type: "concept"
+tags:
+- "Graph_Theory"
+- "Linear_Algebra"
+- "Data_Structures"
+relationships:
+- "#related_to [[Graph Theory]]"
+- "#part_of [[Matrix Representation]]"
+- "#used_for [[Representing Graphs in Memory]]"
+- "#has_property [[Square Matrix]]"
+- "#applies_to [[Finite Graphs]]"
+- "#related_to [[Graph Properties]], [[Algorithm Efficiency]]"
+start_date: "2024-03-31"
 ---
 
 # Adjacency Matrix in Graph Theory

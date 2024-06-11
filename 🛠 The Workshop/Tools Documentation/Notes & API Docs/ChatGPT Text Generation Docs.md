@@ -1,3 +1,25 @@
+---
+title: "Overview of OpenAI Platform"
+description: "A comprehensive guide on how to use OpenAI's text generation models for various applications including drafting documents, writing computer code, and more."
+type: "concept"
+tags:
+- "Text Generation"
+- "OpenAI API"
+relationships:
+- "#related_to [[Documentation]]"
+- "#related_to [[API reference]]"
+- "#authored_by [[Platform Team]]"]]
+- "#similar_to [[ChatGPT]]"
+- "#used_for [[Building Applications]]"
+- "#part_of [[AI Tools and Services]]"
+- "#contributed_to [[OpenAI's Vision for AI]]"
+- "#related_to [[Prompt Engineering]]"
+- "#similar_to [[Chat Completions API]]"
+- "#enables [[Efficient Text Processing]]"
+- "#used_by [[Developers and Businesses]]"]]
+- "#derived_from [[Large Language Models]]"
+---
+
 [Overview](https://platform.openai.com/overview)[Documentation](https://platform.openai.com/docs)[API reference](https://platform.openai.com/docs/api-reference)
 
 Log in

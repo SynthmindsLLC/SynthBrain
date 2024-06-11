@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-28]]
-Tags: 
- - "#computer_science" 
- - "#complexity_theory"
- - "#np_complete"
- - "#algorithms"
+title: "NP-Complete Problems"
+description: "A critical concept in computational complexity theory, representing decision problems that are both in NP and NP-hard. The class NP consists of those problems for which a solution, if one exists, can be verified in polynomial time by a deterministic Turing machine. A problem is NP-hard if it is at least as hard as the hardest problems in NP, meaning that any NP problem can be reduced to it in polynomial time. A problem is NP-complete if it satisfies both of these conditions, making it one of the most challenging problems within NP[1][7]."
+type: "concept"
+tags:
+- "Computational_Complexity"
+- "NP_Complete"
+- "Decision_Problems"
+- "Polynomial_Time"
+relationships:
+- "#related_to [[Deterministic Turing Machine]]"
+- "#has_part_of [[NP (complexity)]]"
+birthdate: "2024-03-28"
 ---
 
 NP-complete problems are a critical concept in computational complexity theory, representing decision problems that are both in NP and NP-hard. The class NP consists of those problems for which a solution, if one exists, can be verified in polynomial time by a deterministic Turing machine. A problem is NP-hard if it is at least as hard as the hardest problems in NP, meaning that any NP problem can be reduced to it in polynomial time. A problem is NP-complete if it satisfies both of these conditions, making it one of the most challenging problems within NP[1][7].

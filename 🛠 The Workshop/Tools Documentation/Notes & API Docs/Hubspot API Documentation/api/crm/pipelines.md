@@ -1,3 +1,20 @@
+---
+title: "Pipelines in HubSpot"
+description: "In HubSpot, a pipeline is where deal stages or ticket statuses are set for sales and service purposes respectively. Each stage in a pipeline has a unique internal ID and can only belong to one pipeline per account. Every account initially contains a default pipeline with the `pipelineId` default. Multiple pipelines require Sales Hub Professional or Enterprise accounts, as well as Service Hub Professional or Enterprise subscriptions for ticket pipelines."
+type: "group"
+tags:
+- "HubSpot"
+- "CRM"
+- "Sales Pipeline"
+- "Service Ticket Management"
+relationships:
+- "#part_of [[HubSpot CRM]]"
+- "#used_for [[Deal Stages]], [[Ticket Statuses]]"
+- "#related_to [[Revenue Prediction]], [[Roadblock Identification]]"
+- "#has_property [[pipelineId]]", "default"]]"
+- "#has_property [[unique internal ID for stages/statuses]]"]]"
+---
+
 Pipelines
 =========
 

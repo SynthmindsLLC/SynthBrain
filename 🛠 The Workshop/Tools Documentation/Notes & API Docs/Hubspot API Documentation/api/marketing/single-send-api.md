@@ -1,3 +1,18 @@
+---
+title: "Marketing Single Send API"
+description: "The single-send API allows you to send template emails created in the HubSpot marketing email tool using a JSON-formatted POST request. It updates non-marketing contacts and sets them as marketing when sending through this API."
+type: "work"
+tags:
+- "Marketing"
+- "Email"
+- "API"
+relationships:
+- "#part_of [[HubSpot Marketing Tools]]"
+- "#requires [[JSON-formatted POST request]]"
+- "#used_by [[Developers]]"
+founded: "2014-05-08"
+---
+
 Marketing Single Send API
 =========================
 

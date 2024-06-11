@@ -1,3 +1,17 @@
+---
+title: "Timeline Events"
+description: "CRM extensions allow information from other systems to appear on HubSpot contact, company, or deal objects through custom timeline events. Event templates describe actions your app will add to the timeline of a contact, company, or deal object in HubSpot. "
+type: "event"
+tags:
+- "CRM"
+- "Timeline Events"
+- "HubSpot API"
+relationships:
+- "#created_by [[Custom App]]"
+- "#used_for [[Contact Segmentation]], [[Workflows]]"
+founded: "2014-07-31"
+---
+
 Timeline Events
 ===============
 

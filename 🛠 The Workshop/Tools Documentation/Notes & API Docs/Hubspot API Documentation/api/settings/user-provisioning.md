@@ -1,3 +1,16 @@
+---
+title: "User Provisioning API"
+description: "Use the user provisioning API to create and manage users in the account, along with their permissions. You can also set user `firstName` and `lastName` properties through this API. To retrieve and update other user information, such as their job title and working hours, use the [users API](/docs/api/crm/users) instead."
+type: "group"
+tags:
+- "User Provisioning"
+- "API"
+- "HubSpot"
+relationships:
+- "#part_of [[HubSpot Settings]]"
+- "#enables [[Manage Users and Permissions]]"
+---
+
 User Provisioning
 =================
 

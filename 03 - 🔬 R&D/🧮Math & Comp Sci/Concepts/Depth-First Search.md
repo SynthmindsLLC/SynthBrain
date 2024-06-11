@@ -1,10 +1,13 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#DepthFirstSearch"
- - "#Algorithms"
- - "#GraphTraversal"
- - "#DataStructures"
+title: "Depth-First Search (DFS) Algorithm"
+description: "A fundamental recursive algorithm used to explore nodes and edges of a graph, starting at the root node and exploring as far as possible along each branch before backtracking."
+type: "concept"
+tags:
+- "Algorithms"
+- "GraphTraversal"
+- "DataStructures"
+relationships:
+- "#related_to [[DFS]]"
 ---
 
 ## Depth-First Search (DFS) Algorithm

@@ -1,3 +1,17 @@
+---
+title: "Companies in HubSpot CRM"
+description: "Companies store information about organizations that interact with your business, allowing you to manage company records and sync data between HubSpot and other systems. Learn more about objects, records, properties, and associations APIs in the Understanding the CRM guide. For general information on managing your CRM database, refer to the Contacts User Guide."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot"
+- "Companies"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#located_in [[United States]]"]]
+created_date: "YYYY-MM-DD # Replace with actual creation date if available"
+---
+
 Companies 
 ========== 
 

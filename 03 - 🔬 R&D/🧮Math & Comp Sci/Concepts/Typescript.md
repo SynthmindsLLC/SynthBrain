@@ -1,13 +1,18 @@
 ---
-Title: Overview of TypeScript
-Description: An introduction to TypeScript, its features, history, and how it enhances JavaScript development.
-Date: 2024-04-04
-Tags: 
- - "#TypeScript" 
- - "#ProgrammingLanguage" 
- - "#Microsoft" 
- - "#StaticTyping" 
- - "#JavaScriptSuperset"
+title: "Overview of TypeScript"
+description: "An introduction to TypeScript, its features, history, and how it enhances JavaScript development."
+type: "concept"
+tags:
+- "TypeScript"
+- "ProgrammingLanguage"
+- "#Microsoft"
+- "#StaticTyping"
+- "#JavaScriptSuperset"
+relationships:
+- "#developed_by [[Microsoft]]"
+- "#introduced_in [[2012]]"
+birthdate: ""
+deathdate: ""
 ---
 
 TypeScript is a free and open-source programming language developed by Microsoft, designed to add static typing to JavaScript, making it a superset of JavaScript. It was first released to the public in October 2012 and has since become a popular choice for developing large applications due to its ability to improve code quality and understandability.

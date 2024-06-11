@@ -1,10 +1,31 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#Extract_Cluster_Coreference"
- - "#coreference_resolution"
- - "#natural_language_processing"
- - "#graph_based_clustering"
+title: "Extract-Cluster-Coreference (ECC) Process"
+description: "Methodological approach in natural language processing for coreference resolution, simulating human deductive processes to enhance accuracy and efficiency by incorporating a structured procedure with extraction, clustering, and coreference steps."
+type: "concept"
+tags:
+- "Natural_Language_Processing"
+- "Coreference_Resolution"
+- "Graph-Based_Clustering"
+relationships:
+- "#related_to [[Latent Trees for Coreference Resolution]]"
+- "#related_to [[What is the cleanest method to get coreferenced text returned #12142]]"
+- "#related_to [[PDF] Machine Learning for Coreference Resolution]]"
+- "#related_to [[PDF] Adaptive Clustering for Coreference Resolution with Deterministic Rules ...]]"]
+- "#related_to [[Coreference Resolution: https://stanford.edu/~kartiks2/coref.pdf]]"
+- "#related_to [[PDF] Unsupervised Techniques for Extracting and Clustering Complex Coreferences in Texts...]]"]
+- "#related_to [[SpaCy Coreferee: How to cleanly extract coreferenced text https://stackoverflow.com/questions/75204212/spacy-coreferee-how-to-cleanly-extract-coreferenced-text]]"
+- "#related_to [[BERT for Coreference Resolution]]"
+- "#related_to [[PDF] Narrowing the Modeling Gap: A Cluster-Ranking Approach to Coreference Resolution]]"]
+- "#related_to [Introduction to coreference resolution in Natural Language Processing (NLP)
+-NeuroSYS https://neurosys.com/blog/intro-to-coreference-resolution-in-nlp]]"
+- "#related_to [[PDF] Graph-Based Clustering and Its Application in Coreference Resolution...]]"]
+- "#related_to [[Exploiting Document Structures and Cluster Consistencies for Event ... https://aclanthology.org/2021.acl-long.374]]"
+- "#related_to [[PDF] Coreference Clustering Task
+-GM-RKB http://www.gabormelli.com/RKB/Coreference_Clustering_Task]]"
+- "#related_to [[ScienceDirect: Coreference resolution: A review of general methodologies and applications in the clinical domain... https://www.sciencedirect.com/science/article/pii/S153204641100133X]]"
+- "#related_to [[PDF] Learning How to Cluster With Application to Coreference Resolution http://qwone.com/~jason/writing/corefCluster.pdf]]"]
+- "#related_to [[PDF] arXiv:2305.16582v1 [cs.CL] 26 May 2023 https://arxiv.org/pdf/2305.16582.pdf]]"
+date: "2024-03-31"
 ---
 
 # Extract-Cluster-Coreference (ECC) Process

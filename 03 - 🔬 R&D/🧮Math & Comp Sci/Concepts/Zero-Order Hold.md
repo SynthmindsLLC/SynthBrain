@@ -1,12 +1,19 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#ZeroOrderHold" 
- - "#SignalProcessing" 
- - "#DigitalSignal" 
- - "#DataConversion" 
- - "#ControlSystems"
-
+title: "Zero-Order Hold (ZOH)"
+description: "A signal processing technique used in the discretization of continuous-time signals, commonly applied during digital-to-analog conversion."
+type: "concept"
+tags:
+- "Signal Processing"
+- "Digital Signal"
+- "Data Conversion"
+- "Control Systems"
+relationships:
+- "#used_for [[Digital Control Systems]]"
+- "#applied_in [[Digital Signal Processing]]"
+birthdate: "deathdate: founded: tags:"
+- "#related_to [[Sampling Theory]]"
+- "#part_of [[Signal Reconstruction]]"
+start_date: "end_date: "
 ---
 
 **Zero-Order Hold (ZOH)** is a signal processing technique used in the discretization of continuous-time signals. It is commonly applied in digital control systems and digital signal processing when converting a continuous signal into a discrete one, particularly during digital-to-analog conversion (DAC).

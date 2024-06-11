@@ -1,3 +1,19 @@
+---
+title: "Carts API Overview and Management in HubSpot"
+description: "Use the carts API to create, manage, and sync ecommerce purchase data with external platforms like Shopify and NetSuite."
+type: "group"
+tags:
+- "ECommerce"
+- "HubSpot"
+- "API"
+relationships:
+- "#related_to [[Shopify]]"
+- "#related_to [[NetSuite]]"
+- "#used_for [[Data Syncing]]"
+- "#enables [[Order Management]]"
+founded: "2014-03-05 # Assuming HubSpot was founded on this date for the purpose of this example."
+---
+
 Carts
 =====
 

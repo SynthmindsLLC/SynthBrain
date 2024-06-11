@@ -1,3 +1,18 @@
+---
+title: "CMS Source Code API"
+description: "The CMS Source Code API allows you to interact with the files stored in your HubSpot Developer File System, including templates, modules, CSS, JS, and other CMS assets. You can upload new files or changes, download or delete CMS assets, fetch metadata for each file or folder, validate file contents, and more."
+type: "work"
+tags:
+- "HubSpot"
+- "API"
+- "CMS"
+relationships:
+- "#part_of [[HubSpot Developer File System]]"
+- "#used_for [[Design Manager]]"
+environment: "published"
+path: "/cms/v3/source-code/published/content/overview.html"
+---
+
 CMS Source Code
 ===============
 

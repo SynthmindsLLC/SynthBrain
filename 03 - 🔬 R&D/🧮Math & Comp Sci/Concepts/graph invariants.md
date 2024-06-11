@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#graph_invariants"
- - "#graph_theory"
- - "#mathematics"
- - "#topology"
+title: "Graph Invariants"
+description: "Properties of graphs that remain unchanged under graph isomorphisms, used for classifying and comparing graphs based on structural features."
+type: "concept"
+tags:
+- "Graph Theory"
+- "Mathematics"
+- "Topology"
+relationships:
+- "#related_to [[Graph Isomorphism]]"
+- "#applied_in [[Chemical Graph Theory]], [[Network Analysis]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 # Graph Invariants

@@ -1,10 +1,19 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#evolutionary_algorithms"
- - "#optimization"
- - "#genetic_algorithms"
- - "#machine_learning"
+title: "Evolutionary Algorithms (EAs)"
+description: "A subset of bio-inspired algorithms that use mechanisms inspired by biological evolution to solve optimization problems. Particularly useful for complex solution spaces where traditional gradient-based methods are not applicable."
+type: "concept"
+tags:
+- "Optimization"
+- "Machine Learning"
+- "Genetic Algorithms"
+- "Evolutionary Computation"
+relationships:
+- "#part_of [[Bio-Inspired Algorithms]]"
+- "#has_component [[Population]], [[Fitness Function]], [[Genetic Operators]]"
+- "#used_for [[Optimization Problems]]"
+- "#related_to [[Machine Learning]], [[Engineering Design]], [[Scheduling]], [[Game Playing]]"
+- "#similar_to [[Gradient Descent Methods]]"
+- "#has_participant [[Genetic Algorithms]], [[Genetic Programming]], [[Evolution Strategies]], [[Differential Evolution]]"
 ---
 
 Evolutionary algorithms (EAs) are a subset of bio-inspired algorithms that use mechanisms inspired by biological evolution, such as reproduction, mutation, recombination, and selection, to solve optimization problems. EAs are particularly useful for problems where the solution space is complex and traditional gradient-based optimization methods are not applicable.

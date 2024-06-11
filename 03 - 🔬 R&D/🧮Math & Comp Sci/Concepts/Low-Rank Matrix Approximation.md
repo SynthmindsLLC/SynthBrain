@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#low_rank_matrix_approximation"
- - "#linear_algebra"
- - "#machine_learning"
- - "#data_compression"
+title: "Low-Rank Matrix Approximation"
+description: "A technique used in linear algebra and machine learning to approximate a given matrix by a lower rank matrix, simplifying data structure and reducing storage requirements."
+type: "concept"
+tags:
+- "Linear_Algebra"
+- "Machine_Learning"
+- "Data_Compression"
+relationships:
+- "#related_to [[Singular Value Decomposition (SVD)]]"
+- "#applies_to [[Image Compression]], [[Recommendation Systems]], [[Natural Language Processing]]"
+- "#enables [[Dimensionality Reduction]], [[Feature Extraction]]"
+- "#used_for [[Data Structure Simplification]], [[Noise Removal]]"
+start_date: "2024-03-06"
 ---
 
 Low-rank matrix approximation is a technique used in linear algebra and machine learning to approximate a given matrix by a matrix of lower rank. The goal is to find a matrix that is close to the original matrix in terms of a specific norm (e.g., Frobenius norm or spectral norm) but has reduced rank, thereby simplifying the data structure and reducing the amount of storage required.

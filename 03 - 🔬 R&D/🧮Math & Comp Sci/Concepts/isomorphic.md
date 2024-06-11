@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#isomorphic"
- - "#mathematics"
- - "#graph_theory"
- - "#linear_algebra"
+title: "Isomorphism Definition and Applications"
+description: "A mathematical concept referring to equivalence between objects with the same form or structure, even if not identical in appearance or representation."
+type: "concept"
+tags:
+- "Isomorphic"
+- "Mathematics"
+- "Graph Theory"
+- "Linear Algebra"
+relationships:
+- "#is_a [[Equivalence Relation]]"
+- "#part_of [[Set Theory]], [[Abstract Algebra]]"
+birthdate: "deathdate: "
 ---
 
 # Isomorphic Definition and Applications

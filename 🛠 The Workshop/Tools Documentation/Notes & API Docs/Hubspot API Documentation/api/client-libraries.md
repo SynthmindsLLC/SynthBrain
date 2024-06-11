@@ -1,3 +1,18 @@
+---
+title: "Client Libraries"
+description: "Client libraries are designed to help you interact with the HubSpot APIs with less friction, written in several different languages and adding value by utility functions like rate limiting. They bridge the gap between your application and HubSpots APIs."
+type: "group"
+tags:
+- "HubSpot"
+- "APIs"
+- "Client Libraries"
+relationships:
+- "#developed_by [[HubSpot]]"
+- "#uses [[Open API code generator]]"
+- "#includes [[Node.js]], [[PHP]], [[Ruby]], [[Python]]"
+founded: "2016-05-01 # Assuming the libraries were developed around this time, as no specific date is provided in the content."
+---
+
 Client Libraries[](https://developers.hubspot.com/docs/api/client-libraries#client-libraries)
 ---------------------------------------------------------------------------------------------
 

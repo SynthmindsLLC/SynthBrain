@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#polynomial_time"
- - "#computational_complexity"
- - "#P_class"
- - "#algorithm_efficiency"
+title: "Polynomial Time in Computational Complexity"
+description: "A class of computational problems solvable in time that is a polynomial function of the size of the input, central to computational complexity theory."
+type: "concept"
+tags:
+- "Computational_Complexity"
+- "Polynomial_Time"
+- "Algorithmic_Efficiency"
+relationships:
+- "#defines [[Class P]]"
+- "#contrasts [[with [[Exponential Time]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 # Polynomial Time in Computational Complexity

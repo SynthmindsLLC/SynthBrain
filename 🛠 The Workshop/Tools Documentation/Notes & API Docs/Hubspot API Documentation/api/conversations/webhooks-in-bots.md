@@ -1,3 +1,17 @@
+---
+title: "Working with webhooks from bots"
+description: "A guide on creating and editing a bot, adding actions including triggering a webhook, inputting the endpoint URL for the webhook, and understanding request and response payloads."
+type: "work"
+tags:
+- "Bot"
+- "Webhooks"
+- "HubSpot"
+relationships:
+- "#part_of [[Conversation]]"
+- "#used_by [[Developers]]"
+created_date: "YYYY-MM-DD // Replace with actual creation date if known"
+---
+
 Working with webhooks from bots
 ===============================
 

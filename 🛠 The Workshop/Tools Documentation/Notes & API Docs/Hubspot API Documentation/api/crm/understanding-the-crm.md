@@ -1,3 +1,14 @@
+---
+title: "Understanding the CRM"
+description: "The foundation of your HubSpot account is a database of your business relationships and processes, called the Customer Relationship Management (CRM) system. To manage this data, HubSpot accounts include objects, which represent types of relationships or processes. All HubSpot accounts include four standard objects: contacts, companies, deals, and tickets. Depending on your subscription, there are additional objects such as products and custom objects."
+type: "concept"
+tags:
+- "CRM"
+- "HubSpot"
+relationships:
+- "#part_of [[Customer Relationship Management]]"
+---
+
 Understanding the CRM
 =====================
 

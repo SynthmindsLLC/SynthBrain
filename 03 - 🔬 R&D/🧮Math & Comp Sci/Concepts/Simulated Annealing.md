@@ -1,10 +1,18 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#simulated_annealing"
- - "#optimization"
- - "#algorithms"
- - "#computational_science"
+title: "Simulated Annealing (SA)"
+description: "Optimization technique inspired by the process of annealing in metallurgy, used to find approximate global optimum in a large search space. Effective for discrete and continuous problems. Key components include Temperature and Cooling Schedule. Widely used in operations research, physical sciences, and computer science."
+type: "concept"
+tags:
+- "Optimization Techniques"
+- "Global Optimum"
+- "Simulated Annealing"
+- "Algorithms"
+- "Computational Science"
+relationships:
+- "#inspired_by [[Annealing in Metallurgy]]"
+- "#applied_to [[Traveling Salesman Problem]]"
+- "#related_to [[Stochastic Algorithms]]"]]
+birthdate: "2024-03-06"
 ---
 
 Simulated Annealing (SA) is an optimization technique inspired by the process of annealing in metallurgy, a technique involving heating and controlled cooling of a material to increase the size of its crystals and reduce their defects. The method is used to find an approximate global optimum in a large search space and is particularly effective for problems where the search space is discrete (e.g., traveling salesman problem), though it can also be applied to continuous problems.

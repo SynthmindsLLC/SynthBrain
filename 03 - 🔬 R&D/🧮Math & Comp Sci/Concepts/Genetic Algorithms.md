@@ -1,11 +1,17 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#genetic_algorithms"
- - "#algorithms"
- - "#optimization"
- - "#heuristics"
- - "#computational_complexity"
+title: "Genetic Algorithms Explained"
+description: "A family of computational search and optimization algorithms inspired by natural selection and genetics, used to solve complex problems."
+type: "concept"
+tags:
+- "Genetic_Algorithms"
+- "Optimization"
+- "Heuristics"
+- "Computational_Complexity"
+relationships:
+- "#related_to [[Natural Selection]]"
+- "#involves [[Selection]], [[Crossover]], [[Mutation]]"
+- "#applied_in [[Engineering Design]], [[Machine Learning]], [[Scheduling and Planning]]"
+birthdate: "deathdate: founded: population: "
 ---
 
 # Genetic Algorithms Explained

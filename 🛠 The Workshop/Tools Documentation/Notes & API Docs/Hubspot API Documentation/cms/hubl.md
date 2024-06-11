@@ -1,3 +1,21 @@
+---
+title: "HubL syntax overview"
+description: "Last updated: "August 1, 2023"
+-HubSpots CMS uses the HubSpot Markup Language, referred to as HubL (pronounced Hubble). HubL is HubSpots extension of Jinjava... Filters and functions[](https: "//developers.hubspot.com/docs/cms/hubl#filters-and-functions)"
+-Filters can be added to your HubL to transform or alter the value of a template variable..."
+type: "concept"
+tags:
+- "HubSpot CMS"
+- "Templating Language"
+- "Jinjava"
+- "HTML Templates"
+relationships:
+- "#related_to [[Jinja]]"
+- "#similar_to [[PHP]]"
+birthdate: ""
+deathdate: ""
+---
+
 HubL syntax overview
 
 

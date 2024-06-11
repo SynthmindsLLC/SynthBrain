@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#approximation_algorithms"
- - "#algorithms"
- - "#computational_complexity"
- - "#NP_hard_problems"
+title: "Approximation Algorithms Overview"
+description: "A class of algorithms used for finding near-optimal solutions to optimization problems, particularly those that are NP-hard. These algorithms provide a way to quickly obtain a solution close to the best possible with a quantifiable measure of how far from the optimum."
+type: "concept"
+tags:
+- "Approximation Algorithms"
+- "Algorithms"
+- "Computational Complexity"
+- "NP_hard_Problems"
+relationships:
+- "#related_to [[Optimization Problems]]"
+- "#related_to [[NP_hard]]"
+- "#has_part_of [[Vertex Cover Problem]], [[Traveling Salesman Problem (TSP)]]"
+birthdate: "2024-03-31"
 ---
 
 # Approximation Algorithms Overview

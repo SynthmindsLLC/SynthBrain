@@ -1,3 +1,18 @@
+---
+title: "Tasks API Overview and Management in HubSpot"
+description: "Use the tasks API to create, manage, retrieve, update, associate, pin, and delete tasks within HubSpot CRM."
+type: "guide"
+tags:
+- "HubSpot"
+- "API"
+- "Tasks"
+relationships:
+- "#related_to [[CRM]]"
+- "#used_by [[Marketing Professionals]]"
+- "#enables [[Task Management]]"
+created_date: "YYYY-MM-DD # Replace with actual creation date of the guide"
+---
+
 Tasks
 =====
 

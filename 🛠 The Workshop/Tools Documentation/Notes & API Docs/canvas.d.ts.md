@@ -1,3 +1,19 @@
+---
+title: "Canvas Script"
+description: "A script defining the structure and properties of a canvas file's JSON data."
+type: "code"
+tags:
+- "Canvas"
+- "JSON"
+- "Data Structure"
+relationships:
+- "#part_of [[Obsidian Plugin]]"
+- "#used_by [[Developers]]"]]
+- "#enables [[Node and Edge Data Management]]"
+language: "TypeScript"
+version: " "
+---
+
 Canvas script
 ```
 /**

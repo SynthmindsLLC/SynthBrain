@@ -1,12 +1,5 @@
 ---
-Title: JSON Schema for Obsidian Canvas
-Description: An overview of the JSON schema used in Obsidian Canvas, detailing the structure and components for creating and managing canvas elements.
-Date: 2024-04-04
-Tags: 
- - "#Obsidian"
- - "#JSONSchema"
- - "#Canvas"
- - "#DataStructure"
+
 ---
 
 The JSON schema for Obsidian Canvas, now referred to as JSON Canvas, is designed to facilitate the creation, import, export, and storage of infinite canvas data in a structured and easily parsable format. This schema is part of an open-source initiative under the MIT license, aimed at providing longevity, readability, interoperability, and extensibility to data created with infinite canvas apps. The schema is currently at version 1.0 and is described as relatively conservative, focusing on essential features to serve as a useful starting point for further development[1][2][3].

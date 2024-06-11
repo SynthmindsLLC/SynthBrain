@@ -1,3 +1,17 @@
+---
+title: "URL Redirects in HubSpot"
+description: "Allows redirection of traffic from a HubSpot-hosted page or blog post to any URL, with the ability to update redirects in bulk and use flexible pattern redirect."
+type: "concept"
+tags:
+- "HubSpot"
+- "URL Redirects"
+- "SEO"
+relationships:
+- "#related_to [[Content Management System]]"
+- "#enables [[Traffic Redirection]]"
+- "#used_by [[Marketers]], [[Web Developers]]"
+---
+
 URL redirects
 =============
 

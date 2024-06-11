@@ -1,9 +1,15 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#PowerLaw"
- - "#ProbabilityDistribution"
- - "#StatisticalPhenomena"
+title: "Power Law Distributions"
+description: "A type of probability distribution characterized by the fact that a relative change in one quantity results in a proportional relative change in another quantity, independent of the initial size of those quantities. Defined for $$ x \geq x_{\text{min}} $$, with finite mean and variance under certain conditions. Exhibits scale-free property on log-log plots."
+type: "concept"
+tags:
+- "Power_Law"
+- "Probability_Distribution"
+- "Statistical_Phenomena"
+relationships:
+- "#described_by [[Function]] $$ p(x) \propto x^{-\alpha} $$]]"
+- "#observed_in [[Income Distribution]], [[Earthquake Frequency]], [[City Size]], [[Network Connections]]"
+birthdate: "2024-03-31"
 ---
 
 Power law distributions are a type of probability distribution characterized by the fact that a relative change in one quantity results in a proportional relative change in another quantity, independent of the initial size of those quantities[5]. These distributions are described by the function $$ p(x) \propto x^{-\alpha} $$, where $$ p(x) $$ is the probability of the event, $$ x $$ is the value of the event, and $$ \alpha $$ is a positive constant known as the exponent or scaling parameter[3].

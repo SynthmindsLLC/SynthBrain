@@ -1,3 +1,17 @@
+---
+title: "Transactional Email Add-on Overview and Implementation Guide"
+description: "A guide on using the transactional email add-on in HubSpot for sending emails over a dedicated IP address, including methods of implementation and API usage."
+type: "work"
+tags:
+- "Email"
+- "Transactional Emails"
+- "HubSpot"
+relationships:
+- "#related_to [[Marketing Email]]"
+- "#used_for [[Commerce Receipts]], [[Account Updates]], [[Terms of Service Changes]]"
+published_date: "2023-06-10"
+---
+
 Transactional Email
 ===================
 

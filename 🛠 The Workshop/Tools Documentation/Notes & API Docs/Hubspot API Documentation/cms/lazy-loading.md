@@ -1,3 +1,17 @@
+---
+title: "Lazy Loading Assets for Performance Optimization"
+description: "Technique that defer the loading of assets until needed, often used to optimize page performance on the web by downloading content only when it's close enough in the HTML document. Supported by most Chromium-powered browsers and can be enabled through HubSpot CMS CLI or Design Manager."
+type: "concept"
+tags:
+- "Web Development"
+- "Performance Optimization"
+- "Lazy Loading"
+relationships:
+- "#related_to [[Page Performance]]"
+- "#used_by [[HubSpot CMS]]"
+last_updated: "2022-11-30"
+---
+
 Lazy loading assets for performance
 
 

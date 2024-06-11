@@ -1,3 +1,17 @@
+---
+title: "Conversations SDK"
+description: "To chat with customers and leads on your website using HubSpot's conversation inbox, you can set up a live chat widget. With the conversations SDK, you can provide a more tailored experience for visitors by customizing the behavior of the chat widget."
+type: "group"
+tags:
+- "HubSpot"
+- "Chat Widget"
+- "Conversation Inbox"
+relationships:
+- "#part_of [[HubSpot Conversations API]]"
+- "#enables [[Customizing Chat Experience]]"
+founded: "N/A"
+---
+
 Conversations SDK
 =================
 

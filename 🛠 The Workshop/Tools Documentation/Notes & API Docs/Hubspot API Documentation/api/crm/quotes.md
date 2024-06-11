@@ -1,3 +1,17 @@
+---
+title: "Quotes API Overview and Usage"
+description: "Use the quotes API to create, manage, and retrieve sales quotes for sharing pricing information with potential buyers. "
+type: "concept"
+tags:
+- "Quote Management"
+- "HubSpot CRM"
+relationships:
+- "#related_to [[Sales Quotes]]"
+- "#enables [[Pricing Information Sharing]]"
+birthdate: "N/A"
+deathdate: "N/A"
+---
+
 Quotes
 ======
 

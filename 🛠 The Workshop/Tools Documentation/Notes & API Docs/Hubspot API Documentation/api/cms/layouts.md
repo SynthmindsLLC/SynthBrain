@@ -1,3 +1,17 @@
+---
+title: "The v3 Layouts API"
+description: "An overview of the current development status and features of the v3 Layouts API, including methods for retrieving layout information and updates on the project's progress."
+type: "group"
+tags:
+- "API"
+- "Layouts"
+- "HubSpot"
+relationships:
+- "#part_of [[HubSpot CMS]]"
+- "#related_to [[GET]], [POST], [PUT], [DELETE] methods]]"
+founded: "N/A"
+---
+
 Layouts
 =======
 

@@ -1,3 +1,25 @@
+---
+title: "Idea Tracker Tutorial Part 1"
+description: "This tutorial will show you how to connect a custom app to the HubSpot CRM, creating a simple customer idea forum with an interface where users can sign up, log in, and post ideas. The integration process is explained step by step for initial installation of the app."
+type: "work"
+tags:
+- "HubSpot"
+- "CRM Integration"
+- "APIs"
+- "OAuth2"
+relationships:
+- "#related_to [[Node.js]]"
+- "#related_to [[Express]]"
+- "#related_to [[MongoDB]]"
+- "#related_to [[React]]"
+- "#related_to [[Docker and Docker Compose]]"
+- "#part_of [[Tutorial Series]]"
+- "#enables [[Customer Idea Forum]]"
+- "#requires [[HubSpot API Client Library]]"
+- "#used_by [[Developers]]"
+published_date: "2023-06-10"
+---
+
 Idea Tracker Tutorial Part 1
 ============================
 

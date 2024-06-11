@@ -1,3 +1,19 @@
+---
+title: "App Marketplace listing requirements"
+description: "Requirements and guidelines for submitting an app listing on the HubSpot Ecosystem, including minimum criteria, branding, listing details, review process, rewards, and related resources."
+type: "group"
+tags:
+- "HubSpot"
+- "App Marketplace"
+- "Listing Requirements"
+relationships:
+- "#related_to [[OAuth]]"
+- "#requires [[API requests]]"
+- "#part_of [[HubSpot Ecosystem Quality team review process]]"
+- "#authored_by [[HubSpot Developers Team]]"
+founded: "2015-09-01"
+---
+
 App Marketplace listing requirements
 ====================================
 

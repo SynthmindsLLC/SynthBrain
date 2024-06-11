@@ -1,3 +1,17 @@
+---
+title: "Meetings Engagement API"
+description: "Use the meetings engagement API to log and manage meetings on CRM records, including creating, retrieving, updating, deleting, associating with existing records, pinning, and batch operations."
+type: "group"
+tags:
+- "CRM"
+- "Meetings"
+- "HubSpot"
+relationships:
+- "#used_for [[Logging Meeting Activities]]"
+- "#related_to [[Contacts]], [[Companies]], [[Deals]], [[Tickets]], [[Custom Objects]]"
+founded: "2014-03-06"
+---
+
 Meetings
 ========
 

@@ -1,10 +1,22 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#number_theory"
- - "#mathematics"
- - "#integers"
- - "#prime_numbers"
+title: "Number Theory"
+description: A branch of pure mathematics devoted primarily to the study of integers and integer-valued functions, often referred to as "higher arithmetic."
+type: "concept"
+tags:
+- "Mathematics"
+- "Pure Mathematics"
+- "Integers"
+- "Prime Numbers"
+relationships:
+- "#related_to [[Integer]]"
+- "#related_to [[Divisibility and Factors]]"
+- "#related_to [[Theorems and Problems]]"
+- "#applied_in [[Cryptography]]"
+- "#used_in [[Computer Science]]"
+- "#influenced_by [[Carl Friedrich Gauss]]"
+- "#contributed_to [[Andrew Wiles]]"
+birthdate: ""
+deathdate: ""
 ---
 
 # Number Theory

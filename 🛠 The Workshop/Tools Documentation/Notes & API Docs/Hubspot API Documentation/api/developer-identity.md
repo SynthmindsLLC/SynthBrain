@@ -1,3 +1,18 @@
+---
+title: "Public Apps in HubSpot"
+description: "A type of integration that can be installed on customer accounts or listed on the App Marketplace, requiring OAuth authentication for API calls and webhooks."
+type: "group"
+tags:
+- "HubSpot"
+- "Integration"
+- "OAuth Authentication"
+relationships:
+- "#part_of [[HubSpot]]"
+- "#requires [[Authentication via OAuth]]"
+- "#enables [[API Calls]], [[Webhooks]]"
+founded: "2014-05-08"
+---
+
 Public apps
 ===========
 

@@ -1,9 +1,16 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#graph_theory"
- - "#computational_complexity"
- - "#algorithm"
+title: "Graph Isomorphism Problem (GIP)"
+description: "A computational challenge that involves determining whether two finite graphs are isomorphic, meaning there exists a one-to-one correspondence between their vertex sets that preserves the adjacency relationship. Despite its straightforward definition, the complexity of solving GIP remains an intriguing question in computer science and mathematics."
+type: "concept"
+tags:
+- "Graph_Theory"
+- "Computational_Complexity"
+- "Algorithm"
+relationships:
+- "#related_to [[NP (complexity class)]]"
+- "#candidate_for [[NP-Intermediate]]"
+- "#has_participant [[Lszl Babai]]"
+birthdate: "deathdate: "
 ---
 
 The **Graph Isomorphism Problem (GIP)** is a computational challenge that involves determining whether two finite graphs are isomorphic, meaning there exists a one-to-one correspondence between their vertex sets that preserves the adjacency relationship. Despite its straightforward definition, the complexity of solving GIP remains an intriguing question in computer science and mathematics.

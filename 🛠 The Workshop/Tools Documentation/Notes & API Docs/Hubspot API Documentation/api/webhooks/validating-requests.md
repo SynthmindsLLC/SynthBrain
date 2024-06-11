@@ -1,3 +1,18 @@
+---
+title: "Validating requests from HubSpot"
+description: "Ensure that the requests your integration is receiving from HubSpot are authentic by verifying signatures using headers and fields of incoming requests."
+type: "guide"
+tags:
+- "HubSpot"
+- "Webhooks"
+- "Signature Validation"
+relationships:
+- "#related_to [[Integration]]"
+- "#used_by [[Developers]]"]]
+- "#part_of [[API Documentation]]"
+created_date: "2023-01-01"
+---
+
 Validating requests from HubSpot
 ================================
 

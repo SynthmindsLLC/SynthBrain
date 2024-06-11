@@ -1,3 +1,18 @@
+---
+title: "Associations v4"
+description: "Associations represent the relationships between objects and activities in the HubSpot CRM."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot"
+- "Association Types"
+relationships:
+- "#part_of [[CRM]]"
+- "#related_to [[Record Associations]]"
+birthdate: "null"
+deathdate: "null"
+---
+
 Associations v4
 ===============
 

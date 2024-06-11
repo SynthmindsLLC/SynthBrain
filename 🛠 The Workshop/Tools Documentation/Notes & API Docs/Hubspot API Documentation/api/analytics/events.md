@@ -1,3 +1,22 @@
+---
+title: "Custom Event Completions"
+description: "Overview of custom event completions, applicable products, and detailed instructions on defining, sending, retrieving, and attributing data for HubSpot's custom events."
+type: "concept"
+tags:
+- "HubSpot"
+- "Custom Events"
+- "Event Tracking"
+relationships:
+- "#related_to [[Marketing Hub]]"
+- "#related_to [[Sales Hub]]"
+- "#related_to [[Service Hub]]"
+- "#related_to [[Operations Hub]]"
+tags:
+- "Enterprise"
+birthdate: ""
+deathdate: ""
+---
+
 Custom event completions
 ========================
 

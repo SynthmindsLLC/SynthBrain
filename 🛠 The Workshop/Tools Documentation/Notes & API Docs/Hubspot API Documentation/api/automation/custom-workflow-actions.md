@@ -1,3 +1,16 @@
+---
+title: "Custom Workflow Actions Overview and Endpoints"
+description: "Automate business processes using custom workflow actions in HubSpot, integrating services with workflows for increased efficiency."
+type: "group"
+tags:
+- "Automation"
+- "HubSpot"
+- "Workflows"
+relationships:
+- "#related_to [[Custom Workflow Actions]]"
+- "#part_of [[Obsidian Front Matter]]"
+---
+
 Custom Workflow Actions
 =======================
 

@@ -1,10 +1,18 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#matching_markets"
- - "#economics"
- - "#game_theory"
- - "#market_design"
+title: "Matching Markets"
+description: "A type of market where buyers and sellers are paired based on preferences and rules, rather than price mechanisms alone. These markets require mutual consent for transactions to occur. Key concepts include stability, optimality, and strategy-proofness. Found in labor markets, school admissions, organ donation, roommate matching, and marriage markets. The Gale-Shapley algorithm is a solution to the stable marriage problem used in market design."
+type: "concept"
+tags:
+- "Matching_Markets"
+- "Economics"
+- "Game_Theory"
+- "Market_Design"
+relationships:
+- "#related_to [[Stable Marriage Problem]]"
+- "#related_to [[Gale-Shapley Algorithm]]"
+- "#applied_in [[National Resident Matching Program]]"
+- "#part_of [[Game Theory]]"
+birthdate: "2024-03-06"
 ---
 
 Matching markets are a type of market where buyers and sellers are paired based on their preferences and a set of rules, rather than through price mechanisms alone. These markets are characterized by the need for mutual consent for a transaction to occur, making them distinct from commodity markets where goods are interchangeable and transactions are primarily price-driven.

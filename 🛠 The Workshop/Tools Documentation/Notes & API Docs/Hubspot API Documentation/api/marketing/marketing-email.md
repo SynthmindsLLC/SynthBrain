@@ -1,3 +1,18 @@
+---
+title: "Marketing Email API Overview"
+description: "Programmatically create, update, and get details about marketing emails using the Marketing Emails API in HubSpot. This article provides an overview of how to use the API for creating and retrieving marketing email data."
+type: "group"
+tags:
+- "Marketing"
+- "Email"
+- "API"
+relationships:
+- "#part_of [[HubSpot Marketing Hub]]"
+- "#related_to [[Engagements API]], [[Single-send API]]"
+- "#used_by [[Developers]]"
+founded: "2014-03-05"
+---
+
 .interest-form { padding: 1em; display: none; height: 100%; } .interest-text { padding: 1em; } .hs-form>fieldset { max-width: 100% !important; }
 
 **Access and test APIs in beta.** 

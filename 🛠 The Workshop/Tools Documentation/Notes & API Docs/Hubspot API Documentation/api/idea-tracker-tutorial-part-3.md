@@ -1,3 +1,18 @@
+---
+title: "Idea Tracker Tutorial Part 3"
+description: "This is Part 3 of a three-part tutorial for creating and integrating an app with a HubSpot account, focusing on building a custom UI within the HubSpot CRM."
+type: "tutorial"
+tags:
+- "HubSpot"
+- "CRM"
+- "Custom_UI"
+relationships:
+- "#part_of [[Idea Tracker Tutorial]]"
+- "#requires [[Authentication and Initial Sync (Part 1)]]"
+- "#follows [[Creating a Two-Way Sync and Customizing CRM Experience (Part 2)]]"
+founded: "N/A"
+---
+
 Idea Tracker Tutorial Part 3
 ============================
 

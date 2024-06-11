@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#k_means"
- - "#clustering"
- - "#machine_learning"
- - "#data_mining"
+title: "K-means Clustering Algorithm"
+description: "A popular clustering algorithm used in machine learning and data mining to partition observations into clusters based on the nearest mean. It works by initializing centroids, assigning points to the nearest centroid, updating centroids as means of assigned points, and repeating until convergence. Despite limitations like needing a predefined number of clusters and assuming spherical shapes, it's efficient for large datasets and useful in exploratory data analysis."
+type: "algorithm"
+tags:
+- "Machine Learning"
+- "Data Mining"
+- "Clustering Algorithms"
+relationships:
+- "#part_of [[Unsupervised Learning]]"
+- "#used_for [[Exploratory Data Analysis]]"
+- "#related_to [[Voronoi Cells]], [[Euclidean Distance]]"
+start_date: "2024-03-06"
 ---
 
 K-means is a popular clustering algorithm used in machine learning and data mining to partition $$ n $$ observations into $$ k $$ clusters in which each observation belongs to the cluster with the nearest mean. This results in a partitioning of the data space into Voronoi cells.

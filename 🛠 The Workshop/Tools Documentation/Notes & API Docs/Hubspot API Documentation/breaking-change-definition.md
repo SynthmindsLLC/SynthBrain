@@ -1,3 +1,21 @@
+---
+title: "Breaking changes on the HubSpot platform"
+description: "When developing an integration on the HubSpot platform, you'll need to be aware of the types of changes that HubSpot might make to its platform or data within. Below, learn about what HubSpot considers a breaking or non-breaking change, and use these lists to inform decisions you'll make when working with HubSpot's APIs."
+type: "concept"
+tags:
+- "HubSpot"
+- "API Changes"
+- "Breaking Change Definition"
+relationships:
+- "#related_to [[REST APIs]]"
+- "#related_to [[HubL]]"
+- "#related_to [[Embedded Content]]"
+- "#related_to [[JavaScript SDK]]"
+- "#related_to [[Snowflake Data Share]]"
+start_date: "2023-01-01"
+end_date: "null"
+---
+
 Breaking changes on the HubSpot platform
 ========================================
 

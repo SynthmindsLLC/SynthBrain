@@ -1,10 +1,19 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#BayesTheorem"
- - "#Probability"
- - "#Statistics"
- - "#ConditionalProbability"
+title: "Bayes' Theorem"
+description: "A fundamental concept in probability and statistics that describes the probability of an event, based on prior knowledge of conditions related to the event. Named after Reverend Thomas Bayes, it is used to update the probability for a hypothesis as more evidence or information becomes available."
+type: "concept"
+tags:
+- "Probability"
+- "Statistics"
+- "Conditional Probability"
+relationships:
+- "#developed_by [[Reverend Thomas Bayes]]"
+- "#applies_to [[Medical Diagnosis]], [[Machine Learning]], [[Finance]], [[Decision Making]]"
+start_date: "2024-03-02"
+sources:
+- "Probability Theory"
+- "statistics"
+- "Conditional Probability"
 ---
 
 ## Bayes' Theorem

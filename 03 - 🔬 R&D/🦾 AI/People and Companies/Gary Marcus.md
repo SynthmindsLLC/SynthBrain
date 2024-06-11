@@ -1,13 +1,25 @@
 ---
-Title: Gary Marcus - AI Critic and Entrepreneur
-Description: A comprehensive note on Gary Marcus, detailing his background, career, and contributions to the field of artificial intelligence, as well as his critical stance on current AI technologies.
-Date: 2024-04-12
-Tags: 
- - "#GaryMarcus" 
- - "#ArtificialIntelligence" 
- - "#AICritic" 
- - "#NeuralScience" 
- - "#Entrepreneur"
+title: "Gary Marcus"
+-AI Critic and Entrepreneur
+description: "A comprehensive note on Gary Marcus, detailing his background, career, and contributions to the field of artificial intelligence, as well as his critical stance on current AI technologies."
+type: "person"
+tags:
+- "Artificial_Intelligence"
+- "AICritic"
+- "NeuralScience"
+- "Entrepreneur"
+relationships:
+- "#born_in [[February 8, 1970]]"
+- "#educated_at [[Hampshire College]], [[Massachusetts Institute of Technology (MIT)]]"
+- "#worked_at [[New York University (NYU)]]"
+- "#founded [[Geometric Intelligence]]"
+- "#co-founded [[Robust.AI]]"
+- "#authored [[The Algebraic Mind]], [[Kluge]], [[The Birth of the Mind]], [[Guitar Zero]], [[Rebooting AI]]"
+birthdate: "1970-02-08"
+tags_additional:
+- "Psychologist"
+- "Cognitive Scientist"
+- "Author"
 ---
 
 ## Background and Education

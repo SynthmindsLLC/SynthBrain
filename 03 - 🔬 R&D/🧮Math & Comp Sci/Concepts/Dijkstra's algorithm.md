@@ -1,10 +1,15 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#DijkstrasAlgorithm"
- - "#Algorithms"
- - "#GraphTheory"
- - "#ShortestPath"
+title: "Dijkstra's Algorithm"
+description: "Classic algorithm in computer science for finding the shortest paths between nodes in a weighted graph, which may represent road networks or other types of networks."
+type: "concept"
+tags:
+- "Algorithms"
+- "Graph Theory"
+- "Shortest Path"
+relationships:
+- "#developed_by [[Edsger W. Dijkstra]]"
+- "#applies_to [[Weighted Graphs]], [[Routing Systems]], [[Network Routing Protocols]]"
+- "#used_in [[GPS Devices]], [[Data Processing]]"
 ---
 
 ## Dijkstra's Algorithm

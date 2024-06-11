@@ -1,3 +1,30 @@
+---
+title: "Custom Events in HubSpot"
+description: "Enables you to define and track events that are unique to your business, such as events on your site or in an app. You can configure events to store information within properties, which you can then use across HubSpot's tools."
+type: "event"
+tags:
+- "Custom Events"
+- "HubSpot Analytics"
+- "Event Tracking"
+relationships:
+- "#related_to [[Marketing Hub]]"
+- "#related_to [[Sales Hub]]"
+- "#related_to [[Service Hub]]"
+- "#related_to [[Operations Hub]]"
+applicable_products:
+- "Enterprise Marketing Hub"
+- "Enterprise Sales Hub"
+- "Enterprise Service Hub"
+- "Enterprise Operations Hub"
+founded: "N/A"
+tags:
+- "Marketing"
+- "Sales"
+- "Service"
+- "Operations"
+created_date: "YYYY-MM-DD # Replace with actual creation date if available"
+---
+
 **Custom events**
 =================
 

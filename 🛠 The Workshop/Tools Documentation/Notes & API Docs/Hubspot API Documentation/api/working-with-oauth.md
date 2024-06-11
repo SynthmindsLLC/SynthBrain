@@ -1,3 +1,18 @@
+---
+title: "Working with OAuth"
+description: "Secure means of authentication that uses authorization tokens rather than a password to connect your app to a user account in HubSpot accounts. Initiating OAuth access is the first step towards allowing users to install your app in their HubSpot accounts."
+type: "work"
+tags:
+- "OAuth"
+- "Authentication"
+- "HubSpot"
+relationships:
+- "#recommended_resource [[OAuth Quickstart Guide]]"
+- "#related_to [[HubSpot Academy tutorial]]"
+founded: "N/A"
+published_date: "2023-06-10"
+---
+
 Working with OAuth
 ==================
 

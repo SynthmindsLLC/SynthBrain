@@ -1,9 +1,18 @@
 ---
-Date: [[2024-03-30]]
-Tags: 
- - "#graph_theory"
- - "#multigraphs"
- - "#discrete_mathematics"
+title: "Multigraphs"
+description: "A type of graph in graph theory, which is a key area of study within discrete mathematics. A multigraph differs from a simple graph in that it permits multiple edges (also known as parallel edges) between the same set of vertices and may contain loops. This means that two nodes in a multigraph can be connected by more than one edge, which is not allowed in simple graphs."
+type: "concept"
+tags:
+- "Graph_Theory"
+- "Discrete_Mathematics"
+- "Multigraphs"
+relationships:
+- "#part_of [[Graph Theory]]"
+- "#has_property [[Parallel Edges]]"
+- "#has_property [[Loops]]"
+- "#used_for [[Network Design and Analysis]]"
+founded: "N/A"
+population: "N/A"
 ---
 
 Multigraphs are a type of graph in graph theory, which is a key area of study within discrete mathematics. A multigraph differs from a simple graph in that it permits multiple edges (also known as parallel edges) between the same set of vertices. This means that two nodes in a multigraph can be connected by more than one edge, which is not allowed in simple graphs. Additionally, multigraphs may contain loops, which are edges that connect a vertex to itself.

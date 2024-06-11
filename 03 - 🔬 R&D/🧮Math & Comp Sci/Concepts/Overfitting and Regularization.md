@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#Generalization"
- - "#Overfitting"
- - "#MachineLearning"
- - "#ModelTraining"
+title: "Overfitting and Generalization in Machine Learning"
+description: "In machine learning, overfitting occurs when a model learns the training data too well, including its noise and outliers, to the point where it performs poorly on new, unseen data. This happens because the model becomes too complex and tailored to the specifics of the training data, losing its ability to generalize. Generalization refers to a model's ability to apply what it has learned from the training data to new, unseen data. Techniques to prevent overfitting include hold-out/cross-validation, data augmentation, feature selection, regularization (L1/L2), simplifying the model, and dropout. Overfitting can be detected by comparing the model's performance on training data against its performance on a validation or test set. The key to successful machine learning models is finding the right balance between fitting the training data and generalizing to new data."
+type: "concept"
+tags:
+- "MachineLearning"
+- "ModelTraining"
+- "#Generalization"
+- "#Overfitting"
+relationships:
+- "#caused_by [[Complex Model]]"
+- "#prevented_by [[Hold-out / Cross-validation]], [[Data Augmentation]], [[Feature Selection]], [[Regularization (L1/L2) ]], [[Simplifying the Model]], [[Dropout]]"
+birthdate: "deathdate: "
 ---
 
 ## Overfitting and Generalization in Machine Learning

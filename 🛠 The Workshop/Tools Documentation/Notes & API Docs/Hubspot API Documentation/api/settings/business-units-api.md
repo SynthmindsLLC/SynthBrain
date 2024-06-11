@@ -1,3 +1,17 @@
+---
+title: "Business Units API Overview and Endpoints"
+description: "Provides information about business units tied to a user, including logo details and access permissions. Currently supports retrieving data but not associating assets or creating new business units."
+type: "group"
+tags:
+- "API"
+- "HubSpot"
+- "Business Units"
+relationships:
+- "#related_to [[User Account Settings]]"
+- "#part_of [[HubSpot API]]"
+founded: "N/A"
+---
+
 Business Units
 ==============
 

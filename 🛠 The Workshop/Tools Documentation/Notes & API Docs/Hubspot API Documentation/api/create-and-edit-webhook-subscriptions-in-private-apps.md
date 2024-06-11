@@ -1,3 +1,17 @@
+---
+title: "Create and Edit Webhook Subscriptions in Private Apps"
+description: "This article explains the process of creating and editing webhook subscriptions for private apps within a HubSpot account, allowing your app to subscribe to CRM object events."
+type: "guide"
+tags:
+- "HubSpot"
+- "Webhooks"
+- "Private Apps"
+relationships:
+- "#part_of [[CRM Development Tools]]"
+- "#related_to [[API Calls]], [[Event Triggers]]"
+created_date: "2023-01-01"
+---
+
 Create and edit webhook subscriptions in private apps
 =====================================================
 

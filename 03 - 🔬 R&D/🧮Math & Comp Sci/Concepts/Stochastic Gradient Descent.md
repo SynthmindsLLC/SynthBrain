@@ -1,9 +1,16 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#stochastic_gradient_descent"
- - "#machine_learning"
- - "#optimization"
+title: "Stochastic Gradient Descent (SGD)"
+description: An optimization algorithm widely used in machine learning for training various models, particularly when dealing with large datasets. It is a variant of the gradient descent algorithm that updates the model's parameters using only a single or a small batch of examples at each iteration, rather than the entire dataset. This approach introduces randomness into the optimization process, hence the term "stochastic."
+type: "concept"
+tags:
+- "Optimization"
+- "Machine Learning"
+- "Stochastic_Gradient_Descent"
+relationships:
+- "#related_to [[Gradient Descent]]"
+- "#used_for [[Training Machine Learning Models]]"
+- "#has_part [[Learning Rate]]"
+birthdate: "2024-03-14"
 ---
 
 Stochastic Gradient Descent (SGD) is an optimization algorithm widely used in machine learning for training various models, particularly when dealing with large datasets. It is a variant of the gradient descent algorithm that updates the model's parameters using only a single or a small batch of examples at each iteration, rather than the entire dataset. This approach introduces randomness into the optimization process, hence the term "stochastic."

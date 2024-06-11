@@ -1,3 +1,18 @@
+---
+title: "Domain Management in HubSpot CMS"
+description: "Endpoints that allow you to return information about the domains connected to a particular HubSpot CMS site, including data for a list of domains or specific domain by ID. Learn more about setting up domains for your site at [HubSpot Knowledge Base](https://knowledge.hubspot.com/reports/set-up-your-site-domains)."
+type: "group"
+tags:
+- "HubSpot"
+- "CMS"
+- "Domains"
+relationships:
+- "#related_to [[Domain Management]]"
+- "#part_of [[HubSpot CMS]]"
+- "#enables [[Data Retrieval]]"
+founded: "2014-05-01"
+---
+
 Domain Management
 =================
 

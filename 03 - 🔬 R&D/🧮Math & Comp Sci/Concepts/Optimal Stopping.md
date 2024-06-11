@@ -1,5 +1,18 @@
 ---
-tags: ["algorithm", "decision-making", "optimal-stopping"]
+title: "Optimal Stopping"
+description: "A strategic decision-making process used to determine the most advantageous point at which to stop evaluating options and make a choice."
+type: "concept"
+tags:
+- "Algorithm"
+- "Decision Making"
+- "Optimal Stopping"
+relationships:
+- "#related_to [[Mathematical Optimization]]"
+- "#applies_to [[The Secretary Problem]]"
+- "#involved [[Game Theory]]"
+- "#explains [[Decision Making]]"]]
+birthdate: ""
+deathdate: ""
 ---
 
 # Optimal Stopping

@@ -1,3 +1,23 @@
+---
+title: "API developer guides & resources"
+description: "Overview of what you'll need to use HubSpot APIs for building apps and integrations, including authentication methods, usage limits, app partners, and related documentation."
+type: "guide"
+tags:
+- "HubSpot"
+- "APIs"
+- "Developer Guides"
+relationships:
+- "#related_to [[Building Apps]]"
+- "#related_to [[Authentication]]"]]
+- "#related_to [[Usage and Limits]]"
+- "#related_to [[App Partners and the App Marketplace]]"
+- "#related_to [[HubSpot Academy]]"
+- "#related_to [[Quick links]]"
+- "#related_to [[Related docs]]"
+- "#related_to [[Feedback Form]]"
+created: "2023-01-01 # Assuming the article was created on January 1, 2023. Replace with actual date if known."
+---
+
 API developer guides & resources
 ================================
 

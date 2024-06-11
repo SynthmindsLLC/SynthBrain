@@ -1,10 +1,18 @@
 ---
-Date: [[2024-03-06]]
-Tags: 
- - "#expectation_maximization"
- - "#EM_algorithm"
- - "#statistical_learning"
- - "#machine_learning"
+title: "Expectation-Maximization (EM) Algorithm"
+description: "Statistical technique for finding maximum likelihood estimates of parameters in probabilistic models, especially when the data is incomplete or corrupted. Alternates between E and M steps until convergence."
+type: "concept"
+tags:
+- "Statistical_Learning"
+- "Machine_Learning"
+- "Expectation-Maximization"
+- "#EM_algorithm"
+relationships:
+- "#used_for [[Parameter Estimation]]"
+- "#applies_to [[Probabilistic Models]]"]]
+- "#related_to [[Gaussian Mixture Models]], [[Hidden Markov Models]], [[Bayesian Networks]]"
+- "#enables [[Maximum Likelihood Estimation]]"
+- "#has_participant [[Data Scientists]]"
 ---
 
 The Expectation-Maximization (EM) algorithm is a statistical technique for finding maximum likelihood estimates of parameters in probabilistic models, especially when the data is incomplete, has missing values, or is otherwise corrupted (e.g., in the presence of hidden variables). The algorithm alternates between performing an expectation (E) step and a maximization (M) step until convergence.

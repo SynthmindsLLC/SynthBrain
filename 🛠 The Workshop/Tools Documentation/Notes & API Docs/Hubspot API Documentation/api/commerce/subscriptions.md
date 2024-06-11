@@ -1,3 +1,17 @@
+---
+title: "Subscriptions API Overview"
+description: "Use the subscriptions API to fetch information about an account's commerce subscriptions, which is a read-only API for retrieving subscription details and cannot be used for creating or managing existing subscriptions. For marketing email subscriptions management, refer to the subscription preferences API."
+type: "group"
+tags:
+- "Commerce"
+- "Subscriptions"
+- "API"
+relationships:
+- "#part_of [[HubSpot Commerce]]"
+- "#requires [[Payment Processing Setup]]"
+founded: "N/A"
+---
+
 Subscriptions
 =============
 

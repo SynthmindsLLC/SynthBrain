@@ -1,3 +1,18 @@
+---
+title: "Feedback Submissions in HubSpot CRM"
+description: "Stores information submitted to a feedback survey, including NPS, CSAT, CES, and custom surveys. Retrievable via API but not editable through it."
+type: "group"
+tags:
+- "Feedback"
+- "Surveys"
+- "HubSpot CRM"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#headquartered_in [[Cambridge, Massachusetts]]"
+- "#part_of [[Customer Feedback Tools]]"
+createdate: "2014-03-01"
+---
+
 **Please note:** this API is currently under development and is subject to change based on testing and feedback. By using these endpoints you agree to adhere to HubSpot's [Developer Terms](https://legal.hubspot.com/developer-terms) & [Developer Beta Terms](https://legal.hubspot.com/developerbetaterms?). You also acknowledge and understand the risk associated with testing an unstable API.
 
 Feedback Submissions (BETA)

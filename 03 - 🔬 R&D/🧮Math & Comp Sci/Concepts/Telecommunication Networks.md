@@ -1,9 +1,17 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#TelecommunicationNetwork"
- - "#Technology"
- - "#CommunicationSystems"
+title: "Telecommunication Network"
+description: "A complex system that enables communication between users of terminals, consisting of nodes and links for transmitting signals, voice recordings, images, data, and other forms of communication. Supports a wide range of services from telephone calls to internet access."
+type: "group"
+tags:
+- "Telecommunication"
+- "Networking"
+- "Communication_Systems"
+relationships:
+- "#includes [[Public Switched Telephone Network (PSTN)]]"
+- "#includes [[Mobile Cellular Networks]]"
+- "#includes [[Data Networks]]"
+- "#includes [[Broadcast Networks]]"
+founded: "N/A"
 ---
 
 A telecommunication network is a complex system that enables communication between users of terminals. The network consists of nodes (which can be switching centers or end-user terminals) and links (which can be wired or wireless connections) that facilitate the transmission of signals, voice recordings, images, data, and other forms of communication. These networks are the backbone of modern communication, supporting a wide range of services from telephone calls to internet access.

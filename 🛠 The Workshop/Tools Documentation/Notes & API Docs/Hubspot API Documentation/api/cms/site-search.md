@@ -1,3 +1,19 @@
+---
+title: "Site Search Functionality in HubSpot"
+description: "A feature that allows users to return content related to a search term for HubSpot-hosted sites, including the ability to return all indexed data for a given document ID. It can be used across multiple domains and is useful in various applications such as ecommerce and news outlets."
+type: "concept"
+tags:
+- "HubSpot"
+- "Site Search"
+- "Search Functionality"
+relationships:
+- "#related_to [[Content Indexing]]"
+- "#enables [[Easy Access to Information]]"
+- "#used_by [[Website Administrators]]"
+- "#part_of [[HubSpot Features]]"
+start_date: "2014-05-07"
+---
+
 Site Search
 ===========
 

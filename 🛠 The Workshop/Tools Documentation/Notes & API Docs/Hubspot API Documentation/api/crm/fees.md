@@ -1,3 +1,20 @@
+---
+title: "Fees in HubSpot CRM API"
+description: "Guidelines and examples on creating, associating fees with quotes, and retrieving a list of created fees using the HubSpot CRM API."
+type: "concept"
+tags:
+- "HubSpot"
+- "CRM"
+- "API"
+- "Fees"
+relationships:
+- "#related_to [[Discounts]]"
+- "#related_to [[Taxes]]"
+- "#used_in [[Quote Creation]]"
+- "#associated_with [[Pricing Details]]"
+founded: "2014-05-01"
+---
+
 Fees
 ====
 

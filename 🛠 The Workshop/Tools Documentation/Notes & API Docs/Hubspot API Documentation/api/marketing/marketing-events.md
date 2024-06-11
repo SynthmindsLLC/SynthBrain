@@ -1,3 +1,18 @@
+---
+title: "Marketing Events"
+description: "CRM object that enables tracking and association of marketing events, such as webinars, with other HubSpot CRM objects. Learn about working with the marketing event API to integrate marketing events into an app."
+type: "group"
+tags:
+- "CRM"
+- "Marketing Events"
+- "HubSpot Integration"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#part_of [[Customer Relationship Management (CRM)]]"
+- "#related_to [[APIs]], [[Webinars]], [[Events]]"
+created_date: "2023-01-01"
+---
+
 * * *
 
 Marketing Events

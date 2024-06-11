@@ -1,3 +1,26 @@
+---
+title: "Understanding the Multi-Arm Bandit Problem"
+description: "The Multi-Arm Bandit Problem ([[MAB]]) is a classic dilemma in probability theory and decision making. It encapsulates the tension between exploring new options and exploiting known ones. This problem has significant applications in various fields like finance, advertising, and health."
+type: "concept"
+tags:
+- "Probability Theory"
+- "Decision Making"
+- "Algorithms"
+- "Machine Learning"
+relationships:
+- "#related_to [[Explore-Exploit Algorithm]]"
+- "#applied_in [[Online Advertising]], [[Clinical Trials]], [[Finance]]"
+- "#has_variation [[Binary Multi-Arm Bandit]], [[Markovian Multi-Arm Bandit]], [[Restless Bandit Problem]], [[Expansion of Choice Over Time]]"
+- "#involves [[Zero-Regret Strategies]], [[Optimal Solutions]], [[Epsilon Greedy Algorithm]], [[Upper Confidence Bound (UCB)]]"
+- "#has_algorithm [[Synthbrain/03
+-R&D/Math & Comp Sci/Concepts/Upper Confidence Bound]]"
+- "#future_research [[AI]], [[Machine Learning]]"
+- "#cited_by [[Multi-armed bandit
+-Wikipedia]], [Test Run
+-The Multi-Armed Bandit Problem | Microsoft Learn], [Solving Multi-arm Bandits with Python
+-Analytics Vidhya]]"
+---
+
 ## Understanding the Multi-Arm Bandit Problem
 
 ### Introduction to the Multi-Arm Bandit Problem

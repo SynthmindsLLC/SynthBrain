@@ -1,3 +1,18 @@
+---
+title: "Invoices API Overview"
+description: "Use the invoices API to fetch information about an account's invoices, including retrieving all open invoices and specific properties or associations. This is a read-only API that cannot be used for creating new or managing existing invoices."
+type: "group"
+tags:
+- "Invoice"
+- "API"
+- "HubSpot"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#related_to [[Commerce API]]"
+createdAt: "YYYY-MM-DD"
+updatedAt: "YYYY-MM-DD"
+---
+
 Invoices
 ========
 

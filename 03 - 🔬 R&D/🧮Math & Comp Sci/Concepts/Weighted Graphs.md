@@ -1,9 +1,20 @@
 ---
-Date: [[2024-03-30]]
-Tags: 
- - "#graph_theory"
- - "#weighted_graphs"
- - "#discrete_mathematics"
+title: "Weighted Graphs in Discrete Mathematics"
+description: "A significant concept in graph theory, a branch of discrete mathematics, where graphs have assigned values (weights) on their edges representing various quantities like distance, time, capacity, or cost."
+type: "concept"
+tags:
+- "Graph Theory"
+- "Discrete Mathematics"
+- "Weighted Graphs"
+relationships:
+- "#defines [[Directed Weighted Graph]]"
+- "#defines [[Undirected Weighted Graph]]"
+- "#has_property [[Edge Weight]]"
+- "#has_property [[Path Weight]]"
+- "#has_application [[Transportation Networks]]"]]
+- "#has_application [[Telecommunication Networks]]"
+- "#has_application [[Financial Networks]]"
+start_date: "2024-03-30"
 ---
 
 Weighted graphs are a significant concept in graph theory, which is a branch of discrete mathematics. Unlike simple graphs, which do not assign any value to their edges, weighted graphs attach a weight or cost to each edge. These weights can represent various quantities depending on the application, such as distance, time, capacity, or cost. Weighted graphs can be either directed or undirected, and the weights can be positive, negative, or zero.

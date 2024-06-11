@@ -1,3 +1,23 @@
+---
+title: "Measuring app performance in the App Marketplace"
+description: "Guide on viewing and measuring app performance metrics, including installs, uninstall feedback, and engagement through UTM parameters for better analytics tracking."
+type: "guide"
+tags:
+- "App Performance"
+- "HubSpot Developer Account"
+- "UTM Parameters"
+- "SEO Strategies"
+relationships:
+- "#part_of [[App Marketplace]]"
+- "#requires [[Log in to developer account]]"]]
+- "#has_participant [[Marketer]], [[Sales Rep]], [[Product Manager]]"
+- "#related_to [[Certification Requirements]], [[Listing Requirements]]"
+- "#uses [[UTM Parameters]]"
+- "#enables [[Traffic Analytics with HubSpot or Google Analytics]]"]]
+- "#contributes_to [[SEO Strategies]]"
+created: "2023-06-10"
+---
+
 Measuring app performance
 =========================
 

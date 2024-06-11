@@ -1,11 +1,25 @@
 ---
-Date: [[2024-03-07]]
-Tags: 
- - "#leonhard_euler"
- - "#mathematics"
- - "#graph_theory"
- - "#number_theory"
- - "#18th_century_mathematicians"
+title: "Leonhard Euler"
+description: "Swiss mathematician, physicist, astronomer, logician, and engineer who made substantial contributions to many areas of mathematics in the 18th century."
+type: "person"
+tags:
+- "Mathematics"
+- "Physicist"
+- "Astronomer"
+- "Logician"
+- "Engineer"
+- "Graph Theory"
+- "Calculus"
+- "Number Theory"
+relationships:
+- "#born_in [[Basel, Switzerland]]"
+- "#worked_at [[St. Petersburg Academy of Sciences]]"
+- "#developed [[Seven Bridges of Knigsberg problem solution]]"
+- "#introduced [[Euler's Theorem]]"
+- "#introduced [[Euler's Totient Function]]"
+- "#used_symbol [[pi]] for the ratio of a circle's circumference to its diameter]]"
+birthdate: "1707-04-15"
+deathdate: "1783-09-18"
 ---
 
 ## Leonhard Euler

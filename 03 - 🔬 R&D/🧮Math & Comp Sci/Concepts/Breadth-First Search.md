@@ -1,10 +1,16 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#BreadthFirstSearch"
- - "#Algorithms"
- - "#GraphTraversal"
- - "#DataStructures"
+title: "Breadth-First Search (BFS) Algorithm"
+description: "A pivotal algorithm for traversing or searching tree and graph data structures, operating on a simple principle of exploring all neighboring nodes at the present depth before moving to next depth level."
+type: "concept"
+tags:
+- "Algorithms"
+- "GraphTraversal"
+- "DataStructures"
+relationships:
+- "#related_to [[Tree Traversal]]"
+- "#similar_to [[Depth-First Search (DFS)]]"
+birthdate: "N/A"
+deathdate: "N/A"
 ---
 
 ## Breadth-First Search (BFS) Algorithm

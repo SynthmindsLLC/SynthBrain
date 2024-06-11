@@ -1,5 +1,18 @@
 ---
-tags: ["algorithm", "computing", "sorting-algorithms"]
+title: "Sorting Algorithms"
+description: "Fundamental algorithms in computer science, designed to reorder items in a list or database into a specified order. The efficiency and method of sorting depend on the algorithm design and the data structure involved."
+type: "concept"
+tags:
+- "Algorithm"
+- "Computing"
+- "Sorting Algorithms"
+relationships:
+- "#related_to [[Bubble Sort]]"
+- "#related_to [[Quick Sort]]"
+- "#related_to [[Merge Sort]]"
+- "#related_to [[Insertion Sort]]"
+- "#used_for [[Task Prioritization & Scheduling]]"]]
+- "#used_for [[Data Organization]]"
 ---
 
 # Sorting Algorithms

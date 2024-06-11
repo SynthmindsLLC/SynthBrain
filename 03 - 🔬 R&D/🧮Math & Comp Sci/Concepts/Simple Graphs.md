@@ -1,9 +1,22 @@
 ---
-Date: [[2024-03-30]]
-Tags: 
- - "#graph_theory"
- - "#simple_graphs"
- - "#discrete_mathematics"
+title: "Simple Graphs in Discrete Mathematics"
+description: "A fundamental concept within graph theory, simple graphs are unweighted and undirected with no loops or multiple edges between vertices. They can be connected or disconnected and serve as a basis for more complex graph types."
+type: "concept"
+tags:
+- "Graph Theory"
+- "Discrete Mathematics"
+- "Simple Graphs"
+relationships:
+- "#defines [[Adjacency]]"
+- "#has_property [[Degree of a Vertex]]"
+- "#has_property [[Path and Cycle]]"
+- "#is_a [[Graph (Discrete Mathematics)]]"
+- "#part_of [[Graph Theory]]"
+- "#used_for [[Modeling Relationships in Various Fields]]"
+founded: "N/A"
+population: "N/A"
+start_date: "N/A"
+end_date: "N/A"
 ---
 
 Simple graphs are a fundamental concept in discrete mathematics, particularly within the field of graph theory. A simple graph is defined as an unweighted, undirected graph containing no graph loops or multiple edges between any two vertices[4]. This means that in a simple graph, each pair of vertices is connected by at most one edge, and there are no edges that connect a vertex to itself. Simple graphs can be either connected or disconnected. Unless specified otherwise, the term "graph" usually refers to a simple graph[4].

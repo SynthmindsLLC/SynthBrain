@@ -1,3 +1,17 @@
+---
+title: "Private Apps in HubSpot"
+description: "Allows you to use HubSpot's APIs to access specific data from your account, requiring super admin permissions for access and management."
+type: "group"
+tags:
+- "HubSpot"
+- "API"
+- "Private Applications"
+relationships:
+- "#requires [[Super Admin]]"
+- "#part_of [[Integration Settings]]"
+founded: "N/A"
+---
+
 Private apps
 ============
 

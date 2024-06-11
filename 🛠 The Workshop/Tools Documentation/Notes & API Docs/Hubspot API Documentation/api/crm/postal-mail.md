@@ -1,3 +1,18 @@
+---
+title: "Postal Mail Engagement API"
+description: "Use the postal mail engagement API to log and manage postal mail on CRM records, including creating, retrieving, updating, deleting, associating with existing records, pinning on a record, and more."
+type: "group"
+tags:
+- "CRM"
+- "Postal Mail"
+- "HubSpot"
+relationships:
+- "#created_by [[API]]"
+- "#used_for [[Logging Postal Mail]]"
+- "#associated_with [[Contacts]], [[Companies]], [[Deals]], [[Tickets]]"
+founded: "2016-04-05"
+---
+
 Postal Mail
 ===========
 

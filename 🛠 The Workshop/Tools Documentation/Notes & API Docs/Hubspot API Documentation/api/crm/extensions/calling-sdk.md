@@ -1,3 +1,19 @@
+---
+title: "Calling Extensions SDK"
+description: "The Calling Extensions SDK allows apps to provide a custom calling option to HubSpot users directly from a record in the CRM. It consists of three main components: the JavaScript SDK, calling settings endpoints, and the calling iframe."
+type: "work"
+tags:
+- "Calling"
+- "HubSpot"
+- "CRM"
+relationships:
+- "#part_of [[Onsite CRM]]"
+- "#enables [[Custom Calling Options]]"
+- "#used_by [[App Developers]]"
+- "#related_to [[Call Switcher]]"
+founded: "2019-06-03 # Assuming the SDK was released in June 2019 based on knowledge cutoff date."
+---
+
 Calling Extensions SDK
 ======================
 

@@ -1,3 +1,17 @@
+---
+title: "Email Engagement API Management Guide"
+description: "A guide on managing emails through the email engagement API, including creating, retrieving, updating, associating, pinning, and deleting emails in CRM records."
+type: "group"
+tags:
+- "Email"
+- "CRM"
+- "API"
+relationships:
+- "#related_to [[HubSpot]]"
+- "#used_by [[Developers]]"
+founded: "N/A"
+---
+
 Email
 =====
 

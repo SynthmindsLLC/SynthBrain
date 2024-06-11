@@ -1,3 +1,17 @@
+---
+title: "Migrate an API key integration to a private app"
+description: "A guide on migrating from using a HubSpot API key to a private app for better security and scope control in integrations."
+type: "work"
+tags:
+- "API Key"
+- "Integration"
+- "HubSpot"
+relationships:
+- "#replaces [[HubSpot API Key]]"
+- "#enables [[Private App Access Token Usage]]"
+created_date: "YYYY-MM-DD # Replace with the actual creation date of this note."
+---
+
 Migrate an API key integration to a private app
 ===============================================
 

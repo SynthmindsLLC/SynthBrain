@@ -1,10 +1,15 @@
 ---
-Date: [[2024-03-07]]
-Tags: 
- - "#spanning_trees"
- - "#graph_theory"
- - "#network_design"
- - "#minimum_spanning_tree"
+title: "Minimum Spanning Trees (MST) in Graph Theory and Network Design"
+description: "A spanning tree of an undirected graph is a subgraph that includes all the vertices with no cycles, forming a tree. An MST has the smallest total edge weight among all possible spanning trees, crucial for optimizing costs in network design and other applications. Algorithms like Kruskal's and Prim's are used to find MSTs."
+type: "concept"
+tags:
+- "Graph Theory"
+- "Network Design"
+- "Minimum Spanning Tree"
+relationships:
+- "#related_to [[Spanning Trees]]"
+- "#used_in [[Telecommunications]], [[Electrical Grids]], [[Transportation Networks]]"
+birthdate: "2024-03-07"
 ---
 
 ## Spanning Trees

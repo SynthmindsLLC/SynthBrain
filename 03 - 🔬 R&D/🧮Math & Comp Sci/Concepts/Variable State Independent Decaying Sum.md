@@ -1,10 +1,15 @@
 ---
-Date: [[2024-03-16]]
-Tags: 
- - "#VSIDS"
- - "#SAT_solvers"
- - "#heuristics"
- - "#computational_logic"
+title: "Variable State Independent Decaying Sum (VSIDS)"
+description: "A key heuristic in SAT solvers that assigns scores to variables based on their involvement in conflicts, guiding the search process efficiently."
+type: "concept"
+tags:
+- "Heuristics"
+- "Computational Logic"
+- "SAT Solvers"
+relationships:
+- "#developed_by [[Chaff solver]]"
+- "#used_in [[Conflict-Driven Clause Learning (CDCL)]]"
+birthdate: "2024-03-16"
 ---
 
 # Variable State Independent Decaying Sum (VSIDS): A Key Heuristic in SAT Solvers

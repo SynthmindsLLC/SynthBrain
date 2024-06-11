@@ -1,10 +1,16 @@
 ---
-Date: [[2024-03-30]]
-Tags: 
- - "#algorithmic_graph_theory"
- - "#graph_theory"
- - "#mathematics"
- - "#computational_complexity"
+title: Algorithmic Graph Theory
+description: A branch of mathematics and computer science that focuses on the study of algorithms for processing graphs, which are mathematical structures used to model pairwise relations between objects. This field encompasses both the development of algorithms for various graph-related problems and the analysis of their computational complexity.
+type: concept
+tags:
+  - Algorithmic_Graph_Theory
+  - Graph_Theory
+  - Mathematics
+  - Computational_Complexity
+relationships:
+  - "#part_of [[Mathematics]]"
+  - "#related_to [[Computer Science]]"
+birthdate:
 ---
 
 # Algorithmic Graph Theory

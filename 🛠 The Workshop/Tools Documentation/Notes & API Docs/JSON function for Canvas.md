@@ -1,13 +1,20 @@
 ---
-Title: JavaScript Function to Generate JSON Diagram for Obsidian Canvas
-Description: A detailed explanation and code snippet for a JavaScript function that generates a JSON representation of a diagram suitable for Obsidian Canvas, based on user-defined nodes and edges.
-Date: 2024-04-04
-Tags: 
- - "#Obsidian"
- - "#JavaScript"
- - "#JSON"
- - "#Diagram"
- - "#Canvas"
+title: "JavaScript Function to Generate JSON Diagram for Obsidian Canvas"
+description: "A detailed explanation and code snippet for a JavaScript function that generates a JSON representation of a diagram suitable for Obsidian Canvas, based on user-defined nodes and edges."
+date: "2024-04-04"
+tags:
+- "Obsidian"
+- "JavaScript"
+- "JSON"
+- "Diagram"
+- "Canvas"
+type: "code"
+relationships:
+- "#used_for [[Generating Diagrams for Obsidian Canvas]]"
+- "#related_to [[Flowchart Visualization]]"
+- "#implements [[JavaScript Functionality]]"
+language: "JavaScript"
+version: " "
 ---
 
 ```javascript

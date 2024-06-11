@@ -1,3 +1,16 @@
+---
+title: "Products in HubSpot CRM"
+description: "Products represent the goods or services you sell, allowing sales reps to easily add them to deals and quotes. Manage product data through products endpoints and sync with other systems. Learn more about object properties, associations, relationships, etc., in our Understanding the CRM Objects guide."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot"
+- "Products"
+relationships:
+- "#part_of [[Sales]]"]]
+- "#related_to [[Deals]]", "Quotes"]]"
+---
+
 Products
 ========
 

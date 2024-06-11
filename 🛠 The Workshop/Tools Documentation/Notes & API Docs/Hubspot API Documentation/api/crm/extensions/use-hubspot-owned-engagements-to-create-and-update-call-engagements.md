@@ -1,3 +1,20 @@
+---
+title: "Use HubSpot Owned Engagements to create and update call engagements"
+description: "A guide on how calling app partners can leverage the Calling Extensions SDK for creating and updating call engagements with HubSpot."
+type: "article"
+tags:
+- "HubSpot"
+- "Calling App Partners"
+- "Owned Engagements"
+relationships:
+- "#uses_calling_extensions_sdk"
+- "#requires_upgrade_to_version_0.2.0"
+- "#opt_in_to_hubspot_owned_engagements"
+- "#sends_successful_and_failure_events"
+- "#deprecating_onEngagementCreated_event_in_2024"
+created: "2023-01-01 # Assuming the article was created on January 1, 2023. Replace with actual date if available."
+---
+
 Use HubSpot Owned Engagements to create and update call engagements
 ===================================================================
 

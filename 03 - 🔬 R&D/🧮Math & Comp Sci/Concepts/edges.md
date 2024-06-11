@@ -1,9 +1,16 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#Edges"
- - "#NetworkTheory"
- - "#GraphTheory"
+title: "Edges in Network and Graph Theory"
+description: "Critical components that define the structure and dynamics of a network by linking nodes to each other. They are essential for understanding interactions, relationships, or pathways within various types of networks such as computer, biological, and social networks."
+type: "concept"
+tags:
+- "Network_Theory"
+- "Graph_Theory"
+relationships:
+- "#related_to [[Network Theory]]"
+- "#related_to [[Graph Theory]]"
+- "#used_for [[Social Network Analysis]]"
+- "#used_in [[Biological Networks]], [[Computer Networks]]"
+birthdate: "deathdate: "
 ---
 
 Edges, in the context of network and graph theory, are the connections or relationships between nodes within a network. They are critical components that define the structure and dynamics of the network by linking nodes to each other.

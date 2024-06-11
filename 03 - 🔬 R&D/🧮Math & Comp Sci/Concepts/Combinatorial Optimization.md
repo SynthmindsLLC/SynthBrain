@@ -1,10 +1,19 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#combinatorial_optimization"
- - "#optimization_problems"
- - "#mathematical_optimization"
- - "#algorithms"
+title: "Combinatorial Optimization"
+description: "The process of searching for the maxima or minima of an objective function over a discrete but large configuration space, often involving problems where solutions are finite and typically involve discrete variables. This type of optimization is concerned with problems such as Traveling Salesman Problem (TSP), Knapsack Problem, Job-shop Scheduling, Graph Coloring, etc., and has applications in logistics, telecommunications, manufacturing, finance, and healthcare to optimize processes and resources."
+type: "concept"
+tags:
+- "Combinatorial_Optimization"
+- "Optimization_Problems"
+- "Mathematical_Optimization"
+- "Algorithms"
+relationships:
+- "#related_to [[Traveling Salesman Problem]]"
+- "#related_to [[Knapsack Problem]]"
+- "#related_to [[Job-shop Scheduling]]"
+- "#related_to [[Graph Coloring]]"
+- "#applied_in [[Logistics]], [[Telecommunications]], [[Manufacturing]], [[Finance]], [[Healthcare]]"
+birthdate: "2024-03-14"
 ---
 
 Combinatorial optimization is the process of searching for the maxima or minima of an objective function over a discrete but large configuration space. This type of optimization is concerned with problems where the domain of possible solutions is finite and typically involves discrete variables[1][2][3][5].

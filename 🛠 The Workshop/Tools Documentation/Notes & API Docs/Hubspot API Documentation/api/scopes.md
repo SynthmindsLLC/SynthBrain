@@ -1,3 +1,18 @@
+---
+title: "Scopes in HubSpot API"
+description: "Provides access to a specific set of HubSpot API endpoints and the associated data from a HubSpot account. If you created a private app, you can specify which scopes your app has access to in your [private app settings](/docs/api/private-apps#create-a-private-app). If you're developing a public app, you'll [configure both required and optional scopes](/docs/api/creating-an-app#configure-scopes) that users who install your app will be prompted to authorize via the app's install URL."
+type: "group"
+tags:
+- "HubSpot"
+- "API"
+- "Scopes"
+relationships:
+- "#related_to [[Private App Settings]]"
+- "#related_to [[Public App Configuration]]"
+- "#part_of [[HubSpot API Endpoints]]"
+- "#has_part [[API Access Control]]"
+---
+
 Scopes
 ======
 

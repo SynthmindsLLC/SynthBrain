@@ -1,3 +1,28 @@
+---
+title: "Migrate an existing Ecommerce Bridge API integration"
+description: "Guide on migrating the Ecommerce Bridge API integration due to sunsetting of API keys and changes in HubSpot's ecommerce features."
+type: "guide"
+tags:
+- "Ecommerce"
+- "API Integration"
+- "HubSpot"
+relationships:
+- "#related_to [[Migrating contact, product, deal & line items sync]]"
+- "#related_to [[Learn about the different APIs you can use for the contact, product, deal and line items sync]]"
+- "#related_to [[Establishing relationships between objects using Associations API]]"
+- "#related_to [[Migrating external object id]]"
+- "#related_to [[Creating unique identifiers]]"
+- "#related_to [[Defining own properties with Properties API]]"
+- "#related_to [[Import API]]"
+- "#related_to [[Pipeline creation and usage]]"
+- "#related_to [[VAST email templates sunsetting]]"
+- "#related_to [[New customer, re-engaging, abandon cart email templates]]"
+- "#related_to [[Ecommerce dashboard and template sunsetting for new users]]"
+- "#related_to [[Migrating embedded workflows]]"
+- "#related_to [[Creating settings page with Settings App API]]"
+created: "2023-01-01"
+---
+
 Migrate an existing Ecommerce Bridge API integration
 ====================================================
 

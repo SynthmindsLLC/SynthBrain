@@ -1,13 +1,18 @@
 ---
-Title: Instructing an LLM to Create and Input a Diagram into Obsidian Canvas Using JavaScript
-Description: A guide on how to instruct an LLM to generate a new canvas in Obsidian and input a predefined diagram in JSON format into the canvas, utilizing JavaScript for automation.
-Date: 2024-04-04
-Tags: 
- - "#Obsidian"
- - "#LLM"
- - "#JavaScript"
- - "#JSON"
- - "#Automation"
+title: "Instructing an LLM to Create and Input a Diagram into Obsidian Canvas Using JavaScript"
+description: "A guide on how to instruct an LLM to generate a new canvas in Obsidian and then input a predefined diagram in JSON format into the canvas, utilizing JavaScript for automation."
+date: "2024-04-04"
+tags:
+- "Obsidian"
+- "LLM"
+- "JavaScript"
+- "JSON"
+- "Automation"
+relationships:
+- "#related_to [[Creating a New Canvas in Obsidian]]"
+- "#requires [[Defining the Diagram in JSON Format]]"
+- "#used_by [[Inputting the Diagram into the Canvas]]"
+type: "guide"
 ---
 
 To instruct an LLM (Language Learning Model) to create a new canvas in Obsidian and then input a predefined diagram in JSON into the canvas using JavaScript, follow these steps:

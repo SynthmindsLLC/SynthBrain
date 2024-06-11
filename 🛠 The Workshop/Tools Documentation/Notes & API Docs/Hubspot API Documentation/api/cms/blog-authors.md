@@ -1,3 +1,19 @@
+---
+title: "Blog Authors API Documentation"
+description: "Manage author information for your blog posts using the HubSpot CMS API. Learn how to create, edit, and filter authors with this guide."
+type: "group"
+tags:
+- "API"
+- "HubSpot"
+- "CMS"
+- "Blog Authors"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#part_of [[Content Management System]]"
+createdAt: "YYYY-MM-DD # Replace with actual creation date if known"
+updatedAt: "YYYY-MM-DD # Replace with the last update date if known"
+---
+
 Blog Authors 
 ============= 
 

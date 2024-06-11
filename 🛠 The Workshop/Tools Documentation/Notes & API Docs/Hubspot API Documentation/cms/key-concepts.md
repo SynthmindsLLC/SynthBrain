@@ -1,3 +1,18 @@
+---
+title: "HubSpot CMS overview"
+description: "This section is designed to help you understand key aspects of HubSpot's **_CMS_** and build great websites on it. To get the most out of this, a professional-level understanding of web development basics, including HTML, JavaScript, and CSS, is expected."
+type: "group"
+tags:
+- "Web Development"
+- "HubSpot CMS"
+relationships:
+- "#related_to [[Content Creation]]"
+- "#enables [[Marketing Automation]]"
+- "#used_by [[Developers]]"
+- "#contributed_to [[Business Growth]]"
+founded: "N/A"
+---
+
 HubSpot CMS overview
 
 

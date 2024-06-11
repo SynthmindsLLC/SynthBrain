@@ -1,10 +1,21 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#quasi_polynomial_time"
- - "#algorithms"
- - "#computational_complexity"
- - "#graph_theory"
+title: "Quasi-Polynomial Time Algorithms"
+description: "A class of algorithms with a running time between polynomial and exponential, typically denoted as $$ n^{O(\log n)} $$ or $$ 2^{\log^k n} $$."
+type: "concept"
+tags:
+- "Computational_Complexity"
+- "Algorithms"
+- "Graph_Theory"
+- "#quasi_polynomial_time"
+relationships:
+- "#related_to [[Polynomial Time]]"
+- "#different_from [[Exponential Time]]"]]
+birthdate: "deathdate: founded: tags:"
+- "Algorithms"
+- "Computational Complexity"
+- "Graph Theory"
+- "Cryptography"
+start_date: "end_date: "
 ---
 
 # Quasi-Polynomial Time Algorithms

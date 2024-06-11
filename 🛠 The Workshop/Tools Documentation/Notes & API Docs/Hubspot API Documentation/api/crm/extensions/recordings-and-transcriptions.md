@@ -1,3 +1,19 @@
+---
+title: "Call Recording and Transcription Integration in HubSpot"
+description: "If you want to make call recordings playable in your HubSpot account, or build on top of HubSpot's Conversation Intelligence functionality, use the endpoints to automatically transcribe calls and log them within HubSpot. Requirements include only .WAV, .FLAC, and .MP4 audio files being transcribed by splitting the audio file into different channels for each speaker. Create an endpoint to provide authenticated recording URLs for a call with parameters like externalId, externalAccountId, and appId. Register your app's endpoint using HubSpot's calling settings API. Log calls using the engagements API and associate them with records to ensure transcripts appear on the record timeline. Mark call recordings as ready for transcription before September 2024 when unauthenticated approach will no longer be supported."
+type: "integration"
+tags:
+- "HubSpot"
+- "Call Recording"
+- "Transcription"
+relationships:
+- "#requires [[Conversation Intelligence]]"
+- "#uses_endpoint [[Create an endpoint to provide an authenticated recording URL for a call]]"
+- "#creates [[Log a call with your app's endpoint using the engagements API]]"
+- "#associates [[Associate calls with records]]"
+- "#marks [[Mark a call recording as ready]]"
+---
+
 Recordings and transcripts
 ==========================
 

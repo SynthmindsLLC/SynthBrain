@@ -1,10 +1,16 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#EdmondsKarpAlgorithm"
- - "#Algorithms"
- - "#GraphTheory"
- - "#MaximumFlow"
+title: "Edmonds-Karp Algorithm"
+description: "An implementation of the Ford-Fulkerson method for computing the maximum flow in a flow network, using breadth-first search to find the shortest augmenting path and ensuring polynomial time complexity."
+type: "concept"
+tags:
+- "Algorithms"
+- "Graph Theory"
+- "Maximum Flow"
+relationships:
+- "#developed_by [[Yefim Dinitz]], [[Jack Edmonds]], [[Richard Karp]]"
+- "#applies_to [[Flow Networks]]"
+- "#related_to [[Ford-Fulkerson method]]"
+- "#used_in [[Network Routing]], [[Bipartite Matching]], [[Operations Research]]"
 ---
 
 ## Edmonds-Karp Algorithm

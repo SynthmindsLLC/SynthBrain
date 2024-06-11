@@ -1,11 +1,19 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#combinatorics"
- - "#mathematics"
- - "#permutations"
- - "#combinations"
- - "#graph_theory"
+title: "Combinatorics"
+description: "A branch of mathematics concerned with counting, arrangement, and combination of objects. It deals with the study of finite or countable discrete structures and is fundamental in various areas of mathematics and science."
+type: "concept"
+tags:
+- "Combinatorics"
+- "Mathematics"
+- "Counting_Principles"
+- "Graph_Theory"
+relationships:
+- "#part_of [[Discrete Mathematics]]"
+- "#has_subfield [[Permutations and Combinations]]"]]
+- "#has_subfield [[Graph Theory]]"]]
+- "#has_subfield [[Partition Theory]]"]]
+- "#has_subfield [[Enumerative Combinatorics]]"]]
+birthdate: "deathdate: "
 ---
 
 # Combinatorics

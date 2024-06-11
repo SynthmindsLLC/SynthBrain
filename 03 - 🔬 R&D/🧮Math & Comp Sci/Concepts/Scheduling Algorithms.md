@@ -1,10 +1,20 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#SchedulingAlgorithms"
- - "#OperatingSystems"
- - "#CPU"
- - "#ProcessManagement"
+title: "Scheduling Algorithms in Operating Systems"
+description: "Overview of key scheduling algorithms used to manage processes and threads for CPU execution, optimizing aspects like CPU utilization, process throughput, and system responsiveness."
+type: "concept"
+tags:
+- "SchedulingAlgorithms"
+- "OperatingSystems"
+- "CPU"
+- "ProcessManagement"
+relationships:
+- "#related_to [[First-Come, First-Served (FCFS)]]"
+- "#related_to [[Shortest Job First]]"
+- "#related_to [[Priority Scheduling]]"
+- "#related_to [[Round Robin]]"
+- "#related_to [[Multilevel Queue Scheduling]]"
+- "#related_to [[Multilevel Feedback Queue Scheduling]]"
+start_date: "2024-03-02"
 ---
 
 ## Scheduling Algorithms in Operating Systems

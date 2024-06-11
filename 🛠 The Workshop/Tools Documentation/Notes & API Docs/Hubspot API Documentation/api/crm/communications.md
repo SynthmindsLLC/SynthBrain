@@ -1,3 +1,17 @@
+---
+title: "Communications"
+description: "Logging external communications via WhatsApp, LinkedIn, or SMS messages on CRM records to add information about the message to the record timeline."
+type: "group"
+tags:
+- "CRM"
+- "Communication"
+- "Messaging"
+relationships:
+- "#part_of [[HubSpot]]"
+- "#related_to [[WhatsApp]], [[LinkedIn]], [[SMS Messages]]"
+founded: "N/A"
+---
+
 Communications
 ==============
 

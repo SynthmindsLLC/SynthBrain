@@ -1,10 +1,19 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#TravelingSalesmanProblem"
- - "#Algorithms"
- - "#Applications"
- - "#Solutions"
+title: "Traveling Salesman Problem (TSP)"
+description: "A classic optimization challenge in theoretical computer science and operations research, involving finding the shortest possible route that visits each city exactly once and returns to the origin city. Recognized as an NP-hard problem with various algorithms and heuristics developed for its solution."
+type: "concept"
+tags:
+- "Optimization"
+- "Algorithms"
+- "Applications"
+- "Solutions"
+relationships:
+- "#related_to [[NP-hard]]"
+- "#has_part [[Exact Algorithms]]"
+- "#has_part [[Heuristic Algorithms]]"
+- "#has_part [[Dynamic Programming]]"
+- "#applied_in [[Planning and Logistics]], [[Manufacturing]], [[Network Design]]"
+birthdate: "deathdate: "
 ---
 
 ## Traveling Salesman Problem (TSP)

@@ -1,3 +1,19 @@
+---
+title: "Managing tokens"
+description: "Overview of OAuth 2.0 access and refresh tokens, including obtaining, using, and deleting them for HubSpot data management."
+type: "work"
+tags:
+- "OAuth"
+- "HubSpot API"
+- "Authentication"
+relationships:
+- "#related_to [[API Integration]]"
+- "#used_by [[Developers]]"]]
+- "#part_of [[Web Development]]"
+birthdate: "2023-01-01 # Assuming the article was created on January 1, 2023."
+deathdate: "null"
+---
+
 Managing tokens
 ===============
 

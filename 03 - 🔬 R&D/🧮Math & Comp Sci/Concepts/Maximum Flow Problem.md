@@ -1,9 +1,17 @@
 ---
-Date: [[2024-02-24]]
-Tags: 
- - "#MaximumFlowProblem"
- - "#Algorithms"
- - "#GraphTheory"
+title: "Maximum Flow Problem"
+description: "A classic optimization problem in graph theory that involves finding the maximum amount of flow from a source vertex to a sink vertex, subject to capacity constraints on edges."
+type: "concept"
+tags:
+- "Graph Theory"
+- "Algorithms"
+- "#MaximumFlowProblem"
+relationships:
+- "#related_to [[Ford-Fulkerson algorithm]]"
+- "#related_to [[Edmonds-Karp algorithm]]"
+- "#related_to [[Dinic's Algorithm]]"
+- "#applies_to [[Network Routing]], [[Bandwidth Management]], [[Project Selection Under Budget Constraints]]"
+birthdate: "2024-02-24"
 ---
 
 ## Maximum Flow Problem

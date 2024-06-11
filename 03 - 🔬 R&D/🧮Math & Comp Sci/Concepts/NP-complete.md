@@ -1,10 +1,18 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#NP_complete"
- - "#computational_complexity"
- - "#P_vs_NP"
- - "#algorithmic_challenges"
+title: "NP-Complete Problems"
+description: "A set of problems in computational complexity theory that are both in NP (nondeterministic polynomial time) and NP-hard, used as a benchmark for the difficulty of computational problems."
+type: "concept"
+tags:
+- "Computational_Complexity"
+- "NP_complete"
+- "computational_complexity"
+- "P_vs_NP"
+relationships:
+- "#related_to [[Computational Complexity Theory]]"
+- "#has_part_of [[Nondeterministic Polynomial Time (NP)]]"
+- "#enables [[Algorithm Development]]"
+birthdate: "2024-03-31"
+deathdate: ""
 ---
 
 # NP-Complete Problems

@@ -1,3 +1,72 @@
+---
+title: "Visitor Identification API Integration Guide"
+description: "A guide on integrating the Visitor Identification API into your web application for identifying authenticated visitors in HubSpot's chat widget."
+type: "work"
+tags:
+- "HubSpot"
+- "API"
+- "Integration"
+- "Authentication"
+relationships:
+- "#part_of [[Marketing Hub]]"
+- "#part_of [[Sales Hub]]"
+- "#part_of [[Service Hub]]"
+- "#part_of [[Content Hub]]"
+tags:
+- "Professional or Enterprise subscription required for access"
+applicable_products: "-title: Marketing Hub"
+  description: "Professional or Enterprise level marketing platform."
+  type: "group"
+  tags:
+- "Marketing"
+- "HubSpot Platform"
+-title: "Sales Hub"
+  description: "Professional or Enterprise level sales platform."
+  type: "group"
+  tags:
+- "Sales"
+- "HubSpot Platform"
+-title: "Service Hub"
+  description: "Professional or Enterprise level service management platform."
+  type: "group"
+  tags:
+- "Service Management"
+- "HubSpot Platform"
+-title: "Content Hub"
+  description: "Professional or Enterprise level content creation and publishing platform."
+  type: "group"
+  tags:
+- "Content Creation"
+- "HubSpot Platform"
+relationships:
+- "#part_of [[Marketing Hub]]"
+- "#part_of [[Sales Hub]]"
+- "#part_of [[Service Hub]]"
+integration_flow: "title: Integration Flow Example"
+  description: "Steps to integrate the Visitor Identification API with your web application."
+  type: "work"
+  tags:
+- "Integration Process"
+- "API Usage"
+- "#has_part [[Chat Widget SDK primer]]"
+  relationships:
+- "#related_to [[HubSpot Conversations API]]"
+- "#requires [[Private App Setup]]"
+- "#uses [[Visitor Identification Token Generation]]"
+- "#enables [[Personalized Messages]]"
+- "#has_part [[Verify Integration Process]]"
+  relationships:
+- "#related_to [[Chat Widget SDK primer]]"
+- "#requires [[HubSpot Conversations API]]"
+- "#uses [[Token Refresh Mechanism]]"
+- "#enables [[Accurate Visitor Identification]]"
+- "#has_part [[Feedback Collection]]"
+  relationships:
+- "#related_to [[Documentation Feedback Form]]"
+- "#requires [[JavaScript]]"
+- "#uses [[Email Address for Clarifications]]"
+---
+
 Visitor identification
 ======================
 

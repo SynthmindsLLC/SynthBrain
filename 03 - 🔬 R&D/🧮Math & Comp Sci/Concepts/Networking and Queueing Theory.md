@@ -1,10 +1,17 @@
 ---
-Date: [[2024-03-02]]
-Tags: 
- - "#ComputerNetworks"
- - "#QueueingTheory"
- - "#NetworkModeling"
- - "#PerformanceAnalysis"
+title: "Networking and Queueing Theory"
+description: "Technique used to represent computer systems as networks of queues for performance analysis, involving evaluating equations induced by the network of queues."
+type: "concept"
+tags:
+- "ComputerNetworks"
+- "QueueingTheory"
+- "NetworkModeling"
+- "PerformanceAnalysis"
+relationships:
+- "#related_to [[Queueing Network Modeling]]"
+- "#involves [[Arrival Patterns]], [[Service Patterns]], [[System Capacity]], [[Number of Service Channels]], [[Number of Service Stages]]"
+- "#applies_to [[Routers]], [[Switches]], [[Packets]]"
+birthdate: "2024-03-02"
 ---
 
 ## Networking and Queueing Theory

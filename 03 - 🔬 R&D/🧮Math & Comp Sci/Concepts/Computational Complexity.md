@@ -1,10 +1,18 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#computational_complexity"
- - "#algorithms"
- - "#P_vs_NP"
- - "#computational_models"
+title: "Computational Complexity Overview"
+description: "A branch of computer science that focuses on classifying computational problems according to their inherent difficulty and analyzing the resource requirements (such as time and space) of algorithms that solve these problems. It provides a framework for understanding the limits of what can be computed and the efficiency of computational processes."
+type: "concept"
+tags:
+- "Computational_Complexity"
+- "Algorithms"
+- "P_vs_NP"
+- "Computational_Models"
+relationships:
+- "#related_to [[Complexity Classes]]"
+- "#related_to [[Turing Machines]]"
+- "#related_to [[Cryptography]]"
+- "#related_to [[Algorithm Design]]"
+- "#related_to [[Quantum Computing]]"
 ---
 
 # Computational Complexity Overview

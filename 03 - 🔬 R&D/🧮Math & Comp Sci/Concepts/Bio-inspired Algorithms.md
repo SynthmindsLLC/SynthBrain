@@ -1,9 +1,19 @@
 ---
-Date: [[2024-03-14]]
-Tags: 
- - "#bio_inspired_algorithms"
- - "#optimization"
- - "#computational_intelligence"
+title: "Bio-inspired algorithms"
+description: "Computational techniques that mimic biological processes to solve complex optimization problems, particularly effective for NP-hard problems where traditional methods may not be feasible. Categorized into several groups based on the biological phenomena they emulate. Applied across various domains such as engineering, computer science, economics, and bioinformatics."
+type: "concept"
+tags:
+- "Bio_Inspired_Algorithms"
+- "Optimization"
+- "Computational_Intelligence"
+relationships:
+- "#part_of [[Evolutionary Algorithms]]"
+- "#part_of [[Swarm Intelligence Algorithms]]"
+- "#part_of [[Ecology-Based Algorithms]]"
+- "#part_of [[Multi-Objective Bio-Inspired Algorithms]]"
+- "#part_of [[Anthropological Algorithms]]"
+- "#part_of [[Plant-Based Algorithms]]"
+founded: "2024-03-14"
 ---
 
 Bio-inspired algorithms are computational techniques that mimic biological processes to solve complex optimization problems. These algorithms are particularly effective for NP-hard problems where traditional optimization methods may not be feasible. They are categorized into several groups based on the biological phenomena they emulate:

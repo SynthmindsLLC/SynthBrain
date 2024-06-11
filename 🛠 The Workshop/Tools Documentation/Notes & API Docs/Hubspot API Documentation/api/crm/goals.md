@@ -1,3 +1,20 @@
+---
+title: "Goals in HubSpot CRM API"
+description: "The goals API allows you to retrieve and manage user-specific quotas for sales and services teams based on templates provided by HubSpot. You can request all goals, individual goals, or filter goals using specific criteria."
+type: "concept"
+tags:
+- "HubSpot"
+- "CRM"
+- "API"
+- "Goals"
+relationships:
+- "#related_to [[Sales Quotas]]"
+- "#used_by [[Sales and Services Teams]]"
+- "#part_of [[HubSpot CRM API]]"
+- "#enables [[User-Specific Goal Management]]"
+founded: "2014-03-01"
+---
+
 Goals
 =====
 

@@ -1,3 +1,17 @@
+---
+title: "Lists in HubSpot CRM API"
+description: "A collection of records of the same object type that can be used for record segmentation, filtering, and grouping to serve your business needs. You can create contact, company, deal, or custom object lists. The v3 Lists API allows you to create, edit, and fetch lists. "
+type: "group"
+tags:
+- "CRM"
+- "API"
+- "Lists"
+relationships:
+- "#part_of [[HubSpot CRM]]"
+- "#used_for [[Record Segmentation]], [[Filtering]], [[Grouping]]"
+founded: "N/A"
+---
+
 Lists
 =====
 

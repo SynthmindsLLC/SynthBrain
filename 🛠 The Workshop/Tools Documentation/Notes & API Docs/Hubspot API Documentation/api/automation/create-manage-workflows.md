@@ -1,3 +1,16 @@
+---
+title: "Development of the v3 Workflows API and HubSpot's workflow automation"
+description: "The development of the v3 Workflows API will begin in Q4 2023, allowing for full CRUD access to workflows. Learn more about this ongoing project [here](https://legacydocs.hubspot.com/docs/overview). HubSpot's workflows can be used to automate business processes and improve efficiency. The Workflows API currently supports contact-based workflows, with the latest stable version of each API available below: type: group"
+tags:
+- "HubSpot"
+- "Workflows"
+- "API"
+relationships:
+- "#developed_by [[HubSpot]]"
+- "#part_of [[Automation Tools]]"
+founded: "N/A"
+---
+
 *   Development of the v3 Workflows API will begin in Q4 2023. You can subscribe to the [Developer Changelog](/changelog) to get notified when it's available.
 *   Please note that we are currently in the process of updating our APIs to improve consistency and completeness. Learn more about this ongoing project [here](https://legacydocs.hubspot.com/docs/overview).
 

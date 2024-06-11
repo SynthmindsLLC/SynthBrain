@@ -1,3 +1,17 @@
+---
+title: "CRM cards"
+description: "Within a public app, you can create custom CRM cards to display information from other systems on HubSpot contact, company, deal, and ticket records. Each app can include up to 25 CRM cards."
+type: "work"
+tags:
+- "CRM"
+- "HubSpot"
+- "Integration"
+relationships:
+- "#part_of [[Public App]]"
+- "#used_for [[Displaying Information on CRM Records]]"
+- "#related_to [[UI Extensions]]"
+---
+
 CRM cards
 =========
 

@@ -1,3 +1,17 @@
+---
+title: "HubSpot API Key Deprecation Notice"
+description: "As of November 30, 2022, HubSpot has deprecated the use of API Keys for authentication and recommends using private app access tokens or OAuth. Continued usage poses a security risk to your account and data. Learn more about this change and how to migrate from an API key integration to a private app at [HubSpot's documentation](https://developers.hubspot.com/changelog/upcoming-api-key-sunset)"
+type: "notice"
+tags:
+- "API"
+- "Authentication"
+- "Security Risk"
+relationships:
+- "#caused_by [[HubSpot's Security Policy]]"
+- "#replaced_with [[Private App Access Token]], [[OAuth]]"
+founded: "2014-05-08"
+---
+
 **Please note:** as of November 30, 2022, HubSpot API Keys are being deprecated and are no longer supported. Continued use of HubSpot API Keys is a security risk to your account and data. During this deprecation phase, HubSpot may deactivate your key at any time.
 
 You should instead authenticate using a private app access token or OAuth. Learn more about [this change](https://developers.hubspot.com/changelog/upcoming-api-key-sunset) and how to [migrate an API key integration](/docs/api/migrate-an-api-key-integration-to-a-private-app) to use a private app instead.

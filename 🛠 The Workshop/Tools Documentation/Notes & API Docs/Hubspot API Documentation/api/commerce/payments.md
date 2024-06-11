@@ -1,3 +1,18 @@
+---
+title: "Payments API Overview"
+description: "Use the payments API to fetch information about an account's payments, which is a read-only API and cannot be used for creating new or managing existing payments. This includes retrieving all refunded payments in an account. Requirements include setting up HubSpot payments or Stripe payment processing."
+type: "group"
+tags:
+- "Payment"
+- "API"
+- "HubSpot"
+relationships:
+- "#founded_by [[HubSpot]]"
+- "#part_of [[Commerce API]]"
+- "#related_to [[Stripe payment processing]]"
+founded: "2014-05-08"
+---
+
 Payments
 ========
 

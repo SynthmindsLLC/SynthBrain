@@ -1,3 +1,18 @@
+---
+Based on the provided content, here's the YAML front matter: "---"
+title: "List Filters"
+description: "If you select a `SNAPSHOT` or `DYNAMIC` list processing type when creating a list, use filters to determine which records are members of the list."
+type: "concept"
+tags:
+- "Lists"
+- "Filtering"
+- "HubSpot CRM"
+relationships:
+- "#related_to [[CRM]]"
+- "#similar_to [[Data Management]]"
+- "#enables [[Record Selection]]"
+---
+
 List filters
 ============
 

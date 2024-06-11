@@ -1,3 +1,18 @@
+---
+title: "FAQ about HubSpot's APIs"
+description: "Get answers to frequently asked questions about HubSpot's APIs, including form manipulation with jQuery, timestamp formatting, API error messages, CORS / AJAX requests, email validation, contact record limits, transactional emails, subscribing to updates, and privacy compliance."
+type: "group"
+tags:
+- "HubSpot"
+- "APIs"
+- "FAQ"
+relationships:
+- "#related_to [[CMS development]]"
+- "#similar_to [[Documentation]]"
+- "#contributed_to [[Developer community]]"
+founded: "2014-05-08"
+---
+
 FAQ
 ===
 

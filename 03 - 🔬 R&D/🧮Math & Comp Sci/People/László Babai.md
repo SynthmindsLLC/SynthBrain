@@ -1,11 +1,18 @@
 ---
-Date: [[2024-03-31]]
-Tags: 
- - "#László_Babai"
- - "#graph_isomorphism"
- - "#quasi_polynomial_time"
- - "#computational_complexity"
- - "#theoretical_computer_science"
+title: "Lszl Babai"
+description: "Hungarian professor of computer science and mathematics at the University of Chicago, known for his work on computational complexity theory, algorithms, combinatorics, and finite groups."
+type: "person"
+tags:
+- "Computer Science"
+- "Mathematics"
+- "Theoretical Computer Science"
+- "Algorithms"
+relationships:
+- "#authored_by [[Graph Isomorphism Problem]]"
+- "#developed [[Quasi-Polynomial Time Algorithm]]"
+- "#contributed_to [[Computational Complexity Theory]]"
+birthdate: "1950-07-20"
+deathdate: "null"
 ---
 
 # László Babai

@@ -1,3 +1,17 @@
+---
+title: "Contacts in HubSpot CRM"
+description: "Contacts store information about the individual people that interact with your business, allowing you to create and manage contact records in your HubSpot account, as well as sync contact data between HubSpot and other systems."
+type: "group"
+tags:
+- "CRM"
+- "HubSpot"
+- "Contacts Management"
+relationships:
+- "#part_of [[Customer Relationship Management]]"
+- "#related_to [[Data Syncing]]"
+founded: "N/A"
+---
+
 Contacts
 ========
 
