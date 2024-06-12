@@ -1,3 +1,22 @@
+---
+title: "Build Modules and Partials with JavaScript"
+description: "An explanation of how to build modules and partials with JavaScript and React instead of HubL, and the benefits and limitations of doing so."
+type: "concept"
+tags:
+- "JavaScript"
+- "React"
+- "HubL"
+- "Modules"
+- "Partials"
+relationships:
+- "#related_to [[HubSpot CMS]]"
+- "#related_to [[Web Design]]"
+- "#related_to [[Front-End Development]]"
+- "#used_for [[Creating Interactive Webpages]]"
+- "#differs_from [[Building Modules and Partials with HubL]]"
+published_date: "2023-11-29"
+---
+
 Build modules and partials with JavaScript
 
 

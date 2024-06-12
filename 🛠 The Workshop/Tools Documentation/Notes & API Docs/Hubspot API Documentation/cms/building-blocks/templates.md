@@ -1,3 +1,19 @@
+---
+title: "Templates overview"
+description: "Templates define the layout of your HubSpot pages, emails, and themes. A template consists of modules and partials, and can reference other assets such as stylesheets and JavaScript files. Templates can be created either using the [HubSpot CLI](/docs/cms/guides/getting-started) or in [HubSpot's design manager](https://knowledge.hubspot.com/design-manager/create-page-email-and-blog-templates-in-the-layout-editor). For content creators, the template is the first thing they'll select when creating a page or email."
+type: "concept"
+tags:
+- "Templates"
+- "HubSpot"
+- "Layouts"
+relationships:
+- "#related_to [[Page Templates]]"
+- "#related_to [[Email Templates]]"
+- "#related_to [[Blog Templates]]"
+- "#related_to [[System Pages]]"
+last_updated: "2023-05-04"
+---
+
 Templates overview
 
 

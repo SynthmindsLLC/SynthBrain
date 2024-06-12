@@ -1,3 +1,19 @@
+---
+title: "CMS Module Files"
+description: "Overview of module files used in HubSpot CMS."
+type: "concept"
+tags:
+- "CMS"
+- "HubSpot"
+- "Module Files"
+- "Front-end Development"
+- "Web Development"
+relationships:
+- "#explains [[HTML]] [[HubL]] [[CSS]] [[JavaScript]]"
+- "#contributes_to [[CMS Hub Website]]"
+- "#related_to [[Module Field Values]] [[Module Customization]]"
+---
+
 Module files
 
 

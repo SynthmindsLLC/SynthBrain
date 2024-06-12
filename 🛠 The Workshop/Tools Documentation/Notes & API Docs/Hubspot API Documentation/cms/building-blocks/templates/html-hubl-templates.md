@@ -1,3 +1,20 @@
+---
+title: "HTML + HubL Templates"
+description: "Coded templates that support the HubL templating language and provide greater control through drag and drop functionality."
+type: "concept"
+tags:
+- "Development"
+- "HubSpot"
+- "HTML"
+- "HubL"
+relationships:
+- "#enables [[Greater Control for Developers]]"
+- "#requires [[HubL Templating Language]]"
+- "#used_in [[HubSpot CMS]]"
+- "#has_part [[Header and Footer Includes]]"
+- "#relates_to [[Partials]], [[Global Groups]]"
+---
+
 HTML + HubL templates
 
 

@@ -1,3 +1,21 @@
+---
+title: "Default email modules"
+description: "Learn about default modules for building email templates."
+type: "conversation"
+tags:
+- "Email"
+- "Default_Modules"
+- "Web_Modules"
+- "Design_Manager"
+relationships:
+- "#part_of [[HubSpot Documentation]]"
+- "#related_to [[Email Design]]"
+- "#related_to [[HubSpot Design Manager]]"
+- "#used_by [[Email Template Builder]]"
+- "#provided_by [[HubSpot]]"
+date: "2023-03-08"
+---
+
 Default email modules
 
 

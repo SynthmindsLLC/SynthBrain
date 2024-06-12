@@ -1,3 +1,19 @@
+---
+title: "Using Modules in Templates"
+description: "Guide on adding and using modules in templates in HubSpot CMS"
+type: "document"
+tags:
+- "HubL"
+- "modules"
+- "CMS"
+relationships:
+- "#part_of [[HubSpot CMS documentation]]"
+- "#similar_to [[Using Widgets in Templates]]"
+- "#related_to [[Creating and Editing Templates]]"
+- "#explains [[Block Syntax]]"
+- "#discusses [[Content Attribute]]"
+---
+
 Using Modules in Templates
 
 

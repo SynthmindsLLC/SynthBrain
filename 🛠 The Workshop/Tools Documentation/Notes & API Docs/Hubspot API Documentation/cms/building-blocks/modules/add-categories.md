@@ -1,3 +1,18 @@
+---
+title: "Configuring a Module"
+description: "Configuration options available for modules in HubSpot CMS, including information on adding icons, changing labels, making modules global, controlling availability, and adding CSS and JavaScript dependencies."
+type: "conversation"
+tags:
+- "Modules"
+- "CMS"
+- "HubSpot"
+- "Web Development"
+relationships:
+- "#authored_by [[HubSpot]]"
+- "#part_of [[HubSpot Documentation]]"
+last_reviewed: "2024-02-15"
+---
+
 Configuring a module
 
 

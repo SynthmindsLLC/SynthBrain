@@ -1,3 +1,23 @@
+---
+title: "Drag and Drop Templates"
+description: "Drag and drop templates are not recommended for new templates."
+type: "concept"
+tags:
+- "Templating"
+- "Design"
+- "HubSpot_CMS"
+- "Website_Building"
+- "Drag_and_Drop"
+relationships:
+- "#differs_from [[HTML + HubL Templates]]"
+- "#used_by [[Marketing Hub]], [[Content Hub]]"
+- "#precedes [[Drag and Drop Areas]]"
+- "#produces [[Website]]"
+- "#influenced_by [[Bootstrap_2]]"
+- "#replaced_by [[Drag and Drop Areas]]"
+- "#requires [[Visual Template Builder]]"
+---
+
 Drag and drop templates
 
 

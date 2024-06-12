@@ -1,3 +1,18 @@
+---
+title: "Module and theme fields overview"
+description: "Within modules and themes, fields are used to enable content creators to control module and theme styling and functionality on your website. When developing a module or a theme, you'll include fields in a `fields.json` file, which will then translate to the theme and content editors. To learn more about specific field types, check out the [module and field types reference guide](/docs/cms/building-blocks/module-theme-fields)."
+type: "concept"
+tags:
+- "Modules"
+- "Themes"
+- "Fields"
+relationships:
+- "#related_to [[Module]]"
+- "#related_to [[Theme]]"
+- "#used_for [[Content Creation]]"
+last_updated: "2023-06-27"
+---
+
 Module and theme fields overview
 
 

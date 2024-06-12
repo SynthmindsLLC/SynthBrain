@@ -1,3 +1,22 @@
+---
+title: "Write Module and Theme Fields Using JavaScript"
+description: "Learn how to write module and theme fields in JavaScript, including the necessary CLI commands, along with some examples to get you started."
+type: "concept"
+tags:
+- "Module"
+- "Theme"
+- "Fields"
+- "JavaScript"
+- "HubSpot"
+- "Building_Blocks"
+relationships:
+- "#related_to [[Module Fields]]"
+- "#related_to [[Theme Fields]]"
+- "#related_to [[JavaScript]]"
+- "#used_in [[HubSpot CMS]]"
+- "#part_of [[Building Blocks]]"
+---
+
 Write module and theme fields using JavaScript
 
 

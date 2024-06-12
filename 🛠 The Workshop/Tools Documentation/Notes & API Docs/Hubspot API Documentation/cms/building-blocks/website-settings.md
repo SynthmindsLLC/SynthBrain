@@ -1,3 +1,20 @@
+---
+title: "Website Settings"
+description: "A single place where various global and system-level content settings can be configured for your website's blog, navigation, pages, and themes. Navigate to [Settings > Website](https://app.hubspot.com/l/settings/website/blogs/) and choose which content area you want to access your Content Settings for."
+type: "group"
+tags:
+- "Website"
+- "Configuration"
+- "Blog"
+- "Navigation"
+- "Pages"
+- "Themes"
+relationships:
+- "#contains [[Settings > Website]]"
+birthdate: "N/A"
+deathdate: "N/A"
+---
+
 Website Settings
 
 

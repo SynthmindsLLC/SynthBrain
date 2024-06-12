@@ -1,3 +1,17 @@
+---
+title: "Menus and Navigation"
+description: "Include navigation menus on your website to help users find the information they need. "
+type: "guide"
+tags:
+- "Website Design"
+- "User Experience"
+- "Navigation"
+relationships:
+- "#related_to [[HubSpot]]"
+- "#used_for [[Improving User Navigation]]"
+last_updated: "2024-03-28"
+---
+
 Menus and Navigation
 
 

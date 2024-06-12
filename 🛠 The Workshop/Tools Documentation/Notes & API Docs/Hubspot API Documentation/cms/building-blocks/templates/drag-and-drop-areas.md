@@ -1,3 +1,17 @@
+---
+title: "Drag and Drop Areas Overview"
+description: "Drag and drop areas enable you to create areas of pages and global partials where content creators can place modules, change layout, and add styling within the content editor."
+type: "concept"
+tags:
+- "Drag_and_Drop"
+- "Content_Management"
+- "Layout"
+relationships:
+- "#used_for [[Creating Layouts]]"
+- "#enables [[Content Creators]]"
+- "#differs_from [[Fixed Layouts]]"
+---
+
 Drag and Drop areas overview
 
 

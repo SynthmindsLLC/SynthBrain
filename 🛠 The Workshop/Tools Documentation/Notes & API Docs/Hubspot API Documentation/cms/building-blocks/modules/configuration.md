@@ -1,3 +1,20 @@
+---
+title: "Module Configuration"
+description: "Options when developing modules that impact where a module is visible, how it is identified, and how it is edited."
+type: "concept"
+tags:
+- "Modules"
+- "CMS"
+- "HubSpot"
+- "Design"
+relationships:
+- "#related_to [[Module Development]]"
+- "#has_part [[Meta JSON]]"
+- "#has_part [[Fields JSON]]"
+- "#has_part [[Module Categories]]"
+- "#has_part [[Module Tags]]"
+---
+
 Configuring a module
 
 

@@ -1,3 +1,17 @@
+---
+title: "Themes overview"
+description: "A theme is a portable and contained collection of developer assets designed to enable a flexible content editing experience. You can build themes locally using the HubSpot CLI, and they are also portable between environments and accounts. For more information on getting started with local development, view the HubSpot Academy video below."
+type: "concept"
+tags:
+- "Developer Assets"
+- "Content Editing Experience"
+- "Local Development"
+relationships:
+- "#related_to [[HubSpot CLI]]"
+- "#enables [[Flexible Content Creation]]"
+last_updated: "2024-01-04"
+---
+
 Themes overview
 
 

@@ -1,3 +1,19 @@
+---
+title: "Dynamic Pages Overview"
+description: "Dynamic pages in HubSpot allow you to create CMS pages that get their content from structured data sources like HubDB or CRM objects."
+type: "concept"
+tags:
+- "Marketing"
+- "Web Development"
+- "CMS"
+- "HubSpot"
+relationships:
+- "#part_of [[HubSpot CMS]]"
+- "#differs_from [[Static Pages]]"
+- "#related_to [[CRM Objects]], [[HubDB]]"
+- "#enables [[Data-Driven Content]]"
+---
+
 Dynamic pages overview
 
 

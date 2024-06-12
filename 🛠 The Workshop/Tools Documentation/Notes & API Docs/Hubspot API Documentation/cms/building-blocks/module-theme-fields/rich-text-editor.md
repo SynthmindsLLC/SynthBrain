@@ -1,3 +1,19 @@
+---
+title: "Rich Text Editor"
+description: "Provides developers the ability to remove components from the Rich Text Editor configuration toolbar through the `enabled_features` property inside of the fields.json file."
+type: "concept"
+tags:
+- "Rich_Text_Editor"
+- "Custom_Modules"
+- "Fields.JSON"
+relationships:
+- "#influences [[](#how-to-use-enabled_features)]]"
+- "#enables [[](#feature-listings)]]"
+- "#related_to [[](#text-formating)]]"
+- "#related_to [[](#insert-buttons)]]"
+- "#related_to [[](#advanced-options)]]"
+---
+
 Configuring the Rich Text Editor
 
 

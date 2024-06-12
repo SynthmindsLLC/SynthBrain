@@ -1,3 +1,18 @@
+---
+title: "HubSpot Forms"
+description: "Use HubSpot forms to capture information from website visitors, which you can then access throughout HubSpot."
+type: "group"
+tags:
+- "Website Tools"
+- "Customer Conversion"
+- "Data Collection"
+relationships:
+- "#part_of [[HubSpot]]"
+- "#used_for [[Capturing Visitor Information]]"
+- "#enables [[Accessing Form Data in HubSpot Tools and Assets]]"
+last_updated: "2024-03-28"
+---
+
 HubSpot forms
 
 

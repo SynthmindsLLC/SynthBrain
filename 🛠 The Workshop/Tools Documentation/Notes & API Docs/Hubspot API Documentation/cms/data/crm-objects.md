@@ -1,3 +1,23 @@
+---
+title: "Use CRM Object Data in CMS Hub"
+description: "A guide to using CRM object data in CMS Hub, including functions, examples, and tutorials."
+type: "documentation"
+tags:
+- "CMS"
+- "CRM"
+- "HubSpot"
+relationships:
+- "#related_to [[HubSpot Academy's CMS Data-Driven Content course]]"
+- "#related_to [[GitHub repo]]"
+- "#related_to [[Recording of HubSpot Developer Day 2020]]"
+- "#has_part [[Display data from a single CRM record with the crm_object function]]"
+- "#has_part [[Display data from multiple CRM records with the crm_objects function]]"
+- "#has_part [[Display associated records]]"
+- "#has_part [[Getting a custom object type's details]]"
+- "#has_part [[CRM Object Module field]]"
+- "#has_part [[CRM Object tutorials and resources]]"
+---
+
 Use CRM object data in CMS Hub
 
 

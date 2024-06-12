@@ -1,3 +1,207 @@
+---
+title: "Module and theme fields"
+description: "Fields let module and theme developers add content-driven functionality to their custom building blocks."
+type: "concept"
+---
+
+Module and theme fields
+
+
+===========================
+
+Last updated: "April 11, 2024"
+
+Add fields to modules and themes to allow content creators to control various aspects of a page within the page editor. Below, learn about all of the fields available for modules and themes, along with their available properties.
+
+For more information about implementing module and theme fields, including field groups and repeating fields, view the [module and theme fields overview](/docs/cms/building-blocks/module-theme-fields-overview).
+
+Properties used by all fields[](https: "//developers.hubspot.com/docs/cms/building-blocks/module-theme-fields#properties-used-by-all-fields)"
+------------------------------------------------------------------------------------------------------------------------------------------
+
+All fields share a set of common properties. These are general fields, such as the field's name or the help text that displays for content creators using the field in the module or theme.
+
+// Boolean field { "name" : "is\_teaser\_img", "label" : "Enable Teaser Image", "required" : false, "locked" : false, "type" : "boolean", "inline\_help\_text" : "Shows Teaser image when toggled on", "help\_text" : "Teaser images are used to help provide visual context to the post.", "default" : "false }"
+
+Properties used by all fields
+| Parameter | Type | Description | Default |
+| --- | --- | --- | --- |
+| 
+`name`
+
+ | String | 
+
+The field's name, which you'll reference when incorporating the field and its values in the module or theme. Cannot contain spaces or special characters.
+
+ | `richtext_field, date_field, etc.` |
+| 
+
+`label`
+
+ | String | 
+
+The text the content creator sees describing the field. May contain spaces.
+
+ | `Rich text field, Date field, etc.` |
+| 
+
+`required`
+
+ | Boolean | 
+
+Sets whether the field can be left blank in the editor. If `true`, content cannot be published without a value in the field.
+
+ | `false` |
+| 
+
+`locked`
+
+ | Boolean | 
+
+Sets whether the field is editable in the content editor. If `true`, the field will not appear in the content editor.
+
+ | `false` |
+| 
+
+`type`
+
+ | String | 
+
+The type of field. Field types are unique per field and can be found within the documentation for each field below.
+
+ |  |
+| 
+
+`inline_help_text`
+
+ | String | 
+
+Text that displays inline below field's label (limit 400 characters). Best used for information required to use the field.
+
+You can include the following HTML tags (other tags will be ignored on render): "`a`, `b`, `br`, `em`, `i`, `p`, `small`, `strong`, `span`."
+
+ |  |
+| 
+
+`help_text`
+
+ | String | 
+
+Text that displays in the editor within a tooltip on hover to assist the content creator (limit 300 characters). Best used for information that is supplementary but not required to use the field.
+
+You can include the following HTML tags (other tags will be ignored on render): "`a`, `b`, `br`, `em`, `i`, `p`, `small`, `strong`, `span`."
+
+ |  |
+| 
+
+`id`
+
+ | String | 
+
+The field's unique ID, which is set by HubSpot. When building locally you do not need to specify this ID.
+
+ |  |
+| 
+
+`visibility`
+
+ | Array | 
+
+Sets the field's display conditions. For example, you can set a field to only display when another checkbox field has been selected. Learn more about [visibility](/docs/cms/building-blocks/module-theme-fields-overview#field-visibility).
+
+ |  |
+| 
+
+`display_width`
+
+ | String | 
+
+By default, fields are full-width in the editor. When two consecutive fields in the `fields.json` file are set to `half_width`, they will instead appear next to each other in the editor.
+
+ |  |
+
+Alignment[](https: "//developers.hubspot.com/docs/cms/building-blocks/module-theme-fields#alignment)"
+--------------------------------------------------------------------------------------------------
+
+Enables content creators to position an element within a container. To enable text alignment, use the [text alignment field](/docs/cms/building-blocks/module-theme-fields#text-alignment) instead.
+
+Alignment fields are supported in [modules](https: "//developers.hubspot.com/docs/cms/building-blocks/modules) and can only be used as [style fields](/docs/cms/building-blocks/module-theme-fields-overview#style-fields)."
+
+![Alignment field](https://developers.hubspot.com/hs-fs/hubfs/Alignment-field.png?width=113&height=110&name=Alignment-field.png "Alignment field")
+
+// alignment field { "name": "img\_position", "label": "Position Image", "help\_text":"Position the image within it's container.", "required": false, "type": "alignment", "default": { "horizontal\_align": "CENTER", "vertical\_align": "TOP", } }
+
+Blog field
+| Parameter | Type | Description | Default |
+| --- | --- | --- | --- |
+| 
+`default`
+
+ | Object | 
+
+Object containing `horizontal_align` and `vertical_align`.
+
+ |  |
+| 
+
+Blog[](https: "//developers.hubspot.com/docs/cms/building-blocks/module-theme-fields#blog)"
+----------------------------------------------------------------------------------------
+
+This field provides a way for content editors to select a blog, providing you, the developer the blog's id. This is useful for situations like pulling teaser information for featured blogs in modules. You can use the blog id in blog-related [HubL functions](/docs/cms/hubl/functions) to get information like [blog authors](/docs/cms/hubl/functions#blog-authors), [recent blog posts](/docs/cms/hubl/functions#blog-recent-posts), [recent blog posts with a specific tag](/docs/cms/hubl/functions#blog-recent-tag-posts), and more.
+
+Blog fields are supported in modules.
+
+![Screenshot of Blog field](https://developers.hubspot.com/hubfs/Blog%20field.png "Screenshot of Blog field")
+
+// blog field { "name" : "blog", "label" : "Blog", "required" : false, "locked" : false, "type" : "blog", "default" : "1234567890 }"
+
+Blog field
+| Parameter | Type | Description | Default |
+| --- | --- | --- | --- |
+| 
+`default`
+
+ | "default" / blog id | 
+
+Specifies which blog is selected by default. This parameter accepts arguments of either 'default' or a blog ID (available in the URL of the Blog dashboard).
+
+ | `null` |
+
+Boolean[](https: "//developers.hubspot.com/docs/cms/building-blocks/module-theme-fields#boolean)"
+----------------------------------------------------------------------------------------------
+
+This field provides a way for content editors to enable/disable functionality. Booleans can only be `true` or `false`. Often it makes sense to make groups or fields conditional based on boolean fields. If you think you might need to provide more than two states down the road, a Choice field may be a better option as you can grow into that with less effort should needs change later.
+
+Boolean fields are supported in both themes and modules.  
+Boolean fields can be used as [style fields](/docs/cms/building-blocks/module-theme-fields-overview#style-fields).
+
+![Screenshot of Boolean field](https://developers.hubspot.com/hs-fs/hubfs/Boolean.png?width=209&height=45&name=Boolean.png "Screenshot of Boolean field")
+
+// Boolean field { "name" : "is\_teaser\_img", "label" : "Enable Teaser Image", "required" : false, "locked" : false, "type" : "boolean", "display":"checkbox", "inline\_help\_text" : "Shows Teaser image when toggled on", "help\_text" : "Teaser images are used to help provide visual context to the post.", "default" : "false }"
+
+Blog field
+| Parameter | Type | Description | Default |
+| --- | --- | --- | --- |
+| 
+`default`
+
+ | Boolean | 
+
+Set's whether the default state of this field is `true` or `false`.
+
+ | `false` |
+| 
+
+`display`
+
+ | String | 
+
+Choose the visual display style for the field. Can appear as either a `toggle` or a `checkbox`.
+
+ | `checkbox` |
+
+A toggle switch can make sense when the value of the field enables/disables other fields conditionally being shown. Another time a toggle may be useful is when the field represents a major design change
+---
+
 Module and theme fields
 
 

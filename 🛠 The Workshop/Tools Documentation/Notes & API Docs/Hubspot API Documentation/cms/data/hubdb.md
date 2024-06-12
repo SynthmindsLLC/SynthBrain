@@ -1,3 +1,21 @@
+---
+title: "HubDB"
+tags:
+- "HubDB"
+- "Data Storage"
+- "Tables"
+- "CMS"
+- "HubSpot"
+relationships:
+- "#used_by [[Marketing Hub]]"
+- "#used_by [[Content Hub]]"
+- "#used_for [[Data Storage]]"
+- "#used_for [[CMS Page Building]]"
+- "#used_for [[Programmable Email]]"
+description: "A tool that allows you to create tables to store data in rows, columns, and cells, much like a spreadsheet."
+type: "tool"
+---
+
 HubDB
 
 

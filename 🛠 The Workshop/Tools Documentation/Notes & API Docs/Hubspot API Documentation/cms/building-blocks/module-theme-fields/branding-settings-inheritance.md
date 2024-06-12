@@ -1,3 +1,24 @@
+---
+title: "Brand Settings Inheritance"
+description: "With brand settings, users can set up the company's brand colors, logos, and favicons to be used across HubSpot content for consistent branding. Tokens are added within a theme's `fields.json` file or HTML/HubL and CSS files. Content creators can edit their values within the theme settings editor but cannot modify hardcoded tokens in page editors."
+type: "concept"
+tags:
+- "Branding"
+- "Customization"
+- "HTML"
+- "CSS"
+relationships:
+- "#related_to [[HubSpot]]"
+- "#used_by [[Content Creators]]"]]
+- "#enables [[Consistent Branding Across Content]]"]]"
+- "#part_of [[Brand Settings Inheritance]]"
+- "#has_part [[Tokens for Customization]]"
+- "#uses [[Colors]], [[Logos]], [[Favicons]]"
+- "#accessible_in [[HTML/HubL and CSS files]]"
+- "#requires [[brand\_settings.property_value_paths object]]"
+- "#has_fallback [[default property color or primary brand setting if no additional colors configured]]"
+---
+
 Brand settings inheritance
 
 

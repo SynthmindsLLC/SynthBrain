@@ -1,3 +1,17 @@
+---
+title: "Modules overview"
+description: "Understanding modules is key to understanding the HubSpot CMS and its power. Modules are reusable components that can be used in templates or added to pages through [drag and drop areas](/docs/cms/guides/creating-a-drag-and-drop-area) and [flexible columns](/docs/cms/hubl/tags#flexible-column). In addition to using the modules that HubSpot provides, developers can create their own modules for everything from testimonials to photo galleries. Modules are created [using the local development tools](/docs/cms/guides/getting-started-with-modules) or [using the Design Manager](https://knowledge.hubspot.com/cos-general/create-and-edit-modules). A module has two parts: 1. A user interface created through a list of fields that users will see when editing a module instance. 2. An HTML+HubL template fragment with associated CSS and JS that defines how HTML will be generated"
+type: "concept"
+tags:
+- "Modules"
+- "HubSpot CMS"
+- "Reusable Components"
+relationships:
+- "#part_of [[CMS]]"
+- "#used_for [[Templates]], [[Pages]]"
+last_updated: "2022-11-17"
+---
+
 Modules overview
 
 

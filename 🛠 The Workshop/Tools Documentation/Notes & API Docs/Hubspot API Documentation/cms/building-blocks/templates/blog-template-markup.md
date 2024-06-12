@@ -1,3 +1,23 @@
+---
+title: "Blog Template Markup"
+description: "The markup for the blog post and blog listing page templates, as well as information on blog variables and resources."
+type: "code"
+tags:
+- "Blog"
+- "HubSpot"
+- "CMS"
+relationships:
+- "#related_to [[Blog Posts]]"
+- "#related_to [[Blog Listing Pages]]"
+- "#related_to [[Blog Variables]]"
+- "#related_to [[CMS Boilerplate]]"
+- "#related_to [[HubSpot Themes]]"
+- "#related_to [[How to Create a Blog]]"
+- "#related_to [[Importing a Blog into HubSpot]]"
+language: "HTML"
+version: " "
+---
+
 Blog templates
 
 

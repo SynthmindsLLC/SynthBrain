@@ -1,3 +1,18 @@
+---
+title: "Blog Templates"
+description: "Documentation on how to use blog templates in HubSpot CMS."
+type: "concept"
+tags:
+- "Marketing"
+- "HubSpot"
+- "Content Management System"
+- "Blogging"
+relationships:
+- "#applies_to [[Marketing Hub]], [[Content Hub]]"
+- "#has_part [[Blog Listing Templates]], [[Blog Post Templates]], [[Blog Author Pages]], [[Blog Tag Pages]], [[Blog Simple Listing Pages]]"
+- "#part_of [[HubSpot CMS]]"
+---
+
 Blog templates
 
 

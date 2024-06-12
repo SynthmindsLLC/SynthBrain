@@ -1,3 +1,15 @@
+---
+title: "Module and theme fields"
+description: "Last updated: April 11, 2024. Add fields to modules and themes to allow content creators to control various aspects of a page within the page editor. Below, learn about all of the fields available for modules and themes, along with their available properties. For more information about implementing module and theme fields, including field groups and repeating fields, view the [module and theme fields overview](/docs/cms/building-blocks/module-theme-fields-overview)."
+type: "document"
+tags:
+- "Module"
+- "Theme"
+- "Fields"
+relationships:
+- "#related_to [[Page Editor]]"
+---
+
 Module and theme fields
 
 

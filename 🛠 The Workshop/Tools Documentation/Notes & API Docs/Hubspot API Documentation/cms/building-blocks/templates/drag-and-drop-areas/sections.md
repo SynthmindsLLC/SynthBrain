@@ -1,3 +1,20 @@
+---
+title: "Sections in Drag and Drop Areas"
+description: "Sections are the outermost container in a drag and drop area, and can contain modules, rows, columns, and other sections."
+type: "concept"
+tags:
+- "Drag and Drop Areas"
+- "Sections"
+- "Modules"
+- "Rows"
+- "Columns"
+relationships:
+- "#part_of [[Drag and Drop Areas]]"
+- "#contains [[Modules]]"
+- "#contains [[Rows]]"
+- "#contains [[Columns]]"
+---
+
 Sections
 
 

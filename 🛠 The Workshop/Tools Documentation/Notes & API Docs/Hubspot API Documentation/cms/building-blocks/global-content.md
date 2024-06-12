@@ -1,3 +1,18 @@
+---
+title: "Global Content in HubSpot CMS"
+description: "Shared content across portions of a website, such as headers, footers, and sidebars. Developers specify global components using partials or modules for easy editing and previewing changes. Learn more about [global content](https://knowledge.hubspot.com/cms-general/use-global-content-across-multiple-templates)."
+type: "concept"
+tags:
+- "HubSpot"
+- "CMS"
+- "Global Content"
+relationships:
+- "#related_to [[Website Templates]]"
+- "#used_for [[Headers]], [[Footers]], [[Sidebars]]"
+- "#part_of [[Content Management System]]"
+last_updated: "2023-01-10"
+---
+
 Global content
 
 

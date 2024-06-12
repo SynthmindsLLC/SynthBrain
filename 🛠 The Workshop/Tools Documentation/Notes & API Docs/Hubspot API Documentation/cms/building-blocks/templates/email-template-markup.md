@@ -1,3 +1,18 @@
+---
+title: "HubSpot Email Template Markup"
+description: "Standards and markup for HubSpot email templates"
+tags:
+- "HubSpot"
+- "Email_Template"
+- "Layout"
+- "Variables"
+relationships:
+- "#related_to [[Email Marketing]]"
+- "#developed_by [[HubSpot]]"
+- "#influenced [[HTML]]"
+- "#influenced [[CSS]]"
+---
+
 Email template markup
 
 

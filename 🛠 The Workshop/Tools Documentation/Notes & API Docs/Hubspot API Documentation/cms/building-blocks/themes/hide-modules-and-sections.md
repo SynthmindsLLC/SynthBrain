@@ -1,3 +1,19 @@
+---
+title: "Hide Modules and Sections"
+description: "Overview of module and section visibility settings in HubSpot themes and templates."
+type: "concept"
+tags:
+- "Themes"
+- "Templates"
+- "Modules"
+- "Sections"
+- "Content_Management"
+relationships:
+- "#applies_to [[Themes]], [[Templates]]"
+- "#related_to [[Content_Editing]]"
+- "#prevents [[Users]] from accessing certain [[Modules]] and [[Sections]]"
+---
+
 Hide modules and sections from the editor
 
 

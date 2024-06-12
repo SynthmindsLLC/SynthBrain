@@ -1,3 +1,20 @@
+---
+title: "Child Themes"
+description: "Child themes are copies of parent themes that allow for customization without altering the parent theme."
+type: "concept"
+tags:
+- "Themes"
+- "HubSpot"
+- "Design"
+- "Developers"
+relationships:
+- "#part_of [[Design Manager]]"
+- "#enables [[Customization of Themes]]"
+- "#prevents [[Alteration of Parent Themes]]"
+- "#differs_from [[Cloning Themes]]"
+- "#related_to [[Theme Settings]]"
+---
+
 Child Themes
 
 

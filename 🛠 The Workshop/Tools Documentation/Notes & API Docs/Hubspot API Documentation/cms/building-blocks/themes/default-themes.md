@@ -1,3 +1,19 @@
+---
+title: "HubSpot Default Themes"
+description: "Overview of HubSpot's default themes, including industry, features, and download instructions."
+type: "concept"
+tags:
+- "Themes"
+- "CMS"
+- "HubSpot"
+- "Default"
+relationships:
+- "#related_to [[HubSpot CMS Boilerplate]]"
+- "#part_of [[HubSpot]]"
+- "#includes [[Growth Theme]], [[Barricade Theme]], [[Education Theme]], [[Martech Theme]], [[Rally Theme]], [[Session Theme]], [[Sprout Theme]], [[Vitality Theme]]"
+last_updated: "2023-01-17"
+---
+
 Default themes
 
 

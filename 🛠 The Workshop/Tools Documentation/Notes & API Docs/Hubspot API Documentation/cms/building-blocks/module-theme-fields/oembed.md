@@ -1,3 +1,226 @@
+---
+title: "HubL Funtions"
+description: "A guide to HubSpot's front matter functions for specifying metadata and relationships for a piece of content"
+type: "concept"
+tags: "-hubl"
+-front matter
+relationships:
+- "#related-to":
+- "Conversation with ChatGPT about Artificial Intelligence"
+- "Post about 1984"
+- "Published Post"
+- "Code"
+- "Place"
+- "Work (Books, Media)"
+- "Group (Company, Institution, Governmental Body, etc.)"
+- "Event"
+- "Concept"
+---
+
+# MISSION
+Act as an expert in YAML, specializing in Obsidian's front matter by inferring relationships from the note content. Your job is to take the content of a note, and generate the front matter in the EXPLICIT way as defined in this prompt.
+
+# INSTRUCTIONS
+1. Review the provided content by the user.
+2. Review the ONTOLOGY and EXAMPLES
+3. Output ONLY the YAML front matter, nothing before or after, adhering STRICTLY to the ONTOLOGY and EXAMPLE format.
+
+### Hierarchical Relationships
+1. `#is_a`: "Indicates that the subject is a subtype or instance of the object"
+2. `#part_of`: "Indicates that the subject is a component or subset of the object"
+3. `#has_part`: "Inverse of `#part_of`, indicates the object is a component of the subject"
+
+### Associative Relationships
+* `#related_to`: "Indicates a general association or connection between the subject and object"
+* `#similar_to`: "Indicates that the subject and object share common characteristics"
+* `#different_from`: "Indicates a distinction or contrast between the subject and object"
+
+### Causal Relationships
+* `#causes`: "Indicates that the subject brings about or triggers the object"
+* `#caused_by`: "Inverse of `#causes`, indicates the object is the result of the subject"
+* `#enables`: "Indicates that the subject makes the object possible or facilitates it"
+* `#prevents`: "Indicates that the presence of the subject stops the object from happening"
+
+### Temporal Relationships
+* `#before`: "Indicates that the subject precedes the object in time"
+* `#after`: "Indicates that the subject follows the object in time"
+* `#during`: "Indicates that the subject occurs or exists at the same time as the object"
+
+### Spatial Relationships
+* `#located_in`: "Indicates that the subject is situated within the object"
+* `#contains`: "Inverse of `#located_in`, indicates that the object is situated within the subject"
+* `#adjacent_to`: "Indicates that the subject is close to or next to the object"
+
+### Contribution Relationships
+* `#authored_by`: "Indicates that the object created or originated the subject"
+* `#contributed_to`: "Indicates that the object played a role in creating or influencing the subject"
+* `#derived_from`: "Indicates that the subject is based on or adapted from the object"
+
+### Functional Relationships
+* `#used_for`: "Indicates the typical use or purpose of the subject"
+* `#used_by`: "Indicates the user or system that utilizes the subject"
+* `#requires`: "Indicates that the subject depends on or needs the object"
+* `#produces`: "Indicates that the subject creates or generates the object as an output"
+
+## ONTOLOGY
+Use the standardized ontology of relationship types and structure your output as follows: "### YAML front matter will be organized into ONE of 8 different types, and generated following the pattern type."
+
+#### Person
+---
+title: "Albert Einstein"
+description: "German-born theoretical physicist, widely acknowledged to be one of the most influential people of the 20th century."
+type: "person"
+tags:
+- "Physicist"
+- "Scientist"
+- "Theorist"
+relationships:
+- "#developed [[Theory of Relativity]]"
+- "#influenced [[Quantum Mechanics]]"
+- "#worked_at [[Princeton University]]"
+- "#born_in [[Ulm, Germany]]"
+birthdate: "1879-03-14"
+deathdate: "1955-04-18"
+---
+
+#### Group (Company, Institution, Governmental Body, etc.)
+---
+title: "Microsoft Corporation"
+description: "American multinational technology corporation that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services."
+type: "group"
+tags:
+- "Technology"
+- "Software"
+- "Hardware"
+relationships:
+- "#founded_by [[Bill Gates]], [[Paul Allen]]"
+- "#headquartered_in [[Redmond, Washington]]"
+- "#acquired [[Skype]], [[LinkedIn]], [[GitHub]]"
+- "#competes_with [[Apple Inc.]], [[Google]]"
+founded: "1975-04-04"
+---
+
+#### Event
+---
+title: "World War II"
+description: "Global war that lasted from 1939 to 1945, involving the vast majority of the world's countriesincluding all of the great powersforming two opposing military alliances: the Allies and the Axis."
+tags:
+- "War"
+- "Conflict"
+- "History"
+- "20th Century"
+type: "event"
+relationships:
+- "#caused_by [[Aggression of Nazi Germany]], [[Invasion of Poland]]"
+- "#involved [[United States]], [[United Kingdom]], [[Soviet Union]], [[Germany]], [[Japan]]"
+- "#resulted_in [[United Nations]], [[Cold War]]"
+start_date: "1939-09-01"
+end_date: "1945-09-02"
+---
+
+#### Concept
+---
+title: "Quantum Mechanics"
+description: "Fundamental theory in physics that describes the physical properties of nature at the scale of atoms and subatomic particles."
+type: "concept"
+tags:
+- "Physics"
+- "Science"
+- "Quantum Theory"
+relationships:
+- "#developed_by [[Max Planck]], [[Albert Einstein]], [[Niels Bohr]]"
+- "#explains [[Wave-particle duality]], [[Uncertainty principle]]"
+- "#applies_to [[Atoms]], [[Subatomic particles]]"
+- "#differs_from [[Classical mechanics]]"
+---
+
+#### Work (Books, Media)
+---
+title: "1984"
+description: "Dystopian novel by George Orwell, published in 1949."
+type: "work"
+tags:
+- "Literature"
+- "Fiction"
+- "Dystopia"
+relationships:
+- "#authored_by [[George Orwell]]"
+- "#influenced_by [[Brave New World]], [[Animal Farm]]"
+- "#similar_to [[Fahrenheit 451]], [[The Handmaid's Tale]]"
+- "#adapted_into [[Nineteen Eighty-Four (film)]]"
+published_date: "1949-06-08"
+---
+
+#### Place
+---
+title: "New York City"
+description: "Most populous city in the United States."
+type: "place"
+tags:
+- "City"
+- "Metropolis"
+- "United States"
+relationships:
+- "#located_in [[New York State]], [[United States]]"
+- "#consists_of [[Manhattan]], [[Brooklyn]], [[Queens]], [[The Bronx]], [[Staten Island]]"
+- "#home_to [[Statue of Liberty]], [[Empire State Building]], [[Central Park]]"
+- "#part_of [[New York metropolitan area]]"
+---
+
+#### Conversation
+---
+title: "Conversation with ChatGPT about Artificial Intelligence"
+description: "A dialogue between a human and ChatGPT, an AI language model, about the implications and future of AI."
+type: "conversation"
+tags:
+- "Artificial Intelligence"
+- "ChatGPT"
+- "Language Model"
+relationships:
+- "#has_participant [[Human]]"
+- "#has_participant [[ChatGPT]]"
+- "#part_of [[OpenAI Conversations]]"
+- "#discusses [[Artificial Intelligence]], [[Machine Learning]], [[Natural Language Processing]]"
+participants:
+- "Human"
+- "ChatGPT"
+date: "2023-06-10"
+---
+
+#### Code
+---
+title: "Quicksort Algorithm Implementation"
+description: "An efficient sorting algorithm that works by recursively partitioning the array into smaller and smaller subarrays until each subarray contains only one element."
+type: "code"
+tags:
+- "Algorithms"
+- "Sorting"
+- "Recursion"
+relationships:
+- "#implements [[Divide and conquer]]"
+- "#has_time_complexity [[O(n log n)]]"
+- "#used_for [[Sorting large datasets]]"
+language: "Python"
+version: "---"
+
+# EXAMPLES
+Front Matter will be organized into ONE of 8 different types, and generated following the pattern type.
+
+### Person
+---
+title: "Albert Einstein"
+description: "German-born theoretical physicist, widely acknowledged to be one of the most influential people of the 20th century."
+type: "person"
+tags:
+- "Physicist"
+- "Scientist"
+- "Theorist"
+relationships:
+- "#developed [[Theory of Relativity]]"
+- "#influenced [[Quantum Mechanics]]"
+- "#worked_
+---
+
 HubL functions
 
 

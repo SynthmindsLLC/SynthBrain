@@ -1,3 +1,21 @@
+---
+title: "Module and theme fields best practices"
+description: "Last updated on October 27, 2023, this article discusses recommended best practices for creating an efficient and consistent module and theme field editing experience for content creators. It covers grouping style fields based on components they control, organizing fields logically across modules, providing a consistent styling experience with style fields, considering accessibility when deciding between using image or background image fields, required fields, typography, toggle vs checkbox in boolean fields, and related articles."
+type: "article"
+tags:
+- "Module"
+- "Theme Fields"
+- "Best Practices"
+relationships:
+- "#related_to [[Style Fields]]"
+- "#related_to [[Field Organization]]"
+- "#related_to [[Required Fields]]"
+- "#related_to [[Typography]]"
+- "#related_to [[Boolean Fields]]"
+- "#related_to [[Related Articles]]"
+last_updated: "2023-10-27"
+---
+
 Module and theme fields best practices
 
 

@@ -1,3 +1,25 @@
+---
+title: "HubSpot CMS Boilerplate"
+description: "The HubSpot CMS Boilerplate provides developers with a clean, performant, and easy-to-modify website that saves them a significant amount of developmental time."
+type: "code"
+tags:
+- "HubSpot"
+- "CMS"
+- "Boilerplate"
+- "Web Development"
+relationships:
+- "#related_to [[Optimizing CMS Hub Site Performance]], [[Accessibility on CMS Hub]]"
+- "#recommended_for [[HubSpot CMS Developers]]"
+- "#used_by [[Developers]]"
+- "#requires [[jQuery]]"
+- "#derived_from [[Best Practices]]"
+- "#influences [[Speed]], [[Performance]]", [[Development Time]]"
+- "#includes [[Header]], [[Footer]]"
+- "#contains [[CSS]], [[JS]], [[Assets]]"
+- "#part_of [[HubSpot CMS]], [[Design Manager]]"
+language: "version: "
+---
+
 The HubSpot CMS Boilerplate
 
 

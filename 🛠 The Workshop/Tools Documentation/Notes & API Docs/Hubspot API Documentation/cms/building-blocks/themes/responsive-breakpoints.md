@@ -1,3 +1,19 @@
+---
+title: "Responsive Breakpoints for Themes"
+description: "Set responsive breakpoints for themes to optimize styling for mobile and desktop using HubL in dnd\_area tags."
+type: "concept"
+tags:
+- "Web_Design"
+- "Themes"
+- "HubSpot"
+relationships:
+- "#part_of [[HubSpot CMS]]"
+- "#applies_to [[Drag and Drop Areas]]"
+- "#uses [[HubL]]"
+- "#prevents [[Non-Responsive Websites]]"
+- "#enables [[Responsive Styling]]"
+---
+
 Set responsive breakpoints for themes
 
 

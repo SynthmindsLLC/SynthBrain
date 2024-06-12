@@ -1,3 +1,19 @@
+---
+title: "Blog Template Documentation"
+description: "Guide for using HubSpot's blog templates."
+type: "concept"
+tags:
+- "HubSpot"
+- "Marketing"
+- "Content Management"
+relationships:
+- "#part_of [[HubSpot Documentation]]"
+- "#explains [[HubSpot Blog Templates]]"
+- "#used_by [[Blog Creators]]"
+- "#related_to [[Content Strategy]]"
+published_date: "2022-11-18"
+---
+
 Blog templates
 
 
