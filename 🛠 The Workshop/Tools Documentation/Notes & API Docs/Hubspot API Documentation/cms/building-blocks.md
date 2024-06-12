@@ -11,6 +11,10 @@ relationships:
 - "#used_for [[Content Creation]]"
 - "#related_to [[Marketing Automation]]"
 - "#enables [[Efficient Website Management]]"
+- "#includes [[Themes]], [[Templates]], [[Modules]], [[Fields]], [[Global Content]], [[Menus]], [[Forms]], [[Website Settings]]"
+- "#provides [[Design System]]"
+- "#allows [[Content Creators]] to create and manage websites]]"
+- "#depends_on [[HubSpot CMS]]"
 ---
 
 CMS building blocks overview

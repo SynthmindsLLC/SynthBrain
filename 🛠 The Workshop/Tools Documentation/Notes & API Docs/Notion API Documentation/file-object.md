@@ -1,3 +1,13 @@
+---
+Please provide me with the context or topic for the mission so I can help you write it. 
+
+For example, tell me: "* **What is the mission about?** (e.g., saving the environment, building a spaceship, finding a cure for a disease)"
+* **Who is the mission for?** (e.g., a team of scientists, a group of adventurers, a company)
+* **What are the goals of the mission?** (e.g., to clean up a polluted river, to reach Mars, to develop a new drug)
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

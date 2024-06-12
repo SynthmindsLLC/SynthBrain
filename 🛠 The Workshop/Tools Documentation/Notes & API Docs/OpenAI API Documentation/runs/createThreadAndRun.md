@@ -1,3 +1,13 @@
+---
+Please provide me with more information! I need to know what the mission is about in order to complete your request. 
+
+For example, tell me: "* **What is the mission for?** (e.g., a company, a project, a team, a personal goal)"
+* **What is the overall goal of the mission?** (e.g., to improve customer satisfaction, to achieve a specific outcome, to make a difference in the world)
+* **What are the key objectives of the mission?** (e.g., increase sales, develop new technology, raise awareness)
+
+Once you provide me with this information, I can help you write a compelling and impactful mission statement.
+---
+
 [
 
 Introduction

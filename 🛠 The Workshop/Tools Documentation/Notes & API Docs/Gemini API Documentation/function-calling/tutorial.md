@@ -1,3 +1,14 @@
+---
+Please provide me with the context or the specific mission you want me to write about.  
+
+For example, tell me: "* **What kind of mission is it?** (e.g., a company mission, a personal mission, a mission for a project, a mission for a team)"
+* **What is the purpose or goal of the mission?** 
+* **What are the key values or principles that guide the mission?** 
+* **Who is the target audience for the mission statement?**
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 *   이 페이지의 내용
 *   [설정](#setup)
     *   [Python SDK 설치](#install_the_python_sdk)

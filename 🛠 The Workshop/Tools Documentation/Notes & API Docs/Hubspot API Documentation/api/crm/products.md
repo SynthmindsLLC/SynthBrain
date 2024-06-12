@@ -7,8 +7,10 @@ tags:
 - "HubSpot"
 - "Products"
 relationships:
-- "#part_of [[Sales]]"]]
-- "#related_to [[Deals]]", "Quotes"]]"
+- "#part_of [[Sales]]"
+- "#related_to [[Deals]]"
+- "#related_to [[Quotes]]"
+- "#used_by [[Sales Reps]]"
 ---
 
 Products

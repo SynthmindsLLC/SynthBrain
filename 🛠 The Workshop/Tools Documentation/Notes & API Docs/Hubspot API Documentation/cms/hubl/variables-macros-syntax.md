@@ -1,3 +1,11 @@
+---
+Please provide me with the rest of the mission statement so I can understand what you need help with. For example, you could give me: "* **The context:** What organization, project, or initiative is this mission for?"
+* **A starting point: "** What have you already written or thought about for the mission?"
+* **Desired tone and style: "** Do you want it to be formal or informal, inspiring or practical, etc.?"
+
+Once I have this information, I can help you craft a compelling mission statement that effectively conveys your goals and purpose.
+---
+
 HubL variables & macros syntax
 
 

@@ -1,16 +1,12 @@
 ---
-title: "Public Apps in HubSpot"
-description: "A type of integration that can be installed on customer accounts or listed on the App Marketplace, requiring authentication via OAuth."
-type: "group"
-tags:
-- "HubSpot"
-- "Integration"
-- "OAuth Authentication"
-relationships:
-- "#part_of [[HubSpot]]"
-- "#requires [[Authentication]]"]]
-- "#enables [[API Calls]]"
-founded: "N/A"
+Please provide me with more context! I need to know what the mission is about before I can help you write it. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal?"
+* **What are the goals and objectives?** What are you trying to achieve?
+* **Who is the target audience?** Who are you trying to reach with this mission?
+* **What are the values and principles?** What are the guiding beliefs behind the mission?
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
 ---
 
 Public apps

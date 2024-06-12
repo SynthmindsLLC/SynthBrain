@@ -1,16 +1,12 @@
 ---
-title: "Client Libraries"
-description: "Client libraries are designed to help you interact with the HubSpot APIs with less friction, written in several different languages and adding value by utility functions like rate limiting. They bridge the gap between your application and HubSpots APIs."
-type: "group"
-tags:
-- "HubSpot"
-- "APIs"
-- "Client Libraries"
-relationships:
-- "#developed_by [[HubSpot]]"
-- "#uses [[Open API code generator]]"
-- "#includes [[Node.js]], [[PHP]], [[Ruby]], [[Python]]"
-founded: "2016-05-01 # Assuming the libraries were developed around this time, as no specific date is provided in the content."
+Please provide me with the context or details about the mission you want to describe. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a space exploration mission, a humanitarian project, a business goal)"
+* **Who is involved?** (e.g., a team of astronauts, a non-profit organization, a company)
+* **What is the objective?** (e.g., to explore Mars, to provide aid to refugees, to increase sales)
+* **What are the challenges?** (e.g., technical difficulties, political obstacles, economic constraints)
+
+Once I have this information, I can help you write a compelling and informative mission statement.
 ---
 
 Client Libraries[](https://developers.hubspot.com/docs/api/client-libraries#client-libraries)

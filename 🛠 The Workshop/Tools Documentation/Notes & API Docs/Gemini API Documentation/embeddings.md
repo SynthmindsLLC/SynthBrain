@@ -1,3 +1,13 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal?"
+* **What is the overall goal of the mission?** What do you want to achieve?
+* **What are the key elements or values of the mission?** What are the principles that guide it?
+
+Once I have this information, I can help you write a strong and compelling mission statement.
+---
+
 *   이 페이지의 내용
 *   [임베딩이란 무엇인가요?](#what-are-embeddings)
 *   [사용 사례](#use-cases)

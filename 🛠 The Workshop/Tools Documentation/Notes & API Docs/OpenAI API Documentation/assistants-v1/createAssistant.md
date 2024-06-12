@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the prompt! I need more context to understand what you want to achieve with this mission. 
+
+For example, tell me: "* **What is the mission about?** (e.g., saving the environment, exploring a new planet, creating a better world)"
+* **Who is involved?** (e.g., a team of scientists, a group of adventurers, a community)
+* **What are the goals?** (e.g., to develop a sustainable energy source, to find a new life form, to build a more equitable society)
+
+Once I have this information, I can help you write a compelling and impactful mission statement.
+---
+
 [
 
 Introduction

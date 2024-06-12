@@ -1,3 +1,14 @@
+---
+Please provide me with more information about what you'd like to include in your mission statement. I need context to help you craft a compelling and impactful mission. 
+
+Tell me: "* **What is the purpose of your mission?**  Is it for a company, organization, project, or personal goal?"
+* **What is the main objective?** What do you aim to achieve?
+* **Who are you serving?** Who will benefit from your mission?
+* **What are your core values?** What principles guide your actions? 
+
+The more details you provide, the better I can assist you in creating a meaningful mission statement.
+---
+
 *   On this page
 *   [Set up your project](#set-up-project)
     *   [Set up and secure your API key](#set-up-secure-api-key)

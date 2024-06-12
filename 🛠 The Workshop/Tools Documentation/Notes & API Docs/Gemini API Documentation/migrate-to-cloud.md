@@ -1,3 +1,14 @@
+---
+Please provide me with more context!  I need to know what kind of mission you're writing about in order to help you complete it. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal?)"
+* **What are the key objectives?** (What do you want to achieve?)
+* **Who is the target audience?** (Who is this mission for?)
+* **What are the values that guide this mission?** 
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 *   이 페이지의 내용
 *   [Google AI 기반 Gemini에서 Vertex AI로 이전](#migrate-gemini)
     *   [Python: Google AI Gemini API에서 Vertex AI Gemini API로 마이그레이션](#python-migrate)

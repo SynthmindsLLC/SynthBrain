@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you write it. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a person, a team, etc.)"
+* **What are the goals of this mission?** (What do you want to achieve?)
+* **What are the values that guide this mission?** (What principles are important?)
+* **Who is the target audience for this mission statement?** (Who are you trying to reach?)
+
+Once I have this information, I can help you write a compelling and effective mission statement!
+---
+
 Build dynamic pages using HubDB
 
 

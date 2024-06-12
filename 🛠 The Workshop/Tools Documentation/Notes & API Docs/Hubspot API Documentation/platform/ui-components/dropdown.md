@@ -1,3 +1,11 @@
+---
+Please provide me with more information!  To write a mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal?"
+* **What are the key values and goals?** What are you trying to achieve?
+* **Who is your target audience?** Who are you trying to reach with this mission?
+
+Once you provide me with these details, I can help you craft a compelling mission statement!
+---
+
 Dropdown | UI components (BETA)
 ===============================
 

@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  "Mission" is a broad term. To help me understand what you're looking for, tell me: "* **What kind of mission are you writing about?** Is it for a company, a project, a team, a personal goal? "
+* **What is the purpose of this mission statement?**  Is it to inspire, to guide, to inform? 
+* **What are the key objectives or values you want to emphasize?**
+
+Once I have a better understanding of your needs, I can help you craft a compelling and impactful mission statement.
+---
+
 SSO for Memberships
 
 

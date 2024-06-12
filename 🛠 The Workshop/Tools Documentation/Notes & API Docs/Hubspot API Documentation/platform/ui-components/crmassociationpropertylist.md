@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what your mission is about in order to help you write it. 
+
+For example, tell me: "* **What is the purpose of your mission?**  Is it for a company, a project, a personal goal?"
+* **What are the key objectives you want to achieve?**
+* **Who is your target audience?** 
+* **What values or principles guide your mission?** 
+
+Once I understand your goals, I can help you craft a clear, compelling, and impactful mission statement.
+---
+
 CrmAssociationPropertyList | UI components (BETA)
 =================================================
 

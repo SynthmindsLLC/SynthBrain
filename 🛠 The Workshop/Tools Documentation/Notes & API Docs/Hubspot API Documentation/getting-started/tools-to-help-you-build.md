@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement. I need the actual content to help you complete it. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a non-profit, or something else?"
+* **What are the main goals or objectives?** What does the entity want to achieve? 
+* **What is the target audience?** Who are you trying to reach? 
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 Tools to help you build
 =======================
 

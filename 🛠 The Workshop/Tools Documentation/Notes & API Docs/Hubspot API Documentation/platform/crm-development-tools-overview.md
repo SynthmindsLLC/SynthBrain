@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about to be able to help you. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal, or something else?"
+* **What are the goals of the mission?** What do you want to achieve?
+* **What are the challenges you face?** What obstacles do you need to overcome? 
+* **What is the intended audience for the mission statement?** Who are you trying to reach with it?
+
+Once I have more information, I can help you craft a compelling and effective mission statement.
+---
+
 CRM development tools overview (BETA)
 =====================================
 

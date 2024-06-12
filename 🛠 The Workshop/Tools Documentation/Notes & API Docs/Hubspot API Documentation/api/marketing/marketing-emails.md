@@ -1,5 +1,5 @@
 ---
-title: "Marketing Email API Overview"
+title: "Marketing Email API"
 description: "Programmatically create, update, and get details about marketing emails using the Marketing Emails API. Query post-send statistics of a specific email or set of emails. Excludes sales emails created via contact record. Transactional emails use Single-send API. Requires _Marketing Hub_ Professional or Enterprise account for `/publish` and `/unpublish` endpoints."
 type: "group"
 tags:
@@ -9,7 +9,10 @@ tags:
 relationships:
 - "#related_to [[Single-send API]]"
 - "#requires [[Marketing Hub Professional or Enterprise account]]"
-founded: "N/A"
+- "#part_of [[Marketing Hub]]"
+- "#used_for [[Creating Marketing Emails]], [[Updating Marketing Emails]], [[Retrieving Marketing Email Details]], [[Querying Post-send Statistics]]"
+- "#used_by [[Developers]]"
+- "#different_from [[Engagements API]]"
 ---
 
 .interest-form { padding: 1em; display: none; height: 100%; } .interest-text { padding: 1em; } .hs-form>fieldset { max-width: 100% !important; }

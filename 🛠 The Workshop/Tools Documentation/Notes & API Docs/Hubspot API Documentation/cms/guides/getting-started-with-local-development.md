@@ -1,3 +1,14 @@
+---
+Please provide me with more information! I need to know what your mission is about in order to help you. 
+
+For example, tell me: "* **What is the purpose of the mission?**  What are you trying to achieve?"
+* **Who is involved?**  Who is this mission for?
+* **What are the key goals?**  What are the specific things you want to accomplish?
+* **What is the timeline?**  When does this mission take place?
+
+Once I have a better understanding of your mission, I can help you write a compelling and informative mission statement.
+---
+
 Getting started with local development
 
 

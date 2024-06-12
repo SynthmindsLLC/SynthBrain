@@ -1,3 +1,14 @@
+---
+Please provide me with the context or the specific mission you'd like to write about. 
+
+For example, tell me: "* **What is the mission about?**  Is it a personal mission, a business mission, a scientific mission, etc.?"
+* **What is the goal of the mission?** What do you hope to achieve?
+* **Who is involved in the mission?**  Is it a solo endeavor or a team effort?
+* **What are the key challenges or obstacles you face?**
+
+The more information you give me, the better I can help you craft a compelling and impactful mission statement.
+---
+
 CrmDataHighlight | UI components (BETA)
 =======================================
 

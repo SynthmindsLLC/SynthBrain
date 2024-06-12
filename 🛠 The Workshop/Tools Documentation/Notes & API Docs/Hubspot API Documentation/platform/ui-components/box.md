@@ -1,3 +1,13 @@
+---
+Please provide me with more information! I need to know what kind of mission you're writing about.  
+
+For example, tell me: "* **What is the mission about?** Is it a personal mission, a mission for a company, a mission for a fictional character, a mission for a project?"
+* **What is the goal of the mission?** What are you trying to achieve?
+* **What are the key elements of the mission?** What are the important details that need to be included? 
+
+Once I have this information, I can help you write a compelling and effective mission statement!
+---
+
 Box | UI components (BETA)
 ==========================
 

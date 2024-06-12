@@ -9,6 +9,9 @@ tags:
 relationships:
 - "#part_of [[HubSpot]]"
 - "#related_to [[WhatsApp]], [[LinkedIn]], [[SMS Messages]]"
+- "#used_for [[CRM Record Timeline]]"
+- "#used_by [[HubSpot Users]]"
+- "#requires [[API Endpoints]]"
 founded: "N/A"
 ---
 

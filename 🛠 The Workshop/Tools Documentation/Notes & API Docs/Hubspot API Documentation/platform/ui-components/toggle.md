@@ -1,3 +1,13 @@
+---
+Please provide me with more information! I need to know what the mission is about.  
+
+For example, tell me: "* **What is the context of the mission?**  Is it a personal mission, a business mission, a mission for a school project, etc.? "
+* **What is the goal of the mission?**  What are you trying to achieve?
+* **What are the specific objectives of the mission?**  What steps need to be taken to reach the goal?
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 Toggle | UI components (BETA)
 =============================
 

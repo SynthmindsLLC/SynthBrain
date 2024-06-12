@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, a video game, a book, etc.? "
+* **What is the overall objective?** What are you trying to achieve? 
+* **What are the key elements?** What are the important components of the mission?
+
+Once you provide me with more information, I can help you write a compelling and effective mission statement.
+---
+
 How to add videos to dynamic pages in HubDB
 
 

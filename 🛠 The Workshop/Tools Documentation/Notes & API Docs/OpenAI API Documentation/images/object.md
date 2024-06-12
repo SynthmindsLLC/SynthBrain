@@ -1,3 +1,14 @@
+---
+Please provide me with the context or details of the mission so I can help you complete it. 
+
+For example, tell me: "* **What is the mission about?** (e.g., saving the world, finding a treasure, completing a task, etc.)"
+* **Who is involved in the mission?** (e.g., a team, a single person, a group of animals, etc.)
+* **What are the objectives of the mission?** (e.g.,  stop a villain, reach a destination, gather information, etc.)
+* **What are the challenges or obstacles?** (e.g., enemies, dangerous environments, time constraints, etc.)
+
+Once you give me this information, I can help you write a compelling and informative mission statement.
+---
+
 [
 
 Introduction

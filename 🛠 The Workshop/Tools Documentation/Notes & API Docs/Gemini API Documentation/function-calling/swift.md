@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what kind of mission you are writing about in order to help you. 
+
+For example: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal?"
+* **What is the overall objective?**  What do you want to achieve? 
+* **What are the values or principles that guide the mission?** 
+* **What are the target audiences?** Who are you trying to reach with this mission? 
+
+Once you give me more information, I can help you craft a powerful and compelling mission statement.
+---
+
 *   On this page
 *   [Set up your project](#set-up-project)
     *   [Set up and secure your API key](#set-up-secure-api-key)

@@ -15,10 +15,6 @@ relationships:
 - "#contains [[Unsubscribe Contact Endpoint]]"
 - "#contains [[Get Subscription Types Endpoint]]"
 - "#part_of [[HubSpot API Documentation]]"
-feedback:
-- "Was this article helpful? Yes No"
-- "Please describe your feedback."
-- "Allow HubSpot to contact me about my documentation feedback. Email address"
 ---
 
 Subscription preferences

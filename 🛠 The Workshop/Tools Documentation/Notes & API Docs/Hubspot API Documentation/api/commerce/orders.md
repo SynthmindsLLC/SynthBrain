@@ -9,6 +9,7 @@ tags:
 relationships:
 - "#used_for [[Synchronizing Ecommerce Data]]"
 - "#related_to [[Shopify]], [[NetSuite]]"
+- "#part_of [[HubSpot API]]"
 createdAt: "2023-01-01T00:00:00.000Z"
 updatedAt: "2023-04-01T00:00:00.000Z"
 ---

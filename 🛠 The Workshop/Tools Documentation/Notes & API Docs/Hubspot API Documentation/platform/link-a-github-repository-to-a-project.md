@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe. I need context to create a compelling mission statement. 
+
+For example, tell me: "* **What is the purpose of the mission?** What are you trying to achieve?"
+* **Who is the target audience?** Who will benefit from this mission?
+* **What are the key values and principles that guide the mission?** 
+* **What are some specific goals or objectives within the mission?**
+
+The more information you give me, the better I can help you craft a strong and effective mission statement.
+---
+
 Link a GitHub repository to a project (BETA)
 ============================================
 

@@ -1,3 +1,13 @@
+---
+Please provide me with the context or details of the mission you'd like me to help you with. For example, tell me: "* **What is the mission about?** (e.g., a space mission, a business mission, a personal mission)"
+* **What are the goals of the mission?** 
+* **Who is involved in the mission?** 
+* **What are the challenges of the mission?**
+* **What kind of help do you need?** (e.g., brainstorming ideas, writing a mission statement, developing a plan)
+
+Once I have this information, I can help you with your mission in a meaningful way.
+---
+
 [
 
 Introduction

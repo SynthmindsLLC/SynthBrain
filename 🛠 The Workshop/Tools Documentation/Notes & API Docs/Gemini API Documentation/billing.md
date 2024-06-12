@@ -1,3 +1,14 @@
+---
+Please provide me with more context!  I need to know what kind of mission you're writing about in order to help you write it. 
+
+For example: "* **What is the mission for?** Is it for a company, a non-profit organization, a team, or something else?"
+* **What is the purpose of the mission?** What are the goals and objectives you want to achieve? 
+* **What are the key values and principles that will guide the mission?** 
+* **What is the target audience for the mission?** Who are you trying to reach with this statement? 
+
+Once I have a better understanding of the context, I can offer you suggestions for writing a powerful and effective mission statement.
+---
+
 *   이 페이지의 내용
 *   [어떤 경우에 비용이 청구되나요?](#what-am-i-billed-for)
 *   [할당량은 어디에서 확인할 수 있나요?](#where-can-i-view-my-quota)

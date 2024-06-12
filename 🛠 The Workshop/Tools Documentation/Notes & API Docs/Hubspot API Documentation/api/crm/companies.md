@@ -8,8 +8,8 @@ tags:
 - "Companies"
 relationships:
 - "#founded_by [[HubSpot]]"
-- "#located_in [[United States]]"]]
-created_date: "YYYY-MM-DD # Replace with actual creation date if available"
+- "#located_in [[United States]]"
+created_date: "YYYY-MM-DD"
 ---
 
 Companies 

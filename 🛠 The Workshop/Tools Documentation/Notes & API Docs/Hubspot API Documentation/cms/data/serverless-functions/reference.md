@@ -1,3 +1,13 @@
+---
+Please provide me with the context or topic for the mission!  
+
+For example, tell me: "* **What is the mission about?** (e.g., a space exploration mission, a community service project, a business venture) "
+* **Who is involved?** (e.g., a team of astronauts, a group of volunteers, a company)
+* **What is the goal?** (e.g., to explore Mars, to help the homeless, to become the leading provider of sustainable energy) 
+
+Once I have this information, I can help you craft a compelling and impactful mission statement!
+---
+
 Serverless functions reference
 
 

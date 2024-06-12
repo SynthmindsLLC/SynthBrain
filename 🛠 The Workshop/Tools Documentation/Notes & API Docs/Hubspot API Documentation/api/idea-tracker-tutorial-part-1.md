@@ -4,7 +4,7 @@ description: "This tutorial will show you how to connect a custom app to the Hub
 type: "work"
 tags:
 - "HubSpot"
-- "CRM Integration"
+- "CRM_Integration"
 - "APIs"
 - "OAuth2"
 relationships:

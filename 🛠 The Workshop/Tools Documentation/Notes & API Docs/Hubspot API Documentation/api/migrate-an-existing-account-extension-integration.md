@@ -17,7 +17,7 @@ relationships:
 - "#related_to [[Webhooks]]"
 - "#enables [[Invoice Data Display on CRM Card]]"
 - "#requires [[IFRAME action for View invoice PDF]]"
-founded: "2022-11-30"
+published_date: "2022-11-30"
 ---
 
 Migrate an existing Accounting Extension API integration

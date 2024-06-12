@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to write about. 
+
+To help me craft the best mission statement for you, tell me: "* **What is the overall goal or purpose of this mission?**  "
+* **Who is this mission for?**  (e.g., a company, a team, a project)
+* **What are the key values or principles that guide this mission?**
+* **What are the desired outcomes or achievements of this mission?** 
+
+The more context you provide, the more effective and impactful the mission statement will be.
+---
+
 [
 
 Introduction

@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about. 
+
+For example, tell me: "* **What is the subject of the mission?** Is it about a company, a project, a team, or something else?"
+* **What is the goal of the mission?** What are you trying to achieve?
+* **Who is the audience for this mission statement?** Who are you trying to reach with this statement?
+
+Once you provide me with this information, I can help you craft a compelling and effective mission statement.
+---
+
 HubSpot Template Marketplace module requirements
 
 

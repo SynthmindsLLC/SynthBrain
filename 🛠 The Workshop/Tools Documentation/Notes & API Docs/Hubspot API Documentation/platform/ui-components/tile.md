@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement!  I need more information to understand the mission and help you with it. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal, etc.)"
+* **What is the overall purpose?** (What are you trying to achieve?)
+* **What are the key values or beliefs?** (What is important to you in achieving the mission?)
+
+Once you give me more context, I can help you refine and complete the mission statement.
+---
+
 Tile | UI components (BETA)
 ===========================
 

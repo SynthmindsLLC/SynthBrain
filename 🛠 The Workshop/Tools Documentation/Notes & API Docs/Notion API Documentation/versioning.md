@@ -1,3 +1,12 @@
+---
+Please provide me with the context or details of the mission you'd like to create. For example, tell me: "* **What is the mission about?** (e.g., saving the world, finding a lost treasure, exploring space)"
+* **Who is involved?** (e.g., a team of heroes, a lone adventurer, a group of friends)
+* **What is the goal?** (e.g., defeating the evil villain, retrieving the artifact, reaching a new planet)
+* **What are the obstacles?** (e.g., dangerous creatures, treacherous terrain, betrayal)
+
+Once you give me more information, I can help you craft a compelling and engaging mission statement!
+---
+
 JUMP TOCTRL-/
 
 Notion API

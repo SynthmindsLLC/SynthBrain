@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to write about. I need to know what the mission is about in order to write it effectively. 
+
+For example, tell me: "* **What is the purpose of this mission?** (What are you trying to achieve?)"
+* **Who is involved?** (Who is this mission for?)
+* **What are the key objectives?** (What are the specific goals you want to reach?)
+* **What are the challenges?** (What obstacles will you need to overcome?)
+
+Once I have a better understanding of the mission, I can help you write a strong and compelling mission statement.
+---
+
 Debugging methods and error types
 
 

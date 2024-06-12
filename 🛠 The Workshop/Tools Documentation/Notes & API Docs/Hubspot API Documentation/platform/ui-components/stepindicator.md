@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're trying to describe. 
+
+For example, tell me: "* **What is the mission for?** Is it a company, a project, a personal goal?"
+* **What is the overall purpose?** What do you want to achieve?
+* **What are the key objectives?** What specific things need to be accomplished?
+
+Once I have this information, I can help you write a compelling and effective mission statement.
+---
+
 StepIndicator | UI components (BETA)
 ====================================
 

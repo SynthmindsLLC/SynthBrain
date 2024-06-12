@@ -3,17 +3,16 @@ title: "CMS Content Audit API"
 description: "Allows filtering and sorting content object changes by type, time period, or HubSpot user ID. Available in accounts with a _CMS Hub Enterprise_ subscription. Example use case: find out which user most recently made changes to a list of pages."
 type: "group"
 tags:
-- "Content Management System"
+- "Content_Management_System"
 - "API"
 - "HubSpot"
+- "Event_Type_Listing"
+- "Object_Type_Listing"
+- "API_Documentation"
 relationships:
 - "#founded_by [[HubSpot]]"
 - "#part_of [[CMS Hub Enterprise]]"
 - "#related_to [[Content Audit API]]"
-tags:
-- "Event Type Listing"
-- "Object Type Listing"
-- "API Documentation"
 founded: "N/A"
 ---
 

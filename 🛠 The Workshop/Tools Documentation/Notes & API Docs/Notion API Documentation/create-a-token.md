@@ -1,3 +1,18 @@
+---
+Please provide me with the rest of the mission statement so I can help you with it! 
+
+For example, you could give me something like: * **"Our mission is to empower individuals to..."** 
+* **"We are dedicated to..."**
+* **"Our goal is to..."**
+
+Once I have the full statement, I can offer suggestions on: "* **Clarity and conciseness:**  Is the mission easy to understand and remember? "
+* **Specificity: "** Does it clearly define what your organization does?"
+* **Actionable language: "** Does it inspire action and motivate your audience?"
+* **Values and purpose: "** Does it reflect the core beliefs and intentions of your organization?"
+
+I look forward to helping you craft a powerful mission statement!
+---
+
 JUMP TOCTRL-/
 
 Notion API

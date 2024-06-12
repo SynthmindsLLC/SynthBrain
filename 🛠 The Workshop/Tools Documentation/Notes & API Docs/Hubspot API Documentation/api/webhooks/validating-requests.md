@@ -5,10 +5,10 @@ type: "guide"
 tags:
 - "HubSpot"
 - "Webhooks"
-- "Signature Validation"
+- "Signature_Validation"
 relationships:
 - "#related_to [[Integration]]"
-- "#used_by [[Developers]]"]]
+- "#used_by [[Developers]]"
 - "#part_of [[API Documentation]]"
 created_date: "2023-01-01"
 ---

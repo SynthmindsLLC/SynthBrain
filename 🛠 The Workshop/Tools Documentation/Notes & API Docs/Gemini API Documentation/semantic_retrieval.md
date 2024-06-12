@@ -1,3 +1,11 @@
+---
+Please provide me with the rest of the text so I can understand what your mission is.  For example, you could say: * **"Our mission is to..."** 
+* **"The mission of this project is to..."**
+* **"The company's mission is..."** 
+
+Once you give me more context, I can help you complete the mission statement.
+---
+
 *   এই পৃষ্ঠায় যা যা আছে
 *   [ওভারভিউ](#overview)
 *   [সেটআপ](#setup)

@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+To help me write a compelling mission statement, tell me: "* **What is the purpose of this mission?** What are you trying to achieve?"
+* **Who is this mission for?** Who are you trying to help or impact?
+* **What are the core values that guide this mission?** What principles are important to your work?
+* **What makes this mission unique?** What sets it apart from other similar initiatives?
+
+Once I have this information, I can craft a mission statement that is clear, concise, and inspiring.
+---
+
 *   এই পৃষ্ঠায় যা যা আছে
 *   [টোকেন সম্পর্কে](#about-tokens)
 *   [প্রসঙ্গ উইন্ডোজ](#context-windows)

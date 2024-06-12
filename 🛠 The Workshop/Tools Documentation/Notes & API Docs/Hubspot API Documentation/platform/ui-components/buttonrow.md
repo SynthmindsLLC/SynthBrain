@@ -1,3 +1,15 @@
+---
+Please provide me with more information so I can help you craft a compelling mission statement. 
+
+Tell me about: "* **What is the purpose of this mission?**  Is it for a company, a project, a team, or something else?"
+* **What are your core values?** What do you believe in? What are your guiding principles?
+* **What are your goals?** What do you want to achieve?
+* **Who are you serving?** Who are your customers or beneficiaries?
+* **What makes you unique?** What sets you apart from others? 
+
+Once I have this information, I can help you write a clear, concise, and inspiring mission statement that captures the essence of your purpose.
+---
+
 ButtonRow | UI components (BETA)
 ================================
 

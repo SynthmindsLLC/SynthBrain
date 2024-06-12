@@ -1,3 +1,12 @@
+---
+Please provide me with more context! To help me craft a compelling mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, a club, or something else?"
+* **What are the core values and beliefs?**  What principles guide the mission?
+* **What are the desired outcomes?** What impact do you want to achieve?
+* **Who is the target audience?** Who will be impacted by this mission?
+
+Once you provide me with this information, I can generate a strong and impactful mission statement for you!
+---
+
 CrmPropertyList | UI components (BETA)
 ======================================
 

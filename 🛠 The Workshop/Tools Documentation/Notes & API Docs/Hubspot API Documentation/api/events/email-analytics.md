@@ -1,5 +1,5 @@
 ---
-title: "Email Analytics API v3 Development"
+title: "Email Analytics API v3"
 description: "The Email Events API (v3) is currently under development, and users can subscribe to the Developer Changelog for updates on its availability. HubSpot is updating APIs to improve consistency and completeness. Learn more about this project [here](https://legacydocs.hubspot.com/docs/overview)."
 type: "group"
 tags:
@@ -9,6 +9,12 @@ tags:
 relationships:
 - "#related_to [[Developer Changelog]]"
 - "#part_of [[HubSpot APIs]]"
+- "#related_to [[Email Events Overview]]"
+- "#has_part [[GET]]"
+- "#has_part [[POST]]"
+- "#has_part [[PUT]]"
+- "#has_part [[DELETE]]"
+- "#used_by [[HubSpot Users]]"
 founded: "N/A"
 ---
 

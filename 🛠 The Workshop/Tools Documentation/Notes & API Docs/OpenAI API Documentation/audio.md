@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission! I need context to understand what you're trying to achieve. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a business, a project, a personal goal)"
+* **What are the objectives of the mission?** (e.g., increase sales, build a website, learn a new skill)
+* **Who is involved in the mission?** (e.g., a team, individuals)
+* **What are the expected outcomes of the mission?** (e.g., achieve profitability, launch a product, gain new knowledge)
+
+Once I have this information, I can help you formulate a clear and compelling mission statement.
+---
+
 [
 
 Introduction

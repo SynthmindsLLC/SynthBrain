@@ -1,3 +1,13 @@
+---
+Please provide me with the context or the specific goal of the mission. 
+
+For example, tell me: "* **What is the mission about?** (e.g., space exploration, environmental protection, social change)"
+* **Who is involved?** (e.g., a team, an organization, a group of people)
+* **What is the objective?** (e.g., to discover a new planet, to clean up a polluted river, to raise awareness about a cause)
+
+Once you give me more information, I can help you create a compelling and informative mission statement.
+---
+
 [
 
 Introduction

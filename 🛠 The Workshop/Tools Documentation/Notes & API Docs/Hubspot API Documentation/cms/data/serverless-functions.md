@@ -1,3 +1,13 @@
+---
+Please provide me with more information about the mission. I need to know what the mission is about, what the goals are, and what kind of context you'd like me to provide. 
+
+For example, you could tell me: "* **What is the mission's purpose?**  Is it a personal mission, a business mission, a scientific mission, etc.?"
+* **What are the specific objectives?**  What do you hope to achieve?
+* **What kind of mission statement are you looking for?**  Do you need a short, punchy statement, or a longer, more detailed one? 
+
+Once I have a better understanding of your needs, I can help you craft a compelling mission statement.
+---
+
 Serverless functions
 
 

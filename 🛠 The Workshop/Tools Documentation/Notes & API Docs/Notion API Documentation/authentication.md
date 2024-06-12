@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're referring to in order to help you write it. 
+
+For example: "* **What is the mission for?** Is it a mission statement for a company, a personal mission statement, a mission for a project, or something else?"
+* **What are the goals?** What do you hope to achieve with this mission?
+* **Who is the target audience?** Who are you trying to reach with this mission? 
+
+Once you give me more information, I can help you write a strong and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

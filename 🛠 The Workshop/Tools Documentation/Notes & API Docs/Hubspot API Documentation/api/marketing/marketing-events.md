@@ -4,8 +4,8 @@ description: "CRM object that enables tracking and association of marketing even
 type: "group"
 tags:
 - "CRM"
-- "Marketing Events"
-- "HubSpot Integration"
+- "Marketing_Events"
+- "HubSpot_Integration"
 relationships:
 - "#founded_by [[HubSpot]]"
 - "#part_of [[Customer Relationship Management (CRM)]]"

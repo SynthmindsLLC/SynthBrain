@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What is the overall goal of the mission?**  Is it to explore a new planet, rescue a lost explorer, or develop a new technology?"
+* **Who are the participants?**  Are they astronauts, scientists, spies, or something else?
+* **What are the challenges they face?** Are they dealing with dangerous environments, hostile creatures, or difficult moral choices?
+* **What is the tone of the mission?** Is it serious, humorous, adventurous, or something else?
+
+Once I have a better understanding of the mission, I can help you develop it further.
+---
+
 [
 
 Introduction

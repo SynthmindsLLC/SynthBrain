@@ -6,23 +6,22 @@ tags:
 - "Custom Events"
 - "HubSpot Analytics"
 - "Event Tracking"
+- "Marketing"
+- "Sales"
+- "Service"
+- "Operations"
 relationships:
 - "#related_to [[Marketing Hub]]"
 - "#related_to [[Sales Hub]]"
 - "#related_to [[Service Hub]]"
 - "#related_to [[Operations Hub]]"
+- "#used_for [[Tracking Website Activity]], [[Analyzing User Behavior]], [[CRM Data Enrichment]]"
 applicable_products:
 - "Enterprise Marketing Hub"
 - "Enterprise Sales Hub"
 - "Enterprise Service Hub"
 - "Enterprise Operations Hub"
-founded: "N/A"
-tags:
-- "Marketing"
-- "Sales"
-- "Service"
-- "Operations"
-created_date: "YYYY-MM-DD # Replace with actual creation date if available"
+created_date: "YYYY-MM-DD"
 ---
 
 **Custom events**

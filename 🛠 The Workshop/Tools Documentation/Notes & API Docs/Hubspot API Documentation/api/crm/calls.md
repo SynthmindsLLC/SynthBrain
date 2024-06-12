@@ -5,10 +5,10 @@ type: "group"
 tags:
 - "CRM"
 - "API"
-- "Calls Management"
+- "Calls_Management"
 relationships:
 - "#related_to [[HubSpot CRM]]"
-- "#used_by [[Developers]]"]]
+- "#used_by [[Developers]]"
 created_date: "2023-01-01"
 ---
 

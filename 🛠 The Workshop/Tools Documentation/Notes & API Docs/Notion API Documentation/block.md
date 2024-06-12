@@ -1,3 +1,11 @@
+---
+Please provide me with more context! I need to know what kind of mission you're trying to write about. For example: "* **What is the goal of this mission?** Is it to explore a new planet, rescue a lost team, or something else entirely?"
+* **Who is involved in this mission?** Is it a team of astronauts, a group of scientists, or a single individual?
+* **What is the setting of this mission?** Is it set in space, on Earth, or somewhere else?
+
+Once you give me more information, I can help you write a compelling and engaging mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

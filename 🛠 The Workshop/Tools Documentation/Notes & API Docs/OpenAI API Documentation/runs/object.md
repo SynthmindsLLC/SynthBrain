@@ -1,3 +1,13 @@
+---
+Please provide me with the context for the mission. What is the mission about? Who is it for? What are the goals? 
+
+For example, you could say: * **"The mission of our company is to..."** 
+* **"The mission of this project is to..."** 
+* **"The mission of our team is to..."**
+
+Once I know the context, I can help you craft a compelling and impactful mission statement.
+---
+
 [
 
 Introduction

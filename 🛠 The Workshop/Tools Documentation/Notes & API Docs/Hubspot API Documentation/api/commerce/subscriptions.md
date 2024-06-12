@@ -9,7 +9,11 @@ tags:
 relationships:
 - "#part_of [[HubSpot Commerce]]"
 - "#requires [[Payment Processing Setup]]"
-founded: "N/A"
+- "#used_for [[Retrieve subscription details]]"
+- "#different_from [[Subscription preferences API]]"
+- "#related_to [[HubSpot Payments]], [[Stripe payment processing]]"
+- "#used_by [[Developers]]"
+- "#related_to [[Line items API]], [[Contacts API]], [[Companies API]], [[Deals API]], [[Quotes API]], [[Payments API]], [[Discounts API]], [[Fees API]], [[Taxes API]]"
 ---
 
 Subscriptions

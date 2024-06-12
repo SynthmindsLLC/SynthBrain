@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you'd like to write about! 
+
+To help me craft a compelling mission statement, tell me: "* **What is the mission about?** Is it a personal mission, a business mission, a mission for a project, etc.?"
+* **What are the goals?** What do you want to achieve?
+* **What are the values?** What principles will guide your actions?
+* **Who is the audience?** Who are you trying to reach with this mission?
+
+Once I have this information, I can help you write a clear, concise, and inspiring mission statement.
+---
+
 *   On this page
 *   [Set up your project](#set-up-project)
     *   [Set up and secure your API key](#set-up-secure-api-key)

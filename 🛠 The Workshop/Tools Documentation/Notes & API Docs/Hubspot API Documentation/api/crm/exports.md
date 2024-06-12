@@ -5,12 +5,15 @@ type: "concept"
 tags:
 - "HubSpot"
 - "API"
-- "Exporting Data"
+- "Exporting_Data"
 relationships:
 - "#related_to [[CRM]]"
 - "#used_for [[Data Management]]"
-start_date: "N/A"
-end_date: "N/A"
+- "#provides [[Data Retrieval]], [[Data Downloading]]"
+- "#uses [[GET]], [[POST]]"
+- "#implements [[API Authentication]], [[API Rate Limiting]]"
+- "#requires [[HubSpot Account]]"
+- "#documents [[HubSpot API Documentation]]"
 ---
 
 Exports

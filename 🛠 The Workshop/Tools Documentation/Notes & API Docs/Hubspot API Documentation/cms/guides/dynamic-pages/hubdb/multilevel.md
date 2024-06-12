@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  "Mission" can be used in many different ways. To help me write a mission statement for you, I need to know: "* **What is the mission for?** Is it for a company, a project, a personal goal, a team, a website, etc.? "
+* **What are the key goals and values?** What do you want to achieve with this mission? 
+* **What is the target audience?** Who are you trying to reach with this mission? 
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 How to build multilevel dynamic pages with HubDB
 
 

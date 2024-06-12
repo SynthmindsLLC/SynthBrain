@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you are referring to. I need context to understand what you are asking. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a space mission, a business mission, a personal mission, etc.)"
+* **What is the goal of the mission?**
+* **What are the key objectives of the mission?**
+* **Who is involved in the mission?**
+
+Once I have this information, I can help you write a compelling mission statement or provide further assistance.
+---
+
 [
 
 Introduction

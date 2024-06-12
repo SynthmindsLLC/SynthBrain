@@ -1,3 +1,12 @@
+---
+Please provide me with the context for the mission you want to create. To help me craft a compelling mission statement, tell me: "* **What is the overall goal or purpose of this mission?** (e.g., to explore a new planet, to solve a global problem, to create a better world)"
+* **Who is involved in this mission?** (e.g., a team of astronauts, a group of activists, a company)
+* **What are the specific objectives of the mission?** (e.g., to collect data, to raise awareness, to develop a new technology)
+* **What are the values that guide this mission?** (e.g., innovation, collaboration, sustainability)
+
+Once I have this information, I can write a strong and impactful mission statement for you.
+---
+
 How to use JavaScript frameworks and libraries on HubSpot
 
 

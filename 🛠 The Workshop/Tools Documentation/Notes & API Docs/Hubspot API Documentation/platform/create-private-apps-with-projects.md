@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you are writing about. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, a community organization? "
+* **What is the main purpose or objective?** What do you want to achieve?
+* **What are the values or principles that guide the mission?** 
+
+Once you give me more information, I can help you write a compelling and impactful mission statement.
+---
+
 Create private apps with projects (BETA)
 ========================================
 

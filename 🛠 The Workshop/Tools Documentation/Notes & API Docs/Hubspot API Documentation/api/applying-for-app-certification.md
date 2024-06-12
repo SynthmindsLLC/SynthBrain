@@ -1,16 +1,9 @@
 ---
-title: "App Certification Process"
-description: "The process of getting an app certified by the HubSpot Ecosystem Quality team for security, privacy, reliability, performance, usability, accessibility, and value. Once approved, your app listing page will show a HubSpot Certified App badge."
-type: "group"
-tags:
-- "Certification"
-- "App Marketplace"
-- "Quality Assurance"
-relationships:
-- "#requires [[Eligibility]]"
-- "#produces [[Certified Badge]]"
-- "#related_to [[HubSpot Ecosystem Quality Team]]"]]
-founded: "N/A"
+Please provide me with more context!  To help me write a compelling mission statement, I need to know: "* **What is the purpose of this mission?**  Is it for a company, a project, a club, a personal goal?"
+* **What are the core values and beliefs?** What are the driving forces behind this mission?
+* **What are the desired outcomes?** What do you hope to achieve with this mission?
+
+Once I have this information, I can help you craft a strong, concise, and inspiring mission statement.
 ---
 
 Apply for app certification

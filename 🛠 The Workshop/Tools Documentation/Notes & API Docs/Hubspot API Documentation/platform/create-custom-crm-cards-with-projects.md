@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about.  
+
+For example: "* **What is the goal of the mission?**  Is it to explore space, solve a problem, or achieve a specific objective? "
+* **Who is involved in the mission?** Is it a team of scientists, astronauts, or a company? 
+* **What is the timeframe for the mission?** Is it a short-term or long-term project? 
+
+Once you provide me with more information, I can help you write a compelling mission statement!
+---
+
 Create UI extensions with React (BETA)
 ======================================
 

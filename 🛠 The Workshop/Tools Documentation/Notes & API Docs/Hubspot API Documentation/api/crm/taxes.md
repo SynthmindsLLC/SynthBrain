@@ -1,7 +1,7 @@
 ---
 title: "Taxes in HubSpot CRM"
 description: "A guide on creating and associating taxes as part of the pricing details for a quote, including how they interact with discounts and fees."
-type: "group"
+type: "concept"
 tags:
 - "HubSpot"
 - "CRM"
@@ -11,7 +11,8 @@ relationships:
 - "#part_of [[Quote]]"
 - "#used_for [[Determining Pricing Details]]"
 - "#related_to [[Discounts]], [[Fees]]"
-founded: "2014-05-01"
+- "#implemented_in [[HubSpot API]]"
+- "#requires [[HubSpot Account]]"
 ---
 
 Taxes

@@ -1,3 +1,15 @@
+---
+Please provide me with more context! I need to know what you want your mission to be about.  
+
+**For example, tell me: "**"
+
+* **What is the purpose of this mission?**  (e.g.,  a business, a personal goal, a social cause) 
+* **What are you trying to achieve?** (e.g., make a profit, learn a new skill, help others)
+* **Who will this mission benefit?** (e.g., customers, community, yourself)
+
+Once you give me more information, I can help you craft a compelling mission statement!
+---
+
 [
 
 Introduction

@@ -6,7 +6,7 @@ tags:
 - "HubSpot"
 - "CRM"
 - "API"
-- "Line Items"
+- "Line_Items"
 relationships:
 - "#part_of [[Sales Operations]]"
 - "#associated_with [[Deals]], [[Quotes]], [[Invoices]], [[Payment Links]], [[Subscriptions]]"

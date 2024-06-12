@@ -1,5 +1,5 @@
 ---
-title: "v3 Reporting API Development Update"
+title: "v3 Reporting API"
 description: "The v3 Reporting API is currently under development, aimed at improving consistency and completeness of HubSpot's APIs. Subscribe to the Developer Changelog for updates on its availability. For more information about this project, visit [here](https://legacydocs.hubspot.com/docs/overview)."
 type: "group"
 tags:
@@ -8,6 +8,14 @@ tags:
 - "Development"
 relationships:
 - "#part_of [[HubSpot APIs]]"
+- "#provides [[Analytics API Overview]]"
+- "#provides [[Get analytics data breakdowns]]"
+- "#provides [[Get analytics data for specific objects]]"
+- "#provides [[Get analytics data for HubSpot hosted content]]"
+- "#provides [[Check for the existence of analytics data for an object type]]"
+- "#provides [[Get Events]]"
+- "#provides [[Get a Group of Events by ID]]"
+- "#provides [[Get all analytics views]]"
 founded: "N/A"
 ---
 

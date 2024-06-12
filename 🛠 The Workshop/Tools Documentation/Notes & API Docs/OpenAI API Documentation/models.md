@@ -1,3 +1,15 @@
+---
+Please provide me with more context! To write a compelling mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the key values and goals?** What do you want to achieve? 
+* **Who is the target audience?** Who are you trying to reach with this mission?
+
+For example, if you are creating a mission statement for a company that makes eco-friendly cleaning products, I would need to know things like: "* **What is the company's vision?** (e.g., To create a cleaner, healthier world for everyone)"
+* **What are the company's core values?** (e.g., Sustainability, innovation, social responsibility)
+* **Who is the company's target audience?** (e.g., environmentally conscious consumers)
+
+Once I have this information, I can help you craft a powerful and inspiring mission statement.
+---
+
 [
 
 Introduction

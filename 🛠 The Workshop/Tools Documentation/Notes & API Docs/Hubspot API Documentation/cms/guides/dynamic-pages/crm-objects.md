@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  What kind of mission are you writing about?  I need some details to help you with this: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal, or something else? "
+* **What is the purpose of this mission?**  What are you trying to achieve with it?
+* **What are the key elements of this mission?**  What are the most important things to focus on?
+
+Once you give me some more information, I can help you write a powerful and effective mission statement.
+---
+
 Build dynamic pages using CRM objects
 
 

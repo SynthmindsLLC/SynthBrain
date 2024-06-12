@@ -1,3 +1,11 @@
+---
+Please provide me with more information so I can help you write your mission statement.  Tell me: "* **What is the purpose of this mission statement?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the key values and goals of the mission?** What are you trying to achieve?
+* **Who is the target audience for this mission statement?** Who are you trying to reach with this message?
+
+Once I have this information, I can help you craft a clear, concise, and impactful mission statement.
+---
+
 Panel | UI components (BETA)
 ============================
 

@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about in order to help you. 
+
+For example, tell me: "* **What is the mission for?** Is it a company, a project, a personal goal?"
+* **What is the purpose of the mission?** What are you trying to achieve?
+* **What are the key values or principles that will guide the mission?** 
+
+Once I have more information, I can help you write a compelling and impactful mission statement.
+---
+
 Lazy loading assets for performance
 
 

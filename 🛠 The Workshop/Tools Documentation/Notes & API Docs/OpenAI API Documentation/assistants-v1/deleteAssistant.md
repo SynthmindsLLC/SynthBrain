@@ -1,3 +1,18 @@
+---
+Please provide me with the context or the specific mission you'd like me to help you with.  
+
+For example, you could tell me: "* **What the mission is about:**  Is it a personal mission, a business mission, a project mission, etc.?"
+* **What the goal of the mission is: "** What are you trying to achieve?"
+* **Any specific details about the mission: "** Are there any key objectives, deadlines, or constraints?"
+
+Once I have more information, I can help you with: "* **Crafting a clear and concise mission statement.**"
+* **Breaking down the mission into actionable steps.**
+* **Developing strategies to achieve your mission's goals.**
+* **Identifying potential challenges and solutions.**
+
+I'm excited to help you bring your mission to life!
+---
+
 [
 
 Introduction

@@ -1,3 +1,13 @@
+---
+Please provide me with more context. What kind of mission are you referring to? 
+
+For example, are you asking for: "* **A mission statement for a company or organization?**"
+* **A mission for a specific project?**
+* **A personal mission statement?**
+
+Once you give me some more information, I can help you craft a compelling and meaningful mission statement.
+---
+
 [
 
 Introduction

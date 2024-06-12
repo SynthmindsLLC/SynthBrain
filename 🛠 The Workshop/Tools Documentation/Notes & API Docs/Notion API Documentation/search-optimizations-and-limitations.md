@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you create a compelling mission statement. 
+
+For example, tell me: "* **What is the overall goal?**  What are you trying to achieve?"
+* **Who are you serving?**  Who are your target audience or beneficiaries?
+* **What are your values?**  What principles guide your actions?
+* **What makes you unique?**  What sets you apart from others in your field?
+
+Once I have this information, I can help you craft a powerful and inspiring mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

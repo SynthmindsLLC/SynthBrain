@@ -1,3 +1,11 @@
+---
+Please provide me with more context! To write a mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a project, a team, or something else?"
+* **What are the goals and values of this entity?** What does it strive to achieve? What are its guiding principles?
+* **Who is the target audience?** Who will be impacted by this mission?
+
+Once you provide me with this information, I can help you craft a compelling and impactful mission statement.
+---
+
 How to add theme capabilities to an existing HubSpot CMS website
 
 

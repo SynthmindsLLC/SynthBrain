@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of your mission statement! I need more information to help you complete it. 
+
+Tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the key values or goals?**  What do you want to achieve or what are the core principles that guide your actions?
+* **Who is the target audience?**  Who is this mission statement intended for?
+
+Once you give me more details, I can help you craft a strong and compelling mission statement.
+---
+
 MultiSelect | UI components (BETA)
 ==================================
 

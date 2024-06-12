@@ -1,3 +1,21 @@
+---
+Please provide me with more context! To help you craft a compelling mission statement, I need to know: "* **What is the purpose of your mission?** Is it for a company, organization, project, or personal goal?"
+* **What are your core values?** What are the principles that guide your actions and decisions?
+* **What are your goals?** What do you hope to achieve?
+* **Who are your target audience?** Who are you trying to reach with your mission?
+
+Once I have this information, I can help you write a mission statement that is clear, concise, and inspiring. 
+
+For example, if you are writing a mission statement for a non-profit organization, you might include: "* **Purpose:** To provide food and shelter to homeless families."
+* **Core values: "** Compassion, empathy, and dignity."
+* **Goals: "** To end homelessness in the city."
+* **Target audience: "** Homeless families."
+
+With this information, I can help you write a mission statement like this: **"Our mission is to provide food, shelter, and support services to homeless families in the city, with compassion and dignity, so that they can achieve stability and self-sufficiency."** 
+
+Please share more details about your mission, and I'll be happy to assist you!
+---
+
 [
 
 Introduction

@@ -1,3 +1,11 @@
+---
+Please provide me with the context or information you'd like me to use to complete the "MISSION" section. For example, tell me: "* **What is the mission for?** Is it a mission statement for a company, a project, a team, or something else?"
+* **What are the goals and objectives?** What are you trying to achieve?
+* **What are the values and principles?** What are the guiding principles behind the mission?
+
+Once I have this information, I can help you write a compelling and concise mission statement.
+---
+
 *   이 페이지의 내용
 *   [예시 애플리케이션](#example-applications)
     *   [시 생성](#generate-poem)

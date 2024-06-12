@@ -1,3 +1,13 @@
+---
+Please provide me with more context!  I need to know what the mission is about. 
+
+For example, tell me: "* **What is the goal of the mission?**  What are you trying to achieve?"
+* **Who is involved in the mission?**  Is it a team, a company, an individual?
+* **What is the scope of the mission?**  Is it a small project, or something much larger?
+
+Once I have more information, I can help you write a compelling mission statement.
+---
+
 CrmAssociationTable | UI components (BETA)
 ==========================================
 

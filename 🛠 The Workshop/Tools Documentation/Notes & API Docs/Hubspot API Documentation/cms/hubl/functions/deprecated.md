@@ -1,3 +1,11 @@
+---
+Please provide me with the context or the topic of the mission so I can help you write a compelling mission statement. For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, a non-profit organization, or something else?"
+* **What is the purpose of the mission?** What do you want to achieve with this mission?
+* **Who are you trying to reach with this mission?** Who is your target audience? 
+
+Once you give me more information, I can help you craft a strong, clear, and inspiring mission statement.
+---
+
 Deprecated HubL filters and functions
 
 

@@ -4,8 +4,8 @@ description: "Apps enable you to authenticate API calls to your HubSpot account,
 type: "work"
 tags:
 - "HubSpot"
-- "App Development"
-- "API Integration"
+- "App_Development"
+- "API_Integration"
 relationships:
 - "#related_to [[Private Apps]]"
 - "#related_to [[Public Apps]]"

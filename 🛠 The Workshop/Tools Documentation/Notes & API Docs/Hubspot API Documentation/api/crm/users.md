@@ -1,7 +1,7 @@
 ---
 title: "Users API in HubSpot CRM"
 description: "An API that allows fetching and updating user information, including working hours, timezone, additional phone number, and job title properties. Useful for syncing with external workforce management tools."
-type: "group (company)"
+type: "group"
 tags:
 - "CRM"
 - "HubSpot"
@@ -10,7 +10,7 @@ relationships:
 - "#founded_by [[HubSpot]]"
 - "#headquartered_in [[Cambridge, Massachusetts]]"
 - "#provides [[User Management API]]"
-createdAt: "2014-03-01T00:00:00.000Z"
+createdAt: "2014-03-01"
 ---
 
 Users

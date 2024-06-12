@@ -8,8 +8,9 @@ tags:
 relationships:
 - "#related_to [[Sales Quotes]]"
 - "#enables [[Pricing Information Sharing]]"
-birthdate: "N/A"
-deathdate: "N/A"
+- "#part_of [[HubSpot API]]"
+- "#used_for [[Quote Creation]], [[Quote Management]], [[Quote Retrieval]]"
+- "#requires [[HubSpot Account]]"
 ---
 
 Quotes

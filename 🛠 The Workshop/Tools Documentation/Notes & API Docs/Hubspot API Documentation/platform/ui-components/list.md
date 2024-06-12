@@ -1,3 +1,14 @@
+---
+Please provide me with the context for the mission. I need more information to understand what you want to achieve with this mission. 
+
+For example, tell me: "* **What is the mission for?** Is it a personal goal, a business objective, a project, a game, etc.?"
+* **What is the desired outcome?** What do you want to accomplish with this mission?
+* **Who are the stakeholders?** Who is involved in this mission?
+* **What are the key challenges and obstacles?** What are the potential roadblocks to success?
+
+Once I have a better understanding of the context, I can help you craft a compelling and effective mission statement.
+---
+
 List | UI components (BETA)
 ===========================
 

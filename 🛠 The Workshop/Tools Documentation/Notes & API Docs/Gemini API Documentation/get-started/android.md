@@ -1,3 +1,14 @@
+---
+Please provide me with the rest of the prompt! I need more information to understand what kind of mission you're writing about. 
+
+For example, tell me: "* **What is the mission about?** Is it a personal mission, a company mission, a fictional mission, etc.?"
+* **What is the goal of the mission?** What are you trying to achieve?
+* **Who is involved in the mission?** Are there specific people or teams involved?
+* **What is the context of the mission?** What is the situation or environment surrounding it?
+
+Once I have this information, I can help you write a compelling and impactful mission statement.
+---
+
 *   이 페이지의 내용
 *   [기본 요건](#prerequisites)
 *   [프로젝트 설정](#set-up-project)

@@ -1,3 +1,12 @@
+---
+Please provide me with the context or specifics of the mission you'd like me to write about.  For example, tell me: "* **What kind of mission is it?** Is it a personal mission statement, a mission for a company, a mission for a team, a mission for a project, or something else? "
+* **What is the overall goal or purpose of the mission?**  What are you trying to achieve?
+* **Who are the stakeholders involved?**  Who will benefit from the mission's success?
+* **What are some key values or principles that should guide the mission?**  What are the ethical considerations?
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
+---
+
 Checkbox | UI components (BETA)
 ===============================
 

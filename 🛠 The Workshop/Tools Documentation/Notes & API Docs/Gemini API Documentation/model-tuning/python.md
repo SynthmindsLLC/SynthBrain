@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about to help you. 
+
+For example, tell me: "* **What is the purpose of the mission?** Is it for a company, a project, a team, or something else?"
+* **What are the goals of the mission?** What do you want to achieve?
+* **Who is the target audience?** Who are you writing this mission statement for?
+
+Once I have a better understanding of your needs, I can help you craft a compelling and effective mission statement.
+---
+
 *   このページの内容
 *   [セットアップ](#setup)
     *   [認証](#authenticate)

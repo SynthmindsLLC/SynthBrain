@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement. I need more context to understand what you're trying to achieve. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, etc.?"
+* **What are the key values or objectives?** What do you want to accomplish? 
+* **What makes this mission unique or important?**
+
+Once I have more information, I can help you complete the mission statement and make it powerful and impactful.
+---
+
 *   이 페이지의 내용
 *   [애플리케이션의 안전 위험 이해](#understand_the_safety_risks_of_your_application)
 *   [안전 위험 완화를 위한 조정 고려](#consider_adjustments_to_mitigate_safety_risks)

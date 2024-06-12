@@ -6,12 +6,12 @@ tags:
 - "API"
 - "HubSpot"
 - "CMS"
-- "Blog Authors"
+- "Blog_Authors"
 relationships:
 - "#founded_by [[HubSpot]]"
 - "#part_of [[Content Management System]]"
-createdAt: "YYYY-MM-DD # Replace with actual creation date if known"
-updatedAt: "YYYY-MM-DD # Replace with the last update date if known"
+createdAt: "YYYY-MM-DD"
+updatedAt: "YYYY-MM-DD"
 ---
 
 Blog Authors 

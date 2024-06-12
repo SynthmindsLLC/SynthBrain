@@ -9,6 +9,7 @@ tags:
 relationships:
 - "#related_to [[Marketing Email]]"
 - "#used_for [[Commerce Receipts]], [[Account Updates]], [[Terms of Service Changes]]"
+- "#part_of [[HubSpot API Documentation]]"
 published_date: "2023-06-10"
 ---
 

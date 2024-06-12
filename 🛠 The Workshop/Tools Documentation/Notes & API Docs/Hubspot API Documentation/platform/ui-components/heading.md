@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you write it.  
+
+For example, tell me: "* **What is the subject of the mission?**  Is it a company, a team, a project, a personal goal?"
+* **What is the overall aim?** What are you trying to achieve?
+* **What are the key values or principles that guide the mission?**
+
+Once I have this information, I can help you write a compelling and concise mission statement.
+---
+
 Heading | UI components (BETA)
 ==============================
 

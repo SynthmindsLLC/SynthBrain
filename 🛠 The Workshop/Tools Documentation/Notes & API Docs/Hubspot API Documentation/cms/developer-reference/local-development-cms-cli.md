@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're referring to in order to help you write it. 
+
+For example, tell me: "* **What is the purpose of the mission?** (e.g., to save the world, to explore space, to improve education)"
+* **Who is the target audience for this mission?** (e.g., a team, an organization, a group of people)
+* **What are the key objectives of the mission?** (e.g., to achieve a certain goal, to solve a problem, to make a difference)
+
+Once I have this information, I can help you write a compelling and effective mission statement.
+---
+
 HubSpot CLI commands
 
 

@@ -1,3 +1,13 @@
+---
+Please provide me with more information! I need to know what you want to create a mission statement for. 
+
+For example, tell me: "* **What is the subject of the mission?**  Is it a company, a project, a personal goal, a non-profit organization? "
+* **What are the key values and objectives?** What does this entity aim to achieve or stand for? 
+* **What is the target audience?** Who are you trying to reach with this mission statement?
+
+Once you provide me with these details, I can help you craft a compelling and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

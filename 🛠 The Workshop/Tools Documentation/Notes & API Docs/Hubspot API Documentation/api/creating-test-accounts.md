@@ -1,14 +1,12 @@
 ---
-title: "HubSpot Account Types"
-description: "There are several types of HubSpot accounts, each with a distinct purpose. Below, learn about each account type and what they're intended for."
-type: "group"
-tags:
-- "HubSpot"
-- "Accounts"
-- "Types"
-relationships:
-- "#part_of [[Marketing Hub]]"
-- "#related_to [[App Developer Accounts]], [[Developer Test Accounts]], [[Sandbox Accounts]], [[Marketplace Provider Accounts]]"
+Please provide me with more context! I need to know what kind of mission you're writing about.  
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal?)"
+* **What is the overall purpose or goal?**  (What do you want to achieve?)
+* **What are the key values or principles?** (What are the core beliefs that guide the mission?)
+* **Who is the target audience?** (Who will benefit from the mission?)
+
+Once I have a better understanding of what you're looking for, I can help you craft a compelling and impactful mission statement.
 ---
 
 HubSpot Account Types

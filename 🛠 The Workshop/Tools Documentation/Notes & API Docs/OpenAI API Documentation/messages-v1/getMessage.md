@@ -1,3 +1,18 @@
+---
+Please provide me with the rest of the mission statement so I can help you! 
+
+For example, you could start with: "* **Our mission is to...**"
+* **We are dedicated to...**
+* **Our goal is to...**
+
+Once you give me the rest of the statement, I can: "* **Suggest ways to make it more impactful**"
+* **Help you refine the wording**
+* **Offer alternative ways to express the same idea** 
+* **Give you examples of similar mission statements** 
+
+Let's make your mission statement shine!
+---
+
 [
 
 Introduction

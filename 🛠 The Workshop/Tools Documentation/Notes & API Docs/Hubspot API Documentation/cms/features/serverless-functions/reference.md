@@ -1,3 +1,14 @@
+---
+Please provide me with the context for the mission! 
+
+To help me write a compelling mission statement, I need more information, such as: "* **What is the mission for?** Is it for a company, a project, a team, or something else?"
+* **What are the goals and objectives?** What do you want to achieve?
+* **What are the values and principles?** What guides your actions? 
+* **Who are you serving?** Who will benefit from this mission? 
+
+Once I have this information, I can craft a clear and inspiring mission statement that reflects your vision and purpose.
+---
+
 Serverless functions reference
 
 

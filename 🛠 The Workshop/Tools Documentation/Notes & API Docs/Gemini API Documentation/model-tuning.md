@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  "MISSION..." is a great start, but to help me write a compelling mission statement, I need to know: "* **What is the mission for?** Is it for a company, a project, a non-profit, an individual? "
+* **What are the goals?** What are you trying to achieve with this mission?
+* **What are the values?** What principles will guide your actions and decisions?
+
+Once you give me more information, I can help you craft a powerful and inspiring mission statement!
+---
+
 *   이 페이지의 내용
 *   [모델 조정의 원리](#how-model)
 *   [지원되는 모델](#supported-models)

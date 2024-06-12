@@ -10,7 +10,7 @@ relationships:
 - "#related_to [[OAuth protocol]]"
 - "#part_of [[Public APIs]]"
 - "#similar_to [[Private Apps]]"
-founded: "N/A"
+- "#authored_by [[HubSpot]]"
 ---
 
 API usage guidelines

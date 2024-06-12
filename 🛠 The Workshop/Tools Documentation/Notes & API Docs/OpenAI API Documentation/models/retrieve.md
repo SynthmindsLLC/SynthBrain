@@ -1,3 +1,18 @@
+---
+Please provide me with the rest of the mission statement so I can help you! I need to know what the mission is about in order to complete it. 
+
+For example, you could say: * **"Our mission is to provide high-quality education to all students..."**
+* **"The mission of this organization is to protect endangered animals..."**
+* **"The mission of this project is to develop a new sustainable energy source..."**
+
+Once you give me the rest of the mission statement, I can help you with things like: "* **Expanding on the mission**"
+* **Identifying key goals and objectives**
+* **Developing strategies to achieve the mission**
+* **Creating a mission statement that is concise, clear, and inspiring**
+
+I look forward to helping you make your mission a reality!
+---
+
 [
 
 Introduction

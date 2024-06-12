@@ -1,3 +1,11 @@
+---
+Please provide me with the context or the subject of the mission you want to create. For example: "* **What is the mission of your company?**"
+* **What is the mission of your project?**
+* **What is the mission of a space exploration team?**
+
+Once you provide me with the context, I can help you craft a compelling and impactful mission statement.
+---
+
 *   このページの内容
 *   [モデル バリエーション](#model-variations)
     *   [Gemini 1.5 Pro](#gemini-1.5-pro)

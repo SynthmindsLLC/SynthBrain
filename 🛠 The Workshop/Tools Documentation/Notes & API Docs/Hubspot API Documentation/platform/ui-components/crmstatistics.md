@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of your mission statement so I can help you complete it.  
+
+For example, tell me: "* **What is the overall goal of your mission?** What are you trying to achieve?"
+* **Who are you targeting with this mission?** Who will be impacted by your efforts?
+* **What are the key values or principles that guide your mission?** 
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
+---
+
 CrmStatistics | UI components (BETA)
 ====================================
 

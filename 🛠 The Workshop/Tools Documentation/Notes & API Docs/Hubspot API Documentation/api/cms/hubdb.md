@@ -5,7 +5,7 @@ type: "group"
 tags:
 - "HubDB"
 - "API"
-- "Data Management"
+- "Data_Management"
 relationships:
 - "#related_to [[HubSpot CMS]]"
 - "#enables [[Dynamic Pages]]"

@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is for. 
+
+For example, tell me: "* **What is the mission for?**  Is it for a company, a project, a personal goal, a team, etc.?"
+* **What is the purpose of this mission?** What are you trying to achieve with this mission?
+* **What are the key aspects of this mission?**  What are the main elements or objectives you want to highlight?
+
+Once you give me some more details, I can help you craft a compelling mission statement.
+---
+
 Serverless functions
 
 

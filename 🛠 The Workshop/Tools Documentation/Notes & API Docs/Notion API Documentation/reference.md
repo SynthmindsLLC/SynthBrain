@@ -1,3 +1,11 @@
+---
+Please provide me with the context or subject of the mission you'd like to write about.  For example: * **"The mission of our company is..."**
+* **"The mission of this project is..."**
+* **"Our mission as a team is..."**
+
+Once you tell me what the mission is about, I can help you write a compelling and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

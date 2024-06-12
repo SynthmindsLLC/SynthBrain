@@ -1,3 +1,14 @@
+---
+Please provide me with the context or details for the mission you want to create. 
+
+To help me write a compelling mission statement, tell me: "* **What is the purpose of the mission?** What are you trying to achieve? "
+* **Who are you targeting?** Who will benefit from this mission?
+* **What are the key values or principles?** What guides the actions of this mission?
+* **What is the overall tone or feeling you want to convey?** Should it be inspiring, serious, playful, etc.? 
+
+Once you give me this information, I can create a powerful and effective mission statement.
+---
+
 File Manager
 
 

@@ -1,3 +1,19 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What is the purpose of the mission?** What are you trying to achieve?"
+* **Who is involved?** Is it a personal mission, a team mission, or a mission for a larger organization?
+* **What are the goals and objectives?** What specific things do you want to accomplish?
+* **What is the time frame?** When do you hope to achieve the mission?
+
+Once I have this information, I can help you with things like: "* **Developing a mission statement.**"
+* **Creating a plan of action.**
+* **Identifying resources and support.**
+* **Measuring progress and success.** 
+
+Let's get started!  Tell me more about your mission.
+---
+
 CDN, security, and performance overview
 
 

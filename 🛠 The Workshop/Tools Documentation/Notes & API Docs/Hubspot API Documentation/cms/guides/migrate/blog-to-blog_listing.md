@@ -1,3 +1,13 @@
+---
+Please provide me with more information about the mission you'd like to create. I need some context to help you write a compelling mission statement. 
+
+For example, tell me: "* **What is the purpose of this mission?** What are you trying to achieve?"
+* **Who is the target audience?** Who will be impacted by this mission?
+* **What are the key values and principles?** What are the guiding forces behind this mission?
+
+Once you provide me with these details, I can help you craft a clear, concise, and inspiring mission statement.
+---
+
 How to migrate from a blog template to a blog\_listing template
 
 

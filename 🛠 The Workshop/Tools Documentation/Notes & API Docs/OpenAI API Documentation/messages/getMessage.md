@@ -1,3 +1,19 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What is the overall goal?**  "
+* **Who is involved?** 
+* **What are the specific tasks or objectives?** 
+* **What is the desired outcome?**
+
+Once you give me some more information, I can help you with the following: "* **Brainstorming ideas**"
+* **Developing a plan of action**
+* **Identifying potential challenges and solutions**
+* **Writing a mission statement** 
+
+Let's get started!
+---
+
 [
 
 Introduction

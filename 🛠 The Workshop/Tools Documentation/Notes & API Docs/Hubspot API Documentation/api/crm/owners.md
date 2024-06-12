@@ -9,6 +9,7 @@ tags:
 relationships:
 - "#created_by [[Salesforce]]"
 - "#used_for [[Assigning Owners to Records, Activities, Marketing Tasks]]"
+- "#related_to [[Personalization Tokens]]"
 founded: "2014-08-01"
 ---
 

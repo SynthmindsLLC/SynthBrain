@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're referring to in order to write something meaningful.  
+
+For example, tell me: "* **What is the mission about?**  Is it a personal mission, a business mission, a mission for a project, etc.?"
+* **What are the goals of the mission?**  What are you trying to achieve?
+* **Who is involved?**  Who are the stakeholders or participants in this mission?
+
+Once you give me more information, I can help you write a compelling mission statement.
+---
+
 Getting started with modules
 
 

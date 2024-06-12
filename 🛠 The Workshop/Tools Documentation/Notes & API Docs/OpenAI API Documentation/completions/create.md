@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the prompt! I need more information to understand what you want to achieve with your mission statement. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal, etc.)"
+* **What are the main objectives?** What do you hope to accomplish?
+* **What are the values or principles that guide this mission?**
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 [
 
 Introduction

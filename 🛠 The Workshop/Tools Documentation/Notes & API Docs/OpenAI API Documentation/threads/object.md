@@ -1,3 +1,17 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What is the goal of the mission?** What are you trying to achieve? "
+* **Who is involved?**  Is this a personal mission, a team mission, or a mission for a larger organization?
+* **What are the key objectives?** What specific steps need to be taken to achieve the goal?
+
+Once you give me more information, I can help you complete the mission statement by: "* **Formulating a clear and concise mission statement.**"
+* **Ensuring it aligns with your goals and values.**
+* **Making it inspiring and motivating.**
+
+I look forward to hearing more about your mission!
+---
+
 [
 
 Introduction

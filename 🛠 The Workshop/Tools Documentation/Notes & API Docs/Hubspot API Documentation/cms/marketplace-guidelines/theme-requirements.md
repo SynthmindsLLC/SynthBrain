@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  "MISSION" is a very broad term. To help me write a compelling mission statement, I need to know: "* **What is the subject of the mission?** Is it for a company, a project, a team, an individual, or something else?"
+* **What are the goals or objectives?** What do you want to achieve?
+* **What are the values or principles?** What are the guiding beliefs behind the mission?
+
+Once I have a better understanding of the context, I can help you create a clear, concise, and inspiring mission statement.
+---
+
 HubSpot Template Marketplace theme requirements
 
 

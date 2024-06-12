@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're trying to write about. 
+
+For example, tell me: "* **What is the mission for?** Is it a company, a project, a personal goal, a video game, etc.? "
+* **What is the overall objective?** What are you trying to achieve? 
+* **Who is the target audience?** Who is this mission meant for?
+
+Once you give me some more information, I can help you write a compelling and effective mission statement.
+---
+
 *   このページの内容
 *   [403 アクセス制限付きエラーについて](#understand-403-errors)
 *   [Google AI Studio で「コンテンツがない」というレスポンスを解決する](#resolve-no-content)

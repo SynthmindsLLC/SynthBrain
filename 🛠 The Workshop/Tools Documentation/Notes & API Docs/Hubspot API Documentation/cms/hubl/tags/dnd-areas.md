@@ -1,3 +1,12 @@
+---
+Please provide me with more information about the mission you're describing.  To help me understand and assist you, tell me: "* **What is the mission about?**  Is it a personal mission, a mission for a company, a mission for a project, etc.? "
+* **What is the goal of the mission?**  What are you trying to achieve?
+* **Who is involved in the mission?**  Who are the stakeholders?
+* **What are the key elements of the mission?**  What are the most important aspects?
+
+Once I have a better understanding of your mission, I can help you develop a compelling and effective statement.
+---
+
 Drag and Drop Area HubL tags
 
 

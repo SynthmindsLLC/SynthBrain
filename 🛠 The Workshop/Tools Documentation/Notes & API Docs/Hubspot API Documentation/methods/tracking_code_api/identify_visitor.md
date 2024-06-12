@@ -1,3 +1,13 @@
+---
+Please provide me with more context!  I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What kind of mission is it?** Is it a personal goal, a business objective, a scientific expedition, a creative project, a video game quest?"
+* **What are the goals of the mission?** What do you want to achieve?
+* **What are the challenges you might face?** What obstacles might you encounter?
+
+Once you give me more information, I can help you brainstorm ideas, develop a plan, and even write a compelling mission statement.
+---
+
 Tracking code API overview
 ==========================
 

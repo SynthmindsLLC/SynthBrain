@@ -1,3 +1,11 @@
+---
+Please provide me with the context or the rest of the mission statement.  I need more information to help you complete it. For example: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal? "
+* **What are the key values or goals?** What do you want to achieve? 
+* **Who is the target audience?** Who is this mission statement for? 
+
+Once I have more information, I can help you write a compelling and impactful mission statement.
+---
+
 NumberInput | UI components (BETA)
 ==================================
 

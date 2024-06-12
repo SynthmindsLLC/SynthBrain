@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to understand what the mission is about. 
+
+For example, you could tell me: "* **What organization or project is this mission for?** "
+* **What are the main goals or aims of this mission?** 
+* **What is the overall purpose or vision?**
+
+Once you give me more information, I can help you complete the mission statement and make it clear, concise, and impactful.
+---
+
 Listing page requirements
 
 

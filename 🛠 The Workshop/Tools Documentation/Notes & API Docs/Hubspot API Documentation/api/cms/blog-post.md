@@ -8,8 +8,9 @@ tags:
 - "Blogging"
 relationships:
 - "#related_to [[Publishing]]"
-- "#similar_to [[Content Management System]]"]]
+- "#similar_to [[Content Management System]]"
 - "#enables [[Website Content Creation]]"
+- "#authored_by [[HubSpot]]"
 createdAt: "2023-01-01"
 updatedAt: "2023-04-01"
 ---

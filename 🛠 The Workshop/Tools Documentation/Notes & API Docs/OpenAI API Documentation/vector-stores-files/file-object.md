@@ -1,3 +1,13 @@
+---
+Please provide me with the context for the mission. What is the mission about? 
+
+For example, tell me: "* **What is the goal of the mission?**  (e.g., explore a new planet, rescue a group of people, deliver a message)"
+* **Who is involved in the mission?** (e.g., a team of astronauts, a secret agent, a group of rebels)
+* **Where does the mission take place?** (e.g., on a spaceship, in a jungle, in a futuristic city)
+
+Once I have this information, I can help you write a compelling mission statement.
+---
+
 [
 
 Introduction

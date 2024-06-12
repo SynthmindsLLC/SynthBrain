@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to write about. I need some context to be able to write a compelling mission statement. 
+
+For example, tell me: "* **What is the mission about?**  Is it about a company, a project, a personal goal, a community initiative?"
+* **What is the purpose?** What are you trying to achieve?
+* **What are the key values?** What principles are guiding your actions?
+* **Who is the target audience?** Who will be affected by this mission?
+
+The more information you give me, the better I can help you create a powerful and effective mission statement.
+---
+
 *   이 페이지의 내용
 *   [기본 요건](#prerequisites)
 *   [API 키 설정](#set-up-api-key)

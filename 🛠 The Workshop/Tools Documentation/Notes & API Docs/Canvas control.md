@@ -1,18 +1,12 @@
 ---
-title: "JavaScript Function for Obsidian to Create and Manage Canvas with Nodes and Edges"
-description: "This note outlines a JavaScript function designed for use within the Obsidian environment. The function enables the creation of a new canvas and facilitates the addition and interaction of nodes and edges within that canvas."
-type: "code"
-tags:
-- "Obsidian"
-- "JavaScript"
-- "Canvas"
-- "Nodes"
-- "Edges"
-- "Function"
-relationships:
-- "#used_for [[Creating a new canvas]]"
-- "#enables [[Adding and managing nodes and edges within the Obsidian environment]]"
-date: "2024-04-04"
+Please provide me with more information so I can help you write a compelling mission statement. 
+
+Tell me: "* **What is the purpose of this mission statement?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the core values of this entity?** What are the fundamental beliefs and principles that guide its actions?
+* **What are the goals and objectives?** What does this entity aim to achieve?
+* **Who are the target audience?** Who will be impacted by this mission statement?
+
+Once I have this information, I can help you craft a concise and impactful mission statement that captures the essence of your vision.
 ---
 
 ```javascript

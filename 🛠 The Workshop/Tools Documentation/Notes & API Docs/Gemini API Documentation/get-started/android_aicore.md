@@ -1,3 +1,12 @@
+---
+Please provide me with more context! To write a compelling mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else entirely?"
+* **What are the key values and objectives?** What are the core beliefs and desired outcomes that will guide this mission?
+* **Who is the target audience?** Who will be impacted by this mission?
+* **What are the unique aspects of this mission?** What makes this mission different from others?
+
+Once you provide me with this information, I can help you craft a powerful and impactful mission statement.
+---
+
 *   このページの内容
 *   [オンデバイス実行のメリット](#benefits-on-device)
 *   [仕組み](#how-it)

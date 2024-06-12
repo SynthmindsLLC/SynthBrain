@@ -4,7 +4,7 @@ description: "Use the postal mail engagement API to log and manage postal mail o
 type: "group"
 tags:
 - "CRM"
-- "Postal Mail"
+- "Postal_Mail"
 - "HubSpot"
 relationships:
 - "#created_by [[API]]"

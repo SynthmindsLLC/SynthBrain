@@ -8,7 +8,7 @@ tags:
 - "CRM"
 relationships:
 - "#part_of [[HubSpot CRM]]"
-- "#related_to [[Notes]], [[Calls]], [[Tasks]], [[Meetings]], [[Emails]], [[Postal Mail]], [[Communications]]
+- "#related_to [[Notes]], [[Calls]], [[Tasks]], [[Meetings]], [[Emails]], [[Postal Mail]], [[Communications]]"
 founded: "2014-05-08"
 ---
 

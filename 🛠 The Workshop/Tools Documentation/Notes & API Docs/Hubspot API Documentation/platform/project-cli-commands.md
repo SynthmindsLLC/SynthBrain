@@ -1,3 +1,13 @@
+---
+Please provide me with more context. What is the mission about? 
+
+For example, you could tell me: "* **What is the subject of the mission?** (e.g., a company, a team, a project, a personal goal)"
+* **What is the goal of the mission?** (e.g., to improve customer satisfaction, to launch a new product, to achieve a personal fitness goal)
+* **What are the specific objectives of the mission?** (e.g., increase sales by 10%, reduce production costs by 5%, run a marathon)
+
+Once you give me more information, I can help you craft a compelling mission statement.
+---
+
 Developer projects CLI commands (BETA)
 ======================================
 

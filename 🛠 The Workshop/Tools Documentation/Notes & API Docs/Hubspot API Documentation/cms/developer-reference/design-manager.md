@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement so I can help you complete it. 
+
+For example, you could say: * **"Our mission is to..."** 
+* **"...to provide..."**
+* **"...to create..."**
+
+Once you give me more context, I can help you craft a strong and impactful mission statement.
+---
+
 Design Manager
 
 

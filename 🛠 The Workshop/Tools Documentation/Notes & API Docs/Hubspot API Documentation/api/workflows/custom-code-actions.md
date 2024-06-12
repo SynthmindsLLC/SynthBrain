@@ -4,12 +4,17 @@ description: "In workflows, use the _Custom code_ action to write and execute Ja
 type: "work"
 tags:
 - "Workflow"
-- "Custom Code Actions"
+- "Custom_Code_Actions"
 - "JavaScript"
 - "Python"
 relationships:
 - "#enables [[Extending Workflow Functionality]]"
 - "#requires [[HubSpot APIs]]"
+- "#related_to [[HubSpot Developer Documentation]], [[HubSpot Programmable Automation Use Cases]]"
+- "#uses [[Node 16.x runtime framework]], [[Python 3.9 runtime framework]], [[AWS Lambda]]"
+- "#supported_by [[HubSpot Support]], [[HubSpot Developer's Forum]]"
+- "#uses [[@hubspot/api-client]], [[axios]], [[lodash]], [[mongoose]], [[mysql]], [[redis]], [[request]], [[bluebird]], [[random-number-csprng]], [[googleapis]]"
+- "#uses [[requests]], [[@hubspot/api-client]], [[google-api-python-client]], [[mysql-connector-python]], [[redis]], [[nltk]]"
 created_date: "YYYY-MM-DD # Replace with actual creation date if known."
 ---
 

@@ -6,11 +6,14 @@ tags:
 - "HubSpot"
 - "API"
 - "Tasks"
+- "CRM"
+- "Task_Management"
+- "Marketing_Professionals"
 relationships:
 - "#related_to [[CRM]]"
 - "#used_by [[Marketing Professionals]]"
 - "#enables [[Task Management]]"
-created_date: "YYYY-MM-DD # Replace with actual creation date of the guide"
+created_date: "YYYY-MM-DD"
 ---
 
 Tasks

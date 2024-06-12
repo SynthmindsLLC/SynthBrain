@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement so I can help you complete it! 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal?)"
+* **What are the key values or goals?** (What does this mission aim to achieve?) 
+* **Who is the target audience?** (Who will benefit from this mission?)
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 HubL variables
 
 

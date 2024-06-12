@@ -1,3 +1,14 @@
+---
+Please provide me with more context. What kind of mission are you writing about?  
+
+For example, are you writing about: * **A personal mission statement?**  (e.g., "My mission is to live a life of purpose and impact.")
+* **A business mission statement?** (e.g., "Our mission is to provide high-quality, sustainable products to our customers.")
+* **A fictional mission for a story or game?** (e.g., "The mission is to rescue the princess from the evil wizard.")
+* **A scientific mission?** (e.g., "The mission is to explore the surface of Mars.")
+
+Once I know what kind of mission you're writing, I can help you brainstorm ideas and write a compelling statement.
+---
+
 *   이 페이지의 내용
 *   [시작하기 전에: 프로젝트 및 API 키 설정](#set-up-project-and-api-key)
     *   [Python SDK 설치 및 패키지 가져오기](#install-sdk-and-import-packages)

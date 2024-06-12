@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you're writing about. I need context to help you craft a compelling mission statement. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a non-profit, or something else?"
+* **What are the goals and objectives?** What are you trying to achieve?
+* **Who is the target audience?** Who will benefit from this mission?
+* **What are the values and principles that guide this mission?**
+
+Once you give me more details, I can help you write a strong and impactful mission statement.
+---
+
 CrmCardActions | UI components (BETA)
 =====================================
 

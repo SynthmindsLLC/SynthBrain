@@ -1,3 +1,14 @@
+---
+Please provide me with more information so I can help you write a compelling mission statement. 
+
+Tell me: "* **What is the purpose of this mission statement?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the key values, goals, and aspirations of the entity or project?** 
+* **Who is the target audience for this mission statement?** 
+* **What kind of tone and style are you looking for?** (formal, informal, inspiring, etc.)
+
+Once I have this information, I can help you craft a powerful and effective mission statement.
+---
+
 Accordion | UI components (BETA)
 ================================
 

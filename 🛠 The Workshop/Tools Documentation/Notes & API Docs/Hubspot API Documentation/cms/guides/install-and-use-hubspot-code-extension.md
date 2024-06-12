@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you write it. 
+
+Tell me: "* **What is the subject of the mission?** Is it for a company, a project, a personal goal, a game, etc.?"
+* **What is the overall objective?** What do you want to achieve with this mission?
+* **Who is the target audience?** Who is this mission intended for? 
+* **What are the key values or principles?** What are the guiding principles that will drive the mission?
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
+---
+
 Install and use the HubSpot Visual Studio Code extension
 
 

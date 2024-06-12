@@ -1,3 +1,12 @@
+---
+Please provide me with the context or details for the mission you want to write about. For example: "* **What is the mission about?** (e.g., Saving the world, exploring a new planet, finding a lost artifact)"
+* **Who is involved?** (e.g., A team of scientists, a lone adventurer, a group of rebels)
+* **What are the goals?** (e.g., To stop a dangerous weapon, to discover a new species, to overthrow a tyrannical ruler)
+* **What are the challenges?** (e.g., Dangerous enemies, harsh environments, moral dilemmas)
+
+Once I have this information, I can help you write a compelling mission statement that captures the essence of the adventure.
+---
+
 *   이 페이지의 내용
 *   [조정 데이터 세트 만들기](#dataset)
 *   [조정된 모델 만들기](#create-tuned)

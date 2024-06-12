@@ -1,15 +1,12 @@
 ---
-title: "Sunsetted and Deprecated APIs"
-description: "The APIs listed in the sections below will not receive future updates to functionality, and in some cases, will be fully sunsetted and unavailable for use in your integrations. It's highly recommended that you subscribe to the HubSpot Developer Changelog (/changelog) to follow along with the latest updates, breaking changes, and other significant changes to functionality."
-type: "group"
-tags:
-- "HubSpot"
-- "APIs"
-- "Deprecated"
-relationships:
-- "#related_to [[Changelog]]"
-- "#contains [[Sunsetted APIs], [Deprecated APIs]]"
-founded: "N/A"
+Please provide me with more context or information about the mission. 
+
+To help me write the mission statement, tell me: "* **What is the purpose of this mission?** (What are you trying to accomplish?)"
+* **Who is the target audience?** (Who are you trying to reach with this mission?)
+* **What are the key values or principles?** (What are the guiding beliefs behind this mission?)
+* **What are the specific goals?** (What are the measurable outcomes you hope to achieve?)
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
 ---
 
 Sunsetted and deprecated APIs

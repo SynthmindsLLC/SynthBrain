@@ -3,13 +3,13 @@ title: "Create, Manage and Publish Website Pages"
 description: "Use this API to create, manage, and publish website and landing pages."
 type: "page"
 tags:
-- "Website Management"
-- "HubSpot CMS"
+- "Website_Management"
+- "HubSpot_CMS"
 relationships:
 - "#related_to [[API Documentation]]"
 - "#similar_to [[Content Creation Guides]]"
 - "#enables [[Page Customization]]"
-- "#used_by [[Marketers, Developers]]"
+- "#used_by [[Marketers]], [[Developers]]"
 createdAt: "2023-04-15T16:00:00Z"
 ---
 

@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of your mission statement! I need more context to understand what you're trying to achieve. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the main objectives?** What are you trying to accomplish?
+* **What are the values?** What principles guide your actions?
+
+Once you provide more information, I can help you complete your mission statement.
+---
+
 TextArea | UI components (BETA)
 ===============================
 

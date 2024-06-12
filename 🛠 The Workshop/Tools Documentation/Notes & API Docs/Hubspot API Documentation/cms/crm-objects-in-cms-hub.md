@@ -4,11 +4,14 @@ description: "Use CRM object data on your website, allowing sales, marketing, an
 type: "group"
 tags:
 - "CRM"
-- "HubSpot CMS"
-- "Data Integration"
+- "HubSpot_CMS"
+- "Data_Integration"
 relationships:
 - "#part_of [[CMS Hub]]"
 - "#enables [[Dynamic Pages]]"
+- "#used_for [[Website_Personalization]]"
+- "#used_for [[Data-Driven_Content]]"
+- "#related_to [[CRM_Objects_Schema_API]]"
 founded: "2014-03-05"
 ---
 

@@ -12,7 +12,6 @@ relationships:
 - "#used_by [[Sales and Services Teams]]"
 - "#part_of [[HubSpot CRM API]]"
 - "#enables [[User-Specific Goal Management]]"
-founded: "2014-03-01"
 ---
 
 Goals

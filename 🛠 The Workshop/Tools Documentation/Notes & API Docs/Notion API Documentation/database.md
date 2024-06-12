@@ -1,3 +1,12 @@
+---
+Please provide me with the context or details of the mission you'd like me to write.  For example: "* **What is the mission about?** (e.g., a space exploration mission, a humanitarian aid mission, a business expansion mission)"
+* **What is the objective of the mission?** (e.g., to reach Mars, to deliver food to refugees, to open a new branch in a foreign country)
+* **Who is involved in the mission?** (e.g., astronauts, relief workers, company employees)
+* **What are the challenges the mission faces?** (e.g., technological difficulties, political obstacles, financial constraints)
+
+Once I have a better understanding of your mission, I can help you craft a compelling and informative introduction.
+---
+
 JUMP TOCTRL-/
 
 Notion API

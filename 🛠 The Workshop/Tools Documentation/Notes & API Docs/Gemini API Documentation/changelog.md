@@ -1,3 +1,14 @@
+---
+Please provide me with more information so I can help you write a compelling mission statement! 
+
+Tell me: "* **What is the purpose of your mission?** Is it for a company, organization, project, or something else?"
+* **What are your core values?** What principles guide your actions?
+* **What do you want to achieve?** What is your ultimate goal?
+* **Who are you trying to reach?** Who will benefit from your mission?
+
+Once I have this information, I can help you craft a powerful and impactful mission statement.
+---
+
 *   這個頁面中的內容
 *   [2024 年 5 月 23 日](#05-23-24)
 *   [2024 年 5 月 14 日](#05-14-24)

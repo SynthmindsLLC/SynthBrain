@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+For example, tell me: "* **What is the mission about?** Is it a company mission, a personal goal, a scientific expedition, a creative project?"
+* **What is the objective of the mission?** What are you trying to achieve?
+* **Who is involved in the mission?** Are there specific individuals or teams?
+* **What are the key challenges and opportunities associated with the mission?**
+
+Once I have a better understanding of the context, I can help you craft a compelling and informative mission statement.
+---
+
 Statistics | UI components (BETA)
 =================================
 

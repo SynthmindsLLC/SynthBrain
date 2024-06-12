@@ -1,3 +1,13 @@
+---
+Please provide me with the context or details about the mission you want to describe.  
+
+For example, tell me: "* **What is the mission about?** (e.g., a space mission, a business mission, a personal mission)"
+* **Who is involved?** (e.g., a team of astronauts, a company, an individual)
+* **What is the goal?** (e.g., to explore a new planet, to launch a new product, to achieve personal growth)
+
+Once I have this information, I can help you write a compelling and informative mission statement.
+---
+
 *   このページの内容
 *   [利用可能なリージョン](#available_regions)
 

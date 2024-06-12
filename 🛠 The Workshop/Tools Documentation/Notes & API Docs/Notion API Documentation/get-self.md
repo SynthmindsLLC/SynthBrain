@@ -1,3 +1,12 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to complete the sentence.  
+
+For example, tell me: "* **What is the subject of the mission?** (e.g., a company, a team, a project, a personal goal)"
+* **What is the purpose of the mission?** (e.g., to achieve a certain outcome, to solve a problem, to make a difference)
+
+Once you provide me with this information, I can help you write a compelling and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

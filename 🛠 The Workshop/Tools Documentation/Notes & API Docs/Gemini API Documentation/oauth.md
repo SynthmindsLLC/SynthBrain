@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to understand what you're trying to accomplish. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal?"
+* **What are the key values or goals?** What are you trying to achieve?
+* **Who are you trying to reach?** Who will benefit from this mission?
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
+---
+
 *   이 페이지의 내용
 *   [목표](#objectives)
 *   [기본 요건](#prerequisites)

@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about to help you. 
+
+For example: "* **What is the mission for?** (A company, a team, a project, a personal goal?)"
+* **What is the overall goal?**  What are you trying to achieve?
+* **What are the key objectives?** What specific steps need to be taken to achieve the goal?
+* **What is the target audience?** Who are you trying to reach with this mission?
+
+Once you give me more information, I can help you craft a compelling and effective mission statement.
+---
+
 [
 
 Introduction

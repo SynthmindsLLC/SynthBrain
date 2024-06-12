@@ -1,3 +1,11 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about. For example: "* **What is the mission for?** A company, a team, a personal goal?"
+* **What are the goals of the mission?** What do you hope to achieve? 
+* **What are the values that guide the mission?** What principles are important to you?
+
+Once I have more information, I can help you write a compelling and impactful mission statement!
+---
+
 [
 
 Introduction

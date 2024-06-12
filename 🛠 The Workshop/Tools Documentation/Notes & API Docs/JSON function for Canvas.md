@@ -1,20 +1,11 @@
 ---
-title: "JavaScript Function to Generate JSON Diagram for Obsidian Canvas"
-description: "A detailed explanation and code snippet for a JavaScript function that generates a JSON representation of a diagram suitable for Obsidian Canvas, based on user-defined nodes and edges."
-date: "2024-04-04"
-tags:
-- "Obsidian"
-- "JavaScript"
-- "JSON"
-- "Diagram"
-- "Canvas"
-type: "code"
-relationships:
-- "#used_for [[Generating Diagrams for Obsidian Canvas]]"
-- "#related_to [[Flowchart Visualization]]"
-- "#implements [[JavaScript Functionality]]"
-language: "JavaScript"
-version: " "
+Please provide me with more context! I need to know what kind of mission you're writing about. 
+
+For example, tell me: "* **What is the mission about?** Is it for a company, a team, a project, a personal goal?"
+* **What is the purpose or goal of the mission?** What are you trying to achieve?
+* **Who is the target audience?** Who is this mission for? 
+
+Once I have more information, I can help you write a compelling and impactful mission statement.
 ---
 
 ```javascript

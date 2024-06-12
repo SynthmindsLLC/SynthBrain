@@ -1,15 +1,18 @@
 ---
 title: "Cookie consent banner API"
 description: "Super admins and users with permission to edit website settings can customize visitor cookie tracking and consent banners for GDPR compliance. This feature works on all HubSpot pages and external pages with the HubSpot tracking code installed. Learn how to manage cookies through the cookie consent banner, including removal, placing a do not track cookie, getting privacy consent status, enabling visitors to manage their consent, manual handling of third-party cookies, and examples for Google Tag and Hotjar."
-type: "group"
+type: "concept"
 tags:
 - "HubSpot"
-- "Cookie Consent Banner"
-- "GDPR Compliance"
+- "Cookie_Consent_Banner"
+- "GDPR_Compliance"
+- "EU_cookie_laws"
 relationships:
 - "#related_to [[EU cookie laws]]"
 - "#enables [[Visitor consent management for cookies]]"
-founded: "N/A"
+- "#used_for [[GDPR Compliance]]"
+- "#implements [[Google Tag]], [[Hotjar]]"
+- "#used_by [[Super Admins]], [[Users with website settings permissions]]"
 ---
 
 Cookie consent banner API

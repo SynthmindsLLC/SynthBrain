@@ -1,3 +1,11 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about in order to help you. For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal? "
+* **What is the overall objective?** What do you want to achieve with this mission?
+* **What are the key values or principles that will guide the mission?**
+
+Once you give me more information, I can help you write a compelling and effective mission statement.
+---
+
 HubSpot Template Marketplace policies
 
 

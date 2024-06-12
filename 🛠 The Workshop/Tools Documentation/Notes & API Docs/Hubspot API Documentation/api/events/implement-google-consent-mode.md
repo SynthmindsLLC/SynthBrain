@@ -1,16 +1,18 @@
 ---
-title: "Implement Google consent mode v2"
+title: "Google Consent Mode v2"
 description: "A framework designed to integrate website visitor consent preferences with Google's advertising and analytics tools, allowing websites to adjust how these tools behave based on the consent status of website visitors."
-type: "group"
+type: "concept"
 tags:
-- "Google Consent Mode"
+- "Google_Consent_Mode"
 - "Privacy"
 - "Advertising"
 - "Analytics"
 relationships:
-- "#related_to [[Website Visitor Consent]]"
-- "#enables [[Compliance with Privacy Regulations]]"
-founded: "2018-04-30"
+- "#related_to [[Website_Visitor_Consent]]"
+- "#enables [[Compliance_with_Privacy_Regulations]]"
+- "#used_for [[Google_Analytics_4]], [[Google_Tag_Manager]]"
+- "#requires [[HubSpot_Cookie_Banner]]"
+- "#developed_by [[Google]]"
 ---
 
 Implement Google consent mode

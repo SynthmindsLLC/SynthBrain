@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you write it. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a team, a personal goal?)"
+* **What are the core values or goals?** (What does this mission aim to achieve?)
+* **Who is the target audience?** (Who are you trying to reach with this mission statement?)
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 HubDB
 
 

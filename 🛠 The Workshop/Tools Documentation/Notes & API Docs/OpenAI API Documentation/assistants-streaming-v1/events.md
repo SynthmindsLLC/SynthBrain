@@ -1,3 +1,19 @@
+---
+Please provide me with the rest of the mission statement so I can understand what you want me to do. 
+
+For example, you could say: * **"Our mission is to..."**
+* **"The mission of our company is to..."**
+* **"The mission of this project is to..."**
+
+Once you provide me with the full mission statement, I can help you: "* **Analyze the mission**"
+* **Suggest ways to improve it**
+* **Develop a plan to achieve the mission**
+* **Find relevant resources** 
+* **And more!** 
+
+I'm here to help you make your mission a reality.
+---
+
 [
 
 Introduction

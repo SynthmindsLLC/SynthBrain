@@ -1,3 +1,13 @@
+---
+Please provide me with the context or the topic of the mission you want to define. 
+
+For example, tell me: "* **What is the mission for?** (e.g., a company, a project, a team, a personal goal)"
+* **What is the overall objective?** (e.g., to solve a problem, to create something new, to improve something)
+* **What are the key values or principles?** (e.g., innovation, sustainability, customer focus)
+
+Once I have this information, I can help you create a compelling and impactful mission statement.
+---
+
 UI components overview (BETA)
 =============================
 

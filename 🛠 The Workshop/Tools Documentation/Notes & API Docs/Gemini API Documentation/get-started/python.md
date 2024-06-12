@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the text for your mission statement! I need more context to understand the purpose and goals of your mission. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, an organization, or something else?"
+* **What are the key values or principles?** What are the guiding ideas behind the mission?
+* **What are the desired outcomes?** What do you want to achieve through this mission?
+
+Once I have this information, I can help you complete your mission statement in a clear, concise, and inspiring way.
+---
+
 *   이 페이지의 내용
 *   [기본 요건](#prerequisites)
 *   [설정](#setup)

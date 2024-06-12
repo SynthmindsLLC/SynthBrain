@@ -1,3 +1,14 @@
+---
+Please provide me with more context!  "MISSION..." is a great start, but I need more information to help you write a compelling mission statement. 
+
+Tell me: "* **What is the mission for?**  Is it for a company, a project, a personal goal, a community initiative? "
+* **What are the core values and goals?** What do you want to achieve?
+* **What makes this mission unique?** What sets it apart from others?
+* **Who are you trying to reach?**  Who is your target audience?
+
+Once I have this information, I can help you craft a powerful and impactful mission statement!
+---
+
 *   這個頁面中的內容
 *   [提供清楚明確的指示](#give-clear-and-specific-instructions)
     *   [定義要執行的工作](#define-the-task-to-perform)

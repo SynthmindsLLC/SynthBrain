@@ -1,3 +1,11 @@
+---
+Please provide me with more information!  To write a mission statement, I need to know: "* **What is the purpose of this mission?**  Is it for a company, a project, a personal goal, or something else?"
+* **What are the key values and goals?** What does this mission aim to achieve?
+* **Who is the target audience?** Who will benefit from this mission?
+
+Once you provide me with these details, I can help you write a compelling and impactful mission statement.
+---
+
 [
 
 Introduction

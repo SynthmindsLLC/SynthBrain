@@ -1,3 +1,15 @@
+---
+Please provide me with the context or details about the mission so I can help you complete it! 
+
+For example, tell me: "* **What is the mission about?** (What is the goal or objective?)"
+* **Who is involved?** (Who is participating in the mission?)
+* **What are the challenges?** (What obstacles need to be overcome?)
+* **What are the resources?** (What tools, equipment, or support is available?)
+* **What is the desired outcome?** (What should be achieved by the end of the mission?)
+
+Once I have this information, I can help you flesh out the mission statement and give you suggestions for the next steps.
+---
+
 *   這個頁面中的內容
 *   [使用 Gemini API 建構聊天機器人](#chatbot)
 *   [使用 Gemini API 的多模態工作](#multimodal)

@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a company, a project, a personal goal)"
+* **What are the goals of the mission?** (e.g., to improve efficiency, to solve a problem, to achieve a certain outcome)
+* **What are the values that guide the mission?** (e.g., innovation, sustainability, collaboration)
+* **What is the desired outcome of the mission?** (e.g., a successful product launch, a positive social impact, personal growth)
+
+The more details you provide, the better I can help you write a compelling mission statement.
+---
+
 Create UI extensions with React (BETA)
 ======================================
 

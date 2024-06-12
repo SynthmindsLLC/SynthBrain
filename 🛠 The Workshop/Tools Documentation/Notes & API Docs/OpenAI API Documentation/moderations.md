@@ -1,3 +1,13 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+To help me write the best mission statement for you, I need to know: "* **What is the purpose of this mission?**  Is it for a company, a project, a personal goal, or something else?"
+* **What are the goals of this mission?** What do you hope to achieve?
+* **What are the values that underpin this mission?** What principles are important to you?
+
+Once I have this information, I can help you craft a clear, concise, and inspiring mission statement.
+---
+
 [
 
 Introduction

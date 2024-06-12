@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement so I can help you complete it! 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a group, etc.)"
+* **What are the key goals or values?** 
+* **What is the desired outcome or impact?**
+
+Once you give me some context, I can help you write a compelling and clear mission statement.
+---
+
 [
 
 Introduction

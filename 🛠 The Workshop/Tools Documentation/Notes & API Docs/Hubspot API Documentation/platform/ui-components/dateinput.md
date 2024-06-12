@@ -1,3 +1,11 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about. For example: "* **What is the mission about?** Is it a personal mission statement, a mission for a company, a mission for a project, etc.?"
+* **What is the goal of the mission?** What are you trying to achieve?
+* **What are some of the key elements of the mission?** What values, beliefs, or actions will guide the mission?
+
+Once you provide me with more information, I can help you write a compelling and effective mission statement.
+---
+
 DateInput | UI components (BETA)
 ================================
 

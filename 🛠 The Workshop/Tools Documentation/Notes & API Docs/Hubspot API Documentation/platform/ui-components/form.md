@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+To help me write a compelling mission statement, tell me: "* **What is the purpose of this mission?** What do you want to achieve?"
+* **Who are you trying to reach?**  What is your target audience?
+* **What are the core values of this mission?** What principles will guide your actions?
+* **What are the key activities involved?** What steps will you take to achieve your goals?
+
+Once you give me these details, I can craft a strong mission statement for you.
+---
+
 Form | UI components (BETA)
 ===========================
 

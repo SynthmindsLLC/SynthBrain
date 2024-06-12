@@ -1,3 +1,15 @@
+---
+Please provide me with more context!  What kind of mission are you writing about? To help me write a good mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a team, a project, a personal goal, or something else entirely?"
+* **What are the key values or beliefs that underpin this mission?** 
+* **What are the desired outcomes or goals of this mission?** 
+
+For example, you could tell me: * "This is the mission statement for a new tech startup that wants to revolutionize online education."
+* "This is a personal mission statement for someone who wants to become a published author."
+* "This is the mission statement for a team of engineers working on a new medical device."
+
+The more information you give me, the better I can help you craft a compelling and meaningful mission statement.
+---
+
 [
 
 Introduction

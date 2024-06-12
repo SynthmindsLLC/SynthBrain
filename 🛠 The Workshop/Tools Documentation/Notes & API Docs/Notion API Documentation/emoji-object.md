@@ -1,3 +1,12 @@
+---
+Please provide me with the context or details about the mission you want to write about. For example: "* **What is the mission's purpose?** Is it a rescue mission, a scientific expedition, a business venture, or something else? "
+* **Who is involved?** Are there specific individuals or teams? 
+* **What are the challenges?** What obstacles or dangers will they face?
+* **What is the desired outcome?** What do they hope to achieve?
+
+Once you give me more information, I can help you write a compelling and engaging mission description.
+---
+
 JUMP TOCTRL-/
 
 Notion API

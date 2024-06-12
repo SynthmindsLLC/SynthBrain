@@ -1,3 +1,13 @@
+---
+Please provide me with more context! To help you create a compelling mission statement, I need to know: "**What is the subject of this mission?** Is it for a company, a project, a team, a personal goal, or something else entirely? "
+
+**What is the purpose or goal of this mission?** What are you trying to achieve? 
+
+**Who is the target audience for this mission?**  Are you trying to inspire, inform, or motivate a specific group of people?
+
+Once you provide me with these details, I can help you craft a powerful and effective mission statement.
+---
+
 How To build a Dynamic Team Member Page with HubDB
 
 

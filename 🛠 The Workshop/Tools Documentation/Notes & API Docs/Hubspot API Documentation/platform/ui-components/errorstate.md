@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe! I need more context to help you write a compelling mission statement. 
+
+For example, tell me: "* **What is the mission about?** What are you trying to accomplish? "
+* **Who is this mission for?** What is the target audience?
+* **What are the main goals of the mission?** What are you hoping to achieve? 
+* **What are the values that underpin this mission?** What principles guide your actions?
+
+The more information you give me, the better I can help you craft a clear, concise, and impactful mission statement.
+---
+
 ErrorState | UI components (BETA)
 =================================
 

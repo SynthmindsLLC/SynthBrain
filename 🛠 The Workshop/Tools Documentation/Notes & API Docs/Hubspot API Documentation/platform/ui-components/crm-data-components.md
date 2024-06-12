@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What is the overall goal?** What are you trying to achieve?"
+* **Who is the target audience?** Who are you trying to reach with this mission?
+* **What are the specific objectives?** What are the key steps or tasks that need to be completed?
+* **What are the resources available?** What tools, people, or information can you use to accomplish the mission?
+
+Once you give me more information, I can help you develop a compelling and effective mission statement.
+---
+
 CRM data components (BETA)
 ==========================
 

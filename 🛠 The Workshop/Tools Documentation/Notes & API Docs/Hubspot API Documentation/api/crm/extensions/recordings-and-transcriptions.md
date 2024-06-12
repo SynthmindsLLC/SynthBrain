@@ -4,7 +4,7 @@ description: "If you want to make call recordings playable in your HubSpot accou
 type: "integration"
 tags:
 - "HubSpot"
-- "Call Recording"
+- "Call_Recording"
 - "Transcription"
 relationships:
 - "#requires [[Conversation Intelligence]]"
@@ -12,6 +12,7 @@ relationships:
 - "#creates [[Log a call with your app's endpoint using the engagements API]]"
 - "#associates [[Associate calls with records]]"
 - "#marks [[Mark a call recording as ready]]"
+- "#replaces [[Unauthenticated approach to logging call recordings]]"
 ---
 
 Recordings and transcripts

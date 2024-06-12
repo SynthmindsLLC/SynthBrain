@@ -1,3 +1,15 @@
+---
+Please provide me with more information about the mission you'd like to write about. I need context to help you create a compelling mission statement. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal, etc.)"
+* **What are the core values or principles?**
+* **What are the specific goals or objectives?** 
+* **Who is the target audience?** 
+* **What impact do you want to make?**
+
+Once you give me this information, I can help you craft a strong and impactful mission statement.
+---
+
 Creating a related blog post listing with the blog related posts HubL tag
 
 

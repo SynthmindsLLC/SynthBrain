@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to understand what the mission is about.  
+
+For example, tell me: "* **What organization or entity is this mission for?** (A company, a school, a non-profit, etc.)"
+* **What is the purpose or goal of this organization?** What does it aim to achieve?
+* **What are the key values or principles that guide the organization?** 
+
+Once I have this information, I can help you complete the mission statement and make it compelling and clear.
+---
+
 *   이 페이지의 내용
 *   [설정](#setup)
     *   [인증](#authenticate)

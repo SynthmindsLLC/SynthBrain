@@ -1,3 +1,14 @@
+---
+Please provide me with more context!  I need to know what kind of mission you're describing. 
+
+For example: "* **What is the purpose of the mission?** Is it a personal goal, a business objective, a scientific expedition, or something else entirely?"
+* **Who is involved in the mission?** Is it a solo endeavor, a team effort, or a collaboration between different organizations?
+* **What are the specific objectives of the mission?** What are the desired outcomes or results? 
+* **What are the challenges or obstacles that might be encountered during the mission?**
+
+Once I have a better understanding of the context, I can help you craft a compelling mission statement.
+---
+
 [
 
 Introduction

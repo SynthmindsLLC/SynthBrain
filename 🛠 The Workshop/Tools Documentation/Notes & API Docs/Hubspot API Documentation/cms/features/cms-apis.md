@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement. I need more context to understand what the mission is about and provide a relevant response. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal?"
+* **What are the key values or objectives?** What do you want to achieve?
+* **Who is the target audience?** Who will benefit from this mission?
+
+Once you give me more information, I can help you complete the mission statement and make it strong and effective.
+---
+
 CMS APIs
 
 

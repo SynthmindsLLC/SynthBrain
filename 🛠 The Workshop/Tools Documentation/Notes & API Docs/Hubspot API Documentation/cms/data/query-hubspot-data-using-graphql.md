@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about to help you. 
+
+For example: "* **What is the mission for?** Is it for a company, a non-profit, a team, or something else?"
+* **What is the goal of the mission?** What do you want to achieve?
+* **What are the key values and principles that guide your mission?**
+
+Once I have this information, I can help you write a clear, concise, and inspiring mission statement.
+---
+
 Query HubSpot data using GraphQL 
 
 

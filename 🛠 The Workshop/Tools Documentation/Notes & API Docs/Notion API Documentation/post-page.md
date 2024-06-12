@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the prompt! I need more context to understand what you are asking for. 
+
+For example, tell me: "* **What kind of mission are you writing about?** (e.g., a space mission, a secret mission, a business mission, etc.)"
+* **What is the goal of the mission?** (e.g., to explore Mars, to deliver a package, to increase profits, etc.)
+* **What are the key details about the mission?** (e.g., the team, the timeline, the resources, etc.)
+
+Once I have this information, I can help you write a compelling and informative mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

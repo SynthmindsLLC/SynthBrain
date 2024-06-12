@@ -1,3 +1,13 @@
+---
+Please provide me with the context or information about the mission you want to describe. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a business, a project, a personal goal)"
+* **What is the purpose or objective of the mission?** (e.g., to improve customer satisfaction, to launch a new product, to learn a new skill)
+* **What are the key elements or actions involved in the mission?** (e.g., research, development, marketing, communication)
+
+Once I have this information, I can help you write a compelling and effective mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

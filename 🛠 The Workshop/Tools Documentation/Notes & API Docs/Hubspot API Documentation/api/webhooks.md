@@ -4,8 +4,8 @@ description: "The Webhooks API allows you to subscribe to events happening in a 
 type: "document"
 tags:
 - "Webhooks"
-- "HubSpot Integration"
-- "API Documentation"
+- "HubSpot_Integration"
+- "API_Documentation"
 relationships:
 - "#related_to [[CRM object events]]"
 - "#related_to [[Conversations events]]"

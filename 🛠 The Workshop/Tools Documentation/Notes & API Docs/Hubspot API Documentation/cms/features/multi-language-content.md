@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you write it. 
+
+Tell me: "* **What is the subject of the mission?**  (e.g., a company, a team, a project, a personal goal)"
+* **What is the overall objective?** (e.g., to achieve success, to solve a problem, to make a difference)
+* **What are the key values or principles that will guide the mission?** (e.g., innovation, teamwork, sustainability)
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 Multi-language Content
 
 

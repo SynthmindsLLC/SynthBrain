@@ -1,3 +1,13 @@
+---
+Please provide me with more information about the mission you want to create. I need context to write a compelling mission statement. 
+
+For example, tell me: "* **What is the mission for?**  (e.g., a company, a project, a team, a personal goal)"
+* **What are the core values or goals of this mission?** (e.g., innovation, sustainability, community impact)
+* **What are the key activities or outcomes you hope to achieve?** (e.g., develop new technology, improve customer satisfaction, build a stronger community)
+
+The more information you give me, the better I can help you write a powerful and meaningful mission statement.
+---
+
 **Please note:** the serverless function features described in this article are specifically for developer projects. This includes both UI extensions and [JavaScript rendered modules and partials built with projects](https://github.hubspot.com/cms-js-building-block-examples/). For information about building serverless functions for websites outside of developer projects, visit the [CMS documentation](/docs/cms/data/serverless-functions).
 
 Include serverless functions in projects (BETA)

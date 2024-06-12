@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the prompt! I need more information to help you create a mission statement. 
+
+For example, tell me: "* **What is the subject of the mission?** (e.g., a company, a project, a personal goal)"
+* **What are the goals or objectives?** (e.g., to increase profits, to improve communication, to learn a new skill)
+* **What values or principles are important?** (e.g., innovation, customer satisfaction, sustainability)
+
+The more context you give me, the better I can assist you in crafting a compelling and effective mission statement.
+---
+
 Tracking code API overview
 ==========================
 

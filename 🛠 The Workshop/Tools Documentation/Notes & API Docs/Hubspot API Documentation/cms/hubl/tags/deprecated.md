@@ -1,3 +1,13 @@
+---
+Please provide me with more context. What kind of mission are you writing about? 
+
+For example: "* **Is it a mission statement for a company or organization?** "
+* **Is it a mission for a specific project or campaign?**
+* **Is it a mission statement for a personal goal?**
+
+Once I know the context, I can give you a better starting point or suggestions for your mission statement.
+---
+
 Deprecated HubL Supported Tags
 
 

@@ -1,3 +1,14 @@
+---
+Please provide me with the context or details of the mission you'd like me to complete. 
+
+For example, tell me: "* **What is the mission's objective?** What do you want to achieve?"
+* **Who is the target audience?** Who are you trying to reach?
+* **What are the key challenges?** What obstacles need to be overcome?
+* **What are the desired outcomes?** What should happen after the mission is completed? 
+
+Once you provide me with more information, I can help you develop a comprehensive and effective mission statement.
+---
+
 [
 
 Introduction

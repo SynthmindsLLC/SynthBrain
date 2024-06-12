@@ -1,3 +1,13 @@
+---
+Please provide me with the context or details for the mission you want to describe. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a space mission, a business venture, a personal goal)"
+* **Who is involved?** (e.g., a team, a company, an individual)
+* **What is the objective?** (e.g., explore Mars, increase profits, achieve enlightenment)
+
+Once you provide me with more information, I can help you create a compelling and engaging mission statement!
+---
+
 CrmStageTracker | UI components (BETA)
 ======================================
 

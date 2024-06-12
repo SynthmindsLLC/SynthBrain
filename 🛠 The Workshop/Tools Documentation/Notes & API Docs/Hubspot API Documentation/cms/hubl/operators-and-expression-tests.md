@@ -1,3 +1,14 @@
+---
+Please provide me with more information! I need to know what the mission is about before I can help you. 
+
+For example, tell me: "* **What is the purpose of this mission?** "
+* **Who is involved?** 
+* **What are the goals?** 
+* **What is the context?** 
+
+Once I have a better understanding of the mission, I can help you create a compelling and informative description.
+---
+
 Operators & Expression Tests
 
 

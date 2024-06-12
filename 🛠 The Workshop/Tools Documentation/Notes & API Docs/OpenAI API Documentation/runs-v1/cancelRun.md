@@ -1,3 +1,12 @@
+---
+Please provide me with the context or details of the mission you'd like to write about. For example: "* **What is the mission's goal?**  What are you trying to achieve?"
+* **Who is the mission for?**  Who are you trying to help?
+* **What are the specific actions involved in the mission?**  What needs to be done to achieve the goal? 
+* **What are the challenges involved?** What obstacles might you face?
+
+Once you give me more information, I can help you write a compelling mission statement.
+---
+
 [
 
 Introduction

@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about to help you complete the sentence.  
+
+For example, tell me: "* **What is the subject of the mission?** (e.g., a company, a team, a project, a person)"
+* **What is the goal of the mission?** (e.g., to save the world, to make a profit, to win a competition) 
+* **What is the specific task or objective of the mission?** (e.g., to reach Mars, to develop a new drug, to build a school)
+
+Once I have this information, I can help you write a compelling and informative mission statement.
+---
+
 [
 
 Introduction

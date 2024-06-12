@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about in order to help you. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, or something else?"
+* **What is the overall purpose?** What are you trying to achieve?
+* **What are the key objectives?** What specific goals need to be accomplished?
+
+Once I have this information, I can help you write a compelling and impactful mission statement.
+---
+
 How to add social login for membership pages
 
 

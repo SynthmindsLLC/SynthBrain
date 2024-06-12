@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the prompt! I need more information to understand what kind of mission you are asking about. 
+
+For example, tell me: "* **What kind of mission is it?** Is it a personal goal, a team project, a scientific expedition, a fictional quest, or something else entirely?"
+* **What is the context?**  What is the background of the mission? What are the circumstances?
+* **What is the objective?** What are you trying to achieve?
+
+Once I have a clearer understanding of your needs, I can help you craft a compelling mission statement!
+---
+
 [
 
 Introduction

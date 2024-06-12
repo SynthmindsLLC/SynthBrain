@@ -1,3 +1,19 @@
+---
+Please provide me with more context!  To help you craft a compelling mission statement, I need to know: "**1. What is the purpose of this mission statement?** "
+   * Is it for a company, a project, a non-profit, a personal goal, or something else?
+
+**2. What are the core values and beliefs that drive this mission?** 
+   * What are the fundamental principles that guide your actions and decisions?
+
+**3. What are the goals and objectives you hope to achieve?** 
+   * What outcomes are you striving for?
+
+**4. Who is your target audience?**
+   *  Who are you trying to reach with this mission statement?
+
+Once I understand the context, I can help you craft a powerful and inspiring mission statement that captures the essence of your vision.
+---
+
 StepperInput | UI components (BETA)
 ===================================
 

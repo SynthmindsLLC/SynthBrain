@@ -1,3 +1,16 @@
+---
+Please provide me with the context or details for the mission you want me to help you with.  
+
+For example: "* **What is the goal of the mission?** "
+* **What are the objectives?**
+* **What are the resources available?**
+* **What are the potential challenges?**
+
+The more information you give me, the better I can understand the mission and offer relevant suggestions. 
+
+I'm ready to help you brainstorm, plan, and even write a mission statement!
+---
+
 Getting started from the CMS quotes theme 
 
 

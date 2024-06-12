@@ -1,3 +1,12 @@
+---
+Please provide me with more context!  To help you write a mission statement, I need to know: "* **What is the mission for?**  Is it for a company, a project, a personal goal, a non-profit organization, etc.? "
+* **What is the purpose or objective?** What do you want to achieve? 
+* **Who are you serving?**  Who are you trying to help or benefit?
+* **What are your core values?** What principles guide your actions?
+
+Once you provide me with this information, I can help you craft a compelling and impactful mission statement.
+---
+
 RadioButton | UI components (BETA)
 ==================================
 

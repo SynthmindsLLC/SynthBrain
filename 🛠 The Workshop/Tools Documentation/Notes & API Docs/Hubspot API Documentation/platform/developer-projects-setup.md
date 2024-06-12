@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement so I can help you complete it. 
+
+For example, you could tell me: "* **The organization or project the mission statement is for.** This will help me understand the context and tailor the mission statement to the specific goals and values."
+* **What the organization or project aims to achieve.** This will give me a clearer idea of the overall purpose and direction.
+* **The key values or beliefs that guide the organization or project.** This will help me craft a mission statement that reflects the organization's core principles.
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 Developer projects setup guide (BETA)
 =====================================
 

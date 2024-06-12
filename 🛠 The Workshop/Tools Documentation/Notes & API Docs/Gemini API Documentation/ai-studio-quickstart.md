@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to help you complete it. 
+
+For example, tell me: "* **What is the mission for?**  Is it for a company, a project, a personal goal, a non-profit organization?"
+* **What are the main goals or values?**  What does this mission aim to achieve? 
+* **What is the target audience?** Who is this mission intended to benefit?
+
+Once you provide me with more information, I can help you craft a compelling and effective mission statement.
+---
+
 *   這個頁面中的內容
 *   [提示與模型調整](#prompts-and)
 *   [聊天提示範例：建構自訂即時通訊應用程式](#chat_example)

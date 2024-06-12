@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you. 
+
+For example, tell me: "* **What kind of mission is it?** Is it a personal mission, a business mission, a mission for a project, etc.?"
+* **What is the purpose of the mission?** What are you trying to achieve?
+* **What are the goals of the mission?** What specific outcomes are you aiming for?
+* **Who is involved in the mission?** Who are the key players?
+
+Once I have this information, I can help you write a compelling and effective mission statement.
+---
+
 HubL filters
 
 

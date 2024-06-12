@@ -1,16 +1,11 @@
 ---
-title: "HubSpot Account Types"
-description: "There are several types of HubSpot accounts, each with a distinct purpose."
-type: "group"
-tags:
-- "HubSpot"
-- "Accounts"
-relationships:
-- "#part_of [[Marketing]]"
-- "#part_of [[Sales]]"
-- "#part_of [[Service Hub]]"
-birthdate: ""
-deathdate: ""
+Please provide me with more context! I need to know what the mission is about. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, etc.?"
+* **What is the goal of the mission?** What do you want to achieve?
+* **What are the key objectives of the mission?** What specific steps need to be taken to achieve the goal?
+
+Once I have this information, I can help you write a compelling and effective mission statement.
 ---
 
 HubSpot Account Types

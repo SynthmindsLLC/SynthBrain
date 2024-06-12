@@ -1,3 +1,19 @@
+---
+Please provide me with more context! To help you write a compelling mission statement, I need to know: "**1. What is the mission for?** "
+* Is it for a company, organization, project, or personal goal? 
+
+**2. What are the goals and objectives?** 
+* What do you want to achieve?
+
+**3. What are the values and principles?** 
+* What beliefs guide your actions?
+
+**4. Who are you serving?** 
+* Who will benefit from your mission?
+
+Once I have this information, I can help you craft a clear, concise, and inspiring mission statement.
+---
+
 CrmActionLink | UI components (BETA)
 ====================================
 

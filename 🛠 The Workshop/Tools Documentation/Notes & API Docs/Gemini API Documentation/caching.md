@@ -1,3 +1,13 @@
+---
+Please provide me with more context!  I need to know what kind of mission you're writing about in order to help you.  
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a character, etc.)"
+* **What is the goal of the mission?** (To achieve something, to overcome something, etc.)
+* **What are the key elements or values that should be reflected in the mission statement?** (For example, innovation, sustainability, customer satisfaction, etc.)
+
+Once I have this information, I can help you write a compelling and effective mission statement.
+---
+
 *   이 페이지의 내용
 *   [컨텍스트 캐싱을 사용해야 하는 경우](#when-to-use-caching)
 *   [캐싱을 통한 비용 효율성](#cost-efficiency)

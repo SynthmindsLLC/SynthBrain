@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what you want to accomplish in order to create a mission statement. 
+
+Tell me: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else?"
+* **What are your goals?** What do you want to achieve?
+* **What are your values?** What principles will guide your actions?
+* **Who are you serving?** Who will benefit from your efforts?
+
+Once I have this information, I can help you craft a compelling and impactful mission statement.
+---
+
 [
 
 Introduction

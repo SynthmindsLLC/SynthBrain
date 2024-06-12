@@ -1,3 +1,13 @@
+---
+Please provide me with the context or the subject of the mission. 
+
+For example, tell me: "* **What kind of mission is it?** (e.g., a space mission, a humanitarian mission, a corporate mission, a personal mission)"
+* **What is the goal of the mission?** (e.g., to explore Mars, to deliver aid to refugees, to increase customer satisfaction, to become a better person)
+* **Who is involved in the mission?** (e.g., a team of astronauts, a non-profit organization, a company, an individual)
+
+Once I have this information, I can help you write a compelling and informative mission statement.
+---
+
 Link | UI components (BETA)
 ===========================
 

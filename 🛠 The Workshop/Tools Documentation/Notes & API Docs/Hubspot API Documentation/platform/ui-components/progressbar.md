@@ -1,3 +1,11 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about in order to help you. For example: "* **What is the mission's goal?** Is it to explore space, solve a scientific problem, or help people in need?"
+* **Who is involved in the mission?**  Is it a team of astronauts, a group of scientists, or a humanitarian organization?
+* **What is the setting of the mission?** Is it on Earth, in space, or in a fictional world?
+
+Once I have this information, I can help you write a compelling and engaging mission statement.
+---
+
 ProgressBar | UI components (BETA)
 ==================================
 

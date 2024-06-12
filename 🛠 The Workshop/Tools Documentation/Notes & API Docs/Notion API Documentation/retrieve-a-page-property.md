@@ -1,3 +1,14 @@
+---
+Please provide me with more information about what you want your mission to be! 
+
+To help me create a compelling mission statement, tell me: "* **What is the purpose of your mission?**  Are you starting a company, leading a team, or creating a personal goal?"
+* **What are your values?** What principles are important to you and your mission?
+* **What are your goals?** What do you want to achieve with your mission?
+* **Who are you targeting?** Who will benefit from your mission?
+
+Once I have this information, I can help you write a strong and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

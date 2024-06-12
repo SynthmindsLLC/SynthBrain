@@ -1,3 +1,13 @@
+---
+Please provide me with the context or the details of the mission you want me to complete. For example: "* **What is the mission about?** (e.g., a rescue mission, a scientific expedition, a business venture)"
+* **What are the objectives?** (e.g., save lives, collect data, increase profits)
+* **Who are the participants?** (e.g., a team of astronauts, a group of researchers, a sales team)
+* **What are the challenges?** (e.g., dangerous environment, limited resources, competitive market)
+* **What is the desired outcome?** (e.g., successful rescue, groundbreaking discovery, increased market share)
+
+Once you give me more information, I can help you craft a compelling and informative mission statement.
+---
+
 Use data from a GraphQL query in your website pages
 
 

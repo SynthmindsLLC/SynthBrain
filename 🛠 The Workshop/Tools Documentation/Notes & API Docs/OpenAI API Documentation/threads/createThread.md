@@ -1,3 +1,15 @@
+---
+Please provide me with the rest of the prompt! I need more information to understand what your mission is. 
+
+For example, tell me: "* **What is the purpose of this mission?**  What are you trying to achieve?"
+* **Who is involved in this mission?**  Is it a team, a group, an individual?
+* **What are the specific goals of the mission?** What needs to be accomplished?
+* **What are the challenges that might be encountered during this mission?** 
+* **What is the desired outcome of the mission?** 
+
+Once I have this information, I can help you write a compelling and effective mission statement.
+---
+
 [
 
 Introduction

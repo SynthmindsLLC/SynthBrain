@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to understand what your mission is about. 
+
+For example, tell me: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else?"
+* **What is the overarching goal?** What do you want to achieve?
+* **What are the key values or principles that guide this mission?** 
+
+Once I have this information, I can help you complete the mission statement.
+---
+
 *   이 페이지의 내용
 *   [API 키 설정](#set_up_your_api_key_3)
 *   [Gemini 및 Content 기반 API](#gemini_and_content_based_apis)

@@ -5,16 +5,16 @@ type: "work"
 tags:
 - "HubSpot"
 - "CRM"
-- "Idea Tracker"
+- "Idea_Tracker"
 relationships:
-- "#related_to [[Part 1]]"
+- "#related_to [[Idea Tracker Tutorial Part 1]]"
 - "#uses [[Kafka]]"
 - "#uses [[Zookeeper]]"
 - "#uses [[Google Compute Engine]]"
 - "#requires [[SSL certificate]]"
 - "#located_in [[HubSpot CRM]]"
 - "#part_of [[Tutorial Series]]"
-founded: "2023-06-10"
+published_date: "2023-06-10"
 ---
 
 Idea Tracker Tutorial Part 2

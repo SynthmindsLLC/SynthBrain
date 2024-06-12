@@ -1,3 +1,12 @@
+---
+Please provide me with more information about what kind of mission you'd like to write.  To help me create a compelling mission statement, tell me: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else? "
+* **What are the core values and beliefs that guide this mission?** 
+* **What are the desired outcomes or impact of this mission?** 
+* **Who is the target audience of this mission?**
+
+Once I have a better understanding of your needs, I can help you craft a meaningful and impactful mission statement.
+---
+
 [
 
 Introduction

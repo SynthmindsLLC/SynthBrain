@@ -1,3 +1,13 @@
+---
+Please provide me with more information about the mission. I need to know what the mission is for, what its objectives are, and what it hopes to achieve. 
+
+For example, tell me: "* **What is the mission about?** (e.g., a company, a project, a personal goal)"
+* **What are the goals of the mission?** (e.g., increase sales, solve a problem, improve a situation)
+* **What are the expected outcomes of the mission?** (e.g., achieve a certain level of success, make a positive impact)
+
+Once you give me more details, I can help you write a compelling and impactful mission statement.
+---
+
 Quote template variables
 
 

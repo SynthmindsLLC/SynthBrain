@@ -1,3 +1,14 @@
+---
+Please provide me with the context or the details of the mission you want to describe. 
+
+For example: "* **What is the mission about?** Is it a personal mission, a business mission, a scientific mission, a fictional mission? "
+* **What are the goals of the mission?** What are you trying to achieve? 
+* **Who is involved in the mission?** 
+* **What are the challenges of the mission?** 
+
+Once you give me more information, I can help you write a compelling and detailed mission statement.
+---
+
 HubL standard tags
 
 

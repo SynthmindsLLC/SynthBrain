@@ -1,3 +1,14 @@
+---
+Please provide me with the context or details of the mission you'd like to describe. I need more information to help you write a compelling mission statement. 
+
+For example, tell me: "* **What is the mission for?**  (e.g., a business, a project, a personal goal)"
+* **What is the purpose or goal?** What do you want to achieve?
+* **What are the values or principles that guide the mission?** 
+* **Who is the target audience?**  Who will be affected by the mission?
+
+Once you provide me with more details, I can help you write a concise and impactful mission statement.
+---
+
 ToggleGroup | UI extension components (BETA)
 ============================================
 

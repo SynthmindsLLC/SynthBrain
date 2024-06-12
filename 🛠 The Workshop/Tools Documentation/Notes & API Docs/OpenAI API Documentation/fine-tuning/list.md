@@ -1,3 +1,14 @@
+---
+Please provide me with more information so I can help you write a compelling mission statement.  
+
+To get started, tell me: "* **What is the purpose of this mission statement?**  Is it for a company, a project, a non-profit, or something else?"
+* **What are the core values of this organization/project?**  What principles guide your work?
+* **What problem are you trying to solve?** What need are you fulfilling?
+* **What is your ultimate goal?** What do you hope to achieve?
+
+The more details you give me, the better I can understand your needs and help you craft a clear, concise, and inspiring mission statement.
+---
+
 [
 
 Introduction

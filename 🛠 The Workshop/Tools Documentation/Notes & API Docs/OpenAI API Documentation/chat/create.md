@@ -1,3 +1,13 @@
+---
+Please provide me with the context or topic for the mission! 
+
+For example, tell me: "* **What is the mission about?** (e.g., Saving the environment, exploring Mars, helping the homeless)"
+* **Who is involved?** (e.g., A team of scientists, a group of volunteers, a single person)
+* **What are the goals?** (e.g., Reduce carbon emissions, discover life on Mars, provide shelter and food)
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 [
 
 Introduction

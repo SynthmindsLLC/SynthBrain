@@ -1,3 +1,12 @@
+---
+Please provide me with more context! I need to know what kind of mission you are referring to. For example, is it: "* **A personal mission statement?**  "
+* **A mission for a company or organization?** 
+* **A mission for a specific project?** 
+* **A mission for a fictional story?**
+
+Once you tell me what kind of mission you are working on, I can help you with ideas and suggestions.
+---
+
 UI extensions SDK (BETA)
 ========================
 

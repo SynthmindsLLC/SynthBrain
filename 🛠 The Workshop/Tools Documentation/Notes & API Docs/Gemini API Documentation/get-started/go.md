@@ -1,3 +1,13 @@
+---
+Please provide me with the context or the topic for the mission! 
+
+For example, tell me: "* **What is the mission about?** (e.g., a space exploration mission, a community project, a business venture)"
+* **What is the goal of the mission?** (e.g., to find life on Mars, to build a community center, to increase sales)
+* **Who is involved in the mission?** (e.g., a team of scientists, volunteers, a company)
+
+Once I have this information, I can help you write a compelling mission statement!
+---
+
 *   이 페이지의 내용
 *   [기본 요건](#prerequisites)
 *   [프로젝트 설정](#set-up-project)

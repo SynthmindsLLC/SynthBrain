@@ -1,3 +1,11 @@
+---
+Please provide me with the context or details about the mission you are referring to. I need more information to help you with this. For example: "* **What is the mission about?** (e.g., a business mission statement, a personal goal, a scientific expedition, a game objective)"
+* **What is the purpose of the mission?** (e.g., to achieve a specific goal, to explore new frontiers, to solve a problem)
+* **What are the key objectives of the mission?** (e.g., to increase profits, to discover new planets, to improve healthcare)
+
+Once you provide me with more context, I can help you create a compelling and impactful mission statement.
+---
+
 Memberships
 
 

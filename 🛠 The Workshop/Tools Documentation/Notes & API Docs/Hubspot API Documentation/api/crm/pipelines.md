@@ -11,8 +11,8 @@ relationships:
 - "#part_of [[HubSpot CRM]]"
 - "#used_for [[Deal Stages]], [[Ticket Statuses]]"
 - "#related_to [[Revenue Prediction]], [[Roadblock Identification]]"
-- "#has_property [[pipelineId]]", "default"]]"
-- "#has_property [[unique internal ID for stages/statuses]]"]]"
+- "#has_property [[pipelineId]]"
+- "#has_property [[unique internal ID for stages/statuses]]"
 ---
 
 Pipelines

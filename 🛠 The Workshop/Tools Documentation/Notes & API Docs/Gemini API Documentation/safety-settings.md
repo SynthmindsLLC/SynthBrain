@@ -1,3 +1,12 @@
+---
+Please provide me with the context or details for the mission you want to create. For example, tell me: "* **What is the mission about?** (e.g., Saving the world, finding a lost treasure, exploring a new planet, etc.)"
+* **Who are the characters involved?** (e.g., A team of heroes, a lone adventurer, a group of friends, etc.)
+* **What are the challenges they face?** (e.g., Dangerous enemies, tricky puzzles, time limits, etc.)
+* **What is the ultimate goal?** (e.g., Defeating the villain, finding the treasure, completing the mission, etc.)
+
+Once you give me more information, I can help you write a compelling and engaging mission statement.
+---
+
 *   이 페이지의 내용
 *   [안전 필터](#safety-filters)
     *   [확률과 심각도 비교](#probability-vs)

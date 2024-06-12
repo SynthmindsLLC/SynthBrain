@@ -1,18 +1,12 @@
 ---
-title: "Instructing an LLM to Create and Input a Diagram into Obsidian Canvas Using JavaScript"
-description: "A guide on how to instruct an LLM to generate a new canvas in Obsidian and then input a predefined diagram in JSON format into the canvas, utilizing JavaScript for automation."
-date: "2024-04-04"
-tags:
-- "Obsidian"
-- "LLM"
-- "JavaScript"
-- "JSON"
-- "Automation"
-relationships:
-- "#related_to [[Creating a New Canvas in Obsidian]]"
-- "#requires [[Defining the Diagram in JSON Format]]"
-- "#used_by [[Inputting the Diagram into the Canvas]]"
-type: "guide"
+Please provide me with more context! I need to know what kind of mission you are talking about in order to help you write it. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a team, a personal goal?)"
+* **What is the overall goal or purpose?** (What do you want to achieve?)
+* **What are the key values or principles?** (What guides your actions?)
+* **Who is the target audience?** (Who is this mission for?)
+
+Once you give me more information, I can help you craft a compelling and effective mission statement.
 ---
 
 To instruct an LLM (Language Learning Model) to create a new canvas in Obsidian and then input a predefined diagram in JSON into the canvas using JavaScript, follow these steps:

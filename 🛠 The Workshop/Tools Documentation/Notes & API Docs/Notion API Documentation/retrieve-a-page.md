@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more information to help you craft a compelling and impactful mission. 
+
+Tell me: "* **What is the mission for?** (A company, an organization, a project, etc.)"
+* **What are the core values or goals?** What are you trying to achieve?
+* **Who are you trying to help?**  What is your target audience? 
+
+Once you provide me with this information, I can help you create a strong and effective mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

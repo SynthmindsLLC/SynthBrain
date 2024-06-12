@@ -1,3 +1,12 @@
+---
+Please provide me with more context!  To help me write your mission statement, I need to know: "* **What is the purpose of your mission?** What are you trying to achieve?"
+* **What is the organization, project, or initiative you are creating a mission statement for?** 
+* **Who is your target audience?** Who are you trying to reach with this mission? 
+* **What are your core values?** What principles guide your work?
+
+Once I have this information, I can help you craft a clear, concise, and inspiring mission statement.
+---
+
 *   On this page
 *   [Set up your project](#set-up-project)
     *   [Set up and secure your API key](#set-up-secure-api-key)

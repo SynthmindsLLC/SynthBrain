@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what kind of mission you're trying to describe. 
+
+For example, tell me: "* **What is the purpose of the mission?** Is it a scientific expedition, a rescue mission, a business venture, a personal goal?"
+* **Who is involved in the mission?** Is it a team, an individual, an organization?
+* **What are the goals of the mission?** What are you hoping to achieve?
+* **What are the challenges you might face?** What obstacles might you need to overcome?
+
+Once I have a better understanding of the mission, I can help you write a compelling and informative mission statement.
+---
+
 Memberships
 
 

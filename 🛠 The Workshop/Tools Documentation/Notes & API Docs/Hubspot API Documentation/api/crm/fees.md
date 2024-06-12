@@ -12,6 +12,7 @@ relationships:
 - "#related_to [[Taxes]]"
 - "#used_in [[Quote Creation]]"
 - "#associated_with [[Pricing Details]]"
+- "#part_of [[HubSpot CRM API]]"
 founded: "2014-05-01"
 ---
 

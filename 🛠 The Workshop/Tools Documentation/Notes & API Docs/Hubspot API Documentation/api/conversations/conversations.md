@@ -8,6 +8,10 @@ tags:
 - "Conversations"
 relationships:
 - "#part_of [[Official HubSpot Documentation]]"
+- "#related_to [[Slack]], [[Microsoft Teams]]"
+- "#related_to [[Webhooks]]"
+- "#related_to [[Files API]]"
+- "#related_to [[Developer Terms]], [[Developer Beta Terms]]"
 ---
 
 .hidden { display: none; } .interest-form { padding: 1em; height: 100%; } .interest-text { padding: 1em; } .hs-form>fieldset { max-width: 100% !important; }

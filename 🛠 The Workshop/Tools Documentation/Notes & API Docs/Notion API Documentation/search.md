@@ -1,3 +1,14 @@
+---
+Please provide me with the context or details of the mission you want to create!  
+
+For example, tell me: "* **What kind of mission is it?** Is it a personal mission statement, a mission for a business, a mission for a team, etc.?"
+* **What is the goal of the mission?** What are you trying to achieve?
+* **Who is involved?** Who are the stakeholders in this mission?
+* **What are the key values or principles that should be reflected in the mission?**
+
+Once I have this information, I can help you craft a compelling and impactful mission statement!
+---
+
 JUMP TOCTRL-/
 
 Notion API

@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  To help you write a mission statement, I need to know: "* **What is the subject of the mission?** Is it for a company, a project, a team, a person, or something else? "
+* **What are the goals and values?** What does this entity want to achieve, and what principles will guide it? 
+* **Who is the target audience?**  Who are you trying to reach with this mission statement?
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 DescriptionList | UI components (BETA)
 ======================================
 

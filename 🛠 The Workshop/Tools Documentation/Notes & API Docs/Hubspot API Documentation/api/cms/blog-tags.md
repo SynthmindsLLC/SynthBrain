@@ -8,7 +8,7 @@ tags:
 - "API"
 relationships:
 - "#related_to [[HubSpot Knowledge Base]]"
-- "#similar_to [[Endpoints, Filtering, Sorting and Paginating, Create blog tags, Edit blog tags, Multi-language management, Create a new language variant, Attach a blog tag to an existing multi-language group, Detach a blog tag from a multi-language group]]"
+- "#similar_to [[Endpoints]], [[Filtering]], [[Sorting and Paginating]], [[Create blog tags]], [[Edit blog tags]], [[Multi-language management]], [[Create a new language variant]], [[Attach a blog tag to an existing multi-language group]], [[Detach a blog tag from a multi-language group]]"
 createdAt: "2023-01-01"
 updatedAt: "2023-04-01"
 ---

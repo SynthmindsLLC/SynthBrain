@@ -1,3 +1,11 @@
+---
+Please provide me with more information so I can help you write a mission statement.  Tell me: "* **What is the subject of your mission?** Is it a company, a project, a personal goal, or something else?"
+* **What are the goals of this mission?** What do you want to achieve?
+* **What are the values or principles that guide this mission?** What are the beliefs that underpin your efforts?
+
+Once you provide me with this information, I can help you craft a compelling and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

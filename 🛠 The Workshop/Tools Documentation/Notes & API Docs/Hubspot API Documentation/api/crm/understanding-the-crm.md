@@ -7,6 +7,11 @@ tags:
 - "HubSpot"
 relationships:
 - "#part_of [[Customer Relationship Management]]"
+- "#includes [[Contacts]], [[Companies]], [[Deals]], [[Tickets]]"
+- "#includes [[Products]], [[Custom Objects]]"
+- "#related_to [[HubSpot Subscription]]"
+- "#used_by [[HubSpot Users]]"
+- "#managed_by [[HubSpot API]]"
 ---
 
 Understanding the CRM

@@ -1,3 +1,13 @@
+---
+Please provide me with more information! I need to know what kind of mission you are describing.  
+
+For example, tell me: "* **What is the goal of the mission?** (e.g., to explore Mars, to save a lost child, to create a new business)"
+* **Who is involved in the mission?** (e.g., a team of astronauts, a group of friends, a company)
+* **What are the challenges they will face?** (e.g., dangerous terrain, limited resources, competition)
+
+The more details you provide, the better I can help you develop a compelling and engaging mission statement.
+---
+
 [
 
 Introduction

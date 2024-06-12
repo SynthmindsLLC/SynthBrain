@@ -1,3 +1,11 @@
+---
+Please provide me with the context or the specific mission you want to define. For example, tell me: "* **What is the mission for?**  Is it for a company, a project, a personal goal, or something else? "
+* **What are the main objectives?** What do you want to achieve with this mission?
+* **What are the values and principles that guide the mission?**
+
+Once you provide me with this information, I can help you craft a compelling and meaningful mission statement.
+---
+
 [
 
 Introduction

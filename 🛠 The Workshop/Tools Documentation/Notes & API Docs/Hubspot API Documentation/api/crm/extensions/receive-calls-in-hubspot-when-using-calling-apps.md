@@ -8,7 +8,16 @@ tags:
 - "HubSpot SDK"
 relationships:
 - "#developed_by [[HubSpot]]"
-founded: "N/A"
+- "#part_of [[HubSpot Calling SDK]]"
+- "#related_to [[Calling Apps]]"
+- "#related_to [[Inbound Calls]]"
+- "#related_to [[Call Index]]"
+- "#related_to [[Contact Record]]"
+- "#related_to [[Company Record]]"
+- "#requires [[Calling SDK]]"
+- "#uses [[Search API]]"
+- "#enables [[Custom Objects]]"
+- "#enables [[Caller ID Matches]]"
 ---
 
 Receive calls in HubSpot when using calling apps (BETA)[](https://developers.hubspot.com/docs/api/crm/extensions/receive-calls-in-hubspot-when-using-calling-apps#receive-calls-in-hubspot-when-using-calling-apps-beta-)

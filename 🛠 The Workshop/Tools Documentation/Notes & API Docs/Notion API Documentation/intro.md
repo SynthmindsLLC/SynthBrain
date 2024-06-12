@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what your mission is about in order to help you. 
+
+For example, tell me: "* **What is the goal of your mission?** "
+* **What are you trying to achieve?** 
+* **Who is involved in this mission?** 
+* **What is the specific context or situation for this mission?** 
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

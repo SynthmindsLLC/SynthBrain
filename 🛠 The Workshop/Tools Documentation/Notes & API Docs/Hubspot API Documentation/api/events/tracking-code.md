@@ -1,6 +1,6 @@
 ---
 title: "Tracking code API overview"
-description: "This page has been updated for working with new custom behavioral events. For legacy custom events, please [see the legacy documentation](https://legacydocs.hubspot.com/docs/methods/tracking_code_api/tracking_code_overview). In addition to tracking page views, the HubSpot tracking code allows you to identify visitors, track events, and manually track page views without reloading the page. The tracking code API allows you to dynamically create events and track event data in HubSpot."
+description: "This page has been updated for working with new custom behavioral events. For legacy custom events, please see the legacy documentation. In addition to tracking page views, the HubSpot tracking code allows you to identify visitors, track events, and manually track page views without reloading the page. The tracking code API allows you to dynamically create events and track event data in HubSpot."
 type: "work"
 tags:
 - "Tracking Code"
@@ -10,7 +10,10 @@ relationships:
 - "#enables [[Identifying Visitors]]"
 - "#allows [[Manual Page View Tracking]]"
 - "#facilitates [[Custom Behavioral Event Tracking]]"
-birthdate: "deathdate: "
+- "#part_of [[HubSpot Documentation]]"
+- "#references [[Legacy Documentation]]"
+- "#related_to [[Cookie Banner API]]"
+- "#uses [[_hsq]]"
 ---
 
 Tracking code API overview

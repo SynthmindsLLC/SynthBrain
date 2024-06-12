@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to understand what you're trying to accomplish.  
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal?)"
+* **What are the main goals or objectives?**
+* **What are the values or principles that guide the mission?**
+
+Once you provide me with more details, I can help you craft a strong and compelling mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API

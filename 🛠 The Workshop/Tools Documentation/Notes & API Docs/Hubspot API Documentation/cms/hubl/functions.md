@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you. 
+
+For example, tell me: "* **What is the subject of the mission?** Is it a business, a team, a project, a personal goal?"
+* **What is the purpose of the mission?** What are you trying to achieve?
+* **Who is the target audience?** Who are you trying to reach with this mission statement?
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 HubL functions
 
 

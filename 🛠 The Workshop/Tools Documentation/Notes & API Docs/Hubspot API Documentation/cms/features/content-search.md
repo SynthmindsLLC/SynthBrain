@@ -1,3 +1,13 @@
+---
+Please provide me with more context. What is the mission you are referring to? 
+
+For example, are you asking for help: "* **Writing a mission statement?** "
+* **Completing a mission statement?** 
+* **Understanding a particular mission?** 
+
+Tell me more about the situation so I can assist you effectively!
+---
+
 Content Search
 
 

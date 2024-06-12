@@ -1,3 +1,13 @@
+---
+Please provide me with the context or the specific information you would like to include in your mission statement. 
+
+For example, tell me: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else? "
+* **What are the key values or goals?**  What are you trying to achieve or accomplish?
+* **Who is the target audience?**  Who are you trying to reach with this mission?
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 Use CRM object data in CMS Hub
 
 

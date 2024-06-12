@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need more information to understand what kind of mission you're writing about. 
+
+For example, tell me: "* **What is the mission about?**  (e.g., a space mission, a secret mission, a personal mission)"
+* **Who is involved?** (e.g., a team, an individual, an organization)
+* **What is the objective?** (e.g., to explore a new planet, to rescue someone, to achieve a specific goal)
+* **What is the tone?** (e.g., serious, adventurous, playful)
+
+Once I have this information, I can help you write a compelling and engaging mission statement.
+---
+
 [
 
 Introduction

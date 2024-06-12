@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you complete it. 
+
+For example, tell me: "* **What is the purpose of the mission?**  What are you trying to achieve?"
+* **Who is involved in the mission?**  Is it a personal mission, a team mission, or something else?
+* **What are the goals of the mission?**  What specific outcomes are you hoping to see?
+* **What is the time frame for the mission?**  Is it a short-term or long-term mission?
+
+Once I have this information, I can help you develop a compelling and informative mission statement.
+---
+
 HubSpot CLI commands
 
 

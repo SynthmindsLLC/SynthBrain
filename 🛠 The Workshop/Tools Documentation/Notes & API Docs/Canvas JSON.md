@@ -1,5 +1,12 @@
 ---
+Please provide me with the context or details about the mission you want to describe. I need more information to create a compelling mission statement. 
 
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal, etc.)"
+* **What is the overall objective?** (What do you aim to achieve?)
+* **What are the key values or principles?** (What guides your actions?)
+* **Who are you serving?** (Who benefits from your mission?)
+
+Once you provide me with more details, I can help you write a strong and impactful mission statement.
 ---
 
 The JSON schema for Obsidian Canvas, now referred to as JSON Canvas, is designed to facilitate the creation, import, export, and storage of infinite canvas data in a structured and easily parsable format. This schema is part of an open-source initiative under the MIT license, aimed at providing longevity, readability, interoperability, and extensibility to data created with infinite canvas apps. The schema is currently at version 1.0 and is described as relatively conservative, focusing on essential features to serve as a useful starting point for further development[1][2][3].

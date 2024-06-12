@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what kind of mission you're talking about in order to help you write it. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal, etc.?"
+* **What are the goals of the mission?** What do you hope to achieve?
+* **Who is involved in the mission?** Are there specific people or groups that will be working on it?
+* **What are the key values or principles that will guide the mission?**
+
+Once you give me this information, I can help you write a strong and impactful mission statement.
+---
+
 Build dynamic pages using HubDB
 
 

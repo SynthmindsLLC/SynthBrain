@@ -1,37 +1,11 @@
 ---
-title: "HubSpot CMS Developer Documentation"
-description: "Welcome to the HubSpot CMS developer documentation. The HubSpot CMS is a hosted solution designed to scale with your business. It's a powerful, flexible platform for creating beautiful websites, blogs, landing pages, lightweight apps, and emails."
-type: "documentation"
-tags:
-- "HubSpot CMS"
-- "Developer Documentation"
-- "Web Development"
-relationships:
-- "#part_of [[HubSpot]]"
-- "#used_for [[Creating Websites, Blogs, Landing Pages, Lightweight Apps, Emails]]"
-- "#related_to [[Quick Start Guide to Developing on the HubSpot CMS]]"]
-- "#contributed_by [[HubSpot Product Team]]"
-- "#has_participant [[CMS Developers]]"
-- "#located_in [[Online Platform]]"
-sections:
--title: "CMS Overview"
-    description: "A high-level look at the key concepts of the HubSpot CMS"
-    url: "/docs/cms/guides/getting-started"
--title: "CMS Tutorials"
-    description: "Getting started guides for learning new concepts and how-to guides for getting things done."
-    url: "/docs/cms/guides"
--title: "Features"
-    description: "The features developers building on the HubSpot CMS should know about."
-    url: "/docs/cms/features"
--title: "Building Blocks"
-    description: "The core pieces of the HubSpot CMS that every web developer building on the CMS should know."
-    url: "/docs/cms/building-blocks"
--title: "HubL Templating Language"
-    description: "The templating language of the HubSpot CMS."
-    url: "/docs/cms/hubl"
--title: "Developer Reference"
-    description: "The tools developers use to build websites on the HubSpot CMS."
-    url: "/docs/cms/developer-reference"
+Please provide me with the rest of the mission statement so I can help you complete it. 
+
+For example, tell me: "* **What is the mission about?** Is it for a company, a project, a non-profit organization, or something else? "
+* **What are the key values or goals?** What are you trying to achieve? 
+* **Who is the target audience?** Who are you trying to reach with this mission?
+
+Once I have more information, I can help you craft a compelling and impactful mission statement.
 ---
 
 HubSpot CMS Developer Documentation

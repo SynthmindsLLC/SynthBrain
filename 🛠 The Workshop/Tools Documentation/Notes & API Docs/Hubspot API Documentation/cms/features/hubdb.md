@@ -1,3 +1,20 @@
+---
+Please provide me with more information about the mission you want to describe. 
+
+To help me write a compelling mission statement, tell me: "* **What is the overall goal or purpose of this mission?** "
+* **Who is the target audience or beneficiaries of this mission?**
+* **What are the key values or principles that guide this mission?**
+* **What are the desired outcomes or impact of this mission?**
+
+For example, are you writing a mission statement for a: "* **Company?** "
+* **Non-profit organization?**
+* **Personal project?**
+* **Government agency?**
+* **Something else?**
+
+The more details you provide, the better I can understand your needs and craft a strong mission statement.
+---
+
 HubDB
 
 

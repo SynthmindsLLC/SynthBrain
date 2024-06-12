@@ -1,3 +1,14 @@
+---
+Please provide me with more context! I need to know what the mission is about in order to help you. 
+
+For example, tell me: "* **What is the mission for?** (Is it a company, a project, a personal goal, etc.?)"
+* **What is the overall purpose or objective?** (What are you trying to achieve?)
+* **What are the key values or principles?** (What will guide your actions?)
+* **What is the desired outcome?** (What do you want to see happen as a result of this mission?)
+
+Once I have this information, I can help you write a compelling and impactful mission statement.
+---
+
 Deals summary sample project tutorial (BETA)
 ============================================
 

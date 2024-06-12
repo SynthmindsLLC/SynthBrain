@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're talking about. 
+
+For example: "* **What is the mission for?** Is it for a company, a project, a team, a personal goal?"
+* **What is the purpose of the mission?** What are you trying to achieve?
+* **What are the key elements of the mission?** What are the most important things to focus on?
+
+Once you give me more information, I can help you write a compelling and effective mission statement.
+---
+
 *   這個頁面中的內容
 *   [示例](#examples)
     *   [程式碼生成](#code-generation)

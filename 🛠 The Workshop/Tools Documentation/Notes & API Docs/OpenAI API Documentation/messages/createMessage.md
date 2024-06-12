@@ -1,3 +1,17 @@
+---
+Please provide me with the rest of the mission statement so I can help you complete it.  
+
+For example, you might say: "**MISSION**
+
+To empower individuals through innovative technology and create a more sustainable future."
+
+Once you give me the rest of the mission statement, I can offer suggestions for completing it, like: "* **Expanding on the goals:**  What specifically are you trying to empower individuals to do?  How will you create a more sustainable future?"
+* **Adding a target audience: "** Who is this mission for? Are you targeting a specific industry, community, or demographic?"
+* **Making it concise: "** Can you simplify the statement and make it more impactful?"
+
+I'm here to help you craft a compelling mission statement that captures the essence of your vision.
+---
+
 [
 
 Introduction

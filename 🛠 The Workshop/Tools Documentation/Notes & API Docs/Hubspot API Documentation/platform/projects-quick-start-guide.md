@@ -1,3 +1,14 @@
+---
+Please provide me with more context!  What kind of mission are you thinking about? 
+
+Here are some examples to get us started: "* **A mission statement for a company or organization:**  Tell me about your company's goals, values, and purpose. What do you want to achieve?"
+* **A mission for a video game character: "**  Who is this character? What are their goals in the game?  What challenges do they face?"
+* **A mission for a secret agent: "**  What is the objective? Who are the enemies? What is the timeline?"
+* **A mission for a scientific expedition: "** What are you researching? Where are you going? What are the potential discoveries?"
+
+Once I have a better understanding of your needs, I can help you write a compelling mission statement.
+---
+
 UI Extensions quickstart guide (BETA)
 =====================================
 

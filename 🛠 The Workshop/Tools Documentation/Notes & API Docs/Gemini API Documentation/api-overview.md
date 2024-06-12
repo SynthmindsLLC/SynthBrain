@@ -1,3 +1,11 @@
+---
+Please provide me with more context. What is the mission about?  I need more information to help you write a mission statement. For example, tell me: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else?"
+* **What are the key objectives or values that this mission should reflect?** 
+* **What is the desired outcome of this mission?**
+
+Once I have a better understanding of your needs, I can help you write a compelling and effective mission statement.
+---
+
 *   이 페이지의 내용
 *   [모델](#models)
 *   [프롬프트 데이터 및 설계](#prompt_data_design)

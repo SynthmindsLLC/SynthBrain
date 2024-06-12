@@ -1,3 +1,15 @@
+---
+Please provide me with the context or details of the mission you want to write about. 
+
+For example, tell me: "* **What is the mission about?** Is it a personal mission, a team mission, a business mission, etc.?"
+* **What is the goal of the mission?** What are you trying to achieve?
+* **Who is involved in the mission?** Who are the participants?
+* **What are the key challenges or obstacles you face?** 
+* **What are the potential benefits or outcomes of the mission?**
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 List and update templates in the HubSpot Template Marketplace
 
 

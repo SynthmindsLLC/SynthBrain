@@ -1,3 +1,14 @@
+---
+Please provide me with more context! 
+
+To help me write a compelling mission statement, I need to know: "* **What is the subject of this mission?** Is it for a company, a project, a personal goal, a community initiative, or something else?"
+* **What are the goals and objectives?** What do you want to achieve? 
+* **What are the values and principles that guide this mission?** What is important to you?
+* **Who is the target audience?** Who will benefit from this mission?
+
+Once I have this information, I can create a strong and impactful mission statement that aligns with your goals and values.
+---
+
 Set up continuous integration with a GitHub repository using GitHub Actions
 
 

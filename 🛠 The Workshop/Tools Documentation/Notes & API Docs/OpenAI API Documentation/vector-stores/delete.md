@@ -1,3 +1,11 @@
+---
+Please provide me with the rest of the prompt! I need more context to understand what kind of mission you're asking for. For example, tell me: "* **What is the mission for?** Is it for a company, a team, a project, a personal goal, a fictional character, etc.?"
+* **What is the purpose or objective of the mission?** What do you want to achieve?
+* **What are the key values or principles that will guide the mission?** 
+
+Once I have this information, I can help you craft a compelling and effective mission statement.
+---
+
 [
 
 Introduction

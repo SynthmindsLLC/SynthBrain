@@ -1,3 +1,14 @@
+---
+Please provide me with more context!  
+
+To help me write a compelling mission statement, tell me: "* **What is the purpose of this mission?**  Is it for a company, a project, a club, a personal goal?"
+* **What are the key values and goals?** What are you trying to achieve? 
+* **Who is the target audience?**  Who are you trying to reach with this mission statement?
+* **What makes this mission unique?** What sets it apart from others?
+
+Once I have this information, I can craft a strong and impactful mission statement for you!
+---
+
 HubSpot CMS overview
 
 

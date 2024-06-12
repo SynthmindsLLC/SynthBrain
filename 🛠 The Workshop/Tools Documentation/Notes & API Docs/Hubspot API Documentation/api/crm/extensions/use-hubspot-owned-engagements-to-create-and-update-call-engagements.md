@@ -12,7 +12,7 @@ relationships:
 - "#opt_in_to_hubspot_owned_engagements"
 - "#sends_successful_and_failure_events"
 - "#deprecating_onEngagementCreated_event_in_2024"
-created: "2023-01-01 # Assuming the article was created on January 1, 2023. Replace with actual date if available."
+created: "2023-01-01"
 ---
 
 Use HubSpot Owned Engagements to create and update call engagements

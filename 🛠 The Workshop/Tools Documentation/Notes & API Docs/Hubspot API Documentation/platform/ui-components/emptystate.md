@@ -1,3 +1,14 @@
+---
+Please provide me with more information about the mission you want to describe. I need context to help you write a compelling and effective mission statement. 
+
+Tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, or something else?"
+* **What is the purpose?** What are you trying to achieve?
+* **What are the values?** What principles guide your work?
+* **Who are you serving?** Who will benefit from your mission?
+
+Once you give me this information, I can help you craft a clear, concise, and impactful mission statement.
+---
+
 EmptyState | UI components (BETA)
 =================================
 

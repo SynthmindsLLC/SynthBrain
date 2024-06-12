@@ -1,3 +1,11 @@
+---
+Please provide me with more context!  To write a compelling mission statement, I need to know: "* **What is the purpose of this mission?** Is it for a company, a project, a personal goal, or something else entirely?"
+* **What are the key goals and values?** What do you want to achieve and how do you want to achieve it?
+* **Who is your target audience?** Who will be impacted by this mission?
+
+Once you provide me with this information, I can help you craft a concise and impactful mission statement.
+---
+
 *   On this page
 *   [Set up your project](#set-up-project)
     *   [Set up and secure your API key](#set-up-secure-api-key)

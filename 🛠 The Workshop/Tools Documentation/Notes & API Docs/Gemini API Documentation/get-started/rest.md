@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what the mission is for. 
+
+For example, tell me: "* **What is the mission for?** (A company, a project, a personal goal, etc.)"
+* **What are the goals of the mission?**
+* **What are the key values or principles behind the mission?**
+
+Once you give me more information, I can help you craft a compelling mission statement.
+---
+
 *   이 페이지의 내용
 *   [API 키 설정](#set_up_your_api_key_3)
 *   [Gemini 및 Content 기반 API](#gemini_and_content_based_apis)

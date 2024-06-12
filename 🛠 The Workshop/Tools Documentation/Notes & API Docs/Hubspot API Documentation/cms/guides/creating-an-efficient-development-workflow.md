@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement. I need more information to understand the context and purpose of the mission. 
+
+For example, tell me: "* **Who is the mission for?** (A company, a team, an organization, an individual?)"
+* **What is the overall goal or purpose?** (To achieve something, to improve something, to create something?)
+* **What are the values or principles that guide the mission?** (Innovation, sustainability, social impact, etc.)
+
+Once I have this information, I can help you complete the mission statement and make it clear, concise, and impactful.
+---
+
 Optimize your HubSpot development workflow
 
 

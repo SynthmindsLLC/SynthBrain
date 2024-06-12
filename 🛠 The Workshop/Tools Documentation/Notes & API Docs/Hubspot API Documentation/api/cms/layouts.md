@@ -9,7 +9,8 @@ tags:
 relationships:
 - "#part_of [[HubSpot CMS]]"
 - "#related_to [[GET]], [POST], [PUT], [DELETE] methods]]"
-founded: "N/A"
+- "#related_to [[Developer Changelog]]"
+- "#related_to [[HubSpot CMS]]"
 ---
 
 Layouts

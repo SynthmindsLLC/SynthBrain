@@ -1,3 +1,13 @@
+---
+Please provide me with the rest of the mission statement! I need more context to understand what your mission is about. 
+
+For example, tell me: "* **What organization or project is this mission for?** "
+* **What are the core values or goals of this organization/project?** 
+* **What is the overall purpose or ambition of this mission?**
+
+Once you give me more information, I can help you craft a compelling and impactful mission statement.
+---
+
 *   這個頁面中的內容
 *   [錯誤代碼](#error-codes)
 *   [查看 API 呼叫中的模型參數錯誤](#check-api)

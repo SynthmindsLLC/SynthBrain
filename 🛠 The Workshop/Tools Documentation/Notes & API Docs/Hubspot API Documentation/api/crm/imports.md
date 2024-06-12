@@ -1,16 +1,22 @@
 ---
 title: "Imports API Guide"
 description: "A guide on using the imports API to import CRM records and activities into your HubSpot account, including contacts, companies, and notes."
-type: "group"
+type: "work"
 tags:
+- "API"
 - "CRM"
 - "HubSpot"
-- "API"
+- "Data_Import"
+- "Data_Update"
 relationships:
 - "#related_to [[Crm Records]]"
 - "#related_to [[Activities]]"
 - "#enables [[Data Import and Update]]"
-founded: "N/A"
+- "#used_for [[Import Contacts]], [[Import Companies]], [[Import Notes]]"
+- "#used_by [[HubSpot Developers]]"
+- "#part_of [[HubSpot API Documentation]]"
+- "#authored_by [[HubSpot]]"
+published_date: "N/A"
 ---
 
 Imports

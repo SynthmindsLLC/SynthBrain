@@ -1,15 +1,20 @@
 ---
 title: "Custom Objects in HubSpot CRM"
 description: "A guide on creating, managing, and using custom objects within the HubSpot CRM to represent unique data structures for business needs."
-type: "group"
+type: "concept"
 tags:
 - "CRM"
 - "Customization"
 - "HubSpot"
 relationships:
 - "#created_by [[CarSpot]]"
-birthdate: "N/A"
-deathdate: "N/A"
+- "#used_for [[Data Organization]]"
+- "#part_of [[HubSpot CRM]]"
+- "#related_to [[Standard HubSpot Objects]]"
+- "#requires [[HubSpot API]]"
+- "#enables [[Data Modeling]]"
+- "#similar_to [[Custom Fields]]"
+- "#different_from [[Standard HubSpot Objects]]"
 ---
 
 **Custom objects**

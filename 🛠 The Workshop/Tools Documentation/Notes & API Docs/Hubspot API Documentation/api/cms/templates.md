@@ -8,7 +8,7 @@ tags:
 - "Development"
 relationships:
 - "#part_of [[HubSpot Templates]]"
-- "#related_to [[API Updates]]"]]
+- "#related_to [[API Updates]]"
 start_date: "undefined"
 end_date: "undefined"
 ---

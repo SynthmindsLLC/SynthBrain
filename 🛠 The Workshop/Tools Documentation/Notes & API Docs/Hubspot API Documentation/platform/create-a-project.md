@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about. 
+
+For example: "* **Is it a mission statement for a company?**  Tell me what the company does, its values, and its goals."
+* **Is it a mission for a project?**  Tell me what the project aims to achieve and how it will be accomplished.
+* **Is it a mission for a character in a story?**  Tell me about the character's goals, motivations, and obstacles. 
+
+Once I have more information, I can help you write a compelling and impactful mission statement.
+---
+
 Create a project (BETA)
 =======================
 

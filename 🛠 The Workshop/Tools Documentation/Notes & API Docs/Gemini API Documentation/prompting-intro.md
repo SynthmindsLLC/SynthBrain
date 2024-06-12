@@ -1,3 +1,13 @@
+---
+Please provide me with more context! I need to know what kind of mission you're writing about. 
+
+For example, tell me: "* **What is the mission for?** Is it for a company, a project, a personal goal, a video game, a book, etc.? "
+* **What is the purpose or goal of the mission?** What are you trying to achieve?
+* **Who is involved in the mission?**  Is it a team, a group of people, or just you?
+
+Once I have this information, I can help you write a compelling and impactful mission statement.
+---
+
 *   이 페이지의 내용
 *   [프롬프트란 무엇인가요?](#what-is-a-prompt)
     *   [프롬프트 콘텐츠 유형](#prompt-content-types)

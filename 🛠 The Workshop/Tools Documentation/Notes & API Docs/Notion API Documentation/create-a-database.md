@@ -1,3 +1,14 @@
+---
+Please provide me with more information! I need to know what you want the mission to be about. 
+
+To help me create a compelling mission statement, tell me: "* **What is the purpose of this mission?** Is it for a company, a project, a team, or something else?"
+* **What are the goals of this mission?** What do you hope to achieve?
+* **What are the values associated with this mission?** What principles will guide your actions?
+* **Who is the target audience?** Who will be impacted by this mission?
+
+Once I have this information, I can help you craft a powerful and inspiring mission statement.
+---
+
 JUMP TOCTRL-/
 
 Notion API
