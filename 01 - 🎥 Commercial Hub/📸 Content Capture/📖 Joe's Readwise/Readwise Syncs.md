@@ -996,3 +996,6 @@
 [[2024-06-12]] 5:40 AM — Synced 9 highlights from 1 document.
     - 9 highlights from AutoGen Update: Complex Tasks and Agents
 
+[[2024-06-12]] 10:26 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from Ridiculed Stable Diffusion 3 release excels at AI-generated body horror
+
