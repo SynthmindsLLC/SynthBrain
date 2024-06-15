@@ -1001,3 +1001,7 @@
 
 [[2024-06-13]] 11:26 PM — Synced 0 highlights from 0 documents.
 
+[[2024-06-15]] 5:04 AM — Synced 13 highlights from 2 documents.
+    - 3 highlights from MLPerf 4.0 Training Results Show Up to 80% in AI Performance Gains
+    - 10 highlights from New Transformer Architecture Could Enable Powerful LLMs Without GPUs
+
