@@ -1,0 +1,21 @@
+# AI Decodes Sperm Whale Language, Revealing a Complex System of Communication
+
+![rw-book-cover](https://scitechdaily.com/images/Mysterious-Alphabet-of-Sperm-Whales.jpg)
+
+## Metadata
+- Author: [[Rachel Gordon]]
+- Date: 2024-06-11
+- Full Title: AI Decodes Sperm Whale Language, Revealing a Complex System of Communication
+- Category: #articles
+- Summary: Using machine learning, researchers discovered complex communication patterns in sperm whale language, challenging the idea that only humans have sophisticated communication systems. By analyzing thousands of codas, they found a structured communication system with elements like rhythm and tempo, similar to human phonetics. This research deepens our understanding of marine biology and highlights the complexity of animal communication.
+- URL: https://scitechdaily.com/ai-decodes-sperm-whale-language-revealing-a-complex-system-of-communication/
+
+## Highlights
+- Researchers from MIT’s CSAIL and Project CETI use machine learning to decode the “sperm whale phonetic alphabet,” revealing complex communication patterns, deepening our understanding of animal language systems. ([View Highlight](https://read.readwise.io/read/01j0gb9pteay7h93rz51h0g1g4))
+- In a new open-access study published recently in the journal *Nature Communications*, the research shows that sperm whale codas, or short bursts of clicks that they use to communicate, vary significantly in structure depending on the conversational context, revealing a communication system far more intricate than previously understood. ([View Highlight](https://read.readwise.io/read/01j0gbar79p75bcvc41zzf79jw))
+- Nine thousand codas, collected from Eastern Caribbean sperm whale families observed by the Dominica Sperm Whale Project, proved an instrumental starting point in uncovering the creatures’ complex communication system. Alongside the data gold mine, the team used a mix of algorithms for pattern recognition and classification, as well as on-body recording equipment. It turned out that sperm whale communications were indeed not random or simplistic, but rather structured in a complex, combinatorial manner. ([View Highlight](https://read.readwise.io/read/01j0gbb1v5tbwc74grm64cjjc9))
+- The researchers identified something of a “sperm whale phonetic alphabet,” where various elements that researchers call “rhythm,” “tempo,” “rubato,” and “ornamentation” interplay to form a vast array of distinguishable codas. ([View Highlight](https://read.readwise.io/read/01j0gbbbmw5p4nv64zxzr13a6y))
+- basic building blocks of these codas could be combined in a combinatorial fashion, allowing the whales to construct a vast repertoire of distinct vocalizations. ([View Highlight](https://read.readwise.io/read/01j0gbby77n4hq196q5tkpn8pe))
+- The experiments were conducted using acoustic bio-logging tags (specifically something called “D-tags”) deployed on whales from the Eastern Caribbean clan. These tags captured the intricate details of the whales’ vocal patterns. By developing new visualization and data analysis techniques, the CSAIL researchers found that individual sperm whales could emit various coda patterns in long exchanges, not just repeats of the same coda. These patterns, they say, are nuanced, and include fine-grained variations that other whales also produce and recognize. ([View Highlight](https://read.readwise.io/read/01j0gbcajfvpgefast08my2gad))
+- Sperm whales have the largest brains among all known animals. This is accompanied by very complex social behaviors between families and cultural groups, necessitating strong communication for coordination, especially in pressurized environments like deep sea hunting. ([View Highlight](https://read.readwise.io/read/01j0gbcvv4r3crqhtzs8dx5rez))
+- Whales owe much to Roger Payne, former Project CETI advisor, whale biologist, conservationist, and MacArthur Fellow who was a major figure in elucidating their musical careers. In the noted 1971 *Science* article “[Songs of Humpback Whales](https://www.science.org/doi/10.1126/science.173.3997.585),” Payne documented how whales can sing. His work later catalyzed the “Save the Whales” movement, a successful and timely conservation initiative. ([View Highlight](https://read.readwise.io/read/01j0gbd8mv401q4nkdvf8a0zps))

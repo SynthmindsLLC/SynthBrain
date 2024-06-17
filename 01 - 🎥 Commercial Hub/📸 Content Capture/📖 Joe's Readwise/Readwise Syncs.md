@@ -1005,3 +1005,10 @@
     - 3 highlights from MLPerf 4.0 Training Results Show Up to 80% in AI Performance Gains
     - 10 highlights from New Transformer Architecture Could Enable Powerful LLMs Without GPUs
 
+[[2024-06-15]] 8:50 AM — Synced 6 highlights from 2 documents.
+    - 4 highlights from Nvidia’s ‘Nemotron-4 340B’ Model Redefines Synthetic Data Generation, Rivals GPT-4
+    - 2 highlights from First Windows 11 Copilot+ PCs Arrive to Buyers and Initial Tests Do Not Look Very Good
+
+[[2024-06-16]] 11:20 AM — Synced 8 highlights from 1 document.
+    - 8 highlights from AI Decodes Sperm Whale Language, Revealing a Complex System of Communication
+
