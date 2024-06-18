@@ -1012,3 +1012,6 @@
 [[2024-06-16]] 11:20 AM — Synced 8 highlights from 1 document.
     - 8 highlights from AI Decodes Sperm Whale Language, Revealing a Complex System of Communication
 
+[[2024-06-17]] 11:04 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from The Great AI Retrenchment Has Begun
+
