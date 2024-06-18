@@ -1015,3 +1015,6 @@
 [[2024-06-17]] 11:04 PM — Synced 3 highlights from 1 document.
     - 3 highlights from The Great AI Retrenchment Has Begun
 
+[[2024-06-18]] 6:53 AM — Synced 6 highlights from 1 document.
+    - 6 highlights from AI Won't Be AGI, Until It Can at Least Do This
+
