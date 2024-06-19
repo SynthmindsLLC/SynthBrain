@@ -92,8 +92,6 @@ file folder: _📭 Inbox
 - Bradford
 - Amy
 
-# Synthetic Data
-
 # Internal
 
 # Excalidraw Data

@@ -1022,4 +1022,6 @@
     - 11 highlights from AI Won't Be AGI, Until It Can at Least Do This
 
 [[2024-06-19]] 8:39 AM — Synced 18 highlights from 2 documents.
-    - 5 highlights from China’s DeepSeek 
+    - 5 highlights from China’s DeepSeek Coder Becomes First Open-Source Coding Model to Beat GPT-4 Turbo
+    - 13 highlights from AI Won't Be AGI, Until It Can at Least Do This
+
