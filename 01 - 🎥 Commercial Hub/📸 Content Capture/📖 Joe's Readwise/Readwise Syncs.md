@@ -1018,3 +1018,8 @@
 [[2024-06-18]] 6:53 AM — Synced 6 highlights from 1 document.
     - 6 highlights from AI Won't Be AGI, Until It Can at Least Do This
 
+[[2024-06-18]] 7:12 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from AI Won't Be AGI, Until It Can at Least Do This
+
+[[2024-06-19]] 8:39 AM — Synced 18 highlights from 2 documents.
+    - 5 highlights from China’s DeepSeek 
