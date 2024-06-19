@@ -9,7 +9,7 @@ excalidraw-open-md: true
 file folder: 
 ---
 # [[Synthetic Gen Roadmap]]
-
+# Purpose
 
 # Excalidraw Data
 ## Text Elements
