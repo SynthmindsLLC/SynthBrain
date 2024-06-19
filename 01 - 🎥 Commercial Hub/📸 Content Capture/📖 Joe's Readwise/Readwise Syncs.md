@@ -1027,3 +1027,6 @@
 
 [[2024-06-19]] 11:50 AM — Synced 0 highlights from 0 documents.
 
+[[2024-06-19]] 5:51 PM — Synced 3 highlights from 1 document.
+    - 3 highlights from Ilya Sutskever, OpenAI’s Former Chief Scientist, Launches New AI Company
+
