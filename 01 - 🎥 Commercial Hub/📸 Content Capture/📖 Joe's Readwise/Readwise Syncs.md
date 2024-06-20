@@ -1033,3 +1033,6 @@
 [[2024-06-20]] 5:50 AM — Synced 16 highlights from 1 document.
     - 16 highlights from Fine-Tuning LLMs: From a to Z!
 
+[[2024-06-20]] 9:50 AM — Synced 13 highlights from 1 document.
+    - 13 highlights from Dot, an AI Companion App Designed by an Apple Alum, Launches in the App Store
+
