@@ -1,5 +1,4 @@
-```record
-```
+
 
 Sign up form - Daniel: 6/21
 Screenshots - Joseph: 6/21
@@ -7,6 +6,13 @@ Landing Page - Josh: 6/21 (live 6/24)
 Market Research - David: 7/8 (SWOT and COMP)
 Fix bugs in obsistant - 6/28 (fix bugs)
 Useage stats - James: 6/28
+
+
+6/21/2024
+- Recording
+- Waitlist signup form, Landing page
+	- 
+- Toolset
 
 
 ## Github
