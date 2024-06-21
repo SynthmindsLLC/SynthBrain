@@ -10,9 +10,14 @@ Useage stats - James: 6/28
 
 6/21/2024
 - Recording
+	- show off referencing your notes - something about obsistants
+	- expand knowledge perplexity
+	- generate images
+	- save/modify
 - Waitlist signup form, Landing page
 	- 
 - Toolset
+	- 
 
 
 ## Github
