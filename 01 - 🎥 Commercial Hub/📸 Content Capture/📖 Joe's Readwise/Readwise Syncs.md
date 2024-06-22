@@ -1038,3 +1038,6 @@
 
 [[2024-06-21]] 9:51 AM — Synced 0 highlights from 0 documents.
 
+[[2024-06-22]] 10:03 AM — Synced 9 highlights from 1 document.
+    - 9 highlights from Perplexity CEO Aravind Srinivas Responds to Plagiarism and Infringement Accusations
+
