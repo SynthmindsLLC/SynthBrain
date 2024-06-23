@@ -1,0 +1,58 @@
+26\. Function caching[¶](#function-caching "Permalink to this headline")
+========================================================================
+
+Function caching allows us to cache the return values of a function depending on the arguments. It can save time when an I/O bound function is periodically called with the same arguments. Before Python 3.2 we had to write a custom implementation. In Python 3.2+ there is an `lru_cache` decorator which allows us to quickly cache and uncache the return values of a function.
+
+Let’s see how we can use it in Python 3.2+ and the versions before it.
+
+26.1. Python 3.2+[¶](#python-3-2 "Permalink to this headline")
+--------------------------------------------------------------
+
+Let’s implement a Fibonacci calculator and use `lru_cache`.
+
+from functools import lru\_cache
+
+@lru\_cache(maxsize\=32)
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n\-1) + fib(n\-2)
+
+\>>> print(\[fib(n) for n in range(10)\])
+\# Output: \[0, 1, 1, 2, 3, 5, 8, 13, 21, 34\]
+
+The `maxsize` argument tells `lru_cache` about how many recent return values to cache.
+
+We can easily uncache the return values as well by using:
+
+fib.cache\_clear()
+
+26.2. Python 2+[¶](#python-2 "Permalink to this headline")
+----------------------------------------------------------
+
+There are a couple of ways to achieve the same effect. You can create any type of caching mechanism. It entirely depends upon your needs. Here is a generic cache:
+
+from functools import wraps
+
+def memoize(function):
+    memo \= {}
+    @wraps(function)
+    def wrapper(\*args):
+        try:
+            return memo\[args\]
+        except KeyError:
+            rv \= function(\*args)
+            memo\[args\] \= rv
+            return rv
+    return wrapper
+
+@memoize
+def fibonacci(n):
+    if n < 2: return n
+    return fibonacci(n \- 1) + fibonacci(n \- 2)
+
+fibonacci(25)
+
+**Note:** memoize won’t cache unhashable types (dict, lists, etc…) but only the immutable types. Keep that in mind when using it.
+
+[Here](https://www.caktusgroup.com/blog/2015/06/08/testing-client-side-applications-django-post-mortem/) is a fine article by Caktus Group in which they caught a bug in Django which occurred due to `lru_cache`. It’s an interesting read. Do check it out.
