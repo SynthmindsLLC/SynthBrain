@@ -8,8 +8,8 @@ updated: 2024-06-20T00:30
 for the below, I added 'backticks' as to break the bug that messing up the OpenAI embeddings below:
 
 ```json
-    bos_token="<|`endoftext`|>",
-    eos_token="<|`endoftext`|>",
+    bos_token="<|`end-of-text`|>",
+    eos_token="<|`end-of-text`|>",
 ```
 
 
@@ -257,7 +257,7 @@ Copied
 Next is the model, which needs training. For GPT-2, the only special token is the end-of-text token:
 
 Copied
-trainer = trainers.BpeTrainer(vocab_size=25000, special_tokens=["<|`endoftext`|>"])
+trainer = trainers.BpeTrainer(vocab_size=25000, special_tokens=["<|`end-of-text`|>"])
 tokenizer.train_from_iterator(get_training_corpus(), trainer=trainer)
 Like with the WordPieceTrainer, as well as the vocab_size and special_tokens, we can specify the min_frequency if we want to, or if we have an end-of-word suffix (like </w>), we can set it with end_of_word_suffix.
 
@@ -303,8 +303,8 @@ from transformers import PreTrainedTokenizerFast
 
 wrapped_tokenizer = PreTrainedTokenizerFast(
     tokenizer_object=tokenizer,
-    bos_token="<|`endoftext`|>",
-    eos_token="<|`endoftext`|>",
+    bos_token="<|`end-of-text`|>",
+    eos_token="<|`end-of-text`|>",
 )
 or:
 
