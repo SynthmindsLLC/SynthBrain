@@ -1054,3 +1054,6 @@
 
 [[2024-06-24]] 6:59 AM — Synced 0 highlights from 0 documents.
 
+[[2024-06-24]] 6:42 PM — Synced 11 highlights from 1 document.
+    - 11 highlights from The Eternal Truth of Markdown
+
