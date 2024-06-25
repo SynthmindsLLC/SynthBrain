@@ -1057,3 +1057,6 @@
 [[2024-06-24]] 6:42 PM — Synced 11 highlights from 1 document.
     - 11 highlights from The Eternal Truth of Markdown
 
+[[2024-06-25]] 5:46 AM — Synced 10 highlights from 1 document.
+    - 10 highlights from How Gradient Created an Open LLM With a Million-Token Context Window
+

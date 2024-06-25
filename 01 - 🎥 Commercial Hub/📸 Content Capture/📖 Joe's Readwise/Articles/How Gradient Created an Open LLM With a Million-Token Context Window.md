@@ -1,0 +1,24 @@
+# How Gradient Created an Open LLM With a Million-Token Context Window
+
+![rw-book-cover](https://venturebeat.com/wp-content/uploads/2024/06/inifinite-tokens.jpg?w=1024?w=1200&strip=all)
+
+## Metadata
+- Author: [[Ben Dickson]]
+- Date: 2024-06-24
+- Full Title: How Gradient Created an Open LLM With a Million-Token Context Window
+- Category: #articles
+- Summary: Gradient and Crusoe collaborated to extend the context window of Llama-3 models to 1 million tokens, aiding in the development of long-context language models. The research aims to create open-source models that can reshape the LLM market and enable new applications not possible with private models. The partnership addressed compute bottlenecks and evaluated the models' performance, emphasizing the value of open research and long-context LLMs for enterprise applications.
+- URL: https://venturebeat.com/ai/how-gradient-created-an-open-llm-with-a-million-token-context-window/
+
+## Highlights
+- In a recent collaboration, AI startup [Gradient](https://gradient.ai/) and cloud compute platform [Crusoe](https://crusoe.ai/) extended the “[context window](https://venturebeat.com/ai/googles-new-technique-gives-llms-infinite-context/)” of Llama-3 models to 1 million tokens. The context window determines the number of input and output tokens a large language model (LLM) can process. ([View Highlight](https://read.readwise.io/read/01j17b3013nn49r7dwf875xje8))
+- “Being able to put entire code bases right into a language model context alleviates a lot of these problems because now the language model is able to do what it can do best, which is reason over everything and its working memory and provide an answer that is both more accurate and more efficient,” Pekelis said. ([View Highlight](https://read.readwise.io/read/01j17b56w7s631qazqvqanrf47))
+- As many companies have restrictions on what kind of data they can send to third parties, they can’t use models such as Gemini or Claude. This set the Gradient team to create their own million-token open model. ([View Highlight](https://read.readwise.io/read/01j17b5fa528aa17hmawxh1nnx))
+- They used techniques developed by Berkeley AI Research (BAIR) on distributed attention, which helped them increase the context length without exploding the memory and compute costs. The initial code implementation came from an open source project from a research institute in Singapore. And the mathematical formulas that enabled the models to learn from long context windows came from an AI research lab in Shanghai. ([View Highlight](https://read.readwise.io/read/01j17b6x567v3zcs3nh3exmc3z))
+- Compute resources is one of the main challenges of doing LLM research. Most AI labs rely on large clusters of GPUs to train and test their models. Gradient teamed up with Crusoe to research long-context LLMs. Crusoe is creating a purpose-built AI cloud that can help its partners build and explore different models cost-efficiently. ([View Highlight](https://read.readwise.io/read/01j17b7j1ezr2zxrefrdp8rka3))
+- “Our models get near perfect needle-in-a-haystack performance up to around 2 million context length, and that kind of puts us in the realm of what I’ve seen only Gemini 1.5 Pro,” Pekelis said. ([View Highlight](https://read.readwise.io/read/01j17b9pc8ryyfec9cf05h2b9x))
+- They are also working on making the models more effective at [many-shot in-context learning](https://venturebeat.com/ai/deepmind-researchers-discover-impressive-learning-capabilities-in-long-context-llms/), where the model is configured for a new task on the fly by putting hundreds or even thousands of examples in the prompt. ([View Highlight](https://read.readwise.io/read/01j17bapt738knvcsgk0m7eztw))
+- with longer contexts, [agentic systems](https://venturebeat.com/ai/from-gen-ai-1-5-to-2-0-moving-from-rag-to-agent-systems/), where one or more language models are put into multiple roles in a workflow, can do more with fewer calls because they can process much more information with each request. ([View Highlight](https://read.readwise.io/read/01j17bba3e6k5h7tx8pr27gmrh))
+- Without long-context models, if you wanted a language model to mimic the writing style of a person, you would have to first gather data from different sources. Then you would have to preprocess and summarize the data and figure out a way to feed it into the model or possibly fine-tune the model. ([View Highlight](https://read.readwise.io/read/01j17bc3x8kmg12derkqjnzs80))
+- “Here, what we found is that, for example, you can just take all of my past emails and give it to the language model, and it learns how to write like me,” Pekelis said.
+  LLMs with very long context windows could also reduce the need for retrieval-augmented generation (RAG), where for every prompt, the application must find relevant documents and insert them into the context. ([View Highlight](https://read.readwise.io/read/01j17bcf1mb7zr6xqbpa2bdwb0))
