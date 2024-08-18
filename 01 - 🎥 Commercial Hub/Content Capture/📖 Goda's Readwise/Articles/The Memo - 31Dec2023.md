@@ -1,0 +1,39 @@
+# The Memo - 31/Dec/2023
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_178634/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpu_rgkPpcw.jpeg)
+
+## Metadata
+- Author: [[Dr Alan D. Thompson]]
+- Full Title: The Memo - 31/Dec/2023
+- Category: #articles
+- URL: https://lifearchitect.substack.com/p/the-memo-31dec2023?utm_campaign=email-post&r=23zyrv&utm_source=substack&utm_medium=email
+- Tags:
+
+## Highlights
+- The New York Times is engaging in a disingenuous cash grab by a fading media company worth less than 8% of OpenAI’s current valuation, or around 0.28% of Microsoft’s market cap. ([View Highlight](https://read.readwise.io/read/01hkch37dpf6egt61f2fgc697j))
+- Ray Kurzweil’s words ([View Highlight](https://read.readwise.io/read/01hkck74kmg2285v6xn8st8v9q))
+- You can’t tell the millions of people who are suffering from cancer that we’re really on the verge of great breakthroughs that will save millions of lives from cancer, but we’re cancelling all that because the terrorists might use that same knowledge to create a bioengineered pathogen ([View Highlight](https://read.readwise.io/read/01hkck8j83af57fqy9qbah7v5w))
+- Prompting with V6 is **significantly** different than V5. **You will need to ‘relearn’ how to prompt.** ([View Highlight](https://read.readwise.io/read/01hkck95v9e7c1mkdrz8twf1cm))
+- more than 250 Chinese LLMs released in 2023 ([View Highlight](https://read.readwise.io/read/01hkckb0nqfmcsnsts1gderfs2))
+- the development of LLMs and text-to-image models in that region seems to be even more rapid than the US in terms of deployment and integration with society via apps. ([View Highlight](https://read.readwise.io/read/01hkckbbhz7tdzw0fq16wjevyc))
+- Frontier LLMs approved by China (most powerful first, all links in English): 
+  1. Baidu ERNIE 4.0 1T (on 20T tokens) [Oct/2023](https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html) 
+  2. Alibaba Tongyi Qianwen 2.0 300B* (on 3T tokens) [Oct/2023](https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526) 
+  3. Tencent Hunyuan 100B (on 2T tokens) [Sep/2023](https://www.tencent.com/en-us/articles/2201685.html) 
+  4. 360 Zhinao 4.0 100B [Jun/2023](https://www.yicaiglobal.com/news/20230614-08-chinas-latest-chatgpt-rival-is-360-zhinao-40-as-ai-firms-catch-up-360-security-founder-says) ([View Highlight](https://read.readwise.io/read/01hkckc2esam78tcp5v1xvsxa2))
+- Bing Chat was renamed to Microsoft Copilot on [15/Nov/2023](https://techcrunch.com/2023/11/15/bing-chat-is-now-copilot/), and became available to the public on [1/Dec/2023](https://blogs.bing.com/search/december-2023/Microsoft-Copilot-is-now-generally-available). ([View Highlight](https://read.readwise.io/read/01hkcks7tb1pe725c81f5p0945))
+- Try Copilot on web (formerly Bing Chat, free, login): [https://copilot.microsoft.com/](https://copilot.microsoft.com/) ([View Highlight](https://read.readwise.io/read/01hkckshtn9dacz825ydmd9j2p))
+- [Try Copilot on your iPhone or iPad (or mac) with the new app released 30/Dec/2023](https://apps.apple.com/us/app/microsoft-copilot/id6472538445) (free, no login). ([View Highlight](https://read.readwise.io/read/01hkckssc4e5x2jnznb0y6avn7))
+- OpenAI is negotiating a new funding round potentially valuing it at over US$100 billion, which could make it one of the most valuable startups globally. ([View Highlight](https://read.readwise.io/read/01hkcktm6vkymxp81p684wn7qg))
+- ARC created four simple agents by combining OpenAI GPT-4 and Anthropic Claude with scaffolding programs, and evaluated these agents on 12 tasks relevant to autonomous replication and adaptation (ARA). ([View Highlight](https://read.readwise.io/read/01hkckz36wgba792cqrw8ybkey))
+- ETH Zürich is also known as the Swiss Federal Institute of Technology, alma mater of many famous researchers including Albert Einstein and John von Neumann. ([View Highlight](https://read.readwise.io/read/01hkcm07fr344e8fhv0wpz084j))
+- Von Neumann believed that concentration alone was insufficient for solving some of the most difficult mathematical problems and that these are solved in the subconscious. ([View Highlight](https://read.readwise.io/read/01hkcm1xgjp7yvyhpwew4f9dg3))
+- AI designed a coin, now in circulation in Portugal ([View Highlight](https://read.readwise.io/read/01hkcm632dcsq7zv3zsgm36snj))
+- We then developed a system, Metaprompter, that can create new prompts using evolutionary computation and concept augmentation. This allows it to start with a basic prompt, e.g., *“an image of a digital world”* and transform it through successive mutations into something like: *“an image of a network planet, a black and white image of a circular design, a raytraced image, inspired by Anna Füssli, simulacra and simulation, in the style of neo brutalism, uncompressed png, abstract, top-view”*… ([View Highlight](https://read.readwise.io/read/01hkcm80ebwwbrhpetjre6gkhk))
+- After producing several of these prompts, we used them in NEvar, conducting several evolutionary runs. In total NEvAr created more than 43,000,000 images. A process of automatic curatorship reduced this number to 1,974, which was then reduced to 142 through visual inspection. These images were 3D rendered, and a blind vote led to a selection of 24 images. The creative director of the lab selected 3, and the team unanimously picked one. ([View Highlight](https://read.readwise.io/read/01hkcm8yh8jpy1ft1ev4z89sp9))
+- After producing several of these prompts, we used them in NEvar, conducting several evolutionary runs. In total NEvAr created more than 43,000,000 images. A process of automatic curatorship reduced this number to 1,974, which was then reduced to 142 through visual inspection. These images were 3D rendered, and a blind vote led to a selection of 24 images. The creative director of the lab selected 3, and the team unanimously picked one. ([View Highlight](https://read.readwise.io/read/01hkcm92vhtq52qn8ts6d279ja))
+- After producing several of these prompts, we used them in NEvar, conducting several evolutionary runs. In total NEvAr created more than 43,000,000 images. A process of automatic curatorship reduced this number to 1,974, which was then reduced to 142 through visual inspection. These images were 3D rendered, and a blind vote led to a selection of 24 images. The creative director of the lab selected 3, and the team unanimously picked one. ([View Highlight](https://read.readwise.io/read/01hkcm9ev4gde61qsktsm13s4s))
+- Read the whole summary by [CDV Lab](https://cdv.dei.uc.pt/projects/ai-coin). ([View Highlight](https://read.readwise.io/read/01hkcm9y207vf57s8z4cn3gjbm))
+- Chinese GPU manufacturer Moore Threads has introduced the MTT S4000, a new AI-focused graphics card, alongside clusters of 1,000 GPUs for data centers, challenging Nvidia's dominance in the server GPU market. ([View Highlight](https://read.readwise.io/read/01hkcmkt26e4pe206gzx8k4498))
+- Brain-computer interfaces (BCIs), driven by companies like Elon Musk's Neuralink, are rapidly advancing, with new developments showing promise for paralyzed individuals to control devices with their thoughts. ([View Highlight](https://read.readwise.io/read/01hkcmmcfh675x0qfdb286skb1))
+- ![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25fadf95-1470-47a0-8e6d-41bc1095b5da_937x548.png) ([View Highlight](https://read.readwise.io/read/01hkckt253bbhdnmn9bgdj8jgb))

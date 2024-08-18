@@ -14,7 +14,7 @@ Joint Embedding Predictive Architecture (JEPA) is an approach developed by Meta 
 
 ## I-JEPA: Image-based Joint Embedding Predictive Architecture
 
-I-JEPA, introduced in 2023, is a non-generative approach for self-supervised learning from images[[1]]. It uses a multi-block masking strategy to guide the model towards producing semantic representations. The core components are:
+I-JEPA, introduced in 2023, is a non-generative approach for self-supervised learning from images[[1]]. It uses a multi-block maskaing strategy to guide the model towards producing semantic representations. The core components are:
 
 - Context block: Used to predict representations of target blocks
 - Target block: Regions whose representations are predicted
