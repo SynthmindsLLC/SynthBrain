@@ -10,6 +10,7 @@
 - Tags:
 
 ## Highlights
+- Time Management Statistics ([View Highlight](https://read.readwise.io/read/01hwta57mk2ff838krpftvz8c1))
 - Lacking a proper time management system is one of the key mistakes that can cost both businesses and individuals valuable time. ([View Highlight](https://read.readwise.io/read/01htx2kzjay81ca4bp0k5x5xv1))
 - • **82%** of people don’t have a time management system
   • The average worker spends **51% of every workday** on low to no value tasks
