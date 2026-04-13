@@ -1,0 +1,1803 @@
+{
+  "generated": "2026-04-13",
+  "total_skills": 188,
+  "sources": [
+    "/home/user/SynthBrain/.agents/skills",
+    "/home/user/SynthBrain/.claude/skills"
+  ],
+  "skills": [
+    {
+      "folder_name": "ab-test-setup",
+      "source": ".agents/skills",
+      "name": "ab-test-setup",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ad-creative",
+      "source": ".agents/skills",
+      "name": "ad-creative",
+      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "address-sanitizer",
+      "source": ".agents/skills",
+      "name": "address-sanitizer",
+      "description": "AddressSanitizer detects memory errors during fuzzing. Use when fuzzing C/C++ code to find buffer overflows and use-after-free bugs.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "aflpp",
+      "source": ".agents/skills",
+      "name": "aflpp",
+      "description": "AFL++ is a fork of AFL with better fuzzing performance and advanced features. Use for multi-core fuzzing of C/C++ projects.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "agentic-actions-auditor",
+      "source": ".agents/skills",
+      "name": "agentic-actions-auditor",
+      "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches AI agents running in CI/CD pipelines, including env var intermediary patterns, direct expression injection, dangerous sandbox configurations, and wildcard user allowlists. Use when reviewing workflow files that invoke AI coding agents, auditing CI/CD pipeline security for prompt injection risks, or evaluating agentic action configurations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ai-seo",
+      "source": ".agents/skills",
+      "name": "ai-seo",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "alert-manager",
+      "source": ".agents/skills",
+      "name": "alert-manager",
+      "description": "Configure SEO alerts for ranking drops, traffic changes, technical issues, competitor movements. SEO预警/排名监控",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "algorand-vulnerability-scanner",
+      "source": ".agents/skills",
+      "name": "algorand-vulnerability-scanner",
+      "description": "Scans Algorand smart contracts for 11 common vulnerabilities including rekeying attacks, unchecked transaction fees, missing field validations, and access control issues. Use when auditing Algorand projects (TEAL/PyTeal).",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "algorithmic-art",
+      "source": ".agents/skills",
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "analytics-tracking",
+      "source": ".agents/skills",
+      "name": "analytics-tracking",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ask-questions-if-underspecified",
+      "source": ".agents/skills",
+      "name": "ask-questions-if-underspecified",
+      "description": "Clarify requirements before implementing. Use when serious doubts arise.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "aso-audit",
+      "source": ".agents/skills",
+      "name": "aso-audit",
+      "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "atheris",
+      "source": ".agents/skills",
+      "name": "atheris",
+      "description": "Atheris is a coverage-guided Python fuzzer based on libFuzzer. Use for fuzzing pure Python code and Python C extensions.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "audit-augmentation",
+      "source": ".agents/skills",
+      "name": "audit-augmentation",
+      "description": "Augments Trailmark code graphs with external audit findings from SARIF static analysis results and weAudit annotation files. Maps findings to graph nodes by file and line overlap, creates severity-based subgraphs, and enables cross-referencing findings with pre-analysis data (blast radius, taint, etc.). Use when projecting SARIF results onto a code graph, overlaying weAudit annotations, cross-referencing Semgrep or CodeQL findings with call graph data, or visualizing audit findings in the context of code structure.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "audit-context-building",
+      "source": ".agents/skills",
+      "name": "audit-context-building",
+      "description": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "audit-prep-assistant",
+      "source": ".agents/skills",
+      "name": "audit-prep-assistant",
+      "description": "Prepares codebases for security review using Trail of Bits' checklist. Helps set review goals, runs static analysis tools, increases test coverage, removes dead code, ensures accessibility, and generates documentation (flowcharts, user stories, inline comments).",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "backlink-analyzer",
+      "source": ".agents/skills",
+      "name": "backlink-analyzer",
+      "description": "Analyze backlink profiles: link authority, toxic links, building opportunities, competitor link gaps. 外链分析/反向链接",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "board",
+      "source": ".agents/skills",
+      "name": "board",
+      "description": "Read, write, and browse the AgentHub message board for agent coordination.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "board-prep",
+      "source": ".agents/skills",
+      "name": "board-prep",
+      "description": "/em -board-prep — Board Meeting Preparation",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "brand-guidelines",
+      "source": ".agents/skills",
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "browserstack",
+      "source": ".agents/skills",
+      "name": "browserstack",
+      "description": "Run tests on BrowserStack. Use when user mentions \"browserstack\", \"cross-browser\", \"cloud testing\", \"browser matrix\", \"test on safari\", \"test on firefox\", or \"browser compatibility\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "burpsuite-project-parser",
+      "source": ".agents/skills",
+      "name": "burpsuite-project-parser",
+      "description": "Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "business-growth-skills",
+      "source": ".agents/skills",
+      "name": "business-growth-skills",
+      "description": "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only).",
+      "description_source": "frontmatter",
+      "tags": [
+        "business",
+        "customer-success",
+        "sales",
+        "revenue-operations",
+        "growth"
+      ],
+      "version": "1.1.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "contract-and-proposal-writer",
+        "customer-success-manager",
+        "revenue-operations",
+        "sales-engineer"
+      ],
+      "sub_skill_count": 4,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "c-level-advisor",
+      "source": ".agents/skills",
+      "name": "c-level-advisor",
+      "description": "10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.",
+      "description_source": "frontmatter",
+      "license": "MIT",
+      "sub_skills": [
+        "agent-protocol",
+        "board-deck-builder",
+        "board-meeting",
+        "ceo-advisor",
+        "cfo-advisor",
+        "change-management",
+        "chief-of-staff",
+        "chro-advisor",
+        "ciso-advisor",
+        "cmo-advisor",
+        "company-os",
+        "competitive-intel",
+        "context-engine",
+        "coo-advisor",
+        "cpo-advisor",
+        "cro-advisor",
+        "cs-onboard",
+        "cto-advisor",
+        "culture-architect",
+        "decision-logger",
+        "executive-mentor",
+        "founder-coach",
+        "internal-narrative",
+        "intl-expansion",
+        "ma-playbook",
+        "org-health-diagnostic",
+        "scenario-war-room",
+        "strategic-alignment"
+      ],
+      "sub_skill_count": 28,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "cairo-vulnerability-scanner",
+      "source": ".agents/skills",
+      "name": "cairo-vulnerability-scanner",
+      "description": "Scans Cairo/StarkNet smart contracts for 6 critical vulnerabilities including felt252 arithmetic overflow, L1-L2 messaging issues, address conversion problems, and signature replay. Use when auditing StarkNet projects.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "canvas-design",
+      "source": ".agents/skills",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "cargo-fuzz",
+      "source": ".agents/skills",
+      "name": "cargo-fuzz",
+      "description": "cargo-fuzz is the de facto fuzzing tool for Rust projects using Cargo. Use for fuzzing Rust code with libFuzzer backend.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "challenge",
+      "source": ".agents/skills",
+      "name": "challenge",
+      "description": "/em -challenge — Pre-Mortem Plan Analysis",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "churn-prevention",
+      "source": ".agents/skills",
+      "name": "churn-prevention",
+      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "claude-in-chrome-troubleshooting",
+      "source": ".agents/skills",
+      "name": "claude-in-chrome-troubleshooting",
+      "description": "Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return \"Browser extension is not connected\", or behave erratically.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "code-maturity-assessor",
+      "source": ".agents/skills",
+      "name": "code-maturity-assessor",
+      "description": "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access controls, complexity, decentralization, documentation, MEV risks, low-level code, and testing. Produces professional scorecard with evidence-based ratings and actionable recommendations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "codeql",
+      "source": ".agents/skills",
+      "name": "codeql",
+      "description": "Scans a codebase for security vulnerabilities using CodeQL's interprocedural data flow and taint tracking analysis. Triggers on \"run codeql\", \"codeql scan\", \"codeql analysis\", \"build codeql database\", or \"find vulnerabilities with codeql\". Supports \"run all\" (security-and-quality + security-experimental suites) and \"important only\" (high-precision security findings) scan modes. Also handles creating data extension models and processing CodeQL SARIF output.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "cold-email",
+      "source": ".agents/skills",
+      "name": "cold-email",
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "competitor-alternatives",
+      "source": ".agents/skills",
+      "name": "competitor-alternatives",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "competitor-analysis",
+      "source": ".agents/skills",
+      "name": "competitor-analysis",
+      "description": "Analyze competitor SEO/GEO: keywords, content, backlinks, AI citations, traffic share gaps. 竞品分析/竞争对手",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "constant-time-analysis",
+      "source": ".agents/skills",
+      "name": "constant-time-analysis",
+      "description": "Detects timing side-channel vulnerabilities in cryptographic code. Use when implementing or reviewing crypto code, encountering division on secrets, secret-dependent branches, or constant-time programming questions in C, C++, Go, Rust, Swift, Java, Kotlin, C#, PHP, JavaScript, TypeScript, Python, or Ruby.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "constant-time-testing",
+      "source": ".agents/skills",
+      "name": "constant-time-testing",
+      "description": "Constant-time testing detects timing side channels in cryptographic code. Use when auditing crypto implementations for timing vulnerabilities.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "content-gap-analysis",
+      "source": ".agents/skills",
+      "name": "content-gap-analysis",
+      "description": "Find content gaps: topics and keywords competitors cover that you don''t, with editorial calendar. 内容缺口/选题规划",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "content-quality-auditor",
+      "source": ".agents/skills",
+      "name": "content-quality-auditor",
+      "description": "Publish-readiness gate: 80-item CORE-EEAT audit with weighted scoring, veto checks, and fix plan. 内容质量/EEAT评分",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "content-refresher",
+      "source": ".agents/skills",
+      "name": "content-refresher",
+      "description": "Refresh outdated posts with current stats, new sections, freshness signals to restore rankings. 内容更新/排名恢复",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "content-strategy",
+      "source": ".agents/skills",
+      "name": "content-strategy",
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "copy-editing",
+      "source": ".agents/skills",
+      "name": "copy-editing",
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "copywriting",
+      "source": ".agents/skills",
+      "name": "copywriting",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "cosmos-vulnerability-scanner",
+      "source": ".agents/skills",
+      "name": "cosmos-vulnerability-scanner",
+      "description": "Scans Cosmos SDK blockchain modules and CosmWasm contracts for consensus-critical vulnerabilities — chain halts, fund loss, state divergence. 25 core + 16 IBC + 10 EVM + 3 CosmWasm patterns. Use when auditing custom x/ modules, reviewing IBC integrations, or assessing pre-launch chain security. Updated for SDK v0.53.x.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "coverage",
+      "source": ".agents/skills",
+      "name": "coverage",
+      "description": "Analyze test coverage gaps. Use when user says \"test coverage\", \"what's not tested\", \"coverage gaps\", \"missing tests\", \"coverage report\", or \"what needs testing\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "coverage-analysis",
+      "source": ".agents/skills",
+      "name": "coverage-analysis",
+      "description": "Coverage analysis measures code exercised during fuzzing. Use when assessing harness effectiveness or identifying fuzzing blockers.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "crypto-protocol-diagram",
+      "source": ".agents/skills",
+      "name": "crypto-protocol-diagram",
+      "description": "Extracts protocol message flow from source code, RFCs, academic papers, pseudocode, informal prose, ProVerif (.pv), or Tamarin (.spthy) models and generates Mermaid sequenceDiagrams with cryptographic annotations. Use when diagramming a crypto protocol, visualizing a handshake or key exchange flow, extracting message flow from a spec or RFC, diagramming a ProVerif or Tamarin model, or drawing sequence diagrams for TLS, Noise, Signal, X3DH, Double Ratchet, FROST, DH, or ECDH protocols.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "customer-research",
+      "source": ".agents/skills",
+      "name": "customer-research",
+      "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "debug-buttercup",
+      "source": ".agents/skills",
+      "name": "debug-buttercup",
+      "description": "Debugs the Buttercup CRS (Cyber Reasoning System) running on Kubernetes. Use when diagnosing pod crashes, restart loops, Redis failures, resource pressure, disk saturation, DinD issues, or any service misbehavior in the crs namespace. Covers triage, log analysis, queue inspection, and common failure patterns for: redis, fuzzer-bot, coverage-bot, seed-gen, patcher, build-bot, scheduler, task-server, task-downloader, program-model, litellm, dind, tracer-bot, merger-bot, competition-api, pov-reproducer, scratch-cleaner, registry-cache, image-preloader, ui.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "deploy-to-vercel",
+      "source": ".agents/skills",
+      "name": "deploy-to-vercel",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "designing-workflow-skills",
+      "source": ".agents/skills",
+      "name": "designing-workflow-skills",
+      "description": "Guides the design and structuring of workflow-based Claude Code skills with multi-step phases, decision trees, subagent delegation, and progressive disclosure. Use when creating skills that involve sequential pipelines, routing patterns, safety gates, task tracking, phased execution, or any multi-step workflow. Also applies when reviewing or refactoring existing workflow skills for quality.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "devcontainer-setup",
+      "source": ".agents/skills",
+      "name": "devcontainer-setup",
+      "description": "Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code workspaces.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "diagramming-code",
+      "source": ".agents/skills",
+      "name": "diagramming-code",
+      "description": "Generates Mermaid diagrams from Trailmark code graphs. Produces call graphs, class hierarchies, module dependency maps, containment diagrams, complexity heatmaps, and attack surface data flow visualizations. Use when visualizing code architecture, drawing call graphs, generating class diagrams, creating dependency maps, producing complexity heatmaps, or visualizing data flow and attack surface paths as Mermaid diagrams.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (1 .py)"
+      ]
+    },
+    {
+      "folder_name": "differential-review",
+      "source": ".agents/skills",
+      "name": "differential-review",
+      "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "dimensional-analysis",
+      "source": ".agents/skills",
+      "name": "dimensional-analysis",
+      "description": "Annotates codebases with dimensional analysis comments documenting units, dimensions, and decimal scaling. Use when someone asks to annotate units in a codebase, perform a dimensional analysis, or find vulnerabilities in a DeFi protocol, offchain code, or other blockchain-related codebase with arithmetic. Prevents dimensional mismatches and catches formula bugs early.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "doc-coauthoring",
+      "source": ".agents/skills",
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "docx",
+      "source": ".agents/skills",
+      "name": "docx",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (3 .py)"
+      ]
+    },
+    {
+      "folder_name": "domain-authority-auditor",
+      "source": ".agents/skills",
+      "name": "domain-authority-auditor",
+      "description": "40-item CITE domain audit: citation, impact, trust, entity scoring with veto checks. 域名权威/网站可信度",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "dwarf-expert",
+      "source": ".agents/skills",
+      "name": "dwarf-expert",
+      "description": "Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "email-sequence",
+      "source": ".agents/skills",
+      "name": "email-sequence",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "engineering-advanced-skills",
+      "source": ".agents/skills",
+      "name": "engineering-advanced-skills",
+      "description": "25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.",
+      "description_source": "frontmatter",
+      "tags": [
+        "engineering",
+        "architecture",
+        "agents",
+        "rag",
+        "mcp",
+        "ci-cd",
+        "observability"
+      ],
+      "version": "1.1.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "agent-designer",
+        "agent-workflow-designer",
+        "agenthub",
+        "api-design-reviewer",
+        "api-test-suite-builder",
+        "autoresearch-agent",
+        "behuman",
+        "browser-automation",
+        "changelog-generator",
+        "ci-cd-pipeline-builder",
+        "code-tour",
+        "codebase-onboarding",
+        "data-quality-auditor",
+        "database-designer",
+        "database-schema-designer",
+        "demo-video",
+        "dependency-auditor",
+        "docker-development",
+        "env-secrets-manager",
+        "focused-fix",
+        "git-worktree-manager",
+        "helm-chart-builder",
+        "interview-system-designer",
+        "karpathy-coder",
+        "llm-cost-optimizer",
+        "llm-wiki",
+        "mcp-server-builder",
+        "migration-architect",
+        "monorepo-navigator",
+        "observability-designer",
+        "performance-profiler",
+        "pr-review-expert",
+        "prompt-governance",
+        "rag-architect",
+        "release-manager",
+        "runbook-generator",
+        "secrets-vault-manager",
+        "self-eval",
+        "skill-security-auditor",
+        "skill-tester",
+        "spec-driven-workflow",
+        "sql-database-assistant",
+        "statistical-analyst",
+        "tc-tracker",
+        "tech-debt-tracker",
+        "terraform-patterns"
+      ],
+      "sub_skill_count": 46
+    },
+    {
+      "folder_name": "engineering-skills",
+      "source": ".agents/skills",
+      "name": "engineering-skills",
+      "description": "23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).",
+      "description_source": "frontmatter",
+      "tags": [
+        "engineering",
+        "frontend",
+        "backend",
+        "devops",
+        "security",
+        "ai-ml",
+        "data-engineering"
+      ],
+      "version": "1.1.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "a11y-audit",
+        "adversarial-reviewer",
+        "ai-security",
+        "aws-solution-architect",
+        "azure-cloud-architect",
+        "cloud-security",
+        "code-reviewer",
+        "email-template-builder",
+        "epic-design",
+        "gcp-cloud-architect",
+        "google-workspace-cli",
+        "incident-commander",
+        "incident-response",
+        "ms365-tenant-manager",
+        "playwright-pro",
+        "red-team",
+        "security-pen-testing",
+        "self-improving-agent",
+        "senior-architect",
+        "senior-backend",
+        "senior-computer-vision",
+        "senior-data-engineer",
+        "senior-data-scientist",
+        "senior-devops",
+        "senior-frontend",
+        "senior-fullstack",
+        "senior-ml-engineer",
+        "senior-prompt-engineer",
+        "senior-qa",
+        "senior-secops",
+        "senior-security",
+        "snowflake-development",
+        "stripe-integration-expert",
+        "tdd-guide",
+        "tech-stack-evaluator",
+        "threat-detection"
+      ],
+      "sub_skill_count": 36,
+      "notable_files": [
+        "CLAUDE.md",
+        "START_HERE.md",
+        "TEAM_STRUCTURE_GUIDE.md"
+      ]
+    },
+    {
+      "folder_name": "entity-optimizer",
+      "source": ".agents/skills",
+      "name": "entity-optimizer",
+      "description": "Build entity presence in Knowledge Graph, Wikidata, AI systems for brand recognition and citations. 实体优化/知识图谱",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "entry-point-analyzer",
+      "source": ".agents/skills",
+      "name": "entry-point-analyzer",
+      "description": "Analyzes smart contract codebases to identify state-changing entry points for security auditing. Detects externally callable functions that modify state, categorizes them by access level (public, admin, role-restricted, contract-only), and generates structured audit reports. Excludes view/pure/read-only functions. Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm) or when asked to find entry points, audit flows, external functions, access control patterns, or privileged operations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "eval",
+      "source": ".agents/skills",
+      "name": "eval",
+      "description": "Evaluate and rank agent results by metric or LLM judge for an AgentHub session.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "extract",
+      "source": ".agents/skills",
+      "name": "extract",
+      "description": "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "finance-skills",
+      "source": ".agents/skills",
+      "name": "finance-skills",
+      "description": "Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only).",
+      "description_source": "frontmatter",
+      "tags": [
+        "finance",
+        "financial-analysis",
+        "dcf",
+        "valuation",
+        "budgeting"
+      ],
+      "version": "1.0.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "business-investment-advisor",
+        "financial-analyst",
+        "saas-metrics-coach"
+      ],
+      "sub_skill_count": 3,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "firebase-apk-scanner",
+      "source": ".agents/skills",
+      "name": "firebase-apk-scanner",
+      "description": "Scans Android APKs for Firebase security misconfigurations including open databases, storage buckets, authentication issues, and exposed cloud functions. Use when analyzing APK files for Firebase vulnerabilities, performing mobile app security audits, or testing Firebase endpoint security. For authorized security research only.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "fix",
+      "source": ".agents/skills",
+      "name": "fix",
+      "description": "Fix failing or flaky Playwright tests. Use when user says \"fix test\", \"flaky test\", \"test failing\", \"debug test\", \"test broken\", \"test passes sometimes\", or \"intermittent failure\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "form-cro",
+      "source": ".agents/skills",
+      "name": "form-cro",
+      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "fp-check",
+      "source": ".agents/skills",
+      "name": "fp-check",
+      "description": "Systematically verifies suspected security bugs to eliminate false positives. Produces TRUE POSITIVE or FALSE POSITIVE verdicts with documented evidence for each bug.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "free-tool-strategy",
+      "source": ".agents/skills",
+      "name": "free-tool-strategy",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "frontend-design",
+      "source": ".agents/skills",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "fuzzing-dictionary",
+      "source": ".agents/skills",
+      "name": "fuzzing-dictionary",
+      "description": "Fuzzing dictionaries guide fuzzers with domain-specific tokens. Use when fuzzing parsers, protocols, or format-specific code.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "fuzzing-obstacles",
+      "source": ".agents/skills",
+      "name": "fuzzing-obstacles",
+      "description": "Techniques for patching code to overcome fuzzing obstacles. Use when checksums, global state, or other barriers block fuzzer progress.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "generate",
+      "source": ".agents/skills",
+      "name": "generate",
+      "description": "Generate Playwright tests. Use when user says \"write tests\", \"generate tests\", \"add tests for\", \"test this component\", \"e2e test\", \"create test for\", \"test this page\", or \"test this feature\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "genotoxic",
+      "source": ".agents/skills",
+      "name": "genotoxic",
+      "description": "Graph-informed mutation testing triage. Parses codebases with Trailmark, runs mutation testing and necessist, then uses survived mutants, unnecessary test statements, and call graph data to identify false positives, missing test coverage, and fuzzing targets. Use when triaging survived mutants, analyzing mutation testing results, identifying test gaps, finding fuzzing targets from weak tests, running mutation frameworks (including circomvent and cairo-mutants), or using necessist.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "geo-content-optimizer",
+      "source": ".agents/skills",
+      "name": "geo-content-optimizer",
+      "description": "Optimize content for AI citations in ChatGPT, Perplexity, AI Overviews, Gemini, Claude. AI引用优化/GEO优化/AI搜索",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "gh-cli",
+      "source": ".agents/skills",
+      "name": "gh-cli",
+      "description": "Enforces authenticated gh CLI workflows over unauthenticated curl/WebFetch patterns. Use when working with GitHub URLs, API access, pull requests, or issues.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "git-cleanup",
+      "source": ".agents/skills",
+      "name": "git-cleanup",
+      "description": "Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squash-merged, superseded, or active work.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "graph-evolution",
+      "source": ".agents/skills",
+      "name": "graph-evolution",
+      "description": "Compares Trailmark code graphs at two source code snapshots (git commits, tags, or directories) to surface security-relevant structural changes. Detects new attack paths, complexity shifts, blast radius growth, taint propagation changes, and privilege boundary modifications that text diffs miss. Use when comparing code between commits or tags, analyzing structural evolution, detecting attack surface growth, reviewing what changed between audit snapshots, or finding security-relevant changes that text diffs miss.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (1 .py)"
+      ]
+    },
+    {
+      "folder_name": "guidelines-advisor",
+      "source": ".agents/skills",
+      "name": "guidelines-advisor",
+      "description": "Smart contract development advisor based on Trail of Bits' best practices. Analyzes codebase to generate documentation/specifications, review architecture, check upgradeability patterns, assess implementation quality, identify pitfalls, review dependencies, and evaluate testing. Provides actionable recommendations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "hard-call",
+      "source": ".agents/skills",
+      "name": "hard-call",
+      "description": "/em -hard-call — Framework for Decisions With No Good Options",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "harness-writing",
+      "source": ".agents/skills",
+      "name": "harness-writing",
+      "description": "Techniques for writing effective fuzzing harnesses across languages. Use when creating new fuzz targets or improving existing harness code.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "init",
+      "source": ".agents/skills",
+      "name": "init",
+      "description": "Set up Playwright in a project. Use when user says \"set up playwright\", \"add e2e tests\", \"configure playwright\", \"testing setup\", \"init playwright\", or \"add test infrastructure\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "insecure-defaults",
+      "source": ".agents/skills",
+      "name": "insecure-defaults",
+      "description": "Detects fail-open insecure defaults (hardcoded secrets, weak auth, permissive security) that allow apps to run insecurely in production. Use when auditing security, reviewing config management, or analyzing environment variable handling.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "internal-comms",
+      "source": ".agents/skills",
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "internal-linking-optimizer",
+      "source": ".agents/skills",
+      "name": "internal-linking-optimizer",
+      "description": "Optimize internal links: site architecture, authority distribution, orphan pages, crawl depth analysis. 内链优化/站内架构",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "interpreting-culture-index",
+      "source": ".agents/skills",
+      "name": "interpreting-culture-index",
+      "description": "Interprets Culture Index (CI) surveys, behavioral profiles, and personality assessment data. Supports individual profile interpretation, team composition analysis (gas/brake/glue), burnout detection, profile comparison, hiring profiles, manager coaching, interview transcript analysis for trait prediction, candidate debrief, onboarding planning, and conflict mediation. Accepts extracted JSON or PDF input via OpenCV extraction script.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (2 .py)"
+      ]
+    },
+    {
+      "folder_name": "keyword-research",
+      "source": ".agents/skills",
+      "name": "keyword-research",
+      "description": "Find high-value SEO keywords: search volume, difficulty, intent classification, topic clusters. 关键词研究/内容选题",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "launch-strategy",
+      "source": ".agents/skills",
+      "name": "launch-strategy",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "lead-magnets",
+      "source": ".agents/skills",
+      "name": "lead-magnets",
+      "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "let-fate-decide",
+      "source": ".agents/skills",
+      "name": "let-fate-decide",
+      "description": "Draws 4 Tarot cards to inject entropy into planning when prompts are vague, ambiguous, or casually delegated. Interprets the spread to guide next steps. Use when the user says 'let fate decide', 'YOLO', 'whatever', 'idk', or other nonchalant phrases, makes Yu-Gi-Oh references, or when you are about to arbitrarily pick between multiple reasonable approaches. Prefer over ask-questions-if-underspecified when the user's tone is casual or playful rather than precision-seeking.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (2 .py)"
+      ]
+    },
+    {
+      "folder_name": "libafl",
+      "source": ".agents/skills",
+      "name": "libafl",
+      "description": "LibAFL is a modular fuzzing library for building custom fuzzers. Use for advanced fuzzing needs, custom mutators, or non-standard fuzzing targets.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "libfuzzer",
+      "source": ".agents/skills",
+      "name": "libfuzzer",
+      "description": "Coverage-guided fuzzer built into LLVM for C/C++ projects. Use for fuzzing C/C++ code that can be compiled with Clang.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "loop",
+      "source": ".agents/skills",
+      "name": "loop",
+      "description": "Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "marketing-ideas",
+      "source": ".agents/skills",
+      "name": "marketing-ideas",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.).",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "marketing-psychology",
+      "source": ".agents/skills",
+      "name": "marketing-psychology",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "marketing-skills",
+      "source": ".agents/skills",
+      "name": "marketing-skills",
+      "description": "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).",
+      "description_source": "frontmatter",
+      "tags": [
+        "marketing",
+        "seo",
+        "content",
+        "copywriting",
+        "cro",
+        "analytics",
+        "ai-seo"
+      ],
+      "version": "2.0.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "ab-test-setup",
+        "ad-creative",
+        "ai-seo",
+        "analytics-tracking",
+        "app-store-optimization",
+        "brand-guidelines",
+        "campaign-analytics",
+        "churn-prevention",
+        "cold-email",
+        "competitor-alternatives",
+        "content-creator",
+        "content-humanizer",
+        "content-production",
+        "content-strategy",
+        "copy-editing",
+        "copywriting",
+        "email-sequence",
+        "form-cro",
+        "free-tool-strategy",
+        "launch-strategy",
+        "marketing-context",
+        "marketing-demand-acquisition",
+        "marketing-ideas",
+        "marketing-ops",
+        "marketing-psychology",
+        "marketing-strategy-pmm",
+        "onboarding-cro",
+        "page-cro",
+        "paid-ads",
+        "paywall-upgrade-cro",
+        "popup-cro",
+        "pricing-strategy",
+        "programmatic-seo",
+        "prompt-engineer-toolkit",
+        "referral-program",
+        "schema-markup",
+        "seo-audit",
+        "signup-flow-cro",
+        "site-architecture",
+        "social-content",
+        "social-media-analyzer",
+        "social-media-manager",
+        "video-content-strategist",
+        "x-twitter-growth"
+      ],
+      "sub_skill_count": 44,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "mcp-builder",
+      "source": ".agents/skills",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt",
+      "notable_files": [
+        "scripts/ (2 .py)"
+      ]
+    },
+    {
+      "folder_name": "memory-management",
+      "source": ".agents/skills",
+      "name": "memory-management",
+      "description": "Persist SEO/GEO campaign context across Claude sessions with automatic hot-list, active work, and archive tiers. 项目记忆/跨会话",
+      "description_source": "frontmatter",
+      "version": "7.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "merge",
+      "source": ".agents/skills",
+      "name": "merge",
+      "description": "Merge the winning agent's branch into base, archive losers, and clean up worktrees.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "mermaid-to-proverif",
+      "source": ".agents/skills",
+      "name": "mermaid-to-proverif",
+      "description": "Translates Mermaid sequenceDiagrams describing cryptographic protocols into ProVerif formal verification models (.pv files). Use when generating a ProVerif model, formally verifying a protocol, converting a Mermaid diagram to ProVerif, verifying protocol security properties (secrecy, authentication, forward secrecy), checking for replay attacks, or producing a .pv file from a sequence diagram.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "meta-tags-optimizer",
+      "source": ".agents/skills",
+      "name": "meta-tags-optimizer",
+      "description": "Optimize title tags, meta descriptions, Open Graph, Twitter cards for maximum CTR with A/B variations. 标题优化/元描述/CTR",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "migrate",
+      "source": ".agents/skills",
+      "name": "migrate",
+      "description": "Migrate from Cypress or Selenium to Playwright. Use when user mentions \"cypress\", \"selenium\", \"migrate tests\", \"convert tests\", \"switch to playwright\", \"move from cypress\", or \"replace selenium\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "modern-python",
+      "source": ".agents/skills",
+      "name": "modern-python",
+      "description": "Configures Python projects with modern tooling (uv, ruff, ty). Use when creating projects, writing standalone scripts, or migrating from pip/Poetry/mypy/black.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "mutation-testing",
+      "source": ".agents/skills",
+      "name": "mutation-testing",
+      "description": "Configures mewt or muton mutation testing campaigns — scopes targets, tunes timeouts, and optimizes long-running runs. Use when the user mentions mewt, muton, mutation testing, or wants to configure or optimize a mutation testing campaign.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "on-page-seo-auditor",
+      "source": ".agents/skills",
+      "name": "on-page-seo-auditor",
+      "description": "Audit on-page SEO: titles, headers, images, links with scored report and fix priorities. 页面SEO审计/排名诊断",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "onboarding-cro",
+      "source": ".agents/skills",
+      "name": "onboarding-cro",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ossfuzz",
+      "source": ".agents/skills",
+      "name": "ossfuzz",
+      "description": "OSS-Fuzz provides free continuous fuzzing for open source projects. Use when setting up continuous fuzzing infrastructure or enrolling projects.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "page-cro",
+      "source": ".agents/skills",
+      "name": "page-cro",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "paid-ads",
+      "source": ".agents/skills",
+      "name": "paid-ads",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "paywall-upgrade-cro",
+      "source": ".agents/skills",
+      "name": "paywall-upgrade-cro",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "pdf",
+      "source": ".agents/skills",
+      "name": "pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "REFERENCE.md",
+        "FORMS.md",
+        "scripts/ (8 .py)"
+      ]
+    },
+    {
+      "folder_name": "performance-reporter",
+      "source": ".agents/skills",
+      "name": "performance-reporter",
+      "description": "Generate SEO/GEO dashboards: rankings, traffic, backlinks, AI visibility for stakeholders. SEO报告/绩效仪表盘",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "pm-skills",
+      "source": ".agents/skills",
+      "name": "pm-skills",
+      "description": "6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation.",
+      "description_source": "frontmatter",
+      "tags": [
+        "project-management",
+        "jira",
+        "confluence",
+        "atlassian",
+        "scrum",
+        "agile"
+      ],
+      "version": "1.0.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "atlassian-admin",
+        "atlassian-templates",
+        "confluence-expert",
+        "jira-expert",
+        "meeting-analyzer",
+        "scrum-master",
+        "senior-pm",
+        "team-communications"
+      ],
+      "sub_skill_count": 8,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "popup-cro",
+      "source": ".agents/skills",
+      "name": "popup-cro",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "postmortem",
+      "source": ".agents/skills",
+      "name": "postmortem",
+      "description": "/em -postmortem — Honest Analysis of What Went Wrong",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "pptx",
+      "source": ".agents/skills",
+      "name": "pptx",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (4 .py)"
+      ]
+    },
+    {
+      "folder_name": "pricing-strategy",
+      "source": ".agents/skills",
+      "name": "pricing-strategy",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "product-marketing-context",
+      "source": ".agents/skills",
+      "name": "product-marketing-context",
+      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, and positioning context.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "product-skills",
+      "source": ".agents/skills",
+      "name": "product-skills",
+      "description": "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).",
+      "description_source": "frontmatter",
+      "tags": [
+        "product",
+        "product-management",
+        "ux",
+        "ui",
+        "saas",
+        "agile"
+      ],
+      "version": "1.1.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "agile-product-owner",
+        "apple-hig-expert",
+        "code-to-prd",
+        "competitive-teardown",
+        "experiment-designer",
+        "landing-page-generator",
+        "product-analytics",
+        "product-discovery",
+        "product-manager-toolkit",
+        "product-strategist",
+        "research-summarizer",
+        "roadmap-communicator",
+        "saas-scaffolder",
+        "spec-to-repo",
+        "ui-design-system",
+        "ux-researcher-designer"
+      ],
+      "sub_skill_count": 16,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "programmatic-seo",
+      "source": ".agents/skills",
+      "name": "programmatic-seo",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "promote",
+      "source": ".agents/skills",
+      "name": "promote",
+      "description": "Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "property-based-testing",
+      "source": ".agents/skills",
+      "name": "property-based-testing",
+      "description": "Provides guidance for property-based testing across multiple languages and smart contracts. Use when writing tests, reviewing code with serialization/validation/parsing patterns, designing features, or when property-based testing would provide stronger coverage than example-based tests.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ra-qm-skills",
+      "source": ".agents/skills",
+      "name": "ra-qm-skills",
+      "description": "12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only).",
+      "description_source": "frontmatter",
+      "tags": [
+        "regulatory",
+        "quality-management",
+        "iso-13485",
+        "mdr",
+        "fda",
+        "iso-27001",
+        "gdpr"
+      ],
+      "version": "1.0.0",
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "agents": [
+        "claude-code",
+        "codex-cli",
+        "openclaw"
+      ],
+      "sub_skills": [
+        "capa-officer",
+        "fda-consultant-specialist",
+        "gdpr-dsgvo-expert",
+        "information-security-manager-iso27001",
+        "isms-audit-expert",
+        "mdr-745-specialist",
+        "qms-audit-expert",
+        "quality-documentation-manager",
+        "quality-manager-qmr",
+        "quality-manager-qms-iso13485",
+        "regulatory-affairs-head",
+        "risk-management-specialist",
+        "soc2-compliance"
+      ],
+      "sub_skill_count": 13,
+      "notable_files": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "folder_name": "rank-tracker",
+      "source": ".agents/skills",
+      "name": "rank-tracker",
+      "description": "Track keyword rankings and SERP feature changes in traditional search and AI responses over time. 排名追踪/SERP监控",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "referral-program",
+      "source": ".agents/skills",
+      "name": "referral-program",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "remember",
+      "source": ".agents/skills",
+      "name": "remember",
+      "description": "Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "report",
+      "source": ".agents/skills",
+      "name": "report",
+      "description": "Generate test report. Use when user says \"test report\", \"results summary\", \"test status\", \"show results\", \"test dashboard\", or \"how did tests go\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "resume",
+      "source": ".agents/skills",
+      "name": "resume",
+      "description": "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "review",
+      "source": ".agents/skills",
+      "name": "review",
+      "description": "Review Playwright tests for quality. Use when user says \"review tests\", \"check test quality\", \"audit tests\", \"improve tests\", \"test code review\", or \"playwright best practices check\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "revops",
+      "source": ".agents/skills",
+      "name": "revops",
+      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "run",
+      "source": ".agents/skills",
+      "name": "run",
+      "description": "Run a single experiment iteration. Edit the target file, evaluate, keep or discard.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ruzzy",
+      "source": ".agents/skills",
+      "name": "ruzzy",
+      "description": "Ruzzy is a coverage-guided Ruby fuzzer by Trail of Bits. Use for fuzzing pure Ruby code and Ruby C extensions.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "sales-enablement",
+      "source": ".agents/skills",
+      "name": "sales-enablement",
+      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For marketing website copy, see copywriting. For cold outreach emails, see cold-email.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "sarif-parsing",
+      "source": ".agents/skills",
+      "name": "sarif-parsing",
+      "description": "Parses and processes SARIF files from static analysis tools like CodeQL, Semgrep, or other scanners. Triggers on \"parse sarif\", \"read scan results\", \"aggregate findings\", \"deduplicate alerts\", or \"process sarif output\". Handles filtering, deduplication, format conversion, and CI/CD integration of SARIF data. Does NOT run scans — use the Semgrep or CodeQL skills for that.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "schema-markup",
+      "source": ".agents/skills",
+      "name": "schema-markup",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "schema-markup-generator",
+      "source": ".agents/skills",
+      "name": "schema-markup-generator",
+      "description": "Generate JSON-LD structured data for FAQ, HowTo, Article, Product, LocalBusiness rich results. Schema标记/结构化数据",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "seatbelt-sandboxer",
+      "source": ".agents/skills",
+      "name": "seatbelt-sandboxer",
+      "description": "Generates minimal macOS Seatbelt sandbox configurations. Use when sandboxing, isolating, or restricting macOS applications with allowlist-based profiles.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "second-opinion",
+      "source": ".agents/skills",
+      "name": "second-opinion",
+      "description": "Runs external LLM code reviews (OpenAI Codex or Google Gemini CLI) on uncommitted changes, branch diffs, or specific commits. Use when the user asks for a second opinion, external review, codex review, gemini review, or mentions /second-opinion.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "secure-workflow-guide",
+      "source": ".agents/skills",
+      "name": "secure-workflow-guide",
+      "description": "Guides through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token integration), generates visual security diagrams, helps document security properties for fuzzing/verification, and reviews manual security areas.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "semgrep",
+      "source": ".agents/skills",
+      "name": "semgrep",
+      "description": "Run Semgrep static analysis scan on a codebase using parallel subagents. Supports two scan modes — \"run all\" (full ruleset coverage) and \"important only\" (high-confidence security vulnerabilities). Automatically detects and uses Semgrep Pro for cross-file taint analysis when available. Use when asked to scan code for vulnerabilities, run a security audit with Semgrep, find bugs, or perform static analysis. Spawns parallel workers for multi-language codebases.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (1 .py)"
+      ]
+    },
+    {
+      "folder_name": "semgrep-rule-creator",
+      "source": ".agents/skills",
+      "name": "semgrep-rule-creator",
+      "description": "Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "semgrep-rule-variant-creator",
+      "source": ".agents/skills",
+      "name": "semgrep-rule-variant-creator",
+      "description": "Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "seo-audit",
+      "source": ".agents/skills",
+      "name": "seo-audit",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "seo-content-writer",
+      "source": ".agents/skills",
+      "name": "seo-content-writer",
+      "description": "Write SEO blog posts, articles, landing pages with keyword integration, header optimization, and snippet targeting. SEO文章写作/内容优化",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "serp-analysis",
+      "source": ".agents/skills",
+      "name": "serp-analysis",
+      "description": "Analyze SERPs: ranking factors, features, intent patterns, AI overviews, featured snippets. SERP分析/搜索结果",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "setup",
+      "source": ".agents/skills",
+      "name": "setup",
+      "description": "Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "sharp-edges",
+      "source": ".agents/skills",
+      "name": "sharp-edges",
+      "description": "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by default' and 'pit of success' principles. Triggers: footgun, misuse-resistant, secure defaults, API usability, dangerous configuration.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "signup-flow-cro",
+      "source": ".agents/skills",
+      "name": "signup-flow-cro",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "site-architecture",
+      "source": ".agents/skills",
+      "name": "site-architecture",
+      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "skill-creator",
+      "source": ".agents/skills",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (9 .py)"
+      ]
+    },
+    {
+      "folder_name": "skill-improver",
+      "source": ".agents/skills",
+      "name": "skill-improver",
+      "description": "Iteratively reviews and fixes Claude Code skill quality issues until they meet standards. Runs automated fix-review cycles using the skill-reviewer agent. Use to fix skill quality issues, improve skill descriptions, run automated skill review loops, or iteratively refine a skill. Triggers on 'fix my skill', 'improve skill quality', 'skill improvement loop'. NOT for one-time reviews—use /skill-reviewer directly.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "slack-gif-creator",
+      "source": ".agents/skills",
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "social-content",
+      "source": ".agents/skills",
+      "name": "social-content",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "solana-vulnerability-scanner",
+      "source": ".agents/skills",
+      "name": "solana-vulnerability-scanner",
+      "description": "Scans Solana programs for 6 critical vulnerabilities including arbitrary CPI, improper PDA validation, missing signer/ownership checks, and sysvar spoofing. Use when auditing Solana/Anchor programs.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "spawn",
+      "source": ".agents/skills",
+      "name": "spawn",
+      "description": "Launch N parallel subagents in isolated git worktrees to compete on the session task.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "spec-to-code-compliance",
+      "source": ".agents/skills",
+      "name": "spec-to-code-compliance",
+      "description": "Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "status",
+      "source": ".agents/skills",
+      "name": "status",
+      "description": "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "stress-test",
+      "source": ".agents/skills",
+      "name": "stress-test",
+      "description": "/em -stress-test — Business Assumption Stress Testing",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "substrate-vulnerability-scanner",
+      "source": ".agents/skills",
+      "name": "substrate-vulnerability-scanner",
+      "description": "Scans Substrate/Polkadot pallets for 7 critical vulnerabilities including arithmetic overflow, panic DoS, incorrect weights, and bad origin checks. Use when auditing Substrate runtimes or FRAME pallets.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "supply-chain-risk-auditor",
+      "source": ".agents/skills",
+      "name": "supply-chain-risk-auditor",
+      "description": "Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "technical-seo-checker",
+      "source": ".agents/skills",
+      "name": "technical-seo-checker",
+      "description": "Technical SEO audit: Core Web Vitals, crawl, indexing, mobile, speed, architecture, redirects. 技术SEO/网站速度",
+      "description_source": "frontmatter",
+      "version": "6.0.0",
+      "license": "Apache-2.0"
+    },
+    {
+      "folder_name": "template-skill",
+      "source": ".agents/skills",
+      "name": "template-skill",
+      "description": "Replace with description of the skill and when Claude should use it.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "testing-handbook-generator",
+      "source": ".agents/skills",
+      "name": "testing-handbook-generator",
+      "description": "Meta-skill that analyzes the Trail of Bits Testing Handbook (appsec.guide) and generates Claude Code skills for security testing tools and techniques. Use when creating new skills based on handbook content.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "testrail",
+      "source": ".agents/skills",
+      "name": "testrail",
+      "description": "Sync tests with TestRail. Use when user mentions \"testrail\", \"test management\", \"test cases\", \"test run\", \"sync test cases\", \"push results to testrail\", or \"import from testrail\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "theme-factory",
+      "source": ".agents/skills",
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "token-integration-analyzer",
+      "source": ".agents/skills",
+      "name": "token-integration-analyzer",
+      "description": "Token integration and implementation analyzer based on Trail of Bits' token integration checklist. Analyzes token implementations for ERC20/ERC721 conformity, checks for 20+ weird token patterns, assesses contract composition and owner privileges, performs on-chain scarcity analysis, and evaluates how protocols handle non-standard tokens. Context-aware for both token implementations and token integrations.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ton-vulnerability-scanner",
+      "source": ".agents/skills",
+      "name": "ton-vulnerability-scanner",
+      "description": "Scans TON (The Open Network) smart contracts for 3 critical vulnerabilities including integer-as-boolean misuse, fake Jetton contracts, and forward TON without gas checks. Use when auditing FunC contracts.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "trailmark",
+      "source": ".agents/skills",
+      "name": "trailmark",
+      "description": "Builds and queries multi-language source code graphs for security analysis. Includes pre-analysis passes for blast radius, taint propagation, privilege boundaries, and entry point enumeration. Use when analyzing call paths, mapping attack surface, finding complexity hotspots, enumerating entry points, tracing taint propagation, measuring blast radius, or building a code graph for audit prioritization. Supports 16 languages including Solidity, Cairo, Circom, Rust, Go, Python, C/C++, TypeScript.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "trailmark-structural",
+      "source": ".agents/skills",
+      "name": "trailmark-structural",
+      "description": "Runs full trailmark structural analysis with all pre-analysis passes (blast radius, taint propagation, privilege boundaries, complexity hotspots). Use when vivisect needs detailed structural data for a target. Triggers: structural analysis, blast radius, taint analysis, complexity hotspots.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "trailmark-summary",
+      "source": ".agents/skills",
+      "name": "trailmark-summary",
+      "description": "Runs a trailmark summary analysis on a codebase. Returns language detection, entry point count, and dependency graph shape. Use when vivisect or galvanize needs a quick structural overview. Triggers: trailmark summary, code summary, structural overview.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "variant-analysis",
+      "source": ".agents/skills",
+      "name": "variant-analysis",
+      "description": "Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "vector-forge",
+      "source": ".agents/skills",
+      "name": "vector-forge",
+      "description": "Mutation-driven test vector generation. Finds implementations of a cryptographic algorithm or protocol, runs mutation testing to identify escaped mutants, then generates new test vectors that deliberately exercise the uncovered code paths. Compares before/after mutation kill rates to prove vector effectiveness. Use when generating cryptographic test vectors, measuring Wycheproof coverage gaps, finding escaped mutants via mutation testing, creating cross-implementation test suites, or improving test vector coverage for crypto primitives.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "vercel-cli-with-tokens",
+      "source": ".agents/skills",
+      "name": "vercel-cli-with-tokens",
+      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "vercel-composition-patterns",
+      "source": ".agents/skills",
+      "name": "vercel-composition-patterns",
+      "description": "Composition patterns for building flexible, maintainable React components. Avoid boolean prop proliferation by using compound components, lifting state, and composing internals. These patterns make codebases easier for both humans and AI agents to work with as they scale.",
+      "description_source": "first_paragraph",
+      "license": "MIT"
+    },
+    {
+      "folder_name": "vercel-react-best-practices",
+      "source": ".agents/skills",
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "description_source": "frontmatter",
+      "license": "MIT"
+    },
+    {
+      "folder_name": "vercel-react-native-skills",
+      "source": ".agents/skills",
+      "name": "vercel-react-native-skills",
+      "description": "Comprehensive best practices for React Native and Expo applications. Contains rules across multiple categories covering performance, animations, UI patterns, and platform-specific optimizations.",
+      "description_source": "first_paragraph",
+      "license": "MIT"
+    },
+    {
+      "folder_name": "vercel-react-view-transitions",
+      "source": ".agents/skills",
+      "name": "vercel-react-view-transitions",
+      "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "description_source": "frontmatter",
+      "license": "MIT"
+    },
+    {
+      "folder_name": "web-artifacts-builder",
+      "source": ".agents/skills",
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    {
+      "folder_name": "web-design-guidelines",
+      "source": ".agents/skills",
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "webapp-testing",
+      "source": ".agents/skills",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "description_source": "frontmatter",
+      "license": "Complete terms in LICENSE.txt",
+      "notable_files": [
+        "scripts/ (1 .py)"
+      ]
+    },
+    {
+      "folder_name": "wycheproof",
+      "source": ".agents/skills",
+      "name": "wycheproof",
+      "description": "Wycheproof provides test vectors for validating cryptographic implementations. Use when testing crypto code for known attacks and edge cases.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "xlsx",
+      "source": ".agents/skills",
+      "name": "xlsx",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "yara-rule-authoring",
+      "source": ".agents/skills",
+      "name": "yara-rule-authoring",
+      "description": "Guides authoring of high-quality YARA-X detection rules for malware identification. Use when writing, reviewing, or optimizing YARA rules. Covers naming conventions, string selection, performance optimization, migration from legacy YARA, and false positive reduction. Triggers on: YARA, YARA-X, malware detection, threat hunting, IOC, signature, crx module, dex module.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (2 .py)"
+      ]
+    },
+    {
+      "folder_name": "zeroize-audit",
+      "source": ".agents/skills",
+      "name": "zeroize-audit",
+      "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.",
+      "description_source": "frontmatter"
+    },
+    {
+      "folder_name": "ui-ux-pro-max",
+      "source": ".claude/skills",
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX design intelligence. 67 styles, 96 palettes, 57 font pairings, 25 charts, 13 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
+      "description_source": "frontmatter",
+      "notable_files": [
+        "scripts/ (3 .py)"
+      ]
+    }
+  ]
+}

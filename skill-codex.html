@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SynthBrain // Skill Codex</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root {
+    --bg: #0a0a0f; --surface: #12121a; --surface2: #1a1a26;
+    --border: #2a2a3a; --text: #e0e0e8; --text2: #888898;
+    --accent: #7c5cff; --accent2: #5c8cff; --gold: #ffd700;
+    --xp-green: #4cff8e; --hp-red: #ff4c6a; --mana: #5caaff;
+    --marketing: #ff6b9d; --seo: #4cff8e; --security: #ff4c6a;
+    --testing: #ffa94c; --engineering: #5c8cff; --design: #c084fc;
+    --documents: #38bdf8; --business: #ffd700; --cro: #fb923c;
+    --blockchain: #a78bfa; --meta: #888898; --product: #f472b6;
+    --ops: #34d399; --workflows: #818cf8; --mobile: #f97316;
+    --other: #6b7280;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; overflow-x: hidden; }
+
+  .scanlines { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 999;
+    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px); }
+
+  header { background: linear-gradient(135deg, #0d0d15 0%, #151525 100%); border-bottom: 1px solid var(--border);
+    padding: 20px 32px; display: flex; align-items: center; gap: 20px; }
+  .logo { font-family: 'Press Start 2P', monospace; font-size: 14px; color: var(--accent);
+    text-shadow: 0 0 20px rgba(124,92,255,0.5); }
+  .logo span { color: var(--gold); }
+  .subtitle { color: var(--text2); font-size: 12px; font-family: 'JetBrains Mono', monospace; }
+
+  .hero-stats { display: flex; gap: 12px; margin-left: auto; }
+  .stat-chip { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 16px; font-family: 'JetBrains Mono', monospace; font-size: 12px;
+    display: flex; align-items: center; gap: 8px; }
+  .stat-chip .val { color: var(--gold); font-weight: 700; font-size: 16px; }
+
+  .xp-bar-wrap { margin: 0 32px; padding: 12px 0; }
+  .xp-bar-outer { background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    height: 28px; position: relative; overflow: hidden; }
+  .xp-bar-inner { height: 100%; border-radius: 12px; transition: width 1.5s ease;
+    background: linear-gradient(90deg, #4cff8e, #5caaff, #7c5cff);
+    box-shadow: 0 0 20px rgba(76,255,142,0.3); position: relative; }
+  .xp-bar-inner::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%);
+    animation: shimmer 2s infinite; }
+  @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+  .xp-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    font-family: 'Press Start 2P', monospace; font-size: 9px; color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8); z-index: 2; }
+  .level-badge { position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    font-family: 'Press Start 2P', monospace; font-size: 10px; color: var(--gold);
+    text-shadow: 0 0 10px rgba(255,215,0,0.5); z-index: 2; }
+
+  .main { display: flex; height: calc(100vh - 120px); }
+
+  .sidebar { width: 280px; background: var(--surface); border-right: 1px solid var(--border);
+    overflow-y: auto; flex-shrink: 0; }
+  .sidebar h3 { font-family: 'Press Start 2P', monospace; font-size: 10px; padding: 16px 16px 8px;
+    color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
+  .search-box { margin: 0 12px 12px; }
+  .search-box input { width: 100%; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px 12px; color: var(--text); font-size: 13px;
+    font-family: 'JetBrains Mono', monospace; outline: none; }
+  .search-box input:focus { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(124,92,255,0.2); }
+
+  .cat-list { list-style: none; }
+  .cat-item { display: flex; align-items: center; gap: 10px; padding: 10px 16px; cursor: pointer;
+    transition: all 0.15s; border-left: 3px solid transparent; }
+  .cat-item:hover { background: var(--surface2); }
+  .cat-item.active { background: rgba(124,92,255,0.1); border-left-color: var(--accent); }
+  .cat-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .cat-name { font-size: 13px; font-weight: 500; flex: 1; }
+  .cat-count { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text2);
+    background: var(--surface2); border-radius: 10px; padding: 2px 8px; }
+
+  .content { flex: 1; overflow-y: auto; padding: 24px; }
+
+  .view-toggle { display: flex; gap: 8px; margin-bottom: 20px; }
+  .view-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 16px; color: var(--text2); font-size: 12px; cursor: pointer;
+    font-family: 'JetBrains Mono', monospace; transition: all 0.15s; }
+  .view-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+
+  .skill-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; cursor: pointer; transition: all 0.2s; position: relative; overflow: hidden; }
+  .skill-card:hover { border-color: var(--accent); transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(124,92,255,0.15); }
+  .skill-card .rarity { position: absolute; top: 0; right: 0; width: 60px; height: 60px;
+    opacity: 0.08; font-size: 40px; line-height: 60px; text-align: center; }
+  .skill-card .cat-badge { display: inline-block; font-size: 10px; padding: 3px 8px;
+    border-radius: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
+    margin-bottom: 8px; }
+  .skill-card h4 { font-size: 14px; font-weight: 600; margin-bottom: 6px;
+    font-family: 'JetBrains Mono', monospace; }
+  .skill-card p { font-size: 12px; color: var(--text2); line-height: 1.5;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .skill-card .xp-val { position: absolute; bottom: 12px; right: 12px;
+    font-family: 'Press Start 2P', monospace; font-size: 8px; color: var(--xp-green); }
+
+  #graph-container { width: 100%; height: calc(100vh - 200px); display: none; border-radius: 12px;
+    background: var(--surface); border: 1px solid var(--border); overflow: hidden; }
+  #graph-container svg { width: 100%; height: 100%; }
+
+  .mcp-section { display: none; }
+  .mcp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .mcp-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; position: relative; }
+  .mcp-card.official { border-color: var(--gold); }
+  .mcp-card .type-badge { position: absolute; top: 12px; right: 12px; font-size: 10px;
+    padding: 2px 8px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
+  .mcp-card h4 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .mcp-card .tools-count { font-size: 11px; color: var(--mana); font-family: 'JetBrains Mono', monospace; }
+  .mcp-card p { font-size: 12px; color: var(--text2); margin-top: 8px; line-height: 1.4; }
+
+  .detail-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7); z-index: 100; justify-content: center; align-items: center; }
+  .detail-modal.show { display: flex; }
+  .detail-content { background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 32px; max-width: 500px; width: 90%; max-height: 80vh; overflow-y: auto; }
+  .detail-content h2 { font-family: 'Press Start 2P', monospace; font-size: 12px; margin-bottom: 8px; }
+  .detail-content .rarity-label { font-size: 12px; margin-bottom: 16px; }
+  .detail-content p { font-size: 13px; line-height: 1.6; color: var(--text2); margin-bottom: 16px; }
+  .detail-content .stats-row { display: flex; gap: 16px; }
+  .detail-content .stat { text-align: center; flex: 1; background: var(--surface2);
+    border-radius: 8px; padding: 12px; }
+  .detail-content .stat .num { font-family: 'Press Start 2P', monospace; font-size: 14px; color: var(--gold); }
+  .detail-content .stat .lbl { font-size: 10px; color: var(--text2); margin-top: 4px; }
+  .close-btn { background: none; border: none; color: var(--text2); font-size: 24px;
+    cursor: pointer; float: right; line-height: 1; }
+</style>
+</head>
+<body>
+<div class="scanlines"></div>
+
+<header>
+  <div>
+    <div class="logo">SYNTH<span>BRAIN</span> // SKILL CODEX</div>
+    <div class="subtitle">claude-opus-4-6 | synthminds.ai</div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-chip"><span>Skills</span><span class="val" id="total-skills">0</span></div>
+    <div class="stat-chip"><span>MCP</span><span class="val" id="total-mcp">37</span></div>
+    <div class="stat-chip"><span>Classes</span><span class="val" id="total-cats">0</span></div>
+  </div>
+</header>
+
+<div class="xp-bar-wrap">
+  <div class="xp-bar-outer">
+    <div class="level-badge" id="level-badge">LV 1</div>
+    <div class="xp-bar-inner" id="xp-bar" style="width: 0%"></div>
+    <div class="xp-label" id="xp-label">0 / 100 XP</div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="sidebar">
+    <h3>Skill Classes</h3>
+    <div class="search-box"><input type="text" id="search" placeholder="Search skills..."></div>
+    <ul class="cat-list" id="cat-list">
+      <li class="cat-item active" data-cat="all">
+        <div class="cat-dot" style="background: var(--accent)"></div>
+        <span class="cat-name">All Skills</span>
+        <span class="cat-count" id="all-count">0</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="view-toggle">
+      <button class="view-btn active" data-view="grid">Skill Cards</button>
+      <button class="view-btn" data-view="graph">Force Graph</button>
+      <button class="view-btn" data-view="mcp">MCP Arsenal</button>
+    </div>
+    <div class="skills-grid" id="skills-grid"></div>
+    <div id="graph-container"></div>
+    <div class="mcp-section" id="mcp-section"></div>
+  </div>
+</div>
+
+<div class="detail-modal" id="detail-modal">
+  <div class="detail-content" id="detail-content"></div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const CAT_COLORS = {
+  Marketing: '#ff6b9d', SEO: '#4cff8e', Security: '#ff4c6a', Testing: '#ffa94c',
+  Engineering: '#5c8cff', Design: '#c084fc', Documents: '#38bdf8', Business: '#ffd700',
+  CRO: '#fb923c', Blockchain: '#a78bfa', Meta: '#888898', Product: '#f472b6',
+  Ops: '#34d399', Workflows: '#818cf8', Mobile: '#f97316', Other: '#6b7280'
+};
+const CAT_ICONS = {
+  Marketing: '\u2728', SEO: '\ud83d\udd0d', Security: '\ud83d\udee1\ufe0f', Testing: '\ud83e\uddea',
+  Engineering: '\u2699\ufe0f', Design: '\ud83c\udfa8', Documents: '\ud83d\udcc4', Business: '\ud83d\udcb0',
+  CRO: '\ud83d\udcc8', Blockchain: '\u26d3\ufe0f', Meta: '\ud83e\udde0', Product: '\ud83d\udce6',
+  Ops: '\ud83d\udcdf', Workflows: '\ud83d\udd04', Mobile: '\ud83d\udcf1', Other: '\ud83d\udd2e'
+};
+const RARITY = cat => {
+  const r = { Security: 'Legendary', Blockchain: 'Epic', Engineering: 'Rare',
+    Design: 'Rare', Testing: 'Uncommon', Marketing: 'Uncommon', SEO: 'Common',
+    CRO: 'Common', Meta: 'Common' };
+  return r[cat] || 'Common';
+};
+const RARITY_XP = { Legendary: 50, Epic: 35, Rare: 25, Uncommon: 15, Common: 10 };
+const RARITY_COLORS = { Legendary: '#ffd700', Epic: '#a78bfa', Rare: '#5c8cff', Uncommon: '#4cff8e', Common: '#888898' };
+
+const MCP_SERVERS = [
+  { name: 'GitHub', type: 'Web UI', official: true, tools: 40, desc: 'Repos, PRs, issues, code search, security' },
+  { name: 'Vercel', type: 'Web UI', official: true, tools: 18, desc: 'Deploy, build logs, domains' },
+  { name: 'Cloudflare', type: 'Web UI', official: true, tools: 25, desc: 'Workers, D1, KV, R2' },
+  { name: 'Figma', type: 'Web UI', official: false, tools: 16, desc: 'Design context, screenshots, code connect' },
+  { name: 'Canva', type: 'Web UI', official: false, tools: 31, desc: 'Generate/edit designs, brand kits' },
+  { name: 'Sentry', type: 'Web UI', official: false, tools: 14, desc: 'Error monitoring, Seer AI' },
+  { name: 'Notion', type: 'Web UI', official: false, tools: 14, desc: 'Pages, databases, views' },
+  { name: 'Slack', type: 'Web UI', official: false, tools: 13, desc: 'Messages, search, canvases' },
+  { name: 'Gmail', type: 'Web UI', official: false, tools: 7, desc: 'Email read/draft/search' },
+  { name: 'Google Calendar', type: 'Web UI', official: false, tools: 9, desc: 'Events, scheduling' },
+  { name: 'Granola', type: 'Web UI', official: false, tools: 5, desc: 'Meeting transcripts' },
+  { name: 'Gamma', type: 'Web UI', official: false, tools: 5, desc: 'Presentations' },
+  { name: 'Eraser', type: 'Web UI', official: false, tools: 13, desc: 'Diagrams, docs, tables' },
+  { name: 'Exa', type: 'Web UI', official: false, tools: 2, desc: 'Web search' },
+  { name: 'Hugging Face', type: 'Web UI', official: false, tools: 9, desc: 'ML models, papers' },
+  { name: 'Mermaid', type: 'Web UI', official: false, tools: 6, desc: 'Diagram rendering' },
+  { name: 'Playwright', type: 'CLI', official: true, tools: 21, desc: 'Browser automation & testing' },
+  { name: 'Memory', type: 'CLI', official: true, tools: 9, desc: 'Knowledge graph' },
+  { name: 'Context7', type: 'CLI', official: false, tools: 2, desc: 'Live library docs' },
+  { name: '21st.dev Magic', type: 'CLI', official: false, tools: 4, desc: 'React component gen' },
+  { name: 'Google Stitch', type: 'CLI', official: false, tools: 3, desc: 'Gemini UI design' },
+  { name: 'Nano Banana', type: 'CLI', official: false, tools: 1, desc: 'Image generation' },
+  { name: 'Chrome DevTools', type: 'CLI', official: true, tools: 5, desc: 'Live Chrome interaction' },
+  { name: 'Mem.ai', type: 'CLI', official: false, tools: 6, desc: 'Knowledge vault' },
+  { name: 'Shopify', type: 'CLI', official: false, tools: 10, desc: 'E-commerce management' },
+  { name: 'Square POS', type: 'CLI', official: true, tools: 8, desc: 'In-store transactions' },
+  { name: 'ShipStation', type: 'CLI', official: false, tools: 50, desc: 'Shipping & logistics' },
+  { name: 'Etsy', type: 'CLI', official: false, tools: 8, desc: 'Marketplace listings' },
+  { name: 'Klaviyo', type: 'CLI', official: false, tools: 10, desc: 'Email/SMS marketing' },
+  { name: 'Instagram DM', type: 'CLI', official: false, tools: 4, desc: 'DM management' },
+  { name: 'Calendly', type: 'CLI', official: false, tools: 40, desc: 'Scheduling' },
+  { name: 'Stripe', type: 'CLI', official: true, tools: 15, desc: 'Payments' },
+];
+
+let allSkills = [], currentCat = 'all', currentView = 'grid';
+
+async function loadSkills() {
+  try {
+    const resp = await fetch('.agents/skills-catalog.json');
+    const data = await resp.json();
+    allSkills = data.skills;
+  } catch {
+    allSkills = FALLBACK_SKILLS;
+  }
+  init();
+}
+
+const FALLBACK_SKILLS = [];
+
+function init() {
+  const cats = {};
+  let totalXP = 0;
+  allSkills.forEach(s => {
+    cats[s.category] = (cats[s.category] || 0) + 1;
+    s.rarity = RARITY(s.category);
+    s.xp = RARITY_XP[s.rarity];
+    totalXP += s.xp;
+  });
+
+  document.getElementById('total-skills').textContent = allSkills.length;
+  document.getElementById('total-cats').textContent = Object.keys(cats).length;
+  document.getElementById('all-count').textContent = allSkills.length;
+
+  // XP & Level
+  const level = Math.floor(totalXP / 500) + 1;
+  const xpInLevel = totalXP % 500;
+  const xpNeeded = 500;
+  const pct = (xpInLevel / xpNeeded * 100);
+  document.getElementById('level-badge').textContent = `LV ${level}`;
+  document.getElementById('xp-label').textContent = `${totalXP} XP // ${xpInLevel} / ${xpNeeded} to LV ${level + 1}`;
+  setTimeout(() => document.getElementById('xp-bar').style.width = pct + '%', 100);
+
+  // Sidebar categories
+  const catList = document.getElementById('cat-list');
+  Object.entries(cats).sort((a, b) => b[1] - a[1]).forEach(([cat, count]) => {
+    const li = document.createElement('li');
+    li.className = 'cat-item';
+    li.dataset.cat = cat;
+    li.innerHTML = `<div class="cat-dot" style="background:${CAT_COLORS[cat] || '#666'}"></div>
+      <span class="cat-name">${CAT_ICONS[cat] || ''} ${cat}</span>
+      <span class="cat-count">${count}</span>`;
+    li.onclick = () => selectCat(cat);
+    catList.appendChild(li);
+  });
+
+  renderGrid(allSkills);
+  renderMCP();
+
+  // Search
+  document.getElementById('search').addEventListener('input', e => {
+    const q = e.target.value.toLowerCase();
+    const filtered = allSkills.filter(s =>
+      (currentCat === 'all' || s.category === currentCat) &&
+      (s.name.toLowerCase().includes(q) || s.description.toLowerCase().includes(q) || s.id.toLowerCase().includes(q))
+    );
+    renderGrid(filtered);
+  });
+
+  // View toggle
+  document.querySelectorAll('.view-btn').forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentView = btn.dataset.view;
+      document.getElementById('skills-grid').style.display = currentView === 'grid' ? 'grid' : 'none';
+      document.getElementById('graph-container').style.display = currentView === 'graph' ? 'block' : 'none';
+      document.getElementById('mcp-section').style.display = currentView === 'mcp' ? 'block' : 'none';
+      if (currentView === 'graph') renderGraph();
+    };
+  });
+
+  // Modal close
+  document.getElementById('detail-modal').onclick = e => {
+    if (e.target === e.currentTarget) e.target.classList.remove('show');
+  };
+}
+
+function selectCat(cat) {
+  currentCat = cat;
+  document.querySelectorAll('.cat-item').forEach(el => el.classList.toggle('active', el.dataset.cat === cat));
+  const filtered = cat === 'all' ? allSkills : allSkills.filter(s => s.category === cat);
+  renderGrid(filtered);
+  document.getElementById('search').value = '';
+}
+
+function renderGrid(skills) {
+  const grid = document.getElementById('skills-grid');
+  grid.innerHTML = skills.map(s => {
+    const color = CAT_COLORS[s.category] || '#666';
+    const rc = RARITY_COLORS[s.rarity];
+    return `<div class="skill-card" onclick="showDetail('${s.id}')" style="border-left: 3px solid ${color}">
+      <div class="rarity">${CAT_ICONS[s.category] || ''}</div>
+      <div class="cat-badge" style="background:${color}22;color:${color}">${s.category}</div>
+      <h4>${s.name}</h4>
+      <p>${s.description || 'No description'}</p>
+      <div class="xp-val" style="color:${rc}">+${s.xp} XP // ${s.rarity}</div>
+    </div>`;
+  }).join('');
+}
+
+function showDetail(id) {
+  const s = allSkills.find(sk => sk.id === id);
+  if (!s) return;
+  const rc = RARITY_COLORS[s.rarity];
+  const color = CAT_COLORS[s.category] || '#666';
+  document.getElementById('detail-content').innerHTML = `
+    <button class="close-btn" onclick="document.getElementById('detail-modal').classList.remove('show')">&times;</button>
+    <div class="cat-badge" style="background:${color}22;color:${color};display:inline-block;margin-bottom:12px">${CAT_ICONS[s.category] || ''} ${s.category}</div>
+    <h2 style="color:${rc}">${s.name}</h2>
+    <div class="rarity-label" style="color:${rc};font-family:'Press Start 2P',monospace;font-size:10px">${s.rarity}</div>
+    <p>${s.description || 'No description available.'}</p>
+    <div class="stats-row">
+      <div class="stat"><div class="num" style="color:${rc}">+${s.xp}</div><div class="lbl">XP Value</div></div>
+      <div class="stat"><div class="num">${CAT_ICONS[s.category] || '?'}</div><div class="lbl">Class</div></div>
+      <div class="stat"><div class="num" style="color:var(--mana)">Active</div><div class="lbl">Status</div></div>
+    </div>`;
+  document.getElementById('detail-modal').classList.add('show');
+}
+
+function renderMCP() {
+  const section = document.getElementById('mcp-section');
+  const totalTools = MCP_SERVERS.reduce((a, s) => a + s.tools, 0);
+  section.innerHTML = `<div style="margin-bottom:20px">
+    <span style="font-family:'Press Start 2P',monospace;font-size:12px;color:var(--mana)">MCP ARSENAL</span>
+    <span style="color:var(--text2);margin-left:12px">${MCP_SERVERS.length} servers // ${totalTools} tools</span>
+  </div><div class="mcp-grid">${MCP_SERVERS.map(s => `
+    <div class="mcp-card${s.official ? ' official' : ''}">
+      <div class="type-badge" style="background:${s.type === 'CLI' ? 'var(--accent)' : 'var(--xp-green)'}22;
+        color:${s.type === 'CLI' ? 'var(--accent)' : 'var(--xp-green)'}">${s.type}</div>
+      <h4>${s.name}${s.official ? ' <span style="color:var(--gold)">&#9733;</span>' : ''}</h4>
+      <div class="tools-count">${s.tools} tools</div>
+      <p>${s.desc}</p>
+    </div>`).join('')}</div>`;
+}
+
+function renderGraph() {
+  const container = document.getElementById('graph-container');
+  container.innerHTML = '';
+  const w = container.clientWidth, h = container.clientHeight;
+
+  const cats = [...new Set(allSkills.map(s => s.category))];
+  const nodes = [
+    { id: 'SynthBrain', group: 'core', r: 30, fx: w/2, fy: h/2 },
+    ...cats.map(c => ({ id: c, group: 'category', r: 18, color: CAT_COLORS[c] })),
+    ...allSkills.map(s => ({ id: s.id, group: 'skill', r: 5, color: CAT_COLORS[s.category], cat: s.category, name: s.name }))
+  ];
+  const links = [
+    ...cats.map(c => ({ source: 'SynthBrain', target: c, strength: 0.3 })),
+    ...allSkills.map(s => ({ source: s.category, target: s.id, strength: 0.1 }))
+  ];
+
+  const svg = d3.select(container).append('svg').attr('width', w).attr('height', h);
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.2, 4]).on('zoom', e => g.attr('transform', e.transform)));
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(d => d.source.group === 'core' ? 120 : 40).strength(d => d.strength))
+    .force('charge', d3.forceManyBody().strength(d => d.group === 'core' ? -300 : d.group === 'category' ? -150 : -15))
+    .force('center', d3.forceCenter(w/2, h/2))
+    .force('collision', d3.forceCollide().radius(d => d.r + 2));
+
+  const link = g.selectAll('line').data(links).join('line')
+    .attr('stroke', '#1a1a2a').attr('stroke-width', 0.5);
+
+  const node = g.selectAll('circle').data(nodes).join('circle')
+    .attr('r', d => d.r)
+    .attr('fill', d => d.group === 'core' ? '#7c5cff' : d.color || '#444')
+    .attr('stroke', d => d.group === 'category' ? '#fff' : 'none')
+    .attr('stroke-width', d => d.group === 'category' ? 2 : 0)
+    .attr('opacity', d => d.group === 'skill' ? 0.7 : 1)
+    .call(d3.drag().on('start', (e,d) => { if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', (e,d) => { d.fx=e.x; d.fy=e.y; })
+      .on('end', (e,d) => { if(!e.active) sim.alphaTarget(0); if(d.group!=='core'){d.fx=null;d.fy=null;} }));
+
+  const labels = g.selectAll('text').data(nodes.filter(n => n.group !== 'skill')).join('text')
+    .text(d => d.id).attr('font-size', d => d.group === 'core' ? 14 : 11)
+    .attr('font-family', "'Press Start 2P', monospace").attr('fill', '#fff')
+    .attr('text-anchor', 'middle').attr('dy', d => d.r + 14);
+
+  node.append('title').text(d => d.name || d.id);
+
+  sim.on('tick', () => {
+    link.attr('x1', d=>d.source.x).attr('y1', d=>d.source.y).attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
+    node.attr('cx', d=>d.x).attr('cy', d=>d.y);
+    labels.attr('x', d=>d.x).attr('y', d=>d.y);
+  });
+}
+
+// Kick off
+loadSkills();
+</script>
+</body>
+</html>
