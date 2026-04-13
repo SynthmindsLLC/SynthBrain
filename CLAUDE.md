@@ -32,20 +32,33 @@ Knowledge base for **Synthminds LLC** -- AI, content creation, product developme
 
 ## MCP Servers
 
-This project has 29 MCP server connections across two surfaces:
+This project has 37 MCP server connections across two surfaces:
 
 - **Web UI (21 servers):** GitHub, Vercel, Cloudflare, Figma, Canva, Sentry, Notion, Slack, Gmail, Google Calendar, Granola, Gamma, Eraser, Exa, Hugging Face, 2x Mermaid, Domain Checker, Tax Tool, SFDR, Job Search
-- **CLI via `.mcp.json` (8 servers):** Playwright, Memory, Context7, 21st.dev Magic, Google Stitch, Nano Banana (mcp-image), Chrome DevTools, Mem.ai
+- **CLI via `.mcp.json` (16 servers):** Playwright, Memory, Context7, 21st.dev Magic, Google Stitch, Nano Banana (mcp-image), Chrome DevTools, Mem.ai, Shopify, Square POS, ShipStation, Etsy, Klaviyo, Instagram DM, Calendly, Stripe
 
 Full reference: `🛠 The Workshop/Tools Documentation/Claude Code MCP Server Reference.md`
 
 ### Required Environment Variables (for CLI servers)
 
 ```bash
+# Design & Dev tools
 export TWENTY_FIRST_API_KEY="your-21st-dev-key"
 export GEMINI_API_KEY="your-gemini-api-key"
 export MEM_API_KEY="your-mem-ai-api-key"
 # Google Stitch: run `npx @_davideast/stitch-mcp init` for OAuth setup
+
+# PBTV / E-commerce stack
+export SHOPIFY_ACCESS_TOKEN="shpat_xxxxx"
+export SHOPIFY_STORE_DOMAIN="your-store.myshopify.com"
+export SQUARE_ACCESS_TOKEN="EAAAxxxxxxx"
+export SHIPSTATION_API_KEY="your-key"
+export SHIPSTATION_API_SECRET="your-secret"
+export ETSY_API_KEY="your-etsy-key"
+export KLAVIYO_API_KEY="pk_xxxxxxxx"
+export INSTAGRAM_ACCESS_TOKEN="your-meta-graph-token"
+export CALENDLY_API_KEY="your-calendly-pat"
+export STRIPE_SECRET_KEY="sk_test_xxxxx"
 ```
 
 ## Skills

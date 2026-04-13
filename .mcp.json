@@ -40,6 +40,64 @@
       "env": {
         "MEM_API_KEY": "${MEM_API_KEY}"
       }
+    },
+    "shopify": {
+      "command": "npx",
+      "args": ["-y", "shopify-mcp"],
+      "env": {
+        "SHOPIFY_ACCESS_TOKEN": "${SHOPIFY_ACCESS_TOKEN}",
+        "SHOPIFY_STORE_DOMAIN": "${SHOPIFY_STORE_DOMAIN}"
+      }
+    },
+    "square": {
+      "command": "npx",
+      "args": ["-y", "square-mcp-server"],
+      "env": {
+        "SQUARE_ACCESS_TOKEN": "${SQUARE_ACCESS_TOKEN}"
+      }
+    },
+    "shipstation": {
+      "command": "npx",
+      "args": ["-y", "@iflow-mcp/shipstation-mcp-shipstation-api"],
+      "env": {
+        "SHIPSTATION_API_KEY": "${SHIPSTATION_API_KEY}",
+        "SHIPSTATION_API_SECRET": "${SHIPSTATION_API_SECRET}"
+      }
+    },
+    "etsy": {
+      "command": "npx",
+      "args": ["-y", "@iflow-mcp/dynamicendpoints-etsy-mcp"],
+      "env": {
+        "ETSY_API_KEY": "${ETSY_API_KEY}"
+      }
+    },
+    "klaviyo": {
+      "command": "npx",
+      "args": ["-y", "klaviyo-mcp"],
+      "env": {
+        "KLAVIYO_API_KEY": "${KLAVIYO_API_KEY}"
+      }
+    },
+    "instagram": {
+      "command": "npx",
+      "args": ["-y", "mcp-instagram-dm"],
+      "env": {
+        "INSTAGRAM_ACCESS_TOKEN": "${INSTAGRAM_ACCESS_TOKEN}"
+      }
+    },
+    "calendly": {
+      "command": "npx",
+      "args": ["-y", "calendly-cli"],
+      "env": {
+        "CALENDLY_API_KEY": "${CALENDLY_API_KEY}"
+      }
+    },
+    "stripe": {
+      "command": "npx",
+      "args": ["-y", "@stripe/mcp"],
+      "env": {
+        "STRIPE_SECRET_KEY": "${STRIPE_SECRET_KEY}"
+      }
     }
   }
 }

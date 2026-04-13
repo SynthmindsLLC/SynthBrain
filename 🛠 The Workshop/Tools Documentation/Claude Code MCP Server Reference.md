@@ -12,7 +12,7 @@ subtype: Reference
 
 # Claude Code MCP Server Reference
 
-Synthminds runs **29 MCP servers** across two surfaces -- the Claude Code web UI (21 OAuth-managed servers) and the CLI via `.mcp.json` (8 local servers). This document catalogs every server, its tools, and how they fit into our workflows.
+Synthminds runs **37 MCP servers** across two surfaces -- the Claude Code web UI (21 OAuth-managed servers) and the CLI via `.mcp.json` (16 local servers). This document catalogs every server, its tools, and how they fit into our workflows.
 
 **Mem.ai** is the central knowledge vault. Use it for storing and retrieving all project documentation, meeting notes, and decisions.
 
@@ -51,6 +51,14 @@ Synthminds runs **29 MCP servers** across two surfaces -- the Claude Code web UI
 | 27 | Chrome DevTools | Engineering | CLI | Live Chrome tab interaction |
 | 28 | Mem.ai | Operations | CLI | Knowledge vault -- notes and collections |
 | 29 | Mermaid (2nd) | Marketing | Web UI | Diagram validation (overlaps with #16) |
+| 30 | Shopify | E-commerce | CLI | Products, orders, inventory, customers (GraphQL Admin API) |
+| 31 | Square POS | E-commerce | CLI | In-store transactions, payments, catalog, inventory (Official) |
+| 32 | ShipStation | E-commerce | CLI | Shipping labels, tracking, multi-channel orders |
+| 33 | Etsy | E-commerce | CLI | Listings, orders, shops, reviews, shipping |
+| 34 | Klaviyo | E-commerce | CLI | Email campaigns, automations, segments, SMS |
+| 35 | Instagram DM | E-commerce | CLI | Read inbox, send messages, conversations |
+| 36 | Calendly | E-commerce | CLI | Events, scheduling, availability, webhooks (40 tools) |
+| 37 | Stripe | E-commerce | CLI | Payments, subscriptions, invoices, refunds (Official) |
 
 ---
 
@@ -239,6 +247,72 @@ Synthminds runs **29 MCP servers** across two surfaces -- the Claude Code web UI
 
 ---
 
+## E-commerce & PBTV Stack
+
+### Shopify
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `shopify-mcp`
+- **Env vars:** `SHOPIFY_ACCESS_TOKEN`, `SHOPIFY_STORE_DOMAIN`
+- **Use Cases:** Manage PBTV.shop -- products, orders, inventory, customers via GraphQL Admin API. Create products, update inventory counts, fulfill orders, search customers, manage collections.
+- **Tip:** Pair with Shopify Flow automations (see PBTV Shopify Flow Automation Guide). Use for bulk product updates and inventory management that Flow can't handle.
+
+### Square POS (Official)
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `square-mcp-server` (published by Block)
+- **Env var:** `SQUARE_ACCESS_TOKEN`
+- **Use Cases:** In-store transactions, payment processing, catalog management, inventory tracking, customer profiles, location management. Square is the source of truth for the in-store catalog.
+- **Tip:** Inventory syncs between Square and Shopify via Thrive/DPL. Use this MCP to check real-time in-store inventory and daily sales.
+
+### ShipStation
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `@iflow-mcp/shipstation-mcp-shipstation-api`
+- **Env vars:** `SHIPSTATION_API_KEY`, `SHIPSTATION_API_SECRET`
+- **Use Cases:** Auto-import orders from Shopify + Palmstreet, print shipping labels, track shipments, manage multi-channel orders. Push tracking numbers back to Shopify/Etsy.
+
+### Etsy
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `@iflow-mcp/dynamicendpoints-etsy-mcp`
+- **Env var:** `ETSY_API_KEY`
+- **Use Cases:** Manage Etsy listings, view orders, respond to reviews, handle shipping profiles. Sync inventory with Shopify via DPL integration.
+- **Tip:** Also consider `listing-doctor-mcp` for Etsy SEO optimization with 100-point listing scoring.
+
+### Klaviyo
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `klaviyo-mcp`
+- **Env var:** `KLAVIYO_API_KEY`
+- **Use Cases:** Email/SMS marketing -- manage campaigns, automations, segments, profiles, flows, metrics, templates. Powers PBTV's abandoned cart recovery, welcome series, VIP tagging, care emails, and review requests.
+- **Tip:** Shopify Flow triggers Klaviyo events; Klaviyo handles the multi-step email sequences. Use this MCP to check campaign performance and manage segments.
+
+### Instagram DM
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `mcp-instagram-dm`
+- **Env var:** `INSTAGRAM_ACCESS_TOKEN` (Meta Graph API token)
+- **Use Cases:** Read DM inbox, send messages, search conversations. Manage @plantsbythevillage customer interactions.
+- **Note:** Requires a Facebook developer app with Instagram Graph API access. Posts/Reels/Stories are managed through Later or the Instagram app directly.
+
+### Calendly
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `calendly-cli` (40 tools)
+- **Env var:** `CALENDLY_API_KEY` (Personal Access Token)
+- **Use Cases:** Manage consultation bookings, view upcoming events, check availability, manage event types, handle invitees, set up webhooks, configure routing forms.
+
+### Stripe (Official)
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `@stripe/mcp` (published by Stripe)
+- **Env var:** `STRIPE_SECRET_KEY`
+- **Use Cases:** Payment processing layer -- customers, products, prices, invoices, subscriptions, charges, payment intents, refunds, balance, payouts. Stripe is the payment backend for Shopify and potentially Circle/PBTV.app.
+
+### Services Without MCP Servers
+
+| Service | Status | Workaround |
+|---------|--------|-----------|
+| **Palmstreet** | No public API | Use Playwright for browser automation during live sales |
+| **Circle.so** | REST API available | Custom MCP wrapper possible; manage PBTV.app community via API |
+| **Tidio** | REST API available | Custom MCP wrapper possible; manage chatbot via API |
+| **Later/Planoly** | No public API | Use Instagram native Content Publishing API for scheduling |
+
+---
+
 ## Workflow Recipes
 
 ### Design-to-Deploy Pipeline
@@ -274,6 +348,21 @@ Synthminds runs **29 MCP servers** across two surfaces -- the Claude Code web UI
 6. **Vercel** `deploy_to_vercel` -- Ship it
 7. **Cloudflare** `d1_database_create` -- Set up backend DB
 
+### PBTV Order-to-Delivery Pipeline
+1. **Shopify** -- New order comes in on PBTV.shop
+2. **ShipStation** -- Auto-imports order, buy shipping label
+3. **Klaviyo** -- Sends order confirmation + shipping notification
+4. **Shopify** -- Mark as fulfilled with tracking number
+5. **Klaviyo** -- 3 days post-delivery: send species-specific care guide
+6. **Klaviyo** -- 14 days post-delivery: request product review
+
+### PBTV Inventory Management Pipeline
+1. **Square** -- Check in-store inventory (source of truth)
+2. **Shopify** -- Sync online inventory (via Thrive/DPL)
+3. **Etsy** -- Sync Etsy listings (via DPL Etsy Integration)
+4. **Shopify Flow** -- Auto-alert at 3 units, auto-hide at 0
+5. **Klaviyo** -- Waitlist notification when restocked
+
 ---
 
 ## Configuration Reference
@@ -308,9 +397,19 @@ Synthminds runs **29 MCP servers** across two surfaces -- the Claude Code web UI
 | Variable | Server | How to get it |
 |----------|--------|--------------|
 | `TWENTY_FIRST_API_KEY` | 21st.dev Magic | https://21st.dev/magic/console |
-| `GEMINI_API_KEY` | Nano Banana | https://aistudio.google.com/app/apikey (free) |
+| `GEMINI_API_KEY` | Nano Banana + Stitch | https://aistudio.google.com/app/apikey (free) |
 | `MEM_API_KEY` | Mem.ai | Mem.ai account settings |
 | Google Cloud OAuth | Google Stitch | Run `npx @_davideast/stitch-mcp init` |
+| `SHOPIFY_ACCESS_TOKEN` | Shopify | Shopify Admin > Settings > Apps > Develop apps |
+| `SHOPIFY_STORE_DOMAIN` | Shopify | e.g. `pbtv-shop.myshopify.com` |
+| `SQUARE_ACCESS_TOKEN` | Square POS | Square Developer Dashboard |
+| `SHIPSTATION_API_KEY` | ShipStation | ShipStation > Settings > API Keys |
+| `SHIPSTATION_API_SECRET` | ShipStation | Same as above |
+| `ETSY_API_KEY` | Etsy | Etsy Developer Portal |
+| `KLAVIYO_API_KEY` | Klaviyo | Klaviyo > Account > Settings > API Keys (private key) |
+| `INSTAGRAM_ACCESS_TOKEN` | Instagram DM | Meta Developer Portal (Graph API token) |
+| `CALENDLY_API_KEY` | Calendly | Calendly > Integrations > Personal Access Tokens |
+| `STRIPE_SECRET_KEY` | Stripe | Stripe Dashboard > Developers > API Keys |
 
 ### Skills vs MCP Servers
 
@@ -329,7 +428,8 @@ These servers are worth adding when the need arises:
 | Server | What It Does | When to Add |
 |--------|-------------|-------------|
 | **Supabase** | Database, auth, realtime, edge functions | When building a web app with Supabase backend |
-| **Stripe** | Payments, subscriptions, invoices | When payment processing is needed |
 | **Linear** | Project management, sprints, roadmaps | When GitHub Issues isn't enough |
 | **Neon** | Serverless PostgreSQL with branching | When you need raw Postgres without Supabase |
 | **Upstash** | Redis caching, Kafka queues | When apps need caching or message queues |
+| **Circle.so** (custom) | Community, courses, events, members | When PBTV.app needs API automation |
+| **Tidio** (custom) | Chat conversations, contacts | When chatbot needs programmatic management |
