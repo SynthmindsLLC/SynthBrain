@@ -7,6 +7,11 @@ on:
         description: "Target repo (owner/name) to mirror into."
         required: true
         default: "Synthminds/SynthBrain"
+      force_push:
+        description: "Force-push to target (overwrites non-empty target). Use only if target was accidentally initialized with README/license."
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: mirror-to-synthminds
@@ -20,37 +25,96 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Validate inputs and secret
+      - name: Preflight — secret, input format, target reachability
         env:
           MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
           TARGET_REPO: ${{ github.event.inputs.target_repo }}
         run: |
           set -euo pipefail
+
           if [ -z "${MIRROR_TOKEN:-}" ]; then
-            echo "::error::Secret MIRROR_TOKEN is not set on this repository."
-            echo "Create a fine-grained PAT scoped to ${TARGET_REPO} with 'Contents: read and write',"
-            echo "then add it as repo secret MIRROR_TOKEN."
+            echo "::error::Secret MIRROR_TOKEN is not set."
+            echo "  Fix: Settings → Secrets and variables → Actions → New repository secret"
+            echo "       name=MIRROR_TOKEN value=<fine-grained PAT on the Synthminds account,"
+            echo "       scoped to ${TARGET_REPO}, permission Contents: Read and write>"
             exit 1
           fi
+
           if ! echo "${TARGET_REPO}" | grep -Eq '^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$'; then
             echo "::error::Invalid target_repo format: ${TARGET_REPO}"
             exit 1
           fi
 
-      - name: Mirror clone + push
+          echo "Probing https://api.github.com/repos/${TARGET_REPO} ..."
+          status=$(curl -sS -o /tmp/probe.json -w '%{http_code}' \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${MIRROR_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${TARGET_REPO}")
+          echo "HTTP ${status}"
+          cat /tmp/probe.json | head -c 800; echo
+          case "${status}" in
+            200) ;;
+            401)
+              echo "::error::PAT rejected (401). The MIRROR_TOKEN value is invalid or expired."
+              exit 1 ;;
+            403)
+              echo "::error::PAT lacks access to ${TARGET_REPO} (403)."
+              echo "  Check: fine-grained PAT, resource owner = Synthminds (not SynthmindsLLC),"
+              echo "         only repository = ${TARGET_REPO}, Contents: Read and write."
+              exit 1 ;;
+            404)
+              echo "::error::Target repo ${TARGET_REPO} does not exist OR the PAT cannot see it (404)."
+              echo "  Fix: create ${TARGET_REPO} on github.com (don't initialize), OR"
+              echo "       widen the PAT's repository selection to include it."
+              exit 1 ;;
+            *)
+              echo "::error::Unexpected API status ${status} when probing target."
+              exit 1 ;;
+          esac
+
+          # Detect whether target is empty. Empty repos return size=0 and default_branch typically points at a non-existent ref.
+          size=$(jq -r '.size // 0' /tmp/probe.json)
+          echo "Target repo size: ${size} KB"
+          if [ "${size}" != "0" ] && [ "${{ github.event.inputs.force_push }}" != "true" ]; then
+            echo "::warning::Target ${TARGET_REPO} is non-empty (size=${size} KB)."
+            echo "  Push will likely fail as non-fast-forward."
+            echo "  Either delete and recreate the target empty, or re-run with force_push=true."
+          fi
+
+      - name: Mirror clone + push (heads + tags)
         env:
           GH_TOKEN: ${{ github.token }}
           MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
           TARGET_REPO: ${{ github.event.inputs.target_repo }}
           SOURCE_REPO: ${{ github.repository }}
+          FORCE_PUSH: ${{ github.event.inputs.force_push }}
         run: |
           set -euo pipefail
-          # Use the runner's GITHUB_TOKEN to clone the source so private repos work.
+
+          # Clone source using runner token (works whether SynthmindsLLC/SynthBrain is public or private).
           git clone --mirror "https://x-access-token:${GH_TOKEN}@github.com/${SOURCE_REPO}.git" repo.git
           cd repo.git
-          # Strip the source token from the fetch URL before pushing (defensive — push URL is set below).
+
+          # Strip the source token from the fetch URL so a future fetch retry can't leak it.
           git remote set-url origin "https://github.com/${SOURCE_REPO}.git"
+
+          # Set push URL with the MIRROR_TOKEN (target).
           git remote set-url --push origin "https://x-access-token:${MIRROR_TOKEN}@github.com/${TARGET_REPO}.git"
-          echo "Pushing all refs from ${SOURCE_REPO} to ${TARGET_REPO}..."
-          git push --mirror
-          echo "Mirror complete."
+
+          echo "Refs to push:"
+          git for-each-ref --format='  %(refname)' refs/heads refs/tags
+          echo
+
+          # Push heads + tags explicitly instead of --mirror.
+          # --mirror also tries refs/pull/* and other hidden refs that GitHub rejects, leading to exit 1.
+          flag=""
+          if [ "${FORCE_PUSH}" = "true" ]; then
+            flag="--force"
+            echo "::warning::force_push=true — overwriting target refs."
+          fi
+          git push ${flag} origin 'refs/heads/*:refs/heads/*'
+          git push ${flag} origin 'refs/tags/*:refs/tags/*' || echo "(no tags to push)"
+
+          echo
+          echo "Mirror complete: ${SOURCE_REPO} → ${TARGET_REPO}"
