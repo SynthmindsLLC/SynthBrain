@@ -1,0 +1,103 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-memory"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    },
+    "21st-dev-magic": {
+      "command": "npx",
+      "args": ["-y", "@21st-dev/magic@latest"],
+      "env": {
+        "API_KEY": "${TWENTY_FIRST_API_KEY}"
+      }
+    },
+    "stitch": {
+      "command": "npx",
+      "args": ["@_davideast/stitch-mcp", "proxy"]
+    },
+    "nano-banana": {
+      "command": "npx",
+      "args": ["-y", "mcp-image"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
+      }
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/chrome-devtools-mcp"]
+    },
+    "mem": {
+      "command": "uvx",
+      "args": ["mcp-mem"],
+      "env": {
+        "MEM_API_KEY": "${MEM_API_KEY}"
+      }
+    },
+    "shopify": {
+      "command": "npx",
+      "args": ["-y", "shopify-mcp"],
+      "env": {
+        "SHOPIFY_ACCESS_TOKEN": "${SHOPIFY_ACCESS_TOKEN}",
+        "SHOPIFY_STORE_DOMAIN": "${SHOPIFY_STORE_DOMAIN}"
+      }
+    },
+    "square": {
+      "command": "npx",
+      "args": ["-y", "square-mcp-server"],
+      "env": {
+        "SQUARE_ACCESS_TOKEN": "${SQUARE_ACCESS_TOKEN}"
+      }
+    },
+    "shipstation": {
+      "command": "npx",
+      "args": ["-y", "@iflow-mcp/shipstation-mcp-shipstation-api"],
+      "env": {
+        "SHIPSTATION_API_KEY": "${SHIPSTATION_API_KEY}",
+        "SHIPSTATION_API_SECRET": "${SHIPSTATION_API_SECRET}"
+      }
+    },
+    "etsy": {
+      "command": "npx",
+      "args": ["-y", "@iflow-mcp/dynamicendpoints-etsy-mcp"],
+      "env": {
+        "ETSY_API_KEY": "${ETSY_API_KEY}"
+      }
+    },
+    "klaviyo": {
+      "command": "npx",
+      "args": ["-y", "klaviyo-mcp"],
+      "env": {
+        "KLAVIYO_API_KEY": "${KLAVIYO_API_KEY}"
+      }
+    },
+    "instagram": {
+      "command": "npx",
+      "args": ["-y", "mcp-instagram-dm"],
+      "env": {
+        "INSTAGRAM_ACCESS_TOKEN": "${INSTAGRAM_ACCESS_TOKEN}"
+      }
+    },
+    "calendly": {
+      "command": "npx",
+      "args": ["-y", "calendly-cli"],
+      "env": {
+        "CALENDLY_API_KEY": "${CALENDLY_API_KEY}"
+      }
+    },
+    "stripe": {
+      "command": "npx",
+      "args": ["-y", "@stripe/mcp"],
+      "env": {
+        "STRIPE_SECRET_KEY": "${STRIPE_SECRET_KEY}"
+      }
+    }
+  }
+}
