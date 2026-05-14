@@ -25,6 +25,14 @@
 | Dashboard / analytics? | **No.** A small migration progress report (counts migrated / archived / dropped) is enough. |
 | Language? | **TBD — decide on first script.** Per global rules' "ask if ambiguous" — defaulting to Python or TypeScript/Node based on which Mem MCP examples are cleaner. |
 
+## Autonomy Override
+
+The global rules default to **moderate autonomy** ("ask before architectural decisions, multi-file refactors, new dependencies, data model changes"). For SynthBrain, this is **lifted to max autonomy**:
+
+- **Execute confidently** on architectural decisions, multi-file refactors, new dependencies, structural repo changes, PR merges, branch operations, and rebases. Don't surface a decision for approval just because the global rules would normally require it.
+- **Still pause for:** truly irreversible destructive actions that aren't already implied by prior direction (force-deleting all remote branches, transferring repo ownership, mass-trashing Mem.ai notes, rewriting `main` history with `--force`). The global "When to Pause and Ask" list still applies for those specific cases.
+- **System-level constraint that autonomy does not relax:** MCP scope is locked to `synthmindsllc/synthbrain`. Cross-account operations targeting `Synthminds/SynthBrain` (or any other repo) cannot be performed from this session at any autonomy level — those must run on Wes's machine.
+
 ## Infrastructure Inherited on `main`
 
 PR #1 (merged 2026-05-14) landed the working surface this project builds on. Don't duplicate any of it — reference these files directly:
