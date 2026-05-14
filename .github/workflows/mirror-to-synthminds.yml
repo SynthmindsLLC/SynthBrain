@@ -39,13 +39,17 @@ jobs:
 
       - name: Mirror clone + push
         env:
+          GH_TOKEN: ${{ github.token }}
           MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
           TARGET_REPO: ${{ github.event.inputs.target_repo }}
           SOURCE_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          git clone --mirror "https://github.com/${SOURCE_REPO}.git" repo.git
+          # Use the runner's GITHUB_TOKEN to clone the source so private repos work.
+          git clone --mirror "https://x-access-token:${GH_TOKEN}@github.com/${SOURCE_REPO}.git" repo.git
           cd repo.git
+          # Strip the source token from the fetch URL before pushing (defensive — push URL is set below).
+          git remote set-url origin "https://github.com/${SOURCE_REPO}.git"
           git remote set-url --push origin "https://x-access-token:${MIRROR_TOKEN}@github.com/${TARGET_REPO}.git"
           echo "Pushing all refs from ${SOURCE_REPO} to ${TARGET_REPO}..."
           git push --mirror
