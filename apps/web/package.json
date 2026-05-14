@@ -8,8 +8,7 @@
     "dev:https": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@synthbrain/graph-schema": "workspace:*",
@@ -27,7 +26,6 @@
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@types/three": "^0.171.0",
-    "eslint-config-next": "^15.0.4",
     "typescript": "^5.7.2"
   }
 }

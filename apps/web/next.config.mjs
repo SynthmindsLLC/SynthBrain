@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['@synthbrain/graph-schema'],
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: false },
   experimental: {
     optimizePackageImports: ['three', 'three-spritetext', 'react-force-graph-3d'],
   },

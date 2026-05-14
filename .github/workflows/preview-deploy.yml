@@ -30,12 +30,21 @@ jobs:
 
       - name: Deploy preview
         id: vercel
+        if: ${{ env.HAS_VERCEL_TOKEN == 'true' }}
+        env:
+          HAS_VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN != '' }}
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           working-directory: ./apps/web
+
+      - name: Note when Vercel secrets missing
+        if: ${{ env.HAS_VERCEL_TOKEN != 'true' }}
+        env:
+          HAS_VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN != '' }}
+        run: echo "VERCEL_TOKEN not set; preview deploy skipped. Link the repo in Vercel and add VERCEL_TOKEN/VERCEL_ORG_ID/VERCEL_PROJECT_ID secrets to enable previews via this workflow (Vercel's own Git integration also deploys automatically once linked)."
 
       - name: Comment preview URL
         if: success() && steps.vercel.outputs.preview-url != ''
