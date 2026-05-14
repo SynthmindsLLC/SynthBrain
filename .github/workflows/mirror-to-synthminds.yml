@@ -73,7 +73,6 @@ jobs:
               exit 1 ;;
           esac
 
-          # Detect whether target is empty. Empty repos return size=0 and default_branch typically points at a non-existent ref.
           size=$(jq -r '.size // 0' /tmp/probe.json)
           echo "Target repo size: ${size} KB"
           if [ "${size}" != "0" ] && [ "${{ github.event.inputs.force_push }}" != "true" ]; then
@@ -96,6 +95,11 @@ jobs:
           git clone --mirror "https://x-access-token:${GH_TOKEN}@github.com/${SOURCE_REPO}.git" repo.git
           cd repo.git
 
+          # `git clone --mirror` sets remote.origin.mirror=true, which makes any subsequent
+          # `git push origin` behave as --mirror — and --mirror can't be combined with refspecs.
+          # Unset it so the explicit refspec push below works.
+          git config --unset remote.origin.mirror || true
+
           # Strip the source token from the fetch URL so a future fetch retry can't leak it.
           git remote set-url origin "https://github.com/${SOURCE_REPO}.git"
 
@@ -107,7 +111,7 @@ jobs:
           echo
 
           # Push heads + tags explicitly instead of --mirror.
-          # --mirror also tries refs/pull/* and other hidden refs that GitHub rejects, leading to exit 1.
+          # --mirror also tries refs/pull/* and other hidden refs that GitHub rejects.
           flag=""
           if [ "${FORCE_PUSH}" = "true" ]; then
             flag="--force"
