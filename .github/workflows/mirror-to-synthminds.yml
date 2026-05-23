@@ -1,0 +1,59 @@
+name: Mirror to Synthminds/SynthBrain
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_repo:
+        description: "Target repo (owner/name) to mirror into."
+        required: true
+        default: "Synthminds/SynthBrain"
+  push:
+    branches:
+      - main
+      - master
+      - claude/integrate-mem-ai-1ZuZJ
+
+concurrency:
+  group: mirror-to-synthminds
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Validate secret and resolve target
+        env:
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          TARGET_REPO: ${{ github.event.inputs.target_repo || 'Synthminds/SynthBrain' }}
+        run: |
+          set -euo pipefail
+          if [ -z "${MIRROR_TOKEN:-}" ]; then
+            echo "::error::Secret MIRROR_TOKEN is not set on this repository."
+            echo "Create a fine-grained PAT scoped to ${TARGET_REPO} with 'Contents: read and write',"
+            echo "then add it as repo secret MIRROR_TOKEN."
+            exit 1
+          fi
+          if ! echo "${TARGET_REPO}" | grep -Eq '^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$'; then
+            echo "::error::Invalid target_repo format: ${TARGET_REPO}"
+            exit 1
+          fi
+          echo "TARGET_REPO=${TARGET_REPO}" >> "$GITHUB_ENV"
+
+      - name: Mirror clone + push
+        env:
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          SOURCE_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          git clone --mirror "https://github.com/${SOURCE_REPO}.git" repo.git
+          cd repo.git
+          # --mirror sets remote.origin.mirror=true, which rejects refspec pushes; unset it.
+          git config --unset remote.origin.mirror || true
+          git remote set-url --push origin "https://x-access-token:${MIRROR_TOKEN}@github.com/${TARGET_REPO}.git"
+          echo "Pushing all branches + tags from ${SOURCE_REPO} to ${TARGET_REPO}..."
+          git push --prune origin '+refs/heads/*:refs/heads/*' '+refs/tags/*:refs/tags/*'
+          echo "Mirror complete."
