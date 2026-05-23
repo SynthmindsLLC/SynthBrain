@@ -3,3 +3,23 @@ desktop.ini
 **/desktop.ini
 __pycache__/
 **/__pycache__/
+
+# Node / monorepo
+node_modules/
+.pnpm-store/
+**/dist/
+**/.next/
+**/.turbo/
+**/.vercel/
+*.tsbuildinfo
+coverage/
+
+# Env files (only .env.example is committed)
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+.vscode/settings.json
+.idea/

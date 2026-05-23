@@ -1,0 +1,13 @@
+{
+  "name": "SynthBrain",
+  "short_name": "SynthBrain",
+  "description": "Your Mem.ai notes as a navigable 3D knowledge graph.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0a14",
+  "theme_color": "#0a0a14",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

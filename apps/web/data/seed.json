@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-14T00:00:00Z",
+  "collections": [
+    { "id": "demo-c-1", "title": "Work", "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-05-14T00:00:00Z" },
+    { "id": "demo-c-2", "title": "R&D", "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-05-14T00:00:00Z" },
+    { "id": "demo-c-3", "title": "Reading", "created_at": "2026-01-01T00:00:00Z", "updated_at": "2026-05-14T00:00:00Z" }
+  ],
+  "notes": [
+    { "id": "demo-n-1", "title": "Welcome to SynthBrain", "content": "Add MEM_API_KEY in Vercel env to see your real Mem.ai notes here.", "created_at": "2026-05-14T00:00:00Z", "updated_at": "2026-05-14T00:00:00Z", "collection_ids": ["demo-c-1"], "tags": ["meta", "setup"], "source": "mem" },
+    { "id": "demo-n-2", "title": "How pilot mode works", "content": "Tap 'Enable pilot mode' and tilt your phone to fly through the graph.", "created_at": "2026-05-13T00:00:00Z", "updated_at": "2026-05-13T00:00:00Z", "collection_ids": ["demo-c-1"], "tags": ["ui", "ios"], "source": "mem" },
+    { "id": "demo-n-3", "title": "Neural-Graph aesthetic", "content": "Dark scene, cyan-leaning palette by source tag, persistent sprite labels with distance fade.", "created_at": "2026-05-12T00:00:00Z", "updated_at": "2026-05-12T00:00:00Z", "collection_ids": ["demo-c-2"], "tags": ["design", "3d"], "source": "mem" },
+    { "id": "demo-n-4", "title": "Fieldy integration plan", "content": "Phase A.2 wires Fieldy recordings into Mem; their MCP at api.fieldy.ai/mcp is the preferred transport.", "created_at": "2026-05-11T00:00:00Z", "updated_at": "2026-05-11T00:00:00Z", "collection_ids": ["demo-c-2"], "tags": ["fieldy", "mcp", "voice"], "source": "fieldy" },
+    { "id": "demo-n-5", "title": "Reading list seed", "content": "Robust agents need read-before-write discipline.", "created_at": "2026-05-10T00:00:00Z", "updated_at": "2026-05-10T00:00:00Z", "collection_ids": ["demo-c-3"], "tags": ["agents", "memory"], "source": "mem" },
+    { "id": "demo-n-6", "title": "Granola meeting notes", "content": "Sample meeting summary node — Phase B brings real Granola transcripts in.", "created_at": "2026-05-09T00:00:00Z", "updated_at": "2026-05-09T00:00:00Z", "collection_ids": ["demo-c-1"], "tags": ["meetings"], "source": "granola" }
+  ]
+}

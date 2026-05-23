@@ -1,0 +1,31 @@
+.git/
+.github/
+.husky/
+.agents/
+.claude/
+node_modules/
+**/node_modules/
+**/.next/
+**/dist/
+**/coverage/
+*.tsbuildinfo
+
+# Legacy Obsidian vault (Phase D will migrate this)
+00 - ⚙ Work/
+01 - 🎥 Commercial Hub/
+02 -🧙🏿‍♂️ Learning Lab/
+03 - 🔬 R&D/
+04 - 🤖 Prompts/
+05 - 🌐 Organization/
+🛠 The Workshop/
+🛰️ Mission Control/
+
+skill-codex.html
+skills-lock.json
+README.md
+CLAUDE.md
+*.md
+!apps/web/README.md
+!packages/**/README.md
+
+.DS_Store

@@ -1,0 +1,25 @@
+node_modules/
+.pnpm-store/
+**/dist/
+**/.next/
+**/.turbo/
+**/.vercel/
+*.tsbuildinfo
+coverage/
+pnpm-lock.yaml
+
+# Legacy Obsidian vault content (Phase D will migrate this)
+00 - ⚙ Work/
+01 - 🎥 Commercial Hub/
+02 -🧙🏿‍♂️ Learning Lab/
+03 - 🔬 R&D/
+04 - 🤖 Prompts/
+05 - 🌐 Organization/
+🛠 The Workshop/
+🛰️ Mission Control/
+
+# Generated / vendored
+.agents/
+.claude/
+skill-codex.html
+skills-lock.json
