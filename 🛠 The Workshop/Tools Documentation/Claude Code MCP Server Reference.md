@@ -12,7 +12,7 @@ subtype: Reference
 
 # Claude Code MCP Server Reference
 
-Synthminds runs **37 MCP servers** across two surfaces -- the Claude Code web UI (21 OAuth-managed servers) and the CLI via `.mcp.json` (16 local servers). This document catalogs every server, its tools, and how they fit into our workflows.
+Synthminds runs **39 MCP servers** across two surfaces -- the Claude Code web UI (21 OAuth-managed servers) and the CLI via `.mcp.json` (18 local servers). This document catalogs every server, its tools, and how they fit into our workflows.
 
 **Mem.ai** is the central knowledge vault. Use it for storing and retrieving all project documentation, meeting notes, and decisions.
 
@@ -59,6 +59,8 @@ Synthminds runs **37 MCP servers** across two surfaces -- the Claude Code web UI
 | 35 | Instagram DM | E-commerce | CLI | Read inbox, send messages, conversations |
 | 36 | Calendly | E-commerce | CLI | Events, scheduling, availability, webhooks (40 tools) |
 | 37 | Stripe | E-commerce | CLI | Payments, subscriptions, invoices, refunds (Official) |
+| 38 | Google Drive | Ingestion | CLI | Drive, Docs, Sheets, Slides, Calendar (60+ tools) |
+| 39 | Filesystem | Ingestion | CLI | Local file reading, directory listing, search |
 
 ---
 
@@ -313,6 +315,36 @@ Synthminds runs **37 MCP servers** across two surfaces -- the Claude Code web UI
 
 ---
 
+## Document Ingestion
+
+### Google Drive (60+ tools)
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `@piotr-agier/google-drive-mcp`
+- **Env var:** `GOOGLE_DRIVE_OAUTH_CREDENTIALS` (path to OAuth keys JSON)
+- **Tools:** `search`, `listFolder`, `listSharedDrives`, `readGoogleDoc` (markdown output), `readGoogleDocPaginated`, `getGoogleSheetContent`, `getGoogleSlidesContent`, `downloadFile`, `uploadFile`, `listComments`, plus full CRUD for Docs, Sheets, Slides, Calendar
+- **Use Cases:** Ingest documents from Google Drive and Shared Drives into Mem.ai. Read Google Docs as markdown, extract Sheet data, pull Slides content.
+- **Setup:** Create Google Cloud project, enable Drive + Docs + Sheets + Slides + Calendar APIs, create Desktop OAuth Client, place JSON at `~/.config/google-drive-mcp/gcp-oauth.keys.json`
+
+### Local Filesystem
+- **Interface:** CLI (`.mcp.json`)
+- **Package:** `@modelcontextprotocol/server-filesystem`
+- **Tools:** `read_text_file`, `read_media_file`, `read_multiple_files`, `list_directory`, `list_directory_with_sizes`, `directory_tree`, `search_files`, `get_file_info`, `write_file`, `edit_file`, `create_directory`, `move_file`, `list_allowed_directories`
+- **Use Cases:** Ingest local markdown, text, and document files into Mem.ai. Scan directories for new content.
+- **Note:** Restricted to explicitly allowed directories (configured in `.mcp.json` args). Claude Code already has built-in file reading, so this MCP is most useful for agent-driven batch ingestion.
+
+### Ingestion Pipeline Reference
+
+Full ingestion schema, tagging taxonomy, classification rules, and pipeline specs: [`🛰️ Mission Control/SynthBrain Ingestion & Tagging Schema.md`](../🛰️%20Mission%20Control/SynthBrain%20Ingestion%20%26%20Tagging%20Schema.md)
+
+### Future Ingestion Sources
+
+| Source | MCP Server | When |
+|--------|-----------|------|
+| Microsoft 365 | `@softeria/ms-365-mcp-server` (200+ tools) | When M365/OneDrive/SharePoint access is needed |
+| Box | `box-mcp-server` | When Box integration is needed |
+
+---
+
 ## Workflow Recipes
 
 ### Design-to-Deploy Pipeline
@@ -410,6 +442,7 @@ Synthminds runs **37 MCP servers** across two surfaces -- the Claude Code web UI
 | `INSTAGRAM_ACCESS_TOKEN` | Instagram DM | Meta Developer Portal (Graph API token) |
 | `CALENDLY_API_KEY` | Calendly | Calendly > Integrations > Personal Access Tokens |
 | `STRIPE_SECRET_KEY` | Stripe | Stripe Dashboard > Developers > API Keys |
+| `GOOGLE_DRIVE_OAUTH_CREDENTIALS` | Google Drive | Path to OAuth JSON (see schema doc for setup) |
 
 ### Skills vs MCP Servers
 

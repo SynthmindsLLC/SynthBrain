@@ -37,7 +37,8 @@ The global rules default to **moderate autonomy** ("ask before architectural dec
 
 PR #1 (merged 2026-05-14) landed the working surface this project builds on. Don't duplicate any of it — reference these files directly:
 
-- **MCP servers:** `.mcp.json` (16 CLI servers) + 21 web-UI servers. Full catalog with required env vars, OAuth steps, and workflow recipes lives in [`🛠 The Workshop/Tools Documentation/Claude Code MCP Server Reference.md`](./🛠%20The%20Workshop/Tools%20Documentation/Claude%20Code%20MCP%20Server%20Reference.md) — don't restate env vars here.
+- **MCP servers:** `.mcp.json` (18 CLI servers) + 21 web-UI servers. Full catalog with required env vars, OAuth steps, and workflow recipes lives in [`🛠 The Workshop/Tools Documentation/Claude Code MCP Server Reference.md`](./🛠%20The%20Workshop/Tools%20Documentation/Claude%20Code%20MCP%20Server%20Reference.md) — don't restate env vars here.
+- **Ingestion pipeline:** [`🛰️ Mission Control/SynthBrain Ingestion & Tagging Schema.md`](./🛰️%20Mission%20Control/SynthBrain%20Ingestion%20%26%20Tagging%20Schema.md) — collections, tags, classification rules, and pipeline specs for auto-ingesting docs from Gmail, Google Drive, local filesystem, and Granola into Mem.ai.
 - **Skills:** `.agents/skills/` (187 skills; catalog at `.agents/skills-catalog.json`) plus `.claude/skills/ui-ux-pro-max/`. Discovery dashboard: `skill-codex.html`. Use existing skills first; only add new ones when none of the 187 fits.
 - **Session logs:** `🛰️ Mission Control/Session Logs/` — append one log per Claude Code session.
 - **Repository overview:** `README.md` (orientation for humans landing in the repo cold; this `CLAUDE.md` is the rules + policy layer).
