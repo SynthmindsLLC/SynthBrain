@@ -1,10 +1,13 @@
 import { DriveClient, type DriveFile } from './drive-client';
+import { ingestToMem } from './mem-ingest';
 import { classifyToTarget, suggestRename } from './taxonomy';
 
 export interface OrganizeOptions {
   commit: boolean;
   /** also trash exact-duplicate files (same md5Checksum), keeping the largest/newest */
   dedupe: boolean;
+  /** ingest relocated text docs into Mem (Reference/Knowledge targets) */
+  ingest: boolean;
 }
 
 export async function organize(opts: OrganizeOptions): Promise<void> {
@@ -12,7 +15,15 @@ export async function organize(opts: OrganizeOptions): Promise<void> {
   const root = await drive.listChildren('root');
   console.log(`Root contains ${root.length} items.`);
 
-  const counts = { moved: 0, archived: 0, renamed: 0, trashed: 0, unmatched: 0 };
+  const counts = {
+    moved: 0,
+    archived: 0,
+    renamed: 0,
+    trashed: 0,
+    unmatched: 0,
+    ingested: 0,
+    ingestSkipped: 0,
+  };
 
   // 1) Dedupe exact-content files (md5) before moving, so we don't relocate junk.
   if (opts.dedupe) {
@@ -51,6 +62,13 @@ export async function organize(opts: OrganizeOptions): Promise<void> {
     await drive.moveFile(f, folderId, target.join('/'));
     if (target[0] === '_Archive') counts.archived++;
     else counts.moved++;
+
+    if (opts.ingest) {
+      const r = await ingestToMem(f, target, drive, opts.commit);
+      if (r.status === 'ingested' || r.status === 'dry-run') counts.ingested++;
+      else if (r.status === 'skipped-binary') counts.ingestSkipped++;
+      else if (r.status === 'failed') console.error(`[ingest-fail] ${f.name}: ${r.detail}`);
+    }
   }
 
   console.log('\n=== summary ===');

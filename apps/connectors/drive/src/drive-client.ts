@@ -127,6 +127,34 @@ export class DriveClient {
     console.log(`[trash] "${file.name}" (${reason})`);
   }
 
+  /**
+   * Extract text from a file for Mem ingestion. Google Docs are exported as
+   * markdown; native text/markdown is read directly. Returns null for binary
+   * types (PDF/docx/images/video) — those need a separate extraction pass.
+   */
+  async exportText(file: DriveFile): Promise<string | null> {
+    try {
+      if (file.mimeType === 'application/vnd.google-apps.document') {
+        const res = await this.drive.files.export(
+          { fileId: file.id, mimeType: 'text/markdown' },
+          { responseType: 'text' },
+        );
+        return typeof res.data === 'string' ? res.data : String(res.data);
+      }
+      if (file.mimeType === 'text/markdown' || file.mimeType === 'text/plain') {
+        const res = await this.drive.files.get(
+          { fileId: file.id, alt: 'media' },
+          { responseType: 'text' },
+        );
+        return typeof res.data === 'string' ? res.data : String(res.data);
+      }
+      return null;
+    } catch (err) {
+      console.error(`[ingest] export failed for "${file.name}": ${String(err)}`);
+      return null;
+    }
+  }
+
   private async findFolder(name: string, parentId: string): Promise<string | undefined> {
     const res = await this.drive.files.list({
       q:

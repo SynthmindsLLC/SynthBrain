@@ -17,8 +17,13 @@ const argv = await yargs(hideBin(process.argv))
     default: false,
     describe: 'Trash exact-content duplicate files (keeps largest), Drive trash is reversible',
   })
+  .option('ingest', {
+    type: 'boolean',
+    default: false,
+    describe: 'Ingest relocated text docs (Google Docs/.md/.txt) into Mem (needs MEM_API_KEY)',
+  })
   .strict()
   .help()
   .parse();
 
-await organize({ commit: argv.commit, dedupe: argv.dedupe });
+await organize({ commit: argv.commit, dedupe: argv.dedupe, ingest: argv.ingest });
