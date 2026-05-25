@@ -1,0 +1,25 @@
+{
+  "name": "@synthbrain/connector-vault",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "synthbrain-vault": "./src/cli.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@synthbrain/graph-schema": "workspace:*",
+    "gray-matter": "^4.0.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
