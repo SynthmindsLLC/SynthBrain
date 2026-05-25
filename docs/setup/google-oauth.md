@@ -13,7 +13,24 @@ is the fastest path (OAuth Playground). One-time setup.
 2. App name + your support email → Save.
 3. **Scopes** → Add → `https://www.googleapis.com/auth/drive` → Save.
 4. **Test users** → add `wes@synthminds.ai`.
-   - ⚠️ In "Testing" mode, refresh tokens for restricted scopes **expire after 7 days**. For ongoing use, click **Publish app** (no Google verification needed for a single-user/internal app you own), which makes the refresh token long-lived.
+5. **Keep Publishing status = "Testing". Do NOT publish.**
+   - `auth/drive` is a **restricted** scope. Google only demands the
+     verification/branding process (Verification Center) when the app is
+     **In production / Published**. In **Testing** you skip all of that.
+   - Trade-off: in Testing, a `drive`-scope refresh token lasts **7 days**,
+     then re-mint via step 4. Fine for running the reorg on demand.
+   - During consent in the Playground you'll see "Google hasn't verified this
+     app" → **Advanced → Go to {app} (unsafe) → Allow**. Safe — it's your own app.
+   - If you already clicked Publish and landed in the Verification Center:
+     go back to the consent screen and click **Back to testing**.
+
+> **Durable alternative (no 7-day expiry, no consent screen):** a **service
+> account**. Since `synthminds.ai` is a Google Workspace domain you own, you can
+> either (a) enable domain-wide delegation for the service account in the
+> Workspace Admin console, or (b) simply **share the Drive folders with the
+> service account's email**. Then the connector authenticates with the service
+> account JSON key — long-lived, no verification. Slightly more setup; best for
+> scheduled/recurring runs.
 
 ## 3. Create OAuth client credentials
 1. **APIs & Services → Credentials → Create Credentials → OAuth client ID**.
