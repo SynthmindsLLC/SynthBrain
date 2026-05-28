@@ -1,0 +1,98 @@
+name: sync-entities
+
+# Hourly incremental sync of Google Calendar + People (Contacts) into the
+# brain's entity graph (SQLite). syncToken-based: each run only fetches what
+# changed since the last run.
+#
+# Required secrets (Settings -> Secrets and variables -> Actions):
+#   GOOGLE_OAUTH_CLIENT_ID
+#   GOOGLE_OAUTH_CLIENT_SECRET
+#   GOOGLE_OAUTH_REFRESH_TOKEN  (must include calendar.readonly +
+#                                contacts.readonly scopes)
+#
+# State persistence:
+#   The SQLite entity DB (entities.db) is committed back to a state branch
+#   after each successful run so the next run picks up the syncToken. If you
+#   prefer not to commit binaries, swap the persistence step for an artifact
+#   upload + restore (see notes at the bottom).
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # top of every hour
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: sync-entities
+      cancel-in-progress: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        working-directory: second-brain
+        run: |
+          pip install -e .
+          pip install google-api-python-client google-auth google-auth-oauthlib
+
+      - name: Restore brain state branch (entities.db)
+        run: |
+          mkdir -p second-brain/.brain-state
+          git fetch origin brain-state:brain-state || true
+          if git show-ref --verify --quiet refs/heads/brain-state; then
+            git worktree add second-brain/.brain-state brain-state
+            if [ -f second-brain/.brain-state/entities.db ]; then
+              cp second-brain/.brain-state/entities.db second-brain/entities.db
+            fi
+          fi
+
+      - name: Sync Google Calendar
+        working-directory: second-brain
+        env:
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+        run: |
+          python -m brain.cli --entdb ./entities.db ingest-entities --kind gcal-live --source primary
+
+      - name: Sync Google People (Contacts)
+        working-directory: second-brain
+        env:
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+        run: |
+          python -m brain.cli --entdb ./entities.db ingest-entities --kind people-live
+
+      - name: Show stats
+        working-directory: second-brain
+        run: python -m brain.cli --entdb ./entities.db stats
+
+      - name: Persist entities.db to brain-state branch
+        run: |
+          mkdir -p second-brain/.brain-state
+          cp second-brain/entities.db second-brain/.brain-state/entities.db
+          cd second-brain/.brain-state
+          git config user.email "brain-sync@synthminds.ai"
+          git config user.name  "synthbrain-sync"
+          if ! git show-ref --verify --quiet refs/heads/brain-state; then
+            git checkout --orphan brain-state
+            git rm -rf . 2>/dev/null || true
+            cp ../entities.db ./entities.db
+          fi
+          git add entities.db
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin brain-state --force

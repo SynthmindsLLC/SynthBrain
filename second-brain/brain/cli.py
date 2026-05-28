@@ -24,6 +24,8 @@ from .adapters.entity_base import ingest_entities
 from .adapters.fieldy_adapter import FieldyAdapter
 from .adapters.filesystem_adapter import FilesystemAdapter
 from .adapters.mem_adapter import MemAdapter
+# Live Google adapters import lazily inside the CLI helpers below so
+# `google-api-python-client` is an optional dep.
 from .core.checkpoint import CheckpointStore
 from .core.dossier import dossier
 from .core.embed import get_embedder
@@ -49,6 +51,20 @@ def _build_adapter(name: str, source: str, entdb: str):
 
 ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
+LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
+
+
+def _build_live_entity_adapter(kind: str, source: str, entdb: str):
+    if kind == "gcal-live":
+        from .adapters.gcal_live_adapter import GoogleCalendarLiveAdapter
+        return GoogleCalendarLiveAdapter(
+            calendar_id=source or "primary",
+            checkpoint_db=entdb,
+        )
+    if kind == "people-live":
+        from .adapters.people_live_adapter import GooglePeopleLiveAdapter
+        return GooglePeopleLiveAdapter(checkpoint_db=entdb)
+    raise ValueError(f"unknown live entity adapter {kind!r}")
 
 
 def _index(args: argparse.Namespace) -> BrainIndex:
@@ -99,12 +115,17 @@ def cmd_stats(args: argparse.Namespace) -> int:
 
 
 def cmd_ingest_entities(args: argparse.Namespace) -> int:
-    if args.kind not in ENTITY_ADAPTERS:
-        print(f"unknown entity kind {args.kind!r}; have: {', '.join(ENTITY_ADAPTERS)}", file=sys.stderr)
+    if args.kind in ENTITY_ADAPTERS:
+        adapter = ENTITY_ADAPTERS[args.kind](args.source)
+    elif args.kind in LIVE_ENTITY_ADAPTERS:
+        adapter = _build_live_entity_adapter(args.kind, args.source, args.entdb)
+    else:
+        known = list(ENTITY_ADAPTERS) + list(LIVE_ENTITY_ADAPTERS)
+        print(f"unknown entity kind {args.kind!r}; have: {', '.join(known)}", file=sys.stderr)
         return 2
-    adapter = ENTITY_ADAPTERS[args.kind](args.source)
     res = ingest_entities(EntityStore(args.entdb), adapter)
-    print(f"ingested {res['entities']} entities, {res['edges']} edges from {args.kind} ({args.source})")
+    src = args.source or f"<{args.kind}>"
+    print(f"ingested {res['entities']} entities, {res['edges']} edges from {args.kind} ({src})")
     return 0
 
 
@@ -223,8 +244,11 @@ def main(argv: list[str] | None = None) -> int:
     pi.set_defaults(func=cmd_ingest)
 
     pe = sub.add_parser("ingest-entities", help="ingest contacts/calendar into the graph")
-    pe.add_argument("--kind", required=True, choices=list(ENTITY_ADAPTERS))
-    pe.add_argument("--source", required=True, help=".vcf (contacts) or .ics (calendar)")
+    pe.add_argument("--kind", required=True,
+                    choices=list(ENTITY_ADAPTERS) + list(LIVE_ENTITY_ADAPTERS))
+    pe.add_argument("--source", default="",
+                    help=".vcf/.ics for file adapters; calendarId for gcal-live "
+                         "(default 'primary'); ignored for people-live")
     pe.set_defaults(func=cmd_ingest_entities)
 
     pq = sub.add_parser("query", help="semantic query over the vector index")

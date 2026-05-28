@@ -10,3 +10,11 @@ icalendar>=5.0    # iCalendar (.ics) parsing
 #   openai embedder:  pip install openai
 #   local embedder:   pip install sentence-transformers
 # The default `fake` embedder needs nothing beyond the core.
+
+# Optional live source adapters — install only what you use:
+#   live Google Calendar + People (Contacts):
+#     pip install google-api-python-client google-auth google-auth-oauthlib
+#   filesystem .docx ingest:
+#     pip install docx2txt
+#   filesystem .pdf ingest:
+#     pip install pypdf
