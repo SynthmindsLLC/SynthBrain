@@ -20,10 +20,12 @@ from .adapters.calendar_adapter import CalendarAdapter
 from .adapters.contacts_adapter import ContactsAdapter
 from .adapters.entity_base import ingest_entities
 from .adapters.mem_adapter import MemAdapter
+from .core.dossier import dossier
 from .core.embed import get_embedder
 from .core.entities import EntityStore
 from .core.index import BrainIndex
 from .core.pipeline import ingest
+from .core.resolve import Status, resolve
 
 ADAPTERS = {"mem": MemAdapter}
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
@@ -87,6 +89,52 @@ def cmd_entities(args: argparse.Namespace) -> int:
             print(f"    aliases: {', '.join(e.aliases)}")
         for key, val in e.attributes.items():
             print(f"    {key}: {val}")
+    return 0
+
+
+def cmd_resolve(args: argparse.Namespace) -> int:
+    store = EntityStore(args.entdb)
+    r = resolve(store, args.mention, args.context or "", args.kind)
+    print(f"status: {r.status.value}  confidence: {r.confidence:.2f}")
+    print(f"rationale: {r.rationale}")
+    if r.entity:
+        print(f"resolved: {r.entity.name}  [{r.entity.id}]")
+    elif r.candidates:
+        print("candidates:")
+        score_map = dict(r.scores)
+        for c in r.candidates:
+            s = score_map.get(c.id, 0.0)
+            print(f"  - {c.name}  [{c.id}]  score={s:.2f}")
+    return 0
+
+
+def cmd_dossier(args: argparse.Namespace) -> int:
+    store = EntityStore(args.entdb)
+    index = _index(args) if args.use_chunks else None
+    card = dossier(
+        store,
+        index,
+        args.mention,
+        event_hint=args.event or "",
+        context=args.context or "",
+    )
+    if card.needs_disambiguation:
+        print(f"AMBIGUOUS: {args.mention} could be:")
+        for n in card.needs_disambiguation:
+            print(f"  - {n}")
+        print(f"(confidence {card.confidence:.2f})")
+        return 0
+    print(f"\n{card.name}  [confidence {card.confidence:.2f}]")
+    if card.role:
+        print(f"  role: {card.role}")
+    if card.relationship:
+        print(f"  rel:  {card.relationship}")
+    if card.where_met:
+        print(f"  met:  {card.where_met}")
+    if card.discussed:
+        print("  discussed:")
+        for b in card.discussed:
+            print(f"    - {b}")
     return 0
 
 
@@ -162,6 +210,20 @@ def main(argv: list[str] | None = None) -> int:
     pw = sub.add_parser("who", help="graph traversal: what a person attended + co-attendees")
     pw.add_argument("name")
     pw.set_defaults(func=cmd_who)
+
+    pr = sub.add_parser("resolve", help="context-aware entity resolution (the 'two Jeffs' fix)")
+    pr.add_argument("mention", help="raw token heard/seen (e.g. 'Jeff')")
+    pr.add_argument("--context", help="surrounding conversation text used for disambiguation")
+    pr.add_argument("--kind", default="person", choices=["person", "event", "place", "org"])
+    pr.set_defaults(func=cmd_resolve)
+
+    pd = sub.add_parser("dossier", help="assemble the popup card for a person")
+    pd.add_argument("mention", help="person name/alias (e.g. 'Jeff')")
+    pd.add_argument("--event", help="event hint (e.g. 'Fall Block Party')")
+    pd.add_argument("--context", help="surrounding text for disambiguation")
+    pd.add_argument("--use-chunks", action="store_true",
+                    help="also pull discussion bullets from the vector index")
+    pd.set_defaults(func=cmd_dossier)
 
     ps = sub.add_parser("stats", help="index + graph stats")
     ps.set_defaults(func=cmd_stats)
