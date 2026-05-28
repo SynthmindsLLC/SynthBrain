@@ -10,11 +10,13 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-from typing import Any, Iterable
+from typing import Any, Callable, Iterable
 
 from .index import BrainIndex
 from .schema import MemoryChunk
 from .tag import classify_layer, tag_entities, tag_project
+
+ClassifyFn = Callable[[str], str]
 
 
 @dataclass
@@ -67,10 +69,23 @@ def header_aware_chunks(text: str, max_chars: int = 1800) -> list[str]:
     return out or ([text.strip()] if text.strip() else [])
 
 
-def ingest(index: BrainIndex, docs: Iterable[RawDoc]) -> int:
+def ingest(
+    index: BrainIndex,
+    docs: Iterable[RawDoc],
+    *,
+    classify_fn: ClassifyFn | None = None,
+) -> int:
+    """`classify_fn` overrides the layer classifier (e.g. for the LLM path).
+    Errors from the LLM classifier fall back to the heuristic per-chunk so a
+    single API hiccup doesn't kill the whole ingest run."""
+    fn = classify_fn or classify_layer
     chunks: list[MemoryChunk] = []
     for doc in docs:
         for i, piece in enumerate(header_aware_chunks(doc.text)):
+            try:
+                layer = fn(piece)
+            except Exception:
+                layer = classify_layer(piece)
             chunks.append(
                 MemoryChunk(
                     text=piece,
@@ -80,7 +95,7 @@ def ingest(index: BrainIndex, docs: Iterable[RawDoc]) -> int:
                     created_at=doc.created_at,
                     project_tags=tag_project(piece),
                     entity_tags=tag_entities(piece),
-                    layer=classify_layer(piece),
+                    layer=layer,
                     chunk_index=i,
                 )
             )

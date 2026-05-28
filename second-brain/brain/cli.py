@@ -76,9 +76,24 @@ def cmd_ingest(args: argparse.Namespace) -> int:
         print(f"unknown adapter {args.adapter!r}; have: {', '.join(ADAPTERS)}", file=sys.stderr)
         return 2
     adapter = _build_adapter(args.adapter, args.source, args.entdb)
-    n = ingest(_index(args), adapter.fetch())
+    classify_fn = None
+    if args.llm_classifier:
+        from .core.synthesize import classify_layer_llm
+        classify_fn = classify_layer_llm
+    n = ingest(_index(args), adapter.fetch(), classify_fn=classify_fn)
     src = args.source or f"<{args.adapter}>"
     print(f"ingested {n} chunks from {args.adapter} ({src})")
+    return 0
+
+
+def cmd_serve(args: argparse.Namespace) -> int:
+    """Run the HTTP API. Defaults to localhost-only; export BRAIN_BEARER_TOKEN
+    to require auth on the LAN."""
+    import uvicorn
+    os.environ.setdefault("BRAIN_DB", args.db)
+    os.environ.setdefault("BRAIN_ENTDB", args.entdb)
+    os.environ.setdefault("BRAIN_EMBEDDER", args.embedder)
+    uvicorn.run("brain.api:app", host=args.host, port=args.port, reload=args.reload)
     return 0
 
 
@@ -241,6 +256,9 @@ def main(argv: list[str] | None = None) -> int:
     pi.add_argument("--adapter", required=True, choices=ADAPTERS)
     pi.add_argument("--source", default="",
                     help="path/config (fieldy ignores this — uses FIELDY_API_KEY env)")
+    pi.add_argument("--llm-classifier", action="store_true",
+                    help="use Claude Haiku for pass-2 layer classification "
+                         "(needs ANTHROPIC_API_KEY; falls back to heuristic per-chunk on error)")
     pi.set_defaults(func=cmd_ingest)
 
     pe = sub.add_parser("ingest-entities", help="ingest contacts/calendar into the graph")
@@ -286,6 +304,12 @@ def main(argv: list[str] | None = None) -> int:
 
     pc = sub.add_parser("checkpoints", help="list incremental-sync watermarks")
     pc.set_defaults(func=cmd_checkpoints)
+
+    psv = sub.add_parser("serve", help="run the HTTP API (FastAPI)")
+    psv.add_argument("--host", default="127.0.0.1")
+    psv.add_argument("--port", type=int, default=8088)
+    psv.add_argument("--reload", action="store_true")
+    psv.set_defaults(func=cmd_serve)
 
     args = p.parse_args(argv)
     return args.func(args)
