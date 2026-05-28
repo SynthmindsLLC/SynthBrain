@@ -22,7 +22,7 @@ class BrainIndex:
         self._db = lancedb.connect(db_path)
         self._embedder = embedder
         self._schema = arrow_schema(embedder.dim)
-        if TABLE not in self._db.list_tables():
+        if TABLE not in _list_table_names(self._db):
             self._db.create_table(TABLE, schema=self._schema)
         self._table = self._db.open_table(TABLE)
 
@@ -57,3 +57,19 @@ class BrainIndex:
 
     def count(self) -> int:
         return self._table.count_rows()
+
+
+def _list_table_names(db) -> list[str]:
+    """LanceDB 0.32 changed list_tables() to return a ListTablesResponse object
+    (with .tables) instead of a bare list; the deprecated table_names() still
+    returns a list. Try the new shape first, then fall back."""
+    try:
+        result = db.list_tables()
+    except Exception:
+        result = []
+    if isinstance(result, list):
+        return result
+    tables = getattr(result, "tables", None)
+    if isinstance(tables, list):
+        return tables
+    return list(db.table_names())

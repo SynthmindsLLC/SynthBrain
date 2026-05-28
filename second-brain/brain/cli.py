@@ -17,9 +17,14 @@ import os
 import sys
 
 from .adapters.calendar_adapter import CalendarAdapter
+from .adapters.chatgpt_adapter import ChatGPTAdapter
+from .adapters.claude_adapter import ClaudeAdapter
 from .adapters.contacts_adapter import ContactsAdapter
 from .adapters.entity_base import ingest_entities
+from .adapters.fieldy_adapter import FieldyAdapter
+from .adapters.filesystem_adapter import FilesystemAdapter
 from .adapters.mem_adapter import MemAdapter
+from .core.checkpoint import CheckpointStore
 from .core.dossier import dossier
 from .core.embed import get_embedder
 from .core.entities import EntityStore
@@ -27,7 +32,22 @@ from .core.index import BrainIndex
 from .core.pipeline import ingest
 from .core.resolve import Status, resolve
 
-ADAPTERS = {"mem": MemAdapter}
+
+def _build_adapter(name: str, source: str, entdb: str):
+    if name == "mem":
+        return MemAdapter(source)
+    if name == "fieldy":
+        return FieldyAdapter(checkpoint_db=entdb)
+    if name == "filesystem":
+        return FilesystemAdapter(source, checkpoint_db=entdb)
+    if name == "claude":
+        return ClaudeAdapter(source)
+    if name == "chatgpt":
+        return ChatGPTAdapter(source)
+    raise ValueError(f"unknown adapter {name!r}")
+
+
+ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 
 
@@ -39,9 +59,20 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     if args.adapter not in ADAPTERS:
         print(f"unknown adapter {args.adapter!r}; have: {', '.join(ADAPTERS)}", file=sys.stderr)
         return 2
-    adapter = ADAPTERS[args.adapter](args.source)
+    adapter = _build_adapter(args.adapter, args.source, args.entdb)
     n = ingest(_index(args), adapter.fetch())
-    print(f"ingested {n} chunks from {args.adapter} ({args.source})")
+    src = args.source or f"<{args.adapter}>"
+    print(f"ingested {n} chunks from {args.adapter} ({src})")
+    return 0
+
+
+def cmd_checkpoints(args: argparse.Namespace) -> int:
+    rows = CheckpointStore(args.entdb).all()
+    if not rows:
+        print("no checkpoints yet")
+        return 0
+    for r in rows:
+        print(f"{r['adapter']:14s} {r['key']:12s} = {r['value']}  ({r['updated_at']})")
     return 0
 
 
@@ -186,8 +217,9 @@ def main(argv: list[str] | None = None) -> int:
     sub = p.add_subparsers(dest="cmd", required=True)
 
     pi = sub.add_parser("ingest", help="ingest a text source into the vector index")
-    pi.add_argument("--adapter", required=True)
-    pi.add_argument("--source", required=True, help="path/config for the adapter")
+    pi.add_argument("--adapter", required=True, choices=ADAPTERS)
+    pi.add_argument("--source", default="",
+                    help="path/config (fieldy ignores this — uses FIELDY_API_KEY env)")
     pi.set_defaults(func=cmd_ingest)
 
     pe = sub.add_parser("ingest-entities", help="ingest contacts/calendar into the graph")
@@ -227,6 +259,9 @@ def main(argv: list[str] | None = None) -> int:
 
     ps = sub.add_parser("stats", help="index + graph stats")
     ps.set_defaults(func=cmd_stats)
+
+    pc = sub.add_parser("checkpoints", help="list incremental-sync watermarks")
+    pc.set_defaults(func=cmd_checkpoints)
 
     args = p.parse_args(argv)
     return args.func(args)
