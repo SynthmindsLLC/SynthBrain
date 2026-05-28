@@ -58,11 +58,29 @@ def _build_adapter(name: str, source: str, entdb: str):
     if name == "imap":
         from .adapters.imap_adapter import IMAPAdapter
         return IMAPAdapter(checkpoint_db=entdb, entdb=entdb, folder=source or "INBOX")
+    if name == "imessage":
+        from .adapters.imessage_adapter import IMessageAdapter
+        return IMessageAdapter(
+            db_path=source or None, checkpoint_db=entdb,
+        )
+    if name == "icloud-notes":
+        from .adapters.icloud_notes_adapter import ICloudNotesAdapter
+        return ICloudNotesAdapter(source=source or "", checkpoint_db=entdb)
+    if name == "github":
+        from .adapters.github_adapter import GitHubAdapter
+        return GitHubAdapter(checkpoint_db=entdb)
+    if name == "m365":
+        from .adapters.m365_adapter import M365Adapter
+        return M365Adapter(source or "mail", checkpoint_db=entdb, entdb=entdb)
+    if name == "slack":
+        from .adapters.slack_adapter import SlackAdapter
+        return SlackAdapter(checkpoint_db=entdb)
     raise ValueError(f"unknown adapter {name!r}")
 
 
 ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt", "drive",
-            "granola", "gmail", "imap")
+            "granola", "gmail", "imap", "imessage", "icloud-notes",
+            "github", "m365", "slack")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 
