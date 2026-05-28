@@ -67,16 +67,29 @@ brain/
     pipeline.py    RawDoc → header-aware chunks → tag → index
     index.py       BrainIndex: LanceDB add/query (semantic + layer + project filters)
     entities.py    Entity, Edge, EntityStore (SQLite graph: merge-on-conflict, traversal)
-    resolve.py     ⬜ STUB — context-aware entity resolution (NEXT TASK)
-    dossier.py     ⬜ STUB — assemble + synthesize the dossier card
+    resolve.py     ✅ noisy-OR over graph proximity + distinctive-attr + embedding
+    dossier.py     ✅ graph join + HUD-budget card (synthesis hook in synthesize.py)
+    synthesize.py  ✅ Anthropic Haiku hooks (classify_layer_llm, synthesize_dossier)
+    salience.py    ✅ tfidf + recency + entity + layer + context noisy-OR (Phase 3 prep)
+    checkpoint.py  ✅ per-adapter sync-state store (SQLite)
+  api.py           ✅ FastAPI HTTP surface (/resolve, /dossier, /who, /query, /graph)
   adapters/
-    base.py            Adapter ABC (text/chunk sources)
-    entity_base.py     EntityAdapter ABC + ingest_entities (entity sources)
-    mem_adapter.py     Mem markdown export → chunks  (+ MemApiAdapter stub)
-    contacts_adapter.py .vcf → Person entities
-    calendar_adapter.py .ics → Event entities + 'attended' edges
-  cli.py           ingest | ingest-entities | query | entities | who | stats
-tests/             pytest, offline (fake embedder); 7 passing
+    base.py             Adapter ABC (text/chunk sources)
+    entity_base.py      EntityAdapter ABC + ingest_entities
+    mem_adapter.py      ✅ Mem markdown export → chunks (+ MemApiAdapter stub)
+    contacts_adapter.py ✅ .vcf → Person entities
+    calendar_adapter.py ✅ .ics → Event entities + 'attended' edges
+    fieldy_adapter.py   ✅ REST + checkpoint (MCP path queued)
+    filesystem_adapter.py ✅ md/txt/docx/pdf + mtime checkpoint
+    claude_adapter.py   ✅ conversations.json
+    chatgpt_adapter.py  ✅ conversations.json
+    gcal_live_adapter.py   ✅ Google Calendar API + syncToken (incremental)
+    people_live_adapter.py ✅ Google People API + syncToken (incremental)
+    drive_adapter.py    ✅ Google Drive changes API + content extract
+    granola_adapter.py  ✅ JSON export + markdown summaries
+  cli.py           ingest | ingest-entities | query | entities | who | resolve |
+                   dossier | checkpoints | serve | stats
+tests/             pytest, offline (every external API mocked); 99 passing
 docs/              g2-r1-reference-architecture.md, context-graph-klarity.pdf
 sample_*           runnable demo data
 ```
@@ -97,22 +110,28 @@ python -m brain.cli query "why did we pick the enclosure?" --layer reasoning
 
 ## Status
 
-**Built + tested:** chunk schema, LanceDB index (semantic/layer/project queries),
-header-aware chunking, pass-1 tagging, Mem adapter, entity graph store, Contacts
-(.vcf) + Calendar (.ics) adapters, CLI, 7 tests.
+**Built + tested (Phases 0-3 mostly landed):** chunk schema, LanceDB index
+(semantic/layer/project queries), header-aware chunking, pass-1 + pass-2
+tagging (heuristic + opt-in Claude Haiku), entity graph store, Mem adapter,
+Contacts (.vcf) + Calendar (.ics) adapters, **Fieldy + Filesystem + Claude
++ ChatGPT + Drive + Granola chunk adapters**, **live Google Calendar +
+People entity adapters with syncToken**, **resolve() + dossier()** with
+noisy-OR scoring + HUD-budget enforcement, **FastAPI HTTP surface**
+(/resolve, /dossier, /who, /query, /graph), **salience layer** (tfidf +
+recency + entity + layer + context-overlap). **99 offline tests passing.**
 
-**Stubbed / next (in priority order) — see ROADMAP.md for detail:**
-1. `resolve(mention, context, kind)` — pick the right "Jeff" from conversation
-   context. The make-or-break piece. Demo proves the gap: bare "Jeff" matches two
-   people today. **This is the next task.**
-2. `dossier(person, event_hint, context)` — graph-join + LLM-synthesize the card.
-3. Remaining source adapters: Drive, hard drive (Filesystem), M365 (Phase 1);
-   Claude/ChatGPT export, Granola, FieldyAI (Phase 2).
-4. Pass-2 layer classifier → swap heuristic for an LLM (decision-vs-reasoning
-   ambiguity is real; see `tag.py` TODO).
-5. Retrieval surface: salience layer + synthesis + latency budget (Phase 3, per
-   `docs/g2-r1-reference-architecture.md`).
-6. Glasses: Even Hub plugin + STT + HUD (Phase 4, same doc is the build doc).
+**Still ⬜ (in priority order):**
+1. M365 adapter — if still in use (OneDrive + Outlook calendar).
+2. Re-point apps/web at the Python brain — `lib/brain-http.ts` lands in
+   this PR; UI surfaces (search bar, dossier card) come next.
+3. Latency-budget logging on the FastAPI surface; deploy target choice
+   (companion app on phone vs always-on box) — `docs/g2-r1-...md` §Phase 4.
+4. Even Hub SDK wiring — `even-hub/` has the structural scaffold (beat
+   stream, salience pre-filter, brain client, HUD render) and a
+   deterministic replay; the Hub SDK + STT integration lands when SDK
+   access + privacy gate clear.
+5. Privacy gate before any real recording of others — CT all-party
+   consent + Navy OPSEC review.
 
 ---
 

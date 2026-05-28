@@ -35,6 +35,7 @@ from .core.entities import EntityStore
 from .core.index import BrainIndex
 from .core.pipeline import RawDoc, ingest
 from .core.resolve import Status, resolve
+from .core.salience import build_idf, filter_by_salience, score_chunk
 
 DEFAULT_DB = os.environ.get("BRAIN_DB", "./brain_index")
 DEFAULT_ENTDB = os.environ.get("BRAIN_ENTDB", "./entities.db")
@@ -94,6 +95,8 @@ class QueryBody(BaseModel):
     k: int = Field(default=5, ge=1, le=50)
     layer: str | None = None
     project: str | None = None
+    salience: bool = False             # add salience score per result
+    salience_threshold: float = 0.0   # if >0, drop rows below this score
 
 
 class IngestTextBody(BaseModel):
@@ -187,9 +190,11 @@ def get_who(name: str) -> dict:
 def post_query(body: QueryBody) -> dict:
     rows = _index().query(body.text, k=body.k, layer=body.layer, project=body.project)
     out = []
+    idf = _idf_cache(rows) if (body.salience or body.salience_threshold > 0) else None
+    ctx_tokens = _ctx_tokens(body.text) if (body.salience or body.salience_threshold > 0) else None
     for r in rows:
         dist = r.get("_distance")
-        out.append({
+        row: dict = {
             "text": r.get("text", ""),
             "source": r.get("source", ""),
             "source_id": r.get("source_id", ""),
@@ -198,8 +203,30 @@ def post_query(body: QueryBody) -> dict:
             "project_tags": r.get("project_tags", []) or [],
             "entity_tags": r.get("entity_tags", []) or [],
             "score": (1.0 - dist) if dist is not None else None,
-        })
+        }
+        if body.salience or body.salience_threshold > 0:
+            s = score_chunk(r, idf=idf, context_tokens=ctx_tokens)
+            row["salience"] = {
+                "total": s.total, "tfidf": s.tfidf, "recency": s.recency,
+                "entity": s.entity, "layer_score": s.layer, "context": s.context,
+            }
+            if body.salience_threshold > 0 and s.total < body.salience_threshold:
+                continue
+        out.append(row)
     return {"text": body.text, "results": out}
+
+
+def _idf_cache(rows: list[dict]) -> dict[str, float]:
+    cached = getattr(app.state, "_idf", None)
+    if cached is None:
+        cached = build_idf(r.get("text", "") for r in rows)
+        app.state._idf = cached
+    return cached
+
+
+def _ctx_tokens(text: str) -> set[str]:
+    import re
+    return {m.group(0) for m in re.finditer(r"[a-z0-9][a-z0-9'\-]+", text.lower())}
 
 
 @app.get("/graph", dependencies=[Depends(_require_auth)])

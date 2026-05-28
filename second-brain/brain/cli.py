@@ -46,10 +46,16 @@ def _build_adapter(name: str, source: str, entdb: str):
         return ClaudeAdapter(source)
     if name == "chatgpt":
         return ChatGPTAdapter(source)
+    if name == "drive":
+        from .adapters.drive_adapter import DriveAdapter
+        return DriveAdapter(checkpoint_db=entdb, folder_id=source or None)
+    if name == "granola":
+        from .adapters.granola_adapter import GranolaAdapter
+        return GranolaAdapter(source, checkpoint_db=entdb)
     raise ValueError(f"unknown adapter {name!r}")
 
 
-ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt")
+ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt", "drive", "granola")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 

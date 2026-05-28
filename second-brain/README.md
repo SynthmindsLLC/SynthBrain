@@ -81,7 +81,7 @@ Seed real data: export contacts as **.vcf** (iPhone/Google/Outlook all do this)
 and calendar as **.ics**; point `--source` at them.
 
 ```bash
-pytest -q     # 67 tests, offline (LLM/Anthropic + Google API + Fieldy all mocked)
+pytest -q     # 88 tests, offline (LLM/Anthropic + Google API + Fieldy + Drive all mocked)
 ```
 
 ## What's real vs. stubbed
@@ -100,8 +100,12 @@ pytest -q     # 67 tests, offline (LLM/Anthropic + Google API + Fieldy all mocke
 | Fieldy adapter (REST `/api/public/v2/transcriptions` + checkpoint) | ✅ working, tested (mocked) |
 | Filesystem adapter (walk → md/txt/docx/pdf, checkpoint, hash-id) | ✅ working, tested |
 | Claude / ChatGPT export adapters (`conversations.json`) | ✅ working, tested |
+| **Drive Python chunk adapter (changes API + Docs export + PDF/DOCX extract)** | ✅ **working, tested (mocked)** |
+| **Granola adapter (JSON export + markdown summaries)** | ✅ **working, tested** |
 | Live Google Calendar + People adapters (syncToken, incremental) | ✅ working, tested (mocked); hourly GH Actions cron |
 | HTTP API (FastAPI: `/resolve`, `/dossier`, `/who`, `/query`, `/graph`) | ✅ working, tested |
+| **Salience layer (tfidf + recency + entity + layer + context noisy-OR)** | ✅ **working, tested** |
+| **even-hub plugin scaffold (beat → salience → brain → HUD)** | ✅ structural; Hub SDK wiring queued behind privacy gate |
 | Mem API incremental sync | 🔌 stub — Phase 3 |
 | Drive / hard-drive / M365 chunk adapters (Python) | partial — filesystem covers HD; Drive via TS connector for now |
 | Embedders: fake / local / openai | ✅ all three |
