@@ -1,0 +1,9 @@
+{
+  "segments": [
+    {"speaker": "Wes", "text": "Hey, Jeff! Long time. How are the kids?", "ts": 0},
+    {"speaker": "Jeff", "text": "Wes! Mia and Leo are great. Dana says hi.", "ts": 4},
+    {"speaker": "Wes", "text": "We need to grab a lunch soon. Last time was at the Fall Block Party.", "ts": 8},
+    {"speaker": "Jeff", "text": "Right, in Groton. Acme is keeping me busy.", "ts": 13},
+    {"speaker": "Wes", "text": "Still VP of Engineering?", "ts": 17}
+  ]
+}
