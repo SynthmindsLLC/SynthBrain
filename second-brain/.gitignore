@@ -1,0 +1,12 @@
+# generated stores
+brain_index/
+*.db
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+# secrets
+.env

@@ -1,0 +1,28 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Jeff Torres
+N:Torres;Jeff;;;
+ORG:Acme Robotics;Engineering
+TITLE:VP of Engineering
+EMAIL:jeff.torres@acme.com
+TEL:+1-860-555-0142
+NOTE:Married to Dana\; two kids (Mia\, Leo). Into trail running and 3D printing.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Jeff Brennan
+N:Brennan;Jeff;;;
+ORG:Mystic Seaport Museum
+TITLE:Events Coordinator
+EMAIL:jeff.b@mysticseaport.org
+NOTE:Contact for venue bookings.
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Monica Rossi
+N:Rossi;Monica;;;
+ORG:Plants By The Village
+TITLE:Owner
+EMAIL:monica@plantsbythevillage.com
+NOTE:PBTV client\, Olde Mistick Village.
+END:VCARD

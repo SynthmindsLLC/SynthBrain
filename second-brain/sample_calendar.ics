@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//demo//EN
+BEGIN:VEVENT
+UID:evt-fallparty-2025@demo
+SUMMARY:Fall Block Party
+DTSTART:20251004T180000Z
+LOCATION:Groton, CT
+ATTENDEE;CN=Jeff Torres:mailto:jeff.torres@acme.com
+ATTENDEE;CN=Wes Shields:mailto:wes@synthminds.ai
+ATTENDEE;CN=Ria:mailto:ria@example.com
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-pbtv-kickoff@demo
+SUMMARY:PBTV Kickoff
+DTSTART:20250915T140000Z
+LOCATION:Olde Mistick Village
+ATTENDEE;CN=Monica Rossi:mailto:monica@plantsbythevillage.com
+ATTENDEE;CN=Wes Shields:mailto:wes@synthminds.ai
+END:VEVENT
+END:VCALENDAR

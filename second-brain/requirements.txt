@@ -1,0 +1,12 @@
+# Core spine (required)
+lancedb>=0.13
+pyarrow>=15,<18  # pyarrow 18+ triggers a LanceDB native teardown segfault as of lancedb 0.32
+
+# Entity adapters (contacts + calendar)
+vobject>=0.9      # vCard (.vcf) parsing
+icalendar>=5.0    # iCalendar (.ics) parsing
+
+# Optional embedders — install only what you use:
+#   openai embedder:  pip install openai
+#   local embedder:   pip install sentence-transformers
+# The default `fake` embedder needs nothing beyond the core.

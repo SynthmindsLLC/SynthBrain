@@ -1,0 +1,26 @@
+[project]
+name = "second-brain"
+version = "0.1.0"
+description = "Personal intake conduit + second brain feeding Even G2 recall"
+requires-python = ">=3.10"
+dependencies = [
+    "lancedb>=0.13",
+    "pyarrow>=15,<18",   # pyarrow 18+ triggers a LanceDB native teardown segfault (lancedb 0.32)
+    "vobject>=0.9",      # vCard (.vcf) parsing
+    "icalendar>=5.0",    # iCalendar (.ics) parsing
+]
+
+[project.optional-dependencies]
+local = ["sentence-transformers"]   # on-device embeddings (private mode)
+openai = ["openai"]                 # cloud embeddings
+dev = ["pytest"]
+
+[project.scripts]
+brain = "brain.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["brain*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
