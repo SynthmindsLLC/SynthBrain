@@ -52,10 +52,17 @@ def _build_adapter(name: str, source: str, entdb: str):
     if name == "granola":
         from .adapters.granola_adapter import GranolaAdapter
         return GranolaAdapter(source, checkpoint_db=entdb)
+    if name == "gmail":
+        from .adapters.gmail_adapter import GmailAdapter
+        return GmailAdapter(checkpoint_db=entdb, entdb=entdb)
+    if name == "imap":
+        from .adapters.imap_adapter import IMAPAdapter
+        return IMAPAdapter(checkpoint_db=entdb, entdb=entdb, folder=source or "INBOX")
     raise ValueError(f"unknown adapter {name!r}")
 
 
-ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt", "drive", "granola")
+ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt", "drive",
+            "granola", "gmail", "imap")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 

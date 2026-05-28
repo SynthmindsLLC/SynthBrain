@@ -76,6 +76,32 @@ jobs:
         run: |
           python -m brain.cli --entdb ./entities.db ingest-entities --kind people-live
 
+      # Email pipelines run AFTER contacts so the email-filter has the latest
+      # allowlist (Person.emails / aliases) when it triages messages.
+      - name: Sync Gmail (filtered to personal/work)
+        if: ${{ secrets.GMAIL_ENABLED == 'true' }}
+        working-directory: second-brain
+        env:
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -m brain.cli --entdb ./entities.db ingest --adapter gmail
+
+      - name: Sync iCloud Mail via IMAP (filtered to personal/work)
+        if: ${{ secrets.ICLOUD_IMAP_PASSWORD != '' }}
+        working-directory: second-brain
+        env:
+          IMAP_HOST: imap.mail.me.com
+          IMAP_PORT: "993"
+          IMAP_USERNAME: ${{ secrets.ICLOUD_IMAP_USERNAME }}
+          IMAP_PASSWORD: ${{ secrets.ICLOUD_IMAP_PASSWORD }}
+          IMAP_OWN_DOMAINS: ${{ secrets.IMAP_OWN_DOMAINS }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -m brain.cli --entdb ./entities.db ingest --adapter imap
+
       - name: Show stats
         working-directory: second-brain
         run: python -m brain.cli --entdb ./entities.db stats
