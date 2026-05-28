@@ -11,9 +11,22 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-local = ["sentence-transformers"]   # on-device embeddings (private mode)
-openai = ["openai"]                 # cloud embeddings
-dev = ["pytest"]
+local = ["sentence-transformers"]                    # on-device embeddings (private mode)
+openai = ["openai"]                                  # cloud embeddings
+google = [                                            # live Calendar + People adapters
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-oauthlib",
+]
+docs = ["docx2txt", "pypdf"]                         # filesystem .docx/.pdf extractors
+api = ["fastapi", "uvicorn[standard]"]                # HTTP retrieval surface
+dev = [
+    "pytest",
+    "httpx",                                          # FastAPI TestClient
+    "fastapi",
+    "google-api-python-client",
+    "google-auth",
+]
 
 [project.scripts]
 brain = "brain.cli:main"

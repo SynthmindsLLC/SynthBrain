@@ -5,18 +5,44 @@
 | Phase | Scope | Status |
 |---|---|---|
 | **0 — Spine** | LanceDB index + MemoryChunk + Mem adapter + CLI | ✅ done |
-| **1 — Past + entities-in** | Contacts (.vcf) + Calendar (.ics) + entity graph | ✅ done. ⬜ remaining: Drive, hard-drive (Filesystem), M365 chunk adapters |
-| **2 — Present + resolution** | Claude/ChatGPT export, Granola, FieldyAI adapters; LLM layer classifier; **`resolve()` + `dossier()`** | ⬜ next |
-| **3 — Retrieval surface** | salience layer + synthesis + dossier query mode + latency budget | ⬜ |
+| **1 — Past + entities-in** | Contacts (.vcf) + Calendar (.ics) + entity graph + **Filesystem (md/txt/docx/pdf) + live Google Calendar + Google People** | ✅ done. Drive Python chunk adapter (replaces TS `--ingest`) + M365 still ⬜ |
+| **2 — Present + resolution** | Claude/ChatGPT export ✅; Fieldy ✅ (REST + checkpoint; MCP path queued); Granola ⬜; LLM layer classifier ✅ (Anthropic Haiku, opt-in); **`resolve()` ✅ + `dossier()` ✅** | mostly done; Granola left |
+| **3 — Retrieval surface** | HTTP API (FastAPI: `/resolve`, `/dossier`, `/who`, `/query`, `/graph`) ✅. Salience layer + LLM dossier synthesis hook ✅. Latency budget logging ⬜. Re-point `apps/web` ⬜ | partial |
 | **4 — Glasses** | Even Hub plugin + STT + HUD render | ⬜ |
 
 `docs/g2-r1-reference-architecture.md` is the detailed build doc for Phases 3–4.
 
 ---
 
-## NEXT TASK: `resolve()` — context-aware entity resolution
+## ✅ DONE: `resolve()` + `dossier()` — see `brain/core/resolve.py` and `brain/core/dossier.py`
 
-The make-or-break component. Spec:
+resolve() implements noisy-OR over three independent signals (graph
+proximity, distinctive-attribute overlap, optional embedding sim) and
+returns AMBIGUOUS rather than guess below the confidence-margin threshold.
+dossier() does the graph join, only sets where_met when an `attended`
+edge actually links person↔event, and truncates bullets to the HUD budget
+(≤5 bullets, ≤8 words each). Anthropic Haiku synthesis is an injected
+hook (see `brain/core/synthesize.py`). 9 resolve + 7 dossier tests pass.
+
+## Next priorities (in order)
+
+1. **Drive Python chunk adapter** — replace the TS `apps/connectors/drive --ingest`
+   second pass with `brain/adapters/drive_adapter.py` reusing the existing
+   OAuth client + the filesystem-style mtime checkpoint.
+2. **Granola adapter** — the third "what we discussed" source; same shape as
+   Fieldy. Verify API/export format before writing the adapter.
+3. **Re-point `apps/web` at the Python brain HTTP API** — swap `lib/mem-http.ts`
+   for `lib/brain-http.ts`, add a dossier card UI, /who search bar.
+4. **Salience layer** for the glasses (per `docs/g2-r1-reference-architecture.md`):
+   TF-IDF + recency + entity-density score → "should I surface this?" boolean.
+5. **Embedding model decision** for production: `nomic-embed-text-v1.5` vs
+   `bge-small-en-v1.5` vs `text-embedding-3-small`. Decide before indexing
+   the full corpus — re-embedding is expensive.
+
+## Reference: original `resolve()` design notes (kept for context)
+
+The spec that drove the implementation, preserved for anyone reading the
+history of why the scoring works the way it does.
 
 ```
 resolve(mention: str, context: str, kind: str) -> Resolution

@@ -82,8 +82,11 @@ SOURCES → ADAPTERS → NORMALIZE → TAG+EMBED → INDEX (LanceDB chunks / SQL
 │   │   │   ├── pipeline.py     RawDoc → header-aware chunks → tag → index
 │   │   │   ├── index.py        BrainIndex: LanceDB add/query (semantic + layer + project)
 │   │   │   ├── entities.py     Entity, Edge, EntityStore (SQLite graph)
-│   │   │   ├── resolve.py      ⬜ STUB — context-aware entity resolution (NEXT TASK)
-│   │   │   └── dossier.py      ⬜ STUB — assemble + synthesize the dossier card
+│   │   │   ├── resolve.py      ✅ noisy-OR over graph proximity + distinctive-attr + embedding
+│   │   │   ├── dossier.py      ✅ graph join + HUD-budget card (Anthropic Haiku hook in synthesize.py)
+│   │   │   ├── synthesize.py   LLM hooks (classify_layer_llm, synthesize_dossier)
+│   │   │   ├── checkpoint.py   per-adapter sync-state store (SQLite)
+│   │   │   └── api.py is in brain/ root: FastAPI HTTP retrieval surface
 │   │   ├── adapters/
 │   │   │   ├── base.py             Adapter ABC (text/chunk sources)
 │   │   │   ├── entity_base.py      EntityAdapter ABC (entity sources)
@@ -158,14 +161,17 @@ python -m brain.cli query "why did we pick the enclosure?" --layer reasoning
 |---|---|
 | MemoryChunk schema, LanceDB index (semantic + layer + project filters) | ✅ working, tested |
 | Header-aware chunking, pass-1 tagging | ✅ working |
-| Pass-2 layer classification (heuristic) | ⚠️ heuristic; swap for LLM in Phase 2 |
+| Pass-2 layer classification | ✅ heuristic default; Claude Haiku opt-in via `ingest --llm-classifier` |
 | Mem adapter (Markdown export) | ✅ working (`MemApiAdapter` stub for live sync) |
 | Entity graph store (SQLite): nodes, edges, merge-on-conflict, traversal | ✅ working, tested |
 | Contacts adapter (.vcf → Person) | ✅ working, tested |
 | Calendar adapter (.ics → Event + `attended` edges) | ✅ working, tested |
-| `resolve(mention, context, kind)` | ⬜ **NEXT TASK** — the hard record-linkage piece (the "two Jeffs" disambiguation) |
-| `dossier(person, event_hint, context)` | ⬜ depends on `resolve()` + LLM synthesis |
-| Drive / Filesystem / M365 / Claude-export / ChatGPT-export / Granola / FieldyAI adapters | ⬜ Phase 1–2 |
+| `resolve(mention, context, kind)` | ✅ noisy-OR of graph proximity + distinctive-attribute + embedding signals; AMBIGUOUS below threshold |
+| `dossier(person, event_hint, context)` | ✅ graph join + Haiku synthesis hook (opt-in); HUD-budget bullets |
+| Fieldy / Filesystem / Claude / ChatGPT export adapters | ✅ all built, tested |
+| Live Google Calendar + People (Contacts) adapters (syncToken, incremental) | ✅ built, tested; hourly GH Actions cron |
+| FastAPI HTTP retrieval surface (`/resolve`, `/dossier`, `/who`, `/query`, `/graph`) | ✅ built, tested |
+| Drive Python chunk adapter / M365 / Granola | ⬜ Phase 1–2 remaining |
 | Embedders: fake / local / openai | ✅ all three |
 
 **TypeScript supporting work (PR #4 on `claude/integrate-mem-ai-1ZuZJ`):**
@@ -185,9 +191,9 @@ python -m brain.cli query "why did we pick the enclosure?" --layer reasoning
 | Phase | Scope | Status |
 |---|---|---|
 | **0 — Spine** | LanceDB index + MemoryChunk + Mem adapter + CLI | ✅ done |
-| **1 — Past + entities-in** | Contacts (.vcf) + Calendar (.ics) ✅; remaining: Drive, hard-drive (Filesystem), M365 chunk adapters | partial |
-| **2 — Present + resolution** | Claude/ChatGPT export, Granola, FieldyAI adapters; LLM layer classifier; **`resolve()` + `dossier()`** | ⬜ next |
-| **3 — Retrieval surface** | salience layer + synthesis + dossier query mode + latency budget; re-point `apps/web` at the brain | ⬜ |
+| **1 — Past + entities-in** | Contacts (.vcf) + Calendar (.ics) ✅; **Filesystem (md/txt/docx/pdf) ✅**; **live Google Calendar + People ✅** (hourly GH Actions); Drive Python adapter + M365 ⬜ | mostly done |
+| **2 — Present + resolution** | **Claude/ChatGPT export ✅**; **Fieldy (REST + checkpoint) ✅** (MCP wiring queued); Granola ⬜; **LLM layer classifier ✅**; **`resolve()` ✅ + `dossier()` ✅** | mostly done; Granola left |
+| **3 — Retrieval surface** | **HTTP API (FastAPI: `/resolve`/`/dossier`/`/who`/`/query`/`/graph`) ✅**; **dossier LLM synthesis hook ✅**; latency budget logging ⬜; re-point `apps/web` ⬜ | partial |
 | **4 — Glasses** | Even Hub plugin + STT + HUD render (per `second-brain/docs/g2-r1-reference-architecture.md`) | ⬜ |
 
 `second-brain/docs/g2-r1-reference-architecture.md` is the detailed build doc

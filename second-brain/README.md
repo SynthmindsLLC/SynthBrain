@@ -56,16 +56,32 @@ python -m brain.cli entities --name Jeff        # NOTE: returns TWO Jeffs — th
 python -m brain.cli stats
 ```
 
-`who "Jeff Torres"` already assembles the raw dossier: org, title, family note,
-the Fall Block Party he attended, and who else was there. What it does **not** yet
-do is resolve a *bare* "Jeff" to the right person from conversation context —
-that's `resolve()`, the next step.
+`who "Jeff Torres"` assembles the raw dossier: org, title, family note,
+the Fall Block Party he attended, and who else was there. **And** `brain resolve`
++ `brain dossier` now disambiguate a bare "Jeff" from conversation context:
+
+```bash
+python -m brain.cli resolve "Jeff" --context "the Fall Block Party last fall"
+# -> resolved: Jeff Torres   confidence 0.63
+
+python -m brain.cli dossier "Jeff" --event "Fall Block Party" --context "the party last fall" --use-chunks
+# -> Jeff Torres [confidence 0.63]
+#    role: VP of Engineering @ Acme Robotics
+#    rel:  Married to Dana; two kids (Mia, Leo). Into trail running and 3D printing.
+#    met:  Fall Block Party - 2025-10-04T18:00:00+00:00 - Groton, CT
+#    discussed:
+#      - <first sentence of top relevant chunk>
+
+# Run the HTTP API for apps/web + glasses:
+python -m brain.cli serve --port 8088
+curl localhost:8088/healthz
+```
 
 Seed real data: export contacts as **.vcf** (iPhone/Google/Outlook all do this)
 and calendar as **.ics**; point `--source` at them.
 
 ```bash
-pytest -q     # 7 tests, offline
+pytest -q     # 67 tests, offline (LLM/Anthropic + Google API + Fieldy all mocked)
 ```
 
 ## What's real vs. stubbed
@@ -74,15 +90,20 @@ pytest -q     # 7 tests, offline
 |---|---|
 | MemoryChunk schema, LanceDB index, query (semantic + layer + project filters) | ✅ working, tested |
 | Header-aware chunking, pass-1 tagging | ✅ working |
-| Pass-2 layer classification | ⚠️ heuristic; swap for an LLM in Phase 2 |
+| Pass-2 layer classification | ✅ heuristic by default; LLM (Claude Haiku) opt-in via `--llm-classifier` |
 | Mem adapter (Markdown export) | ✅ working |
 | **Entity graph store (SQLite): nodes, edges, merge-on-conflict, traversal** | ✅ **working, tested** |
 | **Contacts adapter (.vcf → Person)** | ✅ **working, tested** |
 | **Calendar adapter (.ics → Event + attended edges)** | ✅ **working, tested** |
-| **`resolve(mention, context)` — pick the right Jeff** | ⬜ **next step** — the hard record-linkage problem |
-| **`dossier()` — synthesize the popup card** | ⬜ next step (needs `resolve()` + LLM synthesis) |
+| **`resolve(mention, context)` — pick the right Jeff** | ✅ **working, tested** — noisy-OR of graph proximity + distinctive-attribute + embedding signals |
+| **`dossier()` — synthesize the popup card** | ✅ working — graph join + HUD-budget bullets; Anthropic Haiku synthesis opt-in |
+| Fieldy adapter (REST `/api/public/v2/transcriptions` + checkpoint) | ✅ working, tested (mocked) |
+| Filesystem adapter (walk → md/txt/docx/pdf, checkpoint, hash-id) | ✅ working, tested |
+| Claude / ChatGPT export adapters (`conversations.json`) | ✅ working, tested |
+| Live Google Calendar + People adapters (syncToken, incremental) | ✅ working, tested (mocked); hourly GH Actions cron |
+| HTTP API (FastAPI: `/resolve`, `/dossier`, `/who`, `/query`, `/graph`) | ✅ working, tested |
 | Mem API incremental sync | 🔌 stub — Phase 3 |
-| Drive / hard-drive / M365 / Claude / ChatGPT / Fieldy adapters | ⬜ Phase 1–2 |
+| Drive / hard-drive / M365 chunk adapters (Python) | partial — filesystem covers HD; Drive via TS connector for now |
 | Embedders: fake / local / openai | ✅ all three |
 
 ## Known issue handled
