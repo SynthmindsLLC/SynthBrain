@@ -119,6 +119,9 @@ def test_mtime_checkpoint_advances_and_skips_seen_sessions(tmp_path):
 
     a = ClaudeCodeAdapter(str(root), checkpoint_db=cp_db)
     assert len(list(a.fetch())) == 1
+    # Watermark is deferred: nothing persisted until commit_checkpoint().
+    assert CheckpointStore(cp_db).get("claude-code", a.checkpoint_key) is None
+    a.commit_checkpoint()
     assert CheckpointStore(cp_db).get("claude-code", a.checkpoint_key) is not None
 
     # Fresh instance, same root: watermark suppresses the unchanged session.

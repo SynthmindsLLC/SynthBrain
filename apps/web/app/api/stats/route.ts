@@ -7,8 +7,10 @@ export const runtime = 'nodejs';
 
 /**
  * Merges the brain's GET /stats + GET /stats/breakdown into one payload.
- * `breakdown` is null when the brain predates /stats/breakdown (404) so the
- * dashboard can render base stats and flag the rest as "brain outdated".
+ * `breakdown` is null ONLY when the brain predates /stats/breakdown (HTTP
+ * 404 = "brain outdated"); any other breakdown failure is transient and is
+ * reported via `breakdown_error` so the panel doesn't claim "outdated"
+ * against a healthy brain that hiccuped once.
  */
 export async function GET() {
   const [stats, breakdown] = await Promise.allSettled([brainStats(), brainStatsBreakdown()]);
@@ -16,9 +18,18 @@ export async function GET() {
     const message = stats.reason instanceof Error ? stats.reason.message : 'unknown error';
     return NextResponse.json({ error: 'brain_unavailable', message }, { status: 503 });
   }
+  let breakdownValue = null;
+  let breakdownError: string | null = null;
+  if (breakdown.status === 'fulfilled') {
+    breakdownValue = breakdown.value;
+  } else {
+    const message = breakdown.reason instanceof Error ? breakdown.reason.message : 'unknown error';
+    if (!message.includes('HTTP 404')) breakdownError = message;
+  }
   return NextResponse.json({
     stats: stats.value,
-    breakdown: breakdown.status === 'fulfilled' ? breakdown.value : null,
+    breakdown: breakdownValue,
+    ...(breakdownError ? { breakdown_error: breakdownError } : {}),
     generated_at: new Date().toISOString(),
   });
 }

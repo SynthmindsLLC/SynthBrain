@@ -3,6 +3,8 @@
 import type { Graph } from '@synthbrain/graph-schema';
 import { useEffect, useRef, useState } from 'react';
 
+type SourcedGraph = Graph & { graph_source?: 'brain' | 'mem' | 'seed' };
+
 import { GraphCanvas } from '../../components/GraphCanvas';
 import { KIND_COLORS } from '../../lib/source-colors';
 
@@ -11,7 +13,7 @@ import { Panel, Skeleton, StateNote } from './ui';
 const GRAPH_HEIGHT = 380;
 
 export function GraphPanel() {
-  const [graph, setGraph] = useState<Graph | null>(null);
+  const [graph, setGraph] = useState<SourcedGraph | null>(null);
   const [error, setError] = useState<string | null>(null);
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const [width, setWidth] = useState(0);
@@ -22,7 +24,7 @@ export function GraphPanel() {
       try {
         const res = await fetch('/api/graph', { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const g = (await res.json()) as Graph;
+        const g = (await res.json()) as SourcedGraph;
         if (!cancelled) setGraph(g);
       } catch (err) {
         if (!cancelled) setError(err instanceof Error ? err.message : 'fetch failed');
@@ -94,6 +96,15 @@ export function GraphPanel() {
         ) : !graph || width === 0 ? (
           <div style={{ padding: 16 }}>
             <Skeleton height={GRAPH_HEIGHT - 32} />
+          </div>
+        ) : graph.graph_source && graph.graph_source !== 'brain' ? (
+          // Never pass mem/seed data off as the entity graph — say what it is.
+          <div style={{ padding: 16 }}>
+            <StateNote tone="empty">
+              {graph.graph_source === 'seed'
+                ? 'showing bundled demo data — brain not connected (set BRAIN_URL / USE_BRAIN=1)'
+                : 'showing Mem.ai notes graph — brain not connected'}
+            </StateNote>
           </div>
         ) : graph.nodes.length === 0 ? (
           <div style={{ padding: 16 }}>

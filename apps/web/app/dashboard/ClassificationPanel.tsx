@@ -11,10 +11,13 @@ const LAYERS = ['artifact', 'decision', 'reasoning', 'workaround'] as const;
 
 export function ClassificationPanel({
   breakdown,
+  breakdownError,
   loading,
   error,
 }: {
   breakdown: BrainStatsBreakdown | null;
+  /** Transient (non-404) breakdown failure — distinct from "brain outdated". */
+  breakdownError?: string | undefined;
   loading: boolean;
   error: string | null;
 }) {
@@ -23,6 +26,8 @@ export function ClassificationPanel({
     body = <SkeletonRows rows={6} />;
   } else if (error) {
     body = <StateNote tone="error">{errorLabel(error)}</StateNote>;
+  } else if (!breakdown && breakdownError) {
+    body = <StateNote tone="error">breakdown temporarily unavailable — retrying</StateNote>;
   } else if (!breakdown) {
     body = <StateNote tone="error">brain outdated — /stats/breakdown unavailable</StateNote>;
   } else if (breakdown.chunks_total === 0) {

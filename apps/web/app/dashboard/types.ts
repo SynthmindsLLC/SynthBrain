@@ -12,8 +12,10 @@ import type {
 /** GET /api/stats — merged /stats + /stats/breakdown. */
 export interface StatsResponse {
   stats: BrainStats;
-  /** null when the running brain predates GET /stats/breakdown. */
+  /** null when the running brain predates GET /stats/breakdown (HTTP 404). */
   breakdown: BrainStatsBreakdown | null;
+  /** Set when breakdown failed transiently (non-404) — brain is NOT outdated. */
+  breakdown_error?: string;
   generated_at: string;
 }
 

@@ -234,9 +234,11 @@ def test_two_dirs_do_not_share_a_watermark(tmp_path):
 
     a = FilesystemAdapter(str(dir_a), checkpoint_db=cp_db)
     assert len(list(a.fetch())) == 1
+    a.commit_checkpoint()
     # Dir B must still see its file even though A advanced a watermark.
     b = FilesystemAdapter(str(dir_b), checkpoint_db=cp_db)
     assert len(list(b.fetch())) == 1
+    b.commit_checkpoint()
     assert a.checkpoint_key != b.checkpoint_key
     cp = CheckpointStore(cp_db)
     assert cp.get("filesystem", a.checkpoint_key) is not None
@@ -380,3 +382,152 @@ def test_cli_ledger_failed_on_raise(tmp_path, monkeypatch):
     assert len(runs) == 1
     assert runs[0]["status"] == "failed"
     assert "RuntimeError" in runs[0]["meta"]["exception"]
+
+
+# --- QA-review regression tests (2026-07-03) -------------------------------
+
+
+def test_failed_run_does_not_advance_watermark(tmp_path, monkeypatch):
+    """A failed run (e.g. final-flush error) must not strand files behind an
+    already-committed watermark — the retry has to re-see them."""
+    from brain import cli as brain_cli
+
+    src = tmp_path / "vault"
+    src.mkdir()
+    (src / "a.md").write_text("alpha", encoding="utf-8")
+    db, entdb = str(tmp_path / "lance"), str(tmp_path / "e.db")
+
+    def _boom(*_a, **_kw):
+        raise RuntimeError("flush exploded")
+
+    monkeypatch.setattr(brain_cli, "ingest", _boom)
+    with pytest.raises(RuntimeError):
+        brain_cli.main(["--db", db, "--entdb", entdb, "ingest",
+                        "--adapter", "filesystem", "--source", str(src)])
+    assert all(r["adapter"] != "filesystem" for r in CheckpointStore(entdb).all())
+
+    monkeypatch.undo()
+    assert brain_cli.main(["--db", db, "--entdb", entdb, "ingest",
+                           "--adapter", "filesystem", "--source", str(src)]) == 0
+    assert BrainIndex(db, FakeEmbedder()).count() == 1
+
+
+def test_watermark_held_when_docs_error(tmp_path, monkeypatch, capsys):
+    """errors > 0 in a completed run keeps the watermark so errored docs are
+    retried next run; the ledger records watermark_held."""
+    from brain import cli as brain_cli
+
+    src = tmp_path / "vault"
+    src.mkdir()
+    (src / "a.md").write_text("alpha", encoding="utf-8")
+    db, entdb = str(tmp_path / "lance"), str(tmp_path / "e.db")
+
+    def _fake_ingest(index, docs, *, classify_fn=None, dry_run=False,
+                     stats=None, entity_store=None):
+        list(docs)  # exhaust so the adapter records a pending watermark
+        stats.docs = 1
+        stats.errors = 1
+        stats.error_samples.append("filesystem:x: Boom: nope")
+        return 0
+
+    monkeypatch.setattr(brain_cli, "ingest", _fake_ingest)
+    assert brain_cli.main(["--db", db, "--entdb", entdb, "ingest",
+                           "--adapter", "filesystem", "--source", str(src)]) == 0
+    capsys.readouterr()
+    assert all(r["adapter"] != "filesystem" for r in CheckpointStore(entdb).all())
+    run = IngestLedger(entdb).runs()[0]
+    assert run["status"] == "completed"
+    assert run["meta"]["watermark_held"] is True
+
+
+def test_missing_source_writes_failed_ledger_row(tmp_path):
+    """An unmounted/missing source dir must show up in the Intake panel as a
+    failed run, not vanish with only a traceback."""
+    from brain.cli import main
+
+    entdb = str(tmp_path / "e.db")
+    with pytest.raises(FileNotFoundError):
+        main(["--db", str(tmp_path / "lance"), "--entdb", entdb, "ingest",
+              "--adapter", "filesystem", "--source", str(tmp_path / "nope")])
+    runs = IngestLedger(entdb).runs()
+    assert len(runs) == 1
+    assert runs[0]["status"] == "failed"
+    assert "FileNotFoundError" in runs[0]["meta"]["exception"]
+
+
+def test_dim_guard_rejects_mismatched_embedder(tmp_path):
+    """Opening a 64-dim index with a different-dim embedder fails loud
+    instead of silently returning garbage recall."""
+    db = str(tmp_path / "lance")
+    BrainIndex(db, FakeEmbedder())  # creates the 64-dim table
+
+    class Skinny:
+        dim = 32
+
+        def embed(self, texts):
+            return [[0.0] * 32 for _ in texts]
+
+    with pytest.raises(ValueError, match="64-dim"):
+        BrainIndex(db, Skinny())
+
+
+def test_bracket_exclude_is_literal(tmp_path):
+    """'[old]' is a substring exclude, not a dead fnmatch char-class."""
+    src = tmp_path / "vault"
+    src.mkdir()
+    (src / "notes [old].md").write_text("stale", encoding="utf-8")
+    (src / "keep.md").write_text("keep", encoding="utf-8")
+    a = FilesystemAdapter(str(src), exclude_patterns=["[old]"])
+    docs = list(a.fetch())
+    assert len(docs) == 1
+    assert docs[0].meta["path"].endswith("keep.md")
+    assert a.skip_report["excluded"]["count"] == 1
+
+
+def test_dry_run_restore_is_scoped_to_adapter(tmp_path):
+    """Dry-run rollback must not revert or delete checkpoints that OTHER
+    adapters wrote concurrently in the shared entdb."""
+    from brain.cli import _restore_checkpoints, _snapshot_checkpoints
+
+    entdb = str(tmp_path / "e.db")
+    cp = CheckpointStore(entdb)
+    cp.set("gmail", "hist-1", key="history_id")
+    before = _snapshot_checkpoints(entdb, "filesystem")
+    # Concurrent real runs move gmail + mint a drive token mid-dry-run,
+    # while the dry-run itself moves a filesystem watermark.
+    cp.set("gmail", "hist-2", key="history_id")
+    cp.set("drive", "tok-9", key="page_token")
+    cp.set("filesystem", "2026-01-01T00:00:00+00:00", key="last_sync:abc")
+    _restore_checkpoints(entdb, "filesystem", before)
+    assert cp.get("gmail", "history_id") == "hist-2"
+    assert cp.get("drive", "page_token") == "tok-9"
+    assert cp.get("filesystem", "last_sync:abc") is None
+
+
+def test_classification_counters_skip_failed_docs(monkeypatch):
+    """A doc failing mid-chunking contributes one error and ZERO phantom
+    classification counts."""
+    from brain.core import pipeline as pl
+
+    calls = {"n": 0}
+
+    def flaky_tag_project(piece):
+        calls["n"] += 1
+        if calls["n"] == 3:  # second chunk of the second doc
+            raise RuntimeError("tagger died")
+        return []
+
+    monkeypatch.setattr(pl, "tag_project", flaky_tag_project)
+
+    class _Idx:
+        def add_chunks(self, chunks):
+            return len(chunks)
+
+    body = ("# a\n" + "x" * 1700) + "\n\n# b\n" + ("y" * 1700)  # 2 chunks
+    docs = [RawDoc(text="one", source="t", source_id="a"),
+            RawDoc(text=body, source="t", source_id="b")]
+    stats = IngestStats()
+    total = pl.ingest(_Idx(), iter(docs), stats=stats)
+    assert total == 1                      # only doc a landed
+    assert stats.errors == 1
+    assert stats.heuristic_classified == 1  # doc b's partial chunk not counted

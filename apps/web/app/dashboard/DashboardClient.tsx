@@ -114,7 +114,12 @@ export function DashboardClient() {
           error={runs.error}
           bySource={breakdown?.by_source ?? null}
         />
-        <ClassificationPanel breakdown={breakdown} loading={stats.loading} error={stats.error} />
+        <ClassificationPanel
+          breakdown={breakdown}
+          breakdownError={stats.data?.breakdown_error}
+          loading={stats.loading}
+          error={stats.error}
+        />
         <GraphPanel />
         <RecallPanel />
       </div>

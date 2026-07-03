@@ -65,6 +65,7 @@ class ClaudeCodeAdapter(Adapter):
         dir_hash = hashlib.sha1(str(self.projects_root).encode("utf-8")).hexdigest()[:12]
         self.checkpoint_key = f"last_sync:{dir_hash}"
         self.skip_report: dict[str, dict[str, Any]] = {}
+        self._pending_watermark: str | None = None
 
     def fetch(self) -> Iterable[RawDoc]:
         self.skip_report = {}
@@ -113,8 +114,18 @@ class ClaudeCodeAdapter(Adapter):
                 if newest_seen is None or mtime > newest_seen:
                     newest_seen = mtime
 
+        # Recorded, not committed — the CLI calls commit_checkpoint() only
+        # after the pipeline's final flush succeeded with zero doc errors
+        # (same tail-flush-loss guard as the filesystem adapter).
         if cp and newest_seen:
-            cp.set(self.name, newest_seen.isoformat(), key=self.checkpoint_key)
+            self._pending_watermark = newest_seen.isoformat()
+
+    def commit_checkpoint(self) -> None:
+        if self.checkpoint_db and self._pending_watermark:
+            CheckpointStore(self.checkpoint_db).set(
+                self.name, self._pending_watermark, key=self.checkpoint_key
+            )
+            self._pending_watermark = None
 
     def _render_session(self, path: Path) -> tuple[str, int, bool]:
         """One session file -> (rendered markdown, messages rendered, truncated).

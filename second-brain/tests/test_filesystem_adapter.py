@@ -47,8 +47,10 @@ def test_checkpoint_skips_unchanged_files_on_second_run():
         root = Path(d)
         cp = str(root / "e.db")
         (root / "first.md").write_text("first", encoding="utf-8")
-        first = list(FilesystemAdapter(str(root), checkpoint_db=cp).fetch())
+        a1 = FilesystemAdapter(str(root), checkpoint_db=cp)
+        first = list(a1.fetch())
         assert len(first) == 1
+        a1.commit_checkpoint()
 
         # Second run with no changes: should yield nothing.
         second = list(FilesystemAdapter(str(root), checkpoint_db=cp).fetch())
@@ -81,6 +83,9 @@ def test_checkpoint_persists_via_store():
         adapter = FilesystemAdapter(str(root), checkpoint_db=cp_db)
         list(adapter.fetch())
         cp = CheckpointStore(cp_db)
-        # Watermark key is namespaced per source dir (B7).
+        # Watermark key is namespaced per source dir (B7) and deferred until
+        # commit_checkpoint() so a failed final flush can't strand files.
         assert adapter.checkpoint_key.startswith("last_sync:")
+        assert cp.get("filesystem", adapter.checkpoint_key) is None
+        adapter.commit_checkpoint()
         assert cp.get("filesystem", adapter.checkpoint_key) is not None

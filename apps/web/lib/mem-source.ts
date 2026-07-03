@@ -19,13 +19,17 @@ type SeedFile = { notes: Note[]; collections: Collection[]; generated_at: string
  *   2. Mem.ai HTTP API (MEM_API_KEY set) — legacy notes-as-graph view.
  *   3. Bundled seed.json — demo data so first deploy renders something.
  */
-export async function getGraphData(): Promise<Graph> {
+export type GraphSource = 'brain' | 'mem' | 'seed';
+export type SourcedGraph = Graph & { graph_source: GraphSource };
+
+export async function getGraphData(): Promise<SourcedGraph> {
   if (process.env['BRAIN_URL'] || process.env['USE_BRAIN'] === '1') {
     try {
       const g = await brainGraph(800);
-      if (g.nodes.length > 0) {
-        return brainGraphToWebGraph(g);
-      }
+      // An EMPTY brain graph is still the brain's answer — falling through to
+      // mem/seed here would silently render demo data under the entity
+      // legend. Consumers get graph_source so they can label or empty-state.
+      return { ...brainGraphToWebGraph(g), graph_source: 'brain' };
     } catch (err) {
       console.warn('[mem-source] brain fetch failed, falling back:', err);
     }
@@ -36,7 +40,7 @@ export async function getGraphData(): Promise<Graph> {
     try {
       const live = await fetchMemNotes(apiKey);
       if (live.notes.length > 0) {
-        return buildGraph(live.notes, live.collections);
+        return { ...buildGraph(live.notes, live.collections), graph_source: 'mem' };
       }
     } catch (err) {
       console.warn('[mem-source] live fetch failed, falling back to seed:', err);
@@ -44,7 +48,7 @@ export async function getGraphData(): Promise<Graph> {
   }
 
   const s = seed as SeedFile;
-  return buildGraph(s.notes, s.collections);
+  return { ...buildGraph(s.notes, s.collections), graph_source: 'seed' };
 }
 
 function brainGraphToWebGraph(g: BrainGraph): Graph {

@@ -8,7 +8,9 @@ export const runtime = 'nodejs';
 
 export async function GET(req: NextRequest) {
   const raw = Number(req.nextUrl.searchParams.get('limit') ?? 20);
-  const limit = Number.isFinite(raw) ? Math.min(Math.max(Math.trunc(raw), 1), 200) : 20;
+  // Cap matches the brain's /chunks/recent le=100 — a larger clamp would let
+  // valid-looking requests 422 upstream and misreport as brain_unavailable.
+  const limit = Number.isFinite(raw) ? Math.min(Math.max(Math.trunc(raw), 1), 100) : 20;
   const source = req.nextUrl.searchParams.get('source');
   const layer = req.nextUrl.searchParams.get('layer');
   try {

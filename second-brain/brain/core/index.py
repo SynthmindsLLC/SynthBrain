@@ -23,6 +23,17 @@ EMBED_BATCH = 128
 DELETE_BATCH = 500
 
 
+def _embedding_dim(schema: pa.Schema) -> int | None:
+    """Fixed-size-list width of the embedding column, or None if absent."""
+    try:
+        field = schema.field("embedding")
+    except KeyError:
+        return None
+    if pa.types.is_fixed_size_list(field.type):
+        return field.type.list_size
+    return None
+
+
 class BrainIndex:
     def __init__(self, db_path: str, embedder: Embedder) -> None:
         self._db = lancedb.connect(db_path)
@@ -31,6 +42,17 @@ class BrainIndex:
         if TABLE not in _list_table_names(self._db):
             self._db.create_table(TABLE, schema=self._schema)
         self._table = self._db.open_table(TABLE)
+        # Guard the embedder/index dimension contract. Serving a 384-dim
+        # (local) index with the 64-dim fake default would not error — it
+        # would silently return garbage recall. Fail loud instead.
+        existing_dim = _embedding_dim(self._table.schema)
+        if existing_dim is not None and existing_dim != embedder.dim:
+            raise ValueError(
+                f"index at {db_path!r} holds {existing_dim}-dim embeddings but "
+                f"the configured embedder produces {embedder.dim}-dim vectors — "
+                "start with the embedder the index was built with "
+                "(--embedder local / BRAIN_EMBEDDER=local for a 384-dim index)."
+            )
 
     def add_chunks(self, chunks: list[MemoryChunk]) -> int:
         if not chunks:

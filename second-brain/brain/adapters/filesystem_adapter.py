@@ -41,7 +41,10 @@ DEFAULT_TEXT_EXTS = (".md", ".markdown", ".txt", ".text")
 SKIP_DIRS = frozenset({".git", "node_modules", ".venv", "venv", "__pycache__",
                        ".pytest_cache", "brain_index", ".next", "dist"})
 MAX_SKIP_SAMPLES = 20
-_GLOB_CHARS = ("*", "?", "[")
+# Only '*' and '?' switch a pattern into glob mode. '[' stays literal:
+# fnmatch would read '[old]' as a single-char class that can never match a
+# full path, silently deadening a privacy exclude.
+_GLOB_CHARS = ("*", "?")
 
 
 class ExtractorMissing(Exception):
@@ -76,6 +79,7 @@ class FilesystemAdapter(Adapter):
         dir_hash = hashlib.sha1(str(self.source_dir).encode("utf-8")).hexdigest()[:12]
         self.checkpoint_key = f"last_sync:{dir_hash}"
         self.skip_report: dict[str, dict[str, Any]] = {}
+        self._pending_watermark: str | None = None
 
     def fetch(self) -> Iterable[RawDoc]:
         self.skip_report = {}
@@ -130,8 +134,21 @@ class FilesystemAdapter(Adapter):
             if newest_seen is None or mtime > newest_seen:
                 newest_seen = mtime
 
+        # The watermark is only RECORDED here. Committing at generator
+        # exhaustion loses the pipeline's final flush: ingest() flushes the
+        # last partial batch after this generator ends, so a failed tail
+        # flush after an eager commit silently drops those files from every
+        # future incremental run. The CLI calls commit_checkpoint() once the
+        # whole run (including that flush) succeeded with zero doc errors.
         if cp and newest_seen:
-            cp.set(self.name, newest_seen.isoformat(), key=self.checkpoint_key)
+            self._pending_watermark = newest_seen.isoformat()
+
+    def commit_checkpoint(self) -> None:
+        if self.checkpoint_db and self._pending_watermark:
+            CheckpointStore(self.checkpoint_db).set(
+                self.name, self._pending_watermark, key=self.checkpoint_key
+            )
+            self._pending_watermark = None
 
     def _is_excluded(self, path: Path) -> bool:
         if not self.exclude_patterns:

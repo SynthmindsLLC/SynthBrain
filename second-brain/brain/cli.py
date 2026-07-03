@@ -106,20 +106,34 @@ def _index(args: argparse.Namespace) -> BrainIndex:
     return BrainIndex(args.db, get_embedder(args.embedder))
 
 
-def _snapshot_checkpoints(entdb: str) -> dict[tuple[str, str], str]:
-    return {(r["adapter"], r["key"]): r["value"] for r in CheckpointStore(entdb).all()}
+def _snapshot_checkpoints(entdb: str, adapter_name: str) -> dict[tuple[str, str], str]:
+    return {
+        (r["adapter"], r["key"]): r["value"]
+        for r in CheckpointStore(entdb).all()
+        if r["adapter"] == adapter_name
+    }
 
 
-def _restore_checkpoints(entdb: str, before: dict[tuple[str, str], str]) -> None:
-    """Undo any watermark movement a dry-run caused: adapters advance
-    checkpoints inside fetch(), so we snapshot before and roll back after."""
+def _restore_checkpoints(
+    entdb: str, adapter_name: str, before: dict[tuple[str, str], str]
+) -> None:
+    """Undo any watermark movement a dry-run caused: some adapters advance
+    checkpoints inside fetch(), so we snapshot before and roll back after.
+    Scoped to the adapter under test — the checkpoints table is shared by
+    every adapter in this entdb, and a global restore would revert (or
+    delete) tokens that a CONCURRENT real ingest just wrote."""
     cp = CheckpointStore(entdb)
     for r in cp.all():
+        if r["adapter"] != adapter_name:
+            continue
         k = (r["adapter"], r["key"])
         if k not in before:
             cp.clear(r["adapter"], r["key"])
         elif r["value"] != before[k]:
             cp.set(r["adapter"], before[k], key=r["key"])
+    for (adp, key), value in before.items():
+        if cp.get(adp, key) is None:
+            cp.set(adp, value, key=key)
 
 
 def _finish_ledger(
@@ -171,16 +185,27 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     if args.adapter not in ADAPTERS:
         print(f"unknown adapter {args.adapter!r}; have: {', '.join(ADAPTERS)}", file=sys.stderr)
         return 2
-    adapter = _build_adapter(args.adapter, args.source, args.entdb, exclude=args.exclude)
+    src = args.source or f"<{args.adapter}>"
+    ledger = IngestLedger(args.entdb)
+    # Ledger row opens BEFORE adapter construction: a missing source dir
+    # (unmounted CloudStorage, typo) must surface as a failed run in the
+    # dashboard's Intake panel, not vanish with a traceback.
+    run_id = ledger.start(args.adapter, src, meta={"dry_run": args.dry_run})
+    stats = IngestStats()
+    try:
+        adapter = _build_adapter(args.adapter, args.source, args.entdb,
+                                 exclude=args.exclude)
+    except Exception as exc:
+        _finish_ledger(ledger, run_id, "failed", stats, None,
+                       extra_meta={"dry_run": args.dry_run,
+                                   "exception": f"{type(exc).__name__}: {exc}"})
+        raise
     classify_fn = None
     if args.llm_classifier:
         from .core.synthesize import classify_layer_llm
         classify_fn = classify_layer_llm
-    src = args.source or f"<{args.adapter}>"
-    ledger = IngestLedger(args.entdb)
-    run_id = ledger.start(args.adapter, src, meta={"dry_run": args.dry_run})
-    stats = IngestStats()
-    snapshot = _snapshot_checkpoints(args.entdb) if args.dry_run else None
+    snapshot = (_snapshot_checkpoints(args.entdb, adapter.name)
+                if args.dry_run else None)
     try:
         ingest(_index(args), adapter.fetch(), classify_fn=classify_fn,
                dry_run=args.dry_run, stats=stats,
@@ -192,16 +217,30 @@ def cmd_ingest(args: argparse.Namespace) -> int:
         raise
     finally:
         if snapshot is not None:
-            _restore_checkpoints(args.entdb, snapshot)
+            _restore_checkpoints(args.entdb, adapter.name, snapshot)
+    watermark_held = False
+    if not args.dry_run:
+        if stats.errors == 0:
+            # Commit deferred watermarks only after the pipeline (including
+            # its final flush) succeeded — see adapter.commit_checkpoint().
+            getattr(adapter, "commit_checkpoint", lambda: None)()
+        else:
+            # Errored docs would be skipped forever if the watermark moved
+            # past them; hold it so the next run retries the whole window
+            # (chunk ids are deterministic, so re-ingest is a cheap upsert).
+            watermark_held = hasattr(adapter, "commit_checkpoint")
     _finish_ledger(ledger, run_id, "dry-run" if args.dry_run else "completed",
-                   stats, adapter, extra_meta={"dry_run": args.dry_run})
+                   stats, adapter,
+                   extra_meta={"dry_run": args.dry_run,
+                               **({"watermark_held": True} if watermark_held else {})})
     if args.dry_run:
         _print_dry_run_report(args.adapter, src, stats,
                               getattr(adapter, "skip_report", None))
     else:
         print(f"ingested {stats.chunks} chunks from {args.adapter} ({src})")
         if stats.errors:
-            print(f"  {stats.errors} doc(s) errored — see ledger run {run_id}")
+            print(f"  {stats.errors} doc(s) errored — see ledger run {run_id}"
+                  + ("; watermark held for retry" if watermark_held else ""))
     return 0
 
 

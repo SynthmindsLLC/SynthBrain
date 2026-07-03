@@ -99,19 +99,21 @@ def header_aware_chunks(text: str, max_chars: int = 1800) -> list[str]:
     return out or ([text.strip()] if text.strip() else [])
 
 
-def _classify(piece: str, classify_fn: ClassifyFn | None, stats: IngestStats) -> str:
+def _classify(piece: str, classify_fn: ClassifyFn | None, counter: dict[str, int]) -> str:
     """Errors from the LLM classifier fall back to the heuristic per-chunk so a
     single API hiccup doesn't kill the whole ingest run. Counts which path won
-    so classification quality is measurable per run."""
+    into a per-doc counter — merged into run stats only if the whole doc
+    chunks cleanly, so a mid-doc failure counts as one error, not N phantom
+    classifications."""
     if classify_fn is None:
-        stats.heuristic_classified += 1
+        counter["heuristic"] += 1
         return classify_layer(piece)
     try:
         layer = classify_fn(piece)
-        stats.llm_classified += 1
+        counter["llm"] += 1
         return layer
     except Exception:
-        stats.heuristic_classified += 1
+        counter["heuristic"] += 1
         return classify_layer(piece)
 
 
@@ -148,7 +150,9 @@ def _chunk_doc(
     entity_store: "EntityStore | None" = None,
     canon_cache: dict[str, list[str]] | None = None,
 ) -> list[MemoryChunk]:
-    return [
+    cache = canon_cache if canon_cache is not None else {}
+    counter = {"llm": 0, "heuristic": 0}
+    chunks = [
         MemoryChunk(
             text=piece,
             source=doc.source,
@@ -156,12 +160,16 @@ def _chunk_doc(
             url=doc.url,
             created_at=doc.created_at,
             project_tags=tag_project(piece),
-            entity_tags=_entity_tags(piece, entity_store, canon_cache if canon_cache is not None else {}),
-            layer=_classify(piece, classify_fn, stats),
+            entity_tags=_entity_tags(piece, entity_store, cache),
+            layer=_classify(piece, classify_fn, counter),
             chunk_index=i,
         )
         for i, piece in enumerate(header_aware_chunks(doc.text))
     ]
+    # Reached only when every chunk of the doc built cleanly.
+    stats.llm_classified += counter["llm"]
+    stats.heuristic_classified += counter["heuristic"]
+    return chunks
 
 
 def ingest(
