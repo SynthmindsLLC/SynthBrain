@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added — 2026-07-03 universal intake (feed the brain from anywhere)
+
+- **`inbox` adapter**: BrainInbox drop folder (iCloud-syncable for iPhone
+  share-sheet capture) — md/txt/eml/pdf/docx; `.eml` parsed with stdlib
+  email (subject/from/date + plain or stripped-HTML body); files move to
+  `processed/YYYY-MM/` only after a clean run, unparseable ones quarantine
+  in `failed/`. The folder is the queue — no checkpoint table.
+- **`agentmail` adapter**: polls the dedicated intake inbox
+  `synthbrain@agentmail.to` (forward any email there); deferred timestamp
+  watermark; `AGENTMAIL_API_KEY` env.
+- **`POST /inbox`**: bearer-protected drop endpoint that writes into
+  BrainInbox — one ingestion path for scripts/Shortcuts/agents.
+- **`brain watch`**: always-on intake daemon (inbox every cycle, agentmail
+  every 5th; empty cycles leave no ledger rows; memoized index/embedder);
+  launchd plist + iOS Shortcut recipe in `docs/setup/feed-the-brain.md`.
+- Tests 201 → 214.
+
 ### Added — 2026-07-02/03 bulk-ingest + dashboard session
 
 - **Bulk ingestion hardening** (`second-brain/`): batched embed/upsert

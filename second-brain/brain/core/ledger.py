@@ -97,6 +97,14 @@ class IngestLedger:
             )
             self._db.commit()
 
+    def delete(self, run_id: str) -> None:
+        """Remove a run row. Used by the watch loop to drop rows for cycles
+        that saw nothing — an always-on 60s poll must not bury the Intake
+        panel in empty runs."""
+        with self._lock:
+            self._db.execute("DELETE FROM ingest_runs WHERE run_id=?", (run_id,))
+            self._db.commit()
+
     def get(self, run_id: str) -> dict[str, Any] | None:
         with self._lock:
             r = self._db.execute(

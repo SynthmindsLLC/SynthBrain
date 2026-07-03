@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+from pathlib import Path
 
 from .adapters.calendar_adapter import CalendarAdapter
 from .adapters.chatgpt_adapter import ChatGPTAdapter
@@ -79,12 +80,18 @@ def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None
     if name == "slack":
         from .adapters.slack_adapter import SlackAdapter
         return SlackAdapter(checkpoint_db=entdb)
+    if name == "inbox":
+        from .adapters.inbox_adapter import InboxAdapter
+        return InboxAdapter(source or os.environ.get("BRAIN_INBOX_DIR", ""))
+    if name == "agentmail":
+        from .adapters.agentmail_adapter import AgentMailAdapter
+        return AgentMailAdapter(source, checkpoint_db=entdb)
     raise ValueError(f"unknown adapter {name!r}")
 
 
 ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "claude-code", "chatgpt",
             "drive", "granola", "gmail", "imap", "imessage", "icloud-notes",
-            "github", "m365", "slack")
+            "github", "m365", "slack", "inbox", "agentmail")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 
@@ -102,8 +109,17 @@ def _build_live_entity_adapter(kind: str, source: str, entdb: str):
     raise ValueError(f"unknown live entity adapter {kind!r}")
 
 
+# Memoized per (db, embedder): one-shot commands see no difference, and the
+# watch daemon avoids reloading the sentence-transformers model every cycle.
+_INDEX_CACHE: dict[tuple[str, str], BrainIndex] = {}
+
+
 def _index(args: argparse.Namespace) -> BrainIndex:
-    return BrainIndex(args.db, get_embedder(args.embedder))
+    key = (args.db, args.embedder)
+    idx = _INDEX_CACHE.get(key)
+    if idx is None:
+        idx = _INDEX_CACHE[key] = BrainIndex(args.db, get_embedder(args.embedder))
+    return idx
 
 
 def _snapshot_checkpoints(entdb: str, adapter_name: str) -> dict[tuple[str, str], str]:
@@ -229,6 +245,15 @@ def cmd_ingest(args: argparse.Namespace) -> int:
             # past them; hold it so the next run retries the whole window
             # (chunk ids are deterministic, so re-ingest is a cheap upsert).
             watermark_held = hasattr(adapter, "commit_checkpoint")
+    skipped_total = sum(
+        e["count"] for e in (getattr(adapter, "skip_report", None) or {}).values()
+    )
+    if (getattr(args, "prune_empty", False) and not args.dry_run
+            and stats.docs == 0 and stats.errors == 0 and skipped_total == 0):
+        # Watch-loop cycles that saw nothing leave no ledger row — otherwise
+        # a 60s poll would bury the dashboard's Intake panel in empty runs.
+        ledger.delete(run_id)
+        return 0
     _finish_ledger(ledger, run_id, "dry-run" if args.dry_run else "completed",
                    stats, adapter,
                    extra_meta={"dry_run": args.dry_run,
@@ -242,6 +267,57 @@ def cmd_ingest(args: argparse.Namespace) -> int:
             print(f"  {stats.errors} doc(s) errored — see ledger run {run_id}"
                   + ("; watermark held for retry" if watermark_held else ""))
     return 0
+
+
+def cmd_watch(args: argparse.Namespace) -> int:
+    """Universal-intake daemon: poll the BrainInbox drop folder every cycle
+    and the AgentMail intake inbox every --mail-every cycles. Empty cycles
+    leave no ledger rows. Ctrl-C to stop. Do NOT run alongside a bulk ingest
+    (single-writer assumption on the LanceDB index)."""
+    import time as _time
+
+    from .adapters.inbox_adapter import DEFAULT_INBOX_DIR, InboxAdapter
+
+    inbox_dir = args.source or os.environ.get("BRAIN_INBOX_DIR", "") or DEFAULT_INBOX_DIR
+    Path(inbox_dir).expanduser().mkdir(parents=True, exist_ok=True)
+    mail_on = bool(os.environ.get("AGENTMAIL_API_KEY"))
+    interval = max(10, args.interval)
+    print(f"watching {inbox_dir} every {interval}s | agentmail "
+          f"{'every ' + str(args.mail_every) + ' cycles' if mail_on else 'OFF (no AGENTMAIL_API_KEY)'}",
+          flush=True)
+
+    cycle = 0
+    while True:
+        cycle += 1
+        targets: list[tuple[str, str]] = []
+        try:
+            if InboxAdapter(inbox_dir).has_pending():
+                targets.append(("inbox", inbox_dir))
+        except FileNotFoundError as exc:
+            print(f"[watch] {exc}", flush=True)
+        if mail_on and cycle % args.mail_every == 1 % args.mail_every:
+            targets.append(("agentmail", args.mail_inbox))
+        for adapter_name, source in targets:
+            ns = argparse.Namespace(**vars(args))
+            ns.adapter = adapter_name
+            ns.source = source
+            ns.dry_run = False
+            ns.exclude = None
+            ns.llm_classifier = False
+            ns.prune_empty = True
+            try:
+                cmd_ingest(ns)
+            except KeyboardInterrupt:
+                raise
+            except Exception as exc:
+                # Ledger already holds the failed row; keep the daemon alive.
+                print(f"[watch] {adapter_name} cycle failed: "
+                      f"{type(exc).__name__}: {exc}", flush=True)
+        try:
+            _time.sleep(interval)
+        except KeyboardInterrupt:
+            print("watch stopped", flush=True)
+            return 0
 
 
 def cmd_serve(args: argparse.Namespace) -> int:
@@ -480,6 +556,18 @@ def main(argv: list[str] | None = None) -> int:
     psv.add_argument("--port", type=int, default=8088)
     psv.add_argument("--reload", action="store_true")
     psv.set_defaults(func=cmd_serve)
+
+    pwatch = sub.add_parser(
+        "watch", help="universal-intake daemon: poll BrainInbox + AgentMail")
+    pwatch.add_argument("--source", default="",
+                        help="inbox drop folder (default: BRAIN_INBOX_DIR or ~/BrainInbox)")
+    pwatch.add_argument("--interval", type=int, default=60,
+                        help="seconds between cycles (min 10; default 60)")
+    pwatch.add_argument("--mail-every", type=int, default=5,
+                        help="poll AgentMail every N cycles (default 5)")
+    pwatch.add_argument("--mail-inbox", default="",
+                        help="AgentMail inbox id (default synthbrain@agentmail.to)")
+    pwatch.set_defaults(func=cmd_watch)
 
     args = p.parse_args(argv)
     return args.func(args)

@@ -15,6 +15,8 @@ const PALETTE: Record<string, string> = {
   chatgpt: '#2dd4bf',
   'claude-code': '#fb7185',
   filesystem: '#a78bfa',
+  inbox: '#5eead4',
+  agentmail: '#fda4af',
 };
 
 export function colorForSource(source: string): string {

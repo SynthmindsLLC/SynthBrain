@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.synthminds.brain-watch</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/wes_shields/Downloads/SynthBrain/second-brain/.venv/bin/python</string>
+    <string>-m</string>
+    <string>brain.cli</string>
+    <string>--db</string>
+    <string>/Users/wes_shields/Downloads/SynthBrain/second-brain/data/brain_index</string>
+    <string>--entdb</string>
+    <string>/Users/wes_shields/Downloads/SynthBrain/second-brain/data/entities.db</string>
+    <string>--embedder</string>
+    <string>local</string>
+    <string>watch</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/wes_shields/Downloads/SynthBrain/second-brain</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <!-- iCloud-synced drop folder so the iPhone share sheet feeds it. -->
+    <key>BRAIN_INBOX_DIR</key>
+    <string>/Users/wes_shields/Library/Mobile Documents/com~apple~CloudDocs/BrainInbox</string>
+    <!-- One-time: create in the AgentMail console. Leave empty to disable
+         email polling (drop-folder intake still works). -->
+    <key>AGENTMAIL_API_KEY</key>
+    <string></string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/wes_shields/Downloads/SynthBrain/second-brain/data/ingest-logs/watch.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/wes_shields/Downloads/SynthBrain/second-brain/data/ingest-logs/watch.err.log</string>
+</dict>
+</plist>

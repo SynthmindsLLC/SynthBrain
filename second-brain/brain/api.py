@@ -27,8 +27,10 @@ Run:
 from __future__ import annotations
 
 import os
+import re
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request
@@ -434,6 +436,40 @@ def post_ingest_text(body: IngestTextBody) -> dict:
     n = ingest(_index(), [doc])
     _bust_breakdown_cache()
     return {"ingested": n}
+
+
+class InboxBody(BaseModel):
+    """Universal-intake drop: the payload is WRITTEN to the BrainInbox folder
+    and picked up by the `brain watch` daemon — one ingestion path for every
+    channel, durable across brain restarts."""
+
+    text: str = Field(min_length=1, max_length=500_000)
+    title: str = Field(default="", max_length=300)
+    url: str = Field(default="", max_length=2000)
+    source_hint: str = Field(default="", max_length=100,
+                             description="freeform origin note, e.g. 'ios-shortcut'")
+
+
+@app.post("/inbox", dependencies=[Depends(_require_auth)])
+def post_inbox(body: InboxBody) -> dict:
+    inbox_dir = os.environ.get("BRAIN_INBOX_DIR", "~/BrainInbox")
+    dest = Path(inbox_dir).expanduser()
+    dest.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%f")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-",
+                  (body.title or body.text[:40])).strip("-").lower()[:60] or "drop"
+    path = dest / f"{stamp}-{slug}.md"
+    lines = [f"# {body.title}" if body.title else "", ""]
+    if body.url:
+        lines.append(f"**URL:** {body.url}")
+    if body.source_hint:
+        lines.append(f"**Via:** {body.source_hint}")
+    if body.url or body.source_hint:
+        lines.append("")
+    lines.append(body.text)
+    path.write_text("\n".join(ln for ln in lines if ln is not None).lstrip("\n"),
+                    encoding="utf-8")
+    return {"saved": path.name, "note": "picked up by the next watch cycle"}
 
 
 # --- helpers ----------------------------------------------------------------
