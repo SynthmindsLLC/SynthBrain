@@ -31,6 +31,19 @@ PROJECT_KEYWORDS: dict[str, str] = {
     "navy": "navy-va",
     "va ": "navy-va",
     "transition": "navy-va",
+    # Extended 2026-07-02 for bulk historical ingest (union of tag sets found in
+    # the vault-era tagging schema doc + active projects; additive only — safe,
+    # multi-char substrings to avoid false positives).
+    "synaptic labs": "synaptic-labs",
+    "synaptic-labs": "synaptic-labs",
+    "synthsidian": "synthsidian",
+    "jasmmm": "jasmmm",
+    "supply chain game": "jasmmm",
+    "verizon": "verizon",
+    "anvl": "anvl",
+    "synthbrain": "synthbrain",
+    "second brain": "synthbrain",
+    "even realities": "synthbrain",
 }
 
 _DECISION = re.compile(r"\b(decided|chose|chosen|selected|opted|locked|approved|will use|going with)\b", re.I)

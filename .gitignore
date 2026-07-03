@@ -23,3 +23,6 @@ coverage/
 .DS_Store
 .vscode/settings.json
 .idea/
+
+# canonical brain data (bulk ingest output)
+second-brain/data/

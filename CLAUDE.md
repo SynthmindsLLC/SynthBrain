@@ -5,10 +5,10 @@
 > personal **Second Brain** whose canonical store is a **local index the owner
 > controls**, fed by swappable source adapters, and whose end consumer is a pair
 > of **Even Realities G2 smart glasses**. Mem.ai is demoted from "the brain" to
-> *one source among many*. The existing TS work (Next.js PWA, vault/drive
+> _one source among many_. The existing TS work (Next.js PWA, vault/drive
 > connectors, 42 ingested prompt notes) is **not thrown away** — see "How the
 > existing TypeScript work fits" below. Companion design log: Mem note **"Second
-> Brain — Vision & Architecture"** (collection: *Synapse Sessions*).
+> Brain — Vision & Architecture"** (collection: _Synapse Sessions_).
 >
 > The global agentic coding rules (v5) appear in full at the bottom — this
 > preamble is the **project-specific overlay**.
@@ -24,7 +24,7 @@ it, indexes it, and serves **rapid retrieval**. The end consumer is a pair of
 **Even Realities G2 smart glasses** that surface recall on the lens based on
 what they hear.
 
-The **north-star use case** is the *person dossier*: mid-conversation the
+The **north-star use case** is the _person dossier_: mid-conversation the
 glasses hear a name + a context cue ("Jeff" + "the party last fall") and pop a
 card — full name, work/family, where you met, what you discussed.
 
@@ -45,10 +45,10 @@ can't be canonical.)
 
 ## Two stores, two jobs — do not conflate them
 
-| Store | Tech | Answers | Holds |
-|---|---|---|---|
-| **Vector index** | LanceDB (on disk) | "what's similar?" | text **chunks** |
-| **Entity graph** | SQLite | "who is this / what's connected?" | **entities + edges** |
+| Store            | Tech              | Answers                           | Holds                |
+| ---------------- | ----------------- | --------------------------------- | -------------------- |
+| **Vector index** | LanceDB (on disk) | "what's similar?"                 | text **chunks**      |
+| **Entity graph** | SQLite            | "who is this / what's connected?" | **entities + edges** |
 
 The dossier is a **graph JOIN** (resolve person → resolve event → find the
 conversation linking both), not a similarity search. That's why the graph store
@@ -124,13 +124,13 @@ SOURCES → ADAPTERS → NORMALIZE → TAG+EMBED → INDEX (LanceDB chunks / SQL
 The TS surface and connectors **stay** — they slot into the new pattern as
 retrieval surface + Mem-side feeders.
 
-| Existing TS piece | New role under the Second Brain | State today |
-|---|---|---|
-| `apps/web` (Next.js + react-force-graph-3d + iOS pilot mode) | **Web/desktop retrieval surface.** Re-point its `/api/graph` and `/api/notes` at the Python brain's HTTP query API in Phase 3 instead of `api.mem.ai`. The visualization itself doesn't change. | Code shipped (PR #4). Deploy blocked on **Vercel Root Directory = `apps/web`** setting — every build errors with "No Next.js version detected" until that one project setting is flipped. |
-| `apps/connectors/vault` | **Mem-side feeder.** Vault `.md` → Mem. Then the Python `mem_adapter.py` pulls Mem → canonical brain. Or, when the Python `filesystem_adapter` lands (Phase 1), this can be retired in favor of direct vault → brain ingest. | Built; needs `MEM_API_KEY` to run. |
-| `apps/connectors/drive` | **Mem-side feeder + Drive organizer.** Already executes the audit (declutter + dedupe + ingest docs to Mem). The Python `drive_adapter` (Phase 1) will eventually replace the Mem-ingest part, but the *organize* part stays Drive-native. | Built; needs Google OAuth refresh token with `drive` scope (see `docs/setup/google-oauth.md`). |
-| `packages/normalize` (TS) | **Mirrors `second-brain/brain/core/tag.py` + `pipeline.py`.** Two implementations of the same transform: keep both in sync, or retire the TS one once the Python brain owns ingest end-to-end. | Built; both connectors use it. |
-| 42 prompt notes already in Mem `Reference/Prompts` | First real corpus for the Python brain's `mem_adapter` to ingest into LanceDB. | Live in Mem. |
+| Existing TS piece                                            | New role under the Second Brain                                                                                                                                                                                                            | State today                                                                                                                                                                               |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `apps/web` (Next.js + react-force-graph-3d + iOS pilot mode) | **Web/desktop retrieval surface.** Re-point its `/api/graph` and `/api/notes` at the Python brain's HTTP query API in Phase 3 instead of `api.mem.ai`. The visualization itself doesn't change.                                            | Code shipped (PR #4). Deploy blocked on **Vercel Root Directory = `apps/web`** setting — every build errors with "No Next.js version detected" until that one project setting is flipped. |
+| `apps/connectors/vault`                                      | **Mem-side feeder.** Vault `.md` → Mem. Then the Python `mem_adapter.py` pulls Mem → canonical brain. Or, when the Python `filesystem_adapter` lands (Phase 1), this can be retired in favor of direct vault → brain ingest.               | Built; needs `MEM_API_KEY` to run.                                                                                                                                                        |
+| `apps/connectors/drive`                                      | **Mem-side feeder + Drive organizer.** Already executes the audit (declutter + dedupe + ingest docs to Mem). The Python `drive_adapter` (Phase 1) will eventually replace the Mem-ingest part, but the _organize_ part stays Drive-native. | Built; needs Google OAuth refresh token with `drive` scope (see `docs/setup/google-oauth.md`).                                                                                            |
+| `packages/normalize` (TS)                                    | **Mirrors `second-brain/brain/core/tag.py` + `pipeline.py`.** Two implementations of the same transform: keep both in sync, or retire the TS one once the Python brain owns ingest end-to-end.                                             | Built; both connectors use it.                                                                                                                                                            |
+| 42 prompt notes already in Mem `Reference/Prompts`           | First real corpus for the Python brain's `mem_adapter` to ingest into LanceDB.                                                                                                                                                             | Live in Mem.                                                                                                                                                                              |
 
 The pivot is **not a rewrite** — it's a reframing. The TS code keeps shipping
 value while the Python brain becomes the canonical store.
@@ -157,44 +157,44 @@ python -m brain.cli query "why did we pick the enclosure?" --layer reasoning
 
 **Python spine — Phase 0 done, Phase 1 partial:**
 
-| Piece | State |
-|---|---|
-| MemoryChunk schema, LanceDB index (semantic + layer + project filters) | ✅ working, tested |
-| Header-aware chunking, pass-1 tagging | ✅ working |
-| Pass-2 layer classification | ✅ heuristic default; Claude Haiku opt-in via `ingest --llm-classifier` |
-| Mem adapter (Markdown export) | ✅ working (`MemApiAdapter` stub for live sync) |
-| Entity graph store (SQLite): nodes, edges, merge-on-conflict, traversal | ✅ working, tested |
-| Contacts adapter (.vcf → Person) | ✅ working, tested |
-| Calendar adapter (.ics → Event + `attended` edges) | ✅ working, tested |
-| `resolve(mention, context, kind)` | ✅ noisy-OR of graph proximity + distinctive-attribute + embedding signals; AMBIGUOUS below threshold |
-| `dossier(person, event_hint, context)` | ✅ graph join + Haiku synthesis hook (opt-in); HUD-budget bullets |
-| Fieldy / Filesystem / Claude / ChatGPT export adapters | ✅ all built, tested |
-| Live Google Calendar + People (Contacts) adapters (syncToken, incremental) | ✅ built, tested; hourly GH Actions cron |
-| FastAPI HTTP retrieval surface (`/resolve`, `/dossier`, `/who`, `/query`, `/graph`) | ✅ built, tested |
-| Drive Python chunk adapter / M365 / Granola | ⬜ Phase 1–2 remaining |
-| Embedders: fake / local / openai | ✅ all three |
+| Piece                                                                               | State                                                                                                 |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| MemoryChunk schema, LanceDB index (semantic + layer + project filters)              | ✅ working, tested                                                                                    |
+| Header-aware chunking, pass-1 tagging                                               | ✅ working                                                                                            |
+| Pass-2 layer classification                                                         | ✅ heuristic default; Claude Haiku opt-in via `ingest --llm-classifier`                               |
+| Mem adapter (Markdown export)                                                       | ✅ working (`MemApiAdapter` stub for live sync)                                                       |
+| Entity graph store (SQLite): nodes, edges, merge-on-conflict, traversal             | ✅ working, tested                                                                                    |
+| Contacts adapter (.vcf → Person)                                                    | ✅ working, tested                                                                                    |
+| Calendar adapter (.ics → Event + `attended` edges)                                  | ✅ working, tested                                                                                    |
+| `resolve(mention, context, kind)`                                                   | ✅ noisy-OR of graph proximity + distinctive-attribute + embedding signals; AMBIGUOUS below threshold |
+| `dossier(person, event_hint, context)`                                              | ✅ graph join + Haiku synthesis hook (opt-in); HUD-budget bullets                                     |
+| Fieldy / Filesystem / Claude / ChatGPT export adapters                              | ✅ all built, tested                                                                                  |
+| Live Google Calendar + People (Contacts) adapters (syncToken, incremental)          | ✅ built, tested; hourly GH Actions cron                                                              |
+| FastAPI HTTP retrieval surface (`/resolve`, `/dossier`, `/who`, `/query`, `/graph`) | ✅ built, tested                                                                                      |
+| Drive Python chunk adapter / M365 / Granola                                         | ⬜ Phase 1–2 remaining                                                                                |
+| Embedders: fake / local / openai                                                    | ✅ all three                                                                                          |
 
 **TypeScript supporting work (PR #4 on `claude/integrate-mem-ai-1ZuZJ`):**
 
-| Piece | State |
-|---|---|
-| `apps/web` PWA (3D graph + iOS pilot mode + Mem read) | ✅ code shipped — **deploy blocked on Vercel Root Directory = `apps/web` flip** |
-| `apps/connectors/vault` (vault → Mem) | ✅ built — needs `MEM_API_KEY` to run |
-| `apps/connectors/drive` (move-capable organizer + Mem ingest) | ✅ built — needs Google OAuth `drive` scope (see `docs/setup/google-oauth.md`) |
-| 42 prompts ingested into Mem `Reference/Prompts` | ✅ live |
-| `docs/FEATURES.md`, `docs/organization/google-drive-audit.md`, `docs/ingestion/04-prompts-pilot.md` | ✅ committed |
+| Piece                                                                                               | State                                                                           |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `apps/web` PWA (3D graph + iOS pilot mode + Mem read)                                               | ✅ code shipped — **deploy blocked on Vercel Root Directory = `apps/web` flip** |
+| `apps/connectors/vault` (vault → Mem)                                                               | ✅ built — needs `MEM_API_KEY` to run                                           |
+| `apps/connectors/drive` (move-capable organizer + Mem ingest)                                       | ✅ built — needs Google OAuth `drive` scope (see `docs/setup/google-oauth.md`)  |
+| 42 prompts ingested into Mem `Reference/Prompts`                                                    | ✅ live                                                                         |
+| `docs/FEATURES.md`, `docs/organization/google-drive-audit.md`, `docs/ingestion/04-prompts-pilot.md` | ✅ committed                                                                    |
 
 ---
 
 ## Phase plan (one source of truth)
 
-| Phase | Scope | Status |
-|---|---|---|
-| **0 — Spine** | LanceDB index + MemoryChunk + Mem adapter + CLI | ✅ done |
-| **1 — Past + entities-in** | Contacts (.vcf) + Calendar (.ics) ✅; **Filesystem (md/txt/docx/pdf) ✅**; **live Google Calendar + People ✅** (hourly GH Actions); Drive Python adapter + M365 ⬜ | mostly done |
-| **2 — Present + resolution** | **Claude/ChatGPT export ✅**; **Fieldy (REST + checkpoint) ✅** (MCP wiring queued); Granola ⬜; **LLM layer classifier ✅**; **`resolve()` ✅ + `dossier()` ✅** | mostly done; Granola left |
-| **3 — Retrieval surface** | **HTTP API (FastAPI: `/resolve`/`/dossier`/`/who`/`/query`/`/graph`) ✅**; **dossier LLM synthesis hook ✅**; latency budget logging ⬜; re-point `apps/web` ⬜ | partial |
-| **4 — Glasses** | Even Hub plugin + STT + HUD render (per `second-brain/docs/g2-r1-reference-architecture.md`) | ⬜ |
+| Phase                        | Scope                                                                                                                                                               | Status                    |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| **0 — Spine**                | LanceDB index + MemoryChunk + Mem adapter + CLI                                                                                                                     | ✅ done                   |
+| **1 — Past + entities-in**   | Contacts (.vcf) + Calendar (.ics) ✅; **Filesystem (md/txt/docx/pdf) ✅**; **live Google Calendar + People ✅** (hourly GH Actions); Drive Python adapter + M365 ⬜ | mostly done               |
+| **2 — Present + resolution** | **Claude/ChatGPT export ✅**; **Fieldy (REST + checkpoint) ✅** (MCP wiring queued); Granola ⬜; **LLM layer classifier ✅**; **`resolve()` ✅ + `dossier()` ✅**   | mostly done; Granola left |
+| **3 — Retrieval surface**    | **HTTP API (FastAPI: `/resolve`/`/dossier`/`/who`/`/query`/`/graph`) ✅**; **dossier LLM synthesis hook ✅**; latency budget logging ⬜; re-point `apps/web` ⬜     | partial                   |
+| **4 — Glasses**              | Even Hub plugin + STT + HUD render (per `second-brain/docs/g2-r1-reference-architecture.md`)                                                                        | ⬜                        |
 
 `second-brain/docs/g2-r1-reference-architecture.md` is the detailed build doc
 for Phases 3–4 (Deepgram Nova-3 / on-device Whisper STT, salience layer flagged
@@ -206,17 +206,17 @@ assumes Mem-canonical; **we overrode that**.
 
 ## Project Decisions (overlay on global rules' "Gather Context" checklist)
 
-| Global-rules question | Answer |
-|---|---|
-| Standalone web / mobile / embedded? | **Local-first Python brain** + **Next.js PWA** retrieval surface + **G2 glasses HUD** (Phase 4). |
-| Scheduling/POS integration? | **N/A.** |
-| Voice (phone or in-app)? | **Glasses STT** in Phase 4 (Deepgram Nova-3 cloud / on-device Whisper). |
-| Timeline & scale? | Iterative, phase-by-phase. Personal corpus (~2,843 vault notes + Drive + future ambient transcripts). |
-| Deployment target? | **Local-first** for the brain (runs on Wes's machine / phone companion). **Vercel** for `apps/web` retrieval surface. **Even Hub** for the glasses plugin. |
-| Database? | **LanceDB (vectors) + SQLite (entity graph)** for the brain. No remote DB. |
-| Auth pattern? | **No end-user auth in v1.** Local single-user. Google OAuth for Drive ingest; Mem API token for Mem ingest. |
-| Dashboard / analytics? | **No.** Ingest stats + dossier cards are enough. |
-| Language? | **Python** for the brain core + adapters. **TypeScript** for `apps/web` + existing Mem-side connectors. Pick per surface. |
+| Global-rules question               | Answer                                                                                                                                                                                               |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Standalone web / mobile / embedded? | **Local-first Python brain** + **Next.js PWA** retrieval surface + **G2 glasses HUD** (Phase 4).                                                                                                     |
+| Scheduling/POS integration?         | **N/A.**                                                                                                                                                                                             |
+| Voice (phone or in-app)?            | **Glasses STT** in Phase 4 (Deepgram Nova-3 cloud / on-device Whisper).                                                                                                                              |
+| Timeline & scale?                   | Iterative, phase-by-phase. Personal corpus (~2,843 vault notes + Drive + future ambient transcripts).                                                                                                |
+| Deployment target?                  | **Local-first** for the brain (runs on Wes's machine / phone companion). **Vercel** for `apps/web` retrieval surface. **Even Hub** for the glasses plugin.                                           |
+| Database?                           | **LanceDB (vectors) + SQLite (entity graph)** for the brain. No remote DB.                                                                                                                           |
+| Auth pattern?                       | **No end-user auth in v1.** Local single-user. Google OAuth for Drive ingest; Mem API token for Mem ingest.                                                                                          |
+| Dashboard / analytics?              | **Yes (directive 2026-07-02):** `/dashboard` in `apps/web` — ingest stats, classification breakdown, entity force-graph, live query + dossier. See `docs/plans/2026-07-02-bulk-ingest-dashboard.md`. |
+| Language?                           | **Python** for the brain core + adapters. **TypeScript** for `apps/web` + existing Mem-side connectors. Pick per surface.                                                                            |
 
 ## Autonomy Override
 
@@ -319,7 +319,7 @@ Inherits the global rules' list. Project-specific:
   deep-research report. Phase 3–4 build doc. (Assumes Mem-canonical; we overrode.)
 - **`second-brain/docs/context-graph-klarity.pdf`** — mental model. Nodes +
   edges, L3 "tribal knowledge" layer (decisions, reasoning, workarounds). Drives
-  pass-2 tagging and the entity graph. *"Human reasoning doesn't emit data."*
+  pass-2 tagging and the entity graph. _"Human reasoning doesn't emit data."_
 - **`docs/FEATURES.md`** — TS-side 3D-graph roadmap (Neural-Graph + Nomic
   patterns). Still relevant for the `apps/web` retrieval surface.
 - **`docs/organization/google-drive-audit.md`** — Drive reorg plan executed by
@@ -358,36 +358,40 @@ OWN
 
 ## Engineering Preferences (Non-Negotiable)
 
-| Preference | What It Means in Practice |
-|---|---|
-| **DRY** | Flag repetition aggressively. Extract shared logic early. |
-| **Well-tested** | Too many tests > too few. Unit, integration, and e2e coverage are all expected. |
-| **Engineered enough** | Not under-engineered (fragile, hacky) and not over-engineered (premature abstraction, unnecessary complexity). If you're unsure, ask. |
-| **Edge cases > speed** | Handle more edge cases, not fewer. Thoughtfulness beats velocity. |
-| **Explicit > clever** | Readable, obvious code wins over compact, clever code every time. |
-| **Modular and swappable** | Stable interfaces, swappable internals. Prefer composition over inheritance. |
-| **Security by default** | Least-privilege tokens, PII minimization, secrets out of code, audit logs. |
+| Preference                | What It Means in Practice                                                                                                             |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **DRY**                   | Flag repetition aggressively. Extract shared logic early.                                                                             |
+| **Well-tested**           | Too many tests > too few. Unit, integration, and e2e coverage are all expected.                                                       |
+| **Engineered enough**     | Not under-engineered (fragile, hacky) and not over-engineered (premature abstraction, unnecessary complexity). If you're unsure, ask. |
+| **Edge cases > speed**    | Handle more edge cases, not fewer. Thoughtfulness beats velocity.                                                                     |
+| **Explicit > clever**     | Readable, obvious code wins over compact, clever code every time.                                                                     |
+| **Modular and swappable** | Stable interfaces, swappable internals. Prefer composition over inheritance.                                                          |
+| **Security by default**   | Least-privilege tokens, PII minimization, secrets out of code, audit logs.                                                            |
 
 ## Before You Start Any Task
 
 ### 1. Determine Scope (BIG vs SMALL CHANGE)
+
 Ask Wes; do not assume. BIG = interactive review one section at a time; SMALL = one question per section.
 
 ### 2. Gather Context Before Coding
-Never assume — ask first if not already clear: standalone vs embedded, scheduling/POS, voice modality, timeline/scale, deployment target, database, auth pattern, dashboard/analytics needs. (For *this* project, the answers live in the overlay table above.)
+
+Never assume — ask first if not already clear: standalone vs embedded, scheduling/POS, voice modality, timeline/scale, deployment target, database, auth pattern, dashboard/analytics needs. (For _this_ project, the answers live in the overlay table above.)
 
 ### 3. Review Before Changing
+
 Read the plan/codebase thoroughly before any change. For every issue, explain concrete tradeoffs, give an opinionated recommendation, and ask before assuming a direction.
 
 ## Autonomy Level
 
-**Moderate autonomy** by default — confident on small localized changes, ask before architectural decisions, multi-file refactors, new dependencies, data-model changes. (For *this* project, lifted to max autonomy per the overlay above; the irreversible-action carve-outs still apply.)
+**Moderate autonomy** by default — confident on small localized changes, ask before architectural decisions, multi-file refactors, new dependencies, data-model changes. (For _this_ project, lifted to max autonomy per the overlay above; the irreversible-action carve-outs still apply.)
 
 ## Agent Skill Use & Sequencing
 
 Mandatory sequencing: **READ → UNDERSTAND → PLAN → EDIT → TEST → VERIFY.** Search docs before guessing. Plan before multi-file changes. Test after edits. Verify the result.
 
 Skill-specific rules:
+
 - **File read/view** — read before editing; re-read after.
 - **Bash/shell** — single-purpose commands; check exit codes; don't chain destructive commands with `&&`.
 - **Search (web/docs)** — use when uncertain about an API, version, or current best practice. Not a substitute for reading the codebase.
@@ -420,7 +424,7 @@ Skill-specific rules:
 
 Same as the global rules: code-first API design with generated OpenAPI; auth defaults to Firebase Auth (per project — always confirm); Firebase Hosting + Cloud Functions default; dev/staging/prod environments; `.env.*` conventions with secrets via managers; Firestore schema management or SQL migrations with tested rollback; four-layer defense (pre-commit → CI → AI review → progressive rollout); risk-scored PR review tiers.
 
-For *this* project specifically: **none of the Firebase defaults apply** (no end-user auth, no hosted DB). Per-overlay: local-first Python brain (no auth), Vercel for the web surface, Even Hub for the glasses plugin, LanceDB + SQLite on disk.
+For _this_ project specifically: **none of the Firebase defaults apply** (no end-user auth, no hosted DB). Per-overlay: local-first Python brain (no auth), Vercel for the web surface, Even Hub for the glasses plugin, LanceDB + SQLite on disk.
 
 ## Common AI Failure Modes (catch these)
 
@@ -449,7 +453,7 @@ Pragmatic — best tool wins, but no bloat. Don't add a dependency for something
 
 Use whatever's idiomatic for the framework (Python `logging`, TS framework logger). **Never log secrets, tokens, or raw PII.** Production deployments need uptime/error/latency/auth-failure/DB monitoring. SSL non-negotiable. Daily backups with documented recovery procedures.
 
-For *this* project: brain runs locally → backup = the LanceDB + SQLite files on disk (and any source-of-truth exports they were built from). Document the recovery procedure once the brain holds non-recoverable derived state.
+For _this_ project: brain runs locally → backup = the LanceDB + SQLite files on disk (and any source-of-truth exports they were built from). Document the recovery procedure once the brain holds non-recoverable derived state.
 
 ## Knowledge Management
 
@@ -484,7 +488,7 @@ Code deliverables: descriptive comments, modular and clear, stable interfaces, r
 4. Recommended option first in every options list.
 5. Ask, don't assume — present tradeoffs.
 6. Be direct — no hedging or filler.
-7. Moderate autonomy by default (max for *this* project per overlay).
+7. Moderate autonomy by default (max for _this_ project per overlay).
 
 ## Principles (Summary)
 
