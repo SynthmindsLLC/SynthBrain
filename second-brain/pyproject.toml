@@ -20,12 +20,14 @@ google = [                                            # live Calendar + People a
 ]
 docs = ["docx2txt", "pypdf"]                         # filesystem .docx/.pdf extractors
 api = ["fastapi", "uvicorn[standard]"]                # HTTP retrieval surface
+graph = ["networkx>=3,<4"]                            # graphlab: centralities, communities, projections
 dev = [
     "pytest",
     "httpx",                                          # FastAPI TestClient
     "fastapi",
     "google-api-python-client",
     "google-auth",
+    "networkx>=3,<4",
 ]
 
 [project.scripts]

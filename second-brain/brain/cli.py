@@ -86,12 +86,15 @@ def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None
     if name == "agentmail":
         from .adapters.agentmail_adapter import AgentMailAdapter
         return AgentMailAdapter(source, checkpoint_db=entdb)
+    if name == "bookmarks":
+        from .adapters.bookmarks_adapter import BookmarksAdapter
+        return BookmarksAdapter(source, checkpoint_db=entdb)
     raise ValueError(f"unknown adapter {name!r}")
 
 
 ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "claude-code", "chatgpt",
             "drive", "granola", "gmail", "imap", "imessage", "icloud-notes",
-            "github", "m365", "slack", "inbox", "agentmail")
+            "github", "m365", "slack", "inbox", "agentmail", "bookmarks")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 
@@ -266,6 +269,29 @@ def cmd_ingest(args: argparse.Namespace) -> int:
         if stats.errors:
             print(f"  {stats.errors} doc(s) errored — see ledger run {run_id}"
                   + ("; watermark held for retry" if watermark_held else ""))
+    return 0
+
+
+def cmd_graph_metrics(args: argparse.Namespace) -> int:
+    """Derive co_attended (Newman-weighted bipartite projection) and
+    co_mentioned (PMI chunk co-occurrence) edges, then compute + persist
+    centralities / clustering / k-core / Louvain communities."""
+    from .core.graphlab import run_all
+
+    store = EntityStore(args.entdb)
+    index = None if args.no_mentions else _index(args)
+    summary = run_all(store, index, min_count=args.min_count, min_pmi=args.min_pmi)
+    print(f"graph: {summary['nodes']} nodes, {summary['edges']} edges, "
+          f"density={summary['density']}, {summary['communities']} communities")
+    print(f"derived: co_attended={summary['derived']['co_attended']} "
+          f"co_mentioned={summary['derived']['co_mentioned']}")
+    for metric in ("top_eigenvector", "top_betweenness", "top_pagerank"):
+        rows = summary[metric]
+        if rows:
+            label = metric.replace("top_", "")
+            print(f"top {label}:")
+            for r in rows:
+                print(f"  {r[label]:.4f}  {r['name']}  ({r['id']})")
     return 0
 
 
@@ -556,6 +582,17 @@ def main(argv: list[str] | None = None) -> int:
     psv.add_argument("--port", type=int, default=8088)
     psv.add_argument("--reload", action="store_true")
     psv.set_defaults(func=cmd_serve)
+
+    pgm = sub.add_parser(
+        "graph-metrics",
+        help="derive co-attendance/co-mention edges + network-science metrics")
+    pgm.add_argument("--min-count", type=int, default=2,
+                     help="min chunk co-occurrences for a co_mentioned edge (default 2)")
+    pgm.add_argument("--min-pmi", type=float, default=0.0,
+                     help="min PMI for a co_mentioned edge (default 0.0 = above chance)")
+    pgm.add_argument("--no-mentions", action="store_true",
+                     help="skip co_mentioned derivation (no index scan)")
+    pgm.set_defaults(func=cmd_graph_metrics)
 
     pwatch = sub.add_parser(
         "watch", help="universal-intake daemon: poll BrainInbox + AgentMail")

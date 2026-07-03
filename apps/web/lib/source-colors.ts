@@ -17,6 +17,7 @@ const PALETTE: Record<string, string> = {
   filesystem: '#a78bfa',
   inbox: '#5eead4',
   agentmail: '#fda4af',
+  bookmarks: '#c4b5fd',
 };
 
 export function colorForSource(source: string): string {

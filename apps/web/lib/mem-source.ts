@@ -61,8 +61,19 @@ function brainGraphToWebGraph(g: BrainGraph): Graph {
     kind: n.kind,
     source: 'brain',
     color: colorForKind(n.kind) ?? colorForSource('brain'),
-    size: n.kind === 'event' ? 2.2 : 1.2,
+    // Size by eigenvector centrality when graph-metrics has run — influence
+    // should be visible at a glance; sqrt keeps hubs from dwarfing the rest.
+    size:
+      typeof n.eigenvector === 'number' && n.eigenvector > 0
+        ? 1 + 6 * Math.sqrt(n.eigenvector)
+        : n.kind === 'event'
+          ? 2.2
+          : 1.2,
     ...(n.degree !== undefined ? { degree: n.degree } : {}),
+    ...(typeof n.eigenvector === 'number' ? { eigenvector: n.eigenvector } : {}),
+    ...(typeof n.pagerank === 'number' ? { pagerank: n.pagerank } : {}),
+    ...(typeof n.betweenness === 'number' ? { betweenness: n.betweenness } : {}),
+    ...(typeof n.community === 'number' ? { community: n.community } : {}),
   }));
   const links: GraphLink[] = g.links.map((l) => ({
     source: l.source,

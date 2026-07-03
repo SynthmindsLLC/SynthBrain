@@ -20,7 +20,12 @@ from datetime import datetime, timezone
 from typing import Any
 
 KINDS = ("person", "event", "place", "org")
-RELS = ("attended", "mentioned_in", "discussed_with", "works_at", "family_of")
+# Primary rels come from adapters; the last two are DERIVED by graphlab:
+# co_attended = weighted one-mode projection of the person-event bipartite
+# graph (Breiger 1974; Newman 2001 fractional weighting), co_mentioned =
+# PMI-weighted chunk co-occurrence (Church & Hanks 1990).
+RELS = ("attended", "mentioned_in", "discussed_with", "works_at", "family_of",
+        "co_attended", "co_mentioned")
 
 
 def slug(text: str) -> str:

@@ -30,6 +30,12 @@ export const GraphNodeSchema = z.object({
   color: z.string().optional(),
   size: z.number().default(1),
   degree: z.number().optional(),
+  // Network-science features from the brain's graph-metrics run (graphlab):
+  // eigenvector/pagerank/betweenness centralities + Louvain community index.
+  eigenvector: z.number().optional(),
+  pagerank: z.number().optional(),
+  betweenness: z.number().optional(),
+  community: z.number().optional(),
   updated_at: z.string().optional(),
 });
 export type GraphNode = z.infer<typeof GraphNodeSchema>;
@@ -47,6 +53,10 @@ export const GraphLinkSchema = z.object({
     'discussed_with',
     'works_at',
     'family_of',
+    // graphlab-derived rels (Newman-weighted co-attendance projection,
+    // PMI-weighted chunk co-occurrence):
+    'co_attended',
+    'co_mentioned',
   ]),
 });
 export type GraphLink = z.infer<typeof GraphLinkSchema>;

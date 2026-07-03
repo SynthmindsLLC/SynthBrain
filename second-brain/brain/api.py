@@ -412,6 +412,8 @@ def get_graph(
     candidates.sort(key=lambda e: (-degree.get(e.id, 0), e.id))
     picked = candidates[:limit]
     seen = {e.id for e in picked}
+    from .core.graphlab import load_metrics
+    metrics = load_metrics(store)
     nodes = [
         {
             "id": e.id,
@@ -419,6 +421,12 @@ def get_graph(
             "kind": e.kind,
             "label": e.name,
             "degree": degree.get(e.id, 0),
+            # Network-science features (graph-metrics run); absent -> None so
+            # the web layer can distinguish "not computed" from zero.
+            "eigenvector": metrics.get(e.id, {}).get("eigenvector"),
+            "pagerank": metrics.get(e.id, {}).get("pagerank"),
+            "betweenness": metrics.get(e.id, {}).get("betweenness"),
+            "community": metrics.get(e.id, {}).get("community"),
         }
         for e in picked
     ]
@@ -428,6 +436,86 @@ def get_graph(
         if src in seen and dst in seen
     ]
     return {"nodes": nodes, "links": links}
+
+
+@app.get("/graph/metrics", dependencies=[Depends(_require_auth)])
+def get_graph_metrics() -> dict:
+    """Graph-level summary + top nodes per centrality, from the last
+    `brain graph-metrics` run (404 until one has been run)."""
+    from .core.graphlab import build_nx_graph, load_metrics
+
+    import networkx as nx
+
+    store = _store()
+    metrics = load_metrics(store)
+    if not metrics:
+        raise HTTPException(
+            status_code=404,
+            detail="no graph metrics computed yet — run `brain graph-metrics`",
+        )
+    g = build_nx_graph(store)
+
+    def top(metric: str, k: int = 10) -> list[dict]:
+        ranked = sorted(metrics.items(), key=lambda kv: kv[1][metric] or 0,
+                        reverse=True)[:k]
+        return [
+            {"id": eid, "name": g.nodes[eid].get("name", eid) if eid in g else eid,
+             "value": m[metric]}
+            for eid, m in ranked if (m[metric] or 0) > 0
+        ]
+
+    communities: dict[int, int] = {}
+    for m in metrics.values():
+        c = m.get("community", -1)
+        if c is not None and c >= 0:
+            communities[c] = communities.get(c, 0) + 1
+    computed_at = next(iter(metrics.values()))["computed_at"] if metrics else None
+    return {
+        "nodes": g.number_of_nodes(),
+        "edges": g.number_of_edges(),
+        "density": round(nx.density(g), 6),
+        "communities": [
+            {"community": c, "size": n}
+            for c, n in sorted(communities.items(), key=lambda kv: -kv[1])
+        ],
+        "top": {m: top(m) for m in ("eigenvector", "betweenness", "pagerank", "degree")},
+        "computed_at": computed_at,
+    }
+
+
+@app.get("/graph/ego/{entity_id:path}", dependencies=[Depends(_require_auth)])
+def get_graph_ego(
+    entity_id: str,
+    hops: int = Query(default=1, ge=1, le=3),
+    rel: str | None = None,
+) -> dict:
+    """k-hop ego network around an entity (Freeman 1982, generalized).
+    `rel` optionally restricts traversal to a CSV of edge types."""
+    from .core.graphlab import ego_subgraph, load_metrics
+
+    rels = tuple(r.strip() for r in rel.split(",") if r.strip()) if rel else None
+    if rels:
+        from .core.entities import RELS
+        bad = [r for r in rels if r not in RELS]
+        if bad:
+            raise HTTPException(status_code=422, detail=f"unknown rel(s): {bad}")
+    store = _store()
+    node_ids, edge_dicts = ego_subgraph(store, entity_id, hops=hops, rels=rels)
+    if not node_ids:
+        raise HTTPException(status_code=404, detail=f"entity not found or isolated: {entity_id}")
+    metrics = load_metrics(store)
+    nodes = []
+    for nid in node_ids:
+        e = store.get_entity(nid)
+        nodes.append({
+            "id": nid,
+            "name": e.name if e else nid,
+            "kind": e.kind if e else "person",
+            "label": e.name if e else nid,
+            "community": metrics.get(nid, {}).get("community"),
+            "eigenvector": metrics.get(nid, {}).get("eigenvector"),
+        })
+    return {"center": entity_id, "hops": hops, "nodes": nodes, "links": edge_dicts}
 
 
 @app.post("/ingest-text", dependencies=[Depends(_require_auth)])

@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added — 2026-07-03 network-science layer + bookmarks intake
+
+- **`bookmarks` adapter**: Chrome/Brave/Edge `Bookmarks` JSON read directly
+  (no export step) + the universal Netscape `bookmarks.html` export
+  (Safari/Firefox); folder paths preserved as signal; WebKit-epoch dates;
+  deferred watermark.
+- **graphlab** (`brain/core/graphlab.py`, networkx): two derived edge types
+  grounded in the literature — `co_attended` (weighted one-mode projection
+  of the person–event bipartite graph; Breiger 1974, Newman 2001 fractional
+  weighting) and `co_mentioned` (PMI-weighted chunk co-occurrence; Church &
+  Hanks 1990). Node features persisted to `graph_metrics`: degree,
+  eigenvector (Bonacich 1987), PageRank (Brin & Page 1998), betweenness
+  (Freeman 1977 / Brandes 2001), closeness, clustering (Watts & Strogatz
+  1998), k-core (Seidman 1983), Louvain communities (Blondel et al. 2008).
+- **`brain graph-metrics`** CLI: derive + compute + persist + top-node report.
+- **API**: `/graph` nodes carry eigenvector/pagerank/betweenness/community;
+  `GET /graph/metrics` summary; `GET /graph/ego/{id}?hops=&rel=` k-hop ego
+  networks with rel filtering.
+- **Web**: graph node size scales with eigenvector centrality; schema knows
+  the derived rels + metric fields. Tests 214 → 224.
+
 ### Added — 2026-07-03 universal intake (feed the brain from anywhere)
 
 - **`inbox` adapter**: BrainInbox drop folder (iCloud-syncable for iPhone

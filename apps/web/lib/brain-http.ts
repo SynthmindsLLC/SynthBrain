@@ -30,6 +30,11 @@ export interface BrainGraphNode {
   kind: 'person' | 'event' | 'place' | 'org';
   label: string;
   degree?: number;
+  /** Network-science features from `brain graph-metrics`; null until run. */
+  eigenvector?: number | null;
+  pagerank?: number | null;
+  betweenness?: number | null;
+  community?: number | null;
 }
 
 export interface BrainGraphLink {
