@@ -11,6 +11,7 @@
     "start": "tsx src/cli.ts"
   },
   "dependencies": {
+    "@synthbrain/normalize": "workspace:*",
     "googleapis": "^144.0.0",
     "yargs": "^17.7.2"
   },

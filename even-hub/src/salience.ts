@@ -3,9 +3,37 @@
 // like a salient person/event cue.
 
 const NAME_RE = /\b([A-Z][a-z]{2,})(?:\s+([A-Z][a-z]{2,}))?\b/g;
+// Capitalized greetings / sentence-starters that are not names ("Hey Jeff").
+const NAME_STOP = new Set([
+  'hey',
+  'hello',
+  'okay',
+  'yeah',
+  'the',
+  'this',
+  'that',
+  'was',
+  'were',
+  'anyway',
+  'right',
+  'sure',
+  'thanks',
+  'well',
+]);
 const EVENT_KEYS = [
-  'party', 'gala', 'meeting', 'lunch', 'dinner', 'conference', 'wedding',
-  'reception', 'demo', 'review', 'standup', 'sync', 'event',
+  'party',
+  'gala',
+  'meeting',
+  'lunch',
+  'dinner',
+  'conference',
+  'wedding',
+  'reception',
+  'demo',
+  'review',
+  'standup',
+  'sync',
+  'event',
 ];
 
 export interface SalienceInput {
@@ -23,13 +51,23 @@ export interface SalientCueDraft {
 }
 
 export function extractCues(input: SalienceInput): SalientCueDraft[] {
-  const context = input.segments.map((s) => s.text).join(' ').trim();
+  const context = input.segments
+    .map((s) => s.text)
+    .join(' ')
+    .trim();
   if (!context) return [];
 
   const mentions = new Map<string, number>(); // name -> occurrence count
   for (const m of context.matchAll(NAME_RE)) {
-    const full = m[2] ? `${m[1]} ${m[2]}` : m[1];
-    if (!full) continue;
+    let first = m[1];
+    let second = m[2];
+    if (first && NAME_STOP.has(first.toLowerCase())) {
+      first = second;
+      second = undefined;
+    }
+    if (!first || NAME_STOP.has(first.toLowerCase())) continue;
+    if (second && NAME_STOP.has(second.toLowerCase())) second = undefined;
+    const full = second ? `${first} ${second}` : first;
     mentions.set(full, (mentions.get(full) ?? 0) + 1);
   }
 

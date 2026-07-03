@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 
 import { brainDossier, brainResolve } from '../../../lib/brain-http';
 
@@ -26,7 +27,11 @@ export async function POST(req: NextRequest) {
   }
   try {
     if (body.resolve_only) {
-      const res = await brainResolve({ mention: body.mention, context: body.context, kind: 'person' });
+      const res = await brainResolve({
+        mention: body.mention,
+        ...(body.context !== undefined ? { context: body.context } : {}),
+        kind: 'person',
+      });
       return NextResponse.json(res);
     }
     const card = await brainDossier({

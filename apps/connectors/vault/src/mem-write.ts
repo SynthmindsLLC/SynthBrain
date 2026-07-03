@@ -22,7 +22,7 @@ export class MemWriter {
     private readonly commit: boolean,
   ) {}
 
-  private headers(): HeadersInit {
+  private headers(): Record<string, string> {
     return {
       Authorization: `ApiAccessToken ${this.apiKey}`,
       'Content-Type': 'application/json',
@@ -73,7 +73,11 @@ export class MemWriter {
         };
       }
       const body = (await res.json()) as { id?: string };
-      return { title: draft.title, status: 'created', id: body.id };
+      return {
+        title: draft.title,
+        status: 'created',
+        ...(body.id !== undefined ? { id: body.id } : {}),
+      };
     } catch (err) {
       return {
         title: draft.title,

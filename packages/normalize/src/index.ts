@@ -16,11 +16,7 @@ export function deriveTitle(pathOrName: string): string {
 
 /** Normalize a raw tag token to Mem inline-tag form (no leading #, no spaces). */
 export function normalizeTag(t: string): string {
-  return t
-    .replace(/^#+/, '')
-    .trim()
-    .replace(/\s+/g, '-')
-    .toLowerCase();
+  return t.replace(/^#+/, '').trim().replace(/\s+/g, '-').toLowerCase();
 }
 
 /** True if the body contains XML/HTML-style angle-bracket constructs. */
@@ -41,10 +37,13 @@ export function splitFrontmatter(raw: string): { body: string; tags: string[] } 
   const fm = raw.slice(3, end);
   const body = raw.slice(end + 4).replace(/^\n+/, '');
   const tags: string[] = [];
-  const tagBlock = fm.match(/tags:\s*((?:\n\s*-\s*.+)+|\[.*\]|.+)/);
+  // [ \t]* (not \s*) after `tags:` so a block list's leading newline stays
+  // visible to the first alternative instead of falling into the `.+` branch.
+  const tagBlock = fm.match(/tags:[ \t]*((?:\n[ \t]*-[ \t]*.+)+|\[.*\]|.+)/);
   if (tagBlock) {
     for (const m of tagBlock[1]!.matchAll(/["'#]*([A-Za-z0-9_\-/]+)["']*/g)) {
-      if (m[1] && m[1] !== 'tags') tags.push(m[1]);
+      // skip YAML list dashes captured as bare '-'
+      if (m[1] && m[1] !== 'tags' && m[1] !== '-') tags.push(m[1]);
     }
   }
   return { body, tags };

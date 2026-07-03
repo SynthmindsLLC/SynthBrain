@@ -23,10 +23,13 @@ export type Collection = z.infer<typeof CollectionSchema>;
 export const GraphNodeSchema = z.object({
   id: z.string(),
   label: z.string(),
-  kind: z.enum(['note', 'collection', 'tag']),
+  // note/collection/tag come from Mem-shaped sources; person/event/place/org
+  // come from the Python brain's entity graph.
+  kind: z.enum(['note', 'collection', 'tag', 'person', 'event', 'place', 'org']),
   source: z.string().default('mem'),
   color: z.string().optional(),
   size: z.number().default(1),
+  degree: z.number().optional(),
   updated_at: z.string().optional(),
 });
 export type GraphNode = z.infer<typeof GraphNodeSchema>;
@@ -34,7 +37,17 @@ export type GraphNode = z.infer<typeof GraphNodeSchema>;
 export const GraphLinkSchema = z.object({
   source: z.string(),
   target: z.string(),
-  kind: z.enum(['in_collection', 'has_tag', 'mention']),
+  // in_collection/has_tag/mention are Mem-shaped; the rest are brain edge rels.
+  kind: z.enum([
+    'in_collection',
+    'has_tag',
+    'mention',
+    'attended',
+    'mentioned_in',
+    'discussed_with',
+    'works_at',
+    'family_of',
+  ]),
 });
 export type GraphLink = z.infer<typeof GraphLinkSchema>;
 

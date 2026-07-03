@@ -3,6 +3,7 @@
 import type { Graph } from '@synthbrain/graph-schema';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import ForceGraph3D from 'react-force-graph-3d';
+import type { Object3D } from 'three';
 import SpriteText from 'three-spritetext';
 
 import { usePilotCamera } from '../lib/use-pilot-camera';
@@ -19,9 +20,14 @@ type ForceGraphRef = {
 export default function GraphCanvasInner({
   graph,
   pilotEnabled,
+  width,
+  height,
 }: {
   graph: Graph;
   pilotEnabled: boolean;
+  /** Explicit canvas size (e.g. embedded dashboard panel); defaults to the viewport. */
+  width?: number;
+  height?: number;
 }) {
   const fgRef = useRef<ForceGraphRef | null>(null);
   const [size, setSize] = useState<[number, number]>([
@@ -46,11 +52,12 @@ export default function GraphCanvasInner({
     const n = node as { label: string; color?: string; size: number; kind: string };
     const sprite = new SpriteText(n.label);
     sprite.color = n.color ?? '#e8e8f0';
-    sprite.textHeight = n.kind === 'collection' ? 6 : 3;
-    sprite.fontWeight = n.kind === 'collection' ? '600' : '400';
+    const emphasized = n.kind === 'collection' || n.kind === 'event';
+    sprite.textHeight = emphasized ? 6 : 3;
+    sprite.fontWeight = emphasized ? '600' : '400';
     sprite.backgroundColor = 'rgba(10,10,20,0.5)';
     sprite.padding = 2;
-    return sprite as unknown as object;
+    return sprite as unknown as Object3D;
   }, []);
 
   const handleNodeClick = useCallback((node: unknown) => {
@@ -71,8 +78,8 @@ export default function GraphCanvasInner({
     <ForceGraph3D
       ref={fgRef as unknown as never}
       graphData={data}
-      width={size[0]}
-      height={size[1]}
+      width={width ?? size[0]}
+      height={height ?? size[1]}
       backgroundColor="#0a0a14"
       nodeId="id"
       nodeLabel="label"

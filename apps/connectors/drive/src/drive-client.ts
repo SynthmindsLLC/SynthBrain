@@ -46,7 +46,7 @@ export class DriveClient {
         q: `'${parentId}' in parents and trashed = false`,
         fields: 'nextPageToken, files(id,name,mimeType,parents,size,modifiedTime,md5Checksum)',
         pageSize: 1000,
-        pageToken,
+        ...(pageToken !== undefined ? { pageToken } : {}),
       });
       out.push(...((res.data.files ?? []) as DriveFile[]));
       pageToken = res.data.nextPageToken ?? undefined;

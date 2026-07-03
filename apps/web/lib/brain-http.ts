@@ -8,7 +8,10 @@ import 'server-only';
  *
  *   GET  /healthz
  *   GET  /stats
- *   GET  /graph?limit=N
+ *   GET  /stats/breakdown
+ *   GET  /ingest/runs?limit=N
+ *   GET  /chunks/recent?limit=N&source=&layer=
+ *   GET  /graph?limit=N&kind=&min_degree=
  *   GET  /who/{name}
  *   POST /resolve   { mention, context, kind }
  *   POST /dossier   { mention, event, context, use_chunks, k }
@@ -26,6 +29,7 @@ export interface BrainGraphNode {
   name: string;
   kind: 'person' | 'event' | 'place' | 'org';
   label: string;
+  degree?: number;
 }
 
 export interface BrainGraphLink {
@@ -73,8 +77,20 @@ export interface BrainResolveResult {
   status: 'resolved' | 'ambiguous' | 'no_match';
   confidence: number;
   rationale: string;
-  entity: { id: string; kind: string; name: string; aliases: string[]; attributes: Record<string, unknown> } | null;
-  candidates: Array<{ id: string; kind: string; name: string; aliases: string[]; attributes: Record<string, unknown> }>;
+  entity: {
+    id: string;
+    kind: string;
+    name: string;
+    aliases: string[];
+    attributes: Record<string, unknown>;
+  } | null;
+  candidates: Array<{
+    id: string;
+    kind: string;
+    name: string;
+    aliases: string[];
+    attributes: Record<string, unknown>;
+  }>;
   scores: Array<{ id: string; score: number }>;
 }
 
@@ -84,6 +100,46 @@ export interface BrainStats {
   db: string;
   entdb: string;
   embedder: string;
+}
+
+export interface BrainStatsBreakdown {
+  chunks_total: number;
+  by_source: Record<string, number>;
+  by_layer: Record<string, number>;
+  by_project: Record<string, number>;
+  by_day: Array<{ date: string; chunks: number }>;
+  entities: { total: number; by_kind: Record<string, number> };
+  edges: { total: number; by_rel: Record<string, number> };
+  generated_at: string;
+}
+
+export interface BrainIngestRun {
+  run_id: string;
+  adapter: string;
+  source: string;
+  started_at: string;
+  finished_at: string | null;
+  status: string;
+  docs: number;
+  chunks: number;
+  errors: number;
+  skipped: number;
+  llm_classified: number;
+  heuristic_classified: number;
+  error_samples: string[];
+  meta: Record<string, unknown>;
+}
+
+export interface BrainRecentChunk {
+  id: string;
+  text: string;
+  source: string;
+  source_id: string;
+  url: string;
+  layer: string;
+  project_tags: string[];
+  entity_tags: string[];
+  created_at: string;
 }
 
 function brainUrl(): string {
@@ -125,8 +181,33 @@ export async function brainStats(): Promise<BrainStats> {
   return brainGet('/stats');
 }
 
-export async function brainGraph(limit = 500): Promise<BrainGraph> {
-  return brainGet(`/graph?limit=${encodeURIComponent(limit)}`);
+export async function brainStatsBreakdown(): Promise<BrainStatsBreakdown> {
+  return brainGet('/stats/breakdown');
+}
+
+export async function brainIngestRuns(limit = 20): Promise<{ runs: BrainIngestRun[] }> {
+  return brainGet(`/ingest/runs?limit=${encodeURIComponent(limit)}`);
+}
+
+export async function brainRecentChunks(
+  args: { limit?: number; source?: string; layer?: string } = {},
+): Promise<{ chunks: BrainRecentChunk[] }> {
+  const params = new URLSearchParams();
+  params.set('limit', String(args.limit ?? 20));
+  if (args.source) params.set('source', args.source);
+  if (args.layer) params.set('layer', args.layer);
+  return brainGet(`/chunks/recent?${params.toString()}`);
+}
+
+export async function brainGraph(
+  limit = 500,
+  opts: { kind?: 'person' | 'event' | 'place' | 'org'; minDegree?: number } = {},
+): Promise<BrainGraph> {
+  const params = new URLSearchParams();
+  params.set('limit', String(limit));
+  if (opts.kind) params.set('kind', opts.kind);
+  if (opts.minDegree !== undefined) params.set('min_degree', String(opts.minDegree));
+  return brainGet(`/graph?${params.toString()}`);
 }
 
 export async function brainWho(name: string): Promise<unknown> {

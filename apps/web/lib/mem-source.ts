@@ -2,20 +2,15 @@ import 'server-only';
 
 import type { Collection, Graph, GraphLink, GraphNode, Note } from '@synthbrain/graph-schema';
 
+import seed from '../data/seed.json';
+
+import type { BrainGraph } from './brain-http';
 import { brainGraph } from './brain-http';
 import { buildGraph } from './build-graph';
 import { fetchMemNotes } from './mem-http';
-import { colorForSource } from './source-colors';
-import seed from '../data/seed.json';
+import { colorForKind, colorForSource } from './source-colors';
 
 type SeedFile = { notes: Note[]; collections: Collection[]; generated_at: string };
-
-const BRAIN_KIND_COLORS: Record<string, string> = {
-  person: '#22d3ee',  // cyan — people
-  event: '#a855f7',   // violet — events
-  place: '#f59e0b',   // amber — places
-  org: '#34d399',     // emerald — orgs
-};
 
 /**
  * Resolution order:
@@ -52,19 +47,23 @@ export async function getGraphData(): Promise<Graph> {
   return buildGraph(s.notes, s.collections);
 }
 
-function brainGraphToWebGraph(g: { nodes: Array<{ id: string; name: string; kind: string; label: string }>; links: Array<{ source: string; target: string; rel: string }> }): Graph {
+function brainGraphToWebGraph(g: BrainGraph): Graph {
+  // Brain kinds (person/event/place/org) and rels (attended/mentioned_in/…)
+  // are first-class in the graph schema — pass them through natively instead
+  // of lossily mapping onto Mem's note/collection shapes.
   const nodes: GraphNode[] = g.nodes.map((n) => ({
     id: n.id,
     label: n.label || n.name,
-    kind: n.kind === 'event' ? 'collection' : 'note',
+    kind: n.kind,
     source: 'brain',
-    color: BRAIN_KIND_COLORS[n.kind] ?? colorForSource('brain'),
+    color: colorForKind(n.kind) ?? colorForSource('brain'),
     size: n.kind === 'event' ? 2.2 : 1.2,
+    ...(n.degree !== undefined ? { degree: n.degree } : {}),
   }));
   const links: GraphLink[] = g.links.map((l) => ({
     source: l.source,
     target: l.target,
-    kind: (l.rel as GraphLink['kind']) ?? 'has_tag',
+    kind: l.rel as GraphLink['kind'],
   }));
   return {
     nodes,

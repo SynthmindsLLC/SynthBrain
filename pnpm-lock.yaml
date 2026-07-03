@@ -56,6 +56,9 @@ importers:
 
   apps/connectors/drive:
     dependencies:
+      '@synthbrain/normalize':
+        specifier: workspace:*
+        version: link:../../../packages/normalize
       googleapis:
         specifier: ^144.0.0
         version: 144.0.0

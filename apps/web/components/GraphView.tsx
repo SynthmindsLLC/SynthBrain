@@ -9,14 +9,21 @@ import { PilotMode } from './PilotMode';
 
 export function GraphView({ initialGraph }: { initialGraph: Graph }) {
   const [pilotEnabled, setPilotEnabled] = useState(false);
-  const [filter, setFilter] = useState<{ source?: string; collection?: string }>({});
+  const [filter, setFilter] = useState<{
+    source?: string | undefined;
+    collection?: string | undefined;
+    kind?: string | undefined;
+  }>({});
 
   const filtered = useMemo(() => {
-    if (!filter.source && !filter.collection) return initialGraph;
+    if (!filter.source && !filter.collection && !filter.kind) return initialGraph;
 
     const keep = new Set<string>();
     for (const n of initialGraph.nodes) {
       if (filter.source && n.source === filter.source) keep.add(n.id);
+      // Kind filtering covers brain entity graphs (person/event/place/org);
+      // collection filtering only ever matches Mem-shaped graphs (c:* ids).
+      if (filter.kind && n.kind === filter.kind) keep.add(n.id);
       if (filter.collection && n.id === `c:${filter.collection}`) keep.add(n.id);
     }
     if (filter.collection) {
@@ -38,12 +45,7 @@ export function GraphView({ initialGraph }: { initialGraph: Graph }) {
   return (
     <>
       <GraphCanvas graph={filtered} pilotEnabled={pilotEnabled} />
-      <HUD
-        graph={initialGraph}
-        filter={filter}
-        onFilter={setFilter}
-        pilotEnabled={pilotEnabled}
-      />
+      <HUD graph={initialGraph} filter={filter} onFilter={setFilter} pilotEnabled={pilotEnabled} />
       <PilotMode enabled={pilotEnabled} onToggle={setPilotEnabled} />
     </>
   );

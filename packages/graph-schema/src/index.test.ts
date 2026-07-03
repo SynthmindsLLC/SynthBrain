@@ -26,6 +26,48 @@ describe('graph-schema', () => {
     expect(link.kind).toBe('in_collection');
   });
 
+  it('parses brain entity node kinds', () => {
+    for (const kind of ['person', 'event', 'place', 'org'] as const) {
+      const node = GraphNodeSchema.parse({ id: `e:${kind}`, label: kind, kind, source: 'brain' });
+      expect(node.kind).toBe(kind);
+    }
+  });
+
+  it('parses an optional degree on nodes', () => {
+    const withDegree = GraphNodeSchema.parse({
+      id: 'p:jeff',
+      label: 'Jeff Torres',
+      kind: 'person',
+      source: 'brain',
+      degree: 4,
+    });
+    expect(withDegree.degree).toBe(4);
+
+    const withoutDegree = GraphNodeSchema.parse({ id: 'n1', label: 'A', kind: 'note' });
+    expect(withoutDegree.degree).toBeUndefined();
+  });
+
+  it('rejects unknown node kinds', () => {
+    expect(() => GraphNodeSchema.parse({ id: 'x', label: 'X', kind: 'galaxy' })).toThrow();
+  });
+
+  it('parses brain link rels', () => {
+    for (const kind of [
+      'attended',
+      'mentioned_in',
+      'discussed_with',
+      'works_at',
+      'family_of',
+    ] as const) {
+      const link = GraphLinkSchema.parse({ source: 'p:jeff', target: 'e:party', kind });
+      expect(link.kind).toBe(kind);
+    }
+  });
+
+  it('rejects unknown link kinds', () => {
+    expect(() => GraphLinkSchema.parse({ source: 'a', target: 'b', kind: 'married_to' })).toThrow();
+  });
+
   it('parses an empty graph', () => {
     const g = GraphSchema.parse({
       nodes: [],

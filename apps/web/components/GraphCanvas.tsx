@@ -10,6 +10,11 @@ const GraphCanvasInner = dynamic(() => import('./GraphCanvasInner'), {
   ),
 });
 
-export function GraphCanvas(props: { graph: Graph; pilotEnabled: boolean }) {
+export function GraphCanvas(props: {
+  graph: Graph;
+  pilotEnabled: boolean;
+  width?: number;
+  height?: number;
+}) {
   return <GraphCanvasInner {...props} />;
 }

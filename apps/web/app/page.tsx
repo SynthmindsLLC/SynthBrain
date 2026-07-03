@@ -9,7 +9,7 @@ export const revalidate = 60;
 export default async function Home() {
   const graph = await getGraphData();
   return (
-    <main>
+    <main className="graph-viewport">
       <Suspense fallback={<div style={{ padding: 16 }}>Loading graph…</div>}>
         <GraphView initialGraph={graph} />
       </Suspense>
