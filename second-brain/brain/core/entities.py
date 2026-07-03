@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
+import threading
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
@@ -62,8 +63,13 @@ class Edge:
 
 class EntityStore:
     def __init__(self, db_path: str = "./entities.db") -> None:
-        self._db = sqlite3.connect(db_path)
+        # The FastAPI surface caches one store on app.state and serves sync
+        # endpoints from a threadpool, so the connection crosses threads.
+        # check_same_thread=False allows that; the RLock serializes access
+        # (re-entrant because neighbors() calls get_entity() internally).
+        self._db = sqlite3.connect(db_path, check_same_thread=False)
         self._db.row_factory = sqlite3.Row
+        self._lock = threading.RLock()
         self._init()
 
     def _init(self) -> None:
@@ -97,45 +103,49 @@ class EntityStore:
     def upsert_entity(self, e: Entity) -> str:
         """Merge-on-conflict: aliases/source_refs union, attributes overlay.
         Re-ingesting the same person enriches rather than clobbers."""
-        existing = self.get_entity(e.id)
-        if existing:
-            aliases = sorted(set(existing.aliases) | set(e.aliases))
-            source_refs = sorted(set(existing.source_refs) | set(e.source_refs))
-            attributes = {**existing.attributes, **e.attributes}
-        else:
-            aliases, source_refs, attributes = sorted(set(e.aliases)), e.source_refs, e.attributes
-        self._db.execute(
-            """INSERT INTO entities (id, kind, name, aliases, attributes, source_refs, created_at)
-               VALUES (?,?,?,?,?,?,?)
-               ON CONFLICT(id) DO UPDATE SET
-                 name=excluded.name, aliases=excluded.aliases,
-                 attributes=excluded.attributes, source_refs=excluded.source_refs""",
-            (e.id, e.kind, e.name, json.dumps(aliases), json.dumps(attributes),
-             json.dumps(source_refs), e.created_at.astimezone(timezone.utc).isoformat()),
-        )
-        self._db.commit()
+        with self._lock:
+            existing = self.get_entity(e.id)
+            if existing:
+                aliases = sorted(set(existing.aliases) | set(e.aliases))
+                source_refs = sorted(set(existing.source_refs) | set(e.source_refs))
+                attributes = {**existing.attributes, **e.attributes}
+            else:
+                aliases, source_refs, attributes = sorted(set(e.aliases)), e.source_refs, e.attributes
+            self._db.execute(
+                """INSERT INTO entities (id, kind, name, aliases, attributes, source_refs, created_at)
+                   VALUES (?,?,?,?,?,?,?)
+                   ON CONFLICT(id) DO UPDATE SET
+                     name=excluded.name, aliases=excluded.aliases,
+                     attributes=excluded.attributes, source_refs=excluded.source_refs""",
+                (e.id, e.kind, e.name, json.dumps(aliases), json.dumps(attributes),
+                 json.dumps(source_refs), e.created_at.astimezone(timezone.utc).isoformat()),
+            )
+            self._db.commit()
         return e.id
 
     def add_edge(self, edge: Edge) -> None:
-        self._db.execute(
-            """INSERT INTO edges (src, rel, dst, attributes) VALUES (?,?,?,?)
-               ON CONFLICT(src, rel, dst) DO UPDATE SET attributes=excluded.attributes""",
-            (edge.src, edge.rel, edge.dst, json.dumps(edge.attributes)),
-        )
-        self._db.commit()
+        with self._lock:
+            self._db.execute(
+                """INSERT INTO edges (src, rel, dst, attributes) VALUES (?,?,?,?)
+                   ON CONFLICT(src, rel, dst) DO UPDATE SET attributes=excluded.attributes""",
+                (edge.src, edge.rel, edge.dst, json.dumps(edge.attributes)),
+            )
+            self._db.commit()
 
     # --- reads ------------------------------------------------------------
     def get_entity(self, entity_id: str) -> Entity | None:
-        r = self._db.execute("SELECT * FROM entities WHERE id=?", (entity_id,)).fetchone()
+        with self._lock:
+            r = self._db.execute("SELECT * FROM entities WHERE id=?", (entity_id,)).fetchone()
         return self._row_to_entity(r) if r else None
 
     def find_by_name(self, name: str, kind: str | None = None) -> list[Entity]:
         """Exact (case-insensitive) match on name OR alias. This is the
         deterministic core that the future fuzzy resolve() will fall back on."""
-        rows = self._db.execute(
-            "SELECT * FROM entities" + (" WHERE kind=?" if kind else ""),
-            (kind,) if kind else (),
-        ).fetchall()
+        with self._lock:
+            rows = self._db.execute(
+                "SELECT * FROM entities" + (" WHERE kind=?" if kind else ""),
+                (kind,) if kind else (),
+            ).fetchall()
         low = name.lower()
         out = []
         for r in rows:
@@ -146,24 +156,27 @@ class EntityStore:
         return out
 
     def neighbors(self, entity_id: str, rel: str | None = None) -> list[tuple[Edge, Entity | None]]:
-        q = "SELECT * FROM edges WHERE src=?" + (" AND rel=?" if rel else "")
-        rows = self._db.execute(q, (entity_id, rel) if rel else (entity_id,)).fetchall()
-        out = []
-        for r in rows:
-            edge = Edge(src=r["src"], rel=r["rel"], dst=r["dst"], attributes=json.loads(r["attributes"]))
-            out.append((edge, self.get_entity(edge.dst)))
+        with self._lock:
+            q = "SELECT * FROM edges WHERE src=?" + (" AND rel=?" if rel else "")
+            rows = self._db.execute(q, (entity_id, rel) if rel else (entity_id,)).fetchall()
+            out = []
+            for r in rows:
+                edge = Edge(src=r["src"], rel=r["rel"], dst=r["dst"], attributes=json.loads(r["attributes"]))
+                out.append((edge, self.get_entity(edge.dst)))
         return out
 
     def all_entities(self, kind: str | None = None) -> list[Entity]:
-        rows = self._db.execute(
-            "SELECT * FROM entities" + (" WHERE kind=?" if kind else "") + " ORDER BY kind, name",
-            (kind,) if kind else (),
-        ).fetchall()
+        with self._lock:
+            rows = self._db.execute(
+                "SELECT * FROM entities" + (" WHERE kind=?" if kind else "") + " ORDER BY kind, name",
+                (kind,) if kind else (),
+            ).fetchall()
         return [self._row_to_entity(r) for r in rows]
 
     def counts(self) -> dict[str, int]:
-        ent = self._db.execute("SELECT COUNT(*) c FROM entities").fetchone()["c"]
-        edg = self._db.execute("SELECT COUNT(*) c FROM edges").fetchone()["c"]
+        with self._lock:
+            ent = self._db.execute("SELECT COUNT(*) c FROM entities").fetchone()["c"]
+            edg = self._db.execute("SELECT COUNT(*) c FROM edges").fetchone()["c"]
         return {"entities": ent, "edges": edg}
 
     @staticmethod

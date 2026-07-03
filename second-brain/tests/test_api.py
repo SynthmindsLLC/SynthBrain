@@ -133,6 +133,27 @@ def test_query_returns_scored_chunks(brain):
     assert "score" in body["results"][0]
 
 
+def test_query_rejects_invalid_layer(brain):
+    r = brain.post("/query", json={"text": "x", "layer": "bogus"})
+    assert r.status_code == 422
+
+
+def test_query_accepts_valid_layer(brain):
+    r = brain.post("/query", json={"text": "maritime", "layer": "artifact"})
+    assert r.status_code == 200
+
+
+def test_query_rejects_quotes_in_project(brain):
+    for bad in ("pb'tv", 'pb"tv', "') OR ('1'='1"):
+        r = brain.post("/query", json={"text": "x", "project": bad})
+        assert r.status_code == 422, bad
+
+
+def test_query_accepts_clean_project(brain):
+    r = brain.post("/query", json={"text": "maritime", "project": "pbtv"})
+    assert r.status_code == 200
+
+
 def test_graph_endpoint_emits_nodes_and_links(brain):
     r = brain.get("/graph")
     body = r.json()

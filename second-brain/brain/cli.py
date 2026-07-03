@@ -19,6 +19,7 @@ import sys
 from .adapters.calendar_adapter import CalendarAdapter
 from .adapters.chatgpt_adapter import ChatGPTAdapter
 from .adapters.claude_adapter import ClaudeAdapter
+from .adapters.claude_code_adapter import ClaudeCodeAdapter
 from .adapters.contacts_adapter import ContactsAdapter
 from .adapters.entity_base import ingest_entities
 from .adapters.fieldy_adapter import FieldyAdapter
@@ -31,19 +32,22 @@ from .core.dossier import dossier
 from .core.embed import get_embedder
 from .core.entities import EntityStore
 from .core.index import BrainIndex
-from .core.pipeline import ingest
+from .core.ledger import IngestLedger
+from .core.pipeline import IngestStats, ingest
 from .core.resolve import Status, resolve
 
 
-def _build_adapter(name: str, source: str, entdb: str):
+def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None = None):
     if name == "mem":
         return MemAdapter(source)
     if name == "fieldy":
         return FieldyAdapter(checkpoint_db=entdb)
     if name == "filesystem":
-        return FilesystemAdapter(source, checkpoint_db=entdb)
+        return FilesystemAdapter(source, checkpoint_db=entdb, exclude_patterns=exclude)
     if name == "claude":
         return ClaudeAdapter(source)
+    if name == "claude-code":
+        return ClaudeCodeAdapter(source, checkpoint_db=entdb, exclude=exclude)
     if name == "chatgpt":
         return ChatGPTAdapter(source)
     if name == "drive":
@@ -78,8 +82,8 @@ def _build_adapter(name: str, source: str, entdb: str):
     raise ValueError(f"unknown adapter {name!r}")
 
 
-ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "chatgpt", "drive",
-            "granola", "gmail", "imap", "imessage", "icloud-notes",
+ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "claude-code", "chatgpt",
+            "drive", "granola", "gmail", "imap", "imessage", "icloud-notes",
             "github", "m365", "slack")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
@@ -102,18 +106,102 @@ def _index(args: argparse.Namespace) -> BrainIndex:
     return BrainIndex(args.db, get_embedder(args.embedder))
 
 
+def _snapshot_checkpoints(entdb: str) -> dict[tuple[str, str], str]:
+    return {(r["adapter"], r["key"]): r["value"] for r in CheckpointStore(entdb).all()}
+
+
+def _restore_checkpoints(entdb: str, before: dict[tuple[str, str], str]) -> None:
+    """Undo any watermark movement a dry-run caused: adapters advance
+    checkpoints inside fetch(), so we snapshot before and roll back after."""
+    cp = CheckpointStore(entdb)
+    for r in cp.all():
+        k = (r["adapter"], r["key"])
+        if k not in before:
+            cp.clear(r["adapter"], r["key"])
+        elif r["value"] != before[k]:
+            cp.set(r["adapter"], before[k], key=r["key"])
+
+
+def _finish_ledger(
+    ledger: IngestLedger,
+    run_id: str,
+    status: str,
+    stats: IngestStats,
+    adapter,
+    extra_meta: dict | None = None,
+) -> None:
+    skip_report = getattr(adapter, "skip_report", None) or {}
+    skipped = sum(entry["count"] for entry in skip_report.values())
+    meta = dict(extra_meta or {})
+    if skip_report:
+        meta["skip_report"] = skip_report
+    ledger.finish(
+        run_id, status,
+        docs=stats.docs, chunks=stats.chunks, errors=stats.errors, skipped=skipped,
+        llm_classified=stats.llm_classified,
+        heuristic_classified=stats.heuristic_classified,
+        error_samples=stats.error_samples, meta=meta,
+    )
+
+
+def _print_dry_run_report(adapter_name: str, src: str, stats: IngestStats,
+                          skip_report: dict | None) -> None:
+    print(f"DRY RUN — {adapter_name} ({src}) — nothing written")
+    print(f"  docs seen:          {stats.docs}")
+    print(f"  chunks (would add): {stats.chunks}")
+    print(f"  errors:             {stats.errors}")
+    print(f"  classified:         llm={stats.llm_classified} "
+          f"heuristic={stats.heuristic_classified}")
+    for label, counts in (("layer", stats.by_layer), ("project", stats.by_project),
+                          ("source", stats.by_source)):
+        if counts:
+            joined = " ".join(f"{k}={v}" for k, v in sorted(counts.items()))
+            print(f"  by {label}: {joined}")
+    if skip_report:
+        print("  skipped:")
+        for reason, entry in sorted(skip_report.items()):
+            print(f"    {reason}: {entry['count']}")
+            for p in entry["samples"][:3]:
+                print(f"      - {p}")
+    for s in stats.error_samples:
+        print(f"  error sample: {s}")
+
+
 def cmd_ingest(args: argparse.Namespace) -> int:
     if args.adapter not in ADAPTERS:
         print(f"unknown adapter {args.adapter!r}; have: {', '.join(ADAPTERS)}", file=sys.stderr)
         return 2
-    adapter = _build_adapter(args.adapter, args.source, args.entdb)
+    adapter = _build_adapter(args.adapter, args.source, args.entdb, exclude=args.exclude)
     classify_fn = None
     if args.llm_classifier:
         from .core.synthesize import classify_layer_llm
         classify_fn = classify_layer_llm
-    n = ingest(_index(args), adapter.fetch(), classify_fn=classify_fn)
     src = args.source or f"<{args.adapter}>"
-    print(f"ingested {n} chunks from {args.adapter} ({src})")
+    ledger = IngestLedger(args.entdb)
+    run_id = ledger.start(args.adapter, src, meta={"dry_run": args.dry_run})
+    stats = IngestStats()
+    snapshot = _snapshot_checkpoints(args.entdb) if args.dry_run else None
+    try:
+        ingest(_index(args), adapter.fetch(), classify_fn=classify_fn,
+               dry_run=args.dry_run, stats=stats,
+               entity_store=EntityStore(args.entdb))
+    except Exception as exc:
+        _finish_ledger(ledger, run_id, "failed", stats, adapter,
+                       extra_meta={"dry_run": args.dry_run,
+                                   "exception": f"{type(exc).__name__}: {exc}"})
+        raise
+    finally:
+        if snapshot is not None:
+            _restore_checkpoints(args.entdb, snapshot)
+    _finish_ledger(ledger, run_id, "dry-run" if args.dry_run else "completed",
+                   stats, adapter, extra_meta={"dry_run": args.dry_run})
+    if args.dry_run:
+        _print_dry_run_report(args.adapter, src, stats,
+                              getattr(adapter, "skip_report", None))
+    else:
+        print(f"ingested {stats.chunks} chunks from {args.adapter} ({src})")
+        if stats.errors:
+            print(f"  {stats.errors} doc(s) errored — see ledger run {run_id}")
     return 0
 
 
@@ -139,6 +227,11 @@ def cmd_checkpoints(args: argparse.Namespace) -> int:
 
 
 def cmd_query(args: argparse.Namespace) -> int:
+    # Same boundary rule as the HTTP API: project is interpolated into the
+    # LanceDB filter, so quote characters are rejected, not escaped.
+    if args.project and ("'" in args.project or '"' in args.project):
+        print("project must not contain quote characters", file=sys.stderr)
+        return 2
     rows = _index(args).query(args.text, k=args.k, layer=args.layer, project=args.project)
     if not rows:
         print("no matches")
@@ -290,6 +383,13 @@ def main(argv: list[str] | None = None) -> int:
     pi.add_argument("--llm-classifier", action="store_true",
                     help="use Claude Haiku for pass-2 layer classification "
                          "(needs ANTHROPIC_API_KEY; falls back to heuristic per-chunk on error)")
+    pi.add_argument("--dry-run", action="store_true",
+                    help="full adapter+chunk+tag pass and preview report, but write "
+                         "nothing (checkpoints rolled back; ledger row status=dry-run)")
+    pi.add_argument("--exclude", action="append", default=[],
+                    help="skip files whose relative path matches this case-insensitive "
+                         "substring/glob; repeatable (filesystem + claude-code adapters; "
+                         "claude-code matches project dir names, additive to its defaults)")
     pi.set_defaults(func=cmd_ingest)
 
     pe = sub.add_parser("ingest-entities", help="ingest contacts/calendar into the graph")

@@ -10,11 +10,17 @@ from __future__ import annotations
 from typing import Any
 
 import lancedb
+import pyarrow as pa
 
 from .embed import Embedder
 from .schema import MemoryChunk, arrow_schema
 
 TABLE = "memory"
+
+# Embed calls batch so local models keep a bounded working set; the delete
+# filter chunks so a bulk upsert never builds a megabyte-long `id IN (...)`.
+EMBED_BATCH = 128
+DELETE_BATCH = 500
 
 
 class BrainIndex:
@@ -29,11 +35,16 @@ class BrainIndex:
     def add_chunks(self, chunks: list[MemoryChunk]) -> int:
         if not chunks:
             return 0
-        vectors = self._embedder.embed([c.text for c in chunks])
+        vectors: list[list[float]] = []
+        for i in range(0, len(chunks), EMBED_BATCH):
+            batch = chunks[i : i + EMBED_BATCH]
+            vectors.extend(self._embedder.embed([c.text for c in batch]))
         rows: list[dict[str, Any]] = [c.to_row(v) for c, v in zip(chunks, vectors)]
         # Idempotent upsert on the deterministic id: delete-then-add.
-        ids = "', '".join(r["id"] for r in rows)
-        self._table.delete(f"id IN ('{ids}')")
+        all_ids = [r["id"] for r in rows]
+        for i in range(0, len(all_ids), DELETE_BATCH):
+            ids = "', '".join(all_ids[i : i + DELETE_BATCH])
+            self._table.delete(f"id IN ('{ids}')")
         self._table.add(rows)
         return len(rows)
 
@@ -57,6 +68,12 @@ class BrainIndex:
 
     def count(self) -> int:
         return self._table.count_rows()
+
+    def scan(self, columns: list[str]) -> pa.Table:
+        """Full-table projection for analytics (stats breakdown, recent
+        chunks). Selecting only the named columns keeps the embeddings out
+        of the returned table."""
+        return self._table.to_arrow().select(columns)
 
 
 def _list_table_names(db) -> list[str]:

@@ -78,6 +78,9 @@ def test_checkpoint_persists_via_store():
         root = Path(d)
         cp_db = str(root / "e.db")
         (root / "a.md").write_text("a", encoding="utf-8")
-        list(FilesystemAdapter(str(root), checkpoint_db=cp_db).fetch())
+        adapter = FilesystemAdapter(str(root), checkpoint_db=cp_db)
+        list(adapter.fetch())
         cp = CheckpointStore(cp_db)
-        assert cp.get("filesystem") is not None
+        # Watermark key is namespaced per source dir (B7).
+        assert adapter.checkpoint_key.startswith("last_sync:")
+        assert cp.get("filesystem", adapter.checkpoint_key) is not None

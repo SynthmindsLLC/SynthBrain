@@ -6,23 +6,31 @@ The "past" wing of Phase 1. Points it at:
   - the local mirror of a Drive folder
 
 Idempotent: file hash determines source_id, so re-running on the same tree
-is a no-op upsert. Checkpoint stores the max mtime seen, so subsequent runs
-default to "files modified since last run" (override with --since).
+is a no-op upsert. Checkpoint stores the max mtime seen — keyed per source
+directory (hash of the resolved path) so two trees never share a watermark —
+and subsequent runs default to "files modified since last run" (--since
+overrides).
+
+Every skipped file is counted (and sampled, up to 20 paths per reason) in
+`skip_report` so bulk runs report what they left behind instead of silently
+dropping it. Reasons: excluded, oversize, unsupported_ext, extractor_missing,
+extractor_failed, empty.
 
 Extractors auto-load only if the relevant package is installed:
   .md, .txt, .markdown          -> always (built in)
   .docx                          -> needs `docx2txt`
   .pdf                            -> needs `pypdf`
-Missing extractors are skipped (logged), not fatal.
+Missing extractors are skipped (reported), not fatal.
 """
 
 from __future__ import annotations
 
+import fnmatch
 import hashlib
 import os
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Callable, Iterable
+from typing import Any, Callable, Iterable
 
 from ..core.checkpoint import CheckpointStore
 from ..core.pipeline import RawDoc
@@ -32,6 +40,12 @@ ADAPTER_NAME = "filesystem"
 DEFAULT_TEXT_EXTS = (".md", ".markdown", ".txt", ".text")
 SKIP_DIRS = frozenset({".git", "node_modules", ".venv", "venv", "__pycache__",
                        ".pytest_cache", "brain_index", ".next", "dist"})
+MAX_SKIP_SAMPLES = 20
+_GLOB_CHARS = ("*", "?", "[")
+
+
+class ExtractorMissing(Exception):
+    """Raised by an extractor whose optional dependency isn't installed."""
 
 
 class FilesystemAdapter(Adapter):
@@ -45,6 +59,7 @@ class FilesystemAdapter(Adapter):
         since: str | None = None,
         max_bytes: int = 10 * 1024 * 1024,
         extra_extractors: dict[str, Callable[[Path], str]] | None = None,
+        exclude_patterns: list[str] | None = None,
     ) -> None:
         self.source_dir = Path(source_dir).expanduser().resolve()
         if not self.source_dir.exists():
@@ -55,18 +70,31 @@ class FilesystemAdapter(Adapter):
         self.extractors: dict[str, Callable[[Path], str]] = dict(DEFAULT_EXTRACTORS)
         if extra_extractors:
             self.extractors.update(extra_extractors)
+        # Case-insensitive substrings or globs matched against the relative path.
+        self.exclude_patterns = [p.lower() for p in (exclude_patterns or [])]
+        # Namespace the watermark per source dir so two trees don't share one.
+        dir_hash = hashlib.sha1(str(self.source_dir).encode("utf-8")).hexdigest()[:12]
+        self.checkpoint_key = f"last_sync:{dir_hash}"
+        self.skip_report: dict[str, dict[str, Any]] = {}
 
     def fetch(self) -> Iterable[RawDoc]:
+        self.skip_report = {}
         cp = CheckpointStore(self.checkpoint_db) if self.checkpoint_db else None
-        watermark = self.since or (_parse_iso(cp.get(self.name)) if cp else None)
+        watermark = self.since or (
+            _parse_iso(cp.get(self.name, self.checkpoint_key)) if cp else None
+        )
         newest_seen: datetime | None = None
 
         for path in _walk(self.source_dir):
+            if self._is_excluded(path):
+                self._record_skip("excluded", path)
+                continue
             try:
                 stat = path.stat()
             except OSError:
                 continue
             if stat.st_size > self.max_bytes:
+                self._record_skip("oversize", path)
                 continue
             mtime = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
             if watermark and mtime <= watermark:
@@ -74,12 +102,18 @@ class FilesystemAdapter(Adapter):
             ext = path.suffix.lower()
             extractor = self.extractors.get(ext)
             if not extractor:
+                self._record_skip("unsupported_ext", path)
                 continue
             try:
                 text = extractor(path).strip()
+            except ExtractorMissing:
+                self._record_skip("extractor_missing", path)
+                continue
             except Exception:
+                self._record_skip("extractor_failed", path)
                 continue
             if not text:
+                self._record_skip("empty", path)
                 continue
             yield RawDoc(
                 text=text,
@@ -97,7 +131,25 @@ class FilesystemAdapter(Adapter):
                 newest_seen = mtime
 
         if cp and newest_seen:
-            cp.set(self.name, newest_seen.isoformat())
+            cp.set(self.name, newest_seen.isoformat(), key=self.checkpoint_key)
+
+    def _is_excluded(self, path: Path) -> bool:
+        if not self.exclude_patterns:
+            return False
+        rel = path.relative_to(self.source_dir).as_posix().lower()
+        for pat in self.exclude_patterns:
+            if any(ch in pat for ch in _GLOB_CHARS):
+                if fnmatch.fnmatch(rel, pat):
+                    return True
+            elif pat in rel:
+                return True
+        return False
+
+    def _record_skip(self, reason: str, path: Path) -> None:
+        entry = self.skip_report.setdefault(reason, {"count": 0, "samples": []})
+        entry["count"] += 1
+        if len(entry["samples"]) < MAX_SKIP_SAMPLES:
+            entry["samples"].append(str(path))
 
 
 def _walk(root: Path) -> Iterable[Path]:
@@ -139,16 +191,16 @@ def _read_text(path: Path) -> str:
 def _read_docx(path: Path) -> str:
     try:
         import docx2txt
-    except ImportError:
-        return ""
+    except ImportError as exc:
+        raise ExtractorMissing("docx2txt not installed") from exc
     return docx2txt.process(str(path)) or ""
 
 
 def _read_pdf(path: Path) -> str:
     try:
         from pypdf import PdfReader
-    except ImportError:
-        return ""
+    except ImportError as exc:
+        raise ExtractorMissing("pypdf not installed") from exc
     reader = PdfReader(str(path))
     pages = []
     for page in reader.pages:
