@@ -14,7 +14,7 @@ Granola, FieldyAI), and eventually ambient — normalizes it, tags it, indexes i
 and serves **rapid retrieval**. The end consumer is a pair of **Even Realities G2
 smart glasses** that surface recall on the lens based on what they hear.
 
-The **north-star use case** is the *person dossier*: mid-conversation the glasses
+The **north-star use case** is the _person dossier_: mid-conversation the glasses
 hear a name + a context cue ("Jeff" + "the party last fall") and pop a card —
 full name, work/family, where you met, what you discussed.
 
@@ -33,10 +33,10 @@ canonical.)
 
 ## Two stores, two jobs — do not conflate them
 
-| Store | Tech | Answers | Holds |
-|---|---|---|---|
-| **Vector index** | LanceDB (on disk) | "what's similar?" | text **chunks** |
-| **Entity graph** | SQLite | "who is this / what's connected?" | **entities + edges** |
+| Store            | Tech              | Answers                           | Holds                |
+| ---------------- | ----------------- | --------------------------------- | -------------------- |
+| **Vector index** | LanceDB (on disk) | "what's similar?"                 | text **chunks**      |
+| **Entity graph** | SQLite            | "who is this / what's connected?" | **entities + edges** |
 
 The dossier is a **graph JOIN** (resolve person → resolve event → find the
 conversation linking both), not a similarity search. That's why the graph store
@@ -97,14 +97,27 @@ sample_*           runnable demo data
 ## Run / test
 
 ```bash
-pip install -e .            # or: pip install -r requirements.txt
-pytest -q                   # 7 tests, offline
+# Python >=3.10 required; this Mac's system python is 3.9 — use the uv venv:
+uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -e ".[dev,docs,api,local]"
+.venv/bin/python -m pytest              # 201 tests, offline
 python -m brain.cli ingest --adapter mem --source ./sample_mem_export
 python -m brain.cli ingest-entities --kind contacts --source ./sample_contacts.vcf
 python -m brain.cli ingest-entities --kind calendar --source ./sample_calendar.ics
 python -m brain.cli who "Jeff Torres"
 python -m brain.cli query "why did we pick the enclosure?" --layer reasoning
+
+# Bulk historical ingest (wave 1) + dashboard:
+bash scripts/bulk_ingest.sh --dry-run   # preview, writes nothing
+bash scripts/bulk_ingest.sh             # canonical data -> data/brain_index + data/entities.db
+python -m brain.cli --db data/brain_index --entdb data/entities.db --embedder local serve
+pnpm --filter @synthbrain/web dev       # dashboard at localhost:3000/dashboard (set BRAIN_URL)
 ```
+
+> **Canonical data paths + embedder (2026-07-02):** real data lives at
+> `second-brain/data/brain_index` + `second-brain/data/entities.db`
+> (gitignored) and is embedded with `--embedder local`
+> (bge-small-en-v1.5, 384-dim). BrainIndex now refuses a mismatched
+> embedder dim. Never bulk-ingest on `fake`.
 
 ---
 
@@ -114,13 +127,19 @@ python -m brain.cli query "why did we pick the enclosure?" --layer reasoning
 (semantic/layer/project queries), header-aware chunking, pass-1 + pass-2
 tagging (heuristic + opt-in Claude Haiku), entity graph store, Mem adapter,
 Contacts (.vcf) + Calendar (.ics) adapters, **Fieldy + Filesystem + Claude
-+ ChatGPT + Drive + Granola chunk adapters**, **live Google Calendar +
-People entity adapters with syncToken**, **resolve() + dossier()** with
-noisy-OR scoring + HUD-budget enforcement, **FastAPI HTTP surface**
-(/resolve, /dossier, /who, /query, /graph), **salience layer** (tfidf +
-recency + entity + layer + context-overlap). **99 offline tests passing.**
+
+- ChatGPT + Drive + Granola chunk adapters**, **live Google Calendar +
+  People entity adapters with syncToken**, **resolve() + dossier()** with
+  noisy-OR scoring + HUD-budget enforcement, **FastAPI HTTP surface**
+  (/resolve, /dossier, /who, /query, /graph + **/stats/breakdown,
+  /ingest/runs, /chunks/recent**), **salience layer** (tfidf + recency +
+  entity + layer + context-overlap), **bulk-ingest hardening** (batching,
+  --dry-run, ingest_runs ledger, deferred checkpoint commit, per-doc error
+  isolation), **claude-code adapter**, **entity canonicalization at ingest**,
+  **/dashboard web surface**. **201 offline tests passing.**
 
 **Still ⬜ (in priority order):**
+
 1. M365 adapter — if still in use (OneDrive + Outlook calendar).
 2. Re-point apps/web at the Python brain — `lib/brain-http.ts` lands in
    this PR; UI surfaces (search bar, dossier card) come next.

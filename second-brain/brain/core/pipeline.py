@@ -117,27 +117,38 @@ def _classify(piece: str, classify_fn: ClassifyFn | None, counter: dict[str, int
         return classify_layer(piece)
 
 
-def _entity_tags(
-    piece: str,
-    entity_store: "EntityStore | None",
-    canon_cache: dict[str, list[str]],
-) -> list[str]:
+def _build_canon_map(entity_store: "EntityStore") -> dict[str, list[str]]:
+    """One pass over the (small) entity graph: lower(name|alias) -> entity ids.
+
+    Bulk corpora tag hundreds of thousands of mostly-unique capitalized
+    spans; a per-name find_by_name() store scan turned canonicalization into
+    the ingest bottleneck the moment the graph was seeded (observed: the
+    70k-chunk vault run crawling at <256 chunks/min). Entities don't change
+    mid-run, so one upfront load + O(1) dict lookups is both faster and
+    semantically identical (case-insensitive exact name/alias match)."""
+    canon: dict[str, list[str]] = {}
+    for e in entity_store.all_entities():
+        for label in (e.name, *e.aliases):
+            key = str(label).strip().lower()
+            if not key:
+                continue
+            ids = canon.setdefault(key, [])
+            if e.id not in ids:
+                ids.append(e.id)
+    return canon
+
+
+def _entity_tags(piece: str, canon: dict[str, list[str]] | None) -> list[str]:
     """B9: raw extracted names, plus any canonical graph ids they exact/alias
     match ('person:jeff-torres' style). Raw names are kept; ids are appended
-    and deduped. No store (or an empty one) means raw names only — unchanged
-    behavior. `canon_cache` memoizes name -> ids per ingest run so bulk runs
-    don't rescan the entities table for every repeated name."""
+    and deduped. No map (or an empty one) means raw names only — unchanged
+    behavior."""
     names = tag_entities(piece)
-    if entity_store is None:
+    if not canon:
         return names
     tags = list(names)
     for name in names:
-        key = name.lower()
-        ids = canon_cache.get(key)
-        if ids is None:
-            ids = [e.id for e in entity_store.find_by_name(name)]
-            canon_cache[key] = ids
-        for eid in ids:
+        for eid in canon.get(name.lower(), ()):
             if eid not in tags:
                 tags.append(eid)
     return tags
@@ -147,10 +158,8 @@ def _chunk_doc(
     doc: RawDoc,
     classify_fn: ClassifyFn | None,
     stats: IngestStats,
-    entity_store: "EntityStore | None" = None,
-    canon_cache: dict[str, list[str]] | None = None,
+    canon: dict[str, list[str]] | None = None,
 ) -> list[MemoryChunk]:
-    cache = canon_cache if canon_cache is not None else {}
     counter = {"llm": 0, "heuristic": 0}
     chunks = [
         MemoryChunk(
@@ -160,7 +169,7 @@ def _chunk_doc(
             url=doc.url,
             created_at=doc.created_at,
             project_tags=tag_project(piece),
-            entity_tags=_entity_tags(piece, entity_store, cache),
+            entity_tags=_entity_tags(piece, canon),
             layer=_classify(piece, classify_fn, counter),
             chunk_index=i,
         )
@@ -192,11 +201,13 @@ def ingest(
     graph (B9) — omitted or empty, entity_tags are unchanged.
     Returns the total chunk count either way."""
     st = stats if stats is not None else IngestStats()
-    canon_cache: dict[str, list[str]] = {}
+    # One upfront graph load instead of a store scan per unique name — see
+    # _build_canon_map for why (bulk-ingest bottleneck).
+    canon = _build_canon_map(entity_store) if entity_store is not None else None
     pending: list[MemoryChunk] = []
     for doc in docs:
         try:
-            doc_chunks = _chunk_doc(doc, classify_fn, st, entity_store, canon_cache)
+            doc_chunks = _chunk_doc(doc, classify_fn, st, canon)
         except Exception as exc:
             src = f"{getattr(doc, 'source', '?')}:{getattr(doc, 'source_id', '?')}"
             st.record_error(f"{src}: {type(exc).__name__}: {exc}")
