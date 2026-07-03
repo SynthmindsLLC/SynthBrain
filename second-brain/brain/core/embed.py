@@ -59,10 +59,16 @@ class OpenAIEmbedder:
 
 
 class LocalEmbedder:
-    def __init__(self, model: str = "BAAI/bge-small-en-v1.5") -> None:
+    def __init__(self, model: str = "BAAI/bge-small-en-v1.5",
+                 device: str | None = None) -> None:
         from sentence_transformers import SentenceTransformer  # lazy; optional
 
-        self._model = SentenceTransformer(model)
+        # BRAIN_LOCAL_DEVICE=cpu|mps overrides torch auto-detection. Measured
+        # on this Mac (2026-07-03): contended MPS embedded ~67 chunks/min
+        # (41s warmup, Metal shader churn across processes) — auto-picking
+        # mps is not always a win for bulk runs.
+        device = device or os.environ.get("BRAIN_LOCAL_DEVICE") or None
+        self._model = SentenceTransformer(model, device=device)
         self.dim = self._model.get_sentence_embedding_dimension()
 
     def embed(self, texts: list[str]) -> list[list[float]]:

@@ -41,18 +41,12 @@ if [ -z "$DRY" ]; then
   run_entities ingest-entities --kind calendar --source "$SB/data/exports/calendar/wes-synthminds.ics"
 fi
 
-# ---- 2. Chunk corpora (order: curated -> vaults -> transcripts -> loose docs)
+# ---- 2. Chunk corpora. Order: curated -> transcripts -> loose docs -> vaults,
+# SMALLEST LAST-MODIFIED FIRST and the 70k-chunk repo vault LAST — on this 8GB
+# machine the whale runs for a long while; everything else should land first
+# so the brain is broadly useful even if the whale is still churning.
 run ingest --adapter mem --source "$SB/data/exports/mem"
 run ingest --adapter granola --source "$SB/data/exports/granola"
-
-# Repo vault: the numbered wings + Mission Control + Workshop. Exclude the code
-# trees and second-brain/data (would re-ingest the mem/granola exports under
-# source=filesystem). SKIP_DIRS already drops .git/node_modules/.venv/dot-dirs.
-run ingest --adapter filesystem --source "/Users/wes_shields/Downloads/SynthBrain" \
-  --exclude "second-brain/*" --exclude "apps/*" --exclude "packages/*" \
-  --exclude "even-hub/*" --exclude "docs/plans/*"
-
-run ingest --adapter filesystem --source "/Users/wes_shields/Library/CloudStorage/GoogleDrive-wes@synthminds.ai/My Drive/Obsidian/2ndBrain"
 
 run ingest --adapter claude-code --source "/Users/wes_shields/.claude/projects"
 
@@ -66,9 +60,18 @@ PII_EXCLUDES=(--exclude "taxes" --exclude "1099" --exclude "w-9" --exclude "w-2 
 run ingest --adapter filesystem --source "/Users/wes_shields/Documents" "${PII_EXCLUDES[@]}"
 run ingest --adapter filesystem --source "/Users/wes_shields/Desktop" "${PII_EXCLUDES[@]}"
 
-# Loose Downloads docs: also exclude the SynthBrain clone (ingested above).
+# Loose Downloads docs: also exclude the SynthBrain clone (ingested below).
 run ingest --adapter filesystem --source "/Users/wes_shields/Downloads" \
   --exclude "SynthBrain/*" "${PII_EXCLUDES[@]}"
+
+run ingest --adapter filesystem --source "/Users/wes_shields/Library/CloudStorage/GoogleDrive-wes@synthminds.ai/My Drive/Obsidian/2ndBrain"
+
+# THE WHALE (~70k chunks) — last on purpose. Repo vault: numbered wings +
+# Mission Control + Workshop. Exclude the code trees and second-brain/data
+# (would re-ingest the mem/granola exports under source=filesystem).
+run ingest --adapter filesystem --source "/Users/wes_shields/Downloads/SynthBrain" \
+  --exclude "second-brain/*" --exclude "apps/*" --exclude "packages/*" \
+  --exclude "even-hub/*" --exclude "docs/plans/*"
 
 echo "=== DONE $(date '+%H:%M:%S') — stats:" | tee -a "$LOG"
 "$PY" -m brain.cli --db "$DB" --entdb "$ENTDB" stats | tee -a "$LOG"
