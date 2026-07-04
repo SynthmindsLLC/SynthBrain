@@ -21,6 +21,7 @@ const PALETTE: Record<string, string> = {
   reddit: '#ff8b60',
   instagram: '#f0abfc',
   zoom: '#93c5fd',
+  'browser-history': '#fde047',
 };
 
 export function colorForSource(source: string): string {

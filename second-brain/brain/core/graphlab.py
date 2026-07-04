@@ -250,6 +250,81 @@ def load_metrics(store: EntityStore) -> dict[str, dict[str, Any]]:
     }
 
 
+# --- split-identity candidates ---------------------------------------------------
+
+
+def _entity_emails(e) -> list[str]:
+    emails = [a for a in e.aliases if "@" in a]
+    emails += [x for x in (e.attributes.get("emails") or []) if "@" in str(x)]
+    if "@" in e.name:
+        emails.append(e.name)
+    return [x.lower() for x in dict.fromkeys(emails)]
+
+
+def _name_tokens(name: str) -> list[str]:
+    import re
+    return [t for t in re.split(r"[^a-z]+", name.lower()) if len(t) >= 3]
+
+
+def suggest_merges(store: EntityStore, *, kind: str = "person") -> list[dict[str, Any]]:
+    """Deterministic split-identity candidates, report-only (merging is a
+    human call via `brain merge-entities`). Two rules, strongest first:
+
+      shared-email   the same address appears on two entities — near-certain
+      name-in-email  one entity's name tokens appear in another's email
+                     local part ('wes'+'shields' in wes.shields@…) — strong
+                     when both first+last match, weak on first-name only
+
+    Probabilistic record linkage (Fellegi & Sunter 1969) is the literature
+    answer at scale; at a personal graph's size these two rules catch the
+    observed splits without false-positive risk worth modeling."""
+    ents = store.all_entities(kind=kind)
+    by_email: dict[str, list] = defaultdict(list)
+    for e in ents:
+        for em in _entity_emails(e):
+            by_email[em].append(e)
+
+    out: list[dict[str, Any]] = []
+    seen_pairs: set[tuple[str, str]] = set()
+
+    def add(a, b, confidence: str, reason: str) -> None:
+        key = tuple(sorted((a.id, b.id)))
+        if key in seen_pairs or a.id == b.id:
+            return
+        seen_pairs.add(key)
+        # Suggest folding the email-named identity into the human-named one.
+        named, other = (a, b) if "@" not in a.name else (b, a)
+        out.append({"keep": named.id, "merge": other.id,
+                     "keep_name": named.name, "merge_name": other.name,
+                     "confidence": confidence, "reason": reason})
+
+    for em, group in by_email.items():
+        for i in range(len(group)):
+            for j in range(i + 1, len(group)):
+                add(group[i], group[j], "strong", f"shared email {em}")
+
+    named = [e for e in ents if "@" not in e.name and _name_tokens(e.name)]
+    for e in ents:
+        for em in _entity_emails(e):
+            local = em.split("@", 1)[0]
+            local_tokens = set(_name_tokens(local.replace(".", " ")
+                                            .replace("_", " ").replace("-", " ")))
+            if not local_tokens:
+                continue
+            for n in named:
+                if n.id == e.id:
+                    continue
+                toks = _name_tokens(n.name)
+                hits = [t for t in toks if any(t in lt or lt in t for lt in local_tokens)]
+                if len(hits) >= 2:
+                    add(n, e, "strong", f"name tokens {hits} match email {em}")
+                elif len(toks) >= 1 and toks[0] in local_tokens and len(local_tokens) == 1:
+                    add(n, e, "weak", f"first name '{toks[0]}' is email local part {em}")
+    strength = {"strong": 0, "weak": 1}
+    out.sort(key=lambda s: (strength[s["confidence"]], s["keep"]))
+    return out
+
+
 # --- ego networks --------------------------------------------------------------
 
 

@@ -181,6 +181,61 @@ def _chunk_doc(
     return chunks
 
 
+def _emit_entities(doc: RawDoc, store: "EntityStore") -> None:
+    """Meta -> graph. Adapters that know who was involved declare it in
+    RawDoc.meta: an `attendees` name list and/or a `from`/`sender` string.
+    Meeting-shaped docs (title + attendees) become an Event node with
+    `attended` edges — the same shape the calendar adapter emits — so
+    conversational sources (granola, emails, future zoom/teams) grow the
+    dossier graph instead of only the chunk index. Upserts are
+    merge-on-conflict, so repeat ingests are idempotent. Entities created
+    here become canonicalization targets on the NEXT run (the canon map is
+    built once per run)."""
+    from email.utils import parseaddr
+
+    from .entities import Edge, Entity
+
+    meta = doc.meta or {}
+    ref = f"{doc.source}:{doc.source_id}"
+    people: list[Entity] = []
+    for raw in meta.get("attendees") or []:
+        name = str(raw).strip()
+        if name:
+            people.append(Entity(kind="person", name=name, source_refs=[ref]))
+    for key in ("from", "sender"):
+        raw = str(meta.get(key) or "").strip()
+        if not raw:
+            continue
+        display, email = parseaddr(raw)
+        name = (display or email or raw).strip()
+        if not name:
+            continue
+        people.append(Entity(
+            kind="person", name=name,
+            aliases=[email] if email and email != name else [],
+            attributes={"emails": [email]} if email else {},
+            source_refs=[ref],
+        ))
+    if not people:
+        return
+
+    event: Entity | None = None
+    title = str(meta.get("title") or "").strip()
+    if title and meta.get("attendees"):
+        event = Entity(
+            kind="event", name=title,
+            attributes={"date": doc.created_at.astimezone(timezone.utc).isoformat(),
+                        "source": doc.source},
+            source_refs=[ref],
+        )
+        store.upsert_entity(event)
+    for p in people:
+        store.upsert_entity(p)
+        if event is not None:
+            store.add_edge(Edge(src=p.id, rel="attended", dst=event.id,
+                                attributes={"via": doc.source}))
+
+
 def ingest(
     index: BrainIndex,
     docs: Iterable[RawDoc],
@@ -213,6 +268,13 @@ def ingest(
             st.record_error(f"{src}: {type(exc).__name__}: {exc}")
             continue
         st.docs += 1
+        if entity_store is not None and not dry_run:
+            try:
+                _emit_entities(doc, entity_store)
+            except Exception as exc:
+                # A failed graph emit must not void the doc's chunks.
+                src = f"{getattr(doc, 'source', '?')}:{getattr(doc, 'source_id', '?')}"
+                st.record_error(f"{src}: entity-emit {type(exc).__name__}: {exc}")
         for c in doc_chunks:
             st.chunks += 1
             st.by_layer[c.layer] = st.by_layer.get(c.layer, 0) + 1

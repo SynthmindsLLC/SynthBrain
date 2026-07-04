@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added — 2026-07-04 enrichment: history, entity emission, identity merges
+
+- **`browser-history` adapter**: Chrome visit history (copy-then-read, all
+  profiles) as daily digest chunks — the promnesia insight; search queries
+  kept, chrome://\_/localhost/auth noise filtered; current day deferred.
+  Live: 1,692 day-digests ingested.
+- **Meta→entity emission** in the pipeline: adapters that declare
+  `attendees`/`from` in RawDoc.meta grow the GRAPH, not just the index —
+  meeting-shaped docs become Event nodes + attended edges (calendar-adapter
+  shape). Live: Granola re-ingest created Person/Event nodes from meeting
+  metadata.
+- **Split-identity tooling**: `EntityStore.merge_entities` (alias/attribute/
+  edge-repoint fold) + `brain merge-entities` + `brain suggest-merges`
+  (shared-email and name-in-email heuristics; Fellegi–Sunter noted as the
+  at-scale alternative). Live: 9 merges applied — Wes existed as FIVE nodes
+  (civilian/synthminds/gmail/qwoted/Navy LCDR), now one canonical entity.
+- **`--since`** on `ingest`: watermark override without touching checkpoints.
+- `docs/WES-TODO.md`: standing list of user-action unlocks.
+  Tests 235 → 245.
+
 ### Added — 2026-07-04 social + meeting connectors
 
 - **`reddit` adapter**: saved posts via the account's sanctioned private RSS

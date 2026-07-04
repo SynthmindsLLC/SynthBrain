@@ -184,6 +184,58 @@ class EntityStore:
             edg = self._db.execute("SELECT COUNT(*) c FROM edges").fetchone()["c"]
         return {"entities": ent, "edges": edg}
 
+    def merge_entities(self, src_id: str, dst_id: str) -> Entity:
+        """Fold `src_id` into `dst_id`: dst keeps its name; gains src's name
+        + aliases as aliases, missing attributes, and source_refs; every edge
+        is repointed (PK collisions collapse — the relationship already
+        existed under both identities). src is deleted, along with any stale
+        graph_metrics row. The cure for split identities like 'Wes Shields'
+        vs the wes@ email node."""
+        if src_id == dst_id:
+            raise ValueError("cannot merge an entity into itself")
+        src = self.get_entity(src_id)
+        dst = self.get_entity(dst_id)
+        if src is None or dst is None:
+            missing = src_id if src is None else dst_id
+            raise KeyError(f"entity not found: {missing}")
+
+        aliases = list(dict.fromkeys([*dst.aliases, src.name, *src.aliases]))
+        aliases = [a for a in aliases if a and a != dst.name]
+        attributes = {**src.attributes, **dst.attributes}  # dst wins conflicts
+        # emails union rather than overwrite — both identities may carry some.
+        emails = list(dict.fromkeys(
+            [*(src.attributes.get("emails") or []), *(dst.attributes.get("emails") or [])]
+        ))
+        if emails:
+            attributes["emails"] = emails
+        source_refs = list(dict.fromkeys([*dst.source_refs, *src.source_refs]))
+
+        with self._lock:
+            self._db.execute(
+                "UPDATE entities SET aliases=?, attributes=?, source_refs=? WHERE id=?",
+                (json.dumps(aliases), json.dumps(attributes),
+                 json.dumps(source_refs), dst_id),
+            )
+            for col in ("src", "dst"):
+                # OR IGNORE collapses duplicates onto existing dst edges…
+                self._db.execute(
+                    f"UPDATE OR IGNORE edges SET {col}=? WHERE {col}=?",
+                    (dst_id, src_id),
+                )
+                # …then drop whatever couldn't move (the duplicates).
+                self._db.execute(f"DELETE FROM edges WHERE {col}=?", (src_id,))
+            # Self-loops created by merging two directly-linked identities.
+            self._db.execute("DELETE FROM edges WHERE src = dst")
+            self._db.execute("DELETE FROM entities WHERE id=?", (src_id,))
+            try:
+                self._db.execute("DELETE FROM graph_metrics WHERE entity_id=?", (src_id,))
+            except sqlite3.OperationalError:
+                pass  # metrics table may not exist yet
+            self._db.commit()
+        merged = self.get_entity(dst_id)
+        assert merged is not None
+        return merged
+
     @staticmethod
     def _row_to_entity(r: sqlite3.Row) -> Entity:
         return Entity(

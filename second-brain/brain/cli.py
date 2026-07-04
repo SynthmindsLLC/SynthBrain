@@ -38,17 +38,18 @@ from .core.pipeline import IngestStats, ingest
 from .core.resolve import Status, resolve
 
 
-def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None = None):
+def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None = None,
+                   since: str | None = None):
     if name == "mem":
         return MemAdapter(source)
     if name == "fieldy":
         return FieldyAdapter(checkpoint_db=entdb)
     if name == "filesystem":
-        return FilesystemAdapter(source, checkpoint_db=entdb, exclude_patterns=exclude)
+        return FilesystemAdapter(source, checkpoint_db=entdb, exclude_patterns=exclude, since=since)
     if name == "claude":
         return ClaudeAdapter(source)
     if name == "claude-code":
-        return ClaudeCodeAdapter(source, checkpoint_db=entdb, exclude=exclude)
+        return ClaudeCodeAdapter(source, checkpoint_db=entdb, exclude=exclude, since=since)
     if name == "chatgpt":
         return ChatGPTAdapter(source)
     if name == "drive":
@@ -56,7 +57,7 @@ def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None
         return DriveAdapter(checkpoint_db=entdb, folder_id=source or None)
     if name == "granola":
         from .adapters.granola_adapter import GranolaAdapter
-        return GranolaAdapter(source, checkpoint_db=entdb)
+        return GranolaAdapter(source, checkpoint_db=entdb, since=since)
     if name == "gmail":
         from .adapters.gmail_adapter import GmailAdapter
         return GmailAdapter(checkpoint_db=entdb, entdb=entdb)
@@ -85,26 +86,29 @@ def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None
         return InboxAdapter(source or os.environ.get("BRAIN_INBOX_DIR", ""))
     if name == "agentmail":
         from .adapters.agentmail_adapter import AgentMailAdapter
-        return AgentMailAdapter(source, checkpoint_db=entdb)
+        return AgentMailAdapter(source, checkpoint_db=entdb, since=since)
     if name == "bookmarks":
         from .adapters.bookmarks_adapter import BookmarksAdapter
-        return BookmarksAdapter(source, checkpoint_db=entdb)
+        return BookmarksAdapter(source, checkpoint_db=entdb, since=since)
     if name == "reddit":
         from .adapters.reddit_adapter import RedditAdapter
-        return RedditAdapter(source, checkpoint_db=entdb)
+        return RedditAdapter(source, checkpoint_db=entdb, since=since)
     if name == "instagram":
         from .adapters.instagram_adapter import InstagramAdapter
         return InstagramAdapter(source)
     if name == "zoom":
         from .adapters.zoom_adapter import ZoomAdapter
-        return ZoomAdapter(source, checkpoint_db=entdb)
+        return ZoomAdapter(source, checkpoint_db=entdb, since=since)
+    if name == "browser-history":
+        from .adapters.browser_history_adapter import BrowserHistoryAdapter
+        return BrowserHistoryAdapter(source, checkpoint_db=entdb, since=since)
     raise ValueError(f"unknown adapter {name!r}")
 
 
 ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "claude-code", "chatgpt",
             "drive", "granola", "gmail", "imap", "imessage", "icloud-notes",
             "github", "m365", "slack", "inbox", "agentmail", "bookmarks",
-            "reddit", "instagram", "zoom")
+            "reddit", "instagram", "zoom", "browser-history")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 
@@ -223,7 +227,8 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     stats = IngestStats()
     try:
         adapter = _build_adapter(args.adapter, args.source, args.entdb,
-                                 exclude=args.exclude)
+                                 exclude=args.exclude,
+                                 since=getattr(args, "since", None))
     except Exception as exc:
         _finish_ledger(ledger, run_id, "failed", stats, None,
                        extra_meta={"dry_run": args.dry_run,
@@ -302,6 +307,32 @@ def cmd_graph_metrics(args: argparse.Namespace) -> int:
             print(f"top {label}:")
             for r in rows:
                 print(f"  {r[label]:.4f}  {r['name']}  ({r['id']})")
+    return 0
+
+
+def cmd_merge_entities(args: argparse.Namespace) -> int:
+    """Fold one entity into another (aliases/attributes/refs union, edges
+    repointed). The split-identity fix — see also `suggest-merges`."""
+    store = EntityStore(args.entdb)
+    merged = store.merge_entities(args.merge, args.keep)
+    print(f"merged {args.merge} -> {merged.id}")
+    print(f"  name:    {merged.name}")
+    print(f"  aliases: {', '.join(merged.aliases) or '(none)'}")
+    return 0
+
+
+def cmd_suggest_merges(args: argparse.Namespace) -> int:
+    from .core.graphlab import suggest_merges
+
+    suggestions = suggest_merges(EntityStore(args.entdb), kind=args.kind)
+    if not suggestions:
+        print("no merge candidates found")
+        return 0
+    for s in suggestions:
+        print(f"[{s['confidence']:6s}] keep {s['keep']}  ({s['keep_name']})")
+        print(f"         merge {s['merge']}  ({s['merge_name']})")
+        print(f"         why: {s['reason']}")
+        print(f"         run: brain merge-entities --keep {s['keep']} --merge {s['merge']}")
     return 0
 
 
@@ -538,6 +569,9 @@ def main(argv: list[str] | None = None) -> int:
     pi.add_argument("--llm-classifier", action="store_true",
                     help="use Claude Haiku for pass-2 layer classification "
                          "(needs ANTHROPIC_API_KEY; falls back to heuristic per-chunk on error)")
+    pi.add_argument("--since", default=None,
+                    help="override the stored watermark (ISO timestamp) — "
+                         "re-ingest history without clearing checkpoints")
     pi.add_argument("--dry-run", action="store_true",
                     help="full adapter+chunk+tag pass and preview report, but write "
                          "nothing (checkpoints rolled back; ledger row status=dry-run)")
@@ -596,6 +630,17 @@ def main(argv: list[str] | None = None) -> int:
     psv.add_argument("--port", type=int, default=8088)
     psv.add_argument("--reload", action="store_true")
     psv.set_defaults(func=cmd_serve)
+
+    pme = sub.add_parser("merge-entities",
+                         help="fold a split identity into its canonical entity")
+    pme.add_argument("--keep", required=True, help="canonical entity id (kept)")
+    pme.add_argument("--merge", required=True, help="entity id folded in (deleted)")
+    pme.set_defaults(func=cmd_merge_entities)
+
+    psm = sub.add_parser("suggest-merges",
+                         help="report split-identity merge candidates")
+    psm.add_argument("--kind", default="person")
+    psm.set_defaults(func=cmd_suggest_merges)
 
     pgm = sub.add_parser(
         "graph-metrics",
