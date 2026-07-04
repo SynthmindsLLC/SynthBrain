@@ -90,9 +90,9 @@ class M365Adapter(Adapter):
         llm_tiebreaker: bool = True,
     ) -> None:
         kind = (source or "mail").lower().strip()
-        if kind not in ("mail", "calendar"):
+        if kind not in ("mail", "calendar", "teams"):
             raise ValueError(
-                f"m365 source must be 'mail' or 'calendar', got {source!r}"
+                f"m365 source must be 'mail', 'calendar' or 'teams', got {source!r}"
             )
         self.kind = kind
         self.tenant_id = tenant_id or os.environ.get("MS_TENANT_ID", DEFAULT_TENANT)
@@ -111,6 +111,11 @@ class M365Adapter(Adapter):
         self.page_size = max(1, min(page_size, 100))
         self.llm_tiebreaker = llm_tiebreaker
         self._access_token: str | None = None
+        # Teams watermarks are recorded during fetch and committed only via
+        # commit_checkpoint() after a clean run — the filesystem/claude-code
+        # tail-flush lesson. (mail/calendar keep their pre-existing in-fetch
+        # delta-link behavior.)
+        self._pending_teams_marks: dict[str, str] = {}
 
     def fetch(self) -> Iterable[RawDoc]:
         self._access_token = self._mint_access_token()
@@ -122,8 +127,107 @@ class M365Adapter(Adapter):
                 if self.entdb else set()
             )
             yield from self._fetch_mail(cp, allow)
+        elif self.kind == "teams":
+            yield from self._fetch_teams(cp)
         else:
             yield from self._fetch_calendar(cp)
+
+    def commit_checkpoint(self) -> None:
+        if self.checkpoint_db and self._pending_teams_marks:
+            cp = CheckpointStore(self.checkpoint_db)
+            for key, value in self._pending_teams_marks.items():
+                cp.set(self.name, value, key=key)
+            self._pending_teams_marks = {}
+
+    # ---- teams --------------------------------------------------------
+
+    def _fetch_teams(self, cp: CheckpointStore | None) -> Iterable[RawDoc]:
+        """Teams 1:1 and group chats via Graph /me/chats (+Chat.Read scope).
+        One RawDoc per chat per batch of NEW messages; source_id keys on the
+        newest message id so incremental runs never collide (the
+        imessage/slack group-index lesson). Channel messages need admin
+        consent scopes and are out of scope for a personal token."""
+        self._pending_teams_marks = {}
+        chats: list[dict] = []
+        url: str | None = f"{GRAPH}/me/chats"
+        params: dict = {"$top": str(self.page_size), "$expand": "members"}
+        while url:
+            payload = self._get_url(url, params)
+            params = {}
+            chats.extend(v for v in payload.get("value", []) if isinstance(v, dict))
+            url = payload.get("@odata.nextLink")
+
+        emitted = 0
+        for chat in chats:
+            chat_id = chat.get("id")
+            if not chat_id:
+                continue
+            wm_key = f"teams_chat:{chat_id}"
+            watermark = cp.get(self.name, key=wm_key) if cp else None
+
+            msgs: list[dict] = []
+            murl: str | None = f"{GRAPH}/me/chats/{chat_id}/messages"
+            mparams: dict = {"$top": "50"}
+            while murl:
+                payload = self._get_url(murl, mparams)
+                mparams = {}
+                batch = [v for v in payload.get("value", []) if isinstance(v, dict)]
+                msgs.extend(batch)
+                # Messages page newest-first: stop once a page crosses the
+                # watermark instead of walking years of history.
+                if watermark and any(
+                    (m.get("createdDateTime") or "") <= watermark for m in batch
+                ):
+                    break
+                murl = payload.get("@odata.nextLink")
+
+            fresh = [
+                m for m in msgs
+                if (m.get("createdDateTime") or "") > (watermark or "")
+                and (m.get("messageType") or "message") == "message"
+            ]
+            if not fresh:
+                continue
+            fresh.sort(key=lambda m: m.get("createdDateTime") or "")
+
+            lines: list[str] = []
+            for m in fresh:
+                sender = (((m.get("from") or {}).get("user") or {})
+                          .get("displayName")) or "unknown"
+                body = m.get("body") or {}
+                text = str(body.get("content") or "")
+                if (body.get("contentType") or "").lower() == "html":
+                    text = _html_to_text(text)
+                text = text.strip()
+                if text:
+                    lines.append(f"**{sender}:** {text}")
+            newest = fresh[-1]
+            newest_ts = newest.get("createdDateTime") or ""
+            if not lines:
+                # All-system batch: advance the mark so it isn't refetched.
+                if newest_ts:
+                    self._pending_teams_marks[wm_key] = newest_ts
+                continue
+
+            topic = (chat.get("topic") or ", ".join(
+                str(mm.get("displayName") or "")
+                for mm in (chat.get("members") or [])[:4]
+                if isinstance(mm, dict) and mm.get("displayName")
+            ) or chat_id)
+            yield RawDoc(
+                text=f"# Teams: {topic}\n\n" + "\n\n".join(lines),
+                source=self.name,
+                source_id=f"teams:{chat_id}:{newest.get('id') or newest_ts}",
+                url=str(chat.get("webUrl") or ""),
+                created_at=_parse_iso(newest_ts) or datetime.now(tz=timezone.utc),
+                meta={"kind": "teams", "chat_id": chat_id, "topic": topic,
+                       "messages": len(lines)},
+            )
+            if newest_ts:
+                self._pending_teams_marks[wm_key] = newest_ts
+            emitted += 1
+            if self.max_items and emitted >= self.max_items:
+                return
 
     # ---- mail ---------------------------------------------------------
 

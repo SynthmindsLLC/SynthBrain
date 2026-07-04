@@ -32,6 +32,11 @@
          email polling (drop-folder intake still works). -->
     <key>AGENTMAIL_API_KEY</key>
     <string></string>
+    <!-- Private saved-links feed from old.reddit.com/prefs/feeds — already
+         captured in second-brain/.env.local; copy it here for launchd.
+         Leave empty to disable Reddit polling. -->
+    <key>REDDIT_FEED_URL</key>
+    <string></string>
   </dict>
 
   <key>RunAtLoad</key>

@@ -18,6 +18,9 @@ const PALETTE: Record<string, string> = {
   inbox: '#5eead4',
   agentmail: '#fda4af',
   bookmarks: '#c4b5fd',
+  reddit: '#ff8b60',
+  instagram: '#f0abfc',
+  zoom: '#93c5fd',
 };
 
 export function colorForSource(source: string): string {

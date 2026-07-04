@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added — 2026-07-04 social + meeting connectors
+
+- **`reddit` adapter**: saved posts via the account's sanctioned private RSS
+  feed (no API approval needed post-2025-policy); polled by the watch daemon
+  (`REDDIT_FEED_URL`); defusedxml-hardened parsing. Live-tested: 53 chunks
+  from real saved posts.
+- **`instagram` adapter**: official Meta data export (JSON) — saved posts,
+  own posts, stories, likes; handles export-shape drift + latin-1 mojibake.
+- **`zoom` adapter**: Server-to-Server OAuth; cloud-recording transcripts
+  (VTT → speaker text, rolling-caption dedupe) with in-meeting-chat
+  fallback; month-window walk with boundary dedupe.
+- **m365 `teams` mode**: Graph /me/chats messages as speaker-rendered
+  chunks; per-chat deferred watermarks (tail-flush-safe).
+- Connector research doc (HPI/khoj/screenpipe survey + future shortlist).
+  Tests 224 → 235.
+
 ### Added — 2026-07-03 network-science layer + bookmarks intake
 
 - **`bookmarks` adapter**: Chrome/Brave/Edge `Bookmarks` JSON read directly

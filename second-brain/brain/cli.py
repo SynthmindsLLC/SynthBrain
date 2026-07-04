@@ -89,12 +89,22 @@ def _build_adapter(name: str, source: str, entdb: str, exclude: list[str] | None
     if name == "bookmarks":
         from .adapters.bookmarks_adapter import BookmarksAdapter
         return BookmarksAdapter(source, checkpoint_db=entdb)
+    if name == "reddit":
+        from .adapters.reddit_adapter import RedditAdapter
+        return RedditAdapter(source, checkpoint_db=entdb)
+    if name == "instagram":
+        from .adapters.instagram_adapter import InstagramAdapter
+        return InstagramAdapter(source)
+    if name == "zoom":
+        from .adapters.zoom_adapter import ZoomAdapter
+        return ZoomAdapter(source, checkpoint_db=entdb)
     raise ValueError(f"unknown adapter {name!r}")
 
 
 ADAPTERS = ("mem", "fieldy", "filesystem", "claude", "claude-code", "chatgpt",
             "drive", "granola", "gmail", "imap", "imessage", "icloud-notes",
-            "github", "m365", "slack", "inbox", "agentmail", "bookmarks")
+            "github", "m365", "slack", "inbox", "agentmail", "bookmarks",
+            "reddit", "instagram", "zoom")
 ENTITY_ADAPTERS = {"contacts": ContactsAdapter, "calendar": CalendarAdapter}
 LIVE_ENTITY_ADAPTERS = ("gcal-live", "people-live")
 
@@ -307,9 +317,11 @@ def cmd_watch(args: argparse.Namespace) -> int:
     inbox_dir = args.source or os.environ.get("BRAIN_INBOX_DIR", "") or DEFAULT_INBOX_DIR
     Path(inbox_dir).expanduser().mkdir(parents=True, exist_ok=True)
     mail_on = bool(os.environ.get("AGENTMAIL_API_KEY"))
+    reddit_on = bool(os.environ.get("REDDIT_FEED_URL"))
     interval = max(10, args.interval)
     print(f"watching {inbox_dir} every {interval}s | agentmail "
-          f"{'every ' + str(args.mail_every) + ' cycles' if mail_on else 'OFF (no AGENTMAIL_API_KEY)'}",
+          f"{'every ' + str(args.mail_every) + ' cycles' if mail_on else 'OFF (no AGENTMAIL_API_KEY)'}"
+          f" | reddit {'every ' + str(args.mail_every) + ' cycles' if reddit_on else 'OFF (no REDDIT_FEED_URL)'}",
           flush=True)
 
     cycle = 0
@@ -323,6 +335,8 @@ def cmd_watch(args: argparse.Namespace) -> int:
             print(f"[watch] {exc}", flush=True)
         if mail_on and cycle % args.mail_every == 1 % args.mail_every:
             targets.append(("agentmail", args.mail_inbox))
+        if reddit_on and cycle % args.mail_every == 1 % args.mail_every:
+            targets.append(("reddit", ""))
         for adapter_name, source in targets:
             ns = argparse.Namespace(**vars(args))
             ns.adapter = adapter_name

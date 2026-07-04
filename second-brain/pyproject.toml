@@ -8,6 +8,7 @@ dependencies = [
     "pyarrow>=15,<18",   # pyarrow 18+ triggers a LanceDB native teardown segfault (lancedb 0.32)
     "vobject>=0.9",      # vCard (.vcf) parsing
     "icalendar>=5.0",    # iCalendar (.ics) parsing
+    "defusedxml>=0.7,<1",  # hardened XML parsing for network feeds (reddit RSS)
 ]
 
 [project.optional-dependencies]
